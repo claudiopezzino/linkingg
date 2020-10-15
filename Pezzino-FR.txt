@@ -1,0 +1,5 @@
+1.   The system shall provide the compiling of a questionnaire to decide meeting points suitable for the users’ needs, to this end the answers to these questions are multiple-choice or open, and to discover these needs the questions have the scope to capture: favorite area, type of meeting, type of vehicle available, number of people, other details that allow better filtering.
+
+2.   The system shall provide a share mode of geolocated meeting points available to every type of user after it has taken part in the questionnaire for choosing these in order to make known them to all the users present in its group and this sharing takes place on the group map.
+
+3.   The system shall provide a schedule mode of geolocated meeting points, for the groups owners, inside the groups’ maps.

@@ -1,0 +1,5 @@
+1.   As a user, I want to create groups chat, so that I can invite people to join them and enjoy meetings altogether.
+
+2.   As a group member, I want to propose a geolocated meeting point with my group, recommended by the system according to the needs of the moment, so that I can suggest a reunion in that place to all the members.
+
+3.   As a group owner, I want to schedule a meeting point among those suggested by my group members and notify the group itself about the choice, so that I can enjoy a reunion with them.

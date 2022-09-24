@@ -1,0 +1,22 @@
+.page-title{
+    -fx-font-size: 50px;
+    -fx-text-alignment: center;
+}
+
+.title-container{
+    -fx-alignment: center;
+}
+
+/*-----------------------------*/
+/*-----------------------------*/
+
+.text-field{
+    -fx-font-size: 20px;
+    -fx-pref-width: 50em;
+}
+
+.text-area{
+    -fx-pref-height: 40em;
+    -fx-max-height: 500px;
+    -fx-font-size: 20px;
+}

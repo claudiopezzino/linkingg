@@ -1,0 +1,52 @@
+package view.graphicalui.first;
+
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+import static view.graphicalui.first.Page.*;
+
+
+public class FirstMain extends Application {
+
+    ///////////////////////////
+    private static Scene scene;
+    ///////////////////////////
+
+
+    ////////////////////////////////////////////////////////////////////
+    public static void main(String[] args){
+        Application.launch(args);
+    }
+    ////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////
+    @Override
+    public void init(){
+        setCurrScene(new Scene(Container.getRoot(WELCOME_PAGE)));
+        scene.getStylesheets().add("FirstMainFX.css");
+    }
+    /////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////
+    @Override
+    public void start(Stage stage) {
+        stage.setScene(scene);
+        stage.setResizable(false);
+        stage.show();
+    }
+    ///////////////////////////////////
+
+    /////////////////////////////////////////////////////
+    public static Scene getCurrScene(){
+        return scene;
+    }
+    /////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////
+    public static void setCurrScene(Scene currScene){
+        scene = currScene;
+    }
+    ////////////////////////////////////////////////////////////////////////
+
+}

@@ -1,0 +1,198 @@
+.hbox{
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+}
+
+.vbox{
+    -fx-spacing: 40px;
+    -fx-padding: 20px;
+}
+
+.image-container{
+    -fx-spacing: 20px;
+}
+
+.button-sign{
+    -fx-background-color: #4682B4;
+    -fx-border-width: 3;
+    -fx-border-color: black;
+    -fx-background-radius: 7;
+    -fx-border-radius: 7;
+    -fx-max-width: 250px;
+    -fx-min-width: 120px;
+    -fx-min-height: 50px;
+    -fx-text-alignment: center;
+    -fx-font-size: 20px;
+}
+
+.tool-element{
+    -fx-spacing: 8px;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+
+.button-preview{
+    -fx-border-radius: 500;
+    -fx-background-radius: 500;
+    -fx-background-color: transparent;
+}
+
+.access-title{
+    -fx-font-size: 50px;
+    -fx-text-alignment: center;
+}
+
+.form{
+    -fx-alignment: center;
+    -fx-hgap: 40px;
+    -fx-vgap: 60px;
+}
+
+.radio-button-container{
+    -fx-alignment: center-left;;
+    -fx-hgap: 10px;
+    -fx-vgap: 5px;
+}
+
+.button-dialog{
+    -fx-border-color: black;
+    -fx-background-radius: 7;
+    -fx-border-radius: 7;
+}
+
+.button-dismiss{
+    -fx-background-color: #e65c00;
+}
+
+.circle{
+    -fx-stroke: white;
+}
+
+.circle:hover{
+    -fx-cursor: hand;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.list-view{
+    -fx-background-color: transparent;
+    -fx-orientation: horizontal;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+}
+
+.list-cell:hover{
+    -fx-cursor: hand;
+}
+
+.list-cell:focused{
+    -fx-border-color: white;
+}
+
+.list-view .scroll-bar:horizontal .increment-arrow,
+.list-view .scroll-bar:horizontal .decrement-arrow,
+.list-view .scroll-bar:horizontal .increment-button,
+.list-view .scroll-bar:horizontal .decrement-button {
+    -fx-padding:0;
+}
+
+.list-view .scroll-bar:vertical .increment-arrow,
+.list-view .scroll-bar:vertical .decrement-arrow,
+.list-view .scroll-bar:vertical .increment-button,
+.list-view .scroll-bar:vertical .decrement-button {
+    -fx-padding:0;
+}
+
+.radio-button{
+    -fx-font-size: 20px;
+}
+
+.radio-button:hover{
+    -fx-cursor: hand;
+}
+
+.radio-button:selected .radio .dot {
+    -fx-background-color: #4682B4;
+    -fx-text-fill: white;
+}
+
+.scroll-pane{
+    -fx-hbar-policy: never;
+    -fx-vbar-policy: never;
+}
+
+.scroll-pane .viewport{
+    -fx-background-image: url("background.png");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.text-field{
+    -fx-background-radius: 50;
+    -fx-font-size: 20px;
+}
+
+.label{
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+}
+
+.separator{
+    -fx-orientation: vertical;
+    -fx-padding: 0px;
+    -fx-background-color: black;
+}
+
+.separator > .line{
+    -fx-border-width: 0px;
+}
+
+.hyperlink{
+    -fx-font-size: 25px;
+    -fx-border-color: transparent;
+}
+
+.tool-bar{
+    -fx-background-color: white;
+    -fx-spacing: 20px;
+    -fx-padding: 5px;
+    -fx-border-color: black;
+}
+
+.date-picker {
+    -fx-background-radius: 50 50 50 50;
+    -fx-background-color: white;
+}
+
+.date-picker > .arrow-button {
+    -fx-background-radius: 50 50 50 50;
+    -fx-background-color: white;
+}
+
+.date-picker:hover{
+    -fx-cursor: hand;
+}
+
+.dialog-pane {
+    -fx-background-color: #4682B4;
+    -fx-border-color: black;
+}
+
+.dialog-pane .header-panel{
+    -fx-background-color: white;
+    -fx-border-color: black;
+}
+
+.dialog-pane .header-panel .label{
+    -fx-text-fill: black;
+    -fx-font-size: 25px;
+    -fx-alignment: center-right;
+}
+
+.button:hover{
+    -fx-effect: dropshadow( gaussian , black , 1 , 0.5 , 1 , 1 );
+    -fx-cursor: hand;
+}

@@ -1,0 +1,46 @@
+package view.graphicalui.second.usernamequestionstates;
+
+import view.graphicalui.second.AbstractQuestion;
+import view.graphicalui.second.Home;
+import view.graphicalui.second.QuestionStateMachine;
+
+public class QuestionEnd implements AbstractQuestion {
+
+    ///////////////////////////////////////////////////////////////////////////////////
+    private static final String END = "\n\n\nType 'confirm' to apply username changes";
+    ///////////////////////////////////////////////////////////////////////////////////
+
+    ///////////////////////////////////////////////
+    private static QuestionEnd questionEndInstance;
+    ///////////////////////////////////////////////
+
+
+    ///////////////////////
+    private QuestionEnd(){}
+    ///////////////////////
+
+
+    ///////////////////////////////////////////////////////
+    @Override
+    public void display() {
+        Home.getHomeInstance().getScreen().appendText(END);
+    }
+    ///////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////
+    @Override
+    public void next(QuestionStateMachine stateMachine) {
+        stateMachine.setQuestion(null);
+    }
+    //////////////////////////////////////////////////////
+
+
+    /////////////////////////////////////////////////////
+    public static QuestionEnd getQuestionEndInstance() {
+        if(questionEndInstance == null)
+            questionEndInstance = new QuestionEnd();
+        return questionEndInstance;
+    }
+    /////////////////////////////////////////////////////
+
+}

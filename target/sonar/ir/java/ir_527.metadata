@@ -1,0 +1,2 @@
+view.graphicalui.first.toolbaritems.SignToolbarItems#getIndex()Ljava/lang/Integer;
+java.lang.Enum#ordinal()I

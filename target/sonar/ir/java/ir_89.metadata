@@ -1,0 +1,2 @@
+view.graphicalui.second.Home#saveGroupName(Ljava/lang/String;)V
+view.controllerui.second.handlerstates.StateGroupCreationNickname#getStateGroupCreationNicknameInstance()Lview/controllerui/second/handlerstates/StateGroupCreationNickname;

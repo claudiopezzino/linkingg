@@ -1,0 +1,2 @@
+view.graphicalui.second.signupquestionstates.QuestionSurname#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.signupquestionstates.QuestionAddress#getQuestionAddressInstance()Lview/graphicalui/second/signupquestionstates/QuestionAddress;

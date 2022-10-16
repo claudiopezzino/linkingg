@@ -1,0 +1,2 @@
+view.graphicalui.first.ListViewGroupItems#getIndex()Ljava/lang/Integer;
+java.lang.Enum#ordinal()I

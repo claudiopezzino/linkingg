@@ -1,0 +1,7 @@
+view.controllerui.first.HomePageEventHandler#removeGroup(Lview/graphicalui/first/HomePage;Ljavafx/scene/control/ListView;Ljavafx/scene/layout/HBox;)V
+javafx.scene.paint.ImagePattern#<init>(Ljavafx/scene/image/Image;)V
+javafx.scene.control.ListView#getItems()Ljavafx/collections/ObservableList;
+javafx.scene.shape.Shape#setFill(Ljavafx/scene/paint/Paint;)V
+javafx.scene.paint.ImagePattern#instance-init#
+javafx.scene.image.Image#instance-init#
+javafx.scene.image.Image#<init>(Ljava/lang/String;)V

@@ -1,0 +1,2 @@
+view.graphicalui.first.toolbardecorations.ProfileBoxDecorator#draw()Ljavafx/scene/control/ToolBar;
+javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;

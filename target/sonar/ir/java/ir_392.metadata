@@ -1,0 +1,2 @@
+view.graphicalui.first.toolbardecorations.ProfileBoxDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)V
+view.graphicalui.first.toolbardecorations.ProfileBoxDecorator#setUpProfile()V

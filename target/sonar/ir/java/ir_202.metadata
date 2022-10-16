@@ -1,0 +1,3 @@
+view.controllerui.second.handlerstates.StateMeetingsView#getStateMeetingsViewInstance()Lview/controllerui/second/handlerstates/StateMeetingsView;
+view.controllerui.second.handlerstates.StateMeetingsView#instance-init#
+view.controllerui.second.handlerstates.StateMeetingsView#<init>()V

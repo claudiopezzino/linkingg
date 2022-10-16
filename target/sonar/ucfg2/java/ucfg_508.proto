@@ -1,0 +1,186 @@
+
+jview.graphicalui.first.Container#getToolBar(Lview/graphicalui/first/Page;)Lview/graphicalui/first/Toolbar;d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java5 5(%"1*⁄
+13d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java? ?("n
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java? ?( 
+""*Õ
+14d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java= @(+÷
+”
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java> >(0
+%7boolean"5view.graphicalui.first.SignupPage#isToolBarPresent()Z*%"#
+!view.graphicalui.first.SignupPage*
+13
+12*…
+15d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java; ;($À
+»
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java; ;(*$
+%6view.graphicalui.first.Toolbar"mview.graphicalui.first.Container#createToolBar(Lview/graphicalui/first/Page;)Lview/graphicalui/first/Toolbar;*$""
+ view.graphicalui.first.Container*%
+#
+pageview.graphicalui.first.Page"é
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java; ;(+&
+$
+%6view.graphicalui.first.Toolbar*⁄
+16d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java: :("n
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java: :( 
+""*œ
+17d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java8 ;(+ÿ
+’
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java9 9(1
+%5boolean"6view.graphicalui.first.WelcomePage#isToolBarPresent()Z*&"$
+"view.graphicalui.first.WelcomePage*
+15
+16*ë
+1d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java7 7(ö
+ó
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java8 8(!
+%0view.graphicalui.first.Page"__id*
+""ö
+ó
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java= =(!
+%1view.graphicalui.first.Page"__id*
+""ö
+ó
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaB B(!
+%2view.graphicalui.first.Page"__id*
+""ö
+ó
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaG G(!
+%3view.graphicalui.first.Page"__id*
+""ö
+ó
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaL L($!
+%4view.graphicalui.first.Page"__id*
+""*
+2
+14
+5
+17
+8
+11* 
+2d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaQ R(+Ã
+…
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaR R(*%
+%15view.graphicalui.first.Toolbar"mview.graphicalui.first.Container#createToolBar(Lview/graphicalui/first/Page;)Lview/graphicalui/first/Toolbar;*$""
+ view.graphicalui.first.Container*%
+#
+pageview.graphicalui.first.Page"è
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaR R(+'
+%
+%15view.graphicalui.first.Toolbar* 
+3d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaO O($Ã
+…
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaO O(*%
+%14view.graphicalui.first.Toolbar"mview.graphicalui.first.Container#createToolBar(Lview/graphicalui/first/Page;)Lview/graphicalui/first/Toolbar;*$""
+ view.graphicalui.first.Container*%
+#
+pageview.graphicalui.first.Page"è
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaO O(+'
+%
+%14view.graphicalui.first.Toolbar*Ÿ
+4d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaN N("n
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaN N( 
+""*Õ
+5d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaL O(+Ÿ
+÷
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaM M(1
+%13boolean"6view.graphicalui.first.MeetingPage#isToolBarPresent()Z*&"$
+"view.graphicalui.first.MeetingPage*
+3
+4* 
+6d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaJ J($Ã
+…
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaJ J(*%
+%12view.graphicalui.first.Toolbar"mview.graphicalui.first.Container#createToolBar(Lview/graphicalui/first/Page;)Lview/graphicalui/first/Toolbar;*$""
+ view.graphicalui.first.Container*%
+#
+pageview.graphicalui.first.Page"è
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaJ J(+'
+%
+%12view.graphicalui.first.Toolbar*Ÿ
+7d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaI I("n
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaI I( 
+""*«
+8d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaG J(+”
+–
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaH H(.
+%11boolean"3view.graphicalui.first.HomePage#isToolBarPresent()Z*#"!
+view.graphicalui.first.HomePage*
+6
+7* 
+9d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaE E($Ã
+…
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaE E(*%
+%10view.graphicalui.first.Toolbar"mview.graphicalui.first.Container#createToolBar(Lview/graphicalui/first/Page;)Lview/graphicalui/first/Toolbar;*$""
+ view.graphicalui.first.Container*%
+#
+pageview.graphicalui.first.Page"è
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaE E(+'
+%
+%10view.graphicalui.first.Toolbar*⁄
+10d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaD D("n
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaD D( 
+""*Ã
+11d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaB E(+÷
+”
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.javaC C(0
+%9boolean"5view.graphicalui.first.SigninPage#isToolBarPresent()Z*%"#
+!view.graphicalui.first.SigninPage*
+9
+10*…
+12d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java@ @($À
+»
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java@ @(*$
+%8view.graphicalui.first.Toolbar"mview.graphicalui.first.Container#createToolBar(Lview/graphicalui/first/Page;)Lview/graphicalui/first/Toolbar;*$""
+ view.graphicalui.first.Container*%
+#
+pageview.graphicalui.first.Page"é
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java@ @(+&
+$
+%8view.graphicalui.first.Toolbar:#
+pageview.graphicalui.first.PageB$""
+ view.graphicalui.first.Container

@@ -1,0 +1,3 @@
+view.graphicalui.second.meetingquestionstates.QuestionTypeOfMeeting#getQuestionTypeOfMeetingInstance()Lview/graphicalui/second/meetingquestionstates/QuestionTypeOfMeeting;
+view.graphicalui.second.meetingquestionstates.QuestionTypeOfMeeting#instance-init#
+view.graphicalui.second.meetingquestionstates.QuestionTypeOfMeeting#<init>()V

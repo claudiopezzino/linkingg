@@ -1,0 +1,3 @@
+view.graphicalui.second.signinquestionstates.QuestionNickname#getQuestionNicknameInstance()Lview/graphicalui/second/signinquestionstates/QuestionNickname;
+view.graphicalui.second.signinquestionstates.QuestionNickname#instance-init#
+view.graphicalui.second.signinquestionstates.QuestionNickname#<init>()V

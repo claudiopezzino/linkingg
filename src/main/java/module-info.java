@@ -10,6 +10,8 @@ module view.graphicalui {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
 
+    requires java.sql;
+
     opens view.graphicalui.first to javafx.fxml;
     exports view.graphicalui.first;
 

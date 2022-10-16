@@ -1,0 +1,28 @@
+package view.bean.errorsignupdecorations;
+
+import view.bean.BeanError;
+import view.bean.BeanErrorDecorator;
+
+
+public class AddressBeanErrorDecorator extends BeanErrorDecorator {
+
+    ///////////////////////////////////////////////////////////
+    private static final String ADDRESS_ERROR = "Address \n\n";
+    ///////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////////////////////////////
+    public AddressBeanErrorDecorator(BeanError beanError) {
+        super(beanError, ADDRESS_ERROR);
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////
+
+    ///////////////////////////////////////////
+    @Override
+    public String displayErrors(){
+        String errors = super.displayErrors();
+        errors += this.getMessage();
+        return errors;
+    }
+    ///////////////////////////////////////////
+
+}

@@ -1,0 +1,3 @@
+view.graphicalui.second.Home#groupOptions(Ljava/lang/String;)V
+view.controllerui.second.handlerstates.StateGroupOptions#getStateGroupOptionsInstance()Lview/controllerui/second/handlerstates/StateGroupOptions;
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V

@@ -1,0 +1,3 @@
+view.graphicalui.second.Home#showLinkInvitations()V
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.controllerui.second.handlerstates.StateUserLinkInvitations#getStateUserLinkInvitationsInstance()Lview/controllerui/second/handlerstates/StateUserLinkInvitations;

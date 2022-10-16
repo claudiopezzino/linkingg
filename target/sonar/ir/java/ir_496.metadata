@@ -1,0 +1,2 @@
+view.graphicalui.second.groupquestionstates.QuestionGroupNickname#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.groupquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/groupquestionstates/QuestionEnd;

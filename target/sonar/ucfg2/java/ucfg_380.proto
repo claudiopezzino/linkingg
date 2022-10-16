@@ -1,0 +1,51 @@
+
+\view.graphicalui.first.HomePage#setUpGroupsAndMeetingsArea()Ljavafx/scene/layout/BorderPane;e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java³ ³(1"1*å
+1e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java´4 ´(D°­
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java´8 ´(B$
+%0javafx.scene.layout.BorderPane"javafx.scene.layout.BorderPaneÂ
+¿
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java´4 ´(D
+%1"(javafx.scene.layout.BorderPane#<init>()V*&
+$
+%0javafx.scene.layout.BorderPaneÚ
+×
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java´ ´(E@
+borderPaneGroupsAndMeetingAreajavafx.scene.layout.BorderPane"__id*&
+$
+%0javafx.scene.layout.BorderPaneü
+ù
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¶. ¶(?
+%2javafx.scene.layout.VBox"Kview.graphicalui.first.HomePage#setUpGroupsArea()Ljavafx/scene/layout/VBox;*#!
+view.graphicalui.first.HomePage¶³
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¶ ¶(@
+
+%3void";javafx.scene.layout.BorderPane#setTop(Ljavafx/scene/Node;)V*B
+@
+borderPaneGroupsAndMeetingAreajavafx.scene.layout.BorderPane* 
+
+%2javafx.scene.layout.VBox2setTop(Ljavafx/scene/Node;)þ
+û
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java·1 ·(D
+%4javafx.scene.layout.VBox"Mview.graphicalui.first.HomePage#setUpMeetingsArea()Ljavafx/scene/layout/VBox;*#!
+view.graphicalui.first.HomePage¼¹
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java· ·(E
+
+%5void">javafx.scene.layout.BorderPane#setBottom(Ljavafx/scene/Node;)V*B
+@
+borderPaneGroupsAndMeetingAreajavafx.scene.layout.BorderPane* 
+
+%4javafx.scene.layout.VBox2setBottom(Ljavafx/scene/Node;)"«
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¹ ¹(.B
+@
+borderPaneGroupsAndMeetingAreajavafx.scene.layout.BorderPaneB#!
+view.graphicalui.first.HomePage

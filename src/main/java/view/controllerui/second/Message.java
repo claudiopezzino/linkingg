@@ -96,10 +96,10 @@ public final class Message {
     //////////////////////////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////////
-    public static void credentialMsg(String username, String password){
+    public static void credentialMsg(String nickname, String password){
         Alert info = new Alert(Alert.AlertType.WARNING
-                , "nickname:   " + username +
-                "\t\t\t password:   "+ password +"\n\n\n" +
+                , "nickname:   " + nickname +
+                "\n\npassword:   "+ password +"\n\n\n" +
                 "Please, save your credential or you will need to redo the registration phase.");
         info.showAndWait();
     }
@@ -132,5 +132,12 @@ public final class Message {
         info.showAndWait();
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    ///////////////////////////////////////////////////////////////
+    public static void infoErrorMsg(String stackError){
+        Alert error = new Alert(Alert.AlertType.ERROR, stackError);
+        error.showAndWait();
+    }
+    ///////////////////////////////////////////////////////////////
 
 }

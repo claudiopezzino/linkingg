@@ -21,8 +21,8 @@ public final class DefaultCommands {
 
     public static final String MANUAL = "manual";
 
-    public static final String BUSINESS_OWNER = "business-owner";
-    public static final String PREMIUM = "premium";
+    public static final String BUSINESS_OWNER = "Business-owner";
+    public static final String PREMIUM = "Premium";
 
     public static final String SEARCH = "search";
     public static final String CREATE_GROUP = "create group";

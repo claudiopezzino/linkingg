@@ -1,0 +1,2 @@
+view.graphicalui.second.meetingquestionstates.QuestionTypeOfVehicle#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.meetingquestionstates.QuestionBudget#getQuestionBudgetInstance()Lview/graphicalui/second/meetingquestionstates/QuestionBudget;

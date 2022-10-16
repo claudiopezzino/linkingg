@@ -1,0 +1,3 @@
+view.controllerui.second.handlerstates.StateGroupOptions#getStateGroupOptionsInstance()Lview/controllerui/second/handlerstates/StateGroupOptions;
+view.controllerui.second.handlerstates.StateGroupOptions#instance-init#
+view.controllerui.second.handlerstates.StateGroupOptions#<init>()V

@@ -1,0 +1,2 @@
+view.graphicalui.second.passwordquestionstates.QuestionNewPassword#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.passwordquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/passwordquestionstates/QuestionEnd;

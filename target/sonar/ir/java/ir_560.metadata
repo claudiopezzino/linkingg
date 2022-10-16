@@ -1,0 +1,3 @@
+view.graphicalui.second.passwordquestionstates.QuestionNewPassword#getQuestionNewPasswordInstance()Lview/graphicalui/second/passwordquestionstates/QuestionNewPassword;
+view.graphicalui.second.passwordquestionstates.QuestionNewPassword#<init>()V
+view.graphicalui.second.passwordquestionstates.QuestionNewPassword#instance-init#

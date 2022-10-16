@@ -1,0 +1,5 @@
+view.graphicalui.first.Container#getRoot(Lview/graphicalui/first/Page;)Ljavafx/scene/control/ScrollPane;
+javafx.scene.control.ScrollPane#<init>()V
+view.graphicalui.first.Container#buildContent(Lview/graphicalui/first/Page;)Ljavafx/scene/Parent;
+javafx.scene.control.ScrollPane#setContent(Ljavafx/scene/Node;)V
+javafx.scene.control.ScrollPane#instance-init#

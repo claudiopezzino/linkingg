@@ -1,0 +1,3 @@
+view.graphicalui.first.SigninPage#getSigninPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/SigninPage;
+view.graphicalui.first.SigninPage#instance-init#
+view.graphicalui.first.SigninPage#<init>(Lview/graphicalui/first/Toolbar;)V

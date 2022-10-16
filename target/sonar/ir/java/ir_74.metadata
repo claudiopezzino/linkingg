@@ -1,0 +1,7 @@
+view.graphicalui.second.Home#usernameChangeMode()V
+view.controllerui.second.handlerstates.StateUsernameChange#getStateUsernameChangeInstance()Lview/controllerui/second/handlerstates/StateUsernameChange;
+java.lang.String#equals(Ljava/lang/Object;)Z
+view.graphicalui.second.usernamequestionstates.QuestionNewUsername#getQuestionNewUsernameInstance()Lview/graphicalui/second/usernamequestionstates/QuestionNewUsername;
+view.graphicalui.second.QuestionStateMachine#instance-init#
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.graphicalui.second.QuestionStateMachine#<init>()V

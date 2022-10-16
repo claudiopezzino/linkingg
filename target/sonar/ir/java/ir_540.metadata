@@ -1,0 +1,2 @@
+view.graphicalui.first.WelcomePage#<init>(Lview/graphicalui/first/Toolbar;)V
+view.graphicalui.first.WelcomePage#setUpWelcomePage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;

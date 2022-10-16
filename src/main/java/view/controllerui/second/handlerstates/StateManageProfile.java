@@ -25,7 +25,7 @@ public class StateManageProfile implements AbstractState{
         if(home.getPrompt().getText().equals(BACK))
             home.restoreScreen();
 
-        if(home.getPrompt().getText().equals(NICKNAME))
+        else if(home.getPrompt().getText().equals(NICKNAME))
             home.usernameChangeMode();
 
         else if(home.getPrompt().getText().equals(PASSWORD))

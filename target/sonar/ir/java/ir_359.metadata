@@ -1,0 +1,3 @@
+view.controllerui.first.HomePageEventHandler#manageLinkRequests()V
+view.graphicalui.first.HomePage$LinkRequestsDialog#getLinkRequestsDialogInstance()Lview/graphicalui/first/HomePage$LinkRequestsDialog;
+javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;

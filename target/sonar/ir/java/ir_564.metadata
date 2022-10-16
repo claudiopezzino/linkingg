@@ -1,0 +1,2 @@
+view.graphicalui.second.signinquestionstates.QuestionNickname#display()V
+view.graphicalui.second.Signin#getSigninInstance()Lview/graphicalui/second/Signin;

@@ -1,0 +1,51 @@
+
+_view.graphicalui.first.toolbardecorations.InfoBarDecorator#draw()Ljavafx/scene/control/ToolBar;~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/InfoBarDecorator.javaC C("1*Ø
+1~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/InfoBarDecorator.javaD D(‰
+†
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/InfoBarDecorator.javaD D(&"
+%0javafx.scene.control.ToolBar"Xview.graphicalui.first.toolbardecorations.Decorator#draw()Ljavafx/scene/control/ToolBar;*
+""Ø
+Õ
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/InfoBarDecorator.javaD D(''
+toolBarjavafx.scene.control.ToolBar"__id*$
+"
+%0javafx.scene.control.ToolBar¯¬
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/InfoBarDecorator.javaE E('
+%1!javafx.collections.ObservableList"Jjavafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;*)
+'
+toolBarjavafx.scene.control.ToolBar2
+getItems()ú
+÷
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/InfoBarDecorator.javaE" E(-
+%2javafx.scene.layout.HBox"__id*O*M<
+:view.graphicalui.first.toolbardecorations.InfoBarDecorator"
+hBoxInfoBarÉÆ
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/InfoBarDecorator.javaE3 E(<$
+%3javafx.scene.control.Separator"javafx.scene.control.SeparatorÛ
+Ø
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/InfoBarDecorator.javaE/ E(>
+%4"(javafx.scene.control.Separator#<init>()V*&
+$
+%3javafx.scene.control.Separatoräá
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/InfoBarDecorator.javaE E(?
+%5boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z*)
+'
+%1!javafx.collections.ObservableList* 
+
+%2javafx.scene.layout.HBox*&
+$
+%3javafx.scene.control.Separator2addAll([Ljava/lang/Object;)"«
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/InfoBarDecorator.javaF F()
+'
+toolBarjavafx.scene.control.ToolBarB><
+:view.graphicalui.first.toolbardecorations.InfoBarDecorator

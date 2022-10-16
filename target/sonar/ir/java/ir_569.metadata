@@ -1,0 +1,2 @@
+view.graphicalui.second.signupquestionstates.QuestionSurname#display()V
+view.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;

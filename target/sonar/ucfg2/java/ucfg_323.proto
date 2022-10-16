@@ -1,0 +1,367 @@
+
+Xview.controllerui.first.MeetingPageEventHandler#handle(Ljavafx/scene/input/MouseEvent;)Vs
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java ("startingBlock*ß	
+2s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java" "(˛
+˚
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java" "((
+%39javafx.scene.Scene"Cview.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;*$""
+ view.graphicalui.first.FirstMain™
+ß
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java"C "(G"
+%40view.graphicalui.first.Page"__id*
+""÷
+”
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java"1 "(H&
+%41javafx.scene.control.ScrollPane"hview.graphicalui.first.Container#getRoot(Lview/graphicalui/first/Page;)Ljavafx/scene/control/ScrollPane;*$""
+ view.graphicalui.first.Container*$
+"
+%40view.graphicalui.first.Page†ù
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java" "(I
+%42void"2javafx.scene.Scene#setRoot(Ljavafx/scene/Parent;)V*
+
+%39javafx.scene.Scene*(
+&
+%41javafx.scene.control.ScrollPane2setRoot(Ljavafx/scene/Parent;)*
+0*ó
+3s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java   (·ﬁ
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java   ((
+%31java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*
+
+
+eventT2getSource()‘
+—
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java 0  (X)
+%32"view.graphicalui.first.MeetingPage"view.graphicalui.first.MeetingPage#getMeetingPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/MeetingPage;*&"$
+"view.graphicalui.first.MeetingPage*
+""ß§
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java 0  (e#
+%33javafx.scene.control.ToolBar"Mview.graphicalui.first.MeetingPage#getToolBar()Ljavafx/scene/control/ToolBar;*+
+)
+%32"view.graphicalui.first.MeetingPage2getToolBar()°û
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java 0  (p(
+%34!javafx.collections.ObservableList"Jjavafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;*%
+#
+%33javafx.scene.control.ToolBar2
+getItems()Õ
+ 
+t
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java u  (ÉD
+%35=view.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems"__id*
+""ƒ¡
+t
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java u  (é
+%36java.lang.Integer"[view.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems#getIndex()Ljava/lang/Integer;*F
+D
+%35=view.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems2
+getIndex()Á
+‰
+t
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java 0  (è
+%37javafx.scene.Node"
+__arrayGet**
+(
+%34!javafx.collections.ObservableList*
+
+%36java.lang.Integeräá
+t
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java   (ê
+%38boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*
+
+%31java.lang.Object*
+
+%37javafx.scene.Node2equals(Ljava/lang/Object;)*
+2
+1*€
+startingBlocks
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java (±
+Æ
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java (
+%48"
+__annotate*
+java.lang.Override*
+
+
+eventTõ
+ò
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java (
+
+eventT"__annotation*
+
+%48*
+7*ª
+4s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java (·ﬁ
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java (&
+%25java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*
+
+
+eventT2getSource()£†
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java. (C(
+%26!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*%
+#
+mainBarjavafx.scene.layout.HBox2getChildren()Ÿ
+÷
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.javaH (SQ
+%27Jview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$MainBarItems"__id*
+""›⁄
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.javaH (^
+%28java.lang.Integer"hview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$MainBarItems#getIndex()Ljava/lang/Integer;*S
+Q
+%27Jview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$MainBarItems2
+getIndex()Ê
+„
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java. (_
+%29javafx.scene.Node"
+__arrayGet**
+(
+%26!javafx.collections.ObservableList*
+
+%28java.lang.IntegerâÜ
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java (`
+%30boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*
+
+%25java.lang.Object*
+
+%29javafx.scene.Node2equals(Ljava/lang/Object;)*
+2
+3*ß	
+5s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java (˛
+˚
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java ((
+%21javafx.scene.Scene"Cview.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;*$""
+ view.graphicalui.first.FirstMain™
+ß
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.javaC (O"
+%22view.graphicalui.first.Page"__id*
+""÷
+”
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java1 (P&
+%23javafx.scene.control.ScrollPane"hview.graphicalui.first.Container#getRoot(Lview/graphicalui/first/Page;)Ljavafx/scene/control/ScrollPane;*$""
+ view.graphicalui.first.Container*$
+"
+%22view.graphicalui.first.Page†ù
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java (Q
+%24void"2javafx.scene.Scene#setRoot(Ljavafx/scene/Parent;)V*
+
+%21javafx.scene.Scene*(
+&
+%23javafx.scene.control.ScrollPane2setRoot(Ljavafx/scene/Parent;)*
+0*â+
+6s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java" (-”
+–
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java" (J(
+%3"view.graphicalui.first.MeetingPage"view.graphicalui.first.MeetingPage#getMeetingPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/MeetingPage;*&"$
+"view.graphicalui.first.MeetingPage*
+""•¢
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java" (W"
+%4javafx.scene.control.ToolBar"Mview.graphicalui.first.MeetingPage#getToolBar()Ljavafx/scene/control/ToolBar;**
+(
+%3"view.graphicalui.first.MeetingPage2getToolBar()üú
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java" (b'
+%5!javafx.collections.ObservableList"Jjavafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;*$
+"
+%4javafx.scene.control.ToolBar2
+getItems()À
+»
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.javag (oC
+%6=view.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems"__id*
+""¡æ
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.javag (z
+%7java.lang.Integer"[view.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems#getIndex()Ljava/lang/Integer;*E
+C
+%6=view.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems2
+getIndex()„
+‡
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java" ({
+%8javafx.scene.Node"
+__arrayGet*)
+'
+%5!javafx.collections.ObservableList*
+
+%7java.lang.Integeræ
+ª
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java (|#
+mainBarjavafx.scene.layout.HBox"__id*
+
+%8javafx.scene.Node”
+–
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java% (M(
+%9"view.graphicalui.first.MeetingPage"view.graphicalui.first.MeetingPage#getMeetingPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/MeetingPage;*&"$
+"view.graphicalui.first.MeetingPage*
+""¶£
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java% (Z#
+%10javafx.scene.control.ToolBar"Mview.graphicalui.first.MeetingPage#getToolBar()Ljavafx/scene/control/ToolBar;**
+(
+%9"view.graphicalui.first.MeetingPage2getToolBar()°û
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java% (e(
+%11!javafx.collections.ObservableList"Jjavafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;*%
+#
+%10javafx.scene.control.ToolBar2
+getItems()Ã
+…
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.javaj (uD
+%12=view.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems"__id*
+""ƒ¡
+t
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.javaj (Ä
+%13java.lang.Integer"[view.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems#getIndex()Ljava/lang/Integer;*F
+D
+%12=view.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems2
+getIndex()Á
+‰
+t
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java% (Å
+%14javafx.scene.Node"
+__arrayGet**
+(
+%11!javafx.collections.ObservableList*
+
+%13java.lang.Integer√
+¿
+t
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java (Ç&
+
+profileBoxjavafx.scene.layout.VBox"__id*
+
+%14javafx.scene.Node·ﬁ
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java ( 
+%15java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*
+
+
+eventT2getSource()¶£
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java( (@(
+%16!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*(
+&
+
+profileBoxjavafx.scene.layout.VBox2getChildren()‹
+Ÿ
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.javaE (QT
+%17Mview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$profileBoxItems"__id*
+""„‡
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.javaE (\
+%18java.lang.Integer"kview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$profileBoxItems#getIndex()Ljava/lang/Integer;*V
+T
+%17Mview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$profileBoxItems2
+getIndex()Ê
+„
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java( (]
+%19javafx.scene.Node"
+__arrayGet**
+(
+%16!javafx.collections.ObservableList*
+
+%18java.lang.IntegerâÜ
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java (^
+%20boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*
+
+%15java.lang.Object*
+
+%19javafx.scene.Node2equals(Ljava/lang/Object;)*
+4
+5*∏
+7s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java (˙˜
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java (
+%0javafx.event.EventType"Djavafx.scene.input.MouseEvent#getEventType()Ljavafx/event/EventType;*
+
+
+eventT2getEventType()§
+°
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java' (?
+%1javafx.event.EventType"__id*
+""ëé
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java (@
+%2boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*
+
+%0javafx.event.EventType*
+
+%1javafx.event.EventType2equals(Ljava/lang/Object;)*
+6
+0*í
+0 "ä
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java+ +(
+implicit return*Ë
+1s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java%( %(-≥
+∞
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java%( %(7+
+%43$javafx.scene.control.Alert$AlertType"__id*
+""≥
+∞
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java%( %(C+
+%44$javafx.scene.control.Alert$AlertType"__id*
+""∑¥
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java%" %('!
+%45javafx.scene.control.Alert"javafx.scene.control.AlertÏ
+È
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java% %([
+%46"~javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V*#
+!
+%45javafx.scene.control.Alert*-
++
+%44$javafx.scene.control.Alert$AlertType*
+work in progress...»
+≈
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java% %(\#
+alertjavafx.scene.control.Alert"__id*#
+!
+%45javafx.scene.control.AlertàÖ
+s
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java& &(#
+%47java.util.Optional"=javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;*%
+#
+alertjavafx.scene.control.Alert2showAndWait()*
+0:
+
+eventTB31
+/view.controllerui.first.MeetingPageEventHandler

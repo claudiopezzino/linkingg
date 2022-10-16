@@ -1,0 +1,67 @@
+
+hview.graphicalui.first.Container#getRoot(Lview/graphicalui/first/Page;)Ljavafx/scene/control/ScrollPane;d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java ($"3*±
+2d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java (#±Æ
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java (!%
+%1javafx.scene.control.ScrollPane"javafx.scene.control.ScrollPane√
+¿
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java (#
+%2")javafx.scene.control.ScrollPane#<init>()V*'
+%
+%1javafx.scene.control.ScrollPane∆
+√
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java (#,"
+ view.graphicalui.first.Container"
+root"__id*'
+%
+%1javafx.scene.control.ScrollPane*
+1*∫
+3d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java (∆
+√
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java (%
+%0javafx.scene.control.ScrollPane"__id*.*,"
+ view.graphicalui.first.Container"
+root*
+2
+1*Â	
+1d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java (∆
+√
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java (%
+%3javafx.scene.control.ScrollPane"__id*.*,"
+ view.graphicalui.first.Container"
+root¥
+±
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java (*
+%4javafx.scene.Parent"aview.graphicalui.first.Container#buildContent(Lview/graphicalui/first/Page;)Ljavafx/scene/Parent;*$""
+ view.graphicalui.first.Container*%
+#
+pageview.graphicalui.first.Pageûõ
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java (+
+
+%5void"@javafx.scene.control.ScrollPane#setContent(Ljavafx/scene/Node;)V*'
+%
+%3javafx.scene.control.ScrollPane*
+
+%4javafx.scene.Parent2setContent(Ljavafx/scene/Node;)∆
+√
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java (%
+%6javafx.scene.control.ScrollPane"__id*.*,"
+ view.graphicalui.first.Container"
+root"è
+d
+Z/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Container.java ('
+%
+%6javafx.scene.control.ScrollPane:#
+pageview.graphicalui.first.PageB$""
+ view.graphicalui.first.Container

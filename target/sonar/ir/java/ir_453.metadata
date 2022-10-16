@@ -1,0 +1,2 @@
+view.graphicalui.second.signupquestionstates.QuestionMail#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.signupquestionstates.QuestionCell#getQuestionCellInstance()Lview/graphicalui/second/signupquestionstates/QuestionCell;

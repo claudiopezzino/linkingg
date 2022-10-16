@@ -1,0 +1,2 @@
+view.graphicalui.second.meetingquestionstates.QuestionRadiusOfAction#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.meetingquestionstates.QuestionMeetingLocationName#getQuestionMeetingLocationNameInstance()Lview/graphicalui/second/meetingquestionstates/QuestionMeetingLocationName;

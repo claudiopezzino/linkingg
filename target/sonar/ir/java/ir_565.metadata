@@ -1,0 +1,2 @@
+view.graphicalui.second.signinquestionstates.QuestionNickname#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.signinquestionstates.QuestionPassword#getQuestionPasswordInstance()Lview/graphicalui/second/signinquestionstates/QuestionPassword;

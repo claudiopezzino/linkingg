@@ -1,0 +1,3 @@
+view.graphicalui.second.Home#showMemberDetails(Ljava/lang/String;)V
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.controllerui.second.handlerstates.StateMemberDetails#getStateMemberDetailsInstance()Lview/controllerui/second/handlerstates/StateMemberDetails;

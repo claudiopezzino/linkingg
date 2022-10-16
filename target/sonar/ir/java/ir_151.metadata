@@ -1,0 +1,4 @@
+view.graphicalui.first.FirstMain#start(Ljavafx/stage/Stage;)V
+javafx.stage.Stage#show()V
+javafx.stage.Stage#setResizable(Z)V
+javafx.stage.Stage#setScene(Ljavafx/scene/Scene;)V

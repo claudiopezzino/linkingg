@@ -1,0 +1,7 @@
+view.controllerui.first.DialogEventHandler#manageUserNickname()V
+java.util.Optional#isPresent()Z
+javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
+view.controllerui.first.DialogEventHandler#changeUsername(Ljava/util/Map;)V
+view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog#getUsernameDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog$UsernameDialog;
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+java.util.Optional#get()Ljava/lang/Object;

@@ -1,0 +1,27 @@
+package view.bean.errorsignindecorations;
+
+import view.bean.BeanError;
+import view.bean.BeanErrorDecorator;
+
+public class NicknameBeanErrorDecorator extends BeanErrorDecorator {
+
+    ///////////////////////////////////////////////////////
+    private static final String NICKNAME = "Nickname \n\n";
+    ///////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////////////////////////
+    public NicknameBeanErrorDecorator(BeanError beanError) {
+        super(beanError, NICKNAME);
+    }
+    //////////////////////////////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////
+    @Override
+    public String displayErrors(){
+        String errors = super.displayErrors();
+        errors += this.getMessage();
+        return errors;
+    }
+    //////////////////////////////////////////
+
+}

@@ -1,0 +1,38 @@
+package model.dao;
+
+import static model.dao.DAO.USER_DAO;
+
+public class FactoryDAO {
+
+    ////////////////////////////////////////////
+    private static FactoryDAO singletonInstance;
+    ////////////////////////////////////////////
+
+    //////////////////////
+    private FactoryDAO(){}
+    //////////////////////
+
+    ///////////////////////////////////////////////
+    public BaseDAO createDAO(DAO dao){
+        if (dao == USER_DAO) {
+            return createUserDAO();
+        }
+        return null;
+    }
+    ///////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////
+    private UserDAO createUserDAO(){
+        return new UserDAO();
+    }
+    /////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////
+    public static FactoryDAO getSingletonInstance() {
+        if(singletonInstance == null)
+            singletonInstance = new FactoryDAO();
+        return singletonInstance;
+    }
+    //////////////////////////////////////////////////
+
+}

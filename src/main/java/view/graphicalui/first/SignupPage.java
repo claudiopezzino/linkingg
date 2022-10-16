@@ -10,6 +10,7 @@ import java.util.Map;
 
 import static view.graphicalui.first.constcontainer.Css.*;
 import static view.graphicalui.first.constcontainer.Image.ALERT;
+import static view.graphicalui.first.constcontainer.Image.ERROR;
 
 
 public class SignupPage extends SignPage {
@@ -31,8 +32,12 @@ public class SignupPage extends SignPage {
     private TextField textFieldSurname;
     private TextField textFieldAddress;
     private TextField textFieldMail;
-    private TextField textFieldPhone;
+    private TextField textFieldCell;
     ///////////////////////////////////
+
+    ///////////////////////////////////////
+    private ToggleGroup toggleGroupAccount;
+    ///////////////////////////////////////
 
     /////////////////////////////////////////////////////////////////////////////////////////////////
     private static final SignupPageEventHandler<MouseEvent> handler1 = new SignupPageEventHandler<>();
@@ -66,7 +71,7 @@ public class SignupPage extends SignPage {
         Label labelSurname = new Label("Surname");
         Label labelAddress = new Label("Address");
         Label labelMail = new Label("E-mail"); //regex
-        Label labelPhone = new Label("Cell"); //regex
+        Label labelCell = new Label("Cell"); //regex
         Label labelAccount = new Label("Account");
 
 
@@ -77,33 +82,30 @@ public class SignupPage extends SignPage {
         textFieldSurname.setPromptText("Smith");
 
         textFieldAddress = new TextField();
-        textFieldAddress.setPromptText("address, nr, city, province");
+        textFieldAddress.setPromptText("address,nr,city,province");
 
         textFieldMail = new TextField();
         textFieldMail.setPromptText("willsmith@gmail.com");
 
-        textFieldPhone = new TextField();
-        textFieldPhone.setPromptText("3334669981");
+        textFieldCell = new TextField();
+        textFieldCell.setPromptText("3334669981");
 
 
 
-        ToggleGroup toggleGroupAccount = new ToggleGroup();
+        toggleGroupAccount = new ToggleGroup();
         RadioButton radioButtonPremium = new RadioButton("Premium");
         RadioButton radioButtonStandard = new RadioButton("Standard");
-        RadioButton radioButtonMerchant = new RadioButton("Business owner");
+        RadioButton radioButtonMerchant = new RadioButton("Business-owner");
         radioButtonStandard.setSelected(true);
         radioButtonPremium.setToggleGroup(toggleGroupAccount);
         radioButtonStandard.setToggleGroup(toggleGroupAccount);
         radioButtonMerchant.setToggleGroup(toggleGroupAccount);
 
-        radioButtonMerchant.setDisable(true); // TO DELETE UPON CAPABILITY IMPLEMENTATION
-        radioButtonPremium.setDisable(true); // TO DELETE UPON CAPABILITY IMPLEMENTATION
-
         gridPaneForm.add(labelName, 0, 0);
         gridPaneForm.add(labelSurname, 0, 1);
         gridPaneForm.add(labelAddress, 0, 2);
         gridPaneForm.add(labelMail, 0, 3);
-        gridPaneForm.add(labelPhone, 0, 4);
+        gridPaneForm.add(labelCell, 0, 4);
         gridPaneForm.add(labelAccount, 0, 5);
 
         gridPaneForm.add(btnSignUp, 6,7);
@@ -112,7 +114,7 @@ public class SignupPage extends SignPage {
         gridPaneForm.add(textFieldSurname, 1, 1, 6, 1);
         gridPaneForm.add(textFieldAddress,1, 2, 6, 1);
         gridPaneForm.add(textFieldMail, 1, 3, 6, 1);
-        gridPaneForm.add(textFieldPhone, 1, 4, 6, 1);
+        gridPaneForm.add(textFieldCell, 1, 4, 6, 1);
         gridPaneForm.add(radioButtonMerchant, 2, 5);
         gridPaneForm.add(radioButtonPremium, 4, 5);
         gridPaneForm.add(radioButtonStandard, 6, 5);
@@ -138,6 +140,64 @@ public class SignupPage extends SignPage {
     }
     /////////////////////////////////////////////////////////////////////////
 
+
+    /*--------------------- INNER_CLASS ---------------------*/
+    public static class InfoErrorDialog extends PageDialog{
+
+        ///////////////////////////////////////////////////////
+        private static InfoErrorDialog infoErrorDialogInstance;
+        ///////////////////////////////////////////////////////
+
+        //////////////////////////
+        private Label labelErrors;
+        //////////////////////////
+
+        //////////////////////////////////////////////////////////
+        public InfoErrorDialog() {
+            super("Error Panel", "Error", ERROR);
+            this.getDialogPane().setContent(this.setUpPopUpRoot());
+            this.setResultConverter(this::infoErrorResult);
+        }
+        ///////////////////////////////////////////////////////////
+
+        /////////////////////////////////////////////////////////////////////////////////////////////////////
+        private Map<String, String> infoErrorResult(ButtonType buttonType){
+            return Collections.emptyMap();
+        }
+        /////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        ////////////////////////////////////////////////////
+        @Override
+        protected VBox setUpPopUpRoot() {
+            VBox vBoxPopUpRoot = new VBox();
+            vBoxPopUpRoot.getStyleClass().addAll(VBOX, HBOX);
+
+            labelErrors = new Label();
+            vBoxPopUpRoot.getChildren().add(labelErrors);
+
+            return vBoxPopUpRoot;
+        }
+        ////////////////////////////////////////////////////
+
+        //////////////////////////////////////////////////////////
+        public Label getLabelErrors() {
+            return this.labelErrors;
+        }
+        //////////////////////////////////////////////////////////
+
+
+        /////////////////////////////////////////////////////////////
+        public static InfoErrorDialog getInfoErrorDialogInstance() {
+            if(infoErrorDialogInstance == null)
+                infoErrorDialogInstance = new InfoErrorDialog();
+            return infoErrorDialogInstance;
+        }
+        //////////////////////////////////////////////////////////////
+
+    }
+    /*-------------------------------------------------------*/
+
+
     /*--------------------- INNER CLASS ---------------------*/
 
     public static class CredentialDialog extends PageDialog{
@@ -152,13 +212,13 @@ public class SignupPage extends SignPage {
         ////////////////////////////
 
 
-        //////////////////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////
         private CredentialDialog(){
             super("Credentials","Personal credentials", ALERT);
             this.getDialogPane().setContent(this.setUpPopUpRoot());
             this.setResultConverter(this::credentialResult);
         }
-        //////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////
 
 
         ////////////////////////////////////////////////////////////////////
@@ -251,10 +311,48 @@ public class SignupPage extends SignPage {
     //////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////
-    public TextField getTextFieldPhone(){
-        return this.textFieldPhone;
+    public TextField getTextFieldCell(){
+        return this.textFieldCell;
     }
     ////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////
+    public String getName(){
+        return this.textFieldName.getText();
+    }
+    ////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////
+    public String getSurname(){
+        return this.textFieldSurname.getText();
+    }
+    ////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////
+    public String getAddress(){
+        return this.getTextFieldAddress().getText();
+    }
+    ////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////
+    public String getMail(){
+        return this.textFieldMail.getText();
+    }
+    ////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////
+    public String getCell(){
+        return this.textFieldCell.getText();
+    }
+    ////////////////////////////////////////////////////////////////////
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+    public String getAccount(){
+        RadioButton selectedRadioButton = (RadioButton)this.toggleGroupAccount.getSelectedToggle();
+        return selectedRadioButton.getText();
+    }
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+
 
     ////////////////////////////////////////////////////////////////////
     public static boolean isToolBarPresent(){

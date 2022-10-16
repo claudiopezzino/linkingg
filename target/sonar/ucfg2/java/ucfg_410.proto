@@ -1,0 +1,84 @@
+
+Åview.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog#usernameResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaõ( õ(6"4*›
+
+2e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaù ù(‘
+—
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaù ù(
+%4java.util.Map"__id*M*KB
+@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog"
+mapˆ
+Û
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaù0 ù(I$
+%5javafx.scene.control.TextField"__id*^*\B
+@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog"
+textFieldNewNickname¯ı
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaù0 ù(S
+%6java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*&
+$
+%5javafx.scene.control.TextField2	getText()Œ
+À
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaù ù(T
+%7java.lang.String"__mapSet*
+
+%4java.util.Map*
+newNickname*
+
+%6java.lang.String‘
+—
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaû û(#
+%8java.util.Map"__id*M*KB
+@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog"
+map"~
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaû û($
+
+%8java.util.Map*§
+3e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaú; ú(?ˆ
+Û
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaú; ú(T$
+%1javafx.scene.control.TextField"__id*^*\B
+@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog"
+textFieldNewNickname¯ı
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaú; ú(^
+%2java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*&
+$
+%1javafx.scene.control.TextField2	getText()ª∏
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaú; ú(h
+%3boolean"java.lang.String#isEmpty()Z*
+
+%2java.lang.String2	isEmpty()*
+2
+1*≥
+4e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaú ú(æª
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaú! ú(6%
+%0javafx.scene.control.ButtonType"Sview.graphicalui.first.PageDialog#getBtnTypeSave()Ljavafx/scene/control/ButtonType;*DB
+@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog2getBtnTypeSave()*
+3
+1*∏
+1e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java† †("À
+»
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java† †(-
+%9java.util.Map"/java.util.Collections#emptyMap()Ljava/util/Map;*"
+java.util.Collections"~
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java† †(.
+
+%9java.util.Map:-
+
+buttonTypejavafx.scene.control.ButtonTypeBDB
+@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog

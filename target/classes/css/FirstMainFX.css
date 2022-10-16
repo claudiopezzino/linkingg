@@ -49,7 +49,7 @@
 }
 
 .radio-button-container{
-    -fx-alignment: center-left;;
+    -fx-alignment: center-left;
     -fx-hgap: 10px;
     -fx-vgap: 5px;
 }

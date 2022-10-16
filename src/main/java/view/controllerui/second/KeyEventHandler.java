@@ -1,14 +1,20 @@
 package view.controllerui.second;
 
+import control.controlexceptions.InternalException;
 import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
+import view.bean.BeanError;
+import view.bean.UserSignInBean;
+import view.bean.UserSignUpBean;
+import view.boundary.UserManageCommunityBoundary;
 import view.graphicalui.second.*;
 import view.graphicalui.second.signinquestionstates.QuestionEnd;
 
 import static view.controllerui.second.Message.*;
 import static view.graphicalui.second.DefaultCommands.*;
+import static view.graphicalui.second.SignupInfo.*;
 
 
 public class KeyEventHandler<T extends Event> implements EventHandler<T> {
@@ -90,7 +96,7 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
 
         else if(signup.getPrompt().getText().equals(CONFIRM) && signup.getStateMachine().getQuestion() == null){
 
-            this.makeUserCredentials(signup);
+            this.initSignUpPhase(signup);
             signup.setSignMode(true);
             Signin.getSigninInstance().displaySignOptions();
             SecondMain.getCurrScene().setRoot(Signin.getSigninInstance());
@@ -122,6 +128,80 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
 
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////////
+    private void initSignUpPhase(Signup signup){
+        UserSignUpBean userSignUpBean = new UserSignUpBean();
+        String stackError = this.verifyUserInfo(signup, userSignUpBean);
+        if(stackError != null)
+            infoErrorMsg(stackError);
+        else {
+            this.registerUser(userSignUpBean);
+            signup.setSignMode(true);
+            Signin.getSigninInstance().displaySignOptions();
+            SecondMain.getCurrScene().setRoot(Signin.getSigninInstance());
+        }
+        signup.getPrompt().clear();
+        signup.restoreScreen();
+    }
+    //////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////////////////
+    private String verifyUserInfo(Signup signup, UserSignUpBean userSignUpBean){
+        String stackError = null;
+
+        try{
+            userSignUpBean.setName(signup.getUserInfo().get(OWN_NAME.getIndex()));
+        }catch(BeanError beanError){
+            stackError = beanError.displayErrors();
+        }
+
+        try{
+            userSignUpBean.setSurname(signup.getUserInfo().get(OWN_SURNAME.getIndex()));
+        }catch(BeanError beanError){
+            stackError = beanError.displayErrors();
+        }
+
+        try{
+            userSignUpBean.setAddress(signup.getUserInfo().get(ADDRESS.getIndex()));
+        }catch(BeanError beanError){
+            stackError = beanError.displayErrors();
+        }
+
+        try{
+            userSignUpBean.setEmail(signup.getUserInfo().get(MAIL.getIndex()));
+        }catch (BeanError beanError){
+            stackError = beanError.displayErrors();
+        }
+
+        try{
+            userSignUpBean.setCell(signup.getUserInfo().get(CELL.getIndex()));
+        }catch (BeanError beanError){
+            stackError = beanError.displayErrors();
+        }
+
+        try{
+            userSignUpBean.setAccount(signup.getUserInfo().get(ACCOUNT.getIndex()));
+        }catch(BeanError beanError){
+            stackError = beanError.displayErrors();
+        }
+
+        return stackError;
+    }
+    /////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    private void registerUser(UserSignUpBean userSignUpBean){
+        UserManageCommunityBoundary userManageCommunityBoundary = new UserManageCommunityBoundary();
+        try {
+            UserSignInBean userSignInBean = userManageCommunityBoundary.registerIntoSystem(userSignUpBean);
+            credentialMsg(userSignInBean.getNickname(), userSignInBean.getPassword());
+            this.assignUserCredentials(userSignUpBean.getName()+" "+userSignUpBean.getSurname(), userSignInBean.getNickname(), userSignInBean.getPassword());
+        }catch(InternalException internalException){
+            infoErrorMsg(internalException.getMessage());
+        }
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     private void signinHandle(Signin signin){
@@ -180,22 +260,6 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
 
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    //////////////////////////////////////////////////////////////////////////
-    private void makeUserCredentials(Sign signup){
-        String name = signup.getUserInfo().get(0);
-        String surname = signup.getUserInfo().get(1);
-
-        String fullName = name + " " + surname;
-
-        String username = name.toLowerCase() + surname.toLowerCase();
-        String password = "password";
-
-        credentialMsg(username, password);
-
-        this.assignUserCredentials(fullName, username, password);
-    }
-    //////////////////////////////////////////////////////////////////////////
 
     ///////////////////////////////////////////////////////////////////////////////////////
     private void assignUserCredentials(String fullName, String nickname, String password){

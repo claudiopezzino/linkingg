@@ -1,0 +1,4 @@
+view.graphicalui.first.SigninPage#setUpSignInPage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;
+javafx.scene.layout.VBox#instance-init#
+javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;
+javafx.scene.layout.VBox#<init>()V

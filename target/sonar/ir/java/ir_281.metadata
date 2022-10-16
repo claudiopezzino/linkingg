@@ -1,0 +1,2 @@
+view.graphicalui.second.signupquestionstates.QuestionAccount#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.signupquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/signupquestionstates/QuestionEnd;

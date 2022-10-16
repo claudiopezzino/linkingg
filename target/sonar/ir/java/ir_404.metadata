@@ -1,0 +1,3 @@
+view.controllerui.first.SignupPageEventHandler#assignFullNameToUserProfile(Lview/graphicalui/first/HomePage$UserProfileDialog;Lview/graphicalui/first/SignupPage;)V
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
+javafx.scene.control.Labeled#setText(Ljava/lang/String;)V

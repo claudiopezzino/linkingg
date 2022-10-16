@@ -1,0 +1,3 @@
+view.controllerui.first.DialogEventHandler#manageUserPassword()V
+javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
+view.graphicalui.first.HomePage$UserProfileDialog$PasswordDialog#getPasswordDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog$PasswordDialog;

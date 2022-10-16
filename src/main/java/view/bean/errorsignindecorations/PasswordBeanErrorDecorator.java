@@ -1,0 +1,26 @@
+package view.bean.errorsignindecorations;
+
+import view.bean.BeanError;
+import view.bean.BeanErrorDecorator;
+
+public class PasswordBeanErrorDecorator extends BeanErrorDecorator {
+
+    //////////////////////////////////////////////////////
+    private static final String PASSWORD = "Password \n\n";
+    //////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////////////////////////
+    public PasswordBeanErrorDecorator(BeanError beanError) {
+        super(beanError, PASSWORD);
+    }
+    //////////////////////////////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////
+    @Override
+    public String displayErrors(){
+        String errors = super.displayErrors();
+        errors += this.getMessage();
+        return errors;
+    }
+    //////////////////////////////////////////
+}

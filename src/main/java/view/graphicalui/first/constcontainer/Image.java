@@ -34,6 +34,7 @@ public final class Image {
     public static final String LENS = "btn_search.png";
     public static final String TWITTER = "btn_twitter.png";
     public static final String YOUTUBE = "btn_youtube.png";
+    public static final String ERROR = "dialog_error.png";
 
 
     private Image(){}

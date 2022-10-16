@@ -1,0 +1,2 @@
+view.graphicalui.second.Welcome#restoreScreen()V
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V

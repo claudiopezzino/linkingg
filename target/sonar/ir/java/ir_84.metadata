@@ -1,0 +1,2 @@
+view.graphicalui.second.Home#checkInvitationGroups(Ljava/lang/String;)V
+view.controllerui.second.handlerstates.StateMemberInvitation#getStateMemberInvitationInstance()Lview/controllerui/second/handlerstates/StateMemberInvitation;

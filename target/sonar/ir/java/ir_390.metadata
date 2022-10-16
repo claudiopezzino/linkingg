@@ -1,0 +1,3 @@
+view.graphicalui.second.meetingquestionstates.QuestionRadiusOfAction#getQuestionRadiusOfActionInstance()Lview/graphicalui/second/meetingquestionstates/QuestionRadiusOfAction;
+view.graphicalui.second.meetingquestionstates.QuestionRadiusOfAction#instance-init#
+view.graphicalui.second.meetingquestionstates.QuestionRadiusOfAction#<init>()V

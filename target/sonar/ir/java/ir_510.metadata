@@ -1,0 +1,3 @@
+view.controllerui.second.handlerstates.StatePasswordChange#getStatePasswordChangeInstance()Lview/controllerui/second/handlerstates/StatePasswordChange;
+view.controllerui.second.handlerstates.StatePasswordChange#<init>()V
+view.controllerui.second.handlerstates.StatePasswordChange#instance-init#

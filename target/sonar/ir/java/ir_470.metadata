@@ -1,0 +1,10 @@
+view.controllerui.first.DialogEventHandler#showImageFileChooser(Lview/graphicalui/first/PageDialog;)Ljava/io/File;
+javafx.stage.FileChooser#showOpenDialog(Ljavafx/stage/Window;)Ljava/io/File;
+javafx.scene.Node#getScene()Ljavafx/scene/Scene;
+javafx.scene.control.Dialog#getDialogPane()Ljavafx/scene/control/DialogPane;
+javafx.stage.FileChooser#instance-init#
+javafx.stage.FileChooser$ExtensionFilter#<init>(Ljava/lang/String;[Ljava/lang/String;)V
+javafx.stage.FileChooser#<init>()V
+javafx.scene.Scene#getWindow()Ljavafx/stage/Window;
+javafx.stage.FileChooser#getExtensionFilters()Ljavafx/collections/ObservableList;
+javafx.stage.FileChooser$ExtensionFilter#instance-init#

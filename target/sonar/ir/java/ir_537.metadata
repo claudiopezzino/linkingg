@@ -1,0 +1,7 @@
+view.graphicalui.first.Container#getToolBar(Lview/graphicalui/first/Page;)Lview/graphicalui/first/Toolbar;
+view.graphicalui.first.SigninPage#isToolBarPresent()Z
+view.graphicalui.first.HomePage#isToolBarPresent()Z
+view.graphicalui.first.MeetingPage#isToolBarPresent()Z
+view.graphicalui.first.Container#createToolBar(Lview/graphicalui/first/Page;)Lview/graphicalui/first/Toolbar;
+view.graphicalui.first.WelcomePage#isToolBarPresent()Z
+view.graphicalui.first.SignupPage#isToolBarPresent()Z

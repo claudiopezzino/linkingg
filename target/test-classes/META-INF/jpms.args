@@ -1,0 +1,4 @@
+--patch-module
+view.graphicalui=_
+--add-reads
+view.graphicalui=ALL-UNNAMED

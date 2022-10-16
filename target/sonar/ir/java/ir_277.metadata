@@ -1,0 +1,4 @@
+view.controllerui.second.KeyEventHandler#moveBackToWelcomePage(Lview/graphicalui/second/Home;)V
+view.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;
+view.graphicalui.second.Welcome#getWelcomeInstance()Lview/graphicalui/second/Welcome;
+javafx.scene.Scene#setRoot(Ljavafx/scene/Parent;)V

@@ -3,6 +3,7 @@ package view.controllerui.second.handlerstates;
 import view.graphicalui.second.Home;
 
 import static view.controllerui.second.Message.errorMsg;
+import static view.controllerui.second.Message.infoMsg;
 import static view.graphicalui.second.DefaultCommands.*;
 
 
@@ -33,6 +34,9 @@ public class StateManageProfile implements AbstractState{
 
         else if(home.getPrompt().getText().equals(LINK_INVITATIONS))
             home.showLinkInvitations();
+
+        else if(home.getPrompt().getText().equals(IMAGE_PROFILE))
+            infoMsg();
 
         else
             errorMsg();

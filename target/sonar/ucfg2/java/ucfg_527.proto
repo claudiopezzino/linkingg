@@ -1,45 +1,45 @@
 
-ßview.graphicalui.second.passwordquestionstates.QuestionNewPassword#getQuestionNewPasswordInstance()Lview/graphicalui/second/passwordquestionstates/QuestionNewPassword;Ü
-|/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/passwordquestionstates/QuestionNewPassword.java'& '(D"3*•
-2Ü
-|/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/passwordquestionstates/QuestionNewPassword.java)* )(Cöó
-Ü
-|/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/passwordquestionstates/QuestionNewPassword.java). )(AH
-%1Bview.graphicalui.second.passwordquestionstates.QuestionNewPassword"Bview.graphicalui.second.passwordquestionstates.QuestionNewPassword¨
-©
-Ü
-|/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/passwordquestionstates/QuestionNewPassword.java)* )(C
-%2"Lview.graphicalui.second.passwordquestionstates.QuestionNewPassword#<init>()V*J
-H
-%1Bview.graphicalui.second.passwordquestionstates.QuestionNewPassword≈
-¬
-Ü
-|/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/passwordquestionstates/QuestionNewPassword.java) )(CeD
-Bview.graphicalui.second.passwordquestionstates.QuestionNewPassword"
-questionNewPasswordInstance"__id*J
-H
-%1Bview.graphicalui.second.passwordquestionstates.QuestionNewPassword*
-1*‹
-3Ü
-|/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/passwordquestionstates/QuestionNewPassword.java( ((&≈
-¬
-Ü
-|/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/passwordquestionstates/QuestionNewPassword.java( ((&H
-%0Bview.graphicalui.second.passwordquestionstates.QuestionNewPassword"__id*g*eD
-Bview.graphicalui.second.passwordquestionstates.QuestionNewPassword"
-questionNewPasswordInstance*
+éview.graphicalui.second.signupquestionstates.QuestionMail#getQuestionMailInstance()Lview/graphicalui/second/signupquestionstates/QuestionMail;}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionMail.java' '(6"3*¿
+2}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionMail.java)# )(5˛˚
+}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionMail.java)' )(3?
+%19view.graphicalui.second.signupquestionstates.QuestionMail"9view.graphicalui.second.signupquestionstates.QuestionMailê
+ç
+}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionMail.java)# )(5
+%2"Cview.graphicalui.second.signupquestionstates.QuestionMail#<init>()V*A
+?
+%19view.graphicalui.second.signupquestionstates.QuestionMail¢
+ü
+}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionMail.java) )(5U;
+9view.graphicalui.second.signupquestionstates.QuestionMail"
+questionMailInstance"__id*A
+?
+%19view.graphicalui.second.signupquestionstates.QuestionMail*
+1*Ø
+3}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionMail.java( ((¢
+ü
+}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionMail.java( ((?
+%09view.graphicalui.second.signupquestionstates.QuestionMail"__id*W*U;
+9view.graphicalui.second.signupquestionstates.QuestionMail"
+questionMailInstance*
 2
-1*¨
-1Ü
-|/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/passwordquestionstates/QuestionNewPassword.java* *(*≈
-¬
-Ü
-|/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/passwordquestionstates/QuestionNewPassword.java* *(*H
-%3Bview.graphicalui.second.passwordquestionstates.QuestionNewPassword"__id*g*eD
-Bview.graphicalui.second.passwordquestionstates.QuestionNewPassword"
-questionNewPasswordInstance"’
-Ü
-|/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/passwordquestionstates/QuestionNewPassword.java* *(+J
-H
-%3Bview.graphicalui.second.passwordquestionstates.QuestionNewPasswordBF"D
-Bview.graphicalui.second.passwordquestionstates.QuestionNewPassword
+1*Ï
+1}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionMail.java* *(#¢
+ü
+}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionMail.java* *(#?
+%39view.graphicalui.second.signupquestionstates.QuestionMail"__id*W*U;
+9view.graphicalui.second.signupquestionstates.QuestionMail"
+questionMailInstance"¬
+}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionMail.java* *($A
+?
+%39view.graphicalui.second.signupquestionstates.QuestionMailB=";
+9view.graphicalui.second.signupquestionstates.QuestionMail

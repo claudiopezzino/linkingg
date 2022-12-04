@@ -1,2 +1,4 @@
-view.graphicalui.first.toolbardecorations.SignBarDecorator#draw()Ljavafx/scene/control/ToolBar;
-javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;
+view.controllerui.second.handlerstates.StateMain#checkCmd(Lview/graphicalui/second/Home;)V
+view.controllerui.second.Message#errorMsg()V
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z

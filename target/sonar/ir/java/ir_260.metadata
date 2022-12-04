@@ -1,4 +1,12 @@
-view.controllerui.second.Message#passwordChangedMsg()V
+view.controllerui.first.SigninPageEventHandler#handle(Ljavafx/scene/input/MouseEvent;)V
+view.graphicalui.first.toolbaritems.SignToolbarItems$MainBarItems#getIndex()Ljava/lang/Integer;
+view.controllerui.first.SigninPageEventHandler#clearSigninCredentials(Lview/graphicalui/first/SigninPage;)V
+view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;
+view.graphicalui.first.Container#getRoot(Lview/graphicalui/first/Page;)Ljavafx/scene/control/ScrollPane;
 javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
+view.graphicalui.first.toolbaritems.SignToolbarItems#getIndex()Ljava/lang/Integer;
 javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
+view.graphicalui.first.SigninPage#getSigninPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/SigninPage;
+javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;
 javafx.scene.control.Alert#instance-init#
+javafx.scene.Scene#setRoot(Ljavafx/scene/Parent;)V

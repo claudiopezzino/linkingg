@@ -1,16 +1,51 @@
 
-fview.graphicalui.first.HomePage$GroupCreationDialog#getLabelGroupImgPath()Ljavafx/scene/control/Label;e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÖ Ö()"1*Ý
-1e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java× ×(â
-ß
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java× ×() 
-%0javafx.scene.control.Label"__id*N*L5
-3view.graphicalui.first.HomePage$GroupCreationDialog"
-labelGroupImgPath"‹
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java× ×(*"
- 
-%0javafx.scene.control.LabelB75
-3view.graphicalui.first.HomePage$GroupCreationDialog
+_view.graphicalui.first.toolbardecorations.MainBarDecorator#draw()Ljavafx/scene/control/ToolBar;~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/MainBarDecorator.javaL L("1*Ø
+1~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/MainBarDecorator.javaM M(‰
+†
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/MainBarDecorator.javaM M(&"
+%0javafx.scene.control.ToolBar"Xview.graphicalui.first.toolbardecorations.Decorator#draw()Ljavafx/scene/control/ToolBar;*
+""Ø
+Õ
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/MainBarDecorator.javaM M(''
+toolBarjavafx.scene.control.ToolBar"__id*$
+"
+%0javafx.scene.control.ToolBar¯¬
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/MainBarDecorator.javaN N('
+%1!javafx.collections.ObservableList"Jjavafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;*)
+'
+toolBarjavafx.scene.control.ToolBar2
+getItems()ú
+÷
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/MainBarDecorator.javaN" N(-
+%2javafx.scene.layout.HBox"__id*O*M<
+:view.graphicalui.first.toolbardecorations.MainBarDecorator"
+hBoxMainBarÉÆ
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/MainBarDecorator.javaN3 N(<$
+%3javafx.scene.control.Separator"javafx.scene.control.SeparatorÛ
+Ø
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/MainBarDecorator.javaN/ N(>
+%4"(javafx.scene.control.Separator#<init>()V*&
+$
+%3javafx.scene.control.Separatoräá
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/MainBarDecorator.javaN N(?
+%5boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z*)
+'
+%1!javafx.collections.ObservableList* 
+
+%2javafx.scene.layout.HBox*&
+$
+%3javafx.scene.control.Separator2addAll([Ljava/lang/Object;)"«
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/MainBarDecorator.javaO O()
+'
+toolBarjavafx.scene.control.ToolBarB><
+:view.graphicalui.first.toolbardecorations.MainBarDecorator

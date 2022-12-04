@@ -1,3 +1,1 @@
-view.graphicalui.second.groupquestionstates.QuestionGroupName#getQuestionGroupNameInstance()Lview/graphicalui/second/groupquestionstates/QuestionGroupName;
-view.graphicalui.second.groupquestionstates.QuestionGroupName#instance-init#
-view.graphicalui.second.groupquestionstates.QuestionGroupName#<init>()V
+view.graphicalui.second.Sign#displayQuestion()V

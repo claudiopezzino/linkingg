@@ -1,3 +1,5 @@
-view.controllerui.second.KeyEventHandler#assignUserCredentials(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-view.graphicalui.second.Home#setCurrUserFullName(Ljava/lang/String;)V
-view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;
+view.graphicalui.second.Shell#setUpPrompt()V
+javafx.scene.control.TextField#instance-init#
+javafx.scene.control.TextInputControl#setPromptText(Ljava/lang/String;)V
+javafx.scene.Node#setOnKeyReleased(Ljavafx/event/EventHandler;)V
+javafx.scene.control.TextField#<init>()V

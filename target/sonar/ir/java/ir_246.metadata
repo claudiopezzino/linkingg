@@ -1,2 +1,1 @@
-view.graphicalui.second.Welcome#restoreScreen()V
-javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.controllerui.second.handlerstates.StateMeetingsView#instance-init#

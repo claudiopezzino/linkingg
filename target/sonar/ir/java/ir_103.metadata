@@ -1,3 +1,1 @@
-view.graphicalui.second.Home#showLinkRequests(Ljava/lang/String;)V
-view.controllerui.second.handlerstates.StateGroupLinkRequests#getStateGroupLinkRequestsInstance()Lview/controllerui/second/handlerstates/StateGroupLinkRequests;
-javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.graphicalui.second.Home#linkInvitationsPreviousList()V

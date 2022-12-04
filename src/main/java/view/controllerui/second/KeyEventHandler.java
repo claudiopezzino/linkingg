@@ -8,16 +8,35 @@ import javafx.scene.input.KeyEvent;
 import view.bean.BeanError;
 import view.bean.UserSignInBean;
 import view.bean.UserSignUpBean;
+import view.bean.observers.GroupBean;
+import view.bean.observers.UserBean;
 import view.boundary.UserManageCommunityBoundary;
+import view.controllerui.second.handlerstates.*;
 import view.graphicalui.second.*;
 import view.graphicalui.second.signinquestionstates.QuestionEnd;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import static view.controllerui.second.Message.*;
 import static view.graphicalui.second.DefaultCommands.*;
+import static view.graphicalui.second.SigninInfo.*;
 import static view.graphicalui.second.SignupInfo.*;
 
 
 public class KeyEventHandler<T extends Event> implements EventHandler<T> {
+
+    ////////////////////////////////////////////////////////////////
+    private UserManageCommunityBoundary userManageCommunityBoundary;
+    ////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////
+    private Map<String, GroupBean> mapGroupBean;
+    ////////////////////////////////////////////
+
+    //////////////////////////////
+    private UserBean currUserBean;
+    //////////////////////////////
 
     ///////////////////////////////////////////////////////////////////////////
     private final HandlerStateMachine stateMachine = new HandlerStateMachine();
@@ -29,6 +48,19 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
         return this.stateMachine;
     }
     //////////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////////////////
+    public Map<String, GroupBean> getMapGroupBean() {
+        return this.mapGroupBean;
+    }
+    /////////////////////////////////////////////////////////////////////////////
+
+    ///////////////////////////////////////////////////////////////
+    public UserBean getCurrUserBean() {
+        return this.currUserBean;
+    }
+    ///////////////////////////////////////////////////////////////
+
 
     /////////////////////////////////////////////////////////////////////////////////////
     @Override
@@ -54,6 +86,54 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
 
     }
     /////////////////////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////
+    public void updateUserNick(Home home){
+        String newCurrUserNick = this.getCurrUserBean().getNickname();
+        home.setCurrUserNickname(newCurrUserNick);
+    }
+    //////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////
+    public void updateGroupMemberNick(){
+        if(this.getStateMachine().getState() instanceof StateGroupOptions) {
+            Home home = Home.getHomeInstance();
+            home.getPrompt().setText(MEMBERS);
+            this.stateMachine.checkCmd(home);
+        }
+    }
+    /////////////////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////
+    public void updateGroupsList(GroupBean groupBean){
+        if(this.stateMachine.getState() instanceof StateMain) {
+            Home home = Home.getHomeInstance();
+            this.mapGroupBean.put(groupBean.getNickname(), groupBean);
+            home.getPrompt().setText(VIEW_GROUPS);
+            this.stateMachine.checkCmd(home);
+        }
+    }
+    //////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////
+    public void updateMeetingsList(){
+        if(this.getStateMachine().getState() instanceof StateGroupOptions){
+            Home home = Home.getHomeInstance();
+            home.getPrompt().setText(MEETINGS);
+            this.stateMachine.checkCmd(home);
+        }
+    }
+    ////////////////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////////////
+    public void updateMeetingParticipants(){
+        if(this.getStateMachine().getState() instanceof StateMeetingDetails){
+            Home home = Home.getHomeInstance();
+            home.getPrompt().setText(PARTICIPANTS);
+            this.stateMachine.checkCmd(home);
+        }
+    }
+    //////////////////////////////////////////////////////////////////////////
 
     ///////////////////////////////////////////////////////////////////////
     private void welcomeHandle(Welcome welcome){
@@ -94,15 +174,8 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
         else if(signup.getPrompt().getText().equals(PREV) && !signup.getUserInfo().isEmpty())
             signup.prevScreen();
 
-        else if(signup.getPrompt().getText().equals(CONFIRM) && signup.getStateMachine().getQuestion() == null){
-
+        else if(signup.getPrompt().getText().equals(CONFIRM) && signup.getStateMachine().getQuestion() == null)
             this.initSignUpPhase(signup);
-            signup.setSignMode(true);
-            Signin.getSigninInstance().displaySignOptions();
-            SecondMain.getCurrScene().setRoot(Signin.getSigninInstance());
-            signup.getPrompt().clear();
-            signup.restoreScreen();
-        }
 
         else if(signup.getSignMode().equals(true) && signup.getPrompt().getText().equals(MANUAL)){
             signup.setSignMode(false);
@@ -190,18 +263,17 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
     }
     /////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////
     private void registerUser(UserSignUpBean userSignUpBean){
-        UserManageCommunityBoundary userManageCommunityBoundary = new UserManageCommunityBoundary();
+        this.userManageCommunityBoundary = new UserManageCommunityBoundary();
         try {
-            UserSignInBean userSignInBean = userManageCommunityBoundary.registerIntoSystem(userSignUpBean);
+            UserSignInBean userSignInBean = this.userManageCommunityBoundary.registerIntoSystem(userSignUpBean);
             credentialMsg(userSignInBean.getNickname(), userSignInBean.getPassword());
-            this.assignUserCredentials(userSignUpBean.getName()+" "+userSignUpBean.getSurname(), userSignInBean.getNickname(), userSignInBean.getPassword());
         }catch(InternalException internalException){
             infoErrorMsg(internalException.getMessage());
         }
     }
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     private void signinHandle(Signin signin){
@@ -217,13 +289,8 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
         else if(signin.getPrompt().getText().equals(PREV) && !signin.getUserInfo().isEmpty())
             signin.prevScreen();
 
-        else if(signin.getPrompt().getText().equals(CONFIRM) && signin.getStateMachine().getQuestion() == null){
-
-            signin.setSignMode(true);
-            signin.getPrompt().clear();
-            signin.restoreScreen();
-            SecondMain.getCurrScene().setRoot(Home.getHomeInstance());
-        }
+        else if(signin.getPrompt().getText().equals(CONFIRM) && signin.getStateMachine().getQuestion() == null)
+            this.initSigninPhase(signin);
 
         else if(signin.getSignMode().equals(true) && signin.getPrompt().getText().equals(MANUAL)){
             signin.setSignMode(false);
@@ -260,6 +327,90 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
 
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    ///////////////////////////////////////////////////////////////////////////
+    private void initSigninPhase(Signin signin){
+        UserSignInBean userSignInBean = new UserSignInBean();
+        String stackError = this.verifyUserCredentials(signin, userSignInBean);
+        if(stackError != null)
+            infoErrorMsg(stackError);
+        else {
+            this.accessUser(userSignInBean);
+            signin.setSignMode(true);
+        }
+        signin.getPrompt().clear();
+        Signin.getSigninInstance().displaySignOptions();
+    }
+    ///////////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////////////////////////
+    private String verifyUserCredentials(Signin signin, UserSignInBean userSignInBean){
+        String stackError = null;
+
+        try{
+            userSignInBean.setNickname(signin.getUserInfo().get(OWN_NICKNAME.getIndex()));
+        }catch(BeanError beanError){
+            stackError = beanError.displayErrors();
+        }
+
+        try {
+            userSignInBean.setPassword(signin.getUserInfo().get(OWN_PASSWORD.getIndex()));
+        }catch(BeanError beanError){
+            stackError = beanError.displayErrors();
+        }
+
+        return stackError;
+    }
+    /////////////////////////////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////
+    private void accessUser(UserSignInBean userSignInBean){
+
+        // needed if client run the application and has already done sign-up phase in previous sessions
+        if(this.userManageCommunityBoundary == null)
+            this.userManageCommunityBoundary = new UserManageCommunityBoundary();
+
+        try{
+            Map<String, Object> mapObjects = this.userManageCommunityBoundary.logIntoSystem(userSignInBean);
+
+            this.assignCurrUserBean(mapObjects);
+            this.assignMapGroupsBean(mapObjects);
+
+            this.assignUserCredentials(this.currUserBean.getName()+" "+this.currUserBean.getSurname(),
+                    this.currUserBean.getNickname(), userSignInBean.getPassword());
+
+            SecondMain.getCurrScene().setRoot(Home.getHomeInstance());
+
+        }catch(InternalException internalException){
+            infoErrorMsg(internalException.getMessage());
+        }
+
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////
+    private void assignCurrUserBean(Map<String, Object> mapObjects){
+        UserBean userBean = null;
+        for(Map.Entry<String, Object> entry : mapObjects.entrySet()){
+            if(entry.getValue() instanceof UserBean) { // discard GroupBean instances
+                userBean = (UserBean) entry.getValue();
+                break;
+            }
+        }
+        this.currUserBean = userBean;
+    }
+    ////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////
+    private void assignMapGroupsBean(Map<String, Object> mapObjects){
+        Map<String, GroupBean> mapGroupsBean = new HashMap<>();
+        for(Map.Entry<String, Object> entry : mapObjects.entrySet()) {
+            if (entry.getValue() instanceof GroupBean) // discard UserBean instance
+                mapGroupsBean.put(entry.getKey(), (GroupBean) entry.getValue());
+        }
+        this.mapGroupBean = mapGroupsBean;
+    }
+    ////////////////////////////////////////////////////////////////////////////////
 
     ///////////////////////////////////////////////////////////////////////////////////////
     private void assignUserCredentials(String fullName, String nickname, String password){
@@ -302,6 +453,14 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
 
     ////////////////////////////////////////////////////////////////////
     private void moveBackToWelcomePage(Home home){
+        if(this.userManageCommunityBoundary.hasStartedSignIn()){
+            try{
+                this.userManageCommunityBoundary.freeResources();
+            }catch (InternalException internalException){
+                infoErrorMsg(internalException.getMessage());
+            }
+        }
+        // Otherwise, call freeResources of second boundary
         SecondMain.getCurrScene().setRoot(Welcome.getWelcomeInstance());
         home.getPrompt().clear();
     }

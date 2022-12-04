@@ -1,2 +1,2 @@
-view.graphicalui.second.signupquestionstates.QuestionName#next(Lview/graphicalui/second/QuestionStateMachine;)V
-view.graphicalui.second.signupquestionstates.QuestionSurname#getQuestionSurnameInstance()Lview/graphicalui/second/signupquestionstates/QuestionSurname;
+model.db.dbconnection.PersistencyDB#<init>()V
+model.db.dbconnection.PersistencyDB#fetchDBConfigProperties()V

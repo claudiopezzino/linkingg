@@ -1,2 +1,3 @@
-view.graphicalui.second.groupquestionstates.QuestionGroupNickname#next(Lview/graphicalui/second/QuestionStateMachine;)V
-view.graphicalui.second.groupquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/groupquestionstates/QuestionEnd;
+model.dao.FactoryDAO#createUserDAO()Lmodel/dao/UserDAO;
+model.dao.UserDAO#<init>()V
+model.dao.UserDAO#instance-init#

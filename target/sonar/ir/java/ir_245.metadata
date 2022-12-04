@@ -1,6 +1,3 @@
-view.graphicalui.second.Welcome#setUpScreen()V
-javafx.scene.Node#setFocusTraversable(Z)V
-javafx.scene.control.TextArea#instance-init#
-javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
-javafx.scene.control.TextArea#<init>()V
-javafx.scene.control.TextInputControl#setEditable(Z)V
+view.graphicalui.second.meetingquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/meetingquestionstates/QuestionEnd;
+view.graphicalui.second.meetingquestionstates.QuestionEnd#instance-init#
+view.graphicalui.second.meetingquestionstates.QuestionEnd#<init>()V

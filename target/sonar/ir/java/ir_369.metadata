@@ -1,13 +1,4 @@
-view.graphicalui.first.toolbardecorations.MainBarDecorator#setUpMainBar()V
-java.util.ArrayList#<init>()V
-javafx.scene.control.Labeled#setGraphic(Ljavafx/scene/Node;)V
-javafx.scene.control.Separator#instance-init#
-javafx.scene.image.ImageView#<init>(Ljava/lang/String;)V
-javafx.scene.control.Separator#<init>()V
-javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;
-java.util.ArrayList#instance-init#
-javafx.scene.image.ImageView#instance-init#
-javafx.scene.control.Button#<init>()V
-javafx.scene.layout.HBox#<init>([Ljavafx/scene/Node;)V
-javafx.scene.control.Button#instance-init#
-javafx.scene.layout.HBox#instance-init#
+view.bean.UserSignUpBean#setEmail(Ljava/lang/String;)V
+view.bean.errorsignupdecorations.EmailBeanErrorDecorator#instance-init#
+view.bean.errorsignupdecorations.EmailBeanErrorDecorator#<init>(Lview/bean/BeanError;)V
+view.bean.Regex#isMatching(Ljava/lang/String;Ljava/lang/String;)Z

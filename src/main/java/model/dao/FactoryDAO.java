@@ -1,7 +1,5 @@
 package model.dao;
 
-import static model.dao.DAO.USER_DAO;
-
 public class FactoryDAO {
 
     ////////////////////////////////////////////
@@ -14,10 +12,12 @@ public class FactoryDAO {
 
     ///////////////////////////////////////////////
     public BaseDAO createDAO(DAO dao){
-        if (dao == USER_DAO) {
-            return createUserDAO();
+        switch (dao){
+            case USER_DAO: return createUserDAO();
+            case GROUP_DAO: return createGroupDAO();
+            case MEETING_DAO: return createMeetingDAO();
+            default: return null;
         }
-        return null;
     }
     ///////////////////////////////////////////////
 
@@ -26,6 +26,18 @@ public class FactoryDAO {
         return new UserDAO();
     }
     /////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////
+    private GroupDAO createGroupDAO(){
+        return new GroupDAO();
+    }
+    ////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////
+    private MeetingDAO createMeetingDAO(){
+        return new MeetingDAO();
+    }
+    //////////////////////////////////////////////////////////////////
 
     //////////////////////////////////////////////////
     public static FactoryDAO getSingletonInstance() {

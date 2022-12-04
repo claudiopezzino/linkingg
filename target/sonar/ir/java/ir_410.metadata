@@ -1,2 +1,2 @@
-view.graphicalui.second.Sign#prevScreen()V
-javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.graphicalui.second.SignupInfo#getIndex()Ljava/lang/Integer;
+java.lang.Enum#ordinal()I

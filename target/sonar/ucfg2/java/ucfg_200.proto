@@ -1,45 +1,45 @@
 
-èview.graphicalui.second.usernamequestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/usernamequestionstates/QuestionEnd;~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java' '(4"3*…
-2~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java)" )(3Å˛
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java)& )(1@
-%1:view.graphicalui.second.usernamequestionstates.QuestionEnd":view.graphicalui.second.usernamequestionstates.QuestionEndì
-ê
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java)" )(3
-%2"Dview.graphicalui.second.usernamequestionstates.QuestionEnd#<init>()V*B
-@
-%1:view.graphicalui.second.usernamequestionstates.QuestionEnd§
-°
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java) )(3U<
-:view.graphicalui.second.usernamequestionstates.QuestionEnd"
-questionEndInstance"__id*B
-@
-%1:view.graphicalui.second.usernamequestionstates.QuestionEnd*
-1*≤
-3~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java( ((§
-°
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java( ((@
-%0:view.graphicalui.second.usernamequestionstates.QuestionEnd"__id*W*U<
-:view.graphicalui.second.usernamequestionstates.QuestionEnd"
-questionEndInstance*
+Åview.graphicalui.first.SignupPage$InfoErrorDialog#getInfoErrorDialogInstance()Lview/graphicalui/first/SignupPage$InfoErrorDialog;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaæ& æ(@"3*ª
+2g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¿* ¿(?ÿ’
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¿. ¿(=7
+%11view.graphicalui.first.SignupPage$InfoErrorDialog"1view.graphicalui.first.SignupPage$InfoErrorDialogÍ
+Á
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¿* ¿(?
+%2";view.graphicalui.first.SignupPage$InfoErrorDialog#<init>()V*9
+7
+%11view.graphicalui.first.SignupPage$InfoErrorDialogˇ
+¸
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¿ ¿(?P3
+1view.graphicalui.first.SignupPage$InfoErrorDialog"
+infoErrorDialogInstance"__id*9
+7
+%11view.graphicalui.first.SignupPage$InfoErrorDialog*
+1*ˆ
+3g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaø ø(&ˇ
+¸
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaø ø(&7
+%01view.graphicalui.first.SignupPage$InfoErrorDialog"__id*R*P3
+1view.graphicalui.first.SignupPage$InfoErrorDialog"
+infoErrorDialogInstance*
 2
-1*Ò
-1~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java* *("§
-°
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java* *("@
-%3:view.graphicalui.second.usernamequestionstates.QuestionEnd"__id*W*U<
-:view.graphicalui.second.usernamequestionstates.QuestionEnd"
-questionEndInstance"ƒ
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java* *(#B
-@
-%3:view.graphicalui.second.usernamequestionstates.QuestionEndB>"<
-:view.graphicalui.second.usernamequestionstates.QuestionEnd
+1*ï
+1g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¡ ¡(*ˇ
+¸
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¡ ¡(*7
+%31view.graphicalui.first.SignupPage$InfoErrorDialog"__id*R*P3
+1view.graphicalui.first.SignupPage$InfoErrorDialog"
+infoErrorDialogInstance"§
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¡ ¡(+9
+7
+%31view.graphicalui.first.SignupPage$InfoErrorDialogB5"3
+1view.graphicalui.first.SignupPage$InfoErrorDialog

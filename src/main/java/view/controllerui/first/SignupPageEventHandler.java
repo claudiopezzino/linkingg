@@ -2,7 +2,6 @@ package view.controllerui.first;
 
 import control.controlexceptions.InternalException;
 import javafx.event.EventHandler;
-import javafx.scene.control.Alert;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 import view.bean.BeanError;
@@ -13,13 +12,14 @@ import view.graphicalui.first.Container;
 import view.graphicalui.first.FirstMain;
 import view.graphicalui.first.HomePage.UserProfileDialog;
 import view.graphicalui.first.HomePage.UserProfileDialog.UsernameDialog;
+import view.graphicalui.first.SigninPage;
 import view.graphicalui.first.SignupPage;
 import view.graphicalui.first.SignupPage.CredentialDialog;
-import view.graphicalui.first.SignupPage.InfoErrorDialog;
 
 import java.util.Map;
 import java.util.Optional;
 
+import static view.controllerui.first.Dialog.errorDialog;
 import static view.graphicalui.first.Page.*;
 import static view.graphicalui.first.toolbaritems.SignToolbarItems.*;
 import static view.graphicalui.first.toolbaritems.SignToolbarItems.MainBarItems.*;
@@ -31,40 +31,29 @@ public class SignupPageEventHandler<T extends MouseEvent> implements EventHandle
     @Override
     public void handle(T event) {
 
-        HBox mainBar = (HBox) SignupPage.getSignupPageInstance(null).getToolBar().getItems().get(MAIN_BAR.getIndex());
+        if(event.getEventType().equals(MouseEvent.MOUSE_CLICKED)) {
 
-        if(event.getSource().equals(mainBar.getChildren().get(HOME_BUTTON.getIndex())))
-            FirstMain.getCurrScene().setRoot(Container.getRoot(WELCOME_PAGE));
+            HBox mainBar = (HBox) SignupPage.getSignupPageInstance(null).getToolBar().getItems().get(MAIN_BAR.getIndex());
 
-        else if(event.getSource().equals(SignupPage.getSignupPageInstance(null).getBtnSignUp())) {
-            SignupPage signupPage = SignupPage.getSignupPageInstance(null);
-            UserSignUpBean userSignUpBean = new UserSignUpBean();
+            if (event.getSource().equals(mainBar.getChildren().get(HOME_BUTTON.getIndex())))
+                FirstMain.getCurrScene().setRoot(Container.getRoot(WELCOME_PAGE));
 
-            String stackError = this.checkUserInfo(userSignUpBean, signupPage.getName(), signupPage.getSurname(), signupPage.getAddress(), signupPage.getMail(), signupPage.getCell(), signupPage.getAccount());
-            if(stackError != null)
-                this.showErrorDialog(stackError);
-            else {
-                this.registerUser(signupPage, userSignUpBean);
-                FirstMain.getCurrScene().setRoot(Container.getRoot(SIGN_IN_PAGE));
-            }
+            else if (event.getSource().equals(SignupPage.getSignupPageInstance(null).getBtnSignUp())) {
+                SignupPage signupPage = SignupPage.getSignupPageInstance(null);
+                UserSignUpBean userSignUpBean = new UserSignUpBean();
+
+                String stackError = this.checkUserInfo(userSignUpBean, signupPage.getName(), signupPage.getSurname(), signupPage.getAddress(), signupPage.getMail(), signupPage.getCell(), signupPage.getAccount());
+                if (stackError != null)
+                    errorDialog(stackError);
+                else
+                    this.registerUser(signupPage, userSignUpBean);
+            } else
+                Dialog.errorDialog("Something went wrong, please try later.");
+
+            this.clearSignupTextFields(SignupPage.getSignupPageInstance(null));
         }
-
-        else{
-            Alert alert = new Alert(Alert.AlertType.INFORMATION, "Work in progress...");
-            alert.showAndWait();
-        }
-
-        this.clearSignupTextFields(SignupPage.getSignupPageInstance(null));
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    ////////////////////////////////////////////////////////////////////////////////////
-    private void showErrorDialog(String errors){
-        InfoErrorDialog infoErrorDialog = InfoErrorDialog.getInfoErrorDialogInstance();
-        infoErrorDialog.getLabelErrors().setText(errors);
-        infoErrorDialog.showAndWait();
-    }
-    ////////////////////////////////////////////////////////////////////////////////////
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////
     private void registerUser(SignupPage signupPage, UserSignUpBean userSignUpBean){
@@ -74,9 +63,14 @@ public class SignupPageEventHandler<T extends MouseEvent> implements EventHandle
 
             CredentialDialog credentialDialog = CredentialDialog.getCredentialDialogInstance();
             this.revealUserCredentials(signupPage, credentialDialog, userSignInBean);
+
+            /* This transfer is needed to allow Sign-in page to continue with same Controller instance */
+            SigninPage.getHandler().setUserManageCommunityBoundary(userManageCommunityBoundary);
+
+            FirstMain.getCurrScene().setRoot(Container.getRoot(SIGN_IN_PAGE));
         }
         catch(InternalException internalException){
-            this.showErrorDialog(internalException.getMessage());
+            errorDialog(internalException.getMessage());
         }
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////

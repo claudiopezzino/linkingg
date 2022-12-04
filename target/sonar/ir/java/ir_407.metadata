@@ -1,1 +1,1 @@
-view.graphicalui.second.Sign#fillUserInfo(Ljava/lang/String;)V
+view.graphicalui.second.QuestionStateMachine#getQuestion()Lview/graphicalui/second/AbstractQuestion;

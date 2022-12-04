@@ -1,5 +1,2 @@
-view.graphicalui.second.Home#<init>()V
-javafx.scene.text.Text#instance-init#
-view.controllerui.second.handlerstates.StateMain#getStateMainInstance()Lview/controllerui/second/handlerstates/StateMain;
-javafx.scene.text.Text#<init>(Ljava/lang/String;)V
-view.graphicalui.second.Home#setUpHomeRoot()Ljavafx/scene/layout/VBox;
+view.graphicalui.second.passwordquestionstates.QuestionCurrentPassword#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.passwordquestionstates.QuestionNewPassword#getQuestionNewPasswordInstance()Lview/graphicalui/second/passwordquestionstates/QuestionNewPassword;

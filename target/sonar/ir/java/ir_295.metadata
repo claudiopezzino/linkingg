@@ -1,1 +1,6 @@
-view.graphicalui.first.MeetingPage#getToolBar()Ljavafx/scene/control/ToolBar;
+view.graphicalui.second.Welcome#setUpScreen()V
+javafx.scene.Node#setFocusTraversable(Z)V
+javafx.scene.control.TextArea#instance-init#
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+javafx.scene.control.TextArea#<init>()V
+javafx.scene.control.TextInputControl#setEditable(Z)V

@@ -1,69 +1,14 @@
 
-yview.graphicalui.first.HomePage$GroupDeletionDialog#groupDeletionResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaë$ ë(7"3*º
-2e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaí í(Ç
-Ä
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaí í(
-%1java.util.Map"__id*@*>5
-3view.graphicalui.first.HomePage$GroupDeletionDialog"
-map
-
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaí í(%
-%2java.lang.String"__id*
-""Þ
-Û
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaí' í(9 
-%3javafx.scene.control.Label"__id*J*H5
-3view.graphicalui.first.HomePage$GroupDeletionDialog"
-groupNicknameëè
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaí' í(C
-%4java.lang.String"8javafx.scene.control.Labeled#getText()Ljava/lang/String;*"
- 
-%3javafx.scene.control.Label2	getText()×
-Ô
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaí í(D
-%5java.lang.String"__mapSet*
-
-%1java.util.Map*
-
-%2java.lang.String*
-
-%4java.lang.StringÇ
-Ä
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaî î(
-%6java.util.Map"__id*@*>5
-3view.graphicalui.first.HomePage$GroupDeletionDialog"
-map"~
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaî î( 
-
-%6java.util.Map*¦
-3e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaì ì(±®
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaì ì(2%
-%0javafx.scene.control.ButtonType"Sview.graphicalui.first.PageDialog#getBtnTypeSave()Ljavafx/scene/control/ButtonType;*75
-3view.graphicalui.first.HomePage$GroupDeletionDialog2getBtnTypeSave()*
-2
-1*¸
-1e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javað ð(Ë
-È
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javað ð()
-%7java.util.Map"/java.util.Collections#emptyMap()Ljava/util/Map;*"
-java.util.Collections"~
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javað ð(*
-
-%7java.util.Map:-
-
-buttonTypejavafx.scene.control.ButtonTypeB75
-3view.graphicalui.first.HomePage$GroupDeletionDialog
+@view.graphicalui.second.SigninInfo#getIndex()Ljava/lang/Integer;f
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/SigninInfo.java ("1*©
+1f
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/SigninInfo.java (ÄÁ
+f
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/SigninInfo.java (	
+%0int"java.lang.Enum#ordinal()I*&$
+"view.graphicalui.second.SigninInfo2	ordinal()"u
+f
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/SigninInfo.java (
+	
+%0intB&$
+"view.graphicalui.second.SigninInfo

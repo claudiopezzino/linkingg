@@ -1,21 +1,14 @@
 
-Xview.graphicalui.first.toolbardecorations.Decorator#draw()Ljavafx/scene/control/ToolBar;w
-m/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/Decorator.java ("1*ß
-1w
-m/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/Decorator.java (Ó
-Î
-w
-m/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/Decorator.java ($
-%0view.graphicalui.first.Toolbar"__id*D*B5
-3view.graphicalui.first.toolbardecorations.Decorator"	
-toolbarïí
-w
-m/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/Decorator.java (""
-%1javafx.scene.control.ToolBar"Cview.graphicalui.first.Toolbar#draw()Ljavafx/scene/control/ToolBar;*&
-$
-%0view.graphicalui.first.Toolbar2draw()"ü
-w
-m/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/Decorator.java (#$
-"
-%1javafx.scene.control.ToolBarB75
-3view.graphicalui.first.toolbardecorations.Decorator
+hview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$MainBarItems#getIndex()Ljava/lang/Integer;Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java ("1*¶
+1Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java (àÖ
+Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java (!	
+%0int"java.lang.Enum#ordinal()I*NL
+Jview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$MainBarItems2	ordinal()"ë
+Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java ("
+	
+%0intBNL
+Jview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$MainBarItems

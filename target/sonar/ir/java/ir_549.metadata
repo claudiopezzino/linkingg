@@ -1,2 +1,1 @@
-view.graphicalui.second.meetingquestionstates.QuestionTime#display()V
-view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;
+view.graphicalui.second.signupquestionstates.QuestionMail#<init>()V

@@ -1,5 +1,1 @@
-view.graphicalui.second.Home#passwordChangeMode()V
-view.graphicalui.second.passwordquestionstates.QuestionCurrentPassword#getQuestionCurrentPasswordInstance()Lview/graphicalui/second/passwordquestionstates/QuestionCurrentPassword;
-view.graphicalui.second.QuestionStateMachine#instance-init#
-view.graphicalui.second.QuestionStateMachine#<init>()V
-view.controllerui.second.handlerstates.StatePasswordChange#getStatePasswordChangeInstance()Lview/controllerui/second/handlerstates/StatePasswordChange;
+view.graphicalui.second.meetingquestionstates.QuestionDate#instance-init#

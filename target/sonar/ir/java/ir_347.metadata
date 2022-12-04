@@ -1,1 +1,1 @@
-view.graphicalui.second.meetingquestionstates.QuestionAddrToStartSearch#<init>()V
+view.graphicalui.first.MeetingPage#getToolBar()Ljavafx/scene/control/ToolBar;

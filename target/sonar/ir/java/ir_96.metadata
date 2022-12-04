@@ -1,1 +1,3 @@
-view.graphicalui.second.Home#membersPreviousBlacklist()V
+view.graphicalui.second.Home#instance-init#
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#

@@ -1,3 +1,1 @@
-view.graphicalui.second.passwordquestionstates.QuestionCurrentPassword#getQuestionCurrentPasswordInstance()Lview/graphicalui/second/passwordquestionstates/QuestionCurrentPassword;
-view.graphicalui.second.passwordquestionstates.QuestionCurrentPassword#<init>()V
-view.graphicalui.second.passwordquestionstates.QuestionCurrentPassword#instance-init#
+view.bean.BeanErrorDecorator#instance-init#

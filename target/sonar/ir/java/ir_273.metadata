@@ -1,4 +1,4 @@
-view.controllerui.second.KeyEventHandler#makeUserCredentials(Lview/graphicalui/second/Sign;)V
-view.controllerui.second.KeyEventHandler#assignUserCredentials(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-java.lang.String#toLowerCase()Ljava/lang/String;
-view.controllerui.second.Message#credentialMsg(Ljava/lang/String;Ljava/lang/String;)V
+view.graphicalui.second.Shell#setUpTitle(Ljavafx/scene/text/Text;)V
+javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;
+javafx.scene.layout.HBox#<init>([Ljavafx/scene/Node;)V
+javafx.scene.layout.HBox#instance-init#

@@ -1,16 +1,15 @@
 
-sview.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog#getLabelCurrNickname()Ljavafx/scene/control/Label;e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¼ ¼(-"1*ê
+^view.graphicalui.first.SigninPage#getHandler()Lview/controllerui/first/SigninPageEventHandler;e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.java}5 }(?"1*½
 1e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java½ ½(ï
-ì
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.java~ ~(®
+«
 e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java½ ½(- 
-%0javafx.scene.control.Label"__id*[*YB
-@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog"
-labelCurrNickname"‹
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.java~ ~(4
+%0.view.controllerui.first.SigninPageEventHandler"__id*
+"""Ÿ
 e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java½ ½(."
- 
-%0javafx.scene.control.LabelBDB
-@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.java~ ~(6
+4
+%0.view.controllerui.first.SigninPageEventHandlerB%"#
+!view.graphicalui.first.SigninPage

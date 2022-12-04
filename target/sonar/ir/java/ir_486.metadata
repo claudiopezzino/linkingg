@@ -1,2 +1,9 @@
-view.graphicalui.second.Signin#restoreScreen()V
-view.graphicalui.second.signinquestionstates.QuestionNickname#getQuestionNicknameInstance()Lview/graphicalui/second/signinquestionstates/QuestionNickname;
+view.controllerui.first.SignupPageEventHandler#revealUserCredentials(Lview/graphicalui/first/SignupPage;Lview/graphicalui/first/SignupPage$CredentialDialog;Lview/bean/UserSignInBean;)V
+view.controllerui.first.SignupPageEventHandler#assignUsernameToUsernameDialog(Ljava/util/Map;)V
+java.util.Optional#isPresent()Z
+view.controllerui.first.SignupPageEventHandler#assignUsernameToUserProfile(Ljava/util/Map;)V
+javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
+view.controllerui.first.SignupPageEventHandler#assignFullNameToUserProfile(Lview/graphicalui/first/HomePage$UserProfileDialog;Lview/graphicalui/first/SignupPage;)V
+javafx.scene.control.Labeled#setText(Ljava/lang/String;)V
+java.util.Optional#get()Ljava/lang/Object;
+view.graphicalui.first.HomePage$UserProfileDialog#getUserProfileDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog;

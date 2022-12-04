@@ -1,1 +1,2 @@
-view.graphicalui.second.SecondMain#instance-init#
+view.graphicalui.first.SignupPage#getName()Ljava/lang/String;
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;

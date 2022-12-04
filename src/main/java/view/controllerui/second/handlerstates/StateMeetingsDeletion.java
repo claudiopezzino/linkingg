@@ -29,7 +29,7 @@ public class StateMeetingsDeletion implements AbstractState{
             home.meetingsPreviousBlacklist();
 
         else if(home.getPrompt().getText().equals(DELETE)) {
-            home.startRemoval(home.getBlacklist(), home.getGroupMeetingList());
+            // try to add an error message
             home.initBlacklist();
             meetingDeletionMsg();
             home.listMeetings();

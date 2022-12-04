@@ -30,7 +30,7 @@ public class StateMembersRemoval implements AbstractState{
             home.membersPreviousBlacklist();
 
         else if(home.getPrompt().getText().equals(REMOVE)) {
-            home.startRemoval(home.getBlacklist(), home.getGroupMemberList());
+            // try to add an error message
             home.initBlacklist();
             membersRemovalMsg();
             home.listMembers();

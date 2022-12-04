@@ -22,18 +22,18 @@ public class Home extends Shell{
     private static Home homeInstance;
     /////////////////////////////////
 
-    ////////////////////////////////////////////////////////
-    private static String currUserFullName = "Name Surname";
-    ////////////////////////////////////////////////////////
+    ///////////////////////////////////////
+    private static String currUserFullName;
+    ///////////////////////////////////////
 
-    /////////////////////////////////////////////
-    private String currUserNickname = "nickname";
+    ////////////////////////////////
+    private String currUserNickname;
     private String oldUserNickname;
-    /////////////////////////////////////////////
+    ///////////////////////////////
 
     ///////////////////////////////
     private String oldUserPassword;    // copy of userPassword before update
-    private String currUserPassword = "password";   // to fetch from DB
+    private String currUserPassword;   // to fetch from DB
     ////////////////////////////////
 
     //////////////////////////
@@ -79,13 +79,32 @@ public class Home extends Shell{
     private QuestionStateMachine stateMachine;
     //////////////////////////////////////////
 
+    //////////////////////////////
+    private String groupOwnerNick;
+    //////////////////////////////
+
     /////////////////////////////////////////////////////////////////////////////
-    private final List<Pair<String, String>> fullGroupList = new ArrayList<>();
-    private final List<Pair<String, String>> joinedGroupList = new ArrayList<>();
-    private final List<Pair<String, String>> ownGroupList = new ArrayList<>();
-    private final List<Pair<String, String>> groupMemberList = new ArrayList<>();
-    private final List<Pair<String, String>> groupMeetingList = new ArrayList<>();
-    //////////////////////////////////////////////////////////////////////////////
+    private List<Pair<String, String>> listOwnGroups;
+    private List<Pair<String, String>> listOtherGroups;
+    /////////////////////////////////////////////////////////////////////////////
+
+    ///////////////////////////////////////////////////////////////////////////////
+    private List<Pair<String, String>> listOwnMeetings;
+    private List<Pair<String, String>> listOtherMeetings;
+    ///////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////
+    private List<Pair<String, String>> listGroupMembers;
+    ////////////////////////////////////////////////////
+
+    ////////////////////////////////////////
+    private List<String> listMeetingJoiners;
+    ////////////////////////////////////////
+
+    /////////////////////////////////
+    // both member and meeting details
+    private List<String> listDetails;
+    /////////////////////////////////
 
     //////////////////////////
     private String groupName;
@@ -96,6 +115,14 @@ public class Home extends Shell{
     private String meetingId;
     /////////////////////////
 
+    ///////////////////////////////////////////
+    // End Of Name
+    private static final String EON = "),   ";
+    // End Of Line
+    private static final String EOL = "\n\n\n";
+    ///////////////////////////////////////////
+
+
     ////////////////////////////////////////////////////////////////////////////
     private Home(){
         // MAIN
@@ -103,7 +130,7 @@ public class Home extends Shell{
         this.setUpPrompt();
         this.setUpScreen();
         this.getChildren().add(this.setUpHomeRoot());
-        this.handler.getStateMachine().setState(StateMain.getStateMainInstance());
+        handler.getStateMachine().setState(StateMain.getStateMainInstance());
     }
     //////////////////////////////////////////////////////////////////////////////
 
@@ -134,7 +161,7 @@ public class Home extends Shell{
         // MAIN
         this.screen.setText(LEGEND + welcomeMsg + MAIN_OPTIONS);
         this.screen.setFocusTraversable(false);
-        this.handler.getStateMachine().setState(StateMain.getStateMainInstance());
+        handler.getStateMachine().setState(StateMain.getStateMainInstance());
     }
     //////////////////////////////////////////////////////////////////////////////
 
@@ -144,8 +171,9 @@ public class Home extends Shell{
         this.screen.setText(LEGEND + welcomeMsg + "manage \n\n\n" +
                 "->   nickname\n\n" +
                 "->   password\n\n" +
+                "->   image profile\n\n"+
                 "->   link invitations\n\n\n");
-        this.handler.getStateMachine()
+        handler.getStateMachine()
                 .setState(StateManageProfile.getStateManageProfileInstance());
     }
     //////////////////////////////////////////////////////////////////////////
@@ -163,7 +191,7 @@ public class Home extends Shell{
 
         this.screen.appendText("Groups' nickname:   ");
 
-        this.handler.getStateMachine().setState(StateUserLinkInvitations.getStateUserLinkInvitationsInstance());
+        handler.getStateMachine().setState(StateUserLinkInvitations.getStateUserLinkInvitationsInstance());
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -183,7 +211,7 @@ public class Home extends Shell{
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public void usernameChangeMode(){
         // USERNAME_CHANGE
-        if(this.oldUserNickname!=null && !this.currUserNickname.equals(this.oldUserNickname))
+        if(this.oldUserNickname != null && !this.currUserNickname.equals(this.oldUserNickname))
             this.currUserNickname = this.oldUserNickname;
         this.stateMachine = new QuestionStateMachine();
         this.stateMachine.setQuestion(QuestionNewUsername.getQuestionNewUsernameInstance());
@@ -191,7 +219,7 @@ public class Home extends Shell{
                 " \u2022  Current nickname:  " + this.currUserNickname);
         this.stateMachine.displayQuestion();
         this.stateMachine.nextQuestion();
-        this.handler.getStateMachine().setState(StateUsernameChange.getStateUsernameChangeInstance());
+        handler.getStateMachine().setState(StateUsernameChange.getStateUsernameChangeInstance());
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -202,7 +230,7 @@ public class Home extends Shell{
         this.stateMachine.setQuestion(QuestionCurrentPassword.getQuestionCurrentPasswordInstance());
         this.screen.appendText(LEGEND + welcomeMsg + "manage your password\n\n\n");
         this.stateMachine.displayQuestion();
-        this.handler.getStateMachine().setState(StatePasswordChange.getStatePasswordChangeInstance());
+        handler.getStateMachine().setState(StatePasswordChange.getStatePasswordChangeInstance());
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -244,7 +272,7 @@ public class Home extends Shell{
                 "->   people\n\n" +
                 "->   pages\n\n\n\n\n"
         );
-        this.handler.getStateMachine().setState(StateSearch.getStateSearchInstance());
+        handler.getStateMachine().setState(StateSearch.getStateSearchInstance());
     }
     //////////////////////////////////////////////////////////////////////////////////
 
@@ -259,7 +287,7 @@ public class Home extends Shell{
                 "->   name\n\n" +
                 "->   nickname\n\n\n\n\n"
         );
-        this.handler.getStateMachine().setState(StateSearchFilter.getStateSearchFilterInstance());
+        handler.getStateMachine().setState(StateSearchFilter.getStateSearchFilterInstance());
     }
     //////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -274,7 +302,7 @@ public class Home extends Shell{
                 + " to search all the "
                 + this.currSearchMode
                 + " that match your filter: ");
-        this.handler.getStateMachine().setState(StateSearchInput.getStateSearchInput());
+        handler.getStateMachine().setState(StateSearchInput.getStateSearchInput());
     }
     ////////////////////////////////////////////////////////////////////////////////////
 
@@ -292,7 +320,7 @@ public class Home extends Shell{
                     "\u2022 Type one group name at a time.\n\n" +
                     "\u2022 Type 'link request' to make known chosen groups about you.\n\n\n" +
                     "Groups:  ");
-            this.handler.getStateMachine().setState(StateGroupRequest.getStateGroupRequestInstance());
+            handler.getStateMachine().setState(StateGroupRequest.getStateGroupRequestInstance());
         }
         else{  // equals(PEOPLE)
             // SEARCH_END
@@ -301,7 +329,7 @@ public class Home extends Shell{
                     "\u2022 Type one or more groups of yours.\n\n" +
                     "\u2022 Type 'link invitation' to make known chosen person about your groups.\n\n\n" +
                     "Person:  ");
-            this.handler.getStateMachine().setState(StateSearchEnd.getStateSearchEndInstance());
+            handler.getStateMachine().setState(StateSearchEnd.getStateSearchEndInstance());
         }
     }
     ///////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -317,7 +345,7 @@ public class Home extends Shell{
                 " doesn't know: " +
                 "[list of unknown groups]\n\n" +
                 "Groups:  ");
-        this.handler.getStateMachine().setState(StateMemberInvitation.getStateMemberInvitationInstance());
+        handler.getStateMachine().setState(StateMemberInvitation.getStateMemberInvitationInstance());
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -354,7 +382,7 @@ public class Home extends Shell{
         this.stateMachine = new QuestionStateMachine();
         this.stateMachine.setQuestion(QuestionGroupName.getQuestionGroupNameInstance());
         this.screen.setText(LEGEND + welcomeMsg + "create group\n");
-        this.handler.getStateMachine().setState(StateGroupCreationName.getStateGroupCreationNameInstance());
+        handler.getStateMachine().setState(StateGroupCreationName.getStateGroupCreationNameInstance());
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -362,7 +390,7 @@ public class Home extends Shell{
     public void saveGroupName(String groupName){
         // GROUP_CREATION_NICKNAME
         this.groupName = groupName;
-        this.handler.getStateMachine().setState(StateGroupCreationNickname.getStateGroupCreationNicknameInstance());
+        handler.getStateMachine().setState(StateGroupCreationNickname.getStateGroupCreationNicknameInstance());
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -370,29 +398,31 @@ public class Home extends Shell{
     public void saveGroupNickname(String groupNickname){
         // GROUP_CREATION_END
         this.groupNickname = groupNickname;
-        this.handler.getStateMachine().setState(StateGroupCreationEnd.getStateGroupCreationEndInstance());
+        handler.getStateMachine().setState(StateGroupCreationEnd.getStateGroupCreationEndInstance());
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    //////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public void listGroups(){
         // GROUPS_VIEW
-        /* fetch groups through DB
-        * and split into own and others */
         this.screen.setText(LEGEND + welcomeMsg + "view your groups\n\n\n" +
-                "Joined:  [other groups list]\n\n" +
-                "Owns:  " );
+                "Others:  ");
 
-        for(Pair<String, String> groupInfo : this.ownGroupList)
-            this.screen.appendText(groupInfo.getValue() + " (@"+groupInfo.getKey()+"),   " );
+        for(Pair<String, String> otherGroupInfo : this.listOtherGroups)
+            this.screen.appendText(otherGroupInfo.getValue() + " (@"+otherGroupInfo.getKey()+EON);
+
+        this.screen.appendText("\n\nOwns:  " );
+
+        for(Pair<String, String> ownGroupInfo : this.listOwnGroups)
+            this.screen.appendText(ownGroupInfo.getValue() + " (@"+ownGroupInfo.getKey()+EON);
 
         this.screen.appendText("\n\n\n\u2022 Type a group nickname to see its members, meetings and link requests.\n\n" +
                 "\u2022 Type 'deletion' to add groups nickname into the blacklist; " +
                 "once you have done type 'delete' to finalise your choice.\n\n\n");
 
-        this.handler.getStateMachine().setState(StateGroupsView.getStateGroupsViewInstance());
+        handler.getStateMachine().setState(StateGroupsView.getStateGroupsViewInstance());
     }
-    /////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////////////
     public void groupsDeletionMode(String mode){
@@ -400,7 +430,7 @@ public class Home extends Shell{
         if(this.blacklist == null)
             this.initBlacklist();// due to sonar warning
         this.showBlacklist(mode);
-        this.handler.getStateMachine().setState(StateGroupsDeletion.getStateGroupsDeletionInstance());
+        handler.getStateMachine().setState(StateGroupsDeletion.getStateGroupsDeletionInstance());
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -460,22 +490,6 @@ public class Home extends Shell{
     }
     ///////////////////////////////////////////////////////////////////
 
-    //////////////////////////////////////////////////////////////////////////////
-    public void startRemoval(List<String> blacklist, List<Pair<String, String>> list) {
-        // 1. delete all groups/meetings/members presents into blacklist from DB
-        // 2. delete reference from current user account/groups owner
-        // 2. delete references from those groups and members account
-        for(Pair<String, String> groupInfo : list){
-            for(String nickname : blacklist){
-                if(groupInfo.getKey().equals(nickname)) {
-                    this.ownGroupList.remove(groupInfo);
-                    break;
-                }
-            }
-        }
-    }
-    /////////////////////////////////////////////////////////////////////////////
-
     //////////////////////////////////////////////////////////////////////////////////////////////
     public void groupOptions(String groupNickname){
         // GROUP_OPTIONS
@@ -485,23 +499,26 @@ public class Home extends Shell{
                 "\n\n\n->   meetings\n\n" +
                 "->   members\n\n" +
                 "->   link requests\n\n\n");
-        this.handler.getStateMachine().setState(StateGroupOptions.getStateGroupOptionsInstance());
+        handler.getStateMachine().setState(StateGroupOptions.getStateGroupOptionsInstance());
     }
     //////////////////////////////////////////////////////////////////////////////////////////////
 
-    /////////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public void listMembers(){
         // MEMBERS_VIEW
         this.screen.setText(LEGEND + welcomeMsg + "view members for the group:   " + this.groupNickname +
-                "\n\n\nMembers:  [list of members]\n\n\n");
+                "\n\n\nOwner:   @" + this.groupOwnerNick + "\n\nMembers:   ");
 
-        this.screen.appendText("\u2022 Type a member's name to see their details.\n\n" +
+        for (Pair<String, String> memberInfo : this.listGroupMembers)
+            this.screen.appendText(memberInfo.getValue() + " (@"+memberInfo.getKey()+EON);
+
+        this.screen.appendText("\n\n\n\u2022 Type owner's or a member's nickname to see their details.\n\n" +
                 "\u2022 Type 'removal' to add members into the blacklist, " +
                 " once you have done type 'remove' to finalise your choice.\n\n\n");
 
-        this.handler.getStateMachine().setState(StateMembersView.getStateMembersViewInstance());
+        handler.getStateMachine().setState(StateMembersView.getStateMembersViewInstance());
     }
-    /////////////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     /////////////////////////////////////////////////////////////////////////////////////////////////
     public void membersRemovalMode(){
@@ -509,16 +526,21 @@ public class Home extends Shell{
         if(this.blacklist == null)
             this.initBlacklist(); // due to sonar warning
         this.showBlacklist(REMOVAL);
-        this.handler.getStateMachine().setState(StateMembersRemoval.getStateMembersRemovalInstance());
+        handler.getStateMachine().setState(StateMembersRemoval.getStateMembersRemovalInstance());
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////
 
     ///////////////////////////////////////////////////////////////////////////////////////////////
     public void showMemberDetails(String targetMember){
         // MEMBER_DETAILS
-        /* Query DB and fetch target member details */
-        this.screen.setText(LEGEND + welcomeMsg + "view details for the member:   " + targetMember + "\n\n");
-        this.handler.getStateMachine().setState(StateMemberDetails.getStateMemberDetailsInstance());
+        /* remember to add group of targetMember */
+        this.screen.setText(LEGEND + welcomeMsg + "view details for the member:   " + targetMember +
+                ", belonging to the group:   " + this.groupNickname + EOL);
+
+        for(String memberDetail : this.listDetails)
+            this.screen.appendText(memberDetail + "\n\n");
+
+        handler.getStateMachine().setState(StateMemberDetails.getStateMemberDetailsInstance());
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -535,7 +557,7 @@ public class Home extends Shell{
 
         this.screen.appendText("Users' nickname:   ");
 
-        this.handler.getStateMachine().setState(StateGroupLinkRequests.getStateGroupLinkRequestsInstance());
+        handler.getStateMachine().setState(StateGroupLinkRequests.getStateGroupLinkRequestsInstance());
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -554,18 +576,24 @@ public class Home extends Shell{
 
     //////////////////////////////////////////////////////////////////////////////////////////////
     public void listMeetings(){
-        /* fetch meetings from DB */
         // MEETINGS_VIEW
         this.screen.setText(LEGEND + welcomeMsg + "view meetings for the group:   " + this.groupNickname +
-                "\n\n\nJoined:  [other meetings list]\n\n" +
-                "Owns:  [own meetings list]\n\n\n");
+                "\n\n\nOthers:  ");
 
-        this.screen.appendText("\u2022 Type a meeting id to see its details.\n\n" +
+        for(Pair<String, String> otherMeetingInfo : this.listOtherMeetings)
+            this.screen.appendText(otherMeetingInfo.getValue() + " (#"+otherMeetingInfo.getKey()+EON);
+
+        this.screen.appendText("\n\nOwns:  ");
+
+        for(Pair<String, String> ownMeetingInfo : this.listOwnMeetings)
+            this.screen.appendText(ownMeetingInfo.getValue() + " (#"+ownMeetingInfo.getKey()+EON);
+
+        this.screen.appendText("\n\n\n\u2022 Type a meeting id to see its details.\n\n" +
                 "\u2022 Type 'deletion' to add your meetings into the blacklist, " +
                 "once you have done type 'delete' to finalise your choice.\n\n" +
                 "\u2022 Type 'propose meeting' to schedule a meeting.\n\n\n");
 
-        this.handler.getStateMachine().setState(StateMeetingsView.getStateMeetingsViewInstance());
+        handler.getStateMachine().setState(StateMeetingsView.getStateMeetingsViewInstance());
     }
     //////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -578,7 +606,7 @@ public class Home extends Shell{
             this.meetingFilters = new ArrayList<>();
         this.screen.setText(LEGEND + welcomeMsg + "propose a meeting to the group " +
                 this.groupNickname + " answering following questions\n\n\n");
-        this.handler.getStateMachine().setState(StateMeetingProposal.getStateMeetingProposalInstance());
+        handler.getStateMachine().setState(StateMeetingProposal.getStateMeetingProposalInstance());
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -621,22 +649,33 @@ public class Home extends Shell{
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////
     public void showMeetingDetails(String meetingId){
         // MEETING_DETAILS
-        /* Query DB and fetch target meeting details */
         this.meetingId = meetingId;
-        this.screen.setText(LEGEND + welcomeMsg + "view details for the meeting:   " + meetingId + "\n\n\n");
+        this.screen.setText(LEGEND + welcomeMsg + "view details for the meeting:   " + meetingId +
+                ", planned for the group:   " + this.groupNickname + EOL);
+
+        for (String meetingDetail : this.listDetails)
+            this.screen.appendText(meetingDetail + "\n\n");
+
         /* insert here a way to delete own meetings and abandon the others */
-        this.screen.appendText("\u2022 Type 'yes' to take part at this meeting.\n\n" +
+        this.screen.appendText("\n\n\n\u2022 Type 'yes' to take part at this meeting.\n\n" +
                 "\u2022 Type 'no' to don't take part at this meeting.\n\n" +
                 "\u2022 Type 'participants' to view who will take part at this meeting.\n\n\n");
-        this.handler.getStateMachine().setState(StateMeetingDetails.getStateMeetingDetailsInstance());
+
+        handler.getStateMachine().setState(StateMeetingDetails.getStateMeetingDetailsInstance());
     }
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////
     public void showMeetingParticipants(){
-        this.screen.setText(LEGEND + welcomeMsg + "view participants for the meeting:   " + this.meetingId + "\n\n\n");
+        this.screen.setText(LEGEND + welcomeMsg + "view participants for the meeting:   " + this.meetingId +
+                ", planned for the group:   " + this.groupNickname + EOL);
+
+        for (String joinerNick : this.listMeetingJoiners)
+            this.screen.appendText("@" + joinerNick + "\n\n");
+
+        handler.getStateMachine().setState(StateMeetingJoinersView.getStateMeetingJoinersViewInstance());
     }
-    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////
     public void meetingsDeletionMode(){
@@ -644,7 +683,7 @@ public class Home extends Shell{
         if(this.blacklist == null)
             this.initBlacklist();  // due to sonar warning
         this.showBlacklist(DELETION);
-        this.handler.getStateMachine().setState(StateMeetingsDeletion.getStateMeetingsDeletionInstance());
+        handler.getStateMachine().setState(StateMeetingsDeletion.getStateMeetingsDeletionInstance());
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -664,6 +703,12 @@ public class Home extends Shell{
     //////////////////////////////////////////////////////////////
     public String getGroupNickname(){ return this.groupNickname; }
     //////////////////////////////////////////////////////////////
+
+    ///////////////////////////////////////////////////////
+    public String getMeetingId() {
+        return this.meetingId;
+    }
+    ///////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////
     public String getSearchTarget() { return searchTarget; }
@@ -745,35 +790,53 @@ public class Home extends Shell{
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////
-    public List<Pair<String, String>> getOwnGroupList() {
-        return this.ownGroupList;
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    public void setGroupOwnerNick(String groupOwnerNick) {
+        this.groupOwnerNick = groupOwnerNick;
     }
-    ////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////
 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    public List<Pair<String, String>> getJoinedGroupList() {
-        return this.joinedGroupList;
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    public void setListOwnGroups(List<Pair<String, String>> listOwnGroups){
+        this.listOwnGroups = listOwnGroups;
     }
-    ///////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    ///////////////////////////////////////////////////////////////////////////////////
-    public List<Pair<String, String>> getFullGroupList() {
-        return this.fullGroupList;
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    public void setListOtherGroups(List<Pair<String, String>> listOtherGroups) {
+        this.listOtherGroups = listOtherGroups;
     }
-    ///////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    public List<Pair<String, String>> getGroupMemberList() {
-        return this.groupMemberList;
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    public void setListOwnMeetings(List<Pair<String, String>> listOwnMeetings) {
+        this.listOwnMeetings = listOwnMeetings;
     }
-    ///////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    /////////////////////////////////////////////////////////////////////////////////////////
-    public List<Pair<String, String>> getGroupMeetingList() {
-        return this.groupMeetingList;
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    public void setListOtherMeetings(List<Pair<String, String>> listOtherMeetings) {
+        this.listOtherMeetings = listOtherMeetings;
     }
-    /////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////
+    public void setListGroupMembers(List<Pair<String, String>> listGroupMembers){
+        this.listGroupMembers = listGroupMembers;
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    public void setListMeetingJoiners(List<String> listMeetingJoiners) {
+        this.listMeetingJoiners = listMeetingJoiners;
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    public void setListDetails(List<String> listMemberDetails){
+        this.listDetails = listMemberDetails;
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
     //////////////////////////////////////

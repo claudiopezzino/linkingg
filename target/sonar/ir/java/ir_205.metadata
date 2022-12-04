@@ -1,1 +1,2 @@
-view.graphicalui.first.ListViewGroupItems#instance-init#
+view.graphicalui.second.Signup#prevScreen()V
+view.graphicalui.second.signupquestionstates.QuestionName#getQuestionNameInstance()Lview/graphicalui/second/signupquestionstates/QuestionName;

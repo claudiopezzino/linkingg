@@ -1,1 +1,1 @@
-view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;
+view.graphicalui.second.Home#getNewGroupMember()Ljava/lang/String;

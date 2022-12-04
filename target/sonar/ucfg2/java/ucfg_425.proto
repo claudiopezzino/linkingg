@@ -1,16 +1,45 @@
 
-bview.graphicalui.first.HomePage$UserProfileDialog#getCircleImgProfile()Ljavafx/scene/shape/Circle;e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java∑ ∑()"1*ÿ
-1e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java∏ ∏(ﬁ
-€
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java∏ ∏((
-%0javafx.scene.shape.Circle"__id*K*I3
-1view.graphicalui.first.HomePage$UserProfileDialog"
-circleImgProfile"ä
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java∏ ∏()!
-
-%0javafx.scene.shape.CircleB53
-1view.graphicalui.first.HomePage$UserProfileDialog
+ëview.controllerui.second.handlerstates.StateGroupOptions#getStateGroupOptionsInstance()Lview/controllerui/second/handlerstates/StateGroupOptions;|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupOptions.java.$ .(@"3*ª
+2|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupOptions.java0( 0(?˚¯
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupOptions.java0, 0(=>
+%18view.controllerui.second.handlerstates.StateGroupOptions"8view.controllerui.second.handlerstates.StateGroupOptionsç
+ä
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupOptions.java0( 0(?
+%2"Bview.controllerui.second.handlerstates.StateGroupOptions#<init>()V*@
+>
+%18view.controllerui.second.handlerstates.StateGroupOptions§
+°
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupOptions.java0 0(?Y:
+8view.controllerui.second.handlerstates.StateGroupOptions"
+stateGroupOptionsInstance"__id*@
+>
+%18view.controllerui.second.handlerstates.StateGroupOptions*
+1*∞
+3|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupOptions.java/ /($§
+°
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupOptions.java/ /($>
+%08view.controllerui.second.handlerstates.StateGroupOptions"__id*[*Y:
+8view.controllerui.second.handlerstates.StateGroupOptions"
+stateGroupOptionsInstance*
+2
+1*Î
+1|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupOptions.java1 1((§
+°
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupOptions.java1 1((>
+%38view.controllerui.second.handlerstates.StateGroupOptions"__id*[*Y:
+8view.controllerui.second.handlerstates.StateGroupOptions"
+stateGroupOptionsInstance"¿
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupOptions.java1 1()@
+>
+%38view.controllerui.second.handlerstates.StateGroupOptionsB<":
+8view.controllerui.second.handlerstates.StateGroupOptions

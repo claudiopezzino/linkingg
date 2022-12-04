@@ -1,3 +1,1 @@
-view.controllerui.second.handlerstates.StateUserLinkInvitations#getStateUserLinkInvitationsInstance()Lview/controllerui/second/handlerstates/StateUserLinkInvitations;
-view.controllerui.second.handlerstates.StateUserLinkInvitations#<init>()V
-view.controllerui.second.handlerstates.StateUserLinkInvitations#instance-init#
+view.graphicalui.second.Sign#getUserInfo()Ljava/util/List;

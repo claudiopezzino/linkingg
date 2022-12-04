@@ -1,3 +1,4 @@
-view.controllerui.first.SignupPageEventHandler#assignUsernameToUserProfile(Ljava/util/Map;)V
-javafx.scene.control.Labeled#setText(Ljava/lang/String;)V
-view.graphicalui.first.HomePage$UserProfileDialog#getUserProfileDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog;
+view.graphicalui.first.toolbardecorations.TitleBoxDecorator#draw()Ljavafx/scene/control/ToolBar;
+javafx.scene.control.Separator#instance-init#
+javafx.scene.control.Separator#<init>()V
+javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;

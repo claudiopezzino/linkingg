@@ -1,2 +1,4 @@
-view.graphicalui.first.toolbardecorations.MainBarDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)V
-view.graphicalui.first.toolbardecorations.MainBarDecorator#setUpMainBar()V
+view.bean.UserSignUpBean#setAddress(Ljava/lang/String;)V
+view.bean.errorsignupdecorations.AddressBeanErrorDecorator#<init>(Lview/bean/BeanError;)V
+view.bean.Regex#isMatching(Ljava/lang/String;Ljava/lang/String;)Z
+view.bean.errorsignupdecorations.AddressBeanErrorDecorator#instance-init#

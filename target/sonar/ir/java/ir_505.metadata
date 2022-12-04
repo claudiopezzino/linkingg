@@ -1,2 +1,2 @@
-view.graphicalui.second.groupquestionstates.QuestionGroupName#next(Lview/graphicalui/second/QuestionStateMachine;)V
-view.graphicalui.second.groupquestionstates.QuestionGroupNickname#getQuestionGroupNicknameInstance()Lview/graphicalui/second/groupquestionstates/QuestionGroupNickname;
+view.graphicalui.second.Sign#displaySignOptions()V
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V

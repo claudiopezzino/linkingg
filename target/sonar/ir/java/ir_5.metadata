@@ -1,1 +1,1 @@
-view.controllerui.second.HandlerStateMachine#setState(Lview/controllerui/second/handlerstates/AbstractState;)V
+view.controllerui.second.HandlerStateMachine#checkCmd(Lview/graphicalui/second/Home;)V

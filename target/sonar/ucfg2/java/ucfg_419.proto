@@ -1,16 +1,82 @@
 
-_view.graphicalui.first.HomePage$UserProfileDialog#getBtnNickname()Ljavafx/scene/control/Button;e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaì ì($"1*◊
+ácontrol.ManageCommunityController#setUpRegistrationPhase(Lcontrol/LoginController;Lview/bean/UserSignUpBean;)Lview/bean/UserSignInBean;e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java (0"13*£	
+13e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java/ (>‹Ÿ
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java/ ([
+%0javafx.util.Pair"Rcontrol.LoginController#registration(Lview/bean/UserSignUpBean;)Ljavafx/util/Pair;*,
+*
+loginControllercontrol.LoginController*,
+*
+userSignUpBeanview.bean.UserSignUpBean2(registration(Lview/bean/UserSignUpBean;)Ø
+¨
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java (\#
+userCredentialsjavafx.util.Pair"__id*
+
+%0javafx.util.Pair§°
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java, (:
+%1view.bean.UserSignInBean"view.bean.UserSignInBean∂
+≥
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java( (<
+%2""view.bean.UserSignInBean#<init>()V* 
+
+%1view.bean.UserSignInBeanæ
+ª
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java (=*
+userSignInBeanview.bean.UserSignInBean"__id* 
+
+%1view.bean.UserSignInBean*
+12*å
+5e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java (Böó
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java (B
+
+%9void"9view.bean.UserSignInBean#setPassword(Ljava/lang/String;)V*,
+*
+userSignInBeanview.bean.UserSignInBean*
+
+%8java.lang.String2setPassword(Ljava/lang/String;)*
+1*÷
+6e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java (‰·
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java' (A
+%8java.lang.String"-javafx.util.Pair#getValue()Ljava/lang/Object;*%
+#
+userCredentialsjavafx.util.Pair2
+getValue()*
+5*ç
+11e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java (@öó
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java (@
+
+%4void"9view.bean.UserSignInBean#setNickname(Ljava/lang/String;)V*,
+*
+userSignInBeanview.bean.UserSignInBean*
+
+%3java.lang.String2setNickname(Ljava/lang/String;)*
+6*‘
+12e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java (‡›
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java' (?
+%3java.lang.String"+javafx.util.Pair#getKey()Ljava/lang/Object;*%
+#
+userCredentialsjavafx.util.Pair2getKey()*
+11*Ç
 1e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaî î(€
-ÿ
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java ("ï
 e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaî î(#!
-%0javafx.scene.control.Button"__id*F*D3
-1view.graphicalui.first.HomePage$UserProfileDialog"
-btnNickname"å
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaî î($#
-!
-%0javafx.scene.control.ButtonB53
-1view.graphicalui.first.HomePage$UserProfileDialog
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java (,
+*
+userSignInBeanview.bean.UserSignInBean:*
+loginControllercontrol.LoginController:*
+userSignUpBeanview.bean.UserSignUpBeanB%#
+!control.ManageCommunityController

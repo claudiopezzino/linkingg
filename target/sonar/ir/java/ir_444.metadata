@@ -1,1 +1,1 @@
-view.graphicalui.first.HomePage#getObservableListGroups()Ljavafx/collections/ObservableList;
+view.bean.errorsignindecorations.PasswordBeanErrorDecorator#displayErrors()Ljava/lang/String;

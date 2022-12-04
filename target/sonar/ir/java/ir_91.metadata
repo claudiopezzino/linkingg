@@ -1,3 +1,1 @@
-view.graphicalui.second.Home#listGroups()V
-view.controllerui.second.handlerstates.StateGroupsView#getStateGroupsViewInstance()Lview/controllerui/second/handlerstates/StateGroupsView;
-javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.bean.errorsignupdecorations.SurnameBeanErrorDecorator#displayErrors()Ljava/lang/String;

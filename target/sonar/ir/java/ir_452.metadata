@@ -1,2 +1,1 @@
-view.graphicalui.second.signupquestionstates.QuestionMail#display()V
-view.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;
+view.graphicalui.second.signupquestionstates.QuestionEnd#next(Lview/graphicalui/second/QuestionStateMachine;)V

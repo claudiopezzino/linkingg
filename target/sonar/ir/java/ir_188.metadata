@@ -1,1 +1,4 @@
-view.graphicalui.first.SignupPage#getHandler()Lview/controllerui/first/SignupPageEventHandler;
+model.dao.UserDAO#createEntity(Ljava/util/Map;)Ljava/lang/Object;
+model.User#<init>(Ljava/util/Map;)V
+model.User#instance-init#
+model.dao.UserDAO#saveUserIntoDB(Ljava/util/Map;)V

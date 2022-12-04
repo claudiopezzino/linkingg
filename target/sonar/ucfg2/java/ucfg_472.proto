@@ -1,45 +1,17 @@
 
-—view.controllerui.second.handlerstates.StateMeetingDetails#getStateMeetingDetailsInstance()Lview/controllerui/second/handlerstates/StateMeetingDetails;~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingDetails.java/& /(D"3*Ñ
-2~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingDetails.java1* 1(Cş
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingDetails.java1. 1(A@
-%1:view.controllerui.second.handlerstates.StateMeetingDetails":view.controllerui.second.handlerstates.StateMeetingDetails“
-
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingDetails.java1* 1(C
-%2"Dview.controllerui.second.handlerstates.StateMeetingDetails#<init>()V*B
-@
-%1:view.controllerui.second.handlerstates.StateMeetingDetails¬
-©
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingDetails.java1 1(C]<
-:view.controllerui.second.handlerstates.StateMeetingDetails"
-stateMeetingDetailsInstance"__id*B
-@
-%1:view.controllerui.second.handlerstates.StateMeetingDetails*
-1*º
-3~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingDetails.java0 0(&¬
-©
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingDetails.java0 0(&@
-%0:view.controllerui.second.handlerstates.StateMeetingDetails"__id*_*]<
-:view.controllerui.second.handlerstates.StateMeetingDetails"
-stateMeetingDetailsInstance*
-2
-1*ù
-1~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingDetails.java2 2(*¬
-©
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingDetails.java2 2(*@
-%3:view.controllerui.second.handlerstates.StateMeetingDetails"__id*_*]<
-:view.controllerui.second.handlerstates.StateMeetingDetails"
-stateMeetingDetailsInstance"Ä
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingDetails.java2 2(+B
-@
-%3:view.controllerui.second.handlerstates.StateMeetingDetailsB>"<
-:view.controllerui.second.handlerstates.StateMeetingDetails
+wview.graphicalui.first.HomePage$SearchGroupsDialog#searchGroupsResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java‰$ ‰(6"1*¸
+1e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java‹ ‹(Ë
+È
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java‹ ‹()
+%0java.util.Map"/java.util.Collections#emptyMap()Ljava/util/Map;*"
+java.util.Collections"~
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java‹ ‹(*
+
+%0java.util.Map:-
+
+buttonTypejavafx.scene.control.ButtonTypeB64
+2view.graphicalui.first.HomePage$SearchGroupsDialog

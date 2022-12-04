@@ -1,16 +1,51 @@
 
-Tview.graphicalui.first.SignupPage#getTextFieldName()Ljavafx/scene/control/TextField;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÊ Ê(%"1*’
-1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÁ Á(“
+Amodel.dao.UserDAO#createEntity(Ljava/util/Map;)Ljava/lang/Object;U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java ("startingBlock*•
+startingBlockU
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java (@•
+¢
+U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java (
+%3"
+__annotate*
+java.lang.Override*
+
+creationInfojava.util.Mapè
+å
+U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java3 (?
+creationInfojava.util.Map"__annotation*
+
+%3*
+1*“
+1U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java (“
 œ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÁ Á(!$
-%0javafx.scene.control.TextField"__id*8*6#
-!view.graphicalui.first.SignupPage"
-textFieldName"ë
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÁ Á("&
-$
-%0javafx.scene.control.TextFieldB%#
-!view.graphicalui.first.SignupPage
+U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java ()
+
+%0void"2model.dao.UserDAO#saveUserIntoDB(Ljava/util/Map;)V*
+model.dao.UserDAO*
+
+creationInfojava.util.Mapwu
+U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java (
+%1
+model.User"
+model.User∫
+∑
+U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java (%
+%2"#model.User#<init>(Ljava/util/Map;)V*
+
+%1
+model.User*
+
+creationInfojava.util.Map"k
+U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java (&
+
+%1
+model.User:
+creationInfojava.util.MapB
+model.dao.UserDAO

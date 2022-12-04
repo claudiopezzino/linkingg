@@ -1,48 +1,16 @@
 
-|view.graphicalui.first.SignupPage#getSignupPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/SignupPage;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaë ë(2"4*£
-2g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaì0 ì(7∏µ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaì% ì(/'
-%1!view.graphicalui.first.SignupPage"!view.graphicalui.first.SignupPageó
-î
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaì! ì(8
-%2"Kview.graphicalui.first.SignupPage#<init>(Lview/graphicalui/first/Toolbar;)V*)
-'
-%1!view.graphicalui.first.SignupPage*+
-)
-toolbarview.graphicalui.first.Toolbar⁄
-◊
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaì ì(8;#
-!view.graphicalui.first.SignupPage"
-signupPageInstance"__id*)
-'
-%1!view.graphicalui.first.SignupPage*
-1*—
-4g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaí í(⁄
-◊
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaí í('
-%0!view.graphicalui.first.SignupPage"__id*=*;#
-!view.graphicalui.first.SignupPage"
-signupPageInstance*
-2
-1*‡
-1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaî î(⁄
-◊
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaï ï(!'
-%3!view.graphicalui.first.SignupPage"__id*=*;#
-!view.graphicalui.first.SignupPage"
-signupPageInstance"î
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaï ï(")
-'
-%3!view.graphicalui.first.SignupPage:)
-toolbarview.graphicalui.first.ToolbarB%"#
-!view.graphicalui.first.SignupPage
+Sview.graphicalui.first.PageDialog#getBtnTypeSave()Ljavafx/scene/control/ButtonType;e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaG G($"1*œ
+1e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaH H(œ
+Ã
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaH H(%
+%0javafx.scene.control.ButtonType"__id*6*4#
+!view.graphicalui.first.PageDialog"
+btnTypeSave"ê
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaH H( '
+%
+%0javafx.scene.control.ButtonTypeB%#
+!view.graphicalui.first.PageDialog

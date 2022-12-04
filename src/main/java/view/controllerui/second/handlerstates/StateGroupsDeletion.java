@@ -1,6 +1,5 @@
 package view.controllerui.second.handlerstates;
 
-import javafx.util.Pair;
 import view.graphicalui.second.Home;
 
 import static view.controllerui.second.Message.errorMsg;
@@ -30,8 +29,7 @@ public class StateGroupsDeletion implements AbstractState{
             home.groupsPreviousBlacklist(DELETION);
 
         else if(home.getPrompt().getText().equals(DELETE)) {
-            this.assembleAllGroups(home);
-            home.startRemoval(home.getBlacklist(), home.getFullGroupList());
+            // try to add an error message
             home.initBlacklist();
             groupsDeletionMsg();
             home.listGroups();
@@ -45,15 +43,6 @@ public class StateGroupsDeletion implements AbstractState{
         home.getPrompt().clear();
     }
     ///////////////////////////////////////////////////////////////////
-
-    /////////////////////////////////////////////////////////////////////////
-    private void assembleAllGroups(Home home){
-        for(Pair<String, String> ownGroupInfo : home.getOwnGroupList())
-            home.getFullGroupList().add(ownGroupInfo);
-        for(Pair<String, String> joinedGroupInfo : home.getJoinedGroupList())
-            home.getFullGroupList().add(joinedGroupInfo);
-    }
-    /////////////////////////////////////////////////////////////////////////
 
 
     ////////////////////////////////////////////////////////////////////

@@ -1,45 +1,15 @@
 
-Uview.graphicalui.second.Welcome#getWelcomeInstance()Lview/graphicalui/second/Welcome;c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java@ @(,"3*·
-2c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.javaB B(+°­
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.javaB" B()%
-%1view.graphicalui.second.Welcome"view.graphicalui.second.WelcomeÂ
-¿
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.javaB B(+
-%2")view.graphicalui.second.Welcome#<init>()V*'
-%
-%1view.graphicalui.second.WelcomeÏ
-Ì
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.javaB B(+6!
-view.graphicalui.second.Welcome"
-welcomeInstance"__id*'
-%
-%1view.graphicalui.second.Welcome*
-1*Â
-3c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.javaA A(Ï
-Ì
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.javaA A(%
-%0view.graphicalui.second.Welcome"__id*8*6!
-view.graphicalui.second.Welcome"
-welcomeInstance*
-2
-1*Ë
-1c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.javaC C(Ï
-Ì
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.javaC C(%
-%3view.graphicalui.second.Welcome"__id*8*6!
-view.graphicalui.second.Welcome"
-welcomeInstance"Ž
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.javaC C('
-%
-%3view.graphicalui.second.WelcomeB#"!
-view.graphicalui.second.Welcome
+^view.graphicalui.first.SignupPage#getHandler()Lview/controllerui/first/SignupPageEventHandler;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaì5 ì(?"1*Ã
+1g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaí í(°
+­
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaí í(4
+%0.view.controllerui.first.SignupPageEventHandler"__id*
+"""¡
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaí í(6
+4
+%0.view.controllerui.first.SignupPageEventHandlerB%"#
+!view.graphicalui.first.SignupPage

@@ -1,3 +1,1 @@
-view.graphicalui.second.Signup#setUpSignupRoot()Ljavafx/scene/layout/VBox;
-javafx.scene.layout.VBox#instance-init#
-javafx.scene.layout.VBox#<init>()V
+view.graphicalui.second.Home#getGroupMemberList()Ljava/util/List;

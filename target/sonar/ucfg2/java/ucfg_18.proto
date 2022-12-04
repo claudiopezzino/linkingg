@@ -1,14 +1,39 @@
 
-kview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$profileBoxItems#getIndex()Ljava/lang/Integer;
-w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java& &("1*©
-1
-w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java' '(‹ˆ
-
-w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java' '(!	
-%0int"java.lang.Enum#ordinal()I*QO
-Mview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$profileBoxItems2	ordinal()"‘
-
-w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java' '("
-	
-%0intBQO
-Mview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$profileBoxItems
+]view.bean.errorsignindecorations.NicknameBeanErrorDecorator#displayErrors()Ljava/lang/String;
+u/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignindecorations/NicknameBeanErrorDecorator.java ("1*–
+1
+u/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignindecorations/NicknameBeanErrorDecorator.java (ä
+á
+
+u/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignindecorations/NicknameBeanErrorDecorator.java (-
+%0java.lang.String">view.bean.BeanErrorDecorator#displayErrors()Ljava/lang/String;*
+""À
+½
+
+u/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignindecorations/NicknameBeanErrorDecorator.java (.
+errorsjava.lang.String"__id*
+
+%0java.lang.StringŸœ
+
+u/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignindecorations/NicknameBeanErrorDecorator.java (#
+%1java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*?=
+;view.bean.errorsignindecorations.NicknameBeanErrorDecorator2getMessage()Þ
+Û
+
+u/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignindecorations/NicknameBeanErrorDecorator.java (#
+%2java.lang.String"__concat*
+
+errorsjava.lang.String*
+
+%1java.lang.StringÀ
+½
+
+u/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignindecorations/NicknameBeanErrorDecorator.java (#
+errorsjava.lang.String"__id*
+
+%2java.lang.String"Ÿ
+
+u/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignindecorations/NicknameBeanErrorDecorator.java (
+
+errorsjava.lang.StringB?=
+;view.bean.errorsignindecorations.NicknameBeanErrorDecorator

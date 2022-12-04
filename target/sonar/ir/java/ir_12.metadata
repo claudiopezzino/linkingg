@@ -1,3 +1,2 @@
-view.graphicalui.second.signupquestionstates.QuestionName#getQuestionNameInstance()Lview/graphicalui/second/signupquestionstates/QuestionName;
-view.graphicalui.second.signupquestionstates.QuestionName#instance-init#
-view.graphicalui.second.signupquestionstates.QuestionName#<init>()V
+model.db.dbconnection.PersistencyDB#openConnection()Ljava/sql/Connection;
+java.sql.DriverManager#getConnection(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;

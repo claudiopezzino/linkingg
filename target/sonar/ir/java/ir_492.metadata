@@ -1,3 +1,1 @@
-view.controllerui.second.handlerstates.StateMeetingDetails#getStateMeetingDetailsInstance()Lview/controllerui/second/handlerstates/StateMeetingDetails;
-view.controllerui.second.handlerstates.StateMeetingDetails#instance-init#
-view.controllerui.second.handlerstates.StateMeetingDetails#<init>()V
+control.controlexceptions.InternalException#<init>(Ljava/lang/String;)V

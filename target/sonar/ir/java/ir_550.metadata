@@ -1,2 +1,2 @@
-view.graphicalui.second.meetingquestionstates.QuestionTime#next(Lview/graphicalui/second/QuestionStateMachine;)V
-view.graphicalui.second.meetingquestionstates.QuestionDate#getQuestionDateInstance()Lview/graphicalui/second/meetingquestionstates/QuestionDate;
+view.graphicalui.second.signupquestionstates.QuestionMail#display()V
+view.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;

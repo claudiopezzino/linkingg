@@ -1,1 +1,3 @@
-view.graphicalui.second.passwordquestionstates.QuestionNewPassword#instance-init#
+view.controllerui.second.handlerstates.StateUsernameChange#getStateUsernameChangeInstance()Lview/controllerui/second/handlerstates/StateUsernameChange;
+view.controllerui.second.handlerstates.StateUsernameChange#<init>()V
+view.controllerui.second.handlerstates.StateUsernameChange#instance-init#

@@ -2,6 +2,7 @@ package view.graphicalui.first.constcontainer;
 
 public final class Css {
 
+    //////////////////////////////////////////////////////////////////
     public static final String HBOX = "hbox";
     public static final String VBOX = "vbox";
     public static final String IMG_CONTAINER = "image-container";
@@ -14,7 +15,10 @@ public final class Css {
     public static final String HOME_RADIOS = "radio-button-container";
     public static final String DIALOG_BUTTONS = "button-dialog";
     public static final String CANCEL_BUTTON = "button-dismiss";
+    //////////////////////////////////////////////////////////////////
 
+    ///////////////
     private Css(){}
+    ///////////////
 
 }

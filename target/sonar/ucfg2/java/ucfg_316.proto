@@ -1,306 +1,15 @@
 
-Cview.controllerui.first.HomePageEventHandler#manageGroupDeletion()Vr
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaŒ Œ($"3*©
-2r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java‡# ‡()‡›
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java‡# ‡(/
-%33java.util.Map"*java.util.Optional#get()Ljava/lang/Object;*
-
-resultjava.util.Optional2get()ƒ¡
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java‡# ‡(9
-%34boolean"java.util.Map#isEmpty()Z*
-
-%33java.util.Map2	isEmpty()*
-0
-1*ÄY
-3r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaœ œ($√
-¿
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaœ œ(>%
-%0view.graphicalui.first.HomePage"vview.graphicalui.first.HomePage#getHomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/HomePage;*#"!
-view.graphicalui.first.HomePage*
-""”
-–
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaœ œ(?+
-homePageview.graphicalui.first.HomePage"__id*'
-%
-%0view.graphicalui.first.HomePage¥±
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java–( –(D#
-%1javafx.scene.control.ListView"Rview.graphicalui.first.HomePage#getListViewGroups()Ljavafx/scene/control/ListView;*-
-+
-homePageview.graphicalui.first.HomePage2getListViewGroups()’
-“
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java– –(E/
-listViewGroupsjavafx.scene.control.ListView"__id*%
-#
-%1javafx.scene.control.ListView≤Ø
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java“  “(>%
-%2javafx.scene.control.FocusModel"Njavafx.scene.control.ListView#getFocusModel()Ljavafx/scene/control/FocusModel;*1
-/
-listViewGroupsjavafx.scene.control.ListView2getFocusModel()ñì
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java“  “(O
-%3javafx.scene.layout.HBox"Bjavafx.scene.control.FocusModel#getFocusedItem()Ljava/lang/Object;*'
-%
-%2javafx.scene.control.FocusModel2getFocusedItem()Õ
- 
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java“ “(P,
-hBoxSelectedItemjavafx.scene.layout.HBox"__id* 
-
-%3javafx.scene.layout.HBox™ß
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java”' ”(E'
-%4!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*.
-,
-hBoxSelectedItemjavafx.scene.layout.HBox2getChildren()∂
-≥
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java”J ”(W/
-%5)view.graphicalui.first.ListViewGroupItems"__id*
-""òï
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java”J ”(b
-%6java.lang.Integer"Gview.graphicalui.first.ListViewGroupItems#getIndex()Ljava/lang/Integer;*1
-/
-%5)view.graphicalui.first.ListViewGroupItems2
-getIndex()‚
-ﬂ
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java”' ”(c
-%7javafx.scene.Node"
-__arrayGet*)
-'
-%4!javafx.collections.ObservableList*
-
-%6java.lang.Integer∆
-√
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java” ”(d,
-vBoxGroupDetailsjavafx.scene.layout.VBox"__id*
-
-%7javafx.scene.Node™ß
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java’+ ’(I'
-%8!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*.
-,
-hBoxSelectedItemjavafx.scene.layout.HBox2getChildren()∂
-≥
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java’N ’(Y/
-%9)view.graphicalui.first.ListViewGroupItems"__id*
-""ôñ
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java’N ’(d
-%10java.lang.Integer"Gview.graphicalui.first.ListViewGroupItems#getIndex()Ljava/lang/Integer;*1
-/
-%9)view.graphicalui.first.ListViewGroupItems2
-getIndex()‰
-·
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java’+ ’(e
-%11javafx.scene.Node"
-__arrayGet*)
-'
-%8!javafx.collections.ObservableList*
-
-%10java.lang.Integer»
-≈
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java’ ’(f-
-circleGroupImagejavafx.scene.shape.Circle"__id*
-
-%11javafx.scene.Node´®
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java÷' ÷(E(
-%12!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*.
-,
-vBoxGroupDetailsjavafx.scene.layout.VBox2getChildren()ƒ
-¡
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java÷J ÷(T=
-%136view.graphicalui.first.ListViewGroupItems$groupDetails"__id*
-""¥±
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java÷J ÷(_
-%14java.lang.Integer"Tview.graphicalui.first.ListViewGroupItems$groupDetails#getIndex()Ljava/lang/Integer;*?
-=
-%136view.graphicalui.first.ListViewGroupItems$groupDetails2
-getIndex()Â
-‚
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java÷' ÷(`
-%15javafx.scene.Node"
-__arrayGet**
-(
-%12!javafx.collections.ObservableList*
-
-%14java.lang.Integer«
-ƒ
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java÷ ÷(a,
-labelGroupNamejavafx.scene.control.Label"__id*
-
-%15javafx.scene.Node´®
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java◊+ ◊(I(
-%16!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*.
-,
-vBoxGroupDetailsjavafx.scene.layout.VBox2getChildren()ƒ
-¡
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java◊N ◊(\=
-%176view.graphicalui.first.ListViewGroupItems$groupDetails"__id*
-""¥±
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java◊N ◊(g
-%18java.lang.Integer"Tview.graphicalui.first.ListViewGroupItems$groupDetails#getIndex()Ljava/lang/Integer;*?
-=
-%176view.graphicalui.first.ListViewGroupItems$groupDetails2
-getIndex()Â
-‚
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java◊+ ◊(h
-%19javafx.scene.Node"
-__arrayGet**
-(
-%16!javafx.collections.ObservableList*
-
-%18java.lang.IntegerÀ
-»
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java◊ ◊(i0
-labelGroupNicknamejavafx.scene.control.Label"__id*
-
-%19javafx.scene.Nodeíè
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaŸ7 Ÿ(Q
-%20javafx.scene.paint.Paint"<javafx.scene.shape.Shape#getFill()Ljavafx/scene/paint/Paint;*/
--
-circleGroupImagejavafx.scene.shape.Circle2	getFill()¥±
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaŸ, Ÿ(2 
-%21javafx.scene.shape.Circle"javafx.scene.shape.Circleã
-à
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaŸ( Ÿ(R
-%22">javafx.scene.shape.Circle#<init>(DLjavafx/scene/paint/Paint;)V*"
- 
-%21javafx.scene.shape.Circle*2(*!
-
-%20javafx.scene.paint.Paint÷
-”
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaŸ Ÿ(S3
-circleGroupImageDoublejavafx.scene.shape.Circle"__id*"
- 
-%21javafx.scene.shape.CircleÖÇ
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java⁄/ ⁄(G
-%23java.lang.String"8javafx.scene.control.Labeled#getText()Ljava/lang/String;*.
-,
-labelGroupNamejavafx.scene.control.Label2	getText()∂≥
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java⁄) ⁄(.!
-%24javafx.scene.control.Label"javafx.scene.control.Labelˆ
-Û
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java⁄% ⁄(H
-%25"6javafx.scene.control.Label#<init>(Ljava/lang/String;)V*#
-!
-%24javafx.scene.control.Label*
-
-%23java.lang.String÷
-”
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java⁄ ⁄(I2
-labelGroupNameDoublejavafx.scene.control.Label"__id*#
-!
-%24javafx.scene.control.LabelâÜ
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java€3 €(O
-%26java.lang.String"8javafx.scene.control.Labeled#getText()Ljava/lang/String;*2
-0
-labelGroupNicknamejavafx.scene.control.Label2	getText()∂≥
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java€- €(2!
-%27javafx.scene.control.Label"javafx.scene.control.Labelˆ
-Û
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java€) €(P
-%28"6javafx.scene.control.Label#<init>(Ljava/lang/String;)V*#
-!
-%27javafx.scene.control.Label*
-
-%26java.lang.String⁄
-◊
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java€ €(Q6
-labelGroupNicknameDoublejavafx.scene.control.Label"__id*#
-!
-%27javafx.scene.control.LabelËÂ
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java›6 ›(I:
-%293view.graphicalui.first.HomePage$GroupDeletionDialog"3view.graphicalui.first.HomePage$GroupDeletionDialog˜
-Ù
-s
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java›2 ›(ë
-%30"êview.graphicalui.first.HomePage$GroupDeletionDialog#<init>(Ljavafx/scene/shape/Circle;Ljavafx/scene/control/Label;Ljavafx/scene/control/Label;)V*<
-:
-%293view.graphicalui.first.HomePage$GroupDeletionDialog*5
-3
-circleGroupImageDoublejavafx.scene.shape.Circle*4
-2
-labelGroupNameDoublejavafx.scene.control.Label*8
-6
-labelGroupNicknameDoublejavafx.scene.control.Labelà
-Ö
-s
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java› ›(íJ
-groupDeletionDialog3view.graphicalui.first.HomePage$GroupDeletionDialog"__id*<
-:
-%293view.graphicalui.first.HomePage$GroupDeletionDialogÆ´
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaﬁ/ ﬁ(P
-%31java.util.Optional"=javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;*L
-J
-groupDeletionDialog3view.graphicalui.first.HomePage$GroupDeletionDialog2showAndWait()∏
-µ
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaﬁ ﬁ(Q
-resultjava.util.Optional"__id*
-
-%31java.util.Optional’“
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java‡ ‡(
-%32boolean"java.util.Optional#isPresent()Z*
-
-resultjava.util.Optional2isPresent()*
-2
-0*ë
-0 "â
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java‚ ‚(
-implicit return*ﬂ
-1r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java· ·(‡
-›
-r
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java· ·(H
-%35void"ïview.controllerui.first.HomePageEventHandler#removeGroup(Lview/graphicalui/first/HomePage;Ljavafx/scene/control/ListView;Ljavafx/scene/layout/HBox;)V*0.
-,view.controllerui.first.HomePageEventHandler*-
-+
-homePageview.graphicalui.first.HomePage*1
-/
-listViewGroupsjavafx.scene.control.ListView*.
-,
-hBoxSelectedItemjavafx.scene.layout.HBox*
-0B0.
-,view.controllerui.first.HomePageEventHandler
+`view.graphicalui.first.MeetingPage#getHandler()Lview/controllerui/first/MeetingPageEventHandler;h
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.java‹6 ‹(@"1*»
+1h
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.java› ›(≤
+Ø
+h
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.java› ›(5
+%0/view.controllerui.first.MeetingPageEventHandler"__id*
+"""£
+h
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.java› ›(7
+5
+%0/view.controllerui.first.MeetingPageEventHandlerB&"$
+"view.graphicalui.first.MeetingPage

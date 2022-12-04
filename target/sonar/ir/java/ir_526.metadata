@@ -1,1 +1,2 @@
-view.graphicalui.first.toolbaritems.SignToolbarItems#instance-init#
+view.graphicalui.first.HomePage#<init>(Lview/graphicalui/first/Toolbar;)V
+view.graphicalui.first.HomePage#setUpHomePage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;

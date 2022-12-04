@@ -1,7 +1,3 @@
-view.graphicalui.first.HomePage#setUpSearchArea()Ljavafx/scene/layout/BorderPane;
-javafx.scene.layout.BorderPane#<init>()V
-javafx.scene.layout.BorderPane#instance-init#
-view.graphicalui.first.HomePage#setUpMapBar()Ljavafx/scene/layout/HBox;
-javafx.scene.layout.BorderPane#setCenter(Ljavafx/scene/Node;)V
-javafx.scene.layout.BorderPane#setTop(Ljavafx/scene/Node;)V
-view.graphicalui.first.HomePage#setUpMapContainer()Ljavafx/scene/web/WebView;
+view.controllerui.second.handlerstates.StateMeetingsDeletion#getStateMeetingsDeletionInstance()Lview/controllerui/second/handlerstates/StateMeetingsDeletion;
+view.controllerui.second.handlerstates.StateMeetingsDeletion#<init>()V
+view.controllerui.second.handlerstates.StateMeetingsDeletion#instance-init#

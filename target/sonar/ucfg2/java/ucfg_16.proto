@@ -1,45 +1,45 @@
 
-éview.graphicalui.second.signupquestionstates.QuestionCell#getQuestionCellInstance()Lview/graphicalui/second/signupquestionstates/QuestionCell;}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java' '(6"3*¿
+éview.graphicalui.second.signupquestionstates.QuestionName#getQuestionNameInstance()Lview/graphicalui/second/signupquestionstates/QuestionName;}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java' '(6"3*¿
 2}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java)# )(5˛˚
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java)# )(5˛˚
 }
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java)' )(3?
-%19view.graphicalui.second.signupquestionstates.QuestionCell"9view.graphicalui.second.signupquestionstates.QuestionCellê
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java)' )(3?
+%19view.graphicalui.second.signupquestionstates.QuestionName"9view.graphicalui.second.signupquestionstates.QuestionNameê
 ç
 }
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java)# )(5
-%2"Cview.graphicalui.second.signupquestionstates.QuestionCell#<init>()V*A
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java)# )(5
+%2"Cview.graphicalui.second.signupquestionstates.QuestionName#<init>()V*A
 ?
-%19view.graphicalui.second.signupquestionstates.QuestionCell¢
+%19view.graphicalui.second.signupquestionstates.QuestionName¢
 ü
 }
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java) )(5U;
-9view.graphicalui.second.signupquestionstates.QuestionCell"
-questionCellInstance"__id*A
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java) )(5U;
+9view.graphicalui.second.signupquestionstates.QuestionName"
+questionNameInstance"__id*A
 ?
-%19view.graphicalui.second.signupquestionstates.QuestionCell*
+%19view.graphicalui.second.signupquestionstates.QuestionName*
 1*Ø
 3}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java( ((¢
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java( ((¢
 ü
 }
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java( ((?
-%09view.graphicalui.second.signupquestionstates.QuestionCell"__id*W*U;
-9view.graphicalui.second.signupquestionstates.QuestionCell"
-questionCellInstance*
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java( ((?
+%09view.graphicalui.second.signupquestionstates.QuestionName"__id*W*U;
+9view.graphicalui.second.signupquestionstates.QuestionName"
+questionNameInstance*
 2
 1*Ï
 1}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java* *(#¢
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java* *(#¢
 ü
 }
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java* *(#?
-%39view.graphicalui.second.signupquestionstates.QuestionCell"__id*W*U;
-9view.graphicalui.second.signupquestionstates.QuestionCell"
-questionCellInstance"¬
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java* *(#?
+%39view.graphicalui.second.signupquestionstates.QuestionName"__id*W*U;
+9view.graphicalui.second.signupquestionstates.QuestionName"
+questionNameInstance"¬
 }
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java* *($A
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java* *($A
 ?
-%39view.graphicalui.second.signupquestionstates.QuestionCellB=";
-9view.graphicalui.second.signupquestionstates.QuestionCell
+%39view.graphicalui.second.signupquestionstates.QuestionNameB=";
+9view.graphicalui.second.signupquestionstates.QuestionName

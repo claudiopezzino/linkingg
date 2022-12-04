@@ -1,3 +1,2 @@
-view.controllerui.second.handlerstates.StateMeetingProposal#getStateMeetingProposalInstance()Lview/controllerui/second/handlerstates/StateMeetingProposal;
-view.controllerui.second.handlerstates.StateMeetingProposal#<init>()V
-view.controllerui.second.handlerstates.StateMeetingProposal#instance-init#
+view.graphicalui.first.toolbardecorations.SharingButtonDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)V
+view.graphicalui.first.toolbardecorations.SharingButtonDecorator#setUpBtnSharing()V

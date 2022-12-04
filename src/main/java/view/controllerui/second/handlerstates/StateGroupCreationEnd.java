@@ -1,11 +1,11 @@
 package view.controllerui.second.handlerstates;
 
-import javafx.util.Pair;
 import view.graphicalui.second.Home;
 
 import static view.controllerui.second.Message.errorMsg;
 import static view.controllerui.second.Message.groupCreationMsg;
 import static view.graphicalui.second.DefaultCommands.*;
+
 
 public class StateGroupCreationEnd implements AbstractState{
 
@@ -32,7 +32,6 @@ public class StateGroupCreationEnd implements AbstractState{
         }
 
         else if (home.getPrompt().getText().equals(CONFIRM)) {
-            home.getOwnGroupList().add(new Pair<>(home.getGroupNickname(), home.getGroupName()));
             groupCreationMsg();
             home.restoreScreen();
         }

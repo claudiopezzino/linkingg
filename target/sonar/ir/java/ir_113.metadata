@@ -1,3 +1,4 @@
-view.graphicalui.second.Home#meetingsDeletionMode()V
-view.graphicalui.second.Home#showBlacklist(Ljava/lang/String;)V
-view.controllerui.second.handlerstates.StateMeetingsDeletion#getStateMeetingsDeletionInstance()Lview/controllerui/second/handlerstates/StateMeetingsDeletion;
+view.graphicalui.second.Home#applySearch(Ljava/lang/String;)V
+view.controllerui.second.handlerstates.StateGroupRequest#getStateGroupRequestInstance()Lview/controllerui/second/handlerstates/StateGroupRequest;
+java.lang.String#equals(Ljava/lang/Object;)Z
+view.controllerui.second.handlerstates.StateSearchEnd#getStateSearchEndInstance()Lview/controllerui/second/handlerstates/StateSearchEnd;

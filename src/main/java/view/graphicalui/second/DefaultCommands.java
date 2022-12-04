@@ -53,6 +53,7 @@ public final class DefaultCommands {
     public static final String PROPOSE_MEETING = "propose meeting";
 
     public static final String PASSWORD = "password";
+    public static final String IMAGE_PROFILE = "image profile";
     public static final String LINK_INVITATIONS = "link invitations";
 
     public static final String ACCEPT = "accept";

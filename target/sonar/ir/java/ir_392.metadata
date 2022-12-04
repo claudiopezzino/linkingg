@@ -1,2 +1,3 @@
-view.graphicalui.first.toolbardecorations.ProfileBoxDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)V
-view.graphicalui.first.toolbardecorations.ProfileBoxDecorator#setUpProfile()V
+view.graphicalui.second.passwordquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/passwordquestionstates/QuestionEnd;
+view.graphicalui.second.passwordquestionstates.QuestionEnd#<init>()V
+view.graphicalui.second.passwordquestionstates.QuestionEnd#instance-init#

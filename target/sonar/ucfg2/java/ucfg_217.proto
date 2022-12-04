@@ -1,59 +1,21 @@
 
-Lview.graphicalui.second.Welcome#setUpWelcomeRoot()Ljavafx/scene/layout/VBox;c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java' '(!"1*ã
-1c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java( ((¢Ÿ
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java( ((
-%0javafx.scene.layout.VBox"javafx.scene.layout.VBox´
-±
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java( ((
-%1""javafx.scene.layout.VBox#<init>()V* 
-
-%0javafx.scene.layout.VBox²
-¯
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java( (( 
-rootjavafx.scene.layout.VBox"__id* 
-
-%0javafx.scene.layout.VBoxŒ
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java) )('
-%2!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*"
- 
-rootjavafx.scene.layout.VBox2getChildren()Ç
-Ä
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java)" )(5
-%3javafx.scene.layout.HBox"__id*7*5!
-view.graphicalui.second.Welcome"
-titleContainerÄ
-Á
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java)7 )(B#
-%4javafx.scene.control.TextArea"__id*/*-!
-view.graphicalui.second.Welcome"
-screenÅ
-Â
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java)D )(O$
-%5javafx.scene.control.TextField"__id*/*-!
-view.graphicalui.second.Welcome"
-promptðí
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java) )(P
-%6boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z*)
-'
-%2!javafx.collections.ObservableList* 
-
-%3javafx.scene.layout.HBox*%
-#
-%4javafx.scene.control.TextArea*&
+=view.graphicalui.first.SignupPage#getCell()Ljava/lang/String;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaØ Ø("1*Ä
+1g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÙ Ù(Ò
+Ï
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÙ Ù(!$
+%0javafx.scene.control.TextField"__id*8*6#
+!view.graphicalui.first.SignupPage"
+textFieldCellú÷
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÙ Ù(+
+%1java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*&
 $
-%5javafx.scene.control.TextField2addAll([Ljava/lang/Object;)"‰
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java* *("
- 
-rootjavafx.scene.layout.VBoxB#!
-view.graphicalui.second.Welcome
+%0javafx.scene.control.TextField2	getText()"ƒ
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÙ Ù(,
+
+%1java.lang.StringB%#
+!view.graphicalui.first.SignupPage

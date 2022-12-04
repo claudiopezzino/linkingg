@@ -1,7 +1,6 @@
 package view.controllerui.first;
 
 import javafx.event.EventHandler;
-import javafx.scene.control.Alert;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 import view.graphicalui.first.Container;
@@ -29,13 +28,9 @@ public class WelcomePageEventHandler<T extends MouseEvent> implements EventHandl
             else if( event.getSource().equals(signBar.getChildren().get(SIGN_UP_BUTTON.getIndex())) )
                 FirstMain.getCurrScene().setRoot(Container.getRoot(SIGN_UP_PAGE));
 
-            else{
-                Alert alert = new Alert(Alert.AlertType.INFORMATION, "Work in progress...");
-                alert.showAndWait();
-            }
-
+            else
+                Dialog.errorDialog("Something went wrong, please try later.");
         }
-
     }
 
 }

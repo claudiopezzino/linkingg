@@ -1,2 +1,1 @@
-view.graphicalui.second.meetingquestionstates.QuestionEnd#display()V
-view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;
+view.graphicalui.first.PageDialog#getBtnTypeSave()Ljavafx/scene/control/ButtonType;

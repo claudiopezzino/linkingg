@@ -1,3 +1,4 @@
-view.graphicalui.second.passwordquestionstates.QuestionNewPassword#getQuestionNewPasswordInstance()Lview/graphicalui/second/passwordquestionstates/QuestionNewPassword;
-view.graphicalui.second.passwordquestionstates.QuestionNewPassword#<init>()V
-view.graphicalui.second.passwordquestionstates.QuestionNewPassword#instance-init#
+view.graphicalui.first.toolbardecorations.SearchBarDecorator#draw()Ljavafx/scene/control/ToolBar;
+javafx.scene.control.Separator#instance-init#
+javafx.scene.control.Separator#<init>()V
+javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;

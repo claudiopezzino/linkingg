@@ -1,45 +1,48 @@
 
-ûview.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog#getUsernameDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog$UsernameDialog;e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java√) √(B"3*å
-2e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java≈- ≈(AÙÒ
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java≈1 ≈(?F
-%1@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog"@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialogÜ
-É
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java≈- ≈(A
-%2"Jview.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog#<init>()V*H
-F
-%1@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialogö
-ó
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java≈ ≈(A^B
-@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog"
-usernameDialogInstance"__id*H
-F
-%1@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog*
-1*è
-3e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaƒ ƒ()ö
-ó
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaƒ ƒ()F
-%0@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog"__id*`*^B
-@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog"
-usernameDialogInstance*
+|view.graphicalui.first.SigninPage#getSigninPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/SigninPage;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.javaÉ É(2"4*£
+2g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.javaÖ0 Ö(7∏µ
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.javaÖ% Ö(/'
+%1!view.graphicalui.first.SigninPage"!view.graphicalui.first.SigninPageó
+î
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.javaÖ! Ö(8
+%2"Kview.graphicalui.first.SigninPage#<init>(Lview/graphicalui/first/Toolbar;)V*)
+'
+%1!view.graphicalui.first.SigninPage*+
+)
+toolbarview.graphicalui.first.Toolbar⁄
+◊
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.javaÖ Ö(8;#
+!view.graphicalui.first.SigninPage"
+signinPageInstance"__id*)
+'
+%1!view.graphicalui.first.SigninPage*
+1*—
+4g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.javaÑ Ñ(⁄
+◊
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.javaÑ Ñ('
+%0!view.graphicalui.first.SigninPage"__id*=*;#
+!view.graphicalui.first.SigninPage"
+signinPageInstance*
 2
-1*ª
-1e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java∆ ∆(-ö
-ó
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java∆ ∆(-F
-%3@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog"__id*`*^B
-@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog"
-usernameDialogInstance"±
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java∆ ∆(.H
-F
-%3@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialogBD"B
-@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog
+1*‡
+1g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.javaÜ Ü(⁄
+◊
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.javaá á(!'
+%3!view.graphicalui.first.SigninPage"__id*=*;#
+!view.graphicalui.first.SigninPage"
+signinPageInstance"î
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.javaá á(")
+'
+%3!view.graphicalui.first.SigninPage:)
+toolbarview.graphicalui.first.ToolbarB%"#
+!view.graphicalui.first.SigninPage

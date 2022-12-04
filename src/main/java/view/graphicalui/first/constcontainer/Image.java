@@ -5,6 +5,7 @@ public final class Image {
     // Map object's key value for PageDialog's children added due to Sonar Warning
     public static final String IMG = "image";
 
+    ////////////////////////////////////////////////////////////////////////
     public static final String DELETE_GROUP = "btn_delete_group.png";
     public static final String DELETE_MEETING = "btn_delete_meeting.png";
     public static final String FACEBOOK_ACCESS = "btn_facebook_access.png";
@@ -35,7 +36,11 @@ public final class Image {
     public static final String TWITTER = "btn_twitter.png";
     public static final String YOUTUBE = "btn_youtube.png";
     public static final String ERROR = "dialog_error.png";
+    public static final String WAITING = "dialog_wait.png";
+    public static final String GALLERY = "dialog_gallery.png";
+    ////////////////////////////////////////////////////////////////////////
 
-
+    /////////////////
     private Image(){}
+    /////////////////
 }

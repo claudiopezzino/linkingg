@@ -1,17 +1,227 @@
 
-uview.graphicalui.first.HomePage$SearchUsersDialog#searchUsersResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¶$ ¶(5"1*¸
-1e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¸ ¸(Ë
-È
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¸ ¸()
-%0java.util.Map"/java.util.Collections#emptyMap()Ljava/util/Map;*"
-java.util.Collections"~
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¸ ¸(*
-
-%0java.util.Map:-
+fview.controllerui.second.handlerstates.StateMeetingsDeletion#checkCmd(Lview/graphicalui/second/Home;)V€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java ("startingBlock*õ
+2€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java( ((ç
+ä
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java( ((
+%27void",view.controllerui.second.Message#errorMsg()V*$""
+ view.controllerui.second.Message*
+1*ç
 
-buttonTypejavafx.scene.control.ButtonTypeB53
-1view.graphicalui.first.HomePage$SearchUsersDialog
+3€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java& &(­ª
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java&# &(3%
+%23javafx.scene.control.TextField"Iview.graphicalui.second.Shell#getPrompt()Ljavafx/scene/control/TextField;*&
+$
+homeview.graphicalui.second.Home2getPrompt()–“
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java&# &(=
+%24java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*'
+%
+%23javafx.scene.control.TextField2	getText()’
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java&? &(R
+%25java.util.List";view.graphicalui.second.Home#getBlacklist()Ljava/util/List;*&
+$
+homeview.graphicalui.second.Home2getBlacklist()ûø
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java& &(S
+%26void"Sview.graphicalui.second.Home#addTargetIntoList(Ljava/lang/String;Ljava/util/List;)V*&
+$
+homeview.graphicalui.second.Home*
+
+%24java.lang.String*
+
+%25java.util.List25addTargetIntoList(Ljava/lang/String;Ljava/util/List;)*
+1*º
+startingBlock€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java (#Ù
+Ö
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java (
+%30"
+__annotate*
+java.lang.Override*&
+$
+homeview.graphicalui.second.HomeÃ
+À
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java ("$
+homeview.graphicalui.second.Home"__annotation*
+
+%30*
+10*³
+4€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java% %(­ª
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java% %(!%
+%20javafx.scene.control.TextField"Iview.graphicalui.second.Shell#getPrompt()Ljavafx/scene/control/TextField;*&
+$
+homeview.graphicalui.second.Home2getPrompt()–“
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java% %(+
+%21java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*'
+%
+%20javafx.scene.control.TextField2	getText()ÙÖ
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java% %(5
+%22boolean"java.lang.String#isEmpty()Z*
+
+%21java.lang.String2	isEmpty()*
+2
+3*Ÿ
+5€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java   (’
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java   (1
+%14java.util.List";view.graphicalui.second.Home#getBlacklist()Ljava/util/List;*&
+$
+homeview.graphicalui.second.Home2getBlacklist() 
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java 3  (M
+%15java.util.List"Bview.graphicalui.second.Home#getGroupMeetingList()Ljava/util/List;*&
+$
+homeview.graphicalui.second.Home2getGroupMeetingList()ëè
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java   (N
+%16void"Lview.graphicalui.second.Home#startRemoval(Ljava/util/List;Ljava/util/List;)V*&
+$
+homeview.graphicalui.second.Home*
+
+%14java.util.List*
+
+%15java.util.List2.startRemoval(Ljava/util/List;Ljava/util/List;)ûø
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java! !( 
+%17void"-view.graphicalui.second.Home#initBlacklist()V*&
+$
+homeview.graphicalui.second.Home2initBlacklist()ñ
+î
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java" "( 
+%18void"6view.controllerui.second.Message#meetingDeletionMsg()V*$""
+ view.controllerui.second.Messageùö
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java# #(
+%19void",view.graphicalui.second.Home#listMeetings()V*&
+$
+homeview.graphicalui.second.Home2listMeetings()*
+1* 	
+6€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java (­ª
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java ( %
+%10javafx.scene.control.TextField"Iview.graphicalui.second.Shell#getPrompt()Ljavafx/scene/control/TextField;*&
+$
+homeview.graphicalui.second.Home2getPrompt()–“
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java (*
+%11java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*'
+%
+%10javafx.scene.control.TextField2	getText()­
+ª
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java2 (8
+%12java.lang.String"__id*
+""–“
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java (9
+%13boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%11java.lang.String*
+
+%12java.lang.String2equals(Ljava/lang/Object;)*
+4
+5* 
+7€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java (’
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java (,
+
+%9void"9view.graphicalui.second.Home#meetingsPreviousBlacklist()V*&
+$
+homeview.graphicalui.second.Home2meetingsPreviousBlacklist()*
+1*™	
+8€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java (¬©
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java ( $
+%5javafx.scene.control.TextField"Iview.graphicalui.second.Shell#getPrompt()Ljavafx/scene/control/TextField;*&
+$
+homeview.graphicalui.second.Home2getPrompt()”‘
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java (*
+%6java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*&
+$
+%5javafx.scene.control.TextField2	getText()¬
+©
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java2 (6
+%7java.lang.String"__id*
+""“
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java (7
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%6java.lang.String*
+
+%7java.lang.String2equals(Ljava/lang/Object;)*
+6
+7*ˆ
+9€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java (ú÷
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java ( 
+
+%4void"-view.graphicalui.second.Home#restoreScreen()V*&
+$
+homeview.graphicalui.second.Home2restoreScreen()*
+1*š	
+10€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java (¬©
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java ($
+%0javafx.scene.control.TextField"Iview.graphicalui.second.Shell#getPrompt()Ljavafx/scene/control/TextField;*&
+$
+homeview.graphicalui.second.Home2getPrompt()”‘
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java (%
+%1java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*&
+$
+%0javafx.scene.control.TextField2	getText()¬
+©
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java- (1
+%2java.lang.String"__id*
+""“
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java (2
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+%1java.lang.String*
+
+%2java.lang.String2equals(Ljava/lang/Object;)*
+8
+9* 
+0 "˜
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java+ +(
+implicit return*³
+1€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java* *(­ª
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java* *(%
+%28javafx.scene.control.TextField"Iview.graphicalui.second.Shell#getPrompt()Ljavafx/scene/control/TextField;*&
+$
+homeview.graphicalui.second.Home2getPrompt()õò
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsDeletion.java* *( 
+%29void".javafx.scene.control.TextInputControl#clear()V*'
+%
+%28javafx.scene.control.TextField2clear()*
+0:$
+homeview.graphicalui.second.HomeB@>
+<view.controllerui.second.handlerstates.StateMeetingsDeletion

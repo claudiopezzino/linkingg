@@ -22,9 +22,10 @@ public abstract class PageDialog extends Dialog<Map<String, String>> {
     protected Map<String, String> map = new HashMap<>();
     ////////////////////////////////////////////////////
 
-    ///////////////////////////////
+    //////////////////////////////////
     private ButtonType btnTypeSave;
-    ///////////////////////////////
+    private ButtonType btnTypeDismiss;
+    //////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////
     protected DialogEventHandler<MouseEvent> dialogHandler = new DialogEventHandler<>();
@@ -48,10 +49,10 @@ public abstract class PageDialog extends Dialog<Map<String, String>> {
     }
     ////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////
     private void setUpBtnTypes(){
         btnTypeSave = new ButtonType("Save", ButtonBar.ButtonData.OK_DONE);
-        ButtonType btnTypeDismiss = new ButtonType("Dismiss", ButtonBar.ButtonData.CANCEL_CLOSE);
+        btnTypeDismiss = new ButtonType("Dismiss", ButtonBar.ButtonData.CANCEL_CLOSE);
 
         this.getDialogPane().getButtonTypes().addAll(btnTypeSave, btnTypeDismiss);
 
@@ -61,7 +62,7 @@ public abstract class PageDialog extends Dialog<Map<String, String>> {
         nodeSave.getStyleClass().add(DIALOG_BUTTONS);
         nodeDismiss.getStyleClass().addAll(DIALOG_BUTTONS, CANCEL_BUTTON);
     }
-    //////////////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////////
 
     /////////////////////////////////////////
     protected abstract VBox setUpPopUpRoot();
@@ -72,4 +73,10 @@ public abstract class PageDialog extends Dialog<Map<String, String>> {
         return this.btnTypeSave;
     }
     ///////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////////
+    public ButtonType getBtnTypeDismiss() {
+        return this.btnTypeDismiss;
+    }
+    /////////////////////////////////////////////////////////////////////
 }

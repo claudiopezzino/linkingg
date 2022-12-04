@@ -4,9 +4,7 @@ import model.db.dbexceptions.DBException;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Properties;
 
 public class PersistencyDB {
@@ -79,6 +77,27 @@ public class PersistencyDB {
     }
     ////////////////////////////////////////////////////
 
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    public void closePreparedStatement(PreparedStatement preparedStatement) throws DBException {
+        try{
+            if(preparedStatement != null)
+                preparedStatement.close();
+        }catch (SQLException sqlException){
+            throw new DBException();
+        }
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////
+
+    ///////////////////////////////////////////////////////////////////
+    public void closeResultSet(ResultSet resultSet) throws DBException{
+        try{
+            if(resultSet != null)
+                resultSet.close();
+        } catch (SQLException sqlException) {
+            throw new DBException();
+        }
+    }
+    ///////////////////////////////////////////////////////////////////
 
     ///////////////////////////////////////////////////////////////////////
     public static PersistencyDB getSingletonInstance() throws DBException{

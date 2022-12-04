@@ -1,1 +1,3 @@
-view.graphicalui.first.MeetingPage#getHandler()Lview/controllerui/first/MeetingPageEventHandler;
+view.graphicalui.second.Welcome#getWelcomeInstance()Lview/graphicalui/second/Welcome;
+view.graphicalui.second.Welcome#instance-init#
+view.graphicalui.second.Welcome#<init>()V

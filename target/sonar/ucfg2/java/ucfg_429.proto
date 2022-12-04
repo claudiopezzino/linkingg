@@ -1,16 +1,92 @@
 
-Qview.graphicalui.first.HomePage#getBtnLinkRequests()Ljavafx/scene/control/Button;e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java‘ ‘($"1*…
-1e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java’ ’(Õ
- 
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java’ ’(#!
-%0javafx.scene.control.Button"__id*8*6!
-view.graphicalui.first.HomePage"
-btnLinkRequests"å
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java’ ’($#
-!
-%0javafx.scene.control.ButtonB#!
-view.graphicalui.first.HomePage
+÷view.controllerui.first.SignupPageEventHandler#checkUserInfo(Lview/bean/UserSignUpBean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SignupPageEventHandler.javaU U( "25*¢
+24r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SignupPageEventHandler.javaZ Z(°û
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SignupPageEventHandler.javaZ Z((
+
+%0void"5view.bean.UserSignUpBean#setName(Ljava/lang/String;)V*,
+*
+userSignUpBeanview.bean.UserSignUpBean*
+
+namejava.lang.String2setName(Ljava/lang/String;)*
+20*¶
+25r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SignupPageEventHandler.javaW W( •
+¢
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SignupPageEventHandler.javaW W(!
+
+stackErrorjava.lang.String"__id*
+""*
+24*™
+4r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SignupPageEventHandler.javax x(´®
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SignupPageEventHandler.javax x(.
+%10void"8view.bean.UserSignUpBean#setAccount(Ljava/lang/String;)V*,
+*
+userSignUpBeanview.bean.UserSignUpBean*
+
+accountjava.lang.String2setAccount(Ljava/lang/String;)*
+1*´
+16r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SignupPageEventHandler.javaf f(™ß
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SignupPageEventHandler.javaf f(.
+
+%4void"8view.bean.UserSignUpBean#setAddress(Ljava/lang/String;)V*,
+*
+userSignUpBeanview.bean.UserSignUpBean*
+
+addressjava.lang.String2setAddress(Ljava/lang/String;)*
+12*†
+8r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SignupPageEventHandler.javar r(°û
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SignupPageEventHandler.javar r((
+
+%8void"5view.bean.UserSignUpBean#setCell(Ljava/lang/String;)V*,
+*
+userSignUpBeanview.bean.UserSignUpBean*
+
+celljava.lang.String2setCell(Ljava/lang/String;)*
+4*´
+20r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SignupPageEventHandler.java` `(™ß
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SignupPageEventHandler.java` `(.
+
+%2void"8view.bean.UserSignUpBean#setSurname(Ljava/lang/String;)V*,
+*
+userSignUpBeanview.bean.UserSignUpBean*
+
+surnamejava.lang.String2setSurname(Ljava/lang/String;)*
+16*§
+12r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SignupPageEventHandler.javal l(§°
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SignupPageEventHandler.javal l(*
+
+%6void"6view.bean.UserSignUpBean#setEmail(Ljava/lang/String;)V*,
+*
+userSignUpBeanview.bean.UserSignUpBean*
+
+emailjava.lang.String2setEmail(Ljava/lang/String;)*
+8*ê
+1r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SignupPageEventHandler.java} }("ñ
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SignupPageEventHandler.java} }( 
+
+
+stackErrorjava.lang.String:*
+userSignUpBeanview.bean.UserSignUpBean:
+namejava.lang.String:
+surnamejava.lang.String:
+addressjava.lang.String:
+emailjava.lang.String:
+celljava.lang.String:
+accountjava.lang.StringB20
+.view.controllerui.first.SignupPageEventHandler

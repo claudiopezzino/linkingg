@@ -1,2 +1,3 @@
-view.graphicalui.second.Signin#prevScreen()V
-view.graphicalui.second.signinquestionstates.QuestionNickname#getQuestionNicknameInstance()Lview/graphicalui/second/signinquestionstates/QuestionNickname;
+view.controllerui.first.SignupPageEventHandler#assignUsernameToUsernameDialog(Ljava/util/Map;)V
+view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog#getUsernameDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog$UsernameDialog;
+javafx.scene.control.Labeled#setText(Ljava/lang/String;)V

@@ -1,45 +1,148 @@
 
-¶view.controllerui.second.handlerstates.StateUserLinkInvitations#getStateUserLinkInvitationsInstance()Lview/controllerui/second/handlerstates/StateUserLinkInvitations;É
-y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateUserLinkInvitations.java0+ 0(N"3*å
-2É
-y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateUserLinkInvitations.java2/ 2(Mëé
-É
-y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateUserLinkInvitations.java23 2(KE
-%1?view.controllerui.second.handlerstates.StateUserLinkInvitations"?view.controllerui.second.handlerstates.StateUserLinkInvitations£
-†
-É
-y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateUserLinkInvitations.java2/ 2(M
-%2"Iview.controllerui.second.handlerstates.StateUserLinkInvitations#<init>()V*G
-E
-%1?view.controllerui.second.handlerstates.StateUserLinkInvitations¡
-æ
-É
-y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateUserLinkInvitations.java2 2(MgA
-?view.controllerui.second.handlerstates.StateUserLinkInvitations""
- stateUserLinkInvitationsInstance"__id*G
-E
-%1?view.controllerui.second.handlerstates.StateUserLinkInvitations*
-1*’
-3É
-y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateUserLinkInvitations.java1 1(+¡
-æ
-É
-y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateUserLinkInvitations.java1 1(+E
-%0?view.controllerui.second.handlerstates.StateUserLinkInvitations"__id*i*gA
-?view.controllerui.second.handlerstates.StateUserLinkInvitations""
- stateUserLinkInvitationsInstance*
-2
-1*ü
-1É
-y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateUserLinkInvitations.java3 3(/¡
-æ
-É
-y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateUserLinkInvitations.java3 3(/E
-%3?view.controllerui.second.handlerstates.StateUserLinkInvitations"__id*i*gA
-?view.controllerui.second.handlerstates.StateUserLinkInvitations""
- stateUserLinkInvitationsInstance"œ
-É
-y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateUserLinkInvitations.java3 3(0G
-E
-%3?view.controllerui.second.handlerstates.StateUserLinkInvitationsBC"A
-?view.controllerui.second.handlerstates.StateUserLinkInvitations
+^view.graphicalui.first.HomePage$GroupDeletionDialog#setUpPopUpRoot()Ljavafx/scene/layout/VBox;e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaˆ ˆ(%"1*Û-
+1e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¯* ¯(4§°
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¯. ¯(2
+%0javafx.scene.layout.VBox"javafx.scene.layout.VBox∂
+≥
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¯* ¯(4
+%1""javafx.scene.layout.VBox#<init>()V* 
+
+%0javafx.scene.layout.VBox∆
+√
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¯ ¯(52
+vBoxDeletionDialogRootjavafx.scene.layout.VBox"__id* 
+
+%0javafx.scene.layout.VBox§°
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java˙( ˙(,
+%2javafx.scene.layout.VBox"javafx.scene.layout.VBox∂
+≥
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java˙$ ˙(.
+%3""javafx.scene.layout.VBox#<init>()V* 
+
+%2javafx.scene.layout.VBox¿
+Ω
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java˙ ˙(/,
+vBoxGroupDetailsjavafx.scene.layout.VBox"__id* 
+
+%2javafx.scene.layout.VBoxöó
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java˚ ˚(,'
+%4!javafx.collections.ObservableList"Djavafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;*.
+,
+vBoxGroupDetailsjavafx.scene.layout.VBox2getStyleClass()ê
+ç
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java˚4 ˚(A
+%5java.lang.String"__id*
+""õò
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java˚ ˚(B
+%6boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z*)
+'
+%4!javafx.collections.ObservableList*
+
+%5java.lang.String2addAll([Ljava/lang/Object;)ùö
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¸ ¸(*'
+%7!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*.
+,
+vBoxGroupDetailsjavafx.scene.layout.VBox2getChildren()⁄
+◊
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¸2 ¸(@ 
+%8javafx.scene.control.Label"__id*F*D5
+3view.graphicalui.first.HomePage$GroupDeletionDialog"
+	groupNameﬁ
+€
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¸B ¸(T 
+%9javafx.scene.control.Label"__id*J*H5
+3view.graphicalui.first.HomePage$GroupDeletionDialog"
+groupNickname «
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¸ ¸(U
+%10boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z*)
+'
+%7!javafx.collections.ObservableList*"
+ 
+%8javafx.scene.control.Label*"
+ 
+%9javafx.scene.control.Label2addAll([Ljava/lang/Object;)•¢
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java˛% ˛()
+%11javafx.scene.layout.HBox"javafx.scene.layout.HBox∏
+µ
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java˛! ˛(+
+%12""javafx.scene.layout.HBox#<init>()V*!
+
+%11javafx.scene.layout.HBoxæ
+ª
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java˛ ˛(,)
+hBoxGroupInfojavafx.scene.layout.HBox"__id*!
+
+%11javafx.scene.layout.HBoxòï
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaˇ ˇ()(
+%13!javafx.collections.ObservableList"Djavafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;*+
+)
+hBoxGroupInfojavafx.scene.layout.HBox2getStyleClass()ë
+é
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaˇ1 ˇ(>
+%14java.lang.String"__id*
+""ûõ
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaˇ ˇ(?
+%15boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z**
+(
+%13!javafx.collections.ObservableList*
+
+%14java.lang.String2addAll([Ljava/lang/Object;)õò
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÄ Ä('(
+%16!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*+
+)
+hBoxGroupInfojavafx.scene.layout.HBox2getChildren()€
+ÿ
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÄ/ Ä(> 
+%17javafx.scene.shape.Circle"__id*G*E5
+3view.graphicalui.first.HomePage$GroupDeletionDialog"
+
+groupImage◊‘
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÄ Ä(Q
+%18boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z**
+(
+%16!javafx.collections.ObservableList*"
+ 
+%17javafx.scene.shape.Circle*.
+,
+vBoxGroupDetailsjavafx.scene.layout.VBox2addAll([Ljava/lang/Object;)§°
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÇ Ç(0(
+%19!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*4
+2
+vBoxDeletionDialogRootjavafx.scene.layout.VBox2getChildren()∞≠
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÇ Ç(F
+%20boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z**
+(
+%19!javafx.collections.ObservableList*+
+)
+hBoxGroupInfojavafx.scene.layout.HBox2addAll([Ljava/lang/Object;)"ù
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÉ É(*4
+2
+vBoxDeletionDialogRootjavafx.scene.layout.VBoxB75
+3view.graphicalui.first.HomePage$GroupDeletionDialog

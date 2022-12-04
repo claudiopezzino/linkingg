@@ -10,7 +10,6 @@ import java.util.Map;
 
 import static view.graphicalui.first.constcontainer.Css.*;
 import static view.graphicalui.first.constcontainer.Image.ALERT;
-import static view.graphicalui.first.constcontainer.Image.ERROR;
 
 
 public class SignupPage extends SignPage {
@@ -139,63 +138,6 @@ public class SignupPage extends SignPage {
         return signupRoot;
     }
     /////////////////////////////////////////////////////////////////////////
-
-
-    /*--------------------- INNER_CLASS ---------------------*/
-    public static class InfoErrorDialog extends PageDialog{
-
-        ///////////////////////////////////////////////////////
-        private static InfoErrorDialog infoErrorDialogInstance;
-        ///////////////////////////////////////////////////////
-
-        //////////////////////////
-        private Label labelErrors;
-        //////////////////////////
-
-        //////////////////////////////////////////////////////////
-        public InfoErrorDialog() {
-            super("Error Panel", "Error", ERROR);
-            this.getDialogPane().setContent(this.setUpPopUpRoot());
-            this.setResultConverter(this::infoErrorResult);
-        }
-        ///////////////////////////////////////////////////////////
-
-        /////////////////////////////////////////////////////////////////////////////////////////////////////
-        private Map<String, String> infoErrorResult(ButtonType buttonType){
-            return Collections.emptyMap();
-        }
-        /////////////////////////////////////////////////////////////////////////////////////////////////////
-
-        ////////////////////////////////////////////////////
-        @Override
-        protected VBox setUpPopUpRoot() {
-            VBox vBoxPopUpRoot = new VBox();
-            vBoxPopUpRoot.getStyleClass().addAll(VBOX, HBOX);
-
-            labelErrors = new Label();
-            vBoxPopUpRoot.getChildren().add(labelErrors);
-
-            return vBoxPopUpRoot;
-        }
-        ////////////////////////////////////////////////////
-
-        //////////////////////////////////////////////////////////
-        public Label getLabelErrors() {
-            return this.labelErrors;
-        }
-        //////////////////////////////////////////////////////////
-
-
-        /////////////////////////////////////////////////////////////
-        public static InfoErrorDialog getInfoErrorDialogInstance() {
-            if(infoErrorDialogInstance == null)
-                infoErrorDialogInstance = new InfoErrorDialog();
-            return infoErrorDialogInstance;
-        }
-        //////////////////////////////////////////////////////////////
-
-    }
-    /*-------------------------------------------------------*/
 
 
     /*--------------------- INNER CLASS ---------------------*/

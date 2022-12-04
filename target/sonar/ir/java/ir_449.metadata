@@ -1,3 +1,1 @@
-view.graphicalui.first.HomePage#getHomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/HomePage;
-view.graphicalui.first.HomePage#instance-init#
-view.graphicalui.first.HomePage#<init>(Lview/graphicalui/first/Toolbar;)V
+view.graphicalui.second.signupquestionstates.QuestionEnd#instance-init#

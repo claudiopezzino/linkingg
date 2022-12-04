@@ -1,2 +1,1 @@
-view.graphicalui.second.signupquestionstates.QuestionAddress#display()V
-view.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;
+view.graphicalui.second.Home#displayQuestion()V

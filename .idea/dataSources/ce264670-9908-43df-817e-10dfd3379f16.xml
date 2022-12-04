@@ -774,7 +774,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <user id="232" parent="1" name="mysql.sys">
       <Host>localhost</Host>
     </user>
-    <table id="233" parent="224" name="groups">
+    <table id="233" parent="224" name="crowd">
       <Engine>InnoDB</Engine>
       <CollationName>utf8_general_ci</CollationName>
     </table>
@@ -867,7 +867,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <ColNames>groups_nickname</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>nickname</RefColNames>
-      <RefTableName>groups</RefTableName>
+      <RefTableName>crowd</RefTableName>
     </foreign-key>
     <foreign-key id="254" parent="234" name="fk_groups_has_users_users1">
       <ColNames>users_nickname</ColNames>
@@ -910,8 +910,8 @@ users_nickname</ColNames>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="262" parent="235" name="timetable">
-      <DataType>datetime|0s</DataType>
+    <column id="262" parent="235" name="date">
+      <DataType>date|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
@@ -929,264 +929,279 @@ users_nickname</ColNames>
       <DataType>longblob|0s</DataType>
       <Position>8</Position>
     </column>
-    <index id="266" parent="235" name="id_UNIQUE">
+    <column id="266" parent="235" name="time">
+      <DataType>time|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <foreign-key id="267" parent="235" name="scheduler">
+      <ColNames>scheduler</ColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <RefColNames>nickname</RefColNames>
+      <RefTableName>users</RefTableName>
+    </foreign-key>
+    <index id="268" parent="235" name="id_UNIQUE">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="267" parent="235" name="PRIMARY">
+    <index id="269" parent="235" name="scheduler_idx">
+      <ColNames>scheduler</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="270" parent="235" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <key id="268" parent="235" name="id_UNIQUE">
+    <key id="271" parent="235" name="id_UNIQUE">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>id_UNIQUE</UnderlyingIndexName>
     </key>
-    <column id="269" parent="236" name="meeting">
+    <column id="272" parent="236" name="meeting">
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="270" parent="236" name="image">
+    <column id="273" parent="236" name="image">
       <DataType>longblob|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="271" parent="236" name="id">
+    <column id="274" parent="236" name="id">
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <foreign-key id="272" parent="236" name="image">
+    <foreign-key id="275" parent="236" name="image">
       <ColNames>meeting</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>id</RefColNames>
       <RefTableName>meetings</RefTableName>
     </foreign-key>
-    <index id="273" parent="236" name="id_UNIQUE">
+    <index id="276" parent="236" name="id_UNIQUE">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="274" parent="236" name="image_idx">
+    <index id="277" parent="236" name="image_idx">
       <ColNames>meeting</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="275" parent="236" name="PRIMARY">
+    <key id="278" parent="236" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <key id="276" parent="236" name="id_UNIQUE">
+    <key id="279" parent="236" name="id_UNIQUE">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>id_UNIQUE</UnderlyingIndexName>
     </key>
-    <column id="277" parent="237" name="groups_nickname">
+    <column id="280" parent="237" name="groups_nickname">
       <DataType>varchar(45)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="278" parent="237" name="meetings_id">
+    <column id="281" parent="237" name="meetings_id">
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <foreign-key id="279" parent="237" name="fk_groups_has_meetings_groups1">
+    <foreign-key id="282" parent="237" name="fk_groups_has_meetings_groups1">
       <ColNames>groups_nickname</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>nickname</RefColNames>
-      <RefTableName>groups</RefTableName>
+      <RefTableName>crowd</RefTableName>
     </foreign-key>
-    <foreign-key id="280" parent="237" name="fk_groups_has_meetings_meetings1">
+    <foreign-key id="283" parent="237" name="fk_groups_has_meetings_meetings1">
       <ColNames>meetings_id</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>id</RefColNames>
       <RefTableName>meetings</RefTableName>
     </foreign-key>
-    <index id="281" parent="237" name="fk_groups_has_meetings_groups1_idx">
+    <index id="284" parent="237" name="fk_groups_has_meetings_groups1_idx">
       <ColNames>groups_nickname</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="282" parent="237" name="fk_groups_has_meetings_meetings1_idx">
+    <index id="285" parent="237" name="fk_groups_has_meetings_meetings1_idx">
       <ColNames>meetings_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="283" parent="237" name="PRIMARY">
+    <key id="286" parent="237" name="PRIMARY">
       <ColNames>groups_nickname
 meetings_id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="284" parent="238" name="users_nickname">
+    <column id="287" parent="238" name="users_nickname">
       <DataType>varchar(45)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="285" parent="238" name="groups_nickname">
+    <column id="288" parent="238" name="groups_nickname">
       <DataType>varchar(45)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <foreign-key id="286" parent="238" name="fk_users_has_groups_users2">
+    <foreign-key id="289" parent="238" name="fk_users_has_groups_users2">
       <ColNames>users_nickname</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>nickname</RefColNames>
       <RefTableName>users</RefTableName>
     </foreign-key>
-    <foreign-key id="287" parent="238" name="fk_users_has_groups_groups2">
+    <foreign-key id="290" parent="238" name="fk_users_has_groups_groups2">
       <ColNames>groups_nickname</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>nickname</RefColNames>
-      <RefTableName>groups</RefTableName>
+      <RefTableName>crowd</RefTableName>
     </foreign-key>
-    <index id="288" parent="238" name="fk_users_has_groups_users2_idx">
+    <index id="291" parent="238" name="fk_users_has_groups_users2_idx">
       <ColNames>users_nickname</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="289" parent="238" name="fk_users_has_groups_groups2_idx">
+    <index id="292" parent="238" name="fk_users_has_groups_groups2_idx">
       <ColNames>groups_nickname</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="290" parent="238" name="PRIMARY">
+    <key id="293" parent="238" name="PRIMARY">
       <ColNames>users_nickname
 groups_nickname</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="291" parent="239" name="nickname">
+    <column id="294" parent="239" name="nickname">
       <DataType>varchar(45)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="292" parent="239" name="password">
+    <column id="295" parent="239" name="password">
       <DataType>varchar(45)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="293" parent="239" name="name">
+    <column id="296" parent="239" name="name">
       <DataType>varchar(45)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="294" parent="239" name="surname">
+    <column id="297" parent="239" name="surname">
       <DataType>varchar(45)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="295" parent="239" name="address">
+    <column id="298" parent="239" name="address">
       <DataType>varchar(45)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="296" parent="239" name="mail">
+    <column id="299" parent="239" name="mail">
       <DataType>varchar(45)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="297" parent="239" name="cell">
+    <column id="300" parent="239" name="cell">
       <DataType>varchar(45)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <column id="298" parent="239" name="account">
+    <column id="301" parent="239" name="account">
       <DataType>varchar(45)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>
-    <column id="299" parent="239" name="image">
+    <column id="302" parent="239" name="image">
       <DataType>longblob|0s</DataType>
       <Position>9</Position>
     </column>
-    <column id="300" parent="239" name="ip">
-      <DataType>int(32) unsigned|0s</DataType>
+    <column id="303" parent="239" name="ip">
+      <DataType>varchar(45)|0s</DataType>
       <Position>10</Position>
     </column>
-    <column id="301" parent="239" name="port">
-      <DataType>smallint(32) unsigned|0s</DataType>
+    <column id="304" parent="239" name="port">
+      <DataType>int(10) unsigned|0s</DataType>
       <Position>11</Position>
     </column>
-    <index id="302" parent="239" name="id_UNIQUE">
+    <index id="305" parent="239" name="id_UNIQUE">
       <ColNames>nickname</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="303" parent="239" name="PRIMARY">
+    <key id="306" parent="239" name="PRIMARY">
       <ColNames>nickname</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <key id="304" parent="239" name="id_UNIQUE">
+    <key id="307" parent="239" name="id_UNIQUE">
       <ColNames>nickname</ColNames>
       <UnderlyingIndexName>id_UNIQUE</UnderlyingIndexName>
     </key>
-    <column id="305" parent="240" name="users_nickname">
+    <column id="308" parent="240" name="users_nickname">
       <DataType>varchar(45)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="306" parent="240" name="groups_nickname">
+    <column id="309" parent="240" name="groups_nickname">
       <DataType>varchar(45)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <foreign-key id="307" parent="240" name="fk_users_has_groups_users1">
+    <foreign-key id="310" parent="240" name="fk_users_has_groups_users1">
       <ColNames>users_nickname</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>nickname</RefColNames>
       <RefTableName>users</RefTableName>
     </foreign-key>
-    <foreign-key id="308" parent="240" name="fk_users_has_groups_groups1">
+    <foreign-key id="311" parent="240" name="fk_users_has_groups_groups1">
       <ColNames>groups_nickname</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>nickname</RefColNames>
-      <RefTableName>groups</RefTableName>
+      <RefTableName>crowd</RefTableName>
     </foreign-key>
-    <index id="309" parent="240" name="fk_users_has_groups_users1_idx">
+    <index id="312" parent="240" name="fk_users_has_groups_users1_idx">
       <ColNames>users_nickname</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="310" parent="240" name="fk_users_has_groups_groups1_idx">
+    <index id="313" parent="240" name="fk_users_has_groups_groups1_idx">
       <ColNames>groups_nickname</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="311" parent="240" name="PRIMARY">
+    <key id="314" parent="240" name="PRIMARY">
       <ColNames>users_nickname
 groups_nickname</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
     </key>
-    <column id="312" parent="241" name="meetings_id">
+    <column id="315" parent="241" name="meetings_id">
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="313" parent="241" name="users_nickname">
+    <column id="316" parent="241" name="users_nickname">
       <DataType>varchar(45)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <foreign-key id="314" parent="241" name="fk_meetings_has_users_meetings1">
+    <foreign-key id="317" parent="241" name="fk_meetings_has_users_meetings1">
       <ColNames>meetings_id</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>id</RefColNames>
       <RefTableName>meetings</RefTableName>
     </foreign-key>
-    <foreign-key id="315" parent="241" name="fk_meetings_has_users_users1">
+    <foreign-key id="318" parent="241" name="fk_meetings_has_users_users1">
       <ColNames>users_nickname</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>nickname</RefColNames>
       <RefTableName>users</RefTableName>
     </foreign-key>
-    <index id="316" parent="241" name="fk_meetings_has_users_meetings1_idx">
+    <index id="319" parent="241" name="fk_meetings_has_users_meetings1_idx">
       <ColNames>meetings_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="317" parent="241" name="fk_meetings_has_users_users1_idx">
+    <index id="320" parent="241" name="fk_meetings_has_users_users1_idx">
       <ColNames>users_nickname</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="318" parent="241" name="PRIMARY">
+    <key id="321" parent="241" name="PRIMARY">
       <ColNames>meetings_id
 users_nickname</ColNames>
       <NameSurrogate>1</NameSurrogate>

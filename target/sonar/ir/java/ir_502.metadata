@@ -1,1 +1,6 @@
-view.graphicalui.second.groupquestionstates.QuestionGroupName#instance-init#
+view.graphicalui.second.Sign#setUpScreen()V
+javafx.scene.Node#setFocusTraversable(Z)V
+javafx.scene.control.TextArea#instance-init#
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+javafx.scene.control.TextArea#<init>()V
+javafx.scene.control.TextInputControl#setEditable(Z)V

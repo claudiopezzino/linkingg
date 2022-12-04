@@ -1,45 +1,16 @@
 
-view.controllerui.second.handlerstates.StateSearch#getStateSearchInstance()Lview/controllerui/second/handlerstates/StateSearch;v
-l/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateSearch.java- -(4"3*ù
-2v
-l/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateSearch.java/" /(3éæ
-v
-l/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateSearch.java/& /(18
-%12view.controllerui.second.handlerstates.StateSearch"2view.controllerui.second.handlerstates.StateSearchû
-ø
-v
-l/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateSearch.java/" /(3
-%2"<view.controllerui.second.handlerstates.StateSearch#<init>()V*:
-8
-%12view.controllerui.second.handlerstates.StateSearchŒ
-‰
-v
-l/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateSearch.java/ /(3M4
-2view.controllerui.second.handlerstates.StateSearch"
-stateSearchInstance"__id*:
-8
-%12view.controllerui.second.handlerstates.StateSearch*
-1*’
-3v
-l/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateSearch.java. .(Œ
-‰
-v
-l/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateSearch.java. .(8
-%02view.controllerui.second.handlerstates.StateSearch"__id*O*M4
-2view.controllerui.second.handlerstates.StateSearch"
-stateSearchInstance*
-2
-1*Á
-1v
-l/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateSearch.java0 0("Œ
-‰
-v
-l/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateSearch.java0 0("8
-%32view.controllerui.second.handlerstates.StateSearch"__id*O*M4
-2view.controllerui.second.handlerstates.StateSearch"
-stateSearchInstance"´
-v
-l/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateSearch.java0 0(#:
-8
-%32view.controllerui.second.handlerstates.StateSearchB6"4
-2view.controllerui.second.handlerstates.StateSearch
+Tview.graphicalui.first.SignupPage#getTextFieldCell()Ljavafx/scene/control/TextField;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaº º(%"1*Õ
+1g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java» »(Ò
+Ï
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java» »(!$
+%0javafx.scene.control.TextField"__id*8*6#
+!view.graphicalui.first.SignupPage"
+textFieldCell"‘
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java» »("&
+$
+%0javafx.scene.control.TextFieldB%#
+!view.graphicalui.first.SignupPage

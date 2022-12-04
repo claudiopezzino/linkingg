@@ -1,1 +1,2 @@
-view.graphicalui.first.SignupPage#getTextFieldName()Ljavafx/scene/control/TextField;
+view.graphicalui.first.FirstMain#main([Ljava/lang/String;)V
+javafx.application.Application#launch([Ljava/lang/String;)V

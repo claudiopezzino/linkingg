@@ -1,2 +1,3 @@
-view.graphicalui.second.signupquestionstates.QuestionAddress#next(Lview/graphicalui/second/QuestionStateMachine;)V
-view.graphicalui.second.signupquestionstates.QuestionMail#getQuestionMailInstance()Lview/graphicalui/second/signupquestionstates/QuestionMail;
+view.graphicalui.second.Home#showMeetingDetails(Ljava/lang/String;)V
+view.controllerui.second.handlerstates.StateMeetingDetails#getStateMeetingDetailsInstance()Lview/controllerui/second/handlerstates/StateMeetingDetails;
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V

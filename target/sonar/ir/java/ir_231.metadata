@@ -1,4 +1,2 @@
-view.graphicalui.second.SecondMain#start(Ljavafx/stage/Stage;)V
-javafx.stage.Stage#show()V
-javafx.stage.Stage#setResizable(Z)V
-javafx.stage.Stage#setScene(Ljavafx/scene/Scene;)V
+view.graphicalui.first.SignupPage#getMail()Ljava/lang/String;
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;

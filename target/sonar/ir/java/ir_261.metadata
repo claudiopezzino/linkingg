@@ -1,4 +1,1 @@
-view.controllerui.second.Message#wrongPasswordMsg()V
-javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
-javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
-javafx.scene.control.Alert#instance-init#
+view.controllerui.first.SigninPageEventHandler#clearSigninCredentials(Lview/graphicalui/first/SigninPage;)V

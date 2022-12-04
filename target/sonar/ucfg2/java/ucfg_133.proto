@@ -1,45 +1,16 @@
 
-yview.controllerui.second.handlerstates.StateMain#getStateMainInstance()Lview/controllerui/second/handlerstates/StateMain;t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.java. .(0"3*„
-2t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.java0  0(/„‡
-t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.java0$ 0(-6
-%10view.controllerui.second.handlerstates.StateMain"0view.controllerui.second.handlerstates.StateMainı
-Ú
-t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.java0  0(/
-%2":view.controllerui.second.handlerstates.StateMain#<init>()V*8
-6
-%10view.controllerui.second.handlerstates.StateMainÑ
-Å
-t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.java0 0(/I2
-0view.controllerui.second.handlerstates.StateMain"
-stateMainInstance"__id*8
-6
-%10view.controllerui.second.handlerstates.StateMain*
-1*à
-3t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.java/ /(Ñ
-Å
-t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.java/ /(6
-%00view.controllerui.second.handlerstates.StateMain"__id*K*I2
-0view.controllerui.second.handlerstates.StateMain"
-stateMainInstance*
-2
-1*≥
-1t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.java1 1( Ñ
-Å
-t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.java1 1( 6
-%30view.controllerui.second.handlerstates.StateMain"__id*K*I2
-0view.controllerui.second.handlerstates.StateMain"
-stateMainInstance"∞
-t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.java1 1(!8
-6
-%30view.controllerui.second.handlerstates.StateMainB4"2
-0view.controllerui.second.handlerstates.StateMain
+@view.graphicalui.second.Home#getMeetingFilters()Ljava/util/List;b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaß ß()"1*°
+1b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaß5 ß(9π
+∂
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaß5 ß(H
+%0java.util.List"__id*4*2
+view.graphicalui.second.Home"
+meetingFilters"|
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaß. ß(I
+
+%0java.util.ListB 
+view.graphicalui.second.Home

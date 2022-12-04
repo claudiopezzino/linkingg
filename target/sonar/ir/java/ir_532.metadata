@@ -1,3 +1,7 @@
-view.graphicalui.second.signinquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/signinquestionstates/QuestionEnd;
-view.graphicalui.second.signinquestionstates.QuestionEnd#instance-init#
-view.graphicalui.second.signinquestionstates.QuestionEnd#<init>()V
+view.graphicalui.first.HomePage#setUpGroupsAndMeetingsArea()Ljavafx/scene/layout/BorderPane;
+view.graphicalui.first.HomePage#setUpMeetingsArea()Ljavafx/scene/layout/VBox;
+view.graphicalui.first.HomePage#setUpGroupsArea()Ljavafx/scene/layout/VBox;
+javafx.scene.layout.BorderPane#<init>()V
+javafx.scene.layout.BorderPane#instance-init#
+javafx.scene.layout.BorderPane#setTop(Ljavafx/scene/Node;)V
+javafx.scene.layout.BorderPane#setBottom(Ljavafx/scene/Node;)V

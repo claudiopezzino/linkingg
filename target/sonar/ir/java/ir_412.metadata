@@ -1,2 +1,2 @@
-view.graphicalui.second.Sign#displaySignOptions()V
-javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.graphicalui.first.toolbardecorations.SocialBarDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)V
+view.graphicalui.first.toolbardecorations.SocialBarDecorator#setUpSocialBar()V

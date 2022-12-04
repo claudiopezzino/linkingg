@@ -1,1 +1,3 @@
-view.controllerui.second.handlerstates.StateSearchInput#instance-init#
+view.graphicalui.second.signupquestionstates.QuestionMail#getQuestionMailInstance()Lview/graphicalui/second/signupquestionstates/QuestionMail;
+view.graphicalui.second.signupquestionstates.QuestionMail#<init>()V
+view.graphicalui.second.signupquestionstates.QuestionMail#instance-init#

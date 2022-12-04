@@ -1,1 +1,2 @@
-view.graphicalui.second.signupquestionstates.QuestionName#<init>()V
+view.graphicalui.first.toolbaritems.WelcomeToolbarItems#getIndex()Ljava/lang/Integer;
+java.lang.Enum#ordinal()I

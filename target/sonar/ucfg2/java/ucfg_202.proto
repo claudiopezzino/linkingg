@@ -1,16 +1,91 @@
 
-Iview.graphicalui.second.Shell#getPrompt()Ljavafx/scene/control/TextField;a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java, ,("1*∏
-1a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java- -(¡
-æ
-a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java- -($
-%0javafx.scene.control.TextField"__id*-*+
-view.graphicalui.second.Shell"
-prompt"ã
-a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java- -(&
-$
-%0javafx.scene.control.TextFieldB!
-view.graphicalui.second.Shell
+uview.graphicalui.first.SignupPage$CredentialDialog#credentialResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java·$ ·(4"3*î
+2g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java„ „(»
+≈
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java„ „(
+%1java.util.Map"__id*?*=4
+2view.graphicalui.first.SignupPage$CredentialDialog"
+mapﬂ
+‹
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java„) „(6 
+%2javafx.scene.control.Label"__id*I*G4
+2view.graphicalui.first.SignupPage$CredentialDialog"
+labelNicknameÌÍ
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java„) „(@
+%3java.lang.String"8javafx.scene.control.Labeled#getText()Ljava/lang/String;*"
+ 
+%2javafx.scene.control.Label2	getText()Õ
+ 
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java„ „(A
+%4java.lang.String"__mapSet*
+
+%1java.util.Map*
+
+nickname*
+
+%3java.lang.String»
+≈
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java‰ ‰(
+%5java.util.Map"__id*?*=4
+2view.graphicalui.first.SignupPage$CredentialDialog"
+mapﬂ
+‹
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java‰) ‰(6 
+%6javafx.scene.control.Label"__id*I*G4
+2view.graphicalui.first.SignupPage$CredentialDialog"
+labelPasswordÌÍ
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java‰) ‰(@
+%7java.lang.String"8javafx.scene.control.Labeled#getText()Ljava/lang/String;*"
+ 
+%6javafx.scene.control.Label2	getText()Õ
+ 
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java‰ ‰(A
+%8java.lang.String"__mapSet*
+
+%5java.util.Map*
+
+password*
+
+%7java.lang.String»
+≈
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÂ Â(
+%9java.util.Map"__id*?*=4
+2view.graphicalui.first.SignupPage$CredentialDialog"
+map"Ä
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÂ Â( 
+
+%9java.util.Map*©
+3g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java‚ ‚(≤Ø
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java‚ ‚(2%
+%0javafx.scene.control.ButtonType"Sview.graphicalui.first.PageDialog#getBtnTypeSave()Ljavafx/scene/control/ButtonType;*64
+2view.graphicalui.first.SignupPage$CredentialDialog2getBtnTypeSave()*
+2
+1*¡
+1g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÁ Á(Œ
+À
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÁ Á()
+%10java.util.Map"/java.util.Collections#emptyMap()Ljava/util/Map;*"
+java.util.Collections"Å
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÁ Á(*
+
+%10java.util.Map:-
+
+buttonTypejavafx.scene.control.ButtonTypeB64
+2view.graphicalui.first.SignupPage$CredentialDialog

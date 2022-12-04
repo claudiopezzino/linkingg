@@ -1,16 +1,40 @@
 
-Tview.graphicalui.first.SignupPage#getTextFieldMail()Ljavafx/scene/control/TextField;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaø ø(%"1*Õ
-1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaù ù(Ò
-Ï
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaù ù(!$
-%0javafx.scene.control.TextField"__id*8*6#
-!view.graphicalui.first.SignupPage"
-textFieldMail"‘
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaù ù("&
-$
-%0javafx.scene.control.TextFieldB%#
-!view.graphicalui.first.SignupPage
+Yview.bean.errorsignupdecorations.CellBeanErrorDecorator#displayErrors()Ljava/lang/String;{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java ("1*ö
+
+1{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (à
+Ý
+{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (-
+%0java.lang.String">view.bean.BeanErrorDecorator#displayErrors()Ljava/lang/String;*
+""¼
+¹
+{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (.
+errorsjava.lang.String"__id*
+
+%0java.lang.String—”
+{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (#
+%1java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*;9
+7view.bean.errorsignupdecorations.CellBeanErrorDecorator2getMessage()Ú
+×
+{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (#
+%2java.lang.String"__concat*
+
+errorsjava.lang.String*
+
+%1java.lang.String¼
+¹
+{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (#
+errorsjava.lang.String"__id*
+
+%2java.lang.String"›
+{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (
+
+errorsjava.lang.StringB;9
+7view.bean.errorsignupdecorations.CellBeanErrorDecorator

@@ -1,2 +1,2 @@
-view.graphicalui.first.toolbardecorations.SearchBarDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)V
-view.graphicalui.first.toolbardecorations.SearchBarDecorator#setUpSearchBar()V
+view.graphicalui.first.SigninPage#<init>(Lview/graphicalui/first/Toolbar;)V
+view.graphicalui.first.SigninPage#setUpSignInPage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;

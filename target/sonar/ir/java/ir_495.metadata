@@ -1,2 +1,2 @@
-view.graphicalui.second.groupquestionstates.QuestionGroupNickname#display()V
-view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;
+model.dao.FactoryDAO#createDAO(Lmodel/dao/DAO;)Lmodel/dao/BaseDAO;
+model.dao.FactoryDAO#createUserDAO()Lmodel/dao/UserDAO;

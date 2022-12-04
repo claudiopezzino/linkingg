@@ -1,1 +1,1 @@
-view.controllerui.second.handlerstates.StateGroupsDeletion#assembleAllGroups(Lview/graphicalui/second/Home;)V
+model.User#imageProfile()Ljava/lang/String;

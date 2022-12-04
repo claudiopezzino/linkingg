@@ -1,1 +1,11 @@
-view.graphicalui.second.passwordquestionstates.QuestionEnd#<init>()V
+view.controllerui.second.KeyEventHandler#handle(Ljavafx/event/Event;)V
+view.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;
+view.graphicalui.second.Signin#getSigninInstance()Lview/graphicalui/second/Signin;
+java.lang.Enum#equals(Ljava/lang/Object;)Z
+view.controllerui.second.KeyEventHandler#homeHandle(Lview/graphicalui/second/Home;)V
+javafx.scene.input.KeyEvent#getCode()Ljavafx/scene/input/KeyCode;
+view.controllerui.second.KeyEventHandler#signinHandle(Lview/graphicalui/second/Signin;)V
+view.controllerui.second.KeyEventHandler#welcomeHandle(Lview/graphicalui/second/Welcome;)V
+view.controllerui.second.KeyEventHandler#signupHandle(Lview/graphicalui/second/Signup;)V
+view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;
+view.graphicalui.second.Welcome#getWelcomeInstance()Lview/graphicalui/second/Welcome;

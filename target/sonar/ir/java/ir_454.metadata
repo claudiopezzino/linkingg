@@ -1,3 +1,1 @@
-view.graphicalui.second.signupquestionstates.QuestionMail#getQuestionMailInstance()Lview/graphicalui/second/signupquestionstates/QuestionMail;
-view.graphicalui.second.signupquestionstates.QuestionMail#<init>()V
-view.graphicalui.second.signupquestionstates.QuestionMail#instance-init#
+view.bean.errorsignupdecorations.NameBeanErrorDecorator#instance-init#

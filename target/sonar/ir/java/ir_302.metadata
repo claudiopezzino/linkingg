@@ -1,3 +1,4 @@
-view.controllerui.second.handlerstates.StateGroupCreationEnd#getStateGroupCreationEndInstance()Lview/controllerui/second/handlerstates/StateGroupCreationEnd;
-view.controllerui.second.handlerstates.StateGroupCreationEnd#<init>()V
-view.controllerui.second.handlerstates.StateGroupCreationEnd#instance-init#
+view.controllerui.second.Message#infoMsg()V
+javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
+javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
+javafx.scene.control.Alert#instance-init#

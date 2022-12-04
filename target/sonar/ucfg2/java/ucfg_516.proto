@@ -1,48 +1,16 @@
 
-view.graphicalui.first.WelcomePage#getWelcomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/WelcomePage;f
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/WelcomePage.java (4"4*Æ
-2h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/WelcomePage.javaÅ2 Å(9ª∏
-h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/WelcomePage.javaÅ& Å(1(
-%1"view.graphicalui.first.WelcomePage""view.graphicalui.first.WelcomePageö
-ó
-h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/WelcomePage.javaÅ" Å(:
-%2"Lview.graphicalui.first.WelcomePage#<init>(Lview/graphicalui/first/Toolbar;)V**
-(
-%1"view.graphicalui.first.WelcomePage*+
-)
-toolbarview.graphicalui.first.Toolbarﬁ
-€
-h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/WelcomePage.javaÅ Å(:=$
-"view.graphicalui.first.WelcomePage"
-welcomePageInstance"__id**
-(
-%1"view.graphicalui.first.WelcomePage*
-1*÷
-4h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/WelcomePage.javaÄ Ä(ﬁ
-€
-h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/WelcomePage.javaÄ Ä((
-%0"view.graphicalui.first.WelcomePage"__id*?*=$
-"view.graphicalui.first.WelcomePage"
-welcomePageInstance*
-2
-1*Á
-1h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/WelcomePage.javaÇ Ç(ﬁ
-€
-h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/WelcomePage.javaÉ É("(
-%3"view.graphicalui.first.WelcomePage"__id*?*=$
-"view.graphicalui.first.WelcomePage"
-welcomePageInstance"ñ
-h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/WelcomePage.javaÉ É(#*
-(
-%3"view.graphicalui.first.WelcomePage:)
-toolbarview.graphicalui.first.ToolbarB&"$
-"view.graphicalui.first.WelcomePage
+Pview.graphicalui.first.HomePage#getBtnDeleteGroup()Ljavafx/scene/control/Button;e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java⁄ ⁄(#"1*»
+1e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java€ €(Ã
+…
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java€ €("!
+%0javafx.scene.control.Button"__id*7*5!
+view.graphicalui.first.HomePage"
+btnDeleteGroup"å
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java€ €(##
+!
+%0javafx.scene.control.ButtonB#!
+view.graphicalui.first.HomePage

@@ -1,1 +1,2 @@
-view.graphicalui.first.constcontainer.Protocol#<init>()V
+view.graphicalui.second.Signup#restoreScreen()V
+view.graphicalui.second.signupquestionstates.QuestionName#getQuestionNameInstance()Lview/graphicalui/second/signupquestionstates/QuestionName;

@@ -1,6 +1,7 @@
-view.controllerui.first.HomePageEventHandler#manageUserProfile()V
-java.util.Optional#isPresent()Z
-view.controllerui.first.HomePageEventHandler#changeUserImageProfile(Ljava/util/Map;)V
-javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
-java.util.Optional#get()Ljava/lang/Object;
-view.graphicalui.first.HomePage$UserProfileDialog#getUserProfileDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog;
+view.controllerui.second.handlerstates.StateGroupCreationEnd#checkCmd(Lview/graphicalui/second/Home;)V
+view.controllerui.second.Message#errorMsg()V
+view.controllerui.second.Message#groupCreationMsg()V
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+javafx.util.Pair#<init>(Ljava/lang/Object;Ljava/lang/Object;)V
+javafx.util.Pair#instance-init#

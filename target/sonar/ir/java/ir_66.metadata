@@ -1,3 +1,2 @@
-view.graphicalui.second.Home#instance-init#
-java.util.ArrayList#<init>()V
-java.util.ArrayList#instance-init#
+view.graphicalui.second.passwordquestionstates.QuestionCurrentPassword#display()V
+view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;

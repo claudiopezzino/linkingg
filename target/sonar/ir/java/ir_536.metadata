@@ -1,7 +1,10 @@
-view.graphicalui.first.Container#buildContent(Lview/graphicalui/first/Page;)Ljavafx/scene/Parent;
-view.graphicalui.first.SignupPage#getSignupPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/SignupPage;
-view.graphicalui.first.HomePage#getHomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/HomePage;
-view.graphicalui.first.SigninPage#getSigninPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/SigninPage;
-view.graphicalui.first.MeetingPage#getMeetingPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/MeetingPage;
-view.graphicalui.first.Container#getToolBar(Lview/graphicalui/first/Page;)Lview/graphicalui/first/Toolbar;
-view.graphicalui.first.WelcomePage#getWelcomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/WelcomePage;
+view.graphicalui.first.HomePage#setUpHomePage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;
+javafx.scene.layout.VBox#instance-init#
+view.graphicalui.first.HomePage#setUpSearchArea()Ljavafx/scene/layout/BorderPane;
+javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;
+view.graphicalui.first.HomePage#setUpGroupsAndMeetingsArea()Ljavafx/scene/layout/BorderPane;
+javafx.scene.layout.BorderPane#<init>()V
+javafx.scene.layout.BorderPane#instance-init#
+javafx.scene.layout.VBox#<init>()V
+javafx.scene.layout.BorderPane#setTop(Ljavafx/scene/Node;)V
+javafx.scene.layout.BorderPane#setBottom(Ljavafx/scene/Node;)V

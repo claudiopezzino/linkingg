@@ -1,1 +1,3 @@
-view.controllerui.second.handlerstates.StateUserLinkInvitations#<init>()V
+view.graphicalui.second.Sign#instance-init#
+view.graphicalui.second.QuestionStateMachine#instance-init#
+view.graphicalui.second.QuestionStateMachine#<init>()V

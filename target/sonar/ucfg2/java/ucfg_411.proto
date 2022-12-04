@@ -1,120 +1,16 @@
 
-kview.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog#setUpPopUpRoot()Ljavafx/scene/layout/VBox;e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¶ ¶()"1*Ï#
+Xview.graphicalui.first.SigninPage#getTextFieldPassword()Ljavafx/scene/control/TextField;e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.javaq q()"1*”
 1e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaß  ß(*§°
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.javar r(‘
+—
 e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaß$ ß((
-%0javafx.scene.layout.VBox"javafx.scene.layout.VBox∂
-≥
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.javar r(%$
+%0javafx.scene.control.TextField"__id*<*:#
+!view.graphicalui.first.SigninPage"
+textFieldPassword"è
 e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaß  ß(*
-%1""javafx.scene.layout.VBox#<init>()V* 
-
-%0javafx.scene.layout.VBox∏
-µ
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaß ß(+$
-vBoxRootjavafx.scene.layout.VBox"__id* 
-
-%0javafx.scene.layout.VBoxíè
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java® ®(('
-%2!javafx.collections.ObservableList"Djavafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;*&
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.javar r(&&
 $
-vBoxRootjavafx.scene.layout.VBox2getStyleClass()ê
-ç
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java®0 ®(4
-%3java.lang.String"__id*
-""ê
-ç
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java®6 ®(:
-%4java.lang.String"__id*
-""µ≤
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java® ®(;
-%5boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z*)
-'
-%2!javafx.collections.ObservableList*
-
-%3java.lang.String*
-
-%4java.lang.String2addAll([Ljava/lang/Object;)®•
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java™( ™(- 
-%6javafx.scene.control.Label"javafx.scene.control.Label€
-ÿ
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java™$ ™(:
-%7"6javafx.scene.control.Label#<init>(Ljava/lang/String;)V*"
- 
-%6javafx.scene.control.Label*
-	Nickname1Ô
-Ï
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java™ ™(:YB
-@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog"
-labelCurrNickname"__id*"
- 
-%6javafx.scene.control.Label∞≠
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¨+ ¨(4$
-%8javafx.scene.control.TextField"javafx.scene.control.TextField¬
-ø
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¨' ¨(6
-%9"(javafx.scene.control.TextField#<init>()V*&
-$
-%8javafx.scene.control.TextFieldˆ
-Û
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¨ ¨(6\B
-@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog"
-textFieldNewNickname"__id*&
-$
-%8javafx.scene.control.TextField˜
-Ù
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java≠ ≠($%
-%10javafx.scene.control.TextField"__id*^*\B
-@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog"
-textFieldNewNicknameüú
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java≠ ≠(B
-%11void"Hjavafx.scene.control.TextInputControl#setPromptText(Ljava/lang/String;)V*'
-%
-%10javafx.scene.control.TextField*
-New nickname2!setPromptText(Ljava/lang/String;)ñì
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaØ Ø(&(
-%12!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*&
-$
-vBoxRootjavafx.scene.layout.VBox2getChildren()
-Ì
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaØ. Ø(?!
-%13javafx.scene.control.Label"__id*[*YB
-@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog"
-labelCurrNickname˜
-Ù
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaØA Ø(U%
-%14javafx.scene.control.TextField"__id*^*\B
-@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog"
-textFieldNewNickname—Œ
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaØ Ø(V
-%15boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z**
-(
-%12!javafx.collections.ObservableList*#
-!
-%13javafx.scene.control.Label*'
-%
-%14javafx.scene.control.TextField2addAll([Ljava/lang/Object;)"è
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java± ±( &
-$
-vBoxRootjavafx.scene.layout.VBoxBDB
-@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog
+%0javafx.scene.control.TextFieldB%#
+!view.graphicalui.first.SigninPage

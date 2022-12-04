@@ -1,2 +1,2 @@
-view.graphicalui.second.passwordquestionstates.QuestionNewPassword#display()V
-view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;
+view.graphicalui.first.toolbardecorations.SearchBarDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)V
+view.graphicalui.first.toolbardecorations.SearchBarDecorator#setUpSearchBar()V

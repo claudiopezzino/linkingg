@@ -1,3 +1,6 @@
-view.controllerui.second.handlerstates.StateSearchInput#getStateSearchInput()Lview/controllerui/second/handlerstates/StateSearchInput;
-view.controllerui.second.handlerstates.StateSearchInput#<init>()V
-view.controllerui.second.handlerstates.StateSearchInput#instance-init#
+view.controllerui.second.handlerstates.StateUsernameChange#checkCmd(Lview/graphicalui/second/Home;)V
+view.controllerui.second.Message#errorMsg()V
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#isEmpty()Z
+view.controllerui.second.Message#usernameChangedMsg()V

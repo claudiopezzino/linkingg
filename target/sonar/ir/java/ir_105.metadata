@@ -1,3 +1,5 @@
-view.graphicalui.second.Home#listMeetings()V
-javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
-view.controllerui.second.handlerstates.StateMeetingsView#getStateMeetingsViewInstance()Lview/controllerui/second/handlerstates/StateMeetingsView;
+view.graphicalui.second.Home#passwordChangeMode()V
+view.graphicalui.second.passwordquestionstates.QuestionCurrentPassword#getQuestionCurrentPasswordInstance()Lview/graphicalui/second/passwordquestionstates/QuestionCurrentPassword;
+view.graphicalui.second.QuestionStateMachine#instance-init#
+view.graphicalui.second.QuestionStateMachine#<init>()V
+view.controllerui.second.handlerstates.StatePasswordChange#getStatePasswordChangeInstance()Lview/controllerui/second/handlerstates/StatePasswordChange;

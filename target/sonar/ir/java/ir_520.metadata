@@ -1,3 +1,1 @@
-view.graphicalui.second.groupquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/groupquestionstates/QuestionEnd;
-view.graphicalui.second.groupquestionstates.QuestionEnd#instance-init#
-view.graphicalui.second.groupquestionstates.QuestionEnd#<init>()V
+view.graphicalui.second.meetingquestionstates.QuestionTypeOfMeeting#instance-init#

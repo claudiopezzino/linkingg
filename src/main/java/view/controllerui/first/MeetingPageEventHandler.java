@@ -1,7 +1,6 @@
 package view.controllerui.first;
 
 import javafx.event.EventHandler;
-import javafx.scene.control.Alert;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
@@ -25,6 +24,7 @@ public class MeetingPageEventHandler<T extends MouseEvent> implements EventHandl
             HBox mainBar = (HBox) MeetingPage.getMeetingPageInstance(null).getToolBar().getItems().get(MAIN_BAR.getIndex());
             VBox profileBox = (VBox) MeetingPage.getMeetingPageInstance(null).getToolBar().getItems().get(PROFILE_BOX.getIndex());
 
+            // to remove or make dispatch of listening thread as done with home handler
             if(event.getSource().equals(profileBox.getChildren().get(LINK_SIGNOUT.getIndex())))
                 FirstMain.getCurrScene().setRoot(Container.getRoot(WELCOME_PAGE));
 
@@ -33,10 +33,9 @@ public class MeetingPageEventHandler<T extends MouseEvent> implements EventHandl
 
                 FirstMain.getCurrScene().setRoot(Container.getRoot(HOME));
 
-            else{
-                Alert alert = new Alert(Alert.AlertType.INFORMATION, "work in progress...");
-                alert.showAndWait();
-            }
+            else
+                Dialog.errorDialog("Something went wrong, please try later.");
+
 
         }
 

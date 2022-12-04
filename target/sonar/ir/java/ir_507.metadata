@@ -1,1 +1,1 @@
-view.controllerui.second.handlerstates.StatePasswordChange#instance-init#
+view.graphicalui.second.Sign#getStateMachine()Lview/graphicalui/second/QuestionStateMachine;

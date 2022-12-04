@@ -1,3 +1,6 @@
-view.graphicalui.second.meetingquestionstates.QuestionTypeOfMeeting#getQuestionTypeOfMeetingInstance()Lview/graphicalui/second/meetingquestionstates/QuestionTypeOfMeeting;
-view.graphicalui.second.meetingquestionstates.QuestionTypeOfMeeting#instance-init#
-view.graphicalui.second.meetingquestionstates.QuestionTypeOfMeeting#<init>()V
+view.controllerui.first.HomePageEventHandler#manageUserProfile()V
+java.util.Optional#isPresent()Z
+view.controllerui.first.HomePageEventHandler#changeUserImageProfile(Ljava/util/Map;)V
+javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
+java.util.Optional#get()Ljava/lang/Object;
+view.graphicalui.first.HomePage$UserProfileDialog#getUserProfileDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog;

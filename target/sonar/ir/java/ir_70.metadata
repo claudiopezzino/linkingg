@@ -1,4 +1,5 @@
-view.graphicalui.second.Home#restoreScreen()V
-javafx.scene.Node#setFocusTraversable(Z)V
-view.controllerui.second.handlerstates.StateMain#getStateMainInstance()Lview/controllerui/second/handlerstates/StateMain;
-javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.boundary.UserManageCommunityBoundary#registerIntoSystem(Lview/bean/UserSignUpBean;)Lview/bean/UserSignInBean;
+control.ManageCommunityController#instance-init#
+control.UserLoginController#instance-init#
+control.ManageCommunityController#<init>()V
+control.UserLoginController#<init>()V

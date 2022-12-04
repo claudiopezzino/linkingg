@@ -1,4 +1,2 @@
-view.graphicalui.second.Welcome#<init>()V
-javafx.scene.text.Text#instance-init#
-view.graphicalui.second.Welcome#setUpWelcomeRoot()Ljavafx/scene/layout/VBox;
-javafx.scene.text.Text#<init>(Ljava/lang/String;)V
+view.graphicalui.second.meetingquestionstates.QuestionEnd#display()V
+view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;

@@ -1,3 +1,1 @@
-view.controllerui.second.handlerstates.StateSearch#getStateSearchInstance()Lview/controllerui/second/handlerstates/StateSearch;
-view.controllerui.second.handlerstates.StateSearch#<init>()V
-view.controllerui.second.handlerstates.StateSearch#instance-init#
+view.graphicalui.first.toolbardecorations.GroupButtonDecorator#instance-init#

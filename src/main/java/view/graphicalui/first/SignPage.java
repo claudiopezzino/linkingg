@@ -1,16 +1,13 @@
 package view.graphicalui.first;
 
 import javafx.scene.Parent;
-import javafx.scene.control.Button;
-import javafx.scene.control.Separator;
-import javafx.scene.control.ToolBar;
+import javafx.scene.control.*;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 
 import static view.graphicalui.first.constcontainer.Css.*;
-import static view.graphicalui.first.constcontainer.Image.FACEBOOK_ACCESS;
-import static view.graphicalui.first.constcontainer.Image.GOOGLE_ACCESS;
+import static view.graphicalui.first.constcontainer.Image.*;
 
 
 public abstract class SignPage extends Parent {
@@ -23,6 +20,7 @@ public abstract class SignPage extends Parent {
     protected Button btnGoogle;
     protected Button btnFacebook;
     /////////////////////////////
+
 
     ////////////////////////////////////////
     protected abstract VBox setUpSignForm();

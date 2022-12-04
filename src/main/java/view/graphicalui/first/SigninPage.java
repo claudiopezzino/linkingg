@@ -27,7 +27,7 @@ public class SigninPage extends SignPage {
     /////////////////////////
 
     ////////////////////////////////////
-    private TextField textFieldUsername;
+    private TextField textFieldNickname;
     private TextField textFieldPassword;
     ////////////////////////////////////
 
@@ -57,8 +57,8 @@ public class SigninPage extends SignPage {
         Label labelNickname = new Label("Nickname");
         Label labelPassword = new Label("Password");
 
-        textFieldUsername = new TextField();
-        textFieldUsername.setPromptText("willsmith...");
+        textFieldNickname = new TextField();
+        textFieldNickname.setPromptText("willsmith...");
 
         textFieldPassword = new PasswordField();
         textFieldPassword.setPromptText("****************");
@@ -70,7 +70,7 @@ public class SigninPage extends SignPage {
         gridPaneForm.add(labelNickname, 0, 0);
         gridPaneForm.add(labelPassword, 0, 1);
 
-        gridPaneForm.add(textFieldUsername, 1, 0, 8, 1);
+        gridPaneForm.add(textFieldNickname, 1, 0, 8, 1);
         gridPaneForm.add(textFieldPassword, 1, 1, 8, 1);
 
         gridPaneForm.add(btnSignIn, 8, 3);
@@ -104,8 +104,8 @@ public class SigninPage extends SignPage {
     /////////////////////////////////////////////////////////
 
     //////////////////////////////////////////////////////////////////////////
-    public TextField getTextFieldUsername(){
-        return this.textFieldUsername;
+    public TextField getTextFieldNickname(){
+        return this.textFieldNickname;
     }
     //////////////////////////////////////////////////////////////////////////
 
@@ -114,6 +114,18 @@ public class SigninPage extends SignPage {
         return this.textFieldPassword;
     }
     //////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////
+    public String getNickname(){
+        return this.textFieldNickname.getText();
+    }
+    ////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////
+    public String getPassword(){
+        return this.textFieldPassword.getText();
+    }
+    ////////////////////////////////////////////////////////////////////////
 
     ///////////////////////////////////////////////////////////////////
     public static boolean isToolBarPresent(){

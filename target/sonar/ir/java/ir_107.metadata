@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#saveUserAnswer(Ljava/lang/String;)V
+view.graphicalui.second.Home#resetOldNickname()V

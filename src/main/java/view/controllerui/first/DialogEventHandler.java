@@ -22,6 +22,7 @@ import static view.graphicalui.first.constcontainer.Protocol.FILE;
 
 public class DialogEventHandler <T extends MouseEvent> implements EventHandler<T> {
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     @Override
     public void handle(T event) {
         if(event.getEventType().equals(MouseEvent.MOUSE_CLICKED)){
@@ -41,7 +42,7 @@ public class DialogEventHandler <T extends MouseEvent> implements EventHandler<T
                 this.manageLinkInvitations();
         }
     }
-
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     //////////////////////////////////////////////////////////////////////////////////////////////
     private File showImageFileChooser(PageDialog dialog){

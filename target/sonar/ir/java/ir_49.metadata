@@ -1,1 +1,4 @@
-view.graphicalui.second.meetingquestionstates.QuestionDate#<init>()V
+view.graphicalui.first.toolbardecorations.SharingButtonDecorator#draw()Ljavafx/scene/control/ToolBar;
+javafx.scene.control.Separator#instance-init#
+javafx.scene.control.Separator#<init>()V
+javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;

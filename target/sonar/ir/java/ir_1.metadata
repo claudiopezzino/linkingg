@@ -3,9 +3,7 @@ view.graphicalui.first.toolbaritems.WelcomeToolbarItems#getIndex()Ljava/lang/Int
 view.graphicalui.first.toolbaritems.WelcomeToolbarItems$SignBarItems#getIndex()Ljava/lang/Integer;
 view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;
 view.graphicalui.first.Container#getRoot(Lview/graphicalui/first/Page;)Ljavafx/scene/control/ScrollPane;
-javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
-javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
+view.controllerui.first.Dialog#errorDialog(Ljava/lang/String;)V
 javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;
-javafx.scene.control.Alert#instance-init#
 view.graphicalui.first.WelcomePage#getWelcomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/WelcomePage;
 javafx.scene.Scene#setRoot(Ljavafx/scene/Parent;)V

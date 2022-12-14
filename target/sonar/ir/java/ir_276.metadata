@@ -1,1 +1,1 @@
-view.bean.errorsignupdecorations.AddressBeanErrorDecorator#<init>(Lview/bean/BeanError;)V
+view.graphicalui.first.SignupPage#getTextFieldAddress()Ljavafx/scene/control/TextField;

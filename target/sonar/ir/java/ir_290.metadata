@@ -1,9 +1,7 @@
-view.graphicalui.first.toolbardecorations.UndoRedoBarDecorator#setUpUndoRedoBar()V
+view.graphicalui.first.toolbardecorations.GroupButtonDecorator#setUpBtnNewGroup()V
 javafx.scene.Node#setOnMouseClicked(Ljavafx/event/EventHandler;)V
-javafx.scene.control.Button#<init>(Ljava/lang/String;)V
-javafx.scene.control.Separator#instance-init#
+javafx.scene.image.ImageView#<init>(Ljava/lang/String;)V
 javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;
-javafx.scene.control.Separator#<init>()V
-javafx.scene.layout.HBox#<init>([Ljavafx/scene/Node;)V
+javafx.scene.image.ImageView#instance-init#
 javafx.scene.control.Button#instance-init#
-javafx.scene.layout.HBox#instance-init#
+javafx.scene.control.Button#<init>(Ljava/lang/String;Ljavafx/scene/Node;)V

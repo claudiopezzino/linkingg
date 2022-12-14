@@ -1,8 +1,8 @@
 package view.graphicalui.first.listviewitems;
 
 public enum ListViewGroupItems {
-    GROUP_INFO,
     OWNER_INFO,
+    GROUP_INFO,
     MEMBERS_INFO;
 
     /*--------------------- inner-enum ---------------------*/

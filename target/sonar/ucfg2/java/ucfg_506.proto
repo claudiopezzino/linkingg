@@ -1,16 +1,51 @@
 
-_view.graphicalui.first.HomePage$UserProfileDialog#getBtnPassword()Ljavafx/scene/control/Button;e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java™ ™($"1*×
-1e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaš š(Û
+aview.graphicalui.first.toolbardecorations.SocialBarDecorator#draw()Ljavafx/scene/control/ToolBar;€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/SocialBarDecorator.javaR R("1*÷
+1€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/SocialBarDecorator.javaS S(Œ
+‰
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/SocialBarDecorator.javaS S(&"
+%0javafx.scene.control.ToolBar"Xview.graphicalui.first.toolbardecorations.Decorator#draw()Ljavafx/scene/control/ToolBar;*
+""Û
 Ø
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaš š(#!
-%0javafx.scene.control.Button"__id*F*D3
-1view.graphicalui.first.HomePage$UserProfileDialog"
-btnPassword"Œ
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaš š($#
-!
-%0javafx.scene.control.ButtonB53
-1view.graphicalui.first.HomePage$UserProfileDialog
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/SocialBarDecorator.javaS S(''
+toolBarjavafx.scene.control.ToolBar"__id*$
+"
+%0javafx.scene.control.ToolBar²¯
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/SocialBarDecorator.javaT T('
+%1!javafx.collections.ObservableList"Jjavafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;*)
+'
+toolBarjavafx.scene.control.ToolBar2
+getItems()
+þ
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/SocialBarDecorator.javaT" T(/
+%2javafx.scene.layout.HBox"__id*S*Q>
+<view.graphicalui.first.toolbardecorations.SocialBarDecorator"
+hBoxSocialBarÌÉ
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/SocialBarDecorator.javaT5 T(>$
+%3javafx.scene.control.Separator"javafx.scene.control.SeparatorÞ
+Û
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/SocialBarDecorator.javaT1 T(@
+%4"(javafx.scene.control.Separator#<init>()V*&
+$
+%3javafx.scene.control.Separatorçä
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/SocialBarDecorator.javaT T(A
+%5boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z*)
+'
+%1!javafx.collections.ObservableList* 
+
+%2javafx.scene.layout.HBox*&
+$
+%3javafx.scene.control.Separator2addAll([Ljava/lang/Object;)"®
+€
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/SocialBarDecorator.javaU U()
+'
+toolBarjavafx.scene.control.ToolBarB@>
+<view.graphicalui.first.toolbardecorations.SocialBarDecorator

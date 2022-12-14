@@ -1,2 +1,5 @@
-view.graphicalui.second.passwordquestionstates.QuestionCurrentPassword#display()V
-view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;
+view.boundary.UserManageCommunityBoundary#logIntoSystem(Lview/bean/UserSignInBean;)Ljava/util/Map;
+control.ManageCommunityController#instance-init#
+control.UserLoginController#instance-init#
+control.ManageCommunityController#<init>()V
+control.UserLoginController#<init>()V

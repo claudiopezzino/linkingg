@@ -1,1 +1,4 @@
-view.graphicalui.first.toolbardecorations.SearchBarDecorator#instance-init#
+view.controllerui.first.HomePageEventHandler#updateMeetingsList(Ljava/lang/String;Ljava/lang/String;)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+view.graphicalui.first.HomePage#getHomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/HomePage;
+view.controllerui.first.HomePageEventHandler#fetchSelectedGroupNick()Ljava/lang/String;

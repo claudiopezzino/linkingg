@@ -38,10 +38,6 @@ public class UserDAOQueries {
             "SELECT * FROM users JOIN users_into_meetings ON nickname = users_nickname WHERE meetings_id = ?";
     //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    /////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    private static final String UPDATE_USER_IP_AND_PORT = "UPDATE users SET ip = ?, port = ? WHERE nickname = ?";
-    /////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 
     //////////////////////////
     private UserDAOQueries(){}
@@ -82,6 +78,8 @@ public class UserDAOQueries {
             resultSet =  preparedStatement.executeQuery();
             if(!resultSet.first())
                 throw new NoEntityException();
+
+            resultSet.first(); // replace cursor
             return unpackUserInfo(resultSet);
         }catch(SQLException sqlException){
             throw new DBException();
@@ -132,26 +130,6 @@ public class UserDAOQueries {
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    public static void updateUserIpAndPort(PersistencyDB db, Connection connection, String ip, Integer port, String userNick) throws DBException {
-        PreparedStatement preparedStatement = null;
-        try{
-            preparedStatement = connection.prepareStatement(UPDATE_USER_IP_AND_PORT,
-                    ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
-
-            preparedStatement.setString(1, ip);
-            preparedStatement.setInt(2, port);
-            preparedStatement.setString(3, userNick);
-
-            preparedStatement.executeUpdate();
-        }catch(SQLException sqlException){
-            throw new DBException();
-        }finally {
-            db.closePreparedStatement(preparedStatement);
-        }
-    }
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
     //////////////////////////////////////////////////////////////////////////////////////////////////////
     private static List<String> wrapListUsersInfo(ResultSet resultSet) throws SQLException, DBException{
         List<String> listUsersInfo = new ArrayList<>();
@@ -159,9 +137,14 @@ public class UserDAOQueries {
         String details;
         String separator = "-";
 
+        if(!resultSet.first())
+            return Collections.emptyList();
+
         Blob blob;
         String imgPath;
-        while(resultSet.next()){
+
+        resultSet.first();
+        do{
             blob = resultSet.getBlob(UserFields.IMAGE);
             imgPath = fromBlobToString(resultSet.getString(UserFields.NICKNAME), blob, "u_");
 
@@ -172,7 +155,7 @@ public class UserDAOQueries {
                     + imgPath;
 
             listUsersInfo.add(details);
-        }
+        }while(resultSet.next());
 
         return listUsersInfo;
     }
@@ -217,6 +200,8 @@ public class UserDAOQueries {
 
         if(!resultSet.first())
             return Collections.emptyMap();
+
+        resultSet.first(); // replace cursor
 
         String nickname = resultSet.getString(UserFields.NICKNAME);
         String password = resultSet.getString(UserFields.PASSWORD);

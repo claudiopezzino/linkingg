@@ -1,16 +1,16 @@
 
-kview.graphicalui.first.HomePage$GroupCreationDialog#getTextFieldGroupNick()Ljavafx/scene/control/TextField;e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java‚ ‚(."1*Ê
-1e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java„ „(Á
-‰
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java„ „(*$
-%0javafx.scene.control.TextField"__id*O*M5
-3view.graphicalui.first.HomePage$GroupCreationDialog"
-textFieldGroupNick"è
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java„ „(+&
-$
-%0javafx.scene.control.TextFieldB75
-3view.graphicalui.first.HomePage$GroupCreationDialog
+<view.bean.observers.MeetingBean#getImage()Ljava/lang/String;c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java@ @("1*¢
+1c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaA A(∂
+≥
+c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaA A(
+%0java.lang.String"__id*.*,!
+view.bean.observers.MeetingBean"
+image"
+c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaA A(
+
+%0java.lang.StringB#!
+view.bean.observers.MeetingBean

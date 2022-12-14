@@ -1,4 +1,5 @@
-view.bean.Regex#isMatching(Ljava/lang/String;Ljava/lang/String;)Z
-java.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
-java.util.regex.Matcher#matches()Z
-java.util.regex.Pattern#compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+view.controllerui.second.KeyEventHandler#homeHandle(Lview/graphicalui/second/Home;)V
+view.controllerui.second.KeyEventHandler#moveBackToWelcomePage(Lview/graphicalui/second/Home;)V
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+view.controllerui.second.KeyEventHandler#moveBackToHomePage(Lview/graphicalui/second/Home;)V

@@ -1,5 +1,5 @@
-view.graphicalui.second.Home#passwordChangeMode()V
-view.graphicalui.second.passwordquestionstates.QuestionCurrentPassword#getQuestionCurrentPasswordInstance()Lview/graphicalui/second/passwordquestionstates/QuestionCurrentPassword;
-view.graphicalui.second.QuestionStateMachine#instance-init#
-view.graphicalui.second.QuestionStateMachine#<init>()V
-view.controllerui.second.handlerstates.StatePasswordChange#getStatePasswordChangeInstance()Lview/controllerui/second/handlerstates/StatePasswordChange;
+view.controllerui.second.handlerstates.StateGroupCreationName#checkCmd(Lview/graphicalui/second/Home;)V
+view.controllerui.second.Message#errorMsg()V
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#isEmpty()Z

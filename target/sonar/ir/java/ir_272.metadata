@@ -1,1 +1,4 @@
-view.graphicalui.second.Shell#getPrompt()Ljavafx/scene/control/TextField;
+view.graphicalui.first.SignupPage#setUpSignupPage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;
+javafx.scene.layout.VBox#instance-init#
+javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;
+javafx.scene.layout.VBox#<init>()V

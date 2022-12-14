@@ -1,1 +1,1 @@
-model.db.dbexceptions.DBException#<init>()V
+view.bean.observers.MeetingBean#setScheduler(Lview/bean/observers/UserBean;)V

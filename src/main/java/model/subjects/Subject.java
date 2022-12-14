@@ -2,10 +2,12 @@ package model.subjects;
 
 import view.bean.observers.Observer;
 
+import java.io.Serializable;
 import java.util.Map;
 
 
-public abstract class Subject {
+// Serializable needed to send Subject instance over socket stream
+public abstract class Subject implements Serializable {
 
     // observer list not necessary
     //////////////////////////

@@ -1,198 +1,16 @@
 
-yview.graphicalui.first.HomePage$GroupCreationDialog#groupCreationResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java§$ §(7"7*î
-2e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java­ ­(È
-Å
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java­ ­(
-%11java.util.Map"__id*@*>5
-3view.graphicalui.first.HomePage$GroupCreationDialog"
-mapè
-å
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java­% ­(<%
-%12javafx.scene.control.TextField"__id*O*M5
-3view.graphicalui.first.HomePage$GroupCreationDialog"
-textFieldGroupNameú÷
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java­% ­(F
-%13java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*'
-%
-%12javafx.scene.control.TextField2	getText()Ê
-Ç
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java­ ­(G
-%14java.lang.String"__mapSet*
-
-%11java.util.Map*
-name*
-
-%13java.lang.StringÈ
-Å
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java® ®(
-%15java.util.Map"__id*@*>5
-3view.graphicalui.first.HomePage$GroupCreationDialog"
-map‘
-Ž
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java® ®(%
-%16java.lang.String"__id*
-""è
-å
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java®' ®(>%
-%17javafx.scene.control.TextField"__id*O*M5
-3view.graphicalui.first.HomePage$GroupCreationDialog"
-textFieldGroupNickú÷
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java®' ®(H
-%18java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*'
-%
-%17javafx.scene.control.TextField2	getText()Û
-Ø
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java® ®(I
-%19java.lang.String"__mapSet*
-
-%15java.util.Map*
-
-%16java.lang.String*
-
-%18java.lang.StringÈ
-Å
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¯ ¯(
-%20java.util.Map"__id*@*>5
-3view.graphicalui.first.HomePage$GroupCreationDialog"
-map‘
-Ž
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¯ ¯( 
-%21java.lang.String"__id*
-""ã
-à
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¯" ¯(8!
-%22javafx.scene.control.Label"__id*N*L5
-3view.graphicalui.first.HomePage$GroupCreationDialog"
-labelGroupImgPathíê
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¯" ¯(B
-%23java.lang.String"8javafx.scene.control.Labeled#getText()Ljava/lang/String;*#
-!
-%22javafx.scene.control.Label2	getText()Û
-Ø
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¯ ¯(C
-%24java.lang.String"__mapSet*
-
-%20java.util.Map*
-
-%21java.lang.String*
-
-%23java.lang.StringÈ
-Å
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java° °(
-%25java.util.Map"__id*@*>5
-3view.graphicalui.first.HomePage$GroupCreationDialog"
-map"
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java° °( 
-
-%25java.util.Map*º
-3e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¬ ¬(&Ì
-É
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¬ ¬(1
-%10java.util.Map"/java.util.Collections#emptyMap()Ljava/util/Map;*"
-java.util.Collections"
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¬ ¬(2
-
-%10java.util.Map*ƒ
-4e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java« «(â
-ß
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java« «(1 
-%7javafx.scene.control.Label"__id*N*L5
-3view.graphicalui.first.HomePage$GroupCreationDialog"
-labelGroupImgPathëè
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java« «(;
-%8java.lang.String"8javafx.scene.control.Labeled#getText()Ljava/lang/String;*"
- 
-%7javafx.scene.control.Label2	getText()»¸
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java« «(E
-%9boolean"java.lang.String#isEmpty()Z*
+9view.bean.observers.MeetingBean#getId()Ljava/lang/String;c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java" "("1*Ÿ
+1c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java# #(³
+°
+c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java# #(
+%0java.lang.String"__id*+*)!
+view.bean.observers.MeetingBean"
+id"
+c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java# #(
 
-%8java.lang.String2	isEmpty()*
-2
-3*•
-5e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaª ª(ç
-ä
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaª ª(2$
-%4javafx.scene.control.TextField"__id*O*M5
-3view.graphicalui.first.HomePage$GroupCreationDialog"
-textFieldGroupNickøõ
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaª ª(<
-%5java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*&
-$
-%4javafx.scene.control.TextField2	getText()»¸
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaª ª(F
-%6boolean"java.lang.String#isEmpty()Z*
-
-%5java.lang.String2	isEmpty()*
-3
-4*•
-6e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java© ©(ç
-ä
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java© ©(*$
-%1javafx.scene.control.TextField"__id*O*M5
-3view.graphicalui.first.HomePage$GroupCreationDialog"
-textFieldGroupNameøõ
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java© ©(4
-%2java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*&
-$
-%1javafx.scene.control.TextField2	getText()»¸
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java© ©(>
-%3boolean"java.lang.String#isEmpty()Z*
-
-%2java.lang.String2	isEmpty()*
-3
-5*¦
-7e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¨ ¨(±®
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¨ ¨(2%
-%0javafx.scene.control.ButtonType"Sview.graphicalui.first.PageDialog#getBtnTypeSave()Ljavafx/scene/control/ButtonType;*75
-3view.graphicalui.first.HomePage$GroupCreationDialog2getBtnTypeSave()*
-6
-1*º
-1e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java² ²(Ì
-É
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java² ²()
-%26java.util.Map"/java.util.Collections#emptyMap()Ljava/util/Map;*"
-java.util.Collections"
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java² ²(*
-
-%26java.util.Map:-
-
-buttonTypejavafx.scene.control.ButtonTypeB75
-3view.graphicalui.first.HomePage$GroupCreationDialog
+%0java.lang.StringB#!
+view.bean.observers.MeetingBean

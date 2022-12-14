@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#showBlacklist(Ljava/lang/String;)V
+view.bean.observers.GroupBean#setSubject(Lmodel/subjects/Group;)V

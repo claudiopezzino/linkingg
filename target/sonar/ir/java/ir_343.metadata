@@ -1,4 +1,2 @@
-view.graphicalui.first.MeetingPage#setUpQuestionsForm(Ljavafx/collections/ObservableList;)Ljavafx/scene/control/ListView;
-javafx.scene.control.ListView#setItems(Ljavafx/collections/ObservableList;)V
-javafx.scene.control.ListView#<init>()V
-javafx.scene.control.ListView#instance-init#
+view.graphicalui.second.SecondMain#main([Ljava/lang/String;)V
+javafx.application.Application#launch([Ljava/lang/String;)V

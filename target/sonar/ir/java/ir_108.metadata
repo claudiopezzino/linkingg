@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#saveNewPassword(Ljava/lang/String;)V
+control.tasks.Loader#<init>(Ljava/net/Socket;Ljava/util/Map;Lmodel/subjects/User;)V

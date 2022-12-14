@@ -2,7 +2,12 @@ package control.tasks;
 
 import control.controlexceptions.InternalException;
 import control.tasks.tasksexceptions.ListenerException;
+import javafx.application.Platform;
+import model.Device;
+import model.DeviceFields;
 import model.Filter;
+import model.modelexceptions.DuplicatedEntityException;
+import model.modelexceptions.NoEntityException;
 import model.subjects.Group;
 import model.subjects.User;
 import model.UserFields;
@@ -17,7 +22,7 @@ import java.net.SocketException;
 import java.util.HashMap;
 import java.util.Map;
 
-import static model.dao.DAO.USER_DAO;
+import static model.dao.DAO.DEVICE_DAO;
 
 
 public class Listener extends Thread {
@@ -30,9 +35,9 @@ public class Listener extends Thread {
     private ServerSocket serverSocket;
     //////////////////////////////////
 
-    /////////////////////
-    private Integer port;
-    /////////////////////
+    //////////////////////////
+    private Device userDevice;
+    //////////////////////////
 
     ///////////////////////////////////////////
     private final Map<String, Group> mapGroups;
@@ -53,16 +58,18 @@ public class Listener extends Thread {
     public void run() {
 
         try {
-            this.setUpPort();
+            this.initServerSocket();
         } catch (ListenerException | InternalException exception) {
-            new Thread(new AlertTask(exception.getMessage())); // to change if GUI's framework change
+            // to change if GUI's framework change
+            Platform.runLater(new AlertTask(exception.getMessage()));
         }
 
         while(isRunning){
             try {
                 this.waitAndSpawn();
             } catch (ListenerException listenerException) {
-                new Thread(new AlertTask(listenerException.getMessage())); // to change if GUI's framework change
+                // to change if GUI's framework change
+                Platform.runLater(new AlertTask(listenerException.getMessage()));
             }
         }
     }
@@ -84,41 +91,71 @@ public class Listener extends Thread {
     }
     //////////////////////////////////////////////////////////////////////////////////////////
 
-    /////////////////////////////////////////////////////////////////////
-    private void setUpPort() throws InternalException, ListenerException {
+    //////////////////////////////////////////////////////////////////////////////
+    private void initServerSocket() throws InternalException, ListenerException {
         try{
             this.serverSocket = new ServerSocket(0); // ephemeral port
-            this.port = this.serverSocket.getLocalPort();
-            this.saveIpAndPortIntoDB();
+            Integer port = this.serverSocket.getLocalPort();
+            this.setUpUserDevice(port);
 
         }catch(IOException ioException){
             throw new ListenerException();
         }
     }
-    /////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////
 
-    ///////////////////////////////////////////////////////////////////////////
-    private void saveIpAndPortIntoDB() throws InternalException {
-        Map<String, Object> mapUserInfo = new HashMap<>();
-        mapUserInfo.put(UserFields.NICKNAME, this.user.credentials().getKey());
-        mapUserInfo.put(UserFields.IP, "127.0.0.1");
-        mapUserInfo.put(UserFields.PORT, this.port);
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    private void setUpUserDevice(Integer port) throws InternalException {
+        Map<String, String> mapDeviceInfo = new HashMap<>();
+
+        mapDeviceInfo.put(UserFields.NICKNAME, this.user.credentials().getKey());
+        mapDeviceInfo.put(DeviceFields.IP, "127.0.0.1");
+        mapDeviceInfo.put(DeviceFields.PORT, String.valueOf(port));
 
         FactoryDAO factoryDAO = FactoryDAO.getSingletonInstance();
-        BaseDAO baseDAO = factoryDAO.createDAO(USER_DAO);
+        BaseDAO baseDAO = factoryDAO.createDAO(DEVICE_DAO);
 
-        baseDAO.updateEntity(mapUserInfo, Filter.IP_AND_PORT);
+        try{
+            baseDAO.createEntity(mapDeviceInfo);
+            this.userDevice = (Device) baseDAO.readEntity(mapDeviceInfo, Filter.IP_AND_PORT);
+        }catch(DuplicatedEntityException | NoEntityException entityException){
+            throw new InternalException(entityException.getMessage());
+        }
     }
-    ///////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
 
     //////////////////////////////////////////////////
     public void shutdown() throws ListenerException {
         try{
+            this.removeDevice();
             this.serverSocket.close();
         }catch (IOException ioException){
             throw new ListenerException();
         }
     }
     //////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////////////////////////
+    private void removeDevice() throws ListenerException {
+        Map<String, String> mapDeviceInfo = new HashMap<>();
+        mapDeviceInfo.put(DeviceFields.IP, this.userDevice.ipAddress());
+        mapDeviceInfo.put(DeviceFields.PORT, String.valueOf(this.userDevice.portNumber()));
+
+        FactoryDAO factoryDAO = FactoryDAO.getSingletonInstance();
+        BaseDAO baseDAO = factoryDAO.createDAO(DEVICE_DAO);
+
+        try{
+            baseDAO.updateEntity(mapDeviceInfo, Filter.IP_AND_PORT);
+        }catch (InternalException internalException){
+            throw new ListenerException();
+        }
+    }
+    //////////////////////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////
+    public Device getUserDevice(){
+        return this.userDevice;
+    }
+    /////////////////////////////////////////////////////////
 
 }

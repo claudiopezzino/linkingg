@@ -1,1 +1,1 @@
-view.bean.UserSignUpBean#getSurname()Ljava/lang/String;
+model.dao.BaseDAO#instance-init#

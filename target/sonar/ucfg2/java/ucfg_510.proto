@@ -1,16 +1,27 @@
 
-`view.graphicalui.first.HomePage$UserProfileDialog#getLabelNickname()Ljavafx/scene/control/Label;e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java± ±(%"1*◊
-1e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java≤ ≤(‹
-Ÿ
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java≤ ≤(% 
-%0javafx.scene.control.Label"__id*H*F3
-1view.graphicalui.first.HomePage$UserProfileDialog"
-labelNickname"ã
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java≤ ≤(&"
- 
-%0javafx.scene.control.LabelB53
-1view.graphicalui.first.HomePage$UserProfileDialog
+Dmodel.dao.MeetingDAO#createEntity(Ljava/util/Map;)Ljava/lang/Object;X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java ("startingBlock*Æ
+startingBlockX
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java (@®
+•
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java (
+%0"
+__annotate*
+java.lang.Override*
+
+creationInfojava.util.Mapí
+è
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java3 (?
+creationInfojava.util.Map"__annotation*
+
+%0*
+1*¡
+1X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java ("b
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java (
+"":
+creationInfojava.util.MapB
+model.dao.MeetingDAO

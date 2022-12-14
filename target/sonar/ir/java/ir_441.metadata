@@ -1,2 +1,1 @@
-view.graphicalui.second.SigninInfo#getIndex()Ljava/lang/Integer;
-java.lang.Enum#ordinal()I
+model.subjects.Group#members()Ljava/util/Map;

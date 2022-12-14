@@ -1,2 +1,1 @@
-view.graphicalui.second.signupquestionstates.QuestionAccount#display()V
-view.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;
+view.graphicalui.second.Shell#instance-init#

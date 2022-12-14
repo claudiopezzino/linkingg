@@ -1,1 +1,1 @@
-model.db.dbexceptions.DBException#instance-init#
+view.bean.observers.MeetingBean#setPhotos(Ljava/util/List;)V

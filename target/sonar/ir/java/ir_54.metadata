@@ -1,3 +1,4 @@
-model.User#fullName()Ljavafx/util/Pair;
-javafx.util.Pair#<init>(Ljava/lang/Object;Ljava/lang/Object;)V
-javafx.util.Pair#instance-init#
+view.graphicalui.first.toolbardecorations.SharingButtonDecorator#draw()Ljavafx/scene/control/ToolBar;
+javafx.scene.control.Separator#instance-init#
+javafx.scene.control.Separator#<init>()V
+javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;

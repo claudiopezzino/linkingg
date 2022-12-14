@@ -1,16 +1,16 @@
 
-fview.graphicalui.first.HomePage$GroupCreationDialog#getLabelGroupImgPath()Ljavafx/scene/control/Label;e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÖ Ö()"1*Ý
-1e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java× ×(â
-ß
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java× ×() 
-%0javafx.scene.control.Label"__id*N*L5
-3view.graphicalui.first.HomePage$GroupCreationDialog"
-labelGroupImgPath"‹
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java× ×(*"
- 
-%0javafx.scene.control.LabelB75
-3view.graphicalui.first.HomePage$GroupCreationDialog
+;view.bean.observers.MeetingBean#getDate()Ljava/lang/String;c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java4 4("1*¡
+1c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java5 5(µ
+²
+c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java5 5(
+%0java.lang.String"__id*-*+!
+view.bean.observers.MeetingBean"
+date"
+c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java5 5(
+
+%0java.lang.StringB#!
+view.bean.observers.MeetingBean

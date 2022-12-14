@@ -1,1 +1,1 @@
-model.User#instance-init#
+view.bean.BeanErrorDecorator#displayErrors()Ljava/lang/String;

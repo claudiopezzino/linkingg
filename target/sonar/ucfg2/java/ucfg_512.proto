@@ -1,45 +1,373 @@
 
-Éview.graphicalui.first.HomePage$UserProfileDialog#getUserProfileDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog;e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaΩ( Ω(D"3*µ
-2e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaø, ø(C÷”
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaø0 ø(A7
-%11view.graphicalui.first.HomePage$UserProfileDialog"1view.graphicalui.first.HomePage$UserProfileDialogË
-Â
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaø, ø(C
-%2";view.graphicalui.first.HomePage$UserProfileDialog#<init>()V*9
-7
-%11view.graphicalui.first.HomePage$UserProfileDialogˇ
-¸
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaø ø(CR3
-1view.graphicalui.first.HomePage$UserProfileDialog"
-userProfileDialogInstance"__id*9
-7
-%11view.graphicalui.first.HomePage$UserProfileDialog*
-1*Ù
-3e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaæ æ((ˇ
-¸
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaæ æ((7
-%01view.graphicalui.first.HomePage$UserProfileDialog"__id*T*R3
-1view.graphicalui.first.HomePage$UserProfileDialog"
-userProfileDialogInstance*
-2
-1*ë
-1e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¿ ¿(,ˇ
-¸
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¿ ¿(,7
-%31view.graphicalui.first.HomePage$UserProfileDialog"__id*T*R3
-1view.graphicalui.first.HomePage$UserProfileDialog"
-userProfileDialogInstance"¢
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¿ ¿(-9
-7
-%31view.graphicalui.first.HomePage$UserProfileDialogB5"3
-1view.graphicalui.first.HomePage$UserProfileDialog
+Omodel.dao.MeetingDAO#readEntities(Ljava/util/Map;Lmodel/Filter;)Ljava/util/Map;X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java)# )(/"startingBlock*˘
+24X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java4 4(,í
+è
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java4 4(C)
+%2#model.db.dbconnection.PersistencyDB"_model.db.dbconnection.PersistencyDB#getSingletonInstance()Lmodel/db/dbconnection/PersistencyDB;*'"%
+#model.db.dbconnection.PersistencyDB*
+23*À
+13Y
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java; ;(àõ
+ò
+Y
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java; ;(à
+
+listPhotosjava.util.List"__id*
+
+%12java.util.ListÑ
+Å
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java<G <(^
+%13java.lang.String"__id*
+""æ
+ª
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java<4 <(_
+%14java.lang.String"__mapGet*!
+
+mapMeetingInfojava.util.Map*
+
+%13java.lang.String*
+12*ı	
+25X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java** *(9âÜ
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java*. *(7
+%0java.util.HashMap"java.util.HashMapõ
+ò
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java** *(9
+%1"java.util.HashMap#<init>()V*
+
+%0java.util.HashMapú
+ô
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java* *(:
+mapMeetingsjava.util.Map"__id*
+
+%0java.util.HashMapè
+å
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java, ,(&"
+listMeetingsInfojava.util.List"__id*
+""å
+â
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java. .(+
+mapMeetingInfojava.util.Map"__id*
+""â
+Ü
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java/ /( 
+
+listPhotosjava.util.List"__id*
+""ç
+ä
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java0 0( 
+	schedulermodel.subjects.User"__id*
+""à
+Ö
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java1 1(%
+
+mapJoinersjava.util.Map"__id*
+""*
+24*Ë
+14Y
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java;! ;(àÄ
+˝
+Y
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java;! ;(à
+%12java.util.List"model.db.dbqueries.MeetingDAOQueries#selectGallery(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;I)Ljava/util/List;*("&
+$model.db.dbqueries.MeetingDAOQueries*+
+)
+db#model.db.dbconnection.PersistencyDB*#
+!
+
+connectionjava.sql.Connection*
+
+
+%11int*
+13*µ
+15Y
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java;Q ;(áÕ
+ 
+Y
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java;Q ;(á
+
+%11int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%10java.lang.String*
+14* 
+16X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java: :(Hõ
+ò
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java: :(H
+mapMeetingInfojava.util.Map"__id*
+
+%8java.util.MapÑ
+Å
+Y
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java;u ;(Ö
+%9java.lang.String"__id*
+""æ
+ª
+Y
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java;b ;(Ü
+%10java.lang.String"__mapGet*!
+
+mapMeetingInfojava.util.Map*
+
+%9java.lang.String*
+15*·
+17X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java:% :()˙
+˜
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java:% :(H
+%8java.util.Map"Imodel.dao.MeetingDAO#unpackMeetingInfo(Ljava/lang/String;)Ljava/util/Map;*
+model.dao.MeetingDAO*!
+
+meetingInfojava.lang.String*
+16*á
+19Y
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java8 8(á†
+ù
+Y
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java8 8(á"
+listMeetingsInfojava.util.List"__id*
+
+%7java.util.List*
+6*Ÿ
+1X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.javaI I("z
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.javaI I(
+
+mapMeetingsjava.util.Map*’
+startingBlockX
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java)/ )(S£
+†
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java( ((
+%28"
+__annotate*
+java.lang.Override*
+
+filterjava.util.Mapç
+ä
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java)? )(E
+filterjava.util.Map"__annotation*
+
+%28†
+ù
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java( ((
+%29"
+__annotate*
+java.lang.Override*
+
+typemodel.Filterä
+á
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java)N )(R
+typemodel.Filter"__annotation*
+
+%29*
+25*«
+5X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.javaD D(‚ﬂ
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.javaD D( 
+%24void"6model.db.dbconnection.PersistencyDB#closeConnection()V*+
+)
+db#model.db.dbconnection.PersistencyDB2closeConnection()*
+1*∞
+6X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java9 9(&å
+â
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java9 9(&
+meetingInfojava.lang.String"__id*
+""∏
+µ
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java9 9(&
+meetingInfojava.lang.String"
+__arrayGet*$
+"
+listMeetingsInfojava.util.List*
+""*
+5
+17*√
+7Y
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java@ @(â›
+⁄
+Y
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java@ @(â
+%23java.lang.Object"__mapSet*
+
+mapMeetingsjava.util.Map*
+
+%20java.lang.String*
+
+%21model.subjects.Meeting*
+6*Ì
+8X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java@V @(dîë
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java@N @(U
+%21model.subjects.Meeting"model.subjects.MeetingÒ
+Ó
+Y
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java@J @(à
+%22"cmodel.subjects.Meeting#<init>(Ljava/util/Map;Ljava/util/List;Lmodel/subjects/User;Ljava/util/Map;)V*
+
+%21model.subjects.Meeting*!
+
+mapMeetingInfojava.util.Map*
+
+
+listPhotosjava.util.List*"
+ 
+	schedulermodel.subjects.User*
+
+
+mapJoinersjava.util.Map*
+7*≈
+9X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java= =(_ò
+ï
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java= =(_
+
+mapJoinersjava.util.Map"__id*
+
+%18java.util.MapÑ
+Å
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java@7 @(G
+%19java.lang.String"__id*
+""æ
+ª
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java@$ @(H
+%20java.lang.String"__mapGet*!
+
+mapMeetingInfojava.util.Map*
+
+%19java.lang.String*
+8*Ä
+20Y
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java8] 8(Üò
+ï
+Y
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java8# 8(á
+%7java.util.List"ömodel.db.dbqueries.MeetingDAOQueries#selectMeetingsIntoGroup(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;)Ljava/util/List;*("&
+$model.db.dbqueries.MeetingDAOQueries*+
+)
+db#model.db.dbconnection.PersistencyDB*#
+!
+
+connectionjava.sql.Connection*	
+
+%6V*
+19*î
+21X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java8# 8(4Ñ
+Å
+Y
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java8q 8(Ö
+%5java.lang.String"__id*
+""¶
+£
+Y
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java8f 8(Ü
+%6V"__mapGet*
+
+filterjava.util.Map*
+
+%5java.lang.String*
+20*€
+10X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java=! =(_ı
+Ú
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java=! =(_
+%18java.util.Map"Kmodel.dao.MeetingDAO#fetchMeetingJoiners(Ljava/lang/String;)Ljava/util/Map;*
+model.dao.MeetingDAO*
+
+%17java.lang.String*
+9*ç
+22X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java5 5(7£
+†
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java5 5(7!
+
+connectionjava.sql.Connection"__id*
+
+%3java.sql.Connection~
+|
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java7 7(,
+%4model.Filter"__id*
+""*
+5
+21*“
+11X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java< <(`£
+†
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java< <(` 
+	schedulermodel.subjects.User"__id*
+
+%15model.subjects.UserÑ
+Å
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java=M =(]
+%16java.lang.String"__id*
+""æ
+ª
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java=: =(^
+%17java.lang.String"__mapGet*!
+
+mapMeetingInfojava.util.Map*
+
+%16java.lang.String*
+10*•
+23X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java4 4(Dª
+∏
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java4 4(D)
+db#model.db.dbconnection.PersistencyDB"__id*+
+)
+%2#model.db.dbconnection.PersistencyDBÄ˝
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java5$ 5(6
+%3java.sql.Connection"Hmodel.db.dbconnection.PersistencyDB#getConnection()Ljava/sql/Connection;*+
+)
+db#model.db.dbconnection.PersistencyDB2getConnection()*
+22*„
+12X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java<  <(`¸
+˘
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/MeetingDAO.java<  <(`
+%15model.subjects.User"Lmodel.dao.MeetingDAO#fetchScheduler(Ljava/lang/String;)Lmodel/subjects/User;*
+model.dao.MeetingDAO*
+
+%14java.lang.String*
+11:
+filterjava.util.Map:
+typemodel.FilterB
+model.dao.MeetingDAO

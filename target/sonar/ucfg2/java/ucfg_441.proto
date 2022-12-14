@@ -1,17 +1,16 @@
 
-:view.graphicalui.second.Sign#getUserInfo()Ljava/util/List;`
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Sign.java( ((#"1*•
-1`
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Sign.java) )(±
-®
-`
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Sign.java) )(
-%0java.util.List"__id*.*,
-view.graphicalui.second.Sign"
-
-userInfo"z
-`
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Sign.java) )(
-
-%0java.util.ListB 
-view.graphicalui.second.Sign
+7view.bean.UserSignUpBean#getSurname()Ljava/lang/String;\
+R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java ("1*ˆ
+1\
+R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java   (ª
+§
+\
+R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java   (
+%0java.lang.String"__id*)*'
+view.bean.UserSignUpBean"	
+surname"x
+\
+R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java   (
+
+%0java.lang.StringB
+view.bean.UserSignUpBean

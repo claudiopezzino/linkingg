@@ -1,4 +1,3 @@
-model.dao.UserDAO#createEntity(Ljava/util/Map;)Ljava/lang/Object;
-model.User#<init>(Ljava/util/Map;)V
-model.User#instance-init#
-model.dao.UserDAO#saveUserIntoDB(Ljava/util/Map;)V
+view.graphicalui.second.Home#initBlacklist()V
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#

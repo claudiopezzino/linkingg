@@ -1,4 +1,6 @@
-view.controllerui.second.Message#errorMsg()V
-javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
-javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
-javafx.scene.control.Alert#instance-init#
+model.db.dbqueries.MeetingDAOQueries#wrapMeetingInfo(Ljava/sql/ResultSet;)Ljava/util/List;
+java.util.ArrayList#<init>()V
+java.util.Collections#emptyList()Ljava/util/List;
+java.lang.Integer#toString(I)Ljava/lang/String;
+java.util.ArrayList#instance-init#
+model.ImageProfile#fromBlobToString(Ljava/lang/String;Ljava/sql/Blob;Ljava/lang/String;)Ljava/lang/String;

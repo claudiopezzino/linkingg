@@ -1,1 +1,1 @@
-view.bean.errorsignupdecorations.AddressBeanErrorDecorator#displayErrors()Ljava/lang/String;
+view.graphicalui.first.SignupPage#getTextFieldMail()Ljavafx/scene/control/TextField;

@@ -1,1 +1,7 @@
-view.graphicalui.first.constcontainer.Protocol#<init>()V
+view.graphicalui.second.Signup#<init>()V
+java.util.ArrayList#<init>()V
+javafx.scene.text.Text#instance-init#
+java.util.ArrayList#instance-init#
+view.graphicalui.second.signupquestionstates.QuestionName#getQuestionNameInstance()Lview/graphicalui/second/signupquestionstates/QuestionName;
+javafx.scene.text.Text#<init>(Ljava/lang/String;)V
+view.graphicalui.second.Signup#setUpSignupRoot()Ljavafx/scene/layout/VBox;

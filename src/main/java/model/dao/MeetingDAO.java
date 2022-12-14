@@ -24,8 +24,8 @@ public class MeetingDAO implements BaseDAO{
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     @Override
-    public Object createEntity(Map<String, String> creationInfo) throws DuplicatedEntityException, InternalException {
-        return null;
+    public void createEntity(Map<String, String> creationInfo) throws DuplicatedEntityException, InternalException {
+        // TO DO
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

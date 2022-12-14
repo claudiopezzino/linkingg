@@ -2,9 +2,16 @@ package control;
 
 import control.controlexceptions.InternalException;
 import control.controlutilities.CopyException;
+import control.controlutilities.Messenger;
+import control.controlutilities.MessengerException;
 import control.tasks.Listener;
 import control.tasks.tasksexceptions.ListenerException;
 import javafx.util.Pair;
+import model.*;
+import model.dao.BaseDAO;
+import model.dao.FactoryDAO;
+import model.modelexceptions.DuplicatedEntityException;
+import model.modelexceptions.NoEntityException;
 import model.subjects.Group;
 import model.subjects.Meeting;
 import model.subjects.User;
@@ -13,8 +20,10 @@ import view.bean.observers.GroupBean;
 import view.bean.observers.MeetingBean;
 import view.bean.observers.UserBean;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
+
+import static model.dao.DAO.DEVICE_DAO;
+import static model.dao.DAO.GROUP_DAO;
 
 
 public class ManageCommunityController {
@@ -23,8 +32,106 @@ public class ManageCommunityController {
     private Listener threadListener;
     ////////////////////////////////
 
+
+    //////////////////////////////////////////////////////////////////////////////////////
+    public void setUpGroup(GroupCreationBean groupCreationBean) throws InternalException{
+        Map<String, String> mapGroupInfo = this.fetchGroupCreationInfo(groupCreationBean);
+
+        boolean nickExists = true;
+
+        FactoryDAO factoryDAO = FactoryDAO.getSingletonInstance();
+        BaseDAO baseDAO = factoryDAO.createDAO(GROUP_DAO);
+
+        int numCopy = 1;
+        while (nickExists) {
+            try {
+                baseDAO.createEntity(mapGroupInfo);
+                nickExists = false;
+            } catch (DuplicatedEntityException e) {
+                this.changeGroupNick(mapGroupInfo, numCopy);
+                numCopy++;
+            }
+        }
+
+        Group group;
+        try{
+            group = (Group) baseDAO.readEntity(mapGroupInfo, Filter.GROUP_NICKNAME);
+        }catch(NoEntityException noEntityException){
+            throw new InternalException(noEntityException.getMessage());
+        }
+
+        this.turnIntoGroupBean(group);
+
+        List<Group> listGroups = new ArrayList<>();
+        listGroups.add(group);
+
+        List<Device> listUserDevices = this.fetchUserDevices(mapGroupInfo.get(GroupFields.OWNER));
+        for (Device device : listUserDevices) {
+            try {
+                Messenger.sendMessage(device, listGroups, Filter.GROUP_CREATION);
+            }catch (MessengerException messengerException){
+                throw new InternalException(messengerException.getMessage());
+            }
+        }
+
+    }
+    //////////////////////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////////////////////////////
+    private Map<String, String> fetchGroupCreationInfo(GroupCreationBean groupCreationBean){
+        Map<String, String> mapGroupInfo = new HashMap<>();
+
+        mapGroupInfo.put(GroupFields.NICKNAME, groupCreationBean.getNickname());
+        mapGroupInfo.put(GroupFields.NAME, groupCreationBean.getName());
+        mapGroupInfo.put(GroupFields.IMAGE, groupCreationBean.getImage());
+        mapGroupInfo.put(GroupFields.OWNER, groupCreationBean.getOwner());
+
+        return mapGroupInfo;
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////////////////
+    private void changeGroupNick(Map<String, String> mapGroupInfo, int numCopy){
+        String regex = "_";
+
+        // first time there won't be regex
+        String[] nickTokens = mapGroupInfo.get(GroupFields.NICKNAME).split(regex);
+        String newGroupNick = nickTokens[0] + regex + numCopy;
+
+        mapGroupInfo.replace(GroupFields.NICKNAME, newGroupNick);
+    }
+    /////////////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////////////////////
+    private List<Device> fetchUserDevices(String userNick) throws InternalException{
+        List<Device> listUserDevices = new ArrayList<>();
+        listUserDevices.add(this.threadListener.getUserDevice());
+
+        Map<String, String> mapUserInfo = new HashMap<>();
+
+        mapUserInfo.put(UserFields.NICKNAME, userNick);
+        mapUserInfo.put(DeviceFields.PORT,
+                String.valueOf(this.threadListener.getUserDevice().portNumber()));
+
+        FactoryDAO factoryDAO = FactoryDAO.getSingletonInstance();
+        BaseDAO baseDAO = factoryDAO.createDAO(DEVICE_DAO);
+
+        Map<String, Object> mapUserDevices;
+        try{
+            mapUserDevices = baseDAO.readEntities(mapUserInfo, Filter.USER_NICKNAME);
+        }catch (NoEntityException noEntityException){
+            throw new InternalException(noEntityException.getMessage());
+        }
+
+        for (Map.Entry<String, Object> entry : mapUserDevices.entrySet())
+            listUserDevices.add((Device) entry.getValue());
+
+        return listUserDevices;
+    }
+    /////////////////////////////////////////////////////////////////////////////////
+
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    public UserSignInBean setUpRegistrationPhase(LoginController loginController, UserSignUpBean userSignUpBean) throws InternalException {
+    public UserSignInBean setUpSignUpPhase(LoginController loginController, UserSignUpBean userSignUpBean) throws InternalException {
         Pair<String, String> userCredentials = loginController.registration(userSignUpBean);
 
         UserSignInBean userSignInBean = new UserSignInBean();
@@ -73,7 +180,7 @@ public class ManageCommunityController {
 
         // Run a Thread in listening mode to catch Entities' changes and make up Observer pattern among them and Beans
         this.threadListener = new Listener(mapGroup, user);
-        this.threadListener.setDaemon(true); // doing this the application will stop also this thread other than itself
+        //this.threadListener.setDaemon(true); // doing this the application will stop also this thread other than itself
         this.threadListener.start();
 
         return mapBeans;

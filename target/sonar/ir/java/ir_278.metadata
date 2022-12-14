@@ -1,1 +1,1 @@
-view.graphicalui.second.SecondMain#instance-init#
+view.graphicalui.first.SignupPage#getTextFieldCell()Ljavafx/scene/control/TextField;

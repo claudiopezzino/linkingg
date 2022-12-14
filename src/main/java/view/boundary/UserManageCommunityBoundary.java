@@ -3,6 +3,7 @@ package view.boundary;
 import control.ManageCommunityController;
 import control.UserLoginController;
 import control.controlexceptions.InternalException;
+import view.bean.GroupCreationBean;
 import view.bean.UserSignInBean;
 import view.bean.UserSignUpBean;
 import view.bean.observers.GroupBean;
@@ -34,7 +35,7 @@ public class UserManageCommunityBoundary {
     public UserSignInBean registerIntoSystem(UserSignUpBean userInfo) throws InternalException {
         if(manageCommunityController == null)
             manageCommunityController = new ManageCommunityController();
-        return manageCommunityController.setUpRegistrationPhase(new UserLoginController(), userInfo);
+        return manageCommunityController.setUpSignUpPhase(new UserLoginController(), userInfo);
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -46,6 +47,14 @@ public class UserManageCommunityBoundary {
         return manageCommunityController.setUpSignInPhase(new UserLoginController(), userCredentials);
     }
     ///////////////////////////////////////////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////////////////////////
+    public void createGroup(GroupCreationBean groupCreationBean) throws InternalException{
+        if(manageCommunityController == null)
+            manageCommunityController = new ManageCommunityController();
+        this.manageCommunityController.setUpGroup(groupCreationBean);
+    }
+    ///////////////////////////////////////////////////////////////////////////////////////
 
     /////////////////////////////////////////////////////////////////////
     public void notifyNewCurrUserNick(){
@@ -88,20 +97,16 @@ public class UserManageCommunityBoundary {
     }
     ///////////////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////
     public void notifyNewGroup(GroupBean groupBean){
 
         if(FirstMain.getCurrScene() != null)
             HomePage.getHandler().updateGroupsList(groupBean);
 
-        else if(SecondMain.getCurrScene() != null
-                && Shell.getShellHandler().getStateMachine().getState() instanceof StateGroupsView) {
-
-            Shell.getShellHandler().getStateMachine().setState(StateMain.getStateMainInstance());
+        else if(SecondMain.getCurrScene() != null)
             Shell.getShellHandler().updateGroupsList(groupBean);
-        }
     }
-    ////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////
 
     ///////////////////////////////////////////////////////////////////////////
     public void notifyNewGroupMember(String groupNick, String userNick){
@@ -117,9 +122,9 @@ public class UserManageCommunityBoundary {
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public void notifyNewMeeting(String groupNick, String newMeetingID){
-        if(FirstMain.getCurrScene() != null){
+        if(FirstMain.getCurrScene() != null)
             HomePage.getHandler().updateMeetingsList(groupNick, newMeetingID);
-        }
+
         else if(SecondMain.getCurrScene() != null
                 && Shell.getShellHandler().getStateMachine().getState() instanceof StateMeetingsView
                 && Home.getHomeInstance().getGroupNickname().equals(groupNick)){
@@ -132,9 +137,9 @@ public class UserManageCommunityBoundary {
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public void notifyMeetingJoiner(String groupNick, String meetingID, String newUserNick, boolean joined){
-        if(FirstMain.getCurrScene() != null){
+        if(FirstMain.getCurrScene() != null)
             HomePage.getHandler().updateMeetingJoinersList(groupNick, meetingID, newUserNick, joined);
-        }
+
         else if(SecondMain.getCurrScene() != null) {
             Home home = Home.getHomeInstance();
             if(Shell.getShellHandler().getStateMachine().getState() instanceof StateMeetingJoinersView

@@ -1,1 +1,1 @@
-view.graphicalui.first.HomePage#getHandler()Lview/controllerui/first/HomePageEventHandler;
+view.controllerui.first.HomePageEventHandler#setUserManageCommunityBoundary(Lview/boundary/UserManageCommunityBoundary;)V

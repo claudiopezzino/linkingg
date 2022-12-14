@@ -1,11 +1,5 @@
-view.controllerui.first.HomePageEventHandler#changeUserImageProfile(Ljava/util/Map;)V
-view.graphicalui.first.toolbaritems.HomeToolbarItems#getIndex()Ljava/lang/Integer;
-javafx.scene.paint.ImagePattern#<init>(Ljavafx/scene/image/Image;)V
-view.graphicalui.first.HomePage#getHomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/HomePage;
+view.controllerui.second.handlerstates.StateGroupCreationEnd#checkCmd(Lview/graphicalui/second/Home;)V
+view.controllerui.second.Message#errorMsg()V
+view.controllerui.second.Message#groupCreationMsg()V
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
 java.lang.String#equals(Ljava/lang/Object;)Z
-javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;
-javafx.scene.shape.Shape#setFill(Ljavafx/scene/paint/Paint;)V
-view.graphicalui.first.toolbaritems.HomeToolbarItems$profileBoxItems#getIndex()Ljava/lang/Integer;
-javafx.scene.paint.ImagePattern#instance-init#
-javafx.scene.image.Image#instance-init#
-javafx.scene.image.Image#<init>(Ljava/lang/String;)V

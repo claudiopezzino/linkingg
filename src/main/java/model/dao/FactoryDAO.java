@@ -16,6 +16,7 @@ public class FactoryDAO {
             case USER_DAO: return createUserDAO();
             case GROUP_DAO: return createGroupDAO();
             case MEETING_DAO: return createMeetingDAO();
+            case DEVICE_DAO: return createDeviceDAO();
             default: return null;
         }
     }
@@ -36,6 +37,12 @@ public class FactoryDAO {
     //////////////////////////////////////////////////////////////////
     private MeetingDAO createMeetingDAO(){
         return new MeetingDAO();
+    }
+    //////////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////
+    private DeviceDAO createDeviceDAO(){
+        return new DeviceDAO();
     }
     //////////////////////////////////////////////////////////////////
 

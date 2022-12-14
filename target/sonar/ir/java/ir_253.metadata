@@ -1,2 +1,2 @@
-view.graphicalui.first.ListViewGroupItems#getIndex()Ljava/lang/Integer;
-java.lang.Enum#ordinal()I
+view.graphicalui.second.Signup#restoreScreen()V
+view.graphicalui.second.signupquestionstates.QuestionName#getQuestionNameInstance()Lview/graphicalui/second/signupquestionstates/QuestionName;

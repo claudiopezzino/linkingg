@@ -1,1 +1,1 @@
-view.bean.errorsignupdecorations.EmailBeanErrorDecorator#<init>(Lview/bean/BeanError;)V
+view.bean.observers.MeetingBean#setTime(Ljava/lang/String;)V

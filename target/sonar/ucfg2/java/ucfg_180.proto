@@ -1,59 +1,16 @@
 
-Jview.graphicalui.second.Signup#setUpSignupRoot()Ljavafx/scene/layout/VBox;b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java ( "1*Ö
+Aview.graphicalui.second.Home#getGroupNickname()Ljava/lang/String;b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÀ À(""1*¤
 1b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java (¡ž
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÀ- À(1º
+·
 b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java (
-%0javafx.scene.layout.VBox"javafx.scene.layout.VBox³
-°
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÀ- À(?
+%0java.lang.String"__id*3*1
+view.graphicalui.second.Home"
+groupNickname"~
 b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java (
-%1""javafx.scene.layout.VBox#<init>()V* 
-
-%0javafx.scene.layout.VBox±
-®
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java ( 
-rootjavafx.scene.layout.VBox"__id* 
-
-%0javafx.scene.layout.VBoxŽ‹
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java ('
-%2!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*"
- 
-rootjavafx.scene.layout.VBox2getChildren()Å
-Â
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java" (5
-%3javafx.scene.layout.HBox"__id*6*4 
-view.graphicalui.second.Signup"
-titleContainerÂ
-¿
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java7 (B#
-%4javafx.scene.control.TextArea"__id*.*, 
-view.graphicalui.second.Signup"
-screenÃ
-À
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.javaD (O$
-%5javafx.scene.control.TextField"__id*.*, 
-view.graphicalui.second.Signup"
-promptïì
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java (P
-%6boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z*)
-'
-%2!javafx.collections.ObservableList* 
-
-%3javafx.scene.layout.HBox*%
-#
-%4javafx.scene.control.TextArea*&
-$
-%5javafx.scene.control.TextField2addAll([Ljava/lang/Object;)"ˆ
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java   ("
- 
-rootjavafx.scene.layout.VBoxB" 
-view.graphicalui.second.Signup
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÀ& À(@
+
+%0java.lang.StringB 
+view.graphicalui.second.Home

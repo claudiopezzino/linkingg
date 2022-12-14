@@ -1,44 +1,65 @@
 
 rview.boundary.UserManageCommunityBoundary#registerIntoSystem(Lview/bean/UserSignUpBean;)Lview/bean/UserSignInBean;m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java (,"1*÷
-1m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java> (]¾»
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java" "(,"3*ý
+2m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java$( $(G¾»
 m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javaB (['
-%0!control.ManageCommunityController"!control.ManageCommunityControllerÐ
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java$, $(E'
+%1!control.ManageCommunityController"!control.ManageCommunityControllerÐ
 Í
 m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java> (]
-%1"+control.ManageCommunityController#<init>()V*)
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java$( $(G
+%2"+control.ManageCommunityController#<init>()V*)
 '
-%0!control.ManageCommunityControllerã
-à
+%1!control.ManageCommunityControllerï
+ì
 m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java (^>
-manageCommunityController!control.ManageCommunityController"__id*)
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java$ $(GJ+
+)view.boundary.UserManageCommunityBoundary"
+manageCommunityController"__id*)
 '
-%0!control.ManageCommunityController²¯
+%1!control.ManageCommunityController*
+1*ì
+3m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java# #($ï
+ì
 m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javaD (W!
-%2control.UserLoginController"control.UserLoginControllerÄ
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java# #($'
+%0!control.ManageCommunityController"__id*L*J+
+)view.boundary.UserManageCommunityBoundary"
+manageCommunityController*
+2
+1*Ø
+
+1m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java% %((ï
+ì
+m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java% %(('
+%3!control.ManageCommunityController"__id*L*J+
+)view.boundary.UserManageCommunityBoundary"
+manageCommunityController²¯
+m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java%D %(W!
+%4control.UserLoginController"control.UserLoginControllerÄ
 Á
 m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java@ (Y
-%3"%control.UserLoginController#<init>()V*#
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java%@ %(Y
+%5"%control.UserLoginController#<init>()V*#
 !
-%2control.UserLoginControllerøõ
+%4control.UserLoginControlleráÞ
 m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java (d
-%4view.bean.UserSignInBean"‡control.ManageCommunityController#setUpRegistrationPhase(Lcontrol/LoginController;Lview/bean/UserSignUpBean;)Lview/bean/UserSignInBean;*@
->
-manageCommunityController!control.ManageCommunityController*#
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java% %(d
+%6view.bean.UserSignInBean"‡control.ManageCommunityController#setUpRegistrationPhase(Lcontrol/LoginController;Lview/bean/UserSignUpBean;)Lview/bean/UserSignInBean;*)
+'
+%3!control.ManageCommunityController*#
 !
-%2control.UserLoginController*&
+%4control.UserLoginController*&
 $
 userInfoview.bean.UserSignUpBean2KsetUpRegistrationPhase(Lcontrol/LoginController;Lview/bean/UserSignUpBean;)"‘
 m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java (e 
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java% %(e 
 
-%4view.bean.UserSignInBean:$
+%6view.bean.UserSignInBean:$
 userInfoview.bean.UserSignUpBeanB-+
 )view.boundary.UserManageCommunityBoundary

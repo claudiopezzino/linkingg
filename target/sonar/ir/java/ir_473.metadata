@@ -1,3 +1,4 @@
-view.graphicalui.second.meetingquestionstates.QuestionRadiusOfAction#getQuestionRadiusOfActionInstance()Lview/graphicalui/second/meetingquestionstates/QuestionRadiusOfAction;
-view.graphicalui.second.meetingquestionstates.QuestionRadiusOfAction#instance-init#
-view.graphicalui.second.meetingquestionstates.QuestionRadiusOfAction#<init>()V
+view.controllerui.second.handlerstates.StateMembersView#initListMemberDetails(Lview/graphicalui/second/Home;Ljava/lang/String;)V
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+view.graphicalui.second.Shell#getShellHandler()Lview/controllerui/second/KeyEventHandler;

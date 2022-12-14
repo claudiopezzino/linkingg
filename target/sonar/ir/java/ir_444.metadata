@@ -1,1 +1,1 @@
-view.bean.errorsignindecorations.PasswordBeanErrorDecorator#displayErrors()Ljava/lang/String;
+model.subjects.Group#nickname()Ljava/lang/String;

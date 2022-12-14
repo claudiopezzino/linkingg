@@ -1,3 +1,2 @@
-view.graphicalui.second.signupquestionstates.QuestionCell#getQuestionCellInstance()Lview/graphicalui/second/signupquestionstates/QuestionCell;
-view.graphicalui.second.signupquestionstates.QuestionCell#<init>()V
-view.graphicalui.second.signupquestionstates.QuestionCell#instance-init#
+view.graphicalui.second.signupquestionstates.QuestionCell#display()V
+view.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;

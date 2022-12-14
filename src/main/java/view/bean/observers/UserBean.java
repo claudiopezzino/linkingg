@@ -4,11 +4,10 @@ import model.UserInfo;
 import model.subjects.User;
 import view.boundary.UserManageCommunityBoundary;
 
-import java.io.Serializable;
 import java.util.Map;
 
 
-public class UserBean implements Serializable, Observer{
+public class UserBean implements Observer{
 
     ////////////////////////////
     private String name;

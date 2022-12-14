@@ -1,1 +1,1 @@
-view.graphicalui.second.Sign#getUserInfo()Ljava/util/List;
+view.bean.observers.MeetingBean#getId()Ljava/lang/String;

@@ -8,14 +8,13 @@ import model.subjects.Group;
 import model.subjects.State;
 import view.boundary.UserManageCommunityBoundary;
 
-import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
 import static model.subjects.State.*;
 
 
-public class GroupBean implements Serializable, Observer{
+public class GroupBean implements Observer{
 
     //////////////////////////////////////////
     private String nickname;

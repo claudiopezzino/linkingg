@@ -1,16 +1,21 @@
 
-hview.controllerui.second.KeyEventHandler#getStateMachine()Lview/controllerui/second/HandlerStateMachine;l
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java (."1*†
-1l
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java (ë
-è
-l
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java ( 2
-%0,view.controllerui.second.HandlerStateMachine"__id*>*<*
-(view.controllerui.second.KeyEventHandler"
-stateMachine"¤
-l
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java (!4
-2
-%0,view.controllerui.second.HandlerStateMachineB,*
-(view.controllerui.second.KeyEventHandler
+=view.graphicalui.first.SignupPage#getName()Ljava/lang/String;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java† †("1*Ä
+1g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java‡ ‡(Ò
+Ï
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java‡ ‡(!$
+%0javafx.scene.control.TextField"__id*8*6#
+!view.graphicalui.first.SignupPage"
+textFieldNameú÷
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java‡ ‡(+
+%1java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*&
+$
+%0javafx.scene.control.TextField2	getText()"ƒ
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java‡ ‡(,
+
+%1java.lang.StringB%#
+!view.graphicalui.first.SignupPage

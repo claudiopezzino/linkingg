@@ -5,14 +5,12 @@ import model.MeetingFields;
 import model.UserFields;
 import model.UserInfo;
 
-import java.io.Serializable;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 
-// Serializable needed to make a deep copy of the class
-public class Meeting extends Subject implements Serializable {
+public class Meeting extends Subject {
 
     ///////////////////////////////////////////
     private final String id;

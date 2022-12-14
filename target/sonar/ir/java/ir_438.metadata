@@ -1,1 +1,4 @@
-view.controllerui.first.MeetingPageEventHandler#instance-init#
+model.subjects.Group#<init>(Ljava/util/Map;Lmodel/subjects/User;Ljava/util/Map;Ljava/util/Map;)V
+java.util.HashMap#<init>()V
+control.controlutilities.Copier#deepCopy(Ljava/io/Serializable;)Ljava/lang/Object;
+java.util.HashMap#instance-init#

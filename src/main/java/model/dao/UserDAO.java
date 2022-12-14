@@ -22,9 +22,20 @@ public class UserDAO implements BaseDAO{
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     @Override
-    public Object createEntity(Map<String, String> creationInfo) throws DuplicatedEntityException, InternalException {
-        this.saveUserIntoDB(creationInfo); // try to save new user into db if nickname doesn't exist yet
-        return this.makeUserEntity(creationInfo);
+    public void createEntity(Map<String, String> mapCreationInfo) throws DuplicatedEntityException, InternalException {
+        // try to save new user into db if nickname doesn't exist yet
+        try{
+            PersistencyDB db = PersistencyDB.getSingletonInstance();
+            Connection connection = db.getConnection();
+            UserDAOQueries.insertUser(db, connection, mapCreationInfo);
+            db.closeConnection();
+        }
+        catch (DuplicatedRecordException e) {
+            throw new DuplicatedEntityException(NICKNAME, mapCreationInfo.get(NICKNAME));
+        }
+        catch(DBException dbException){
+            throw new InternalException(dbException.getMessage());
+        }
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -95,20 +106,7 @@ public class UserDAO implements BaseDAO{
     ///////////////////////////////////////////////////////////////////////////////////////////
     @Override
     public <V> void updateEntity(Map<String, V> filter, Filter type) throws InternalException {
-        try {
-            PersistencyDB db = PersistencyDB.getSingletonInstance();
-            Connection connection = db.getConnection();
-
-            if (type == Filter.IP_AND_PORT)
-                UserDAOQueries.updateUserIpAndPort(db, connection,
-                        (String) filter.get(IP), (Integer) filter.get(PORT),
-                        (String) filter.get(UserFields.NICKNAME));
-
-            db.closeConnection();
-
-        }catch(DBException dbException){
-            throw new InternalException(dbException.getMessage());
-        }
+        // TO DO
     }
     ///////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -154,22 +152,5 @@ public class UserDAO implements BaseDAO{
         return mapUsers;
     }
     /////////////////////////////////////////////////////////////////////////
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    private void saveUserIntoDB(Map<String, String> userInfo) throws DuplicatedEntityException, InternalException {
-        try{
-            PersistencyDB db = PersistencyDB.getSingletonInstance();
-            Connection connection = db.getConnection();
-            UserDAOQueries.insertUser(db, connection, userInfo);
-            db.closeConnection();
-        }
-        catch (DuplicatedRecordException e) {
-            throw new DuplicatedEntityException(NICKNAME, userInfo.get(NICKNAME));
-        }
-        catch(DBException dbException){
-            throw new InternalException(dbException.getMessage());
-        }
-    }
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 }

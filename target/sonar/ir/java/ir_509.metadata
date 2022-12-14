@@ -1,1 +1,1 @@
-view.graphicalui.second.Sign#setSignMode(Ljava/lang/Boolean;)V
+view.bean.observers.MeetingBean#getJoiners()Ljava/util/Map;

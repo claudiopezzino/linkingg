@@ -1,16 +1,59 @@
 
-\view.graphicalui.second.Home#getStateMachine()Lview/graphicalui/second/QuestionStateMachine;b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java°  °(/"1*‹
+Fview.graphicalui.second.Home#setUpHomeRoot()Ljavafx/scene/layout/VBox;b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaä ä("1*–
 1b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¢ ¢(’
-“
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaã ã(°û
 b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¢ ¢( 2
-%0,view.graphicalui.second.QuestionStateMachine"__id*2*0
-view.graphicalui.second.Home"
-stateMachine"ö
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaã ã(
+%0javafx.scene.layout.VBox"javafx.scene.layout.VBox≥
+∞
 b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¢ ¢(!4
-2
-%0,view.graphicalui.second.QuestionStateMachineB 
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaã ã(
+%1""javafx.scene.layout.VBox#<init>()V* 
+
+%0javafx.scene.layout.VBox±
+Æ
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaã ã( 
+rootjavafx.scene.layout.VBox"__id* 
+
+%0javafx.scene.layout.VBoxéã
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaå å('
+%2!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*"
+ 
+rootjavafx.scene.layout.VBox2getChildren()√
+¿
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaå" å(5
+%3javafx.scene.layout.HBox"__id*4*2
+view.graphicalui.second.Home"
+titleContainer¿
+Ω
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaå7 å(B#
+%4javafx.scene.control.TextArea"__id*,**
+view.graphicalui.second.Home"
+screen¡
+æ
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaåD å(O$
+%5javafx.scene.control.TextField"__id*,**
+view.graphicalui.second.Home"
+promptÔÏ
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaå å(P
+%6boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z*)
+'
+%2!javafx.collections.ObservableList* 
+
+%3javafx.scene.layout.HBox*%
+#
+%4javafx.scene.control.TextArea*&
+$
+%5javafx.scene.control.TextField2addAll([Ljava/lang/Object;)"à
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaç ç("
+ 
+rootjavafx.scene.layout.VBoxB 
 view.graphicalui.second.Home

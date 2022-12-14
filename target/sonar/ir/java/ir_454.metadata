@@ -1,1 +1,1 @@
-view.bean.errorsignupdecorations.NameBeanErrorDecorator#instance-init#
+view.bean.UserSignUpBean#getAccount()Ljava/lang/String;

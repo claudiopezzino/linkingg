@@ -1,1 +1,6 @@
-view.graphicalui.second.Home#revertToOldPassword()V
+control.tasks.Loader#checkFilter(Lmodel/Filter;Ljava/io/ObjectInputStream;)V
+control.tasks.Loader#updateMeetings(Ljava/io/ObjectInputStream;)V
+control.tasks.Loader#updateGroupMembers(Ljava/io/ObjectInputStream;)V
+control.tasks.Loader#updateUserNick(Ljava/io/ObjectInputStream;)V
+control.tasks.Loader#updateGroups(Ljava/io/ObjectInputStream;)V
+control.tasks.Loader#updateMeetingJoiners(Ljava/io/ObjectInputStream;)V

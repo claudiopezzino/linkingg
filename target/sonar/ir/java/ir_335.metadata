@@ -1,1 +1,1 @@
-view.graphicalui.second.signinquestionstates.QuestionPassword#instance-init#
+view.graphicalui.second.Shell#getPrompt()Ljavafx/scene/control/TextField;

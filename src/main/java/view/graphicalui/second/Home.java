@@ -117,7 +117,7 @@ public class Home extends Shell{
 
     ///////////////////////////////////////////
     // End Of Name
-    private static final String EON = "),   ";
+    private static final String EON = "),   \n\t";
     // End Of Line
     private static final String EOL = "\n\n\n";
     ///////////////////////////////////////////
@@ -406,12 +406,12 @@ public class Home extends Shell{
     public void listGroups(){
         // GROUPS_VIEW
         this.screen.setText(LEGEND + welcomeMsg + "view your groups\n\n\n" +
-                "Others:  ");
+                "Others:  \n\t");
 
         for(Pair<String, String> otherGroupInfo : this.listOtherGroups)
             this.screen.appendText(otherGroupInfo.getValue() + " (@"+otherGroupInfo.getKey()+EON);
 
-        this.screen.appendText("\n\nOwns:  " );
+        this.screen.appendText("\n\nOwns:  \n\t");
 
         for(Pair<String, String> ownGroupInfo : this.listOwnGroups)
             this.screen.appendText(ownGroupInfo.getValue() + " (@"+ownGroupInfo.getKey()+EON);
@@ -507,7 +507,7 @@ public class Home extends Shell{
     public void listMembers(){
         // MEMBERS_VIEW
         this.screen.setText(LEGEND + welcomeMsg + "view members for the group:   " + this.groupNickname +
-                "\n\n\nOwner:   @" + this.groupOwnerNick + "\n\nMembers:   ");
+                "\n\n\nOwner:   " + this.groupOwnerNick + "\n\nMembers:   \n\t");
 
         for (Pair<String, String> memberInfo : this.listGroupMembers)
             this.screen.appendText(memberInfo.getValue() + " (@"+memberInfo.getKey()+EON);
@@ -578,12 +578,12 @@ public class Home extends Shell{
     public void listMeetings(){
         // MEETINGS_VIEW
         this.screen.setText(LEGEND + welcomeMsg + "view meetings for the group:   " + this.groupNickname +
-                "\n\n\nOthers:  ");
+                "\n\n\nOthers:  \n\t");
 
         for(Pair<String, String> otherMeetingInfo : this.listOtherMeetings)
             this.screen.appendText(otherMeetingInfo.getValue() + " (#"+otherMeetingInfo.getKey()+EON);
 
-        this.screen.appendText("\n\nOwns:  ");
+        this.screen.appendText("\n\nOwns:  \n\t");
 
         for(Pair<String, String> ownMeetingInfo : this.listOwnMeetings)
             this.screen.appendText(ownMeetingInfo.getValue() + " (#"+ownMeetingInfo.getKey()+EON);

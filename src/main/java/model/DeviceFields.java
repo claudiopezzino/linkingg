@@ -1,0 +1,13 @@
+package model;
+
+public final class DeviceFields {
+
+    //////////////////////////////////////////
+    public static final String IP = "ip";
+    public static final String PORT = "port";
+    //////////////////////////////////////////
+
+    ////////////////////////
+    private DeviceFields(){}
+    ////////////////////////
+}

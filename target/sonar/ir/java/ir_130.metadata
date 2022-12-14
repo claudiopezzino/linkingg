@@ -1,3 +1,6 @@
-view.graphicalui.second.Home#listMembers()V
+view.graphicalui.second.Home#setUpScreen()V
+javafx.scene.Node#setFocusTraversable(Z)V
+javafx.scene.control.TextArea#instance-init#
 javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
-view.controllerui.second.handlerstates.StateMembersView#getStateMembersViewInstance()Lview/controllerui/second/handlerstates/StateMembersView;
+javafx.scene.control.TextArea#<init>()V
+javafx.scene.control.TextInputControl#setEditable(Z)V

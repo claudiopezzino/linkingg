@@ -1,3 +1,2 @@
-view.graphicalui.second.Shell#instance-init#
-view.controllerui.second.KeyEventHandler#<init>()V
-view.controllerui.second.KeyEventHandler#instance-init#
+view.graphicalui.first.SignupPage#<init>(Lview/graphicalui/first/Toolbar;)V
+view.graphicalui.first.SignupPage#setUpSignupPage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;

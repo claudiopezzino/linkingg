@@ -1,1 +1,4 @@
-model.db.dbexceptions.DuplicatedRecordException#<init>(Ljava/lang/String;)V
+view.bean.UserSignUpBean#setEmail(Ljava/lang/String;)V
+view.bean.errorsignupdecorations.EmailBeanErrorDecorator#instance-init#
+view.bean.errorsignupdecorations.EmailBeanErrorDecorator#<init>(Lview/bean/BeanError;)V
+view.bean.Regex#isMatching(Ljava/lang/String;Ljava/lang/String;)Z

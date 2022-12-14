@@ -1,8 +1,1 @@
-view.graphicalui.first.HomePage#setUpMapContainer()Ljavafx/scene/web/WebView;
-javafx.scene.web.WebView#instance-init#
-view.controllerui.first.HomePageEventHandler$GoogleMapsChangeListener#instance-init#
-javafx.scene.web.WebView#<init>()V
-javafx.scene.web.WebView#getEngine()Ljavafx/scene/web/WebEngine;
-javafx.scene.web.WebEngine#getLoadWorker()Ljavafx/concurrent/Worker;
-view.controllerui.first.HomePageEventHandler$GoogleMapsChangeListener#<init>()V
-javafx.scene.web.WebEngine#load(Ljava/lang/String;)V
+model.dao.MeetingDAO#readEntity(Ljava/util/Map;Lmodel/Filter;)Ljava/lang/Object;

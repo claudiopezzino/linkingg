@@ -1,1 +1,6 @@
-view.controllerui.second.handlerstates.StateUsernameChange#<init>()V
+view.controllerui.first.HomePageEventHandler#getCurrGroupNick(Ljavafx/scene/layout/VBox;)Ljava/lang/String;
+view.graphicalui.first.listviewitems.ListViewGroupItems$GroupInfo#getIndex()Ljava/lang/Integer;
+java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
+view.graphicalui.first.listviewitems.ListViewGroupItems#getIndex()Ljava/lang/Integer;
+javafx.scene.control.Labeled#getText()Ljava/lang/String;
+view.graphicalui.first.listviewitems.ListViewGroupItems$GroupInfo$GroupDetails#getIndex()Ljava/lang/Integer;

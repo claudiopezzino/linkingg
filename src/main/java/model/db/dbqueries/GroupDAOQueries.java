@@ -1,16 +1,19 @@
 package model.db.dbqueries;
 
 import model.GroupFields;
+import model.ImageProfile;
 import model.UserInfo;
 import model.db.dbconnection.PersistencyDB;
 import model.db.dbexceptions.DBException;
+import model.db.dbexceptions.DuplicatedRecordException;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 import static model.ImageProfile.*;
+
 
 public class GroupDAOQueries {
 
@@ -23,11 +26,67 @@ public class GroupDAOQueries {
             "SELECT * FROM crowd JOIN users_into_groups ON nickname = groups_nickname WHERE users_nickname = ?";
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    private static final String INSERT_GROUP = "INSERT INTO crowd(nickname, name, image, owner) VALUES (?,?,?,?)";
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+    private static final String SELECT_GROUP_BY_NICKNAME = "SELECT * FROM crowd WHERE nickname = ?";
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+
 
     ///////////////////////////
     private GroupDAOQueries(){}
     ///////////////////////////
 
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    public static void insertGroup(PersistencyDB db, Connection connection, Map<String, String> groupInfo) throws DuplicatedRecordException, DBException{
+        PreparedStatement preparedStatement = null;
+        Map<String, String> mapGroupInfo;
+
+        try(FileInputStream is = ImageProfile.fromStringToInputStream(groupInfo.get(GroupFields.IMAGE))){
+            preparedStatement = connection.prepareStatement(INSERT_GROUP,
+                    ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
+            mapGroupInfo = selectGroupByNickname(db, connection, groupInfo.get(GroupFields.NICKNAME));
+            if(!mapGroupInfo.isEmpty())
+                throw new DuplicatedRecordException(GroupFields.NICKNAME);
+
+            preparedStatement.setString(1, groupInfo.get(GroupFields.NICKNAME));
+            preparedStatement.setString(2, groupInfo.get(GroupFields.NAME));
+            preparedStatement.setBinaryStream(3, is, ImageProfile.imageSize(groupInfo.get(GroupFields.IMAGE)));
+            preparedStatement.setString(4, groupInfo.get(GroupFields.OWNER));
+
+            preparedStatement.executeUpdate();
+        }
+        catch(SQLException | IOException exception){
+            throw new DBException();
+        }
+        finally {
+            db.closePreparedStatement(preparedStatement);
+        }
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    public static Map<String, String> selectGroupByNickname(PersistencyDB db, Connection connection, String nickname) throws DBException{
+        PreparedStatement preparedStatement = null;
+        ResultSet resultSet = null;
+        try{
+            preparedStatement = connection.prepareStatement(SELECT_GROUP_BY_NICKNAME,
+                    ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
+            preparedStatement.setString(1, nickname);
+            resultSet = preparedStatement.executeQuery();
+            return unpackGroupInfo(resultSet);
+        }
+        catch(SQLException sqlException){
+            throw new DBException();
+        }finally{
+            db.closePreparedStatement(preparedStatement);
+            db.closeResultSet(resultSet);
+        }
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public static List<String> selectGroups(PersistencyDB db, Connection connection, String userNick, String membership) throws DBException {
@@ -55,7 +114,6 @@ public class GroupDAOQueries {
 
         }
         catch(SQLException sqlException){
-            System.out.println("Code: " + sqlException.getErrorCode() + "<--->" + "Message: " + sqlException.getMessage());
             throw new DBException();
         }
         finally {
@@ -67,22 +125,22 @@ public class GroupDAOQueries {
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     private static List<String> wrapGroupsInfo(ResultSet resultSet) throws SQLException, DBException {
 
+        List<String> listGroupsInfo = new ArrayList<>();
+
         if(!resultSet.first())
             return Collections.emptyList();
-
-        List<String> listGroupsInfo = new ArrayList<>();
 
         String details;
         String separator = "-";
 
         Blob blob;
         String imgPath;
-        while(resultSet.next()) {
+
+        resultSet.first(); // replace cursor
+        do {
 
             blob = resultSet.getBlob(GroupFields.IMAGE);
             imgPath = fromBlobToString(resultSet.getString(GroupFields.NICKNAME), blob, "g_");
@@ -91,10 +149,33 @@ public class GroupDAOQueries {
                     separator + imgPath + separator + resultSet.getString(GroupFields.OWNER);
 
             listGroupsInfo.add(details);
-        }
+        }while(resultSet.next());
 
         return listGroupsInfo;
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////
+    private static Map<String, String> unpackGroupInfo(ResultSet resultSet) throws SQLException, DBException{
+        Map<String, String> mapGroupInfo = new HashMap<>();
+
+        if(!resultSet.first())
+            return Collections.emptyMap();
+
+        resultSet.first(); // replace cursor
+
+        String nickname = resultSet.getString(GroupFields.NICKNAME);
+        String name = resultSet.getString(GroupFields.NAME);
+        String owner = resultSet.getString(GroupFields.OWNER);
+        String image = ImageProfile.fromBlobToString(nickname, resultSet.getBlob(GroupFields.IMAGE), "g_");
+
+        mapGroupInfo.put(GroupFields.NICKNAME, nickname);
+        mapGroupInfo.put(GroupFields.NAME, name);
+        mapGroupInfo.put(GroupFields.IMAGE, image);
+        mapGroupInfo.put(GroupFields.OWNER, owner);
+
+        return mapGroupInfo;
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 }

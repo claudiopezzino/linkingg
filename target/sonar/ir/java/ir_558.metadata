@@ -1,2 +1,11 @@
-view.graphicalui.first.toolbardecorations.SearchBarDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)V
-view.graphicalui.first.toolbardecorations.SearchBarDecorator#setUpSearchBar()V
+view.controllerui.first.HomePageEventHandler#updateMeetingJoinersList(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+view.graphicalui.first.listviewitems.ListViewMeetingItems$MeetingInfo#getIndex()Ljava/lang/Integer;
+java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
+view.graphicalui.first.listviewitems.ListViewMeetingItems$JoinersInfo#getIndex()Ljava/lang/Integer;
+java.lang.String#equals(Ljava/lang/Object;)Z
+view.graphicalui.first.HomePage#getHomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/HomePage;
+view.graphicalui.first.listviewitems.ListViewMeetingItems#getIndex()Ljava/lang/Integer;
+javafx.scene.control.ListView#getItems()Ljavafx/collections/ObservableList;
+view.controllerui.first.HomePageEventHandler#fetchSelectedGroupNick()Ljava/lang/String;
+javafx.scene.control.Labeled#getText()Ljava/lang/String;
+view.controllerui.first.HomePageEventHandler#makeDecision(Ljava/lang/String;ZLjavafx/scene/layout/FlowPane;)V

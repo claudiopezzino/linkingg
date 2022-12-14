@@ -1,0 +1,32 @@
+package model;
+
+
+// this Class represent the specific Device that User is using to run the application
+public class Device {
+
+    ////////////////////////////
+    private final String ip;
+    private final Integer port;
+    ////////////////////////////
+
+
+    ///////////////////////////////////////
+    public Device(String ip, Integer port){
+        this.ip = ip;
+        this.port = port;
+    }
+    ///////////////////////////////////////
+
+
+    /////////////////////////////////////////////
+    public String ipAddress(){
+        return this.ip;
+    }
+    /////////////////////////////////////////////
+
+    /////////////////////////////////////////////////
+    public Integer portNumber(){
+        return this.port;
+    }
+    /////////////////////////////////////////////////
+}

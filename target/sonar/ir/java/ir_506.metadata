@@ -1,1 +1,1 @@
-view.graphicalui.second.Sign#displayQuestion()V
+view.bean.observers.MeetingBean#getImage()Ljava/lang/String;

@@ -1,2 +1,2 @@
-view.graphicalui.second.Signup#prevScreen()V
-view.graphicalui.second.signupquestionstates.QuestionName#getQuestionNameInstance()Lview/graphicalui/second/signupquestionstates/QuestionName;
+view.graphicalui.second.signupquestionstates.QuestionAddress#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.signupquestionstates.QuestionMail#getQuestionMailInstance()Lview/graphicalui/second/signupquestionstates/QuestionMail;

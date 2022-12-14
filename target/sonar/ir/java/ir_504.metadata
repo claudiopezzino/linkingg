@@ -1,2 +1,1 @@
-view.graphicalui.second.Sign#restoreScreen()V
-javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.bean.observers.MeetingBean#getDate()Ljava/lang/String;

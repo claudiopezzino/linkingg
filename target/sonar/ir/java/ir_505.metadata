@@ -1,2 +1,1 @@
-view.graphicalui.second.Sign#displaySignOptions()V
-javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.bean.observers.MeetingBean#getTime()Ljava/lang/String;

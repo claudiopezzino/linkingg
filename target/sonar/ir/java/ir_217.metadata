@@ -1,2 +1,1 @@
-view.graphicalui.first.toolbardecorations.SignBarDecorator#draw()Ljavafx/scene/control/ToolBar;
-javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;
+view.bean.UserBeanCollector#instance-init#

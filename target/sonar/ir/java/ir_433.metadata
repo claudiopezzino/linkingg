@@ -1,12 +1,1 @@
-view.controllerui.first.HomePageEventHandler#manageSearch(Ljavafx/scene/layout/HBox;)V
-view.graphicalui.first.toolbaritems.HomeToolbarItems$searchBarItems$radioButtonsContainerItems#getIndex()Ljava/lang/Integer;
-view.graphicalui.first.HomePage$SearchUsersDialog#<init>()V
-javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
-view.graphicalui.first.HomePage$SearchGroupsDialog#instance-init#
-java.lang.String#equals(Ljava/lang/Object;)Z
-view.graphicalui.first.toolbaritems.HomeToolbarItems$searchBarItems#getIndex()Ljava/lang/Integer;
-view.graphicalui.first.HomePage$SearchUsersDialog#instance-init#
-view.graphicalui.first.HomePage$SearchGroupsDialog#<init>(Ljava/lang/String;Ljava/lang/String;)V
-javafx.scene.control.Labeled#getText()Ljava/lang/String;
-javafx.scene.control.ToggleGroup#getSelectedToggle()Ljavafx/scene/control/Toggle;
-javafx.scene.control.ToggleButton#getToggleGroup()Ljavafx/scene/control/ToggleGroup;
+view.bean.ConcreteBeanError#<init>()V

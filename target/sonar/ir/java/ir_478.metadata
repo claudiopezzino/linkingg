@@ -1,2 +1,3 @@
-view.graphicalui.first.toolbardecorations.ProfileBoxDecorator#draw()Ljavafx/scene/control/ToolBar;
-javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;
+view.controllerui.second.handlerstates.StateGroupLinkRequests#getStateGroupLinkRequestsInstance()Lview/controllerui/second/handlerstates/StateGroupLinkRequests;
+view.controllerui.second.handlerstates.StateGroupLinkRequests#<init>()V
+view.controllerui.second.handlerstates.StateGroupLinkRequests#instance-init#

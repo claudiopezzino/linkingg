@@ -90,7 +90,7 @@ public class StateGroupOptions implements AbstractState{
         if(currUserNick.equals(groupOwnerNick))
             home.setGroupOwnerNick("YOU");
         else
-            home.setGroupOwnerNick(groupOwnerNick);
+            home.setGroupOwnerNick("@" + groupOwnerNick);
 
         Map<String, UserBean> mapUserBean = Shell.getShellHandler().getMapGroupBean().get(groupNick).getMapMembers();
 

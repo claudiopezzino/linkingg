@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#getBlacklist()Ljava/util/List;
+view.graphicalui.second.Home#meetingsPreviousBlacklist()V

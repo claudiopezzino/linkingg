@@ -1,8 +1,6 @@
-view.controllerui.first.DialogEventHandler#manageUserImage()V
-javafx.scene.paint.ImagePattern#<init>(Ljavafx/scene/image/Image;)V
-javafx.scene.shape.Shape#setFill(Ljavafx/scene/paint/Paint;)V
-javafx.scene.paint.ImagePattern#instance-init#
-view.controllerui.first.DialogEventHandler#showImageFileChooser(Lview/graphicalui/first/PageDialog;)Ljava/io/File;
-javafx.scene.image.Image#instance-init#
-view.graphicalui.first.HomePage$UserProfileDialog#getUserProfileDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog;
-javafx.scene.image.Image#<init>(Ljava/lang/String;)V
+view.controllerui.second.handlerstates.StateMeetingsDeletion#checkCmd(Lview/graphicalui/second/Home;)V
+view.controllerui.second.Message#errorMsg()V
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+view.controllerui.second.Message#meetingDeletionMsg()V
+java.lang.String#isEmpty()Z

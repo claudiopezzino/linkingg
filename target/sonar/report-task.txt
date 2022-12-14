@@ -1,7 +1,7 @@
 organization=claudiopezzino
 projectKey=claudiopezzino_linkingg
 serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.33400
+serverVersion=8.0.0.35072
 dashboardUrl=https://sonarcloud.io/dashboard?id=claudiopezzino_linkingg
-ceTaskId=AYPgbHmLw1XYBKl52AB0
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYPgbHmLw1XYBKl52AB0
+ceTaskId=AYTdDGMa7gGu7j2aupnB
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYTdDGMa7gGu7j2aupnB

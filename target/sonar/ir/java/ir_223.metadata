@@ -1,1 +1,4 @@
-view.graphicalui.first.SignupPage#getTextFieldName()Ljavafx/scene/control/TextField;
+model.db.dbqueries.UserDAOQueries#wrapListUsersInfo(Ljava/sql/ResultSet;)Ljava/util/List;
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+model.ImageProfile#fromBlobToString(Ljava/lang/String;Ljava/sql/Blob;Ljava/lang/String;)Ljava/lang/String;

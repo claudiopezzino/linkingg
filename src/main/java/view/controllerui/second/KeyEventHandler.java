@@ -61,6 +61,18 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
     }
     ///////////////////////////////////////////////////////////////
 
+    /////////////////////////////////////////////////////////////////////
+    public UserManageCommunityBoundary getUserManageCommunityBoundary(){
+        return this.userManageCommunityBoundary;
+    }
+    /////////////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////
+    public void setUserManageCommunityBoundary(UserManageCommunityBoundary userManageCommunityBoundary) {
+        this.userManageCommunityBoundary = userManageCommunityBoundary;
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
     /////////////////////////////////////////////////////////////////////////////////////
     @Override
@@ -106,9 +118,9 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
 
     //////////////////////////////////////////////////////////////////
     public void updateGroupsList(GroupBean groupBean){
+        this.mapGroupBean.put(groupBean.getNickname(), groupBean);
         if(this.stateMachine.getState() instanceof StateMain) {
             Home home = Home.getHomeInstance();
-            this.mapGroupBean.put(groupBean.getNickname(), groupBean);
             home.getPrompt().setText(VIEW_GROUPS);
             this.stateMachine.checkCmd(home);
         }
@@ -444,12 +456,20 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
     ///////////////////////////////////////////////////////////
 
 
-    ////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////
     private void moveBackToHomePage(Home home){
+        if(this.userManageCommunityBoundary != null && this.userManageCommunityBoundary.hasStartedSignIn()){
+            try{
+                this.userManageCommunityBoundary.freeResources();
+            }catch (InternalException internalException){
+                infoErrorMsg(internalException.getMessage());
+            }
+        }
+        // Otherwise, call freeResources of second boundary
         home.restoreScreen();
         home.getPrompt().clear();
     }
-    ////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////
     private void moveBackToWelcomePage(Home home){

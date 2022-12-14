@@ -1,2 +1,1 @@
-view.graphicalui.second.signinquestionstates.QuestionPassword#next(Lview/graphicalui/second/QuestionStateMachine;)V
-view.graphicalui.second.signinquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/signinquestionstates/QuestionEnd;
+view.bean.errorsignupdecorations.AddressBeanErrorDecorator#instance-init#

@@ -1,1 +1,1 @@
-view.graphicalui.second.signupquestionstates.QuestionEnd#instance-init#
+view.bean.UserSignUpBean#getName()Ljava/lang/String;

@@ -31,9 +31,9 @@ public class UserLoginController implements LoginController{
         userInfo.put(NICKNAME, userCredentials.getKey());
         userInfo.put(PASSWORD, userCredentials.getValue());
 
-        User newUser = this.registerUser(userInfo);
+        this.registerUser(userInfo);
 
-        return newUser.credentials();
+        return userCredentials;
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -111,7 +111,7 @@ public class UserLoginController implements LoginController{
     ///////////////////////////////////////////////////////////////////////////////
 
     ///////////////////////////////////////////////////////////////////////////////////
-    private User registerUser(Map<String, String> userInfo) throws InternalException {
+    private void registerUser(Map<String, String> userInfo) throws InternalException {
 
         boolean nickExists = true;
 
@@ -119,10 +119,9 @@ public class UserLoginController implements LoginController{
         BaseDAO baseDAO = factoryDAO.createDAO(USER_DAO);
 
         int numCopy = 1;
-        User user = null;
         while (nickExists){
             try{
-                user = (User) baseDAO.createEntity(userInfo);
+                baseDAO.createEntity(userInfo);
                 nickExists = false;
             }
             catch(DuplicatedEntityException e){
@@ -130,7 +129,6 @@ public class UserLoginController implements LoginController{
                 numCopy++;
             }
         }
-        return user;
     }
     ///////////////////////////////////////////////////////////////////////////////////
 

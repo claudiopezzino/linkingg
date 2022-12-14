@@ -30,6 +30,7 @@ public class StateGroupCreationNickname implements AbstractState{
         else if (!home.getPrompt().getText().isEmpty()) {
             home.saveGroupNickname(home.getPrompt().getText());
             home.getScreen().appendText(home.getGroupNickname());
+            // alert user that image profile capability has some problem
             home.displayQuestion();
         }
         else

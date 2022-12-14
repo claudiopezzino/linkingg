@@ -1,1 +1,2 @@
-view.controllerui.second.handlerstates.StateGroupCreationEnd#<init>()V
+view.graphicalui.first.toolbardecorations.UndoRedoBarDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)V
+view.graphicalui.first.toolbardecorations.UndoRedoBarDecorator#setUpUndoRedoBar()V

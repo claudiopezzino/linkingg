@@ -6,12 +6,11 @@ import model.GroupFields;
 import model.MeetingFields;
 import model.UserFields;
 
-import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
 
-public class Group extends Subject implements Serializable {
+public class Group extends Subject {
 
     ///////////////////////////////////////////////
     private final String nickname;

@@ -1,1 +1,2 @@
-view.controllerui.second.handlerstates.StateSearchFilter#instance-init#
+view.graphicalui.first.MeetingPage#<init>(Lview/graphicalui/first/Toolbar;)V
+view.graphicalui.first.MeetingPage#setUpMeetingPage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;

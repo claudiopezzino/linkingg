@@ -1,2 +1,10 @@
-view.graphicalui.second.usernamequestionstates.QuestionEnd#display()V
-view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;
+view.graphicalui.first.toolbardecorations.SignBarDecorator#setUpSignBar()V
+java.util.ArrayList#<init>()V
+javafx.scene.control.Button#<init>(Ljava/lang/String;)V
+javafx.scene.control.Separator#instance-init#
+javafx.scene.control.Separator#<init>()V
+javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;
+java.util.ArrayList#instance-init#
+javafx.scene.layout.HBox#<init>([Ljavafx/scene/Node;)V
+javafx.scene.control.Button#instance-init#
+javafx.scene.layout.HBox#instance-init#

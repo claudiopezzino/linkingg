@@ -1,1 +1,1 @@
-view.graphicalui.second.signupquestionstates.QuestionEnd#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.bean.UserSignUpBean#getEmail()Ljava/lang/String;

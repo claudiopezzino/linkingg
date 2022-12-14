@@ -1,2 +1,5 @@
-view.graphicalui.first.toolbardecorations.GroupButtonDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)V
-view.graphicalui.first.toolbardecorations.GroupButtonDecorator#setUpBtnNewGroup()V
+view.graphicalui.first.PageDialog#instance-init#
+view.controllerui.first.DialogEventHandler#<init>()V
+java.util.HashMap#<init>()V
+java.util.HashMap#instance-init#
+view.controllerui.first.DialogEventHandler#instance-init#

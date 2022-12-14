@@ -1,3 +1,8 @@
-view.controllerui.second.handlerstates.StateMeetingProposal#getStateMeetingProposalInstance()Lview/controllerui/second/handlerstates/StateMeetingProposal;
-view.controllerui.second.handlerstates.StateMeetingProposal#<init>()V
-view.controllerui.second.handlerstates.StateMeetingProposal#instance-init#
+view.boundary.UserManageCommunityBoundary#notifyMeetingJoiner(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+view.controllerui.second.handlerstates.StateMeetingDetails#getStateMeetingDetailsInstance()Lview/controllerui/second/handlerstates/StateMeetingDetails;
+view.graphicalui.first.HomePage#getHandler()Lview/controllerui/first/HomePageEventHandler;
+view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;
+java.lang.String#equals(Ljava/lang/Object;)Z
+view.graphicalui.second.Shell#getShellHandler()Lview/controllerui/second/KeyEventHandler;
+view.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;
+view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;

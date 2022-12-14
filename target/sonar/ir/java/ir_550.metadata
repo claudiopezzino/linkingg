@@ -1,2 +1,4 @@
-view.graphicalui.second.signupquestionstates.QuestionMail#display()V
-view.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;
+view.controllerui.first.HomePageEventHandler#updateUserProfileNick()V
+view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog#getUsernameDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog$UsernameDialog;
+javafx.scene.control.Labeled#setText(Ljava/lang/String;)V
+view.graphicalui.first.HomePage$UserProfileDialog#getUserProfileDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog;

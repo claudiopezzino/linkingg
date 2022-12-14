@@ -1,2 +1,6 @@
-view.graphicalui.first.SignupPage#getName()Ljava/lang/String;
-javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
+view.graphicalui.first.FirstMain#init()V
+view.graphicalui.first.Container#getRoot(Lview/graphicalui/first/Page;)Ljavafx/scene/control/ScrollPane;
+view.graphicalui.first.FirstMain#setCurrScene(Ljavafx/scene/Scene;)V
+javafx.scene.Scene#instance-init#
+javafx.scene.Scene#<init>(Ljavafx/scene/Parent;)V
+javafx.scene.Scene#getStylesheets()Ljavafx/collections/ObservableList;

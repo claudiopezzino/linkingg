@@ -1,2 +1,2 @@
-view.graphicalui.second.meetingquestionstates.QuestionTypeOfMeeting#next(Lview/graphicalui/second/QuestionStateMachine;)V
-view.graphicalui.second.meetingquestionstates.QuestionTypeOfVehicle#getQuestionTypeOfVehicleInstance()Lview/graphicalui/second/meetingquestionstates/QuestionTypeOfVehicle;
+view.graphicalui.second.SignupInfo#getIndex()Ljava/lang/Integer;
+java.lang.Enum#ordinal()I

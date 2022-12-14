@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#sendReqToTargetGroups()V
+view.bean.observers.GroupBean#setNickname(Ljava/lang/String;)V

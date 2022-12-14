@@ -1,1 +1,2 @@
-view.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;
+view.graphicalui.first.SignupPage#getCell()Ljava/lang/String;
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;

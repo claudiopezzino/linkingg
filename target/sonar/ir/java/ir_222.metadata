@@ -1,1 +1,1 @@
-view.graphicalui.first.SignupPage#getBtnSignUp()Ljavafx/scene/control/Button;
+model.db.dbqueries.UserDAOQueries#<init>()V

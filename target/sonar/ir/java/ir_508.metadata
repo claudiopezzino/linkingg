@@ -1,1 +1,1 @@
-view.graphicalui.second.Sign#getSignMode()Ljava/lang/Boolean;
+view.bean.observers.MeetingBean#getScheduler()Lview/bean/observers/UserBean;

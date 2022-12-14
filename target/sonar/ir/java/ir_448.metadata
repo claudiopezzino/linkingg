@@ -1,4 +1,3 @@
-view.graphicalui.first.toolbardecorations.MainBarDecorator#draw()Ljavafx/scene/control/ToolBar;
-javafx.scene.control.Separator#instance-init#
-javafx.scene.control.Separator#<init>()V
-javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;
+view.bean.UserSignUpBean#instance-init#
+view.bean.ConcreteBeanError#instance-init#
+view.bean.ConcreteBeanError#<init>()V

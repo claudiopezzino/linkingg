@@ -1,3 +1,1 @@
-model.dao.FactoryDAO#getSingletonInstance()Lmodel/dao/FactoryDAO;
-model.dao.FactoryDAO#<init>()V
-model.dao.FactoryDAO#instance-init#
+view.graphicalui.second.QuestionStateMachine#nextQuestion()V

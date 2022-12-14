@@ -1,3 +1,4 @@
-view.graphicalui.second.Home#groupsDeletionMode(Ljava/lang/String;)V
-view.graphicalui.second.Home#showBlacklist(Ljava/lang/String;)V
-view.controllerui.second.handlerstates.StateGroupsDeletion#getStateGroupsDeletionInstance()Lview/controllerui/second/handlerstates/StateGroupsDeletion;
+view.bean.observers.GroupBean#setMapMeetings(Ljava/util/Map;)V
+java.util.HashMap#<init>()V
+control.controlutilities.Copier#deepCopy(Ljava/io/Serializable;)Ljava/lang/Object;
+java.util.HashMap#instance-init#

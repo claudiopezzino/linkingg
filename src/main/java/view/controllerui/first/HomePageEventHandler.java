@@ -17,6 +17,7 @@ import javafx.scene.layout.VBox;
 import javafx.scene.paint.ImagePattern;
 import javafx.scene.paint.Paint;
 import javafx.scene.shape.Circle;
+import view.bean.GroupCreationBean;
 import view.bean.observers.GroupBean;
 import view.bean.observers.MeetingBean;
 import view.bean.observers.UserBean;
@@ -37,6 +38,7 @@ import java.util.Map;
 import java.util.Optional;
 
 import static view.controllerui.first.Dialog.errorDialog;
+import static view.graphicalui.first.constcontainer.HomePageFields.*;
 import static view.graphicalui.first.listviewitems.ListViewGroupItems.*;
 import static view.graphicalui.first.listviewitems.ListViewGroupItems.GroupInfo.GROUP_DETAILS;
 import static view.graphicalui.first.listviewitems.ListViewGroupItems.GroupInfo.GROUP_IMAGE;
@@ -75,6 +77,12 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
     //////////////////////////////////////////////////////////////////////////////////////////////////////
     public void setUserManageCommunityBoundary(UserManageCommunityBoundary userManageCommunityBoundary) {
         this.userManageCommunityBoundary = userManageCommunityBoundary;
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////
+    public UserManageCommunityBoundary getUserManageCommunityBoundary() {
+        return this.userManageCommunityBoundary;
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -131,7 +139,8 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
 
     //////////////////////////////////////////////////////////////////////
     private void manageSignOut(){
-        if(this.userManageCommunityBoundary.hasStartedSignIn()){
+        if(this.userManageCommunityBoundary != null
+                && this.userManageCommunityBoundary.hasStartedSignIn()){
             try{
                 this.userManageCommunityBoundary.freeResources();
             }catch (InternalException internalException){
@@ -355,7 +364,8 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
 
                 VBox vBoxGroupDetails = (VBox) hBoxGroupInfo.getChildren().get(GROUP_DETAILS.getIndex());
                 Label labelGroupNick = (Label) vBoxGroupDetails.getChildren().get(GROUP_NICKNAME.getIndex());
-                String groupNick = labelGroupNick.getText();
+                String[] tokens = labelGroupNick.getText().split(" +");
+                String groupNick = tokens[1];
 
                 // Clear previous listview
                 homePage.getObservableListMeetings().clear();
@@ -402,9 +412,17 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
                             .mapGroupBean.get(this.groupNick)
                             .getMapMembers().get(this.memberNick);
 
+                    if(userBean == null)
+                        userBean = HomePage.getHandler()
+                                .mapGroupBean.get(this.groupNick)
+                                .getOwner();
+
                     String fullName = userBean.getName()+" "+userBean.getSurname();
                     String nickname = userBean.getNickname();
                     String image = userBean.getImageProfile();
+
+                    if(image == null)
+                        image = ANONYMOUS_PROFILE;
 
                     GroupMemberProfileDialog groupMemberProfileDialog =
                             new GroupMemberProfileDialog(fullName, nickname, image);
@@ -516,8 +534,8 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
                 .getToolBar().getItems().get(PROFILE_BOX.getIndex());
         Circle circleHomePageImageUser = (Circle) homePageProfileBox.getChildren().get(IMAGE_USER.getIndex());
 
-        if(result.get(IMG) != null && !result.get(IMG).equals(UPLOAD_PHOTO))
-            circleHomePageImageUser.setFill(new ImagePattern(new Image(FILE + result.get(IMG))));
+        if(result.get(IMAGE) != null && !result.get(IMAGE).equals(UPLOAD_PHOTO))
+            circleHomePageImageUser.setFill(new ImagePattern(new Image(FILE + result.get(IMAGE))));
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -534,34 +552,35 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
     }
     ///////////////////////////////////////////////////////////////////////////////////////
 
-    ///////////////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////
     private void createGroup(Map<String, String> result){
 
-        /*if(result.get("name") != null && result.get("nickname") != null && result.get(IMG) != null) {
+        String groupName = result.get(NAME);
+        String groupNick = result.get(NICKNAME);
+        String groupImage = result.get(IMAGE);
 
-            HomePage homePage = HomePage.getHomePageInstance(null);
+        if(groupName != null && groupNick != null && groupImage != null) {
 
-            HBox hBoxGroupPreview = new HBox();
-            hBoxGroupPreview.getStyleClass().addAll(IMG_CONTAINER);
+            GroupCreationBean groupCreationBean = new GroupCreationBean();
 
-            Circle circleGroupImage = new Circle(40);
-            circleGroupImage.setFill(new ImagePattern(new Image(FILE + result.get(IMG))));
+            groupCreationBean.setName(groupName);
+            groupCreationBean.setNickname(groupNick);
+            groupCreationBean.setImage(groupImage);
+            groupCreationBean.setOwner(this.currUserBean.getNickname());
 
-            Label labelGroupName = new Label("Name:    " + result.get("name"));
-            Label labelGroupNick = new Label("Nickname:    " + result.get("nickname"));
+            try{
+                // because sign-up and sign-in may not be done with this boundary
+                if(this.userManageCommunityBoundary == null)
+                    this.userManageCommunityBoundary = new UserManageCommunityBoundary();
+                this.userManageCommunityBoundary.createGroup(groupCreationBean);
+            }catch(InternalException internalException){
+                errorDialog(internalException.getMessage());
+            }
 
-            VBox vBoxLabelContainer = new VBox(labelGroupName, labelGroupNick);
-            vBoxLabelContainer.getStyleClass().addAll(IMG_CONTAINER);
-
-            hBoxGroupPreview.getChildren().addAll(circleGroupImage, vBoxLabelContainer);
-
-            ObservableList<HBox> observableListGroups = homePage.getObservableListGroups();
-            observableListGroups.add(hBoxGroupPreview);
-
-        }*/
+        }
 
     }
-    //////////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////////
     private void manageLinkRequests(){

@@ -1,39 +1,45 @@
 
-]view.bean.errorsignindecorations.NicknameBeanErrorDecorator#displayErrors()Ljava/lang/String;
-u/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignindecorations/NicknameBeanErrorDecorator.java ("1*ñ
-1
-u/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignindecorations/NicknameBeanErrorDecorator.java (‰
-·
-
-u/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignindecorations/NicknameBeanErrorDecorator.java (-
-%0java.lang.String">view.bean.BeanErrorDecorator#displayErrors()Ljava/lang/String;*
-""¿
-Ω
-
-u/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignindecorations/NicknameBeanErrorDecorator.java (.
-errorsjava.lang.String"__id*
-
-%0java.lang.Stringüú
-
-u/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignindecorations/NicknameBeanErrorDecorator.java (#
-%1java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*?=
-;view.bean.errorsignindecorations.NicknameBeanErrorDecorator2getMessage()ﬁ
-€
-
-u/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignindecorations/NicknameBeanErrorDecorator.java (#
-%2java.lang.String"__concat*
-
-errorsjava.lang.String*
-
-%1java.lang.String¿
-Ω
-
-u/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignindecorations/NicknameBeanErrorDecorator.java (#
-errorsjava.lang.String"__id*
-
-%2java.lang.String"ü
-
-u/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignindecorations/NicknameBeanErrorDecorator.java (
-
-errorsjava.lang.StringB?=
-;view.bean.errorsignindecorations.NicknameBeanErrorDecorator
+éview.graphicalui.second.signupquestionstates.QuestionName#getQuestionNameInstance()Lview/graphicalui/second/signupquestionstates/QuestionName;}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java' '(6"3*¿
+2}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java)# )(5˛˚
+}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java)' )(3?
+%19view.graphicalui.second.signupquestionstates.QuestionName"9view.graphicalui.second.signupquestionstates.QuestionNameê
+ç
+}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java)# )(5
+%2"Cview.graphicalui.second.signupquestionstates.QuestionName#<init>()V*A
+?
+%19view.graphicalui.second.signupquestionstates.QuestionName¢
+ü
+}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java) )(5U;
+9view.graphicalui.second.signupquestionstates.QuestionName"
+questionNameInstance"__id*A
+?
+%19view.graphicalui.second.signupquestionstates.QuestionName*
+1*Ø
+3}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java( ((¢
+ü
+}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java( ((?
+%09view.graphicalui.second.signupquestionstates.QuestionName"__id*W*U;
+9view.graphicalui.second.signupquestionstates.QuestionName"
+questionNameInstance*
+2
+1*Ï
+1}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java* *(#¢
+ü
+}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java* *(#?
+%39view.graphicalui.second.signupquestionstates.QuestionName"__id*W*U;
+9view.graphicalui.second.signupquestionstates.QuestionName"
+questionNameInstance"¬
+}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionName.java* *($A
+?
+%39view.graphicalui.second.signupquestionstates.QuestionNameB=";
+9view.graphicalui.second.signupquestionstates.QuestionName

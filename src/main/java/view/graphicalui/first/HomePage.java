@@ -30,6 +30,7 @@ import java.util.List;
 import java.util.Map;
 
 import static view.graphicalui.first.constcontainer.Css.*;
+import static view.graphicalui.first.constcontainer.HomePageFields.*;
 import static view.graphicalui.first.constcontainer.Image.*;
 import static view.graphicalui.first.constcontainer.Protocol.FILE;
 
@@ -73,11 +74,6 @@ public class HomePage extends Parent {
     ///////////////////////////////
     private Button btnLinkRequests;
     ///////////////////////////////
-
-
-    //////////////////////////////////////////////////
-    private static final String NICKNAME = "nickname";   // due tue Sonar warning
-    //////////////////////////////////////////////////
 
 
     /////////////////////////////////////////////////////////////////////////////////////////////
@@ -442,9 +438,9 @@ public class HomePage extends Parent {
                         || this.textFieldGroupNick.getText().isEmpty()
                         || this.labelGroupImgPath.getText().isEmpty())
                     return Collections.emptyMap();
-                this.map.put("name", this.textFieldGroupName.getText());
+                this.map.put(NAME, this.textFieldGroupName.getText());
                 this.map.put(NICKNAME, this.textFieldGroupNick.getText());
-                this.map.put(IMG, this.labelGroupImgPath.getText());
+                this.map.put(IMAGE, this.labelGroupImgPath.getText());
                 return this.map;
             }
             return Collections.emptyMap();
@@ -624,14 +620,14 @@ public class HomePage extends Parent {
         @Override
         protected VBox setUpPopUpRoot() {
             VBox vBoxRoot = new VBox();
-            vBoxRoot.getStyleClass().add(IMG_CONTAINER);
+            vBoxRoot.getStyleClass().addAll(IMG_CONTAINER, HBOX);
 
             Label labelFullName = new Label(this.fullName);
             Label labelNickname = new Label(this.nickname);
 
             Circle circleImage = new Circle(40);
             circleImage.getStyleClass().add(CIRCLE);
-            circleImage.setFill(new ImagePattern(new Image(FILE + this.image)));
+            circleImage.setFill(new ImagePattern(new Image(this.image)));
 
             vBoxRoot.getChildren().addAll(circleImage, labelFullName, labelNickname);
 
@@ -681,7 +677,7 @@ public class HomePage extends Parent {
             if(buttonType == this.getBtnTypeSave()) {
                 if(this.imgProfilePath != null && !this.imgProfilePath.equals(UPLOAD_PHOTO))
                     this.oldImgProfilePath = this.imgProfilePath;
-                this.map.put(IMG, this.imgProfilePath);
+                this.map.put(IMAGE, this.imgProfilePath);
                 return this.map;
             }
             else {
@@ -965,11 +961,11 @@ public class HomePage extends Parent {
     }
     ///////////////////////////////////////////////////////////////////////////////////////////////
 
-    ///////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////
     public ObservableList<VBox> getObservableListGroups() {
         return this.observableListGroups;
     }
-    ///////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////
 
     ///////////////////////////////////////////////////////////////////////
     public Button getBtnProposeMeeting(){
@@ -1020,6 +1016,7 @@ public class HomePage extends Parent {
         hyperlinkOwner.setOnMouseClicked(new HyperLinkGroupMemberHandler<>(groupBean.getNickname(), ownerNick));
 
         HBox hBoxOwner = new HBox(labelOwnerNick, hyperlinkOwner);
+        hBoxOwner.getStyleClass().add(HBOX);
 
         VBox vBoxLabelContainer = new VBox(labelGroupName, labelGroupNick);
         vBoxLabelContainer.getStyleClass().addAll(IMG_CONTAINER);
@@ -1038,7 +1035,7 @@ public class HomePage extends Parent {
         vBoxMembers.getStyleClass().addAll(IMG_CONTAINER);
         vBoxMembers.getChildren().addAll(labelMembers, flowPaneMembers);
 
-        vBoxGroupPreview.getChildren().addAll(hBoxGroupDetails, hBoxOwner, vBoxMembers);
+        vBoxGroupPreview.getChildren().addAll(hBoxOwner, hBoxGroupDetails, vBoxMembers);
 
         this.observableListGroups.add(vBoxGroupPreview);
     }

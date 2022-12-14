@@ -1,19 +1,45 @@
 
-@view.graphicalui.first.SignupPage#getAddress()Ljava/lang/String;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÃ Ã("1*õ
-1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÕ Õ(©¶
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÕ Õ()$
-%0javafx.scene.control.TextField"Wview.graphicalui.first.SignupPage#getTextFieldAddress()Ljavafx/scene/control/TextField;*%#
-!view.graphicalui.first.SignupPage2getTextFieldAddress()˙˜
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÕ Õ(3
-%1java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*&
-$
-%0javafx.scene.control.TextField2	getText()"É
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÕ Õ(4
-
-%1java.lang.StringB%#
-!view.graphicalui.first.SignupPage
+yview.controllerui.second.handlerstates.StateMain#getStateMainInstance()Lview/controllerui/second/handlerstates/StateMain;t
+j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaQ Q(0"3*„
+2t
+j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaS  S(/„‡
+t
+j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaS$ S(-6
+%10view.controllerui.second.handlerstates.StateMain"0view.controllerui.second.handlerstates.StateMainı
+Ú
+t
+j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaS  S(/
+%2":view.controllerui.second.handlerstates.StateMain#<init>()V*8
+6
+%10view.controllerui.second.handlerstates.StateMainÑ
+Å
+t
+j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaS S(/I2
+0view.controllerui.second.handlerstates.StateMain"
+stateMainInstance"__id*8
+6
+%10view.controllerui.second.handlerstates.StateMain*
+1*à
+3t
+j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaR R(Ñ
+Å
+t
+j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaR R(6
+%00view.controllerui.second.handlerstates.StateMain"__id*K*I2
+0view.controllerui.second.handlerstates.StateMain"
+stateMainInstance*
+2
+1*≥
+1t
+j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaT T( Ñ
+Å
+t
+j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaT T( 6
+%30view.controllerui.second.handlerstates.StateMain"__id*K*I2
+0view.controllerui.second.handlerstates.StateMain"
+stateMainInstance"∞
+t
+j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaT T(!8
+6
+%30view.controllerui.second.handlerstates.StateMainB4"2
+0view.controllerui.second.handlerstates.StateMain

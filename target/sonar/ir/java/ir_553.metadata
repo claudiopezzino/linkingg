@@ -1,1 +1,3 @@
-view.controllerui.second.handlerstates.StateUsernameChange#instance-init#
+view.controllerui.first.HomePageEventHandler#getListGroups()Ljavafx/collections/ObservableList;
+view.graphicalui.first.HomePage#getHomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/HomePage;
+javafx.scene.control.ListView#getItems()Ljavafx/collections/ObservableList;

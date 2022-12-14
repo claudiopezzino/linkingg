@@ -1,1 +1,2 @@
-view.graphicalui.first.toolbardecorations.SocialBarDecorator#instance-init#
+view.graphicalui.second.signinquestionstates.QuestionPassword#display()V
+view.graphicalui.second.Signin#getSigninInstance()Lview/graphicalui/second/Signin;

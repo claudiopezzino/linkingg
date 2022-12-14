@@ -1,3 +1,2 @@
-view.controllerui.second.handlerstates.StateGroupCreationEnd#getStateGroupCreationEndInstance()Lview/controllerui/second/handlerstates/StateGroupCreationEnd;
-view.controllerui.second.handlerstates.StateGroupCreationEnd#<init>()V
-view.controllerui.second.handlerstates.StateGroupCreationEnd#instance-init#
+view.graphicalui.first.toolbardecorations.UndoRedoBarDecorator#draw()Ljavafx/scene/control/ToolBar;
+javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;

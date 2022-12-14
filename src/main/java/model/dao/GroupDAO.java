@@ -9,6 +9,7 @@ import control.controlutilities.CopyException;
 import model.*;
 import model.db.dbconnection.PersistencyDB;
 import model.db.dbexceptions.DBException;
+import model.db.dbexceptions.DuplicatedRecordException;
 import model.db.dbqueries.GroupDAOQueries;
 import model.modelexceptions.DuplicatedEntityException;
 import model.modelexceptions.NoEntityException;
@@ -16,22 +17,51 @@ import model.subjects.Group;
 import model.subjects.Meeting;
 import model.subjects.User;
 
+import static model.UserFields.NICKNAME;
 import static model.dao.DAO.MEETING_DAO;
 import static model.dao.DAO.USER_DAO;
+
 
 public class GroupDAO implements BaseDAO{
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     @Override
-    public Object createEntity(Map<String, String> creationInfo) throws DuplicatedEntityException, InternalException {
-        return null;
+    public void createEntity(Map<String, String> mapCreationInfo) throws DuplicatedEntityException, InternalException {
+        try{
+            PersistencyDB db = PersistencyDB.getSingletonInstance();
+            Connection connection = db.getConnection();
+            GroupDAOQueries.insertGroup(db, connection, mapCreationInfo);
+            db.closeConnection();
+        }catch (DuplicatedRecordException e) {
+            throw new DuplicatedEntityException(NICKNAME, mapCreationInfo.get(NICKNAME));
+        }
+        catch(DBException dbException){
+            throw new InternalException(dbException.getMessage());
+        }
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     @Override
-    public <V> Object readEntity(Map<String, V> filter, Filter type) throws InternalException, NoEntityException {
-        return null;
+    public <V> Object readEntity(Map<String, V> filter, Filter type) throws InternalException {
+        Map<String, String> mapGroupInfo = new HashMap<>();
+        Group group;
+        try{
+            PersistencyDB db = PersistencyDB.getSingletonInstance();
+            Connection connection = db.getConnection();
+
+            if(type == Filter.GROUP_NICKNAME)
+                mapGroupInfo = GroupDAOQueries.selectGroupByNickname(db, connection, (String) filter.get(GroupFields.NICKNAME));
+
+            db.closeConnection();
+
+        }catch(DBException dbException){
+            throw new InternalException(dbException.getMessage());
+        }
+
+        group = this.makeGroupEntity(mapGroupInfo, Collections.emptyMap(), Collections.emptyMap());
+
+        return group;
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -48,8 +78,6 @@ public class GroupDAO implements BaseDAO{
         Map<String, User> mapGroupMembers;
         Map<String, Meeting> mapGroupMeetings;
 
-        User groupOwner;
-
         try{
             PersistencyDB db = PersistencyDB.getSingletonInstance();
             Connection connection = db.getConnection();
@@ -63,6 +91,7 @@ public class GroupDAO implements BaseDAO{
 
                 listGroupsInfo.addAll(listSupport);
 
+                // set up a method as UserDAO called "makeGroupEntities"
                 for (String groupInfo : listGroupsInfo) {
 
                     mapGroupInfo = this.unpackGroupInfo(groupInfo);
@@ -70,17 +99,16 @@ public class GroupDAO implements BaseDAO{
                     mapGroupMembers = this.fetchGroupMembers(mapGroupInfo.get(GroupFields.NICKNAME));
                     mapGroupMeetings = this.fetchGroupMeetings(mapGroupInfo.get(GroupFields.NICKNAME));
 
-                    groupOwner = this.fetchGroupOwner(mapGroupInfo.get(GroupFields.OWNER));
+                    Group group = this.makeGroupEntity(mapGroupInfo, mapGroupMembers, mapGroupMeetings);
 
-                    mapGroups.put(mapGroupInfo.get(GroupFields.NICKNAME),
-                            new Group(mapGroupInfo, groupOwner, mapGroupMembers, mapGroupMeetings));
+                    mapGroups.put(mapGroupInfo.get(GroupFields.NICKNAME), group);
                 }
             }
 
             db.closeConnection();
 
-        }catch(DBException | CopyException exception){
-            throw new InternalException(exception.getMessage());
+        }catch(DBException dbException){
+            throw new InternalException(dbException.getMessage());
         }
 
         return mapGroups;
@@ -157,5 +185,19 @@ public class GroupDAO implements BaseDAO{
 
     }
     ////////////////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    private Group makeGroupEntity(Map<String, String> mapGroupDetails, Map<String, User> mapMembers, Map<String, Meeting> mapMeetings) throws InternalException{
+        User owner;
+        Group group;
+        try{
+            owner = this.fetchGroupOwner(mapGroupDetails.get(GroupFields.OWNER));
+            group = new Group(mapGroupDetails, owner, mapMembers, mapMeetings);
+        }catch(NoEntityException | CopyException e){
+            throw new InternalException(e.getMessage());
+        }
+        return group;
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 }

@@ -5,12 +5,11 @@ import model.UserInfo;
 import model.subjects.Meeting;
 import view.boundary.UserManageCommunityBoundary;
 
-import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 
 // Serializable needed to make a deep copy of the class
-public class MeetingBean implements Serializable, Observer {
+public class MeetingBean implements Observer {
 
     //////////////////////////////////////
     private String id;

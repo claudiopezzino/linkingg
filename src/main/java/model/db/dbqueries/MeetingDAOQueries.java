@@ -100,7 +100,9 @@ public class MeetingDAOQueries {
 
         Blob blob;
         String imgPath;
-        while(resultSet.next()){
+
+        resultSet.first(); // replace cursor
+        do {
             blob = resultSet.getBlob(MeetingFields.IMAGE);
             imgPath = ImageProfile.fromBlobToString(Integer.toString(resultSet.getInt(MeetingFields.ID)), blob, "m_");
 
@@ -109,7 +111,7 @@ public class MeetingDAOQueries {
                     + resultSet.getDate(MeetingFields.DATE) + separator + resultSet.getTime(MeetingFields.TIME) + separator + imgPath;
 
             listMeetingInfo.add(details);
-        }
+        }while(resultSet.next());
 
         return listMeetingInfo;
     }

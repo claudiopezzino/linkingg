@@ -1,1 +1,13 @@
-view.controllerui.second.handlerstates.StateGroupsView#<init>()V
+view.controllerui.first.HomePageEventHandler#manageGroupCreation()V
+java.util.Optional#isPresent()Z
+javafx.scene.paint.ImagePattern#<init>(Ljavafx/scene/image/Image;)V
+javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
+javafx.scene.shape.Shape#setFill(Ljavafx/scene/paint/Paint;)V
+javafx.scene.control.Labeled#setText(Ljava/lang/String;)V
+javafx.scene.paint.ImagePattern#instance-init#
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.graphicalui.first.HomePage$GroupCreationDialog#getGroupCreationDialogInstance()Lview/graphicalui/first/HomePage$GroupCreationDialog;
+java.util.Optional#get()Ljava/lang/Object;
+view.controllerui.first.HomePageEventHandler#createGroup(Ljava/util/Map;)V
+javafx.scene.image.Image#instance-init#
+javafx.scene.image.Image#<init>(Ljava/lang/String;)V

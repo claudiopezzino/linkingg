@@ -1,1 +1,3 @@
-view.graphicalui.first.FirstMain#setCurrScene(Ljavafx/scene/Scene;)V
+view.graphicalui.second.Home#initGroupMembers()V
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#

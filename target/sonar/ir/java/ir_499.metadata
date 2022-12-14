@@ -1,3 +1,1 @@
-view.graphicalui.second.Sign#instance-init#
-view.graphicalui.second.QuestionStateMachine#instance-init#
-view.graphicalui.second.QuestionStateMachine#<init>()V
+view.graphicalui.second.QuestionStateMachine#setQuestion(Lview/graphicalui/second/AbstractQuestion;)V

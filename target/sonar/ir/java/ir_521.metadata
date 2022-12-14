@@ -1,1 +1,3 @@
-view.graphicalui.second.meetingquestionstates.QuestionTypeOfMeeting#<init>()V
+view.bean.observers.MeetingBean#notifyMeetingJoinerToView(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+view.boundary.UserManageCommunityBoundary#<init>()V
+view.boundary.UserManageCommunityBoundary#instance-init#

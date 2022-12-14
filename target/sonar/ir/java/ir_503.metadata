@@ -1,2 +1,1 @@
-view.graphicalui.second.Sign#prevScreen()V
-javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.bean.observers.MeetingBean#getRating()Ljava/lang/String;

@@ -106,6 +106,8 @@ public class SigninPageEventHandler <T extends MouseEvent> implements EventHandl
 
             Map<String, Object> mapObjects = this.userManageCommunityBoundary.logIntoSystem(userSignInBean);
 
+            openWaitDialog(); // to inform user to wait till Home is ready
+
             Map<String, GroupBean> mapGroupBean = this.castToGroupBean(mapObjects);
             UserBean userBean = this.castToUserBean(mapObjects);
 
@@ -118,13 +120,13 @@ public class SigninPageEventHandler <T extends MouseEvent> implements EventHandl
             HomePage.getHandler().setMapGroupBean(mapGroupBean);
 
             FirstMain.getCurrScene().setRoot(Container.getRoot(HOME));
-            openWaitDialog(); // to inform user to wait till Home is ready
             this.initHomePage(userBean, mapGroupBean);
-            closeWaitDialog();
 
         }catch(InternalException internalException){
             errorDialog(internalException.getMessage());
         }
+
+        closeWaitDialog();
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////
 

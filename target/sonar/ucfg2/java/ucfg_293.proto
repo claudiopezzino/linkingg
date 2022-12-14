@@ -1,287 +1,32 @@
 
-Öview.controllerui.second.KeyEventHandler#verifyUserInfo(Lview/graphicalui/second/Signup;Lview/bean/UserSignUpBean;)Ljava/lang/String;n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.javañ ñ(!"43*†
-25n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java¶ ¶(S£†
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java¶ ¶(S
-%16void"8view.bean.UserSignUpBean#setAddress(Ljava/lang/String;)V*,
-*
-userSignUpBeanview.bean.UserSignUpBean*
-
-%15java.lang.String2setAddress(Ljava/lang/String;)*
-21* 
-26n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java¶& ¶(RÕ
- 
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java¶& ¶(R
-%15java.lang.String"
-__arrayGet*
-
-%12java.util.List*
-
-%14java.lang.Integer*
-25*¥
-27n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java¶? ¶(F¨
-©
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java¶? ¶(F)
-%13"view.graphicalui.second.SignupInfo"__id*
-""àÖ
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java¶? ¶(Q
-%14java.lang.Integer"@view.graphicalui.second.SignupInfo#getIndex()Ljava/lang/Integer;*+
-)
-%13"view.graphicalui.second.SignupInfo2
-getIndex()*
-26*˛
-28n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java¶ ¶(Å˛
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java¶& ¶(:
-%12java.util.List":view.graphicalui.second.Sign#getUserInfo()Ljava/util/List;**
-(
-signupview.graphicalui.second.Signup2getUserInfo()*
-27*ü
-32n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java† †(W¢ü
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java† †(W
-%10void"8view.bean.UserSignUpBean#setSurname(Ljava/lang/String;)V*,
-*
-userSignUpBeanview.bean.UserSignUpBean*
+@view.graphicalui.first.SignupPage#getAccount()Ljava/lang/String;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java§ §("1*Ã	
+1g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java•7 •(;Ÿ
+÷
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java•7 •(N&
+%0 javafx.scene.control.ToggleGroup"__id*=*;#
+!view.graphicalui.first.SignupPage"
+toggleGroupAccount°û
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java•7 •(b!
+%1javafx.scene.control.Toggle"Qjavafx.scene.control.ToggleGroup#getSelectedToggle()Ljavafx/scene/control/Toggle;*(
+&
+%0 javafx.scene.control.ToggleGroup2getSelectedToggle()–
+Õ
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java• •(c7
+selectedRadioButton javafx.scene.control.RadioButton"__id*#
+!
+%1javafx.scene.control.ToggleÑÅ
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¶ ¶(,
+%2java.lang.String"8javafx.scene.control.Labeled#getText()Ljava/lang/String;*9
+7
+selectedRadioButton javafx.scene.control.RadioButton2	getText()"É
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¶ ¶(-
 
-%9java.lang.String2setSurname(Ljava/lang/String;)*
-28*«
-33n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java†& †(V 
-«
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java†& †(V
-%9java.lang.String"
-__arrayGet*
-
-%6java.util.List*
-
-%8java.lang.Integer*
-32*ô
-11n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java≤ ≤(Mùö
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java≤ ≤(M
-%28void"5view.bean.UserSignUpBean#setCell(Ljava/lang/String;)V*,
-*
-userSignUpBeanview.bean.UserSignUpBean*
-
-%27java.lang.String2setCell(Ljava/lang/String;)*
-7*±
-34n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java†? †(J´
-®
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java†? †(J(
-%7"view.graphicalui.second.SignupInfo"__id*
-""ÜÉ
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java†? †(U
-%8java.lang.Integer"@view.graphicalui.second.SignupInfo#getIndex()Ljava/lang/Integer;**
-(
-%7"view.graphicalui.second.SignupInfo2
-getIndex()*
-33* 
-12n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java≤# ≤(LÕ
- 
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java≤# ≤(L
-%27java.lang.String"
-__arrayGet*
-
-%24java.util.List*
-
-%26java.lang.Integer*
-11*˝
-35n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java† †(Ä˝
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java†& †(:
-%6java.util.List":view.graphicalui.second.Sign#getUserInfo()Ljava/util/List;**
-(
-signupview.graphicalui.second.Signup2getUserInfo()*
-34*¥
-13n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java≤< ≤(@¨
-©
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java≤< ≤(@)
-%25"view.graphicalui.second.SignupInfo"__id*
-""àÖ
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java≤< ≤(K
-%26java.lang.Integer"@view.graphicalui.second.SignupInfo#getIndex()Ljava/lang/Integer;*+
-)
-%25"view.graphicalui.second.SignupInfo2
-getIndex()*
-12*˛
-14n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java≤ ≤(Å˛
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java≤# ≤(7
-%24java.util.List":view.graphicalui.second.Sign#getUserInfo()Ljava/util/List;**
-(
-signupview.graphicalui.second.Signup2getUserInfo()*
-13*ò
-39n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.javaö ö(Qõò
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.javaö ö(Q
-
-%4void"5view.bean.UserSignUpBean#setName(Ljava/lang/String;)V*,
-*
-userSignUpBeanview.bean.UserSignUpBean*
-
-%3java.lang.String2setName(Ljava/lang/String;)*
-35*ú
-18n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java¨ ¨(Nüú
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java¨ ¨(N
-%22void"6view.bean.UserSignUpBean#setEmail(Ljava/lang/String;)V*,
-*
-userSignUpBeanview.bean.UserSignUpBean*
-
-%21java.lang.String2setEmail(Ljava/lang/String;)*
-14* 
-19n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java¨$ ¨(MÕ
- 
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java¨$ ¨(M
-%21java.lang.String"
-__arrayGet*
-
-%18java.util.List*
-
-%20java.lang.Integer*
-18*à
-1n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.javaΩ Ω("í
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.javaΩ Ω( 
-
-
-stackErrorjava.lang.String*û
-4n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java∏ ∏(S£†
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java∏ ∏(S
-%34void"8view.bean.UserSignUpBean#setAccount(Ljava/lang/String;)V*,
-*
-userSignUpBeanview.bean.UserSignUpBean*
-
-%33java.lang.String2setAccount(Ljava/lang/String;)*
-1*»
-5n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java∏& ∏(RÕ
- 
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java∏& ∏(R
-%33java.lang.String"
-__arrayGet*
-
-%30java.util.List*
-
-%32java.lang.Integer*
-4*≤
-6n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java∏? ∏(F¨
-©
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java∏? ∏(F)
-%31"view.graphicalui.second.SignupInfo"__id*
-""àÖ
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java∏? ∏(Q
-%32java.lang.Integer"@view.graphicalui.second.SignupInfo#getIndex()Ljava/lang/Integer;*+
-)
-%31"view.graphicalui.second.SignupInfo2
-getIndex()*
-5*¸
-7n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java∏ ∏(Å˛
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java∏& ∏(:
-%30java.util.List":view.graphicalui.second.Sign#getUserInfo()Ljava/util/List;**
-(
-signupview.graphicalui.second.Signup2getUserInfo()*
-6*«
-40n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.javaö# ö(P 
-«
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.javaö# ö(P
-%3java.lang.String"
-__arrayGet*
-
-%0java.util.List*
-
-%2java.lang.Integer*
-39*±
-41n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.javaö< ö(D´
-®
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.javaö< ö(D(
-%1"view.graphicalui.second.SignupInfo"__id*
-""ÜÉ
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.javaö< ö(O
-%2java.lang.Integer"@view.graphicalui.second.SignupInfo#getIndex()Ljava/lang/Integer;**
-(
-%1"view.graphicalui.second.SignupInfo2
-getIndex()*
-40*˝
-42n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.javaö ö(Ä˝
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.javaö# ö(7
-%0java.util.List":view.graphicalui.second.Sign#getUserInfo()Ljava/util/List;**
-(
-signupview.graphicalui.second.Signup2getUserInfo()*
-41*¥
-20n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java¨= ¨(A¨
-©
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java¨= ¨(A)
-%19"view.graphicalui.second.SignupInfo"__id*
-""àÖ
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java¨= ¨(L
-%20java.lang.Integer"@view.graphicalui.second.SignupInfo#getIndex()Ljava/lang/Integer;*+
-)
-%19"view.graphicalui.second.SignupInfo2
-getIndex()*
-19*û
-43n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.javaó ó( °
-û
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.javaó ó(!
-
-stackErrorjava.lang.String"__id*
-""*
-42*˛
-21n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java¨ ¨(Å˛
-n
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java¨$ ¨(8
-%18java.util.List":view.graphicalui.second.Sign#getUserInfo()Ljava/util/List;**
-(
-signupview.graphicalui.second.Signup2getUserInfo()*
-20:(
-signupview.graphicalui.second.Signup:*
-userSignUpBeanview.bean.UserSignUpBeanB,*
-(view.controllerui.second.KeyEventHandler
+%2java.lang.StringB%#
+!view.graphicalui.first.SignupPage

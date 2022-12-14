@@ -1,12 +1,1 @@
-view.controllerui.first.MeetingPageEventHandler#handle(Ljavafx/scene/input/MouseEvent;)V
-view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;
-view.graphicalui.first.Container#getRoot(Lview/graphicalui/first/Page;)Ljavafx/scene/control/ScrollPane;
-javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
-javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
-view.graphicalui.first.MeetingPage#getMeetingPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/MeetingPage;
-javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;
-view.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems#getIndex()Ljava/lang/Integer;
-view.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$profileBoxItems#getIndex()Ljava/lang/Integer;
-javafx.scene.control.Alert#instance-init#
-view.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$MainBarItems#getIndex()Ljava/lang/Integer;
-javafx.scene.Scene#setRoot(Ljavafx/scene/Parent;)V
+model.subjects.Group#plannedMeeting()Ljava/util/Map;

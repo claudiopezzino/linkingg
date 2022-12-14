@@ -1,27 +1,27 @@
 
 Xview.controllerui.first.WelcomePageEventHandler#handle(Ljavafx/scene/input/MouseEvent;)Vs
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java ("startingBlock*§	
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java ("startingBlock*§	
 2s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (þ
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (þ
 û
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java ((
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java ((
 %25javafx.scene.Scene"Cview.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;*$""
  view.graphicalui.first.FirstMainª
 §
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.javaC (O"
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.javaC (O"
 %26view.graphicalui.first.Page"__id*
 ""Ö
 Ó
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java1 (P&
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java1 (P&
 %27javafx.scene.control.ScrollPane"hview.graphicalui.first.Container#getRoot(Lview/graphicalui/first/Page;)Ljavafx/scene/control/ScrollPane;*$""
  view.graphicalui.first.Container*$
 "
 %26view.graphicalui.first.Page 
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (Q
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (Q
 %28void"2javafx.scene.Scene#setRoot(Ljavafx/scene/Parent;)V*
 
 %25javafx.scene.Scene*(
@@ -29,32 +29,32 @@ i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/We
 %27javafx.scene.control.ScrollPane2setRoot(Ljavafx/scene/Parent;)*
 0*©
 3s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (áÞ
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (áÞ
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (&
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (&
 %19java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*
 
 
 eventT2getSource()£ 
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java. (C(
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java. (C(
 %20!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*%
 #
 signBarjavafx.scene.layout.HBox2getChildren()Ó
 Ð
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.javaH (VK
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.javaH (VK
 %21Dview.graphicalui.first.toolbaritems.WelcomeToolbarItems$SignBarItems"__id*
 ""ÑÎ
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.javaH (a
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.javaH (a
 %22java.lang.Integer"bview.graphicalui.first.toolbaritems.WelcomeToolbarItems$SignBarItems#getIndex()Ljava/lang/Integer;*M
 K
 %21Dview.graphicalui.first.toolbaritems.WelcomeToolbarItems$SignBarItems2
 getIndex()æ
 ã
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java. (b
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java. (b
 %23javafx.scene.Node"
 __arrayGet**
 (
@@ -62,7 +62,7 @@ __arrayGet**
 
 %22java.lang.Integer‰†
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (c
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (c
 %24boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*
 
 %19java.lang.Object*
@@ -71,11 +71,11 @@ i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/We
 2
 1*Û
 startingBlocks
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (±
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (±
 ®
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (
-%34"
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (
+%30"
 __annotate*
 java.lang.Override*
 
@@ -83,33 +83,33 @@ __annotate*
 eventT›
 ˜
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (
 
 eventT"__annotation*
 
-%34*
+%30*
 6*§	
 4s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (þ
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (þ
 û
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java ((
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java ((
 %15javafx.scene.Scene"Cview.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;*$""
  view.graphicalui.first.FirstMainª
 §
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.javaC (O"
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.javaC (O"
 %16view.graphicalui.first.Page"__id*
 ""Ö
 Ó
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java1 (P&
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java1 (P&
 %17javafx.scene.control.ScrollPane"hview.graphicalui.first.Container#getRoot(Lview/graphicalui/first/Page;)Ljavafx/scene/control/ScrollPane;*$""
  view.graphicalui.first.Container*$
 "
 %16view.graphicalui.first.Page 
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (Q
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (Q
 %18void"2javafx.scene.Scene#setRoot(Ljavafx/scene/Parent;)V*
 
 %15javafx.scene.Scene*(
@@ -117,38 +117,38 @@ i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/We
 %17javafx.scene.control.ScrollPane2setRoot(Ljavafx/scene/Parent;)*
 0*î
 5s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java" (-Ó
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java" (-Ó
 Ð
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java" (J(
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java" (J(
 %3"view.graphicalui.first.WelcomePage"view.graphicalui.first.WelcomePage#getWelcomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/WelcomePage;*&"$
 "view.graphicalui.first.WelcomePage*
 ""¥¢
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java" (W"
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java" (W"
 %4javafx.scene.control.ToolBar"Mview.graphicalui.first.WelcomePage#getToolBar()Ljavafx/scene/control/ToolBar;**
 (
 %3"view.graphicalui.first.WelcomePage2getToolBar()Ÿœ
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java" (b'
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java" (b'
 %5!javafx.collections.ObservableList"Jjavafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;*$
 "
 %4javafx.scene.control.ToolBar2
 getItems()Å
 Â
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.javag (o=
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.javag (o=
 %67view.graphicalui.first.toolbaritems.WelcomeToolbarItems"__id*
 ""µ²
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.javag (z
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.javag (z
 %7java.lang.Integer"Uview.graphicalui.first.toolbaritems.WelcomeToolbarItems#getIndex()Ljava/lang/Integer;*?
 =
 %67view.graphicalui.first.toolbaritems.WelcomeToolbarItems2
 getIndex()ã
 à
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java" ({
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java" ({
 %8javafx.scene.Node"
 __arrayGet*)
 '
@@ -157,35 +157,35 @@ __arrayGet*)
 %7java.lang.Integer¾
 »
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (|#
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (|#
 signBarjavafx.scene.layout.HBox"__id*
 
 %8javafx.scene.NodeàÝ
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (!
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (!
 %9java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*
 
 
 eventT2getSource()£ 
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java) (>(
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java) (>(
 %10!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*%
 #
 signBarjavafx.scene.layout.HBox2getChildren()Ó
 Ð
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.javaC (QK
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.javaC (QK
 %11Dview.graphicalui.first.toolbaritems.WelcomeToolbarItems$SignBarItems"__id*
 ""ÑÎ
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.javaC (\
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.javaC (\
 %12java.lang.Integer"bview.graphicalui.first.toolbaritems.WelcomeToolbarItems$SignBarItems#getIndex()Ljava/lang/Integer;*M
 K
 %11Dview.graphicalui.first.toolbaritems.WelcomeToolbarItems$SignBarItems2
 getIndex()æ
 ã
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java) (]
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java) (]
 %13javafx.scene.Node"
 __arrayGet**
 (
@@ -193,7 +193,7 @@ __arrayGet**
 
 %12java.lang.Integerˆ…
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (^
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (^
 %14boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*
 
 %9java.lang.Object*
@@ -202,20 +202,20 @@ i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/We
 3
 4*¸
 6s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (ú÷
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (ú÷
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java ( 
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java ( 
 %0javafx.event.EventType"Djavafx.scene.input.MouseEvent#getEventType()Ljavafx/event/EventType;*
 
 
 eventT2getEventType()¤
 ¡
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java( (@
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java( (@
 %1javafx.event.EventType"__id*
 ""‘Ž
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (A
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java (A
 %2boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*
 
 %0javafx.event.EventType*
@@ -225,43 +225,16 @@ i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/We
 0*’
 0 "Š
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java' '(
-implicit return*è
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java" "(
+implicit return*—
 1s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java!( !(-³
-°
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java   (—
+”
 s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java!( !(7+
-%29$javafx.scene.control.Alert$AlertType"__id*
-""³
-°
-s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java!( !(C+
-%30$javafx.scene.control.Alert$AlertType"__id*
-""·´
-s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java!" !('!
-%31javafx.scene.control.Alert"javafx.scene.control.Alertì
-é
-s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java! !([
-%32"~javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V*#
-!
-%31javafx.scene.control.Alert*-
-+
-%30$javafx.scene.control.Alert$AlertType*
-Work in progress...È
-Å
-s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java! !(\#
-alertjavafx.scene.control.Alert"__id*#
-!
-%31javafx.scene.control.Alertˆ…
-s
-i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java" "(#
-%33java.util.Optional"=javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;*%
-#
-alertjavafx.scene.control.Alert2showAndWait()*
+i/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/WelcomePageEventHandler.java   (M
+%29void"?view.controllerui.first.Dialog#errorDialog(Ljava/lang/String;)V*"" 
+view.controllerui.first.Dialog*+)
+'Something went wrong, please try later.*
 0:
 
 eventTB31

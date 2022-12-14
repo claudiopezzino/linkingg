@@ -1,16 +1,16 @@
 
-bview.graphicalui.first.HomePage$GroupCreationDialog#getCircleGroupImg()Ljavafx/scene/shape/Circle;e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÐ Ð('"1*Ø
-1e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÑ Ñ(Þ
-Û
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÑ Ñ(&
-%0javafx.scene.shape.Circle"__id*K*I5
-3view.graphicalui.first.HomePage$GroupCreationDialog"
-circleGroupImg"Š
-e
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÑ Ñ('!
-
-%0javafx.scene.shape.CircleB75
-3view.graphicalui.first.HomePage$GroupCreationDialog
+=view.bean.observers.MeetingBean#getRating()Ljava/lang/String;c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java. .("1*£
+1c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java/ /(·
+´
+c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java/ /(
+%0java.lang.String"__id*/*-!
+view.bean.observers.MeetingBean"
+rating"
+c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java/ /(
+
+%0java.lang.StringB#!
+view.bean.observers.MeetingBean

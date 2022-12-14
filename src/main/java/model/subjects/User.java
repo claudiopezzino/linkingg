@@ -2,13 +2,12 @@ package model.subjects;
 
 import javafx.util.Pair;
 
-import java.io.Serializable;
 import java.util.Map;
 
 import static model.UserFields.*;
 
 
-public class User extends Subject implements Serializable {
+public class User extends Subject {
 
     /////////////////////////
     private String nickname;

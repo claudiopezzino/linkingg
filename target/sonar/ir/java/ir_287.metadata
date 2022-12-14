@@ -1,3 +1,3 @@
-view.controllerui.second.handlerstates.StateSearch#getStateSearchInstance()Lview/controllerui/second/handlerstates/StateSearch;
-view.controllerui.second.handlerstates.StateSearch#<init>()V
-view.controllerui.second.handlerstates.StateSearch#instance-init#
+view.graphicalui.first.SignupPage#getSignupPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/SignupPage;
+view.graphicalui.first.SignupPage#<init>(Lview/graphicalui/first/Toolbar;)V
+view.graphicalui.first.SignupPage#instance-init#

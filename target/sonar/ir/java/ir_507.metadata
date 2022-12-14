@@ -1,1 +1,1 @@
-view.graphicalui.second.Sign#getStateMachine()Lview/graphicalui/second/QuestionStateMachine;
+view.bean.observers.MeetingBean#getPhotos()Ljava/util/List;

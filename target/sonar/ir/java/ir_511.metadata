@@ -1,1 +1,1 @@
-view.graphicalui.first.SignPage#getToolBar()Ljavafx/scene/control/ToolBar;
+view.bean.observers.MeetingBean#setName(Ljava/lang/String;)V

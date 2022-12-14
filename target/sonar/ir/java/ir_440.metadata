@@ -1,1 +1,1 @@
-view.graphicalui.second.SigninInfo#instance-init#
+model.subjects.Group#owner()Lmodel/subjects/User;

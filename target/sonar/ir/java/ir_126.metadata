@@ -1,1 +1,3 @@
-view.graphicalui.second.Home#membersPreviousBlacklist()V
+view.bean.observers.GroupBean#notifyNewMeetingToView(Ljava/lang/String;Ljava/lang/String;)V
+view.boundary.UserManageCommunityBoundary#<init>()V
+view.boundary.UserManageCommunityBoundary#instance-init#

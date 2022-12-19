@@ -1,1 +1,2 @@
-model.Filter#instance-init#
+view.graphicalui.first.toolbardecorations.GroupButtonDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)V
+view.graphicalui.first.toolbardecorations.GroupButtonDecorator#setUpBtnNewGroup()V

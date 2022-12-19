@@ -1,1 +1,3 @@
-view.graphicalui.second.Home#setCurrUserFullName(Ljava/lang/String;)V
+view.graphicalui.second.Home#initBlacklist()V
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#

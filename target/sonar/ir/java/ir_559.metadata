@@ -1,5 +1,4 @@
-view.controllerui.first.HomePageEventHandler#makeDecision(Ljava/lang/String;ZLjavafx/scene/layout/FlowPane;)V
-javafx.scene.control.Label#instance-init#
-java.lang.String#equals(Ljava/lang/Object;)Z
-javafx.scene.control.Label#<init>(Ljava/lang/String;)V
-javafx.scene.control.Labeled#getText()Ljava/lang/String;
+view.controllerui.first.HomePageEventHandler#updateUserProfileNick()V
+view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog#getUsernameDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog$UsernameDialog;
+javafx.scene.control.Labeled#setText(Ljava/lang/String;)V
+view.graphicalui.first.HomePage$UserProfileDialog#getUserProfileDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog;

@@ -1,4 +1,1 @@
-view.graphicalui.first.PageDialog#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-javafx.scene.Parent#getStylesheets()Ljavafx/collections/ObservableList;
-javafx.scene.control.Dialog#getDialogPane()Ljavafx/scene/control/DialogPane;
-view.graphicalui.first.PageDialog#setUpSkeleton(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+view.bean.errorsignupdecorations.CellBeanErrorDecorator#displayErrors()Ljava/lang/String;

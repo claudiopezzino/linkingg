@@ -117,7 +117,7 @@ public class Home extends Shell{
 
     ///////////////////////////////////////////
     // End Of Name
-    private static final String EON = "),   \n\t";
+    private static final String EON = ")   \n\t";
     // End Of Line
     private static final String EOL = "\n\n\n";
     ///////////////////////////////////////////
@@ -310,14 +310,18 @@ public class Home extends Shell{
     public void applySearch(String searchTarget){
         // to search into DB
         this.searchTarget = searchTarget;
-        this.screen.appendText(this.searchTarget + "\n\nResults available here..." +
-                "\n\n\nFollow these steps to send ");
+        this.screen.appendText(this.searchTarget + "\n\n\t");
+
+        for(Pair<String, String> otherGroupInfo : this.listOtherGroups)
+            this.screen.appendText(otherGroupInfo.getValue() + " (@"+otherGroupInfo.getKey()+EON);
+
+        this.screen.appendText("\n\n\nFollow these steps to send ");
         /* based on currSearchMode value it will be possible to send link invitation
         * to people for own groups or send link request to join other groups */
         if(this.currSearchMode.equals(GROUPS)){
             // GROUP_REQUEST
             this.screen.appendText("link request asking to join groups of your interest\n\n" +
-                    "\u2022 Type one group name at a time.\n\n" +
+                    "\u2022 Type one group nickname at a time.\n\n" +
                     "\u2022 Type 'link request' to make known chosen groups about you.\n\n\n" +
                     "Groups:  ");
             handler.getStateMachine().setState(StateGroupRequest.getStateGroupRequestInstance());
@@ -694,6 +698,12 @@ public class Home extends Shell{
 
     /////////////////////////////////////////////////////////////////////////////
     public void setCurrSearchFilter(String type){ this.currSearchFilter = type; }
+    /////////////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////////////////
+    public String getCurrSearchFilter() {
+        return this.currSearchFilter;
+    }
     /////////////////////////////////////////////////////////////////////////////
 
     //////////////////////////////////////////////////////

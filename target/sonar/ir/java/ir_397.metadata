@@ -1,1 +1,3 @@
-view.controllerui.second.KeyEventHandler#assignCurrUserBean(Ljava/util/Map;)V
+view.controllerui.second.KeyEventHandler#updateMeetingParticipants()V
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;

@@ -1,14 +1,9 @@
 
-=view.bean.ConcreteBeanError#displayErrors()Ljava/lang/String;_
-U/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/ConcreteBeanError.java ("1*Ã
-1_
-U/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/ConcreteBeanError.java (ßÜ
-_
-U/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/ConcreteBeanError.java ( 
-%0java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*
-view.bean.ConcreteBeanError2getMessage()"{
-_
-U/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/ConcreteBeanError.java (!
-
-%0java.lang.StringB
-view.bean.ConcreteBeanError
+6view.graphicalui.first.MeetingPage#isToolBarPresent()Zh
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaÖ Ö(*"1*á
+1h
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.java× ×("r
+h
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.java× ×(
+""B&"$
+"view.graphicalui.first.MeetingPageH

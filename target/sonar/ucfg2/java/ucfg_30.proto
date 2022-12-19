@@ -1,14 +1,16 @@
 
-kview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$profileBoxItems#getIndex()Ljava/lang/Integer;Å
-w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java& &("1*©
+hview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$MainBarItems#getIndex()Ljava/lang/Integer;Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java ("1*¬
 1Å
-w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java' '(ãà
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java (§°
 Å
-w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java' '(!	
-%0int"java.lang.Enum#ordinal()I*QO
-Mview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$profileBoxItems2	ordinal()"ë
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java (!	
+%0int"java.lang.Enum#ordinal()I*j
+
+__unknown_file (NL
+Jview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$MainBarItems2	ordinal()"ë
 Å
-w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java' '("
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java ("
 	
-%0intBQO
-Mview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$profileBoxItems
+%0intBNL
+Jview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$MainBarItemsH

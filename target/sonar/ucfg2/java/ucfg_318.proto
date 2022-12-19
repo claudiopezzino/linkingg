@@ -1,45 +1,53 @@
 
-–view.graphicalui.second.meetingquestionstates.QuestionBudget#getQuestionBudgetInstance()Lview/graphicalui/second/meetingquestionstates/QuestionBudget;€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java(! ((:"3*ä
-2€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java*% *(9ˆ…
-€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java*) *(7B
-%1<view.graphicalui.second.meetingquestionstates.QuestionBudget"<view.graphicalui.second.meetingquestionstates.QuestionBudgetš
-—
-€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java*% *(9
-%2"Fview.graphicalui.second.meetingquestionstates.QuestionBudget#<init>()V*D
-B
-%1<view.graphicalui.second.meetingquestionstates.QuestionBudget®
-«
-€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java* *(9Z>
-<view.graphicalui.second.meetingquestionstates.QuestionBudget"
-questionBudgetInstance"__id*D
-B
-%1<view.graphicalui.second.meetingquestionstates.QuestionBudget*
-1*¿
-3€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java) )(!®
-«
-€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java) )(!B
-%0<view.graphicalui.second.meetingquestionstates.QuestionBudget"__id*\*Z>
-<view.graphicalui.second.meetingquestionstates.QuestionBudget"
-questionBudgetInstance*
+‘view.controllerui.second.handlerstates.StateMeetingsView#getStateMeetingsViewInstance()Lview/controllerui/second/handlerstates/StateMeetingsView;|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsView.java^$ ^(@"3*ó
+2|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsView.java`( `(?ûø
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsView.java`, `(=>
+%18view.controllerui.second.handlerstates.StateMeetingsView"8view.controllerui.second.handlerstates.StateMeetingsView©
+¦
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsView.java`( `(?
+%2"Bview.controllerui.second.handlerstates.StateMeetingsView#<init>()V*\
+
+__unknown_file (@
+>
+%18view.controllerui.second.handlerstates.StateMeetingsViewÀ
+½
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsView.java` `(?Y:
+8view.controllerui.second.handlerstates.StateMeetingsView"
+stateMeetingsViewInstance"__id*\
+
+__unknown_file (@
+>
+%18view.controllerui.second.handlerstates.StateMeetingsView*
+1*Ì
+3|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsView.java_ _($À
+½
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsView.java_ _($>
+%08view.controllerui.second.handlerstates.StateMeetingsView"__id*w
+
+__unknown_file ([*Y:
+8view.controllerui.second.handlerstates.StateMeetingsView"
+stateMeetingsViewInstance*
 2
-1*ƒ
-1€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java+ +(%®
-«
-€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java+ +(%B
-%3<view.graphicalui.second.meetingquestionstates.QuestionBudget"__id*\*Z>
-<view.graphicalui.second.meetingquestionstates.QuestionBudget"
-questionBudgetInstance"É
-€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java+ +(&D
-B
-%3<view.graphicalui.second.meetingquestionstates.QuestionBudgetB@">
-<view.graphicalui.second.meetingquestionstates.QuestionBudget
+1*‡
+1|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsView.javaa a((À
+½
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsView.javaa a((>
+%38view.controllerui.second.handlerstates.StateMeetingsView"__id*w
+
+__unknown_file ([*Y:
+8view.controllerui.second.handlerstates.StateMeetingsView"
+stateMeetingsViewInstance"À
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsView.javaa a()@
+>
+%38view.controllerui.second.handlerstates.StateMeetingsViewB<":
+8view.controllerui.second.handlerstates.StateMeetingsViewH

@@ -1,2 +1,5 @@
-view.graphicalui.first.FirstMain#main([Ljava/lang/String;)V
-javafx.application.Application#launch([Ljava/lang/String;)V
+model.db.dbqueries.UserDAOQueries#unpackUserInfo(Ljava/sql/ResultSet;)Ljava/util/Map;
+java.util.HashMap#<init>()V
+java.util.HashMap#instance-init#
+model.ImageProfile#fromBlobToString(Ljava/lang/String;Ljava/sql/Blob;Ljava/lang/String;)Ljava/lang/String;
+java.util.Collections#emptyMap()Ljava/util/Map;

@@ -1,1 +1,2 @@
-view.controllerui.first.HomePageEventHandler#createGroup(Ljava/util/Map;)V
+view.controllerui.first.HomePageEventHandler#updateGroupsList(Lview/bean/observers/GroupBean;)V
+view.graphicalui.first.HomePage#getHomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/HomePage;

@@ -1,16 +1,53 @@
 
-Mview.graphicalui.first.MeetingPage#getToolBar()Ljavafx/scene/control/ToolBar;h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.java– –("1*œ
-1h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.java— —(Ã
-…
-h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.java— —("
-%0javafx.scene.control.ToolBar"__id*3*1$
-"view.graphicalui.first.MeetingPage"	
-toolBar"ê
-h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.java— —($
-"
-%0javafx.scene.control.ToolBarB&$
-"view.graphicalui.first.MeetingPage
+óview.graphicalui.second.signupquestionstates.QuestionAccount#getQuestionAccountInstance()Lview/graphicalui/second/signupquestionstates/QuestionAccount;Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionAccount.java(" ((<"3*ù
+2Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionAccount.java*& *(;àÖ
+Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionAccount.java** *(9B
+%1<view.graphicalui.second.signupquestionstates.QuestionAccount"<view.graphicalui.second.signupquestionstates.QuestionAccount∂
+≥
+Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionAccount.java*& *(;
+%2"Fview.graphicalui.second.signupquestionstates.QuestionAccount#<init>()V*`
+
+__unknown_file (D
+B
+%1<view.graphicalui.second.signupquestionstates.QuestionAccountÀ
+»
+Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionAccount.java* *(;[>
+<view.graphicalui.second.signupquestionstates.QuestionAccount"
+questionAccountInstance"__id*`
+
+__unknown_file (D
+B
+%1<view.graphicalui.second.signupquestionstates.QuestionAccount*
+1*‹
+3Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionAccount.java) )("À
+»
+Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionAccount.java) )("B
+%0<view.graphicalui.second.signupquestionstates.QuestionAccount"__id*y
+
+__unknown_file (]*[>
+<view.graphicalui.second.signupquestionstates.QuestionAccount"
+questionAccountInstance*
+2
+1*†
+1Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionAccount.java+ +(&À
+»
+Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionAccount.java+ +(&B
+%3<view.graphicalui.second.signupquestionstates.QuestionAccount"__id*y
+
+__unknown_file (]*[>
+<view.graphicalui.second.signupquestionstates.QuestionAccount"
+questionAccountInstance"…
+Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionAccount.java+ +('D
+B
+%3<view.graphicalui.second.signupquestionstates.QuestionAccountB@">
+<view.graphicalui.second.signupquestionstates.QuestionAccountH

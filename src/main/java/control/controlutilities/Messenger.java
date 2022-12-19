@@ -32,7 +32,6 @@ public final class Messenger {
             }
 
         } catch (IOException | ClassNotFoundException exception) {
-            exception.printStackTrace();
             throw new MessengerException();
         }
     }

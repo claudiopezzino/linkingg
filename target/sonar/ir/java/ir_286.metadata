@@ -1,1 +1,2 @@
-view.graphicalui.first.SignupPage#getHandler()Lview/controllerui/first/SignupPageEventHandler;
+view.graphicalui.first.SignupPage#getCell()Ljava/lang/String;
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;

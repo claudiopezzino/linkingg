@@ -1,4 +1,2 @@
-view.graphicalui.second.Welcome#<init>()V
-javafx.scene.text.Text#instance-init#
-view.graphicalui.second.Welcome#setUpWelcomeRoot()Ljavafx/scene/layout/VBox;
-javafx.scene.text.Text#<init>(Ljava/lang/String;)V
+view.graphicalui.first.toolbardecorations.UndoRedoBarDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)V
+view.graphicalui.first.toolbardecorations.UndoRedoBarDecorator#setUpUndoRedoBar()V

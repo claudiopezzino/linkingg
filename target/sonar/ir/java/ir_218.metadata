@@ -1,1 +1,7 @@
-view.bean.UserBeanCollector#<init>()V
+view.controllerui.second.handlerstates.StateMain#initListGroups(Lview/graphicalui/second/Home;)V
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+java.lang.String#equals(Ljava/lang/Object;)Z
+javafx.util.Pair#<init>(Ljava/lang/Object;Ljava/lang/Object;)V
+view.graphicalui.second.Shell#getShellHandler()Lview/controllerui/second/KeyEventHandler;
+javafx.util.Pair#instance-init#

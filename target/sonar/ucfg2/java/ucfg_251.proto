@@ -1,14 +1,18 @@
 
-nview.graphicalui.first.listviewitems.ListViewMeetingItems$JoinersInfo$ChoiceArea#getIndex()Ljava/lang/Integer;}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewMeetingItems.java8 8(#"1*ù
-1}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewMeetingItems.java9 9(âÜ
-}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewMeetingItems.java9 9(%	
-%0int"java.lang.Enum#ordinal()I*TR
-Pview.graphicalui.first.listviewitems.ListViewMeetingItems$JoinersInfo$ChoiceArea2	ordinal()"å
-}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewMeetingItems.java9 9(&
-	
-%0intBTR
-Pview.graphicalui.first.listviewitems.ListViewMeetingItems$JoinersInfo$ChoiceArea
+Vview.graphicalui.first.PageDialog#getBtnTypeDismiss()Ljavafx/scene/control/ButtonType;e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaN N('"1*Ó
+1e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaO O(Ó
+Î
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaO O("%
+%0javafx.scene.control.ButtonType"__id*U
+
+__unknown_file (9*7#
+!view.graphicalui.first.PageDialog"
+btnTypeDismiss"ê
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaO O(#'
+%
+%0javafx.scene.control.ButtonTypeB%#
+!view.graphicalui.first.PageDialogH

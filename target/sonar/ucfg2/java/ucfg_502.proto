@@ -1,14 +1,18 @@
 
-@view.graphicalui.second.SignupInfo#getIndex()Ljava/lang/Integer;f
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/SignupInfo.java ("1*©
-1f
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/SignupInfo.java (ÄÁ
-f
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/SignupInfo.java (	
-%0int"java.lang.Enum#ordinal()I*&$
-"view.graphicalui.second.SignupInfo2	ordinal()"u
-f
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/SignupInfo.java (
-	
-%0intB&$
-"view.graphicalui.second.SignupInfo
+;view.bean.observers.MeetingBean#getJoiners()Ljava/util/Map;c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaQ! Q(+"1*º
+1c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaR R(Ñ
+Î
+c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaR R(
+%0java.util.Map"__id*L
+
+__unknown_file (0*.!
+view.bean.observers.MeetingBean"	
+joiners"|
+c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaR R(
+
+%0java.util.MapB#!
+view.bean.observers.MeetingBeanH

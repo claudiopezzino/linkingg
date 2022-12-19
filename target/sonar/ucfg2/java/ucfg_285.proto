@@ -1,16 +1,18 @@
 
-Wview.graphicalui.first.SignupPage#getTextFieldAddress()Ljavafx/scene/control/TextField;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÙ Ù(("1*ÿ
+aview.graphicalui.first.SignupPage$CredentialDialog#getLabelNickname()Ljavafx/scene/control/Label;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java… …(%"1*˙
 1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaı ı(’
-“
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java   (˚
+¯
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaı ı($$
-%0javafx.scene.control.TextField"__id*;*9#
-!view.graphicalui.first.SignupPage"
-textFieldAddress"ë
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java   (% 
+%0javafx.scene.control.Label"__id*e
+
+__unknown_file (I*G4
+2view.graphicalui.first.SignupPage$CredentialDialog"
+labelNickname"ç
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaı ı(%&
-$
-%0javafx.scene.control.TextFieldB%#
-!view.graphicalui.first.SignupPage
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java   (&"
+ 
+%0javafx.scene.control.LabelB64
+2view.graphicalui.first.SignupPage$CredentialDialogH

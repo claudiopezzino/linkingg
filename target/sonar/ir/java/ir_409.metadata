@@ -1,1 +1,3 @@
-view.graphicalui.second.signinquestionstates.QuestionPassword#instance-init#
+control.controlutilities.SecureObjectInputStream#resolveClass(Ljava/io/ObjectStreamClass;)Ljava/lang/Class;
+java.io.InvalidClassException#<init>(Ljava/lang/String;Ljava/lang/String;)V
+java.io.InvalidClassException#instance-init#

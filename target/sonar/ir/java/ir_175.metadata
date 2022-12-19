@@ -1,1 +1,3 @@
-view.graphicalui.second.Home#setCurrSearchFilter(Ljava/lang/String;)V
+view.graphicalui.second.Home#showMeetingParticipants()V
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.controllerui.second.handlerstates.StateMeetingJoinersView#getStateMeetingJoinersViewInstance()Lview/controllerui/second/handlerstates/StateMeetingJoinersView;

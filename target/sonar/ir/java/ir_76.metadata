@@ -1,1 +1,8 @@
-view.boundary.UserManageCommunityBoundary#hasStartedSignIn()Z
+view.boundary.UserManageCommunityBoundary#notifyNewMeeting(Ljava/lang/String;Ljava/lang/String;)V
+view.graphicalui.first.HomePage#getHandler()Lview/controllerui/first/HomePageEventHandler;
+view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;
+java.lang.String#equals(Ljava/lang/Object;)Z
+view.graphicalui.second.Shell#getShellHandler()Lview/controllerui/second/KeyEventHandler;
+view.controllerui.second.handlerstates.StateGroupOptions#getStateGroupOptionsInstance()Lview/controllerui/second/handlerstates/StateGroupOptions;
+view.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;
+view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;

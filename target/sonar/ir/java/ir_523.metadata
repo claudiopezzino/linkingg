@@ -1,2 +1,1 @@
-view.graphicalui.second.SignupInfo#getIndex()Ljava/lang/Integer;
-java.lang.Enum#ordinal()I
+view.bean.observers.MeetingBean#setImage(Ljava/lang/String;)V

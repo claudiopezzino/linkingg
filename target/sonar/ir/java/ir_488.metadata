@@ -1,3 +1,2 @@
-view.graphicalui.second.usernamequestionstates.QuestionNewUsername#getQuestionNewUsernameInstance()Lview/graphicalui/second/usernamequestionstates/QuestionNewUsername;
-view.graphicalui.second.usernamequestionstates.QuestionNewUsername#<init>()V
-view.graphicalui.second.usernamequestionstates.QuestionNewUsername#instance-init#
+view.graphicalui.second.passwordquestionstates.QuestionEnd#display()V
+view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;

@@ -1,7 +1,2 @@
-view.graphicalui.first.MeetingPage#setUpMeetingPage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;
-javafx.scene.layout.VBox#instance-init#
-view.graphicalui.first.MeetingPage#setUpQuestionsForm(Ljavafx/collections/ObservableList;)Ljavafx/scene/control/ListView;
-view.graphicalui.first.MeetingPage#setUpQuestionSetContainer()Ljavafx/collections/ObservableList;
-javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;
-view.graphicalui.first.MeetingPage#setUpMeetingChoiceArea()Ljavafx/scene/layout/VBox;
-javafx.scene.layout.VBox#<init>()V
+view.graphicalui.second.signinquestionstates.QuestionPassword#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.signinquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/signinquestionstates/QuestionEnd;

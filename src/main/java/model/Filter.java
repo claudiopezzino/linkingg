@@ -4,6 +4,8 @@ public enum Filter {
     /* for DAO queries */
     CREDENTIALS,
     GROUP_NICKNAME,
+    GROUP_NAME,
+    GROUP_PROVINCE,
     USER_NICKNAME,
     GROUP_OWNER,
     MEETING_OWNER,

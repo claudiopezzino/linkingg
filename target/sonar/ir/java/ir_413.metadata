@@ -1,3 +1,2 @@
-view.graphicalui.second.signinquestionstates.QuestionPassword#getQuestionPasswordInstance()Lview/graphicalui/second/signinquestionstates/QuestionPassword;
-view.graphicalui.second.signinquestionstates.QuestionPassword#instance-init#
-view.graphicalui.second.signinquestionstates.QuestionPassword#<init>()V
+view.graphicalui.second.signupquestionstates.QuestionAccount#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.signupquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/signupquestionstates/QuestionEnd;

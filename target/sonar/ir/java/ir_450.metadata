@@ -1,1 +1,1 @@
-view.bean.UserSignUpBean#getSurname()Ljava/lang/String;
+model.subjects.Group#imageProfile()Ljava/lang/String;

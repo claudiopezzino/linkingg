@@ -1,3 +1,5 @@
-view.graphicalui.second.signupquestionstates.QuestionAccount#getQuestionAccountInstance()Lview/graphicalui/second/signupquestionstates/QuestionAccount;
-view.graphicalui.second.signupquestionstates.QuestionAccount#instance-init#
-view.graphicalui.second.signupquestionstates.QuestionAccount#<init>()V
+view.controllerui.second.KeyEventHandler#homeHandle(Lview/graphicalui/second/Home;)V
+view.controllerui.second.KeyEventHandler#moveBackToWelcomePage(Lview/graphicalui/second/Home;)V
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+view.controllerui.second.KeyEventHandler#moveBackToHomePage(Lview/graphicalui/second/Home;)V

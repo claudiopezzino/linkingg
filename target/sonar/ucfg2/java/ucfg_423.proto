@@ -1,14 +1,45 @@
 
-_view.graphicalui.first.listviewitems.ListViewGroupItems$GroupInfo#getIndex()Ljava/lang/Integer;{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewGroupItems.java ("1*à
-1{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewGroupItems.java (¯ı
-{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewGroupItems.java (!	
-%0int"java.lang.Enum#ordinal()I*EC
-Aview.graphicalui.first.listviewitems.ListViewGroupItems$GroupInfo2	ordinal()"ä
-{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewGroupItems.java ("
-	
-%0intBEC
-Aview.graphicalui.first.listviewitems.ListViewGroupItems$GroupInfo
+yview.graphicalui.first.MeetingPage#setUpQuestionsForm(Ljavafx/collections/ObservableList;)Ljavafx/scene/control/ListView;f
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaW W(-"1*ì
+
+1f
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaX' X(7Ø¨
+f
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaX+ X(5#
+%0javafx.scene.control.ListView"javafx.scene.control.ListView›
+⁄
+f
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaX' X(7
+%1"'javafx.scene.control.ListView#<init>()V*A
+
+__unknown_file (%
+#
+%0javafx.scene.control.ListView‰
+·
+f
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaX X(8.
+questionsFormjavafx.scene.control.ListView"__id*A
+
+__unknown_file (%
+#
+%0javafx.scene.control.ListViewèå
+f
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaY Y((
+
+%2void"Ljavafx.scene.control.ListView#setItems(Ljavafx/collections/ObservableList;)V*L
+
+__unknown_file (0
+.
+questionsFormjavafx.scene.control.ListView*K
+
+__unknown_file (/
+-
+contents!javafx.collections.ObservableList2-setItems(Ljavafx/collections/ObservableList;)"ö
+f
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaZ Z(0
+.
+questionsFormjavafx.scene.control.ListView:ó
+f
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaW. W(K-
+contents!javafx.collections.ObservableListB&$
+"view.graphicalui.first.MeetingPage

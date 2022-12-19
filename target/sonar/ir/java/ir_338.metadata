@@ -1,1 +1,4 @@
-view.bean.errorsignupdecorations.AddressBeanErrorDecorator#instance-init#
+view.graphicalui.second.Shell#setUpTitle(Ljavafx/scene/text/Text;)V
+javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;
+javafx.scene.layout.HBox#<init>([Ljavafx/scene/Node;)V
+javafx.scene.layout.HBox#instance-init#

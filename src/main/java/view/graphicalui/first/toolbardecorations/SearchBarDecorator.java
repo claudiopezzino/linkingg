@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static view.graphicalui.first.constcontainer.Css.*;
+import static view.graphicalui.first.constcontainer.HomePageFields.*;
 import static view.graphicalui.first.constcontainer.Image.LENS;
 
 
@@ -66,17 +67,15 @@ public class SearchBarDecorator extends Decorator{
         /*---------------------------------------------------------*/
 
         /*----------------------------------------------------------*/
-        RadioButton radioButtonGroups = new RadioButton("Groups");
-        RadioButton radioButtonPeople = new RadioButton("Users");
-        RadioButton radioButtonPages = new RadioButton("Pages");
+        RadioButton radioButtonGroups = new RadioButton(GROUPS);
+        RadioButton radioButtonPeople = new RadioButton(USERS);
+        RadioButton radioButtonPages = new RadioButton(PAGES);
         /*----------------------------------------------------------*/
 
-        radioButtonPages.setDisable(true); // TO REMOVE UPON CAPABILITY IMPLEMENTATION
-
         /*--------------------------------------------------------------*/
-        RadioButton radioButtonLocation = new RadioButton("Province");
-        RadioButton radioButtonName = new RadioButton("Name");
-        RadioButton radioButtonUsername = new RadioButton("Nickname");
+        RadioButton radioButtonLocation = new RadioButton(FILTER_PROVINCE);
+        RadioButton radioButtonName = new RadioButton(FILTER_NAME);
+        RadioButton radioButtonUsername = new RadioButton(FILTER_NICKNAME);
         /*--------------------------------------------------------------*/
 
         /*------------------------------------------*/

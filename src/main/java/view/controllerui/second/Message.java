@@ -20,7 +20,7 @@ public final class Message {
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public static void infoMsg(){
-        Alert info = new Alert(Alert.AlertType.INFORMATION, "Feature NOT yet available, work in progress...");
+        Alert info = new Alert(Alert.AlertType.INFORMATION, "Something went wrong, please try later.");
         info.showAndWait();
     }
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////

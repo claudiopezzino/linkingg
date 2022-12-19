@@ -1,4 +1,1 @@
-model.dao.MeetingDAO#unpackMeetingInfo(Ljava/lang/String;)Ljava/util/Map;
-java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
-java.util.HashMap#<init>()V
-java.util.HashMap#instance-init#
+view.controllerui.second.handlerstates.StateSearchFilter#instance-init#

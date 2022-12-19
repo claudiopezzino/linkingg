@@ -1,3 +1,4 @@
-view.bean.observers.GroupBean#notifyNewMemberToView(Ljava/lang/String;Ljava/lang/String;)V
-view.boundary.UserManageCommunityBoundary#<init>()V
-view.boundary.UserManageCommunityBoundary#instance-init#
+view.bean.observers.GroupBean#setMapMeetings(Ljava/util/Map;)V
+java.util.HashMap#<init>()V
+control.controlutilities.Copier#deepCopy(Ljava/io/Serializable;)Ljava/lang/Object;
+java.util.HashMap#instance-init#

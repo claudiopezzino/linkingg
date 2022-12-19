@@ -1,3 +1,4 @@
+model/dao/DeviceDAO.class
 view/graphicalui/first/constcontainer/Css.class
 model/dao/GroupDAO.class
 view/bean/observers/UserBean.class
@@ -12,6 +13,7 @@ view/controllerui/second/handlerstates/StatePasswordChange.class
 view/bean/Regex.class
 view/controllerui/second/handlerstates/StateMemberDetails.class
 view/controllerui/second/handlerstates/StateMemberInvitation.class
+model/LocalBridge.class
 control/tasks/tasksexceptions/LoaderException.class
 view/bean/errorsignindecorations/PasswordBeanErrorDecorator.class
 view/graphicalui/first/constcontainer/Image.class
@@ -30,6 +32,7 @@ view/controllerui/second/handlerstates/StateGroupCreationNickname.class
 view/bean/errorsignupdecorations/SurnameBeanErrorDecorator.class
 control/tasks/Loader.class
 model/UserInfo.class
+control/controlutilities/SecureObjectInputStream.class
 model/subjects/State.class
 view/graphicalui/first/listviewitems/ListViewMeetingItems$MeetingInfo$TimeTable.class
 view/graphicalui/first/HomePage$SearchUsersDialog.class
@@ -73,6 +76,7 @@ view/graphicalui/first/HomePage$SearchGroupsDialog.class
 view/graphicalui/second/Signup.class
 view/graphicalui/first/Page.class
 view/boundary/UserManageCommunityBoundary.class
+view/NotificationTask$Updater.class
 view/graphicalui/second/meetingquestionstates/QuestionBudget.class
 view/graphicalui/second/SignupInfo.class
 view/bean/UserSignUpBean.class
@@ -91,6 +95,7 @@ model/db/dbexceptions/DuplicatedRecordException.class
 model/modelexceptions/NoEntityException.class
 view/controllerui/second/handlerstates/StateMeetingsDeletion.class
 view/graphicalui/second/meetingquestionstates/QuestionTypeOfMeeting.class
+control/controlutilities/Messenger.class
 model/subjects/Group.class
 view/graphicalui/first/Container.class
 view/controllerui/second/handlerstates/StateSearchFilter.class
@@ -138,10 +143,13 @@ control/controlutilities/Copier.class
 view/graphicalui/second/meetingquestionstates/QuestionMeetingLocationName.class
 view/controllerui/second/handlerstates/StateGroupsDeletion.class
 view/graphicalui/second/SecondMain.class
+view/bean/GroupCreationBean.class
 view/graphicalui/first/listviewitems/ListViewMeetingItems$JoinersInfo.class
 view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems$MainBarItems.class
+model/Device.class
 view/graphicalui/first/toolbaritems/WelcomeToolbarItems$SignBarItems.class
 view/graphicalui/second/signupquestionstates/QuestionAccount.class
+view/graphicalui/first/constcontainer/HomePageFields.class
 view/graphicalui/first/HomePage$GroupMemberProfileDialog.class
 view/controllerui/first/HomePageEventHandler$ListViewHandler$MeetingGalleryEventHandler.class
 view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems$profileBoxItems.class
@@ -149,6 +157,7 @@ view/graphicalui/first/toolbaritems/HomeToolbarItems.class
 view/graphicalui/second/meetingquestionstates/QuestionTypeOfVehicle.class
 view/controllerui/second/handlerstates/StateUserLinkInvitations.class
 view/controllerui/first/Dialog$WaitDialog.class
+control/controlutilities/MessengerException.class
 model/MeetingFields.class
 view/graphicalui/first/HomePage$GroupDeletionDialog.class
 view/bean/observers/MeetingBean.class
@@ -156,6 +165,7 @@ view/controllerui/second/KeyEventHandler.class
 view/graphicalui/second/meetingquestionstates/QuestionEnd.class
 view/graphicalui/first/HomePage$UserProfileDialog$PasswordDialog.class
 view/bean/BeanErrorDecorator.class
+model/db/dbqueries/DeviceDAOQueries.class
 view/graphicalui/first/toolbardecorations/Decorator.class
 view/controllerui/second/handlerstates/StateMeetingJoinersView.class
 view/graphicalui/first/listviewitems/ListViewGroupItems$OwnerInfo.class
@@ -169,6 +179,7 @@ view/controllerui/first/HomePageEventHandler$ListViewHandler$MeetingChoiceChange
 view/graphicalui/first/constcontainer/Protocol.class
 view/controllerui/second/handlerstates/AbstractState.class
 view/graphicalui/first/HomePage$UserProfileDialog.class
+model/DeviceFields.class
 view/graphicalui/second/signupquestionstates/QuestionAddress.class
 view/graphicalui/second/DefaultCommands.class
 view/graphicalui/first/toolbaritems/WelcomeToolbarItems.class
@@ -203,3 +214,4 @@ view/bean/NoUserBeanException.class
 model/UserCollector.class
 view/graphicalui/first/toolbaritems/HomeToolbarItems$searchBarItems.class
 view/controllerui/first/MeetingPageEventHandler.class
+view/NotificationTask.class

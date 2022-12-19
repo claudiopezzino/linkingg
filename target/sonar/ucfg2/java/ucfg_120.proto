@@ -1,16 +1,19 @@
 
-=view.bean.observers.GroupBean#getMapMeetings()Ljava/util/Map;a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaB$ B(2"1*š
+=view.bean.observers.GroupBean#getNickname()Ljava/lang/String;a
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java# #("1*¹
 1a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaC C(µ
-²
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java$ $(Ñ
+Î
 a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaC C(
-%0java.util.Map"__id*2*0
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java$ $(
+%0java.lang.String"__id*K
+
+__unknown_file (/*-
 view.bean.observers.GroupBean"
-mapMeetings"z
+
+nickname"}
 a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaC C( 
-
-%0java.util.MapB!
-view.bean.observers.GroupBean
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java$ $(
+
+%0java.lang.StringB!
+view.bean.observers.GroupBeanH

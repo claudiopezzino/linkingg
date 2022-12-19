@@ -1,2 +1,1 @@
-view.graphicalui.first.toolbaritems.HomeToolbarItems#getIndex()Ljava/lang/Integer;
-java.lang.Enum#ordinal()I
+model.modelexceptions.DuplicatedEntityException#<init>(Ljava/lang/String;Ljava/lang/String;)V

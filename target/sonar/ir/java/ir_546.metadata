@@ -1,1 +1,4 @@
-view.controllerui.first.HomePageEventHandler#setUserManageCommunityBoundary(Lview/boundary/UserManageCommunityBoundary;)V
+model.dao.MeetingDAO#fetchMeetingJoiners(Ljava/lang/String;)Ljava/util/Map;
+java.util.HashMap#<init>()V
+java.util.HashMap#instance-init#
+model.dao.FactoryDAO#getSingletonInstance()Lmodel/dao/FactoryDAO;

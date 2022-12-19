@@ -1,1 +1,1 @@
-view.bean.UserSignUpBean#getEmail()Ljava/lang/String;
+model.subjects.Group#nickname()Ljava/lang/String;

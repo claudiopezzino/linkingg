@@ -1,2 +1,2 @@
-model.db.dbconnection.PersistencyDB#<init>()V
-model.db.dbconnection.PersistencyDB#fetchDBConfigProperties()V
+view.graphicalui.first.toolbaritems.WelcomeToolbarItems#getIndex()Ljava/lang/Integer;
+java.lang.Enum#ordinal()I

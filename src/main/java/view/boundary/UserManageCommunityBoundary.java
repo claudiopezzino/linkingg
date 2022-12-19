@@ -3,9 +3,7 @@ package view.boundary;
 import control.ManageCommunityController;
 import control.UserLoginController;
 import control.controlexceptions.InternalException;
-import view.bean.GroupCreationBean;
-import view.bean.UserSignInBean;
-import view.bean.UserSignUpBean;
+import view.bean.*;
 import view.bean.observers.GroupBean;
 import view.controllerui.first.Dialog;
 import view.controllerui.second.Message;
@@ -16,6 +14,7 @@ import view.graphicalui.second.Home;
 import view.graphicalui.second.SecondMain;
 import view.graphicalui.second.Shell;
 
+import java.util.List;
 import java.util.Map;
 
 
@@ -55,6 +54,14 @@ public class UserManageCommunityBoundary {
         this.manageCommunityController.setUpGroup(groupCreationBean);
     }
     ///////////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    public List<GroupFilteredBean> searchGroupsByFilter(SearchFilterBean searchFilterBean) throws InternalException{
+        if(manageCommunityController == null)
+            manageCommunityController = new ManageCommunityController();
+        return manageCommunityController.findGroupsByFilter(searchFilterBean);
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     /////////////////////////////////////////////////////////////////////
     public void notifyNewCurrUserNick(){

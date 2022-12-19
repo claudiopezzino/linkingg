@@ -1,16 +1,18 @@
 
->view.graphicalui.second.Home#getGroupMembers()Ljava/util/List;b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaä ä('"1*Ÿ
+@view.graphicalui.second.Home#getSearchTarget()Ljava/lang/String;b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÊ Ê(!"1*¿
 1b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaå å(·
-´
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÊ- Ê(9Õ
+Ò
 b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaå å( 
-%0java.util.List"__id*2*0
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÊ- Ê(9
+%0java.lang.String"__id*N
+
+__unknown_file (2*0
 view.graphicalui.second.Home"
-groupMembers"|
+searchTarget"~
 b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaå å(!
-
-%0java.util.ListB 
-view.graphicalui.second.Home
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÊ& Ê(:
+
+%0java.lang.StringB 
+view.graphicalui.second.HomeH

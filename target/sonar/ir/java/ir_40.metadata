@@ -1,1 +1,1 @@
-view.graphicalui.second.DefaultCommands#<init>()V
+control.tasks.Listener#getUserDevice()Lmodel/Device;

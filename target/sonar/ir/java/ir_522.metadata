@@ -1,1 +1,1 @@
-view.graphicalui.second.SignupInfo#instance-init#
+view.bean.observers.MeetingBean#setTime(Ljava/lang/String;)V

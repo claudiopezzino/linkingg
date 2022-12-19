@@ -1,6 +1,11 @@
-view.controllerui.second.handlerstates.StateMeetingsDeletion#checkCmd(Lview/graphicalui/second/Home;)V
-view.controllerui.second.Message#errorMsg()V
-javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
+view.controllerui.first.HomePageEventHandler#changeUserImageProfile(Ljava/util/Map;)V
+view.graphicalui.first.toolbaritems.HomeToolbarItems#getIndex()Ljava/lang/Integer;
+javafx.scene.paint.ImagePattern#<init>(Ljavafx/scene/image/Image;)V
+view.graphicalui.first.HomePage#getHomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/HomePage;
 java.lang.String#equals(Ljava/lang/Object;)Z
-view.controllerui.second.Message#meetingDeletionMsg()V
-java.lang.String#isEmpty()Z
+javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;
+javafx.scene.shape.Shape#setFill(Ljavafx/scene/paint/Paint;)V
+view.graphicalui.first.toolbaritems.HomeToolbarItems$profileBoxItems#getIndex()Ljava/lang/Integer;
+javafx.scene.paint.ImagePattern#instance-init#
+javafx.scene.image.Image#instance-init#
+javafx.scene.image.Image#<init>(Ljava/lang/String;)V

@@ -12,6 +12,7 @@ public final class UserFields {
     public static final String CELL = "cell";
     public static final String ACCOUNT = "account";
     public static final String IMAGE = "image";
+    public static final String PROVINCE = "province";
     //////////////////////////////////////////////////
 
     //////////////////////

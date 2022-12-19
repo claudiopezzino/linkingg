@@ -1,3 +1,1 @@
-model.dao.UserDAO#createEntity(Ljava/util/Map;)Ljava/lang/Object;
-model.dao.UserDAO#makeUserEntity(Ljava/util/Map;)Lmodel/subjects/User;
-model.dao.UserDAO#saveUserIntoDB(Ljava/util/Map;)V
+view.graphicalui.first.FirstMain#setCurrScene(Ljavafx/scene/Scene;)V

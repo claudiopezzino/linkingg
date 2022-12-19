@@ -25,12 +25,12 @@ public class StateSearch implements AbstractState{
         if(home.getPrompt().getText().equals(BACK))
             home.restoreScreen();
 
-        else if(home.getPrompt().getText().equals(GROUPS)
-                || home.getPrompt().getText().equals(PEOPLE)) {
+        else if(home.getPrompt().getText().equals(GROUPS)) {
             home.setCurrSearchMode(home.getPrompt().getText());
             home.searchFilter();
         }
-        else if(home.getPrompt().getText().equals(PAGES))
+        else if(home.getPrompt().getText().equals(PAGES)
+                || home.getPrompt().getText().equals(PEOPLE))
             infoMsg();
 
         else

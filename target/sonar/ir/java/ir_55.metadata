@@ -1,1 +1,7 @@
-model.modelexceptions.DuplicatedEntityException#instance-init#
+view.graphicalui.first.toolbardecorations.SharingButtonDecorator#setUpBtnSharing()V
+javafx.scene.Node#setOnMouseClicked(Ljavafx/event/EventHandler;)V
+javafx.scene.image.ImageView#<init>(Ljava/lang/String;)V
+javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;
+javafx.scene.image.ImageView#instance-init#
+javafx.scene.control.Button#instance-init#
+javafx.scene.control.Button#<init>(Ljava/lang/String;Ljavafx/scene/Node;)V

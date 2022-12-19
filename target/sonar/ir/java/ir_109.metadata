@@ -1,6 +1,3 @@
-control.tasks.Loader#checkFilter(Lmodel/Filter;Ljava/io/ObjectInputStream;)V
-control.tasks.Loader#updateMeetings(Ljava/io/ObjectInputStream;)V
-control.tasks.Loader#updateGroupMembers(Ljava/io/ObjectInputStream;)V
-control.tasks.Loader#updateUserNick(Ljava/io/ObjectInputStream;)V
-control.tasks.Loader#updateGroups(Ljava/io/ObjectInputStream;)V
-control.tasks.Loader#updateMeetingJoiners(Ljava/io/ObjectInputStream;)V
+view.controllerui.second.handlerstates.StateGroupCreationName#getStateGroupCreationNameInstance()Lview/controllerui/second/handlerstates/StateGroupCreationName;
+view.controllerui.second.handlerstates.StateGroupCreationName#instance-init#
+view.controllerui.second.handlerstates.StateGroupCreationName#<init>()V

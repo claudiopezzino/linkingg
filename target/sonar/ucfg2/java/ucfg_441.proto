@@ -1,16 +1,16 @@
 
-7view.bean.UserSignUpBean#getSurname()Ljava/lang/String;\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java ("1*ˆ
-1\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java   (ª
-§
-\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java   (
-%0java.lang.String"__id*)*'
-view.bean.UserSignUpBean"	
-surname"x
-\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java   (
+=view.bean.ConcreteBeanError#displayErrors()Ljava/lang/String;_
+U/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/ConcreteBeanError.java ("1*ß
+1_
+U/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/ConcreteBeanError.java (ûø
+_
+U/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/ConcreteBeanError.java ( 
+%0java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*;
+
+__unknown_file (
+view.bean.ConcreteBeanError2getMessage()"{
+_
+U/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/ConcreteBeanError.java (!
 
-%0java.lang.StringB
-view.bean.UserSignUpBean
+%0java.lang.StringB
+view.bean.ConcreteBeanErrorH

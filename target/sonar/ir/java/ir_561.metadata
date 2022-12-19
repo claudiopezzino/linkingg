@@ -1,6 +1,9 @@
-view.controllerui.first.HomePageEventHandler#manageUserProfile()V
-java.util.Optional#isPresent()Z
-view.controllerui.first.HomePageEventHandler#changeUserImageProfile(Ljava/util/Map;)V
-javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
-java.util.Optional#get()Ljava/lang/Object;
-view.graphicalui.first.HomePage$UserProfileDialog#getUserProfileDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog;
+view.controllerui.first.HomePageEventHandler#updateGroupMemberNick(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
+view.graphicalui.first.listviewitems.ListViewGroupItems$MembersInfo#getIndex()Ljava/lang/Integer;
+java.lang.String#equals(Ljava/lang/Object;)Z
+javafx.scene.control.Labeled#setText(Ljava/lang/String;)V
+view.graphicalui.first.listviewitems.ListViewGroupItems#getIndex()Ljava/lang/Integer;
+view.controllerui.first.HomePageEventHandler#getListGroups()Ljavafx/collections/ObservableList;
+javafx.scene.control.Labeled#getText()Ljava/lang/String;
+view.controllerui.first.HomePageEventHandler#getCurrGroupNick(Ljavafx/scene/layout/VBox;)Ljava/lang/String;

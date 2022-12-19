@@ -1,1 +1,1 @@
-view.bean.UserSignUpBean#getAddress()Ljava/lang/String;
+model.subjects.Group#name()Ljava/lang/String;

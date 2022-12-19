@@ -27,7 +27,7 @@ public class StateSearchFilter implements AbstractState{
         else if(home.getPrompt().getText().equals(PROVINCE)
                 || home.getPrompt().getText().equals(NAME)
                 || home.getPrompt().getText().equals(NICKNAME)){
-            home.setCurrSearchFilter(Home.getHomeInstance().getPrompt().getText());
+            home.setCurrSearchFilter(home.getPrompt().getText());
             home.searchInput();
         }
         else

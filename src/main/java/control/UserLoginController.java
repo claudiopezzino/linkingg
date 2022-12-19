@@ -96,6 +96,7 @@ public class UserLoginController implements LoginController{
         userInfo.put(MAIL, userSignUpBean.getEmail());
         userInfo.put(CELL, userSignUpBean.getCell());
         userInfo.put(ACCOUNT, userSignUpBean.getAccount());
+        userInfo.put(PROVINCE, userSignUpBean.getProvince());
 
         return userInfo;
     }

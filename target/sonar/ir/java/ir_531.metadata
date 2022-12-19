@@ -1,3 +1,2 @@
-view.controllerui.second.handlerstates.StateSearchFilter#getStateSearchFilterInstance()Lview/controllerui/second/handlerstates/StateSearchFilter;
-view.controllerui.second.handlerstates.StateSearchFilter#instance-init#
-view.controllerui.second.handlerstates.StateSearchFilter#<init>()V
+view.graphicalui.second.SignupInfo#getIndex()Ljava/lang/Integer;
+java.lang.Enum#ordinal()I

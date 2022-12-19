@@ -1,1 +1,1 @@
-view.graphicalui.second.DefaultCommands#instance-init#
+control.tasks.Listener#<init>(Ljava/util/Map;Lmodel/subjects/User;)V

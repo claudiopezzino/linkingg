@@ -1,3 +1,2 @@
-view.graphicalui.second.signupquestionstates.QuestionName#getQuestionNameInstance()Lview/graphicalui/second/signupquestionstates/QuestionName;
-view.graphicalui.second.signupquestionstates.QuestionName#instance-init#
-view.graphicalui.second.signupquestionstates.QuestionName#<init>()V
+view.graphicalui.second.signupquestionstates.QuestionName#display()V
+view.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;

@@ -1,16 +1,18 @@
 
-7view.bean.UserSignUpBean#getAccount()Ljava/lang/String;\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java7 7("1*ˆ
-1\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java8 8(ª
-§
-\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java8 8(
-%0java.lang.String"__id*)*'
-view.bean.UserSignUpBean"	
-account"x
-\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java8 8(
-
-%0java.lang.StringB
-view.bean.UserSignUpBean
+1model.subjects.Group#owner()Lmodel/subjects/User;X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java1 1("1*˜
+1X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java2 2(¿
+¼
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java2 2(
+%0model.subjects.User"__id*?
+
+__unknown_file (#*!
+model.subjects.Group"
+owner"w
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java2 2(
+
+%0model.subjects.UserB
+model.subjects.GroupH

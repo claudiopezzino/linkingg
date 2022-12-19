@@ -1,2 +1,1 @@
-view.controllerui.first.HomePageEventHandler#updateGroupsList(Lview/bean/observers/GroupBean;)V
-view.graphicalui.first.HomePage#getHomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/HomePage;
+view.controllerui.first.HomePageEventHandler#getUserManageCommunityBoundary()Lview/boundary/UserManageCommunityBoundary;

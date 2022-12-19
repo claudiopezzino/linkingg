@@ -1,1 +1,1 @@
-view.bean.UserBeanCollector#addUserBeanInstance(Lview/bean/observers/UserBean;)V
+view.bean.UserBeanCollector#instance-init#

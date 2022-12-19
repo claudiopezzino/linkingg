@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#setListGroupMembers(Ljava/util/List;)V
+view.graphicalui.second.Home#setListOtherGroups(Ljava/util/List;)V

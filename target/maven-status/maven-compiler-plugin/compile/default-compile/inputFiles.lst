@@ -9,6 +9,7 @@
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Subject.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionSurname.java
+/Users/pain/eclipse-workspace/linkingg/src/main/java/model/DeviceFields.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Page.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/SocialBarDecorator.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionAddrToStartSearch.java
@@ -31,9 +32,11 @@
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionNewUsername.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/GroupDAOQueries.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.java
+/Users/pain/eclipse-workspace/linkingg/src/main/java/control/controlutilities/MessengerException.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/QuestionStateMachine.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMembersRemoval.java
+/Users/pain/eclipse-workspace/linkingg/src/main/java/control/controlutilities/SecureObjectInputStream.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/HomeToolbarItems.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMeetingsView.java
@@ -49,16 +52,19 @@
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/Observer.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/SigninInfo.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java
+/Users/pain/eclipse-workspace/linkingg/src/main/java/view/NotificationTask.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignInBean.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/control/controlexceptions/InternalException.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/ConcreteBeanError.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/AddressBeanErrorDecorator.java
+/Users/pain/eclipse-workspace/linkingg/src/main/java/control/controlutilities/Messenger.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/DialogEventHandler.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Toolbar.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbexceptions/DBException.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbconnection/PersistencyDB.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SigninPage.java
+/Users/pain/eclipse-workspace/linkingg/src/main/java/model/Device.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/passwordquestionstates/QuestionNewPassword.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/FirstMain.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/Regex.java
@@ -126,6 +132,7 @@
 /Users/pain/eclipse-workspace/linkingg/src/main/java/control/controlutilities/CopyException.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionTypeOfVehicle.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java
+/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/DeviceDAO.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/control/UserLoginController.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/BeanErrorDecorator.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/WelcomeToolbarItems.java
@@ -141,9 +148,11 @@
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/HandlerStateMachine.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionTime.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewGroupItems.java
+/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/GroupCreationBean.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/passwordquestionstates/QuestionEnd.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/TitleBoxDecorator.java
+/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/constcontainer/HomePageFields.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberDetails.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signinquestionstates/QuestionEnd.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java
@@ -165,3 +174,5 @@
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/MeetingPageEventHandler.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StatePasswordChange.java
 /Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupsView.java
+/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/DeviceDAOQueries.java
+/Users/pain/eclipse-workspace/linkingg/src/main/java/model/LocalBridge.java

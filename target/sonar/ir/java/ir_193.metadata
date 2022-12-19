@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#setGroupOwnerNick(Ljava/lang/String;)V
+view.graphicalui.second.Home#setCurrUserPassword(Ljava/lang/String;)V

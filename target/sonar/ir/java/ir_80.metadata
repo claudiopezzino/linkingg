@@ -1,4 +1,1 @@
-view.controllerui.first.Dialog#errorDialog(Ljava/lang/String;)V
-view.controllerui.first.Dialog$InfoErrorDialog#getInfoErrorDialogInstance()Lview/controllerui/first/Dialog$InfoErrorDialog;
-javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
-javafx.scene.control.Labeled#setText(Ljava/lang/String;)V
+view.boundary.UserManageCommunityBoundary#freeResources()V

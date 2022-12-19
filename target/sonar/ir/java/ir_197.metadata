@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#setListOtherMeetings(Ljava/util/List;)V
+view.graphicalui.second.Home#setListOwnGroups(Ljava/util/List;)V

@@ -1,1 +1,1 @@
-view.bean.observers.GroupBean#getMapMembers()Ljava/util/Map;
+view.bean.observers.GroupBean#getName()Ljava/lang/String;

@@ -935,9 +935,10 @@ EnotifyPreloader(Ljavafx/application/Preloader$PreloaderNotification;)ejavafx.a
 getHostServices()Qjavafx.application.Application#getHostServices()Ljavafx/application/HostServices;|
 ,launch(Ljava/lang/Class;[Ljava/lang/String;)Ljavafx.application.Application#launch(Ljava/lang/Class;[Ljava/lang/String;)V0
 init()&javafx.application.Application#init()Ve
-getUserAgentStylesheet()Ijavafx.application.Application#getUserAgentStylesheet()Ljava/lang/String;©
+getUserAgentStylesheet()Ijavafx.application.Application#getUserAgentStylesheet()Ljava/lang/String;›
  view.graphicalui.first.FirstMainjavafx.application.Application6
-<init>()*view.graphicalui.first.FirstMain#<init>()VX
+<init>()*view.graphicalui.first.FirstMain#<init>()V2
+stop()(view.graphicalui.first.FirstMain#stop()VX
 main([Ljava/lang/String;);view.graphicalui.first.FirstMain#main([Ljava/lang/String;)Vj
 "setCurrScene(Ljavafx/scene/Scene;)Dview.graphicalui.first.FirstMain#setCurrScene(Ljavafx/scene/Scene;)V\
 start(Ljavafx/stage/Stage;)=view.graphicalui.first.FirstMain#start(Ljavafx/stage/Stage;)VU
@@ -1262,7 +1263,9 @@ getCause()3java.lang.Throwable#getCause()Ljava/lang/Throwable;e
 
 getState()mview.controllerui.second.HandlerStateMachine#getState()Lview/controllerui/second/handlerstates/AbstractState;≤
 @setState(Lview/controllerui/second/handlerstates/AbstractState;)nview.controllerui.second.HandlerStateMachine#setState(Lview/controllerui/second/handlerstates/AbstractState;)VH
-4view.controllerui.second.handlerstates.AbstractStatejava.lang.Object⁄
+4view.controllerui.second.handlerstates.AbstractStatejava.lang.Objectî
+4view.graphicalui.first.constcontainer.HomePageFieldsjava.lang.ObjectJ
+<init>()>view.graphicalui.first.constcontainer.HomePageFields#<init>()V⁄
 #model.db.dbconnection.PersistencyDBjava.lang.Object9
 <init>()-model.db.dbconnection.PersistencyDB#<init>()Vy
 getSingletonInstance()_model.db.dbconnection.PersistencyDB#getSingletonInstance()Lmodel/db/dbconnection/PersistencyDB;[
@@ -2247,14 +2250,16 @@ k<init>(Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;JLjava/secu
 countStackFrames()$java.lang.Thread#countStackFrames()I(
 	resume0()java.lang.Thread#resume0()V@
 getThreads()0java.lang.Thread#getThreads()[Ljava/lang/Thread;x
-1<init>(Ljava/lang/ThreadGroup;Ljava/lang/String;)Cjava.lang.Thread#<init>(Ljava/lang/ThreadGroup;Ljava/lang/String;)V∞
-control.tasks.Listenerjava.lang.Thread&
-run()control.tasks.Listener#run()V2
-setUpPort()#control.tasks.Listener#setUpPort()VF
-saveIpAndPortIntoDB()-control.tasks.Listener#saveIpAndPortIntoDB()Vt
+1<init>(Ljava/lang/ThreadGroup;Ljava/lang/String;)Cjava.lang.Thread#<init>(Ljava/lang/ThreadGroup;Ljava/lang/String;)Vﬂ
+control.tasks.Listenerjava.lang.Threadd
+$setUpUserDevice(Ljava/lang/Integer;)<control.tasks.Listener#setUpUserDevice(Ljava/lang/Integer;)V&
+run()control.tasks.Listener#run()VG
+getUserDevice()4control.tasks.Listener#getUserDevice()Lmodel/Device;t
 ,<init>(Ljava/util/Map;Lmodel/subjects/User;)Dcontrol.tasks.Listener#<init>(Ljava/util/Map;Lmodel/subjects/User;)V0
 
 shutdown()"control.tasks.Listener#shutdown()V8
+removeDevice()&control.tasks.Listener#removeDevice()V@
+initServerSocket()*control.tasks.Listener#initServerSocket()V8
 waitAndSpawn()&control.tasks.Listener#waitAndSpawn()V,
 javafx.concurrent.Workerjava.lang.Object/
 java.util.concurrent.Futurejava.lang.Objecth
@@ -2351,7 +2356,23 @@ $_setException(Ljava/lang/Throwable;)<javafx.concurrent.Task#_setException(Ljav
 onCancelledProperty()Rjavafx.concurrent.Task#onCancelledProperty()Ljavafx/beans/property/ObjectProperty;£
 view.AlertTaskjavafx.concurrent.Task/
 call()%view.AlertTask#call()Ljava/lang/Void;H
-<init>(Ljava/lang/String;)*view.AlertTask#<init>(Ljava/lang/String;)Vç
+<init>(Ljava/lang/String;)*view.AlertTask#<init>(Ljava/lang/String;)V…
+javafx.application.Platformjava.lang.Objectâ
+accessibilityActiveProperty()hjavafx.application.Platform#accessibilityActiveProperty()Ljavafx/beans/property/ReadOnlyBooleanProperty;Ç
+(enterNestedEventLoop(Ljava/lang/Object;)Vjavafx.application.Platform#enterNestedEventLoop(Ljava/lang/Object;)Ljava/lang/Object;O
+isAccessibilityActive()4javafx.application.Platform#isAccessibilityActive()Zì
+9exitNestedEventLoop(Ljava/lang/Object;Ljava/lang/Object;)Vjavafx.application.Platform#exitNestedEventLoop(Ljava/lang/Object;Ljava/lang/Object;)VO
+isFxApplicationThread()4javafx.application.Platform#isFxApplicationThread()Z1
+<init>()%javafx.application.Platform#<init>()V]
+runLater(Ljava/lang/Runnable;);javafx.application.Platform#runLater(Ljava/lang/Runnable;)VK
+isNestedLoopRunning()2javafx.application.Platform#isNestedLoopRunning()Zâ
+4isSupported(Ljavafx/application/ConditionalFeature;)Qjavafx.application.Platform#isSupported(Ljavafx/application/ConditionalFeature;)ZE
+setImplicitExit(Z)/javafx.application.Platform#setImplicitExit(Z)V-
+exit()#javafx.application.Platform#exit()VÜ
+)isKeyLocked(Ljavafx/scene/input/KeyCode;)Yjavafx.application.Platform#isKeyLocked(Ljavafx/scene/input/KeyCode;)Ljava/util/Optional;E
+requestNextPulse()/javafx.application.Platform#requestNextPulse()VA
+isImplicitExit()-javafx.application.Platform#isImplicitExit()Z[
+startup(Ljava/lang/Runnable;):javafx.application.Platform#startup(Ljava/lang/Runnable;)Vç
 /control.tasks.tasksexceptions.ListenerExceptionjava.lang.ExceptionE
 <init>()9control.tasks.tasksexceptions.ListenerException#<init>()V>
 java.io.Closeablejava.lang.Objectjava.lang.AutoCloseableè
@@ -2394,17 +2415,18 @@ isClosed()!java.net.ServerSocket#isClosed()ZG
 .setSocketFactory(Ljava/net/SocketImplFactory;)Ejava.net.ServerSocket#setSocketFactory(Ljava/net/SocketImplFactory;)V[
  <init>(IILjava/net/InetAddress;)7java.net.ServerSocket#<init>(IILjava/net/InetAddress;)Vô
 4setOption(Ljava/net/SocketOption;Ljava/lang/Object;)ajava.net.ServerSocket#setOption(Ljava/net/SocketOption;Ljava/lang/Object;)Ljava/net/ServerSocket;7
-getLocalPort()%java.net.ServerSocket#getLocalPort()IÜ
-control.tasks.Loaderjava.lang.Objectjava.lang.Runnablel
-)updateGroups(Ljava/io/ObjectInputStream;)?control.tasks.Loader#updateGroups(Ljava/io/ObjectInputStream;)V8
+getLocalPort()%java.net.ServerSocket#getLocalPort()IΩ
+control.tasks.Loaderjava.lang.Objectjava.lang.Runnableû
+BupdateUserNick(Lcontrol/controlutilities/SecureObjectInputStream;)Xcontrol.tasks.Loader#updateUserNick(Lcontrol/controlutilities/SecureObjectInputStream;)V8
 handleMessage()%control.tasks.Loader#handleMessage()V$
-run()control.tasks.Loader#run()VÜ
-6checkFilter(Lmodel/Filter;Ljava/io/ObjectInputStream;)Lcontrol.tasks.Loader#checkFilter(Lmodel/Filter;Ljava/io/ObjectInputStream;)Vî
-=<init>(Ljava/net/Socket;Ljava/util/Map;Lmodel/subjects/User;)Scontrol.tasks.Loader#<init>(Ljava/net/Socket;Ljava/util/Map;Lmodel/subjects/User;)V|
-1updateMeetingJoiners(Ljava/io/ObjectInputStream;)Gcontrol.tasks.Loader#updateMeetingJoiners(Ljava/io/ObjectInputStream;)Vp
-+updateUserNick(Ljava/io/ObjectInputStream;)Acontrol.tasks.Loader#updateUserNick(Ljava/io/ObjectInputStream;)Vp
-+updateMeetings(Ljava/io/ObjectInputStream;)Acontrol.tasks.Loader#updateMeetings(Ljava/io/ObjectInputStream;)Vx
-/updateGroupMembers(Ljava/io/ObjectInputStream;)Econtrol.tasks.Loader#updateGroupMembers(Ljava/io/ObjectInputStream;)Vï
+run()control.tasks.Loader#run()VÏ
+icheckFilter(Lmodel/Filter;Lcontrol/controlutilities/SecureObjectInputStream;Ljava/io/ObjectOutputStream;)control.tasks.Loader#checkFilter(Lmodel/Filter;Lcontrol/controlutilities/SecureObjectInputStream;Ljava/io/ObjectOutputStream;)Vî
+=<init>(Ljava/net/Socket;Ljava/util/Map;Lmodel/subjects/User;)Scontrol.tasks.Loader#<init>(Ljava/net/Socket;Ljava/util/Map;Lmodel/subjects/User;)V´
+AcollectGroups(Lcontrol/controlutilities/SecureObjectInputStream;)fcontrol.tasks.Loader#collectGroups(Lcontrol/controlutilities/SecureObjectInputStream;)Ljava/util/List;û
+BupdateMeetings(Lcontrol/controlutilities/SecureObjectInputStream;)Xcontrol.tasks.Loader#updateMeetings(Lcontrol/controlutilities/SecureObjectInputStream;)V™
+HupdateMeetingJoiners(Lcontrol/controlutilities/SecureObjectInputStream;)^control.tasks.Loader#updateMeetingJoiners(Lcontrol/controlutilities/SecureObjectInputStream;)V“
+\updateGroups(Lcontrol/controlutilities/SecureObjectInputStream;Ljava/io/ObjectOutputStream;)rcontrol.tasks.Loader#updateGroups(Lcontrol/controlutilities/SecureObjectInputStream;Ljava/io/ObjectOutputStream;)V¶
+FupdateGroupMembers(Lcontrol/controlutilities/SecureObjectInputStream;)\control.tasks.Loader#updateGroupMembers(Lcontrol/controlutilities/SecureObjectInputStream;)Vï
 
 java.util.AbstractMapjava.util.Mapjava.lang.ObjectO
 equals(Ljava/lang/Object;)1java.util.AbstractMap#equals(Ljava/lang/Object;)Z-
@@ -2480,13 +2502,13 @@ CcomputeIfPresent(Ljava/lang/Object;Ljava/util/function/BiFunction;)gjava.util.
 afterNodeInsertion(Z)(java.util.HashMap#afterNodeInsertion(Z)Vi
 )afterNodeAccess(Ljava/util/HashMap$Node;)<java.util.HashMap#afterNodeAccess(Ljava/util/HashMap$Node;)Vi
 )writeObject(Ljava/io/ObjectOutputStream;)<java.util.HashMap#writeObject(Ljava/io/ObjectOutputStream;)V#
-size()java.util.HashMap#size()IÛ
-model.subjects.Subjectjava.lang.ObjectZ
+size()java.util.HashMap#size()Iâ
+model.subjects.Subjectjava.lang.Objectjava.io.SerializableZ
 notifyObserver(Ljava/util/Map;)7model.subjects.Subject#notifyObserver(Ljava/util/Map;)VS
 getObserver()Bmodel.subjects.Subject#getObserver()Lview/bean/observers/Observer;,
 <init>() model.subjects.Subject#<init>()Vh
-&attach(Lview/bean/observers/Observer;)>model.subjects.Subject#attach(Lview/bean/observers/Observer;)V 
-model.subjects.Usermodel.subjects.Subjectjava.io.Serializable>
+&attach(Lview/bean/observers/Observer;)>model.subjects.Subject#attach(Lview/bean/observers/Observer;)V¥
+model.subjects.Usermodel.subjects.Subject>
 
 currPlan()0model.subjects.User#currPlan()Ljava/lang/String;D
 credentials()3model.subjects.User#credentials()Ljavafx/util/Pair;F
@@ -2508,15 +2530,22 @@ getValue()-javafx.util.Pair#getValue()Ljava/lang/Object;7
 getKey()+javafx.util.Pair#getKey()Ljava/lang/Object;*
 
 hashCode()javafx.util.Pair#hashCode()In
-,<init>(Ljava/lang/Object;Ljava/lang/Object;)>javafx.util.Pair#<init>(Ljava/lang/Object;Ljava/lang/Object;)VÉ
+,<init>(Ljava/lang/Object;Ljava/lang/Object;)>javafx.util.Pair#<init>(Ljava/lang/Object;Ljava/lang/Object;)V’
 model.dao.FactoryDAOjava.lang.Object*
 <init>()model.dao.FactoryDAO#<init>()V[
-getSingletonInstance()Amodel.dao.FactoryDAO#getSingletonInstance()Lmodel/dao/FactoryDAO;J
+getSingletonInstance()Amodel.dao.FactoryDAO#getSingletonInstance()Lmodel/dao/FactoryDAO;P
+createDeviceDAO();model.dao.FactoryDAO#createDeviceDAO()Lmodel/dao/DeviceDAO;J
 createUserDAO()7model.dao.FactoryDAO#createUserDAO()Lmodel/dao/UserDAO;S
 createMeetingDAO()=model.dao.FactoryDAO#createMeetingDAO()Lmodel/dao/MeetingDAO;`
 createDAO(Lmodel/dao/DAO;)Bmodel.dao.FactoryDAO#createDAO(Lmodel/dao/DAO;)Lmodel/dao/BaseDAO;M
 createGroupDAO()9model.dao.FactoryDAO#createGroupDAO()Lmodel/dao/GroupDAO;%
-model.dao.BaseDAOjava.lang.Objectz
+model.dao.BaseDAOjava.lang.Object©
++control.controlexceptions.InternalExceptionjava.lang.Exceptione
+<init>(Ljava/lang/String;)Gcontrol.controlexceptions.InternalException#<init>(Ljava/lang/String;)Vá
+model.Devicejava.lang.Object<
+portNumber(),model.Device#portNumber()Ljava/lang/Integer;l
+-<init>(Ljava/lang/String;Ljava/lang/Integer;);model.Device#<init>(Ljava/lang/String;Ljava/lang/Integer;)V9
+ipAddress()*model.Device#ipAddress()Ljava/lang/String;z
 'view.graphicalui.second.DefaultCommandsjava.lang.Object=
 <init>()1view.graphicalui.second.DefaultCommands#<init>()V2
 view.graphicalui.first.Toolbarjava.lang.Object◊
@@ -2827,7 +2856,7 @@ Bview.graphicalui.second.passwordquestionstates.QuestionNewPasswordjava.lang.O
 	display()Mview.graphicalui.second.passwordquestionstates.QuestionNewPassword#display()VX
 <init>()Lview.graphicalui.second.passwordquestionstates.QuestionNewPassword#<init>()V∞
 4next(Lview/graphicalui/second/QuestionStateMachine;)xview.graphicalui.second.passwordquestionstates.QuestionNewPassword#next(Lview/graphicalui/second/QuestionStateMachine;)VÃ
- getQuestionNewPasswordInstance()ßview.graphicalui.second.passwordquestionstates.QuestionNewPassword#getQuestionNewPasswordInstance()Lview/graphicalui/second/passwordquestionstates/QuestionNewPassword;¥
+ getQuestionNewPasswordInstance()ßview.graphicalui.second.passwordquestionstates.QuestionNewPassword#getQuestionNewPasswordInstance()Lview/graphicalui/second/passwordquestionstates/QuestionNewPassword;∫
 )view.boundary.UserManageCommunityBoundaryjava.lang.Objectq
 !notifyNewNick(Ljava/lang/String;)Lview.boundary.UserManageCommunityBoundary#notifyNewNick(Ljava/lang/String;)V©
 =notifyNewGroupOwnerNick(Ljava/lang/String;Ljava/lang/String;)hview.boundary.UserManageCommunityBoundary#notifyNewGroupOwnerNick(Ljava/lang/String;Ljava/lang/String;)Vç
@@ -2842,18 +2871,23 @@ PnotifyNewGroupMemberNick(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;
 <init>()3view.boundary.UserManageCommunityBoundary#<init>()V]
 notifyNewCurrUserNick()Bview.boundary.UserManageCommunityBoundary#notifyNewCurrUserNick()V«
 LnotifyMeetingJoiner(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)wview.boundary.UserManageCommunityBoundary#notifyMeetingJoiner(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V§
-.registerIntoSystem(Lview/bean/UserSignUpBean;)rview.boundary.UserManageCommunityBoundary#registerIntoSystem(Lview/bean/UserSignUpBean;)Lview/bean/UserSignInBean;¢
+.registerIntoSystem(Lview/bean/UserSignUpBean;)rview.boundary.UserManageCommunityBoundary#registerIntoSystem(Lview/bean/UserSignUpBean;)Lview/bean/UserSignInBean;É
+*createGroup(Lview/bean/GroupCreationBean;)Uview.boundary.UserManageCommunityBoundary#createGroup(Lview/bean/GroupCreationBean;)Vû
 !control.ManageCommunityControllerjava.lang.Objectí
 'turnIntoUserBean(Lmodel/subjects/User;)gcontrol.ManageCommunityController#turnIntoUserBean(Lmodel/subjects/User;)Lview/bean/observers/UserBean;ó
-)turnIntoGroupBean(Lmodel/subjects/Group;)jcontrol.ManageCommunityController#turnIntoGroupBean(Lmodel/subjects/Group;)Lview/bean/observers/GroupBean;C
+)turnIntoGroupBean(Lmodel/subjects/Group;)jcontrol.ManageCommunityController#turnIntoGroupBean(Lmodel/subjects/Group;)Lview/bean/observers/GroupBean;ü
+5fetchGroupCreationInfo(Lview/bean/GroupCreationBean;)fcontrol.ManageCommunityController#fetchGroupCreationInfo(Lview/bean/GroupCreationBean;)Ljava/util/Map;C
 stopListener()1control.ManageCommunityController#stopListener()V7
-<init>()+control.ManageCommunityController#<init>()V°
--turnIntoMeetingBean(Lmodel/subjects/Meeting;)pcontrol.ManageCommunityController#turnIntoMeetingBean(Lmodel/subjects/Meeting;)Lview/bean/observers/MeetingBean;◊
-KsetUpRegistrationPhase(Lcontrol/LoginController;Lview/bean/UserSignUpBean;)ácontrol.ManageCommunityController#setUpRegistrationPhase(Lcontrol/LoginController;Lview/bean/UserSignUpBean;)Lview/bean/UserSignInBean;ø
+<init>()+control.ManageCommunityController#<init>()Vi
+!changeGroupNick(Ljava/util/Map;I)Dcontrol.ManageCommunityController#changeGroupNick(Ljava/util/Map;I)V°
+-turnIntoMeetingBean(Lmodel/subjects/Meeting;)pcontrol.ManageCommunityController#turnIntoMeetingBean(Lmodel/subjects/Meeting;)Lview/bean/observers/MeetingBean;~
+$fetchUserDevices(Ljava/lang/String;)Vcontrol.ManageCommunityController#fetchUserDevices(Ljava/lang/String;)Ljava/util/List;y
+)setUpGroup(Lview/bean/GroupCreationBean;)Lcontrol.ManageCommunityController#setUpGroup(Lview/bean/GroupCreationBean;)VÀ
+EsetUpSignUpPhase(Lcontrol/LoginController;Lview/bean/UserSignUpBean;)Åcontrol.ManageCommunityController#setUpSignUpPhase(Lcontrol/LoginController;Lview/bean/UserSignUpBean;)Lview/bean/UserSignInBean;ø
 EsetUpSignInPhase(Lcontrol/LoginController;Lview/bean/UserSignInBean;)vcontrol.ManageCommunityController#setUpSignInPhase(Lcontrol/LoginController;Lview/bean/UserSignInBean;)Ljava/util/Map;+
-control.LoginControllerjava.lang.Objectæ	
-control.UserLoginControllercontrol.LoginControllerjava.lang.Objecto
-registerUser(Ljava/util/Map;)Ncontrol.UserLoginController#registerUser(Ljava/util/Map;)Lmodel/subjects/User;1
+control.LoginControllerjava.lang.Object™	
+control.UserLoginControllercontrol.LoginControllerjava.lang.Object[
+registerUser(Ljava/util/Map;):control.UserLoginController#registerUser(Ljava/util/Map;)V1
 <init>()%control.UserLoginController#<init>()VÇ
 (registration(Lview/bean/UserSignUpBean;)Vcontrol.UserLoginController#registration(Lview/bean/UserSignUpBean;)Ljavafx/util/Pair;≠
 <fetchUserByCredentials(Ljava/lang/String;Ljava/lang/String;)mcontrol.UserLoginController#fetchUserByCredentials(Ljava/lang/String;Ljava/lang/String;)Lmodel/subjects/User;§
@@ -2887,7 +2921,7 @@ LinitGroupView(Lview/bean/observers/UserBean;Lview/bean/observers/GroupBean;)mv
 setUpMapContainer()Mview.graphicalui.first.HomePage#setUpMapContainer()Ljavafx/scene/web/WebView;«
 QinitMeetingView(Lview/bean/observers/GroupBean;Lview/bean/observers/MeetingBean;)rview.graphicalui.first.HomePage#initMeetingView(Lview/bean/observers/GroupBean;Lview/bean/observers/MeetingBean;)V^
 setUpSearchBar()Jview.graphicalui.first.HomePage#setUpSearchBar()Ljavafx/scene/layout/HBox;X
-setUpMapBar()Gview.graphicalui.first.HomePage#setUpMapBar()Ljavafx/scene/layout/HBox;¢
+setUpMapBar()Gview.graphicalui.first.HomePage#setUpMapBar()Ljavafx/scene/layout/HBox;¡
 ,view.controllerui.first.HomePageEventHandlerjavafx.event.EventHandlerjava.lang.Object‘
 QupdateMeetingJoinersList(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)view.controllerui.first.HomePageEventHandler#updateMeetingJoinersList(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)VX
 manageUserProfile()Aview.controllerui.first.HomePageEventHandler#manageUserProfile()VÃ
@@ -2899,7 +2933,8 @@ KsetUserManageCommunityBoundary(Lview/boundary/UserManageCommunityBoundary;)yvi
 ,getCurrGroupNick(Ljavafx/scene/layout/VBox;)kview.controllerui.first.HomePageEventHandler#getCurrGroupNick(Ljavafx/scene/layout/VBox;)Ljava/lang/String;s
 fetchSelectedGroupNick()Wview.controllerui.first.HomePageEventHandler#fetchSelectedGroupNick()Ljava/lang/String;î
 1updateGroupsList(Lview/bean/observers/GroupBean;)_view.controllerui.first.HomePageEventHandler#updateGroupsList(Lview/bean/observers/GroupBean;)V\
-manageGroupCreation()Cview.controllerui.first.HomePageEventHandler#manageGroupCreation()Vj
+manageGroupCreation()Cview.controllerui.first.HomePageEventHandler#manageGroupCreation()Vú
+ getUserManageCommunityBoundary()xview.controllerui.first.HomePageEventHandler#getUserManageCommunityBoundary()Lview/boundary/UserManageCommunityBoundary;j
 createGroup(Ljava/util/Map;)Jview.controllerui.first.HomePageEventHandler#createGroup(Ljava/util/Map;)V¢
 8updateMeetingsList(Ljava/lang/String;Ljava/lang/String;)fview.controllerui.first.HomePageEventHandler#updateMeetingsList(Ljava/lang/String;Ljava/lang/String;)VP
 manageSignOut()=view.controllerui.first.HomePageEventHandler#manageSignOut()V∞
@@ -2911,51 +2946,49 @@ KsetUserManageCommunityBoundary(Lview/boundary/UserManageCommunityBoundary;)yvi
 :updateGroupOwnerNick(Ljava/lang/String;Ljava/lang/String;)hview.controllerui.first.HomePageEventHandler#updateGroupOwnerNick(Ljava/lang/String;Ljava/lang/String;)VÇ
 (manageSearch(Ljavafx/scene/layout/HBox;)Vview.controllerui.first.HomePageEventHandler#manageSearch(Ljavafx/scene/layout/HBox;)VÄ
 'handle(Ljavafx/scene/input/MouseEvent;)Uview.controllerui.first.HomePageEventHandler#handle(Ljavafx/scene/input/MouseEvent;)VÄ
-'changeUserImageProfile(Ljava/util/Map;)Uview.controllerui.first.HomePageEventHandler#changeUserImageProfile(Ljava/util/Map;)V∑
+'changeUserImageProfile(Ljava/util/Map;)Uview.controllerui.first.HomePageEventHandler#changeUserImageProfile(Ljava/util/Map;)VÌ
 "view.graphicalui.second.SecondMainjavafx.application.Application8
-<init>(),view.graphicalui.second.SecondMain#<init>()VZ
+<init>(),view.graphicalui.second.SecondMain#<init>()V4
+stop()*view.graphicalui.second.SecondMain#stop()VZ
 main([Ljava/lang/String;)=view.graphicalui.second.SecondMain#main([Ljava/lang/String;)Vl
 "setCurrScene(Ljavafx/scene/Scene;)Fview.graphicalui.second.SecondMain#setCurrScene(Ljavafx/scene/Scene;)V^
 start(Ljavafx/stage/Stage;)?view.graphicalui.second.SecondMain#start(Ljavafx/stage/Stage;)VW
 getCurrScene()Eview.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;4
-init()*view.graphicalui.second.SecondMain#init()VÄ
+init()*view.graphicalui.second.SecondMain#init()V‚
 (view.controllerui.second.KeyEventHandlerjavafx.event.EventHandlerjava.lang.Object\
 updateGroupMemberNick()Aview.controllerui.second.KeyEventHandler#updateGroupMemberNick()Vä
 .signupHandle(Lview/graphicalui/second/Signup;)Xview.controllerui.second.KeyEventHandler#signupHandle(Lview/graphicalui/second/Signup;)Vé
-0welcomeHandle(Lview/graphicalui/second/Welcome;)Zview.controllerui.second.KeyEventHandler#welcomeHandle(Lview/graphicalui/second/Welcome;)Vä
+0welcomeHandle(Lview/graphicalui/second/Welcome;)Zview.controllerui.second.KeyEventHandler#welcomeHandle(Lview/graphicalui/second/Welcome;)V»
+MassignUserCredentials(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)wview.controllerui.second.KeyEventHandler#assignUserCredentials(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Vê
+1initSignUpPhase(Lview/graphicalui/second/Signup;)[view.controllerui.second.KeyEventHandler#initSignUpPhase(Lview/graphicalui/second/Signup;)V}
+getStateMachine()hview.controllerui.second.KeyEventHandler#getStateMachine()Lview/controllerui/second/HandlerStateMachine;ê
+1updateGroupsList(Lview/bean/observers/GroupBean;)[view.controllerui.second.KeyEventHandler#updateGroupsList(Lview/bean/observers/GroupBean;)Vò
+ getUserManageCommunityBoundary()tview.controllerui.second.KeyEventHandler#getUserManageCommunityBoundary()Lview/boundary/UserManageCommunityBoundary;>
+<init>()2view.controllerui.second.KeyEventHandler#<init>()Ví
+2moveBackToHomePage(Lview/graphicalui/second/Home;)\view.controllerui.second.KeyEventHandler#moveBackToHomePage(Lview/graphicalui/second/Home;)VV
+updateMeetingsList()>view.controllerui.second.KeyEventHandler#updateMeetingsList()VÇ
+*homeHandle(Lview/graphicalui/second/Home;)Tview.controllerui.second.KeyEventHandler#homeHandle(Lview/graphicalui/second/Home;)Vƒ
+KsetUserManageCommunityBoundary(Lview/boundary/UserManageCommunityBoundary;)uview.controllerui.second.KeyEventHandler#setUserManageCommunityBoundary(Lview/boundary/UserManageCommunityBoundary;)Vä
 .signinHandle(Lview/graphicalui/second/Signin;)Xview.controllerui.second.KeyEventHandler#signinHandle(Lview/graphicalui/second/Signin;)Vê
 1initSigninPhase(Lview/graphicalui/second/Signin;)[view.controllerui.second.KeyEventHandler#initSigninPhase(Lview/graphicalui/second/Signin;)Vm
 getCurrUserBean()Xview.controllerui.second.KeyEventHandler#getCurrUserBean()Lview/bean/observers/UserBean;z
-&accessUser(Lview/bean/UserSignInBean;)Pview.controllerui.second.KeyEventHandler#accessUser(Lview/bean/UserSignInBean;)V»
-MassignUserCredentials(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)wview.controllerui.second.KeyEventHandler#assignUserCredentials(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Vt
+&accessUser(Lview/bean/UserSignInBean;)Pview.controllerui.second.KeyEventHandler#accessUser(Lview/bean/UserSignInBean;)Vt
 #assignCurrUserBean(Ljava/util/Map;)Mview.controllerui.second.KeyEventHandler#assignCurrUserBean(Ljava/util/Map;)Vä
-.updateUserNick(Lview/graphicalui/second/Home;)Xview.controllerui.second.KeyEventHandler#updateUserNick(Lview/graphicalui/second/Home;)Vê
-1initSignUpPhase(Lview/graphicalui/second/Signup;)[view.controllerui.second.KeyEventHandler#initSignUpPhase(Lview/graphicalui/second/Signup;)Vò
-5moveBackToWelcomePage(Lview/graphicalui/second/Home;)_view.controllerui.second.KeyEventHandler#moveBackToWelcomePage(Lview/graphicalui/second/Home;)V}
-getStateMachine()hview.controllerui.second.KeyEventHandler#getStateMachine()Lview/controllerui/second/HandlerStateMachine;v
-$assignMapGroupsBean(Ljava/util/Map;)Nview.controllerui.second.KeyEventHandler#assignMapGroupsBean(Ljava/util/Map;)Vê
-1updateGroupsList(Lview/bean/observers/GroupBean;)[view.controllerui.second.KeyEventHandler#updateGroupsList(Lview/bean/observers/GroupBean;)V‚
+.updateUserNick(Lview/graphicalui/second/Home;)Xview.controllerui.second.KeyEventHandler#updateUserNick(Lview/graphicalui/second/Home;)Vò
+5moveBackToWelcomePage(Lview/graphicalui/second/Home;)_view.controllerui.second.KeyEventHandler#moveBackToWelcomePage(Lview/graphicalui/second/Home;)Vv
+$assignMapGroupsBean(Ljava/util/Map;)Nview.controllerui.second.KeyEventHandler#assignMapGroupsBean(Ljava/util/Map;)V‚
 QverifyUserCredentials(Lview/graphicalui/second/Signin;Lview/bean/UserSignInBean;)åview.controllerui.second.KeyEventHandler#verifyUserCredentials(Lview/graphicalui/second/Signin;Lview/bean/UserSignInBean;)Ljava/lang/String;f
-handle(Ljavafx/event/Event;)Fview.controllerui.second.KeyEventHandler#handle(Ljavafx/event/Event;)V>
-<init>()2view.controllerui.second.KeyEventHandler#<init>()V~
+handle(Ljavafx/event/Event;)Fview.controllerui.second.KeyEventHandler#handle(Ljavafx/event/Event;)V~
 (registerUser(Lview/bean/UserSignUpBean;)Rview.controllerui.second.KeyEventHandler#registerUser(Lview/bean/UserSignUpBean;)V^
 getMapGroupBean()Iview.controllerui.second.KeyEventHandler#getMapGroupBean()Ljava/util/Map;‘
 JverifyUserInfo(Lview/graphicalui/second/Signup;Lview/bean/UserSignUpBean;)Öview.controllerui.second.KeyEventHandler#verifyUserInfo(Lview/graphicalui/second/Signup;Lview/bean/UserSignUpBean;)Ljava/lang/String;d
-updateMeetingParticipants()Eview.controllerui.second.KeyEventHandler#updateMeetingParticipants()Ví
-2moveBackToHomePage(Lview/graphicalui/second/Home;)\view.controllerui.second.KeyEventHandler#moveBackToHomePage(Lview/graphicalui/second/Home;)VV
-updateMeetingsList()>view.controllerui.second.KeyEventHandler#updateMeetingsList()VÇ
-*homeHandle(Lview/graphicalui/second/Home;)Tview.controllerui.second.KeyEventHandler#homeHandle(Lview/graphicalui/second/Home;)V‰
+updateMeetingParticipants()Eview.controllerui.second.KeyEventHandler#updateMeetingParticipants()V‰
 8view.controllerui.second.handlerstates.StateGroupOptions4view.controllerui.second.handlerstates.AbstractStatejava.lang.Objectû
 0initListMeetings(Lview/graphicalui/second/Home;)jview.controllerui.second.handlerstates.StateGroupOptions#initListMeetings(Lview/graphicalui/second/Home;)V¥
 getStateGroupOptionsInstance()ëview.controllerui.second.handlerstates.StateGroupOptions#getStateGroupOptionsInstance()Lview/controllerui/second/handlerstates/StateGroupOptions;é
 (checkCmd(Lview/graphicalui/second/Home;)bview.controllerui.second.handlerstates.StateGroupOptions#checkCmd(Lview/graphicalui/second/Home;)VN
 <init>()Bview.controllerui.second.handlerstates.StateGroupOptions#<init>()V¶
-4initListGroupMembers(Lview/graphicalui/second/Home;)nview.controllerui.second.handlerstates.StateGroupOptions#initListGroupMembers(Lview/graphicalui/second/Home;)Vˆ
-0view.controllerui.second.handlerstates.StateMain4view.controllerui.second.handlerstates.AbstractStatejava.lang.ObjectÜ
-(checkCmd(Lview/graphicalui/second/Home;)Zview.controllerui.second.handlerstates.StateMain#checkCmd(Lview/graphicalui/second/Home;)VF
-<init>():view.controllerui.second.handlerstates.StateMain#<init>()Vì
-getStateMainInstance()yview.controllerui.second.handlerstates.StateMain#getStateMainInstance()Lview/controllerui/second/handlerstates/StateMain;í
-.initListGroups(Lview/graphicalui/second/Home;)`view.controllerui.second.handlerstates.StateMain#initListGroups(Lview/graphicalui/second/Home;)V◊
+4initListGroupMembers(Lview/graphicalui/second/Home;)nview.controllerui.second.handlerstates.StateGroupOptions#initListGroupMembers(Lview/graphicalui/second/Home;)V◊
 :view.controllerui.second.handlerstates.StateMeetingDetails4view.controllerui.second.handlerstates.AbstractStatejava.lang.Objectê
 (checkCmd(Lview/graphicalui/second/Home;)dview.controllerui.second.handlerstates.StateMeetingDetails#checkCmd(Lview/graphicalui/second/Home;)VP
 <init>()Dview.controllerui.second.handlerstates.StateMeetingDetails#<init>()Vº
@@ -3422,10 +3455,77 @@ isClosed()java.net.Socket#isClosed()Z;
 isConnected()java.net.Socket#isConnected()ZS
 <init>(Ljava/net/InetAddress;I)0java.net.Socket#<init>(Ljava/net/InetAddress;I)Vy
 2setSocketImplFactory(Ljava/net/SocketImplFactory;)Cjava.net.Socket#setSocketImplFactory(Ljava/net/SocketImplFactory;)V1
-getOOBInline()java.net.Socket#getOOBInline()Z%
+getOOBInline()java.net.Socket#getOOBInline()Z&
+java.io.DataOutputjava.lang.ObjectU
+java.io.ObjectOutputjava.io.DataOutputjava.lang.Objectjava.lang.AutoCloseable1
+java.io.ObjectStreamConstantsjava.lang.Object%
+java.io.Flushablejava.lang.ObjectÉ
+java.io.OutputStreamjava.io.Closeablejava.lang.Objectjava.io.FlushableS
+nullOutputStream()=java.io.OutputStream#nullOutputStream()Ljava/io/OutputStream;,
+	write([B)java.io.OutputStream#write([B)V*
+<init>()java.io.OutputStream#<init>()V(
+flush()java.io.OutputStream#flush()V0
+write([BII)!java.io.OutputStream#write([BII)V(
+close()java.io.OutputStream#close()Vî'
+java.io.ObjectOutputStreamjava.io.OutputStreamjava.io.ObjectOutputjava.io.ObjectStreamConstantsb
+!writeUnshared(Ljava/lang/Object;)=java.io.ObjectOutputStream#writeUnshared(Ljava/lang/Object;)VJ
+useProtocolVersion(I)1java.io.ObjectOutputStream#useProtocolVersion(I)Vv
++writeExternalData(Ljava/io/Externalizable;)Gjava.io.ObjectOutputStream#writeExternalData(Ljava/io/Externalizable;)V.
+drain()#java.io.ObjectOutputStream#drain()V8
+writeLong(J)(java.io.ObjectOutputStream#writeLong(J)V8
+writeByte(I)(java.io.ObjectOutputStream#writeByte(I)Vt
+*writeFatalException(Ljava/io/IOException;)Fjava.io.ObjectOutputStream#writeFatalException(Ljava/io/IOException;)V6
+write([BII)'java.io.ObjectOutputStream#write([BII)Vx
+,writeProxyDesc(Ljava/io/ObjectStreamClass;Z)Hjava.io.ObjectOutputStream#writeProxyDesc(Ljava/io/ObjectStreamClass;Z)V0
+<init>()$java.io.ObjectOutputStream#<init>()V\
+writeChars(Ljava/lang/String;):java.io.ObjectOutputStream#writeChars(Ljava/lang/String;)V0
+write(I)$java.io.ObjectOutputStream#write(I)V8
+writeChar(I)(java.io.ObjectOutputStream#writeChar(I)Vx
+,writeClassDesc(Ljava/io/ObjectStreamClass;Z)Hjava.io.ObjectOutputStream#writeClassDesc(Ljava/io/ObjectStreamClass;Z)V`
+ writeString(Ljava/lang/String;Z)<java.io.ObjectOutputStream#writeString(Ljava/lang/String;Z)V.
+clear()#java.io.ObjectOutputStream#clear()VH
+defaultWriteObject()0java.io.ObjectOutputStream#defaultWriteObject()Vú
+>writeSerialData(Ljava/lang/Object;Ljava/io/ObjectStreamClass;)Zjava.io.ObjectOutputStream#writeSerialData(Ljava/lang/Object;Ljava/io/ObjectStreamClass;)V¶
+CwriteOrdinaryObject(Ljava/lang/Object;Ljava/io/ObjectStreamClass;Z)_java.io.ObjectOutputStream#writeOrdinaryObject(Ljava/lang/Object;Ljava/io/ObjectStreamClass;Z)V.
+flush()#java.io.ObjectOutputStream#flush()V:
+writeShort(I))java.io.ObjectOutputStream#writeShort(I)V^
+writeObject(Ljava/lang/Object;);java.io.ObjectOutputStream#writeObject(Ljava/lang/Object;)Vb
+!writeObject0(Ljava/lang/Object;Z)=java.io.ObjectOutputStream#writeObject0(Ljava/lang/Object;Z)Vî
+:writeArray(Ljava/lang/Object;Ljava/io/ObjectStreamClass;Z)Vjava.io.ObjectOutputStream#writeArray(Ljava/lang/Object;Ljava/io/ObjectStreamClass;Z)Vr
+ auditSubclass(Ljava/lang/Class;)Njava.io.ObjectOutputStream#auditSubclass(Ljava/lang/Class;)Ljava/lang/Boolean;:
+writeFloat(F))java.io.ObjectOutputStream#writeFloat(F)V<
+writeDouble(D)*java.io.ObjectOutputStream#writeDouble(D)VH
+getProtocolVersion()0java.io.ObjectOutputStream#getProtocolVersion()I>
+writeBoolean(Z)+java.io.ObjectOutputStream#writeBoolean(Z)VZ
+putFields()Kjava.io.ObjectOutputStream#putFields()Ljava/io/ObjectOutputStream$PutField;6
+writeNull()'java.io.ObjectOutputStream#writeNull()V\
+writeBytes(Ljava/lang/String;):java.io.ObjectOutputStream#writeBytes(Ljava/lang/String;)Vf
+#writeTypeString(Ljava/lang/String;)?java.io.ObjectOutputStream#writeTypeString(Ljava/lang/String;)V\
+writeClass(Ljava/lang/Class;Z):java.io.ObjectOutputStream#writeClass(Ljava/lang/Class;Z)V`
+ annotateClass(Ljava/lang/Class;)<java.io.ObjectOutputStream#annotateClass(Ljava/lang/Class;)VÇ
+1writeClassDescriptor(Ljava/io/ObjectStreamClass;)Mjava.io.ObjectOutputStream#writeClassDescriptor(Ljava/io/ObjectStreamClass;)V@
+verifySubclass(),java.io.ObjectOutputStream#verifySubclass()V<
+writeHandle(I)*java.io.ObjectOutputStream#writeHandle(I)V¢
+AdefaultWriteFields(Ljava/lang/Object;Ljava/io/ObjectStreamClass;)]java.io.ObjectOutputStream#defaultWriteFields(Ljava/lang/Object;Ljava/io/ObjectStreamClass;)Vn
+'writeObjectOverride(Ljava/lang/Object;)Cjava.io.ObjectOutputStream#writeObjectOverride(Ljava/lang/Object;)VF
+writeStreamHeader()/java.io.ObjectOutputStream#writeStreamHeader()VL
+floatsToBytes([FI[BII)2java.io.ObjectOutputStream#floatsToBytes([FI[BII)Vj
+%annotateProxyClass(Ljava/lang/Class;)Ajava.io.ObjectOutputStream#annotateProxyClass(Ljava/lang/Class;)V6
+writeInt(I)'java.io.ObjectOutputStream#writeInt(I)V.
+close()#java.io.ObjectOutputStream#close()VX
+writeUTF(Ljava/lang/String;)8java.io.ObjectOutputStream#writeUTF(Ljava/lang/String;)V2
+	write([B)%java.io.ObjectOutputStream#write([B)Vs
+!replaceObject(Ljava/lang/Object;)Njava.io.ObjectOutputStream#replaceObject(Ljava/lang/Object;)Ljava/lang/Object;é
+7writeEnum(Ljava/lang/Enum;Ljava/io/ObjectStreamClass;Z)Sjava.io.ObjectOutputStream#writeEnum(Ljava/lang/Enum;Ljava/io/ObjectStreamClass;Z)V:
+writeFields())java.io.ObjectOutputStream#writeFields()V.
+reset()#java.io.ObjectOutputStream#reset()VL
+enableReplaceObject(Z)2java.io.ObjectOutputStream#enableReplaceObject(Z)Z\
+<init>(Ljava/io/OutputStream;):java.io.ObjectOutputStream#<init>(Ljava/io/OutputStream;)V~
+/writeNonProxyDesc(Ljava/io/ObjectStreamClass;Z)Kjava.io.ObjectOutputStream#writeNonProxyDesc(Ljava/io/ObjectStreamClass;Z)VN
+doublesToBytes([DI[BII)3java.io.ObjectOutputStream#doublesToBytes([DI[BII)VD
+isCustomSubclass().java.io.ObjectOutputStream#isCustomSubclass()Z%
 java.io.DataInputjava.lang.ObjectS
-java.io.ObjectInputjava.io.DataInputjava.lang.Objectjava.lang.AutoCloseable1
-java.io.ObjectStreamConstantsjava.lang.Object€
+java.io.ObjectInputjava.io.DataInputjava.lang.Objectjava.lang.AutoCloseable€
 java.io.InputStreamjava.io.Closeablejava.lang.Object/
 available() java.io.InputStream#available()I4
 readNBytes(I)#java.io.InputStream#readNBytes(I)[B7
@@ -3516,7 +3616,10 @@ readNull()6java.io.ObjectInputStream#readNull()Ljava/lang/Object;M
 checkArray(Ljava/lang/Class;I)9java.io.ObjectInputStream#checkArray(Ljava/lang/Class;I)V_
 readNonProxyDesc(Z)Hjava.io.ObjectInputStream#readNonProxyDesc(Z)Ljava/io/ObjectStreamClass;C
 isCustomSubclass()-java.io.ObjectInputStream#isCustomSubclass()ZK
-enableResolveObject(Z)1java.io.ObjectInputStream#enableResolveObject(Z)Zî	
+enableResolveObject(Z)1java.io.ObjectInputStream#enableResolveObject(Z)Z⁄
+0control.controlutilities.SecureObjectInputStreamjava.io.ObjectInputStreamò
+)resolveClass(Ljava/io/ObjectStreamClass;)kcontrol.controlutilities.SecureObjectInputStream#resolveClass(Ljava/io/ObjectStreamClass;)Ljava/lang/Class;p
+<init>(Ljava/io/InputStream;)Ocontrol.controlutilities.SecureObjectInputStream#<init>(Ljava/io/InputStream;)Vî	
 java.lang.Booleanjava.lang.Comparablejava.lang.Objectjava.io.Serializable_
 valueOf(Ljava/lang/String;)@java.lang.Boolean#valueOf(Ljava/lang/String;)Ljava/lang/Boolean;W
  parseBoolean(Ljava/lang/String;)3java.lang.Boolean#parseBoolean(Ljava/lang/String;)ZK
@@ -3537,8 +3640,8 @@ hashCode()java.lang.Boolean#hashCode()I3
 compareTo(Ljava/lang/Boolean;)1java.lang.Boolean#compareTo(Ljava/lang/Boolean;)IK
 <init>(Ljava/lang/String;)-java.lang.Boolean#<init>(Ljava/lang/String;)V)
 	<init>(Z)java.lang.Boolean#<init>(Z)VS
-getBoolean(Ljava/lang/String;)1java.lang.Boolean#getBoolean(Ljava/lang/String;)Zì
-model.subjects.Groupmodel.subjects.Subjectjava.io.Serializableb
+getBoolean(Ljava/lang/String;)1java.lang.Boolean#getBoolean(Ljava/lang/String;)Z˝
+model.subjects.Groupmodel.subjects.Subjectb
 $updateMembers(Lmodel/subjects/User;):model.subjects.Group#updateMembers(Lmodel/subjects/User;)V?
 
 nickname()1model.subjects.Group#nickname()Ljava/lang/String;7
@@ -3549,8 +3652,8 @@ J<init>(Ljava/util/Map;Lmodel/subjects/User;Ljava/util/Map;Ljava/util/Map;)`mod
 	members()-model.subjects.Group#members()Ljava/util/Map;G
 imageProfile()5model.subjects.Group#imageProfile()Ljava/lang/String;E
 getChange()6model.subjects.Group#getChange()Lmodel/subjects/State;H
-plannedMeeting()4model.subjects.Group#plannedMeeting()Ljava/util/Map;â
-model.subjects.Meetingmodel.subjects.Subjectjava.io.SerializableA
+plannedMeeting()4model.subjects.Group#plannedMeeting()Ljava/util/Map;Û
+model.subjects.Meetingmodel.subjects.SubjectA
 
 location()3model.subjects.Meeting#location()Ljavafx/util/Pair;C
 timeTable()4model.subjects.Meeting#timeTable()Ljavafx/util/Pair;F
@@ -3560,9 +3663,21 @@ location()3model.subjects.Meeting#location()Ljavafx/util/Pair;C
 K<init>(Ljava/util/Map;Ljava/util/List;Lmodel/subjects/User;Ljava/util/Map;)cmodel.subjects.Meeting#<init>(Ljava/util/Map;Ljava/util/List;Lmodel/subjects/User;Ljava/util/Map;)V=
 	gallery()0model.subjects.Meeting#gallery()Ljava/util/List;Æ
 IupdateJoiners(Ljava/lang/String;Lmodel/subjects/User;Ljava/lang/Boolean;)amodel.subjects.Meeting#updateJoiners(Ljava/lang/String;Lmodel/subjects/User;Ljava/lang/Boolean;)V<
-	joiners()/model.subjects.Meeting#joiners()Ljava/util/Map;0
-view.bean.observers.Observerjava.lang.Object¿
-view.bean.observers.GroupBeanjava.lang.Objectview.bean.observers.Observerjava.io.SerializableY
+	joiners()/model.subjects.Meeting#joiners()Ljava/util/Map;¸
+model.LocalBridgejava.lang.Object=
+
+readPort()/model.LocalBridge#readPort()Ljava/lang/Integer;-
+endBridge()model.LocalBridge#endBridge()V1
+closeBridge() model.LocalBridge#closeBridge()V'
+<init>()model.LocalBridge#<init>()VQ
+initPort(Ljava/lang/Integer;)0model.LocalBridge#initPort(Ljava/lang/Integer;)V8
+readIp(),model.LocalBridge#readIp()Ljava/lang/String;ƒ
+view.NotificationTaskjavafx.concurrent.TaskÎ
+hcloseResources(Ljava/net/Socket;Ljava/io/InputStream;Lcontrol/controlutilities/SecureObjectInputStream;)view.NotificationTask#closeResources(Ljava/net/Socket;Ljava/io/InputStream;Lcontrol/controlutilities/SecureObjectInputStream;)V6
+call(),view.NotificationTask#call()Ljava/lang/Void;m
+)<init>(Lmodel/LocalBridge;Lmodel/Filter;)@view.NotificationTask#<init>(Lmodel/LocalBridge;Lmodel/Filter;)VF
+view.bean.observers.Observerjava.lang.Objectjava.io.Serializable™
+view.bean.observers.GroupBeanjava.lang.Objectview.bean.observers.ObserverY
 setName(Ljava/lang/String;):view.bean.observers.GroupBean#setName(Ljava/lang/String;)VQ
 update(Ljava/util/Map;)6view.bean.observers.GroupBean#update(Ljava/util/Map;)Va
 setMapMeetings(Ljava/util/Map;)>view.bean.observers.GroupBean#setMapMeetings(Ljava/util/Map;)VH
@@ -3594,8 +3709,8 @@ getOwner()Fview.bean.observers.GroupBean#getOwner()Lview/bean/observers/UserBea
 model.subjects.Statejava.lang.Enume
 valueOf(Ljava/lang/String;)Fmodel.subjects.State#valueOf(Ljava/lang/String;)Lmodel/subjects/State;@
 values()4model.subjects.State#values()[Lmodel/subjects/State;P
-<init>(Ljava/lang/String;I)1model.subjects.State#<init>(Ljava/lang/String;I)VÍ
-view.bean.observers.UserBeanjava.lang.Objectview.bean.observers.Observerjava.io.SerializableX
+<init>(Ljava/lang/String;I)1model.subjects.State#<init>(Ljava/lang/String;I)V‘
+view.bean.observers.UserBeanjava.lang.Objectview.bean.observers.ObserverX
 setName(Ljava/lang/String;)9view.bean.observers.UserBean#setName(Ljava/lang/String;)VP
 update(Ljava/util/Map;)5view.bean.observers.UserBean#update(Ljava/util/Map;)Vh
 #setImageProfile(Ljava/lang/String;)Aview.bean.observers.UserBean#setImageProfile(Ljava/lang/String;)V^
@@ -3609,8 +3724,8 @@ getOwner()Fview.bean.observers.GroupBean#getOwner()Lview/bean/observers/UserBea
 VnotifyNewGroupMemberNickToView(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)tview.bean.observers.UserBean#notifyNewGroupMemberNickToView(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V®
 CnotifyNewGroupOwnerNickToView(Ljava/lang/String;Ljava/lang/String;)aview.bean.observers.UserBean#notifyNewGroupOwnerNickToView(Ljava/lang/String;Ljava/lang/String;)V`
 setNickname(Ljava/lang/String;)=view.bean.observers.UserBean#setNickname(Ljava/lang/String;)VK
-getSurname();view.bean.observers.UserBean#getSurname()Ljava/lang/String;Œ
-view.bean.observers.MeetingBeanjava.lang.Objectview.bean.observers.Observerjava.io.Serializable[
+getSurname();view.bean.observers.UserBean#getSurname()Ljava/lang/String;∏
+view.bean.observers.MeetingBeanjava.lang.Objectview.bean.observers.Observer[
 setName(Ljava/lang/String;)<view.bean.observers.MeetingBean#setName(Ljava/lang/String;)VS
 update(Ljava/util/Map;)8view.bean.observers.MeetingBean#update(Ljava/util/Map;)VW
 setId(Ljava/lang/String;):view.bean.observers.MeetingBean#setId(Ljava/lang/String;)VJ
@@ -3795,7 +3910,12 @@ toString()3javafx.scene.text.Text#toString()Ljava/lang/String;<
 doCreatePeer()Ejavafx.scene.text.Text#doCreatePeer()Lcom/sun/javafx/sg/prism/NGNode;W
 xProperty()Hjavafx.scene.text.Text#xProperty()Ljavafx/beans/property/DoubleProperty;:
 usesMirroring()'javafx.scene.text.Text#usesMirroring()ZU
-getClassCssMetaData()<javafx.scene.text.Text#getClassCssMetaData()Ljava/util/List;°
+getClassCssMetaData()<javafx.scene.text.Text#getClassCssMetaData()Ljava/util/List;ˆ
+0view.controllerui.second.handlerstates.StateMain4view.controllerui.second.handlerstates.AbstractStatejava.lang.ObjectÜ
+(checkCmd(Lview/graphicalui/second/Home;)Zview.controllerui.second.handlerstates.StateMain#checkCmd(Lview/graphicalui/second/Home;)VF
+<init>():view.controllerui.second.handlerstates.StateMain#<init>()Vì
+getStateMainInstance()yview.controllerui.second.handlerstates.StateMain#getStateMainInstance()Lview/controllerui/second/handlerstates/StateMain;í
+.initListGroups(Lview/graphicalui/second/Home;)`view.controllerui.second.handlerstates.StateMain#initListGroups(Lview/graphicalui/second/Home;)V°
 9view.controllerui.second.handlerstates.StateManageProfile4view.controllerui.second.handlerstates.AbstractStatejava.lang.Object∏
 getStateManageProfileInstance()îview.controllerui.second.handlerstates.StateManageProfile#getStateManageProfileInstance()Lview/controllerui/second/handlerstates/StateManageProfile;è
 (checkCmd(Lview/graphicalui/second/Home;)cview.controllerui.second.handlerstates.StateManageProfile#checkCmd(Lview/graphicalui/second/Home;)VO
@@ -3841,11 +3961,12 @@ Bview.graphicalui.second.usernamequestionstates.QuestionNewUsernamejava.lang.O
 getQuestionGroupNameInstance()õview.graphicalui.second.groupquestionstates.QuestionGroupName#getQuestionGroupNameInstance()Lview/graphicalui/second/groupquestionstates/QuestionGroupName;U
 	display()Hview.graphicalui.second.groupquestionstates.QuestionGroupName#display()VS
 <init>()Gview.graphicalui.second.groupquestionstates.QuestionGroupName#<init>()V´
-4next(Lview/graphicalui/second/QuestionStateMachine;)sview.graphicalui.second.groupquestionstates.QuestionGroupName#next(Lview/graphicalui/second/QuestionStateMachine;)V∂
+4next(Lview/graphicalui/second/QuestionStateMachine;)sview.graphicalui.second.groupquestionstates.QuestionGroupName#next(Lview/graphicalui/second/QuestionStateMachine;)V›
 <view.controllerui.second.handlerstates.StateGroupCreationEnd4view.controllerui.second.handlerstates.AbstractStatejava.lang.Objectí
 (checkCmd(Lview/graphicalui/second/Home;)fview.controllerui.second.handlerstates.StateGroupCreationEnd#checkCmd(Lview/graphicalui/second/Home;)VR
 <init>()Fview.controllerui.second.handlerstates.StateGroupCreationEnd#<init>()Vƒ
-"getStateGroupCreationEndInstance()ùview.controllerui.second.handlerstates.StateGroupCreationEnd#getStateGroupCreationEndInstance()Lview/controllerui/second/handlerstates/StateGroupCreationEnd;å
+"getStateGroupCreationEndInstance()ùview.controllerui.second.handlerstates.StateGroupCreationEnd#getStateGroupCreationEndInstance()Lview/controllerui/second/handlerstates/StateGroupCreationEnd;§
+1createGroup(Ljava/lang/String;Ljava/lang/String;)oview.controllerui.second.handlerstates.StateGroupCreationEnd#createGroup(Ljava/lang/String;Ljava/lang/String;)Vå
 6view.controllerui.second.handlerstates.StateGroupsView4view.controllerui.second.handlerstates.AbstractStatejava.lang.Object¨
 getStateGroupsViewInstance()ãview.controllerui.second.handlerstates.StateGroupsView#getStateGroupsViewInstance()Lview/controllerui/second/handlerstates/StateGroupsView;å
 (checkCmd(Lview/graphicalui/second/Home;)`view.controllerui.second.handlerstates.StateGroupsView#checkCmd(Lview/graphicalui/second/Home;)VL
@@ -3904,7 +4025,7 @@ $getStateMeetingJoinersViewInstance()£view.controllerui.second.handlerstates.S
 view.bean.UserBeanCollectorjava.lang.Object1
 <init>()%view.bean.UserBeanCollector#<init>()Vå
 'getUserBeanInstance(Ljava/lang/String;)aview.bean.UserBeanCollector#getUserBeanInstance(Ljava/lang/String;)Lview/bean/observers/UserBean;á
-3addUserBeanInstance(Lview/bean/observers/UserBean;)Pview.bean.UserBeanCollector#addUserBeanInstance(Lview/bean/observers/UserBean;)VŒ
+3addUserBeanInstance(Lview/bean/observers/UserBean;)Pview.bean.UserBeanCollector#addUserBeanInstance(Lview/bean/observers/UserBean;)Vñ
 !model.db.dbqueries.UserDAOQueriesjava.lang.Objectˇ
 dselectUsersIntoMeeting(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;)ñmodel.db.dbqueries.UserDAOQueries#selectUsersIntoMeeting(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;)Ljava/util/List;˙
 bselectUserByNickname(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;)ìmodel.db.dbqueries.UserDAOQueries#selectUserByNickname(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;)Ljava/util/Map;ß
@@ -3914,8 +4035,7 @@ bselectUserByNickname(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;
 bselectUsersIntoGroup(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;)îmodel.db.dbqueries.UserDAOQueries#selectUsersIntoGroup(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;)Ljava/util/List;—
 UinsertUser(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/util/Map;)xmodel.db.dbqueries.UserDAOQueries#insertUser(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/util/Map;)V}
 $unpackUserInfo(Ljava/sql/ResultSet;)Umodel.db.dbqueries.UserDAOQueries#unpackUserInfo(Ljava/sql/ResultSet;)Ljava/util/Map;§
-wselectUserByNickAndPass(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)®model.db.dbqueries.UserDAOQueries#selectUserByNickAndPass(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map;µ
-ÜupdateUserIpAndPort(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)©model.db.dbqueries.UserDAOQueries#updateUserIpAndPort(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/String;)V±
+wselectUserByNickAndPass(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)®model.db.dbqueries.UserDAOQueries#selectUserByNickAndPass(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map;±
 /model.db.dbexceptions.DuplicatedRecordExceptionjava.lang.Exceptioni
 <init>(Ljava/lang/String;)Kmodel.db.dbexceptions.DuplicatedRecordException#<init>(Ljava/lang/String;)V¿
 java.lang.Numberjava.lang.Objectjava.io.Serializable.
@@ -3987,9 +4107,11 @@ valueOf(I)/java.lang.Integer#valueOf(I)Ljava/lang/Integer;5
 toUnsignedString(I)7java.lang.Integer#toUnsignedString(I)Ljava/lang/String;J
 toStringUTF16(II)5java.lang.Integer#toStringUTF16(II)Ljava/lang/String;=
 compareUnsigned(II)&java.lang.Integer#compareUnsigned(II)I%
-max(II)java.lang.Integer#max(II)IÜ
-model.ImageProfilejava.lang.Object(
-<init>()model.ImageProfile#<init>()V≥
+max(II)java.lang.Integer#max(II)I„
+model.ImageProfilejava.lang.ObjectR
+imageSize(Ljava/lang/String;)1model.ImageProfile#imageSize(Ljava/lang/String;)I(
+<init>()model.ImageProfile#<init>()VÜ
++fromStringToInputStream(Ljava/lang/String;)Wmodel.ImageProfile#fromStringToInputStream(Ljava/lang/String;)Ljava/io/FileInputStream;≥
 EfromBlobToString(Ljava/lang/String;Ljava/sql/Blob;Ljava/lang/String;)jmodel.ImageProfile#fromBlobToString(Ljava/lang/String;Ljava/sql/Blob;Ljava/lang/String;)Ljava/lang/String;Á&
 javafx.stage.Stagejavafx.stage.Window[
 titleProperty()Hjavafx.stage.Stage#titleProperty()Ljavafx/beans/property/StringProperty;W
@@ -4059,18 +4181,15 @@ getOwner()2javafx.stage.Stage#getOwner()Ljavafx/stage/Window;T
 setMinWidth(D)"javafx.stage.Stage#setMinWidth(D)V4
 isFullScreen()"javafx.stage.Stage#isFullScreen()Z6
 setImportant(Z)#javafx.stage.Stage#setImportant(Z)Va
-minWidthProperty()Kjavafx.stage.Stage#minWidthProperty()Ljavafx/beans/property/DoubleProperty;⁄
+minWidthProperty()Kjavafx.stage.Stage#minWidthProperty()Ljavafx/beans/property/DoubleProperty;Ú
 model.dao.UserDAOjava.lang.Objectmodel.dao.BaseDAO{
 +readEntities(Ljava/util/Map;Lmodel/Filter;)Lmodel.dao.UserDAO#readEntities(Ljava/util/Map;Lmodel/Filter;)Ljava/util/Map;i
-"makeUserEntities(Ljava/util/List;)Cmodel.dao.UserDAO#makeUserEntities(Ljava/util/List;)Ljava/util/Map;b
-createEntity(Ljava/util/Map;)Amodel.dao.UserDAO#createEntity(Ljava/util/Map;)Ljava/lang/Object;m
+"makeUserEntities(Ljava/util/List;)Cmodel.dao.UserDAO#makeUserEntities(Ljava/util/List;)Ljava/util/Map;Q
+createEntity(Ljava/util/Map;)0model.dao.UserDAO#createEntity(Ljava/util/Map;)Vm
 +updateEntity(Ljava/util/Map;Lmodel/Filter;)>model.dao.UserDAO#updateEntity(Ljava/util/Map;Lmodel/Filter;)Vi
-makeUserEntity(Ljava/util/Map;)Fmodel.dao.UserDAO#makeUserEntity(Ljava/util/Map;)Lmodel/subjects/User;U
-saveUserIntoDB(Ljava/util/Map;)2model.dao.UserDAO#saveUserIntoDB(Ljava/util/Map;)V'
+makeUserEntity(Ljava/util/Map;)Fmodel.dao.UserDAO#makeUserEntity(Ljava/util/Map;)Lmodel/subjects/User;'
 <init>()model.dao.UserDAO#<init>()Vz
-)readEntity(Ljava/util/Map;Lmodel/Filter;)Mmodel.dao.UserDAO#readEntity(Ljava/util/Map;Lmodel/Filter;)Ljava/lang/Object;©
-+control.controlexceptions.InternalExceptionjava.lang.Exceptione
-<init>(Ljava/lang/String;)Gcontrol.controlexceptions.InternalException#<init>(Ljava/lang/String;)Væ
+)readEntity(Ljava/util/Map;Lmodel/Filter;)Mmodel.dao.UserDAO#readEntity(Ljava/util/Map;Lmodel/Filter;)Ljava/lang/Object;æ
 7view.bean.errorsignupdecorations.CellBeanErrorDecoratorview.bean.BeanErrorDecoratorw
 <init>(Lview/bean/BeanError;)Vview.bean.errorsignupdecorations.CellBeanErrorDecorator#<init>(Lview/bean/BeanError;)Vl
 displayErrors()Yview.bean.errorsignupdecorations.CellBeanErrorDecorator#displayErrors()Ljava/lang/String;õ
@@ -4187,15 +4306,7 @@ canWrite()java.io.File#canWrite()Z2
 isInvalid()java.io.File#isInvalid()Z4
 setExecutable(ZZ)java.io.File#setExecutable(ZZ)Z0
 createNewFile()java.io.File#createNewFile()Zd
-)writeObject(Ljava/io/ObjectOutputStream;)7java.io.File#writeObject(Ljava/io/ObjectOutputStream;)V%
-java.io.Flushablejava.lang.ObjectÉ
-java.io.OutputStreamjava.io.Closeablejava.lang.Objectjava.io.FlushableS
-nullOutputStream()=java.io.OutputStream#nullOutputStream()Ljava/io/OutputStream;,
-	write([B)java.io.OutputStream#write([B)V*
-<init>()java.io.OutputStream#<init>()V(
-flush()java.io.OutputStream#flush()V0
-write([BII)!java.io.OutputStream#write([BII)V(
-close()java.io.OutputStream#close()VÅ	
+)writeObject(Ljava/io/ObjectOutputStream;)7java.io.File#writeObject(Ljava/io/ObjectOutputStream;)VÅ	
 java.io.FileOutputStreamjava.io.OutputStream0
 	write([B)#java.io.FileOutputStream#write([B)VT
 getChannel()Djava.io.FileOutputStream#getChannel()Ljava/nio/channels/FileChannel;@
@@ -4212,7 +4323,27 @@ canWrite()java.io.File#canWrite()Z2
 <init>(Ljava/lang/String;Z)5java.io.FileOutputStream#<init>(Ljava/lang/String;Z)VR
 <init>(Ljava/lang/String;)4java.io.FileOutputStream#<init>(Ljava/lang/String;)V.
 write(I)"java.io.FileOutputStream#write(I)V,
-close()!java.io.FileOutputStream#close()VÉ
+close()!java.io.FileOutputStream#close()VÅ	
+java.io.FileInputStreamjava.io.InputStream3
+available()$java.io.FileInputStream#available()IS
+getChannel()Cjava.io.FileInputStream#getChannel()Ljava/nio/channels/FileChannel;-
+read([B)!java.io.FileInputStream#read([B)IM
+open(Ljava/lang/String;)1java.io.FileInputStream#open(Ljava/lang/String;)V1
+
+read([BII)#java.io.FileInputStream#read([BII)II
+<init>(Ljava/io/File;)/java.io.FileInputStream#<init>(Ljava/io/File;)VB
+getFD()7java.io.FileInputStream#getFD()Ljava/io/FileDescriptor;]
+ <init>(Ljava/io/FileDescriptor;)9java.io.FileInputStream#<init>(Ljava/io/FileDescriptor;)V/
+	initIDs()"java.io.FileInputStream#initIDs()V)
+read()java.io.FileInputStream#read()I+
+skip(J) java.io.FileInputStream#skip(J)JQ
+<init>(Ljava/lang/String;)3java.io.FileInputStream#<init>(Ljava/lang/String;)V-
+skip0(J)!java.io.FileInputStream#skip0(J)J;
+readBytes([BII)(java.io.FileInputStream#readBytes([BII)IO
+open0(Ljava/lang/String;)2java.io.FileInputStream#open0(Ljava/lang/String;)V5
+available0()%java.io.FileInputStream#available0()I+
+read0() java.io.FileInputStream#read0()I+
+close() java.io.FileInputStream#close()VÉ
 :view.graphicalui.first.toolbardecorations.SignBarDecorator3view.graphicalui.first.toolbardecorations.Decorator∆
 C<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)view.graphicalui.first.toolbardecorations.SignBarDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)Vi
 draw()_view.graphicalui.first.toolbardecorations.SignBarDecorator#draw()Ljavafx/scene/control/ToolBar;\
@@ -4612,7 +4743,9 @@ bdoComputeGeomBounds(Lcom/sun/javafx/geom/BaseBounds;Lcom/sun/javafx/geom/transf
 4next(Lview/graphicalui/second/QuestionStateMachine;)pview.graphicalui.second.usernamequestionstates.QuestionEnd#next(Lview/graphicalui/second/QuestionStateMachine;)V«
 :view.bean.errorsignupdecorations.AddressBeanErrorDecoratorview.bean.BeanErrorDecoratorz
 <init>(Lview/bean/BeanError;)Yview.bean.errorsignupdecorations.AddressBeanErrorDecorator#<init>(Lview/bean/BeanError;)Vo
-displayErrors()\view.bean.errorsignupdecorations.AddressBeanErrorDecorator#displayErrors()Ljava/lang/String;–
+displayErrors()\view.bean.errorsignupdecorations.AddressBeanErrorDecorator#displayErrors()Ljava/lang/String;Ö
++control.controlutilities.MessengerExceptionjava.lang.ExceptionA
+<init>()5control.controlutilities.MessengerException#<init>()V–
 view.graphicalui.second.Welcomeview.graphicalui.second.Shell?
 setUpScreen().view.graphicalui.second.Welcome#setUpScreen()Vm
 getWelcomeInstance()Uview.graphicalui.second.Welcome#getWelcomeInstance()Lview/graphicalui/second/Welcome;5
@@ -4723,7 +4856,95 @@ getIndex()@view.graphicalui.second.SignupInfo#getIndex()Ljava/lang/Integer;Ï
 values()Pview.graphicalui.second.SigninInfo#values()[Lview/graphicalui/second/SigninInfo;^
 <init>(Ljava/lang/String;I)?view.graphicalui.second.SigninInfo#<init>(Ljava/lang/String;I)VN
 
-getIndex()@view.graphicalui.second.SigninInfo#getIndex()Ljava/lang/Integer;Ï
+getIndex()@view.graphicalui.second.SigninInfo#getIndex()Ljava/lang/Integer;ÄB
+java.io.ObjectStreamClassjava.lang.Objectjava.io.SerializableK
+hasBlockExternalData()1java.io.ObjectStreamClass#hasBlockExternalData()Z7
+initNative()'java.io.ObjectStreamClass#initNative()Vh
+noPermissionsDomain()Ojava.io.ObjectStreamClass#noPermissionsDomain()Ljava/security/ProtectionDomain;I
+hasReadObjectMethod()0java.io.ObjectStreamClass#hasReadObjectMethod()ZU
+getLocalDesc()Cjava.io.ObjectStreamClass#getLocalDesc()Ljava/io/ObjectStreamClass;ó
+-getSerializableConstructor(Ljava/lang/Class;)fjava.io.ObjectStreamClass#getSerializableConstructor(Ljava/lang/Class;)Ljava/lang/reflect/Constructor;|
+&invokeWriteReplace(Ljava/lang/Object;)Rjava.io.ObjectStreamClass#invokeWriteReplace(Ljava/lang/Object;)Ljava/lang/Object;P
+getFields()Ajava.io.ObjectStreamClass#getFields()[Ljava/io/ObjectStreamField;s
+*invokeReadObjectNoData(Ljava/lang/Object;)Ejava.io.ObjectStreamClass#invokeReadObjectNoData(Ljava/lang/Object;)Vr
+"getDeclaredSUID(Ljava/lang/Class;)Ljava.io.ObjectStreamClass#getDeclaredSUID(Ljava/lang/Class;)Ljava/lang/Long;B
+	getName()5java.io.ObjectStreamClass#getName()Ljava/lang/String;/
+<init>()#java.io.ObjectStreamClass#<init>()V°
+AinvokeWriteObject(Ljava/lang/Object;Ljava/io/ObjectOutputStream;)\java.io.ObjectStreamClass#invokeWriteObject(Ljava/lang/Object;Ljava/io/ObjectOutputStream;)Vâ
+5classNamesEqual(Ljava/lang/String;Ljava/lang/String;)Pjava.io.ObjectStreamClass#classNamesEqual(Ljava/lang/String;Ljava/lang/String;)ZM
+hasWriteReplaceMethod()2java.io.ObjectStreamClass#hasWriteReplaceMethod()ZU
+hasReadObjectNoDataMethod()6java.io.ObjectStreamClass#hasReadObjectNoDataMethod()Zì
+-getField(Ljava/lang/String;Ljava/lang/Class;)bjava.io.ObjectStreamClass#getField(Ljava/lang/String;Ljava/lang/Class;)Ljava/io/ObjectStreamField;C
+isExternalizable()-java.io.ObjectStreamClass#isExternalizable()ZD
+
+toString()6java.io.ObjectStreamClass#toString()Ljava/lang/String;p
+getClassDataLayout()Xjava.io.ObjectStreamClass#getClassDataLayout()[Ljava/io/ObjectStreamClass$ClassDataSlot;u
++writeNonProxy(Ljava/io/ObjectOutputStream;)Fjava.io.ObjectStreamClass#writeNonProxy(Ljava/io/ObjectOutputStream;)Vz
+%invokeReadResolve(Ljava/lang/Object;)Qjava.io.ObjectStreamClass#invokeReadResolve(Ljava/lang/Object;)Ljava/lang/Object;—
+YinitProxy(Ljava/lang/Class;Ljava/lang/ClassNotFoundException;Ljava/io/ObjectStreamClass;)tjava.io.ObjectStreamClass#initProxy(Ljava/lang/Class;Ljava/lang/ClassNotFoundException;Ljava/io/ObjectStreamClass;)VK
+hasWriteObjectMethod()1java.io.ObjectStreamClass#hasWriteObjectMethod()Zè
+8getObjFieldValues(Ljava/lang/Object;[Ljava/lang/Object;)Sjava.io.ObjectStreamClass#getObjFieldValues(Ljava/lang/Object;[Ljava/lang/Object;)VG
+hasWriteObjectData()/java.io.ObjectStreamClass#hasWriteObjectData()Z~
+"getSerialFields(Ljava/lang/Class;)Xjava.io.ObjectStreamClass#getSerialFields(Ljava/lang/Class;)[Ljava/io/ObjectStreamField;è
+8setObjFieldValues(Ljava/lang/Object;[Ljava/lang/Object;)Sjava.io.ObjectStreamClass#setObjFieldValues(Ljava/lang/Object;[Ljava/lang/Object;)Vå
+)getDefaultSerialFields(Ljava/lang/Class;)_java.io.ObjectStreamClass#getDefaultSerialFields(Ljava/lang/Class;)[Ljava/io/ObjectStreamField;m
+'hasStaticInitializer(Ljava/lang/Class;)Bjava.io.ObjectStreamClass#hasStaticInitializer(Ljava/lang/Class;)ZC
+
+forClass()5java.io.ObjectStreamClass#forClass()Ljava/lang/Class;m
+lookup(Ljava/lang/Class;Z)Ojava.io.ObjectStreamClass#lookup(Ljava/lang/Class;Z)Ljava/io/ObjectStreamClass;?
+isSerializable()+java.io.ObjectStreamClass#isSerializable()Zø
+PprocessQueue(Ljava/lang/ref/ReferenceQueue;Ljava/util/concurrent/ConcurrentMap;)kjava.io.ObjectStreamClass#processQueue(Ljava/lang/ref/ReferenceQueue;Ljava/util/concurrent/ConcurrentMap;)VA
+getPrimDataSize(),java.io.ObjectStreamClass#getPrimDataSize()IM
+checkDefaultSerialize()2java.io.ObjectStreamClass#checkDefaultSerialize()V/
+isEnum()#java.io.ObjectStreamClass#isEnum()ZU
+getSuperDesc()Cjava.io.ObjectStreamClass#getSuperDesc()Ljava/io/ObjectStreamClass;I
+computeFieldOffsets()0java.io.ObjectStreamClass#computeFieldOffsets()VG
+requireInitialized()/java.io.ObjectStreamClass#requireInitialized()VA
+getNumObjFields(),java.io.ObjectStreamClass#getNumObjFields()IR
+getFields(Z)Bjava.io.ObjectStreamClass#getFields(Z)[Ljava/io/ObjectStreamField;¬
+DmatchFields([Ljava/io/ObjectStreamField;Ljava/io/ObjectStreamClass;)zjava.io.ObjectStreamClass#matchFields([Ljava/io/ObjectStreamField;Ljava/io/ObjectStreamClass;)[Ljava/io/ObjectStreamField;?
+checkSerialize()+java.io.ObjectStreamClass#checkSerialize()VJ
+newInstance()9java.io.ObjectStreamClass#newInstance()Ljava/lang/Object;i
+%computeDefaultSUID(Ljava/lang/Class;)@java.io.ObjectStreamClass#computeDefaultSUID(Ljava/lang/Class;)JÅ
+1packageEquals(Ljava/lang/Class;Ljava/lang/Class;)Ljava.io.ObjectStreamClass#packageEquals(Ljava/lang/Class;Ljava/lang/Class;)Zq
+getField(Ljava/lang/String;)Qjava.io.ObjectStreamClass#getField(Ljava/lang/String;)Ljava/io/ObjectStreamField;é
+winitNonProxy(Ljava/io/ObjectStreamClass;Ljava/lang/Class;Ljava/lang/ClassNotFoundException;Ljava/io/ObjectStreamClass;)íjava.io.ObjectStreamClass#initNonProxy(Ljava/io/ObjectStreamClass;Ljava/lang/Class;Ljava/lang/ClassNotFoundException;Ljava/io/ObjectStreamClass;)VI
+getSerialVersionUID()0java.io.ObjectStreamClass#getSerialVersionUID()Jq
+)throwMiscException(Ljava/lang/Throwable;)Djava.io.ObjectStreamClass#throwMiscException(Ljava/lang/Throwable;)Vq
+)readNonProxy(Ljava/io/ObjectInputStream;)Djava.io.ObjectStreamClass#readNonProxy(Ljava/io/ObjectInputStream;)VK
+hasReadResolveMethod()1java.io.ObjectStreamClass#hasReadResolveMethod()Zo
+(getPrimFieldValues(Ljava/lang/Object;[B)Cjava.io.ObjectStreamClass#getPrimFieldValues(Ljava/lang/Object;[B)Vû
+7getMethodSignature([Ljava/lang/Class;Ljava/lang/Class;)cjava.io.ObjectStreamClass#getMethodSignature([Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/String;õ
+>checkObjFieldValueTypes(Ljava/lang/Object;[Ljava/lang/Object;)Yjava.io.ObjectStreamClass#checkObjFieldValueTypes(Ljava/lang/Object;[Ljava/lang/Object;)VÈ
+XgetPrivateMethod(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;Ljava/lang/Class;)åjava.io.ObjectStreamClass#getPrivateMethod(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/reflect/Method;Ò
+\getInheritableMethod(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;Ljava/lang/Class;)êjava.io.ObjectStreamClass#getInheritableMethod(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/reflect/Method;?
+isInstantiable()+java.io.ObjectStreamClass#isInstantiable()ZÃ
+FgetProtectionDomains(Ljava/lang/reflect/Constructor;Ljava/lang/Class;)Åjava.io.ObjectStreamClass#getProtectionDomains(Ljava/lang/reflect/Constructor;Ljava/lang/Class;)[Ljava/security/ProtectionDomain;r
+getClassDataLayout0()Yjava.io.ObjectStreamClass#getClassDataLayout0()[Ljava/io/ObjectStreamClass$ClassDataSlot;C
+checkDeserialize()-java.io.ObjectStreamClass#checkDeserialize()Vy
+ getVariantFor(Ljava/lang/Class;)Ujava.io.ObjectStreamClass#getVariantFor(Ljava/lang/Class;)Ljava/io/ObjectStreamClass;q
+lookupAny(Ljava/lang/Class;)Qjava.io.ObjectStreamClass#lookupAny(Ljava/lang/Class;)Ljava/io/ObjectStreamClass;”
+EgetReflector([Ljava/io/ObjectStreamField;Ljava/io/ObjectStreamClass;)âjava.io.ObjectStreamClass#getReflector([Ljava/io/ObjectStreamField;Ljava/io/ObjectStreamClass;)Ljava/io/ObjectStreamClass$FieldReflector;1
+	isProxy()$java.io.ObjectStreamClass#isProxy()Zj
+getResolveException()Qjava.io.ObjectStreamClass#getResolveException()Ljava/lang/ClassNotFoundException;é
+*getDeclaredSerialFields(Ljava/lang/Class;)`java.io.ObjectStreamClass#getDeclaredSerialFields(Ljava/lang/Class;)[Ljava/io/ObjectStreamField;õ
+/getExternalizableConstructor(Ljava/lang/Class;)hjava.io.ObjectStreamClass#getExternalizableConstructor(Ljava/lang/Class;)Ljava/lang/reflect/Constructor;o
+(setPrimFieldValues(Ljava/lang/Object;[B)Cjava.io.ObjectStreamClass#setPrimFieldValues(Ljava/lang/Object;[B)VQ
+<init>(Ljava/lang/Class;)4java.io.ObjectStreamClass#<init>(Ljava/lang/Class;)Vk
+lookup(Ljava/lang/Class;)Njava.io.ObjectStreamClass#lookup(Ljava/lang/Class;)Ljava/io/ObjectStreamClass;ù
+?invokeReadObject(Ljava/lang/Object;Ljava/io/ObjectInputStream;)Zjava.io.ObjectStreamClass#invokeReadObject(Ljava/lang/Object;Ljava/io/ObjectInputStream;)VÚ
+java.io.IOExceptionjava.lang.Exception)
+<init>()java.io.IOException#<init>()VM
+<init>(Ljava/lang/String;)/java.io.IOException#<init>(Ljava/lang/String;)Vw
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Djava.io.IOException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)VS
+<init>(Ljava/lang/Throwable;)2java.io.IOException#<init>(Ljava/lang/Throwable;)V¬
+java.io.ObjectStreamExceptionjava.io.IOException3
+<init>()'java.io.ObjectStreamException#<init>()VW
+<init>(Ljava/lang/String;)9java.io.ObjectStreamException#<init>(Ljava/lang/String;)V‚
+java.io.InvalidClassExceptionjava.io.ObjectStreamExceptionW
+<init>(Ljava/lang/String;)9java.io.InvalidClassException#<init>(Ljava/lang/String;)VL
+getMessage()<java.io.InvalidClassException#getMessage()Ljava/lang/String;{
+,<init>(Ljava/lang/String;Ljava/lang/String;)Kjava.io.InvalidClassException#<init>(Ljava/lang/String;Ljava/lang/String;)VÏ
 8view.graphicalui.second.signupquestionstates.QuestionEndjava.lang.Object(view.graphicalui.second.AbstractQuestion®
 getQuestionEndInstance()ãview.graphicalui.second.signupquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/signupquestionstates/QuestionEnd;P
 	display()Cview.graphicalui.second.signupquestionstates.QuestionEnd#display()VN
@@ -5165,7 +5386,19 @@ SreplaceAll(Ljavafx/collections/ObservableList;Ljava/lang/Object;Ljava/lang/Obje
 emptyObservableList()Yjavafx.collections.FXCollections#emptyObservableList()Ljavafx/collections/ObservableList;û
 +observableArrayList(Ljava/util/Collection;)ojavafx.collections.FXCollections#observableArrayList(Ljava/util/Collection;)Ljavafx/collections/ObservableList;~
 observableFloatArray([F)bjavafx.collections.FXCollections#observableFloatArray([F)Ljavafx/collections/ObservableFloatArray;Ä
-observableIntegerArray()djavafx.collections.FXCollections#observableIntegerArray()Ljavafx/collections/ObservableIntegerArray;€
+observableIntegerArray()djavafx.collections.FXCollections#observableIntegerArray()Ljavafx/collections/ObservableIntegerArray;ˆ
+view.bean.GroupCreationBeanjava.lang.ObjectW
+setName(Ljava/lang/String;)8view.bean.GroupCreationBean#setName(Ljava/lang/String;)VF
+
+getOwner()8view.bean.GroupCreationBean#getOwner()Ljava/lang/String;D
+	getName()7view.bean.GroupCreationBean#getName()Ljava/lang/String;F
+
+getImage()8view.bean.GroupCreationBean#getImage()Ljava/lang/String;1
+<init>()%view.bean.GroupCreationBean#<init>()VY
+setImage(Ljava/lang/String;)9view.bean.GroupCreationBean#setImage(Ljava/lang/String;)VL
+getNickname();view.bean.GroupCreationBean#getNickname()Ljava/lang/String;_
+setNickname(Ljava/lang/String;)<view.bean.GroupCreationBean#setNickname(Ljava/lang/String;)VY
+setOwner(Ljava/lang/String;)9view.bean.GroupCreationBean#setOwner(Ljava/lang/String;)V€
 7view.graphicalui.first.listviewitems.ListViewGroupItemsjava.lang.Enum¨
 valueOf(Ljava/lang/String;)åview.graphicalui.first.listviewitems.ListViewGroupItems#valueOf(Ljava/lang/String;)Lview/graphicalui/first/listviewitems/ListViewGroupItems;Ü
 values()zview.graphicalui.first.listviewitems.ListViewGroupItems#values()[Lview/graphicalui/first/listviewitems/ListViewGroupItems;s
@@ -5367,10 +5600,10 @@ toString()4java.util.regex.Matcher#toString()Ljava/lang/String;Ø
 <view.graphicalui.first.toolbardecorations.SocialBarDecorator3view.graphicalui.first.toolbardecorations.Decoratorb
 setUpSocialBar()Nview.graphicalui.first.toolbardecorations.SocialBarDecorator#setUpSocialBar()V…
 C<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)Åview.graphicalui.first.toolbardecorations.SocialBarDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)Vk
-draw()aview.graphicalui.first.toolbardecorations.SocialBarDecorator#draw()Ljavafx/scene/control/ToolBar;ü
+draw()aview.graphicalui.first.toolbardecorations.SocialBarDecorator#draw()Ljavafx/scene/control/ToolBar;é
 model.dao.MeetingDAOjava.lang.Objectmodel.dao.BaseDAO~
-+readEntities(Ljava/util/Map;Lmodel/Filter;)Omodel.dao.MeetingDAO#readEntities(Ljava/util/Map;Lmodel/Filter;)Ljava/util/Map;e
-createEntity(Ljava/util/Map;)Dmodel.dao.MeetingDAO#createEntity(Ljava/util/Map;)Ljava/lang/Object;p
++readEntities(Ljava/util/Map;Lmodel/Filter;)Omodel.dao.MeetingDAO#readEntities(Ljava/util/Map;Lmodel/Filter;)Ljava/util/Map;T
+createEntity(Ljava/util/Map;)3model.dao.MeetingDAO#createEntity(Ljava/util/Map;)Vp
 +updateEntity(Ljava/util/Map;Lmodel/Filter;)Amodel.dao.MeetingDAO#updateEntity(Ljava/util/Map;Lmodel/Filter;)V*
 <init>()model.dao.MeetingDAO#<init>()Vr
 %unpackMeetingInfo(Ljava/lang/String;)Imodel.dao.MeetingDAO#unpackMeetingInfo(Ljava/lang/String;)Ljava/util/Map;v
@@ -5533,7 +5766,9 @@ hashCode()java.util.Optional#hashCode()IL
 setUpPopUpRoot()\view.graphicalui.first.HomePage$SearchUsersDialog#setUpPopUpRoot()Ljavafx/scene/layout/VBox;´
 /view.controllerui.first.MeetingPageEventHandlerjavafx.event.EventHandlerjava.lang.ObjectE
 <init>()9view.controllerui.first.MeetingPageEventHandler#<init>()VÉ
-'handle(Ljavafx/scene/input/MouseEvent;)Xview.controllerui.first.MeetingPageEventHandler#handle(Ljavafx/scene/input/MouseEvent;)V 
+'handle(Ljavafx/scene/input/MouseEvent;)Xview.controllerui.first.MeetingPageEventHandler#handle(Ljavafx/scene/input/MouseEvent;)VP
+model.DeviceFieldsjava.lang.Object(
+<init>()model.DeviceFields#<init>()V 
 ;view.bean.errorsignindecorations.PasswordBeanErrorDecoratorview.bean.BeanErrorDecorator{
 <init>(Lview/bean/BeanError;)Zview.bean.errorsignindecorations.PasswordBeanErrorDecorator#<init>(Lview/bean/BeanError;)Vp
 displayErrors()]view.bean.errorsignindecorations.PasswordBeanErrorDecorator#displayErrors()Ljava/lang/String;É
@@ -5550,13 +5785,33 @@ Iview.graphicalui.second.meetingquestionstates.QuestionMeetingLocationNamejava
 	display()Tview.graphicalui.second.meetingquestionstates.QuestionMeetingLocationName#display()V_
 <init>()Sview.graphicalui.second.meetingquestionstates.QuestionMeetingLocationName#<init>()VÍ
 (getQuestionMeetingLocationNameInstance()Ωview.graphicalui.second.meetingquestionstates.QuestionMeetingLocationName#getQuestionMeetingLocationNameInstance()Lview/graphicalui/second/meetingquestionstates/QuestionMeetingLocationName;∑
-4next(Lview/graphicalui/second/QuestionStateMachine;)view.graphicalui.second.meetingquestionstates.QuestionMeetingLocationName#next(Lview/graphicalui/second/QuestionStateMachine;)V{
+4next(Lview/graphicalui/second/QuestionStateMachine;)view.graphicalui.second.meetingquestionstates.QuestionMeetingLocationName#next(Lview/graphicalui/second/QuestionStateMachine;)Vƒ
+"control.controlutilities.Messengerjava.lang.Object8
+<init>(),control.controlutilities.Messenger#<init>()Vö
+9sendMessage(Lmodel/Device;Ljava/util/List;Lmodel/Filter;)]control.controlutilities.Messenger#sendMessage(Lmodel/Device;Ljava/util/List;Lmodel/Filter;)V¥
+FisListenerReplying(Lcontrol/controlutilities/SecureObjectInputStream;)jcontrol.controlutilities.Messenger#isListenerReplying(Lcontrol/controlutilities/SecureObjectInputStream;)Z{
 &control.controlutilities.CopyExceptionjava.lang.Exception<
 <init>()0control.controlutilities.CopyException#<init>()Vê
 =view.graphicalui.first.toolbardecorations.ProfileBoxDecorator3view.graphicalui.first.toolbardecorations.Decorator_
 setUpProfile()Mview.graphicalui.first.toolbardecorations.ProfileBoxDecorator#setUpProfile()V 
 C<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)Çview.graphicalui.first.toolbardecorations.ProfileBoxDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)Vl
-draw()bview.graphicalui.first.toolbardecorations.ProfileBoxDecorator#draw()Ljavafx/scene/control/ToolBar;ü
+draw()bview.graphicalui.first.toolbardecorations.ProfileBoxDecorator#draw()Ljavafx/scene/control/ToolBar;õ
+model.dao.DeviceDAOjava.lang.Objectmodel.dao.BaseDAO}
++readEntities(Ljava/util/Map;Lmodel/Filter;)Nmodel.dao.DeviceDAO#readEntities(Ljava/util/Map;Lmodel/Filter;)Ljava/util/Map;S
+createEntity(Ljava/util/Map;)2model.dao.DeviceDAO#createEntity(Ljava/util/Map;)Vq
+%makeDevicesEntities(Ljava/util/List;)Hmodel.dao.DeviceDAO#makeDevicesEntities(Ljava/util/List;)Ljava/util/Map;o
++updateEntity(Ljava/util/Map;Lmodel/Filter;)@model.dao.DeviceDAO#updateEntity(Ljava/util/Map;Lmodel/Filter;)V)
+<init>()model.dao.DeviceDAO#<init>()V|
+)readEntity(Ljava/util/Map;Lmodel/Filter;)Omodel.dao.DeviceDAO#readEntity(Ljava/util/Map;Lmodel/Filter;)Ljava/lang/Object;’
+
+#model.db.dbqueries.DeviceDAOQueriesjava.lang.Object9
+<init>()-model.db.dbqueries.DeviceDAOQueries#<init>()Vä
+)wrapListDevicesInfo(Ljava/sql/ResultSet;)]model.db.dbqueries.DeviceDAOQueries#wrapListDevicesInfo(Ljava/sql/ResultSet;)Ljava/util/List;◊
+WinsertDevice(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/util/Map;)|model.db.dbqueries.DeviceDAOQueries#insertDevice(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/util/Map;)VÇ
+ldeleteDevice(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)ëmodel.db.dbqueries.DeviceDAOQueries#deleteDevice(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)VÒ
+\selectDevices(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;I)êmodel.db.dbqueries.DeviceDAOQueries#selectDevices(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;I)Ljava/util/List;˙
+aselectSingleDevice(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;I)îmodel.db.dbqueries.DeviceDAOQueries#selectSingleDevice(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;I)Ljava/util/Map;É
+&unpackDeviceInfo(Ljava/sql/ResultSet;)Ymodel.db.dbqueries.DeviceDAOQueries#unpackDeviceInfo(Ljava/sql/ResultSet;)Ljava/util/Map;ü
 .view.controllerui.first.SignupPageEventHandlerjavafx.event.EventHandlerjava.lang.Objectõ
 sassignFullNameToUserProfile(Lview/graphicalui/first/HomePage$UserProfileDialog;Lview/graphicalui/first/SignupPage;)£view.controllerui.first.SignupPageEventHandler#assignFullNameToUserProfile(Lview/graphicalui/first/HomePage$UserProfileDialog;Lview/graphicalui/first/SignupPage;)V 
 KregisterUser(Lview/graphicalui/first/SignupPage;Lview/bean/UserSignUpBean;){view.controllerui.first.SignupPageEventHandler#registerUser(Lview/graphicalui/first/SignupPage;Lview/bean/UserSignUpBean;)VÒ
@@ -5566,10 +5821,11 @@ KregisterUser(Lview/graphicalui/first/SignupPage;Lview/bean/UserSignUpBean;){vi
 /assignUsernameToUsernameDialog(Ljava/util/Map;)_view.controllerui.first.SignupPageEventHandler#assignUsernameToUsernameDialog(Ljava/util/Map;)V®
 :clearSignupTextFields(Lview/graphicalui/first/SignupPage;)jview.controllerui.first.SignupPageEventHandler#clearSignupTextFields(Lview/graphicalui/first/SignupPage;)V∆
 àrevealUserCredentials(Lview/graphicalui/first/SignupPage;Lview/graphicalui/first/SignupPage$CredentialDialog;Lview/bean/UserSignInBean;)∏view.controllerui.first.SignupPageEventHandler#revealUserCredentials(Lview/graphicalui/first/SignupPage;Lview/graphicalui/first/SignupPage$CredentialDialog;Lview/bean/UserSignInBean;)VÇ
-'handle(Ljavafx/scene/input/MouseEvent;)Wview.controllerui.first.SignupPageEventHandler#handle(Ljavafx/scene/input/MouseEvent;)VÜ	
+'handle(Ljavafx/scene/input/MouseEvent;)Wview.controllerui.first.SignupPageEventHandler#handle(Ljavafx/scene/input/MouseEvent;)V°
+
 model.dao.GroupDAOjava.lang.Objectmodel.dao.BaseDAO|
-+readEntities(Ljava/util/Map;Lmodel/Filter;)Mmodel.dao.GroupDAO#readEntities(Ljava/util/Map;Lmodel/Filter;)Ljava/util/Map;c
-createEntity(Ljava/util/Map;)Bmodel.dao.GroupDAO#createEntity(Ljava/util/Map;)Ljava/lang/Object;n
++readEntities(Ljava/util/Map;Lmodel/Filter;)Mmodel.dao.GroupDAO#readEntities(Ljava/util/Map;Lmodel/Filter;)Ljava/util/Map;R
+createEntity(Ljava/util/Map;)1model.dao.GroupDAO#createEntity(Ljava/util/Map;)Vn
 +updateEntity(Ljava/util/Map;Lmodel/Filter;)?model.dao.GroupDAO#updateEntity(Ljava/util/Map;Lmodel/Filter;)Vl
 #unpackGroupInfo(Ljava/lang/String;)Emodel.dao.GroupDAO#unpackGroupInfo(Ljava/lang/String;)Ljava/util/Map;r
 #fetchGroupOwner(Ljava/lang/String;)Kmodel.dao.GroupDAO#fetchGroupOwner(Ljava/lang/String;)Lmodel/subjects/User;à
@@ -5577,7 +5833,8 @@ KregisterUser(Lview/graphicalui/first/SignupPage;Lview/bean/UserSignUpBean;){vi
 <init>()model.dao.GroupDAO#<init>()Vp
 %fetchGroupMembers(Ljava/lang/String;)Gmodel.dao.GroupDAO#fetchGroupMembers(Ljava/lang/String;)Ljava/util/Map;r
 &fetchGroupMeetings(Ljava/lang/String;)Hmodel.dao.GroupDAO#fetchGroupMeetings(Ljava/lang/String;)Ljava/util/Map;{
-)readEntity(Ljava/util/Map;Lmodel/Filter;)Nmodel.dao.GroupDAO#readEntity(Ljava/util/Map;Lmodel/Filter;)Ljava/lang/Object;~
+)readEntity(Ljava/util/Map;Lmodel/Filter;)Nmodel.dao.GroupDAO#readEntity(Ljava/util/Map;Lmodel/Filter;)Ljava/lang/Object;©
+>makeGroupEntity(Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;)gmodel.dao.GroupDAO#makeGroupEntity(Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;)Lmodel/subjects/Group;~
 )view.graphicalui.first.constcontainer.Cssjava.lang.Object?
 <init>()3view.graphicalui.first.constcontainer.Css#<init>()V¬
 Cview.graphicalui.second.meetingquestionstates.QuestionTypeOfVehiclejava.lang.Object(view.graphicalui.second.AbstractQuestion“
@@ -5707,66 +5964,7 @@ $toString(Ljava/nio/charset/Charset;)Tjava.io.ByteArrayOutputStream#toString(Lj
 write(I)'java.io.ByteArrayOutputStream#write(I)VJ
 toString(I);java.io.ByteArrayOutputStream#toString(I)Ljava/lang/String;/
 size()%java.io.ByteArrayOutputStream#size()I1
-close()&java.io.ByteArrayOutputStream#close()V&
-java.io.DataOutputjava.lang.ObjectU
-java.io.ObjectOutputjava.io.DataOutputjava.lang.Objectjava.lang.AutoCloseableî'
-java.io.ObjectOutputStreamjava.io.OutputStreamjava.io.ObjectOutputjava.io.ObjectStreamConstantsb
-!writeUnshared(Ljava/lang/Object;)=java.io.ObjectOutputStream#writeUnshared(Ljava/lang/Object;)VJ
-useProtocolVersion(I)1java.io.ObjectOutputStream#useProtocolVersion(I)Vv
-+writeExternalData(Ljava/io/Externalizable;)Gjava.io.ObjectOutputStream#writeExternalData(Ljava/io/Externalizable;)V.
-drain()#java.io.ObjectOutputStream#drain()V8
-writeLong(J)(java.io.ObjectOutputStream#writeLong(J)V8
-writeByte(I)(java.io.ObjectOutputStream#writeByte(I)Vt
-*writeFatalException(Ljava/io/IOException;)Fjava.io.ObjectOutputStream#writeFatalException(Ljava/io/IOException;)V6
-write([BII)'java.io.ObjectOutputStream#write([BII)Vx
-,writeProxyDesc(Ljava/io/ObjectStreamClass;Z)Hjava.io.ObjectOutputStream#writeProxyDesc(Ljava/io/ObjectStreamClass;Z)V0
-<init>()$java.io.ObjectOutputStream#<init>()V\
-writeChars(Ljava/lang/String;):java.io.ObjectOutputStream#writeChars(Ljava/lang/String;)V0
-write(I)$java.io.ObjectOutputStream#write(I)V8
-writeChar(I)(java.io.ObjectOutputStream#writeChar(I)Vx
-,writeClassDesc(Ljava/io/ObjectStreamClass;Z)Hjava.io.ObjectOutputStream#writeClassDesc(Ljava/io/ObjectStreamClass;Z)V`
- writeString(Ljava/lang/String;Z)<java.io.ObjectOutputStream#writeString(Ljava/lang/String;Z)V.
-clear()#java.io.ObjectOutputStream#clear()VH
-defaultWriteObject()0java.io.ObjectOutputStream#defaultWriteObject()Vú
->writeSerialData(Ljava/lang/Object;Ljava/io/ObjectStreamClass;)Zjava.io.ObjectOutputStream#writeSerialData(Ljava/lang/Object;Ljava/io/ObjectStreamClass;)V¶
-CwriteOrdinaryObject(Ljava/lang/Object;Ljava/io/ObjectStreamClass;Z)_java.io.ObjectOutputStream#writeOrdinaryObject(Ljava/lang/Object;Ljava/io/ObjectStreamClass;Z)V.
-flush()#java.io.ObjectOutputStream#flush()V:
-writeShort(I))java.io.ObjectOutputStream#writeShort(I)V^
-writeObject(Ljava/lang/Object;);java.io.ObjectOutputStream#writeObject(Ljava/lang/Object;)Vb
-!writeObject0(Ljava/lang/Object;Z)=java.io.ObjectOutputStream#writeObject0(Ljava/lang/Object;Z)Vî
-:writeArray(Ljava/lang/Object;Ljava/io/ObjectStreamClass;Z)Vjava.io.ObjectOutputStream#writeArray(Ljava/lang/Object;Ljava/io/ObjectStreamClass;Z)Vr
- auditSubclass(Ljava/lang/Class;)Njava.io.ObjectOutputStream#auditSubclass(Ljava/lang/Class;)Ljava/lang/Boolean;:
-writeFloat(F))java.io.ObjectOutputStream#writeFloat(F)V<
-writeDouble(D)*java.io.ObjectOutputStream#writeDouble(D)VH
-getProtocolVersion()0java.io.ObjectOutputStream#getProtocolVersion()I>
-writeBoolean(Z)+java.io.ObjectOutputStream#writeBoolean(Z)VZ
-putFields()Kjava.io.ObjectOutputStream#putFields()Ljava/io/ObjectOutputStream$PutField;6
-writeNull()'java.io.ObjectOutputStream#writeNull()V\
-writeBytes(Ljava/lang/String;):java.io.ObjectOutputStream#writeBytes(Ljava/lang/String;)Vf
-#writeTypeString(Ljava/lang/String;)?java.io.ObjectOutputStream#writeTypeString(Ljava/lang/String;)V\
-writeClass(Ljava/lang/Class;Z):java.io.ObjectOutputStream#writeClass(Ljava/lang/Class;Z)V`
- annotateClass(Ljava/lang/Class;)<java.io.ObjectOutputStream#annotateClass(Ljava/lang/Class;)VÇ
-1writeClassDescriptor(Ljava/io/ObjectStreamClass;)Mjava.io.ObjectOutputStream#writeClassDescriptor(Ljava/io/ObjectStreamClass;)V@
-verifySubclass(),java.io.ObjectOutputStream#verifySubclass()V<
-writeHandle(I)*java.io.ObjectOutputStream#writeHandle(I)V¢
-AdefaultWriteFields(Ljava/lang/Object;Ljava/io/ObjectStreamClass;)]java.io.ObjectOutputStream#defaultWriteFields(Ljava/lang/Object;Ljava/io/ObjectStreamClass;)Vn
-'writeObjectOverride(Ljava/lang/Object;)Cjava.io.ObjectOutputStream#writeObjectOverride(Ljava/lang/Object;)VF
-writeStreamHeader()/java.io.ObjectOutputStream#writeStreamHeader()VL
-floatsToBytes([FI[BII)2java.io.ObjectOutputStream#floatsToBytes([FI[BII)Vj
-%annotateProxyClass(Ljava/lang/Class;)Ajava.io.ObjectOutputStream#annotateProxyClass(Ljava/lang/Class;)V6
-writeInt(I)'java.io.ObjectOutputStream#writeInt(I)V.
-close()#java.io.ObjectOutputStream#close()VX
-writeUTF(Ljava/lang/String;)8java.io.ObjectOutputStream#writeUTF(Ljava/lang/String;)V2
-	write([B)%java.io.ObjectOutputStream#write([B)Vs
-!replaceObject(Ljava/lang/Object;)Njava.io.ObjectOutputStream#replaceObject(Ljava/lang/Object;)Ljava/lang/Object;é
-7writeEnum(Ljava/lang/Enum;Ljava/io/ObjectStreamClass;Z)Sjava.io.ObjectOutputStream#writeEnum(Ljava/lang/Enum;Ljava/io/ObjectStreamClass;Z)V:
-writeFields())java.io.ObjectOutputStream#writeFields()V.
-reset()#java.io.ObjectOutputStream#reset()VL
-enableReplaceObject(Z)2java.io.ObjectOutputStream#enableReplaceObject(Z)Z\
-<init>(Ljava/io/OutputStream;):java.io.ObjectOutputStream#<init>(Ljava/io/OutputStream;)V~
-/writeNonProxyDesc(Ljava/io/ObjectStreamClass;Z)Kjava.io.ObjectOutputStream#writeNonProxyDesc(Ljava/io/ObjectStreamClass;Z)VN
-doublesToBytes([DI[BII)3java.io.ObjectOutputStream#doublesToBytes([DI[BII)VD
-isCustomSubclass().java.io.ObjectOutputStream#isCustomSubclass()Z¿
+close()&java.io.ByteArrayOutputStream#close()V¿
 java.io.ByteArrayInputStreamjava.io.InputStream8
 available())java.io.ByteArrayInputStream#available()I.
 read()$java.io.ByteArrayInputStream#read()I:
@@ -5836,96 +6034,17 @@ Aview.graphicalui.second.groupquestionstates.QuestionGroupNicknamejava.lang.Ob
 getQuestionEndInstance()âview.graphicalui.second.groupquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/groupquestionstates/QuestionEnd;O
 	display()Bview.graphicalui.second.groupquestionstates.QuestionEnd#display()VM
 <init>()Aview.graphicalui.second.groupquestionstates.QuestionEnd#<init>()V•
-4next(Lview/graphicalui/second/QuestionStateMachine;)mview.graphicalui.second.groupquestionstates.QuestionEnd#next(Lview/graphicalui/second/QuestionStateMachine;)VÑ
+4next(Lview/graphicalui/second/QuestionStateMachine;)mview.graphicalui.second.groupquestionstates.QuestionEnd#next(Lview/graphicalui/second/QuestionStateMachine;)VÁ
+view.NotificationTask$Updaterjava.lang.Objectjava.lang.Runnable-
+run()$view.NotificationTask$Updater#run()Vq
+'<init>(Lview/bean/observers/GroupBean;)Fview.NotificationTask$Updater#<init>(Lview/bean/observers/GroupBean;)Vﬁ
 "model.db.dbqueries.GroupDAOQueriesjava.lang.Objectê
-lselectGroups(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)ümodel.db.dbqueries.GroupDAOQueries#selectGroups(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;8
+lselectGroups(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)ümodel.db.dbqueries.GroupDAOQueries#selectGroups(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;‘
+VinsertGroup(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/util/Map;)zmodel.db.dbqueries.GroupDAOQueries#insertGroup(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/util/Map;)V˝
+cselectGroupByNickname(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;)ïmodel.db.dbqueries.GroupDAOQueries#selectGroupByNickname(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;)Ljava/util/Map;8
 <init>(),model.db.dbqueries.GroupDAOQueries#<init>()V
-$wrapGroupsInfo(Ljava/sql/ResultSet;)Wmodel.db.dbqueries.GroupDAOQueries#wrapGroupsInfo(Ljava/sql/ResultSet;)Ljava/util/List;…
-
-java.sql.SQLExceptionjava.lang.Iterablejava.lang.Exceptionü
-B<init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/Throwable;)Yjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/Throwable;)Vù
-A<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)Xjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)VB
-
-iterator()4java.sql.SQLException#iterator()Ljava/util/Iterator;u
--<init>(Ljava/lang/String;Ljava/lang/String;I)Djava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;I)V+
-<init>()java.sql.SQLException#<init>()Vm
-)setNextException(Ljava/sql/SQLException;)@java.sql.SQLException#setNextException(Ljava/sql/SQLException;)V7
-getErrorCode()%java.sql.SQLException#getErrorCode()IO
-<init>(Ljava/lang/String;)1java.sql.SQLException#<init>(Ljava/lang/String;)VF
-getSQLState()5java.sql.SQLException#getSQLState()Ljava/lang/String;y
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Fjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)Vs
-,<init>(Ljava/lang/String;Ljava/lang/String;)Cjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;)VU
-getNextException()?java.sql.SQLException#getNextException()Ljava/sql/SQLException;U
-<init>(Ljava/lang/Throwable;)4java.sql.SQLException#<init>(Ljava/lang/Throwable;)V(
-java.lang.Appendablejava.lang.Objecté
-java.io.FilterOutputStreamjava.io.OutputStream2
-	write([B)%java.io.FilterOutputStream#write([B)V\
-<init>(Ljava/io/OutputStream;):java.io.FilterOutputStream#<init>(Ljava/io/OutputStream;)V.
-flush()#java.io.FilterOutputStream#flush()V0
-write(I)$java.io.FilterOutputStream#write(I)V6
-write([BII)'java.io.FilterOutputStream#write([BII)V.
-close()#java.io.FilterOutputStream#close()Vá!
-java.io.PrintStreamjava.lang.Appendablejava.io.Closeablejava.io.FilterOutputStream+
-	write([C)java.io.PrintStream#write([C)V)
-print(J)java.io.PrintStream#print(J)V-
-
-println(J)java.io.PrintStream#println(J)V)
-print(F)java.io.PrintStream#print(F)V/
-writeln([C) java.io.PrintStream#writeln([C)V-
-
-println(F)java.io.PrintStream#println(F)V/
-write([BII) java.io.PrintStream#write([BII)VÅ
-4<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)Ijava.io.PrintStream#<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)V)
-print(Z)java.io.PrintStream#print(Z)V1
-clearError()!java.io.PrintStream#clearError()V-
-
-println(Z)java.io.PrintStream#println(Z)Vi
-(<init>(Ljava/io/File;Ljava/lang/String;)=java.io.PrintStream#<init>(Ljava/io/File;Ljava/lang/String;)V)
-write(I)java.io.PrintStream#write(I)VO
-println(Ljava/lang/Object;)0java.io.PrintStream#println(Ljava/lang/Object;)VK
-print(Ljava/lang/String;).java.io.PrintStream#print(Ljava/lang/String;)Ví
-4requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Zjava.io.PrintStream#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;)
-print(I)java.io.PrintStream#print(I)V-
-
-println(I)java.io.PrintStream#println(I)V'
-flush()java.io.PrintStream#flush()V´
-?format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;m
- append(Ljava/lang/CharSequence;)Ijava.io.PrintStream#append(Ljava/lang/CharSequence;)Ljava/io/PrintStream;l
-toCharset(Ljava/lang/String;)Kjava.io.PrintStream#toCharset(Ljava/lang/String;)Ljava/nio/charset/Charset;W
-<init>(ZLjava/io/OutputStream;)4java.io.PrintStream#<init>(ZLjava/io/OutputStream;)V+
-	print([C)java.io.PrintStream#print([C)Vq
-"append(Ljava/lang/CharSequence;II)Kjava.io.PrintStream#append(Ljava/lang/CharSequence;II)Ljava/io/PrintStream;)
-print(D)java.io.PrintStream#print(D)Vq
-,<init>(Ljava/lang/String;Ljava/lang/String;)Ajava.io.PrintStream#<init>(Ljava/lang/String;Ljava/lang/String;)V-
-
-println(D)java.io.PrintStream#println(D)VO
-println(Ljava/lang/String;)0java.io.PrintStream#println(Ljava/lang/String;)VW
-<init>(Ljava/io/OutputStream;Z)4java.io.PrintStream#<init>(Ljava/io/OutputStream;Z)VE
-<init>(Ljava/io/File;)+java.io.PrintStream#<init>(Ljava/io/File;)Vy
-0<init>(Ljava/io/File;Ljava/nio/charset/Charset;)Ejava.io.PrintStream#<init>(Ljava/io/File;Ljava/nio/charset/Charset;)V1
-ensureOpen()!java.io.PrintStream#ensureOpen()Vã
-9<init>(Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)Njava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)V´
-?printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;-
-
-setError()java.io.PrintStream#setError()Vá
--printf(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#printf(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;?
-	append(C)2java.io.PrintStream#append(C)Ljava/io/PrintStream;M
-<init>(Ljava/lang/String;)/java.io.PrintStream#<init>(Ljava/lang/String;)Vá
--format(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;+
-	newLine()java.io.PrintStream#newLine()V)
-print(C)java.io.PrintStream#print(C)V1
-checkError()!java.io.PrintStream#checkError()Z+
-	println()java.io.PrintStream#println()V'
-close()java.io.PrintStream#close()VO
-writeln(Ljava/lang/String;)0java.io.PrintStream#writeln(Ljava/lang/String;)V-
-
-println(C)java.io.PrintStream#println(C)VK
-write(Ljava/lang/String;).java.io.PrintStream#write(Ljava/lang/String;)VK
-print(Ljava/lang/Object;).java.io.PrintStream#print(Ljava/lang/Object;)V{
-1<init>(Ljava/io/OutputStream;ZLjava/lang/String;)Fjava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/lang/String;)VU
-<init>(Ljava/io/OutputStream;)3java.io.PrintStream#<init>(Ljava/io/OutputStream;)V/
-println([C) java.io.PrintStream#println([C)Vã
-9<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Njava.io.PrintStream#<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)VÃ+
+$wrapGroupsInfo(Ljava/sql/ResultSet;)Wmodel.db.dbqueries.GroupDAOQueries#wrapGroupsInfo(Ljava/sql/ResultSet;)Ljava/util/List;Ä
+%unpackGroupInfo(Ljava/sql/ResultSet;)Wmodel.db.dbqueries.GroupDAOQueries#unpackGroupInfo(Ljava/sql/ResultSet;)Ljava/util/Map;Ã+
 javafx.scene.control.ScrollPanejavafx.scene.control.ControlC
 isFitToHeight()0javafx.scene.control.ScrollPane#isFitToHeight()Z;
 getVvalue(),javafx.scene.control.ScrollPane#getVvalue()DQ

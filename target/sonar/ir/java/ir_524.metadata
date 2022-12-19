@@ -1,1 +1,1 @@
-view.graphicalui.first.toolbardecorations.SocialBarDecorator#instance-init#
+view.bean.observers.MeetingBean#setPhotos(Ljava/util/List;)V

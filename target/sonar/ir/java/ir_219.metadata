@@ -1,3 +1,3 @@
-view.bean.UserBeanCollector#getUserBeanInstance(Ljava/lang/String;)Lview/bean/observers/UserBean;
-view.bean.NoUserBeanException#<init>()V
-view.bean.NoUserBeanException#instance-init#
+view.controllerui.second.handlerstates.StateMain#getStateMainInstance()Lview/controllerui/second/handlerstates/StateMain;
+view.controllerui.second.handlerstates.StateMain#instance-init#
+view.controllerui.second.handlerstates.StateMain#<init>()V

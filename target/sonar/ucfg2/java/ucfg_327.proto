@@ -1,295 +1,61 @@
 
-_view.controllerui.first.SigninPageEventHandler#initUserProfile(Lview/bean/observers/UserBean;)Vt
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java± ±( "3*¸#
-2t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaΩ Ω(
-Ì
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaΩ Ω(E8
-%231view.graphicalui.first.HomePage$UserProfileDialog"Éview.graphicalui.first.HomePage$UserProfileDialog#getUserProfileDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog;*5"3
-1view.graphicalui.first.HomePage$UserProfileDialog“œ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaΩ æ(* 
-%24javafx.scene.shape.Circle"bview.graphicalui.first.HomePage$UserProfileDialog#getCircleImgProfile()Ljavafx/scene/shape/Circle;*:
-8
-%231view.graphicalui.first.HomePage$UserProfileDialog2getCircleImgProfile()†
-ù
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaæN æ(R
-%25java.lang.String"__id*
-""ìê
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaæU æ(o
-%26java.lang.String"@view.bean.observers.UserBean#getImageProfile()Ljava/lang/String;**
-(
-userBeanview.bean.observers.UserBean2getImageProfile()“
-œ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaæN æ(o
-%27java.lang.String"__concat*
-
-%25java.lang.String*
-
-%26java.lang.String¥±
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaæH æ(M
-%28javafx.scene.image.Image"javafx.scene.image.ImageÙ
-Ò
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaæD æ(p
-%29"4javafx.scene.image.Image#<init>(Ljava/lang/String;)V*!
-
-%28javafx.scene.image.Image*
-
-%27java.lang.String¬ø
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaæ7 æ(C&
-%30javafx.scene.paint.ImagePattern"javafx.scene.paint.ImagePatterní
-è
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaæ3 æ(q
-%31"Cjavafx.scene.paint.ImagePattern#<init>(Ljavafx/scene/image/Image;)V*(
-&
-%30javafx.scene.paint.ImagePattern*!
-
-%28javafx.scene.image.Image∏µ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaΩ æ(r
-%32void"=javafx.scene.shape.Shape#setFill(Ljavafx/scene/paint/Paint;)V*"
- 
-%24javafx.scene.shape.Circle*(
-&
-%30javafx.scene.paint.ImagePattern2#setFill(Ljavafx/scene/paint/Paint;)†
-ù
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java¿G ¿(K
-%33java.lang.String"__id*
-""ìê
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java¿N ¿(h
-%34java.lang.String"@view.bean.observers.UserBean#getImageProfile()Ljava/lang/String;**
-(
-userBeanview.bean.observers.UserBean2getImageProfile()“
-œ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java¿G ¿(h
-%35java.lang.String"__concat*
-
-%33java.lang.String*
-
-%34java.lang.String¥±
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java¿A ¿(F
-%36javafx.scene.image.Image"javafx.scene.image.ImageÙ
-Ò
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java¿= ¿(i
-%37"4javafx.scene.image.Image#<init>(Ljava/lang/String;)V*!
-
-%36javafx.scene.image.Image*
-
-%35java.lang.String¬ø
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java¿0 ¿(<&
-%38javafx.scene.paint.ImagePattern"javafx.scene.paint.ImagePatterní
-è
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java¿, ¿(j
-%39"Cjavafx.scene.paint.ImagePattern#<init>(Ljavafx/scene/image/Image;)V*(
-&
-%38javafx.scene.paint.ImagePattern*!
-
-%36javafx.scene.image.ImageÃ…
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java¿ ¿(k
-%40void"=javafx.scene.shape.Shape#setFill(Ljavafx/scene/paint/Paint;)V*6
-4
-circleHomePageImageUserjavafx.scene.shape.Circle*(
-&
-%38javafx.scene.paint.ImagePattern2#setFill(Ljavafx/scene/paint/Paint;)*
-1*ß6
-3t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java≥) ≥(1≈
-¬
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java≥) ≥(K%
-%0view.graphicalui.first.HomePage"vview.graphicalui.first.HomePage#getHomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/HomePage;*#"!
-view.graphicalui.first.HomePage*
-""†ù
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java≥) ¥("
-%1javafx.scene.control.ToolBar"Jview.graphicalui.first.HomePage#getToolBar()Ljavafx/scene/control/ToolBar;*'
-%
-%0view.graphicalui.first.HomePage2getToolBar()†ù
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java≥) ¥(('
-%2!javafx.collections.ObservableList"Jjavafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;*$
-"
-%1javafx.scene.control.ToolBar2
-getItems()√
-¿
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java¥- ¥(8:
-%34view.graphicalui.first.toolbaritems.HomeToolbarItems"__id*
-""∞≠
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java¥- ¥(C
-%4java.lang.Integer"Rview.graphicalui.first.toolbaritems.HomeToolbarItems#getIndex()Ljava/lang/Integer;*<
-:
-%34view.graphicalui.first.toolbaritems.HomeToolbarItems2
-getIndex()‰
-·
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java≥) ¥(D
-%5javafx.scene.Node"
-__arrayGet*)
-'
-%2!javafx.collections.ObservableList*
-
-%4java.lang.Integer 
-«
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java≥ ¥(E.
-homePageProfileBoxjavafx.scene.layout.VBox"__id*
-
-%5javafx.scene.NodeÆ´
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaµ2 µ(R'
-%6!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*0
-.
-homePageProfileBoxjavafx.scene.layout.VBox2getChildren()”
-–
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaµW µ(aJ
-%7Dview.graphicalui.first.toolbaritems.HomeToolbarItems$profileBoxItems"__id*
-""–Õ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaµW µ(l
-%8java.lang.Integer"bview.graphicalui.first.toolbaritems.HomeToolbarItems$profileBoxItems#getIndex()Ljava/lang/Integer;*L
-J
-%7Dview.graphicalui.first.toolbaritems.HomeToolbarItems$profileBoxItems2
-getIndex()‰
-·
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaµ2 µ(m
-%9javafx.scene.Node"
-__arrayGet*)
-'
-%6!javafx.collections.ObservableList*
-
-%8java.lang.Integer–
-Õ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaµ µ(n4
-circleHomePageImageUserjavafx.scene.shape.Circle"__id*
-
-%9javafx.scene.Node
-Ì
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java∑ ∑(A8
-%101view.graphicalui.first.HomePage$UserProfileDialog"Éview.graphicalui.first.HomePage$UserProfileDialog#getUserProfileDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog;*5"3
-1view.graphicalui.first.HomePage$UserProfileDialogŒÀ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java∑ ∏(#!
-%11javafx.scene.control.Label"`view.graphicalui.first.HomePage$UserProfileDialog#getLabelFullName()Ljavafx/scene/control/Label;*:
-8
-%101view.graphicalui.first.HomePage$UserProfileDialog2getLabelFullName()ÉÄ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java∏, ∏(>
-%12java.lang.String"8view.bean.observers.UserBean#getName()Ljava/lang/String;**
-(
-userBeanview.bean.observers.UserBean2	getName()æ
-ª
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java∏, ∏(D
-%13java.lang.String"__concat*
-
-%12java.lang.String*
- âÜ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java∏G ∏(\
-%14java.lang.String";view.bean.observers.UserBean#getSurname()Ljava/lang/String;**
-(
-userBeanview.bean.observers.UserBean2getSurname()“
-œ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java∏, ∏(\
-%15java.lang.String"__concat*
-
-%13java.lang.String*
-
-%14java.lang.Stringûõ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java∑ ∏(]
-%16void"9javafx.scene.control.Labeled#setText(Ljava/lang/String;)V*#
-!
-%11javafx.scene.control.Label*
-
-%15java.lang.String2setText(Ljava/lang/String;)
-Ì
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaπ π(A8
-%171view.graphicalui.first.HomePage$UserProfileDialog"Éview.graphicalui.first.HomePage$UserProfileDialog#getUserProfileDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog;*5"3
-1view.graphicalui.first.HomePage$UserProfileDialogŒÀ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaπ ∫(#!
-%18javafx.scene.control.Label"`view.graphicalui.first.HomePage$UserProfileDialog#getLabelNickname()Ljavafx/scene/control/Label;*:
-8
-%171view.graphicalui.first.HomePage$UserProfileDialog2getLabelNickname()ãà
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java∫0 ∫(F
-%19java.lang.String"<view.bean.observers.UserBean#getNickname()Ljava/lang/String;**
-(
-userBeanview.bean.observers.UserBean2getNickname()æ
-ª
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java∫, ∫(F
-%20java.lang.String"__concat*
-@*
-
-%19java.lang.Stringûõ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaπ ∫(G
-%21void"9javafx.scene.control.Labeled#setText(Ljava/lang/String;)V*#
-!
-%18javafx.scene.control.Label*
-
-%20java.lang.String2setText(Ljava/lang/String;)ìê
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaº º(%
-%22java.lang.String"@view.bean.observers.UserBean#getImageProfile()Ljava/lang/String;**
-(
-userBeanview.bean.observers.UserBean2getImageProfile()*
-2
-1*ì
-0 "ã
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java≈ ≈(
-implicit return*–
-1t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java√ √(©
-¶
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java√ √(MG
-%41@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog"ûview.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog#getUsernameDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog$UsernameDialog;*D"B
-@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialogÙÒ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java√ ƒ('!
-%42javafx.scene.control.Label"sview.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog#getLabelCurrNickname()Ljavafx/scene/control/Label;*I
-G
-%41@view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog2getLabelCurrNickname()ãà
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaƒ0 ƒ(F
-%43java.lang.String"<view.bean.observers.UserBean#getNickname()Ljava/lang/String;**
-(
-userBeanview.bean.observers.UserBean2getNickname()ûõ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java√ ƒ(G
-%44void"9javafx.scene.control.Labeled#setText(Ljava/lang/String;)V*#
-!
-%42javafx.scene.control.Label*
-
-%43java.lang.String2setText(Ljava/lang/String;)*
-0:(
-userBeanview.bean.observers.UserBeanB20
+ïview.controllerui.first.SigninPageEventHandler#checkUserCredentials(Lview/bean/UserSignInBean;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaN N('"9*‰
+4r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaY Y(Â‚
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaY Y(0
+
+%2void"9view.bean.UserSignInBean#setPassword(Ljava/lang/String;)V*H
+
+__unknown_file (,
+*
+userSignInBeanview.bean.UserSignInBean*:
+
+__unknown_file (
+
+passwordjava.lang.String2setPassword(Ljava/lang/String;)*
+1*‰
+8r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaS S(Â‚
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaS S(0
+
+%0void"9view.bean.UserSignInBean#setNickname(Ljava/lang/String;)V*H
+
+__unknown_file (,
+*
+userSignInBeanview.bean.UserSignInBean*:
+
+__unknown_file (
+
+nicknamejava.lang.String2setNickname(Ljava/lang/String;)*
+4*¿
+9r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaP P( ¡
+æ
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaP P(!
+
+stackErrorjava.lang.String"__id*"
+
+__unknown_file (
+""*
+8*ê
+1r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java^ ^("ñ
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java^ ^( 
+
+
+stackErrorjava.lang.String:†
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaN( N(F*
+userSignInBeanview.bean.UserSignInBean:í
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaNG N(W
+nicknamejava.lang.String:í
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaNX N(g
+passwordjava.lang.StringB20
 .view.controllerui.first.SigninPageEventHandler

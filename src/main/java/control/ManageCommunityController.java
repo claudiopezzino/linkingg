@@ -24,6 +24,7 @@ import java.util.*;
 
 import static model.dao.DAO.DEVICE_DAO;
 import static model.dao.DAO.GROUP_DAO;
+import static view.ConstAdapter.*;
 
 
 public class ManageCommunityController {
@@ -32,6 +33,73 @@ public class ManageCommunityController {
     private Listener threadListener;
     ////////////////////////////////
 
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    public List<GroupFilteredBean> findGroupsByFilter(SearchFilterBean searchFilterBean) throws InternalException{
+        Map<String, String> mapGroupsFilter = new HashMap<>();
+        mapGroupsFilter.put(UserFields.NICKNAME, searchFilterBean.getCurrUserNick());
+
+        Map<String, Object> mapObjects = new HashMap<>();
+        Map<String, Group> mapGroups = new HashMap<>();
+
+        List<GroupFilteredBean> listGroupFilteredBean = new ArrayList<>();
+
+        FactoryDAO factoryDAO = FactoryDAO.getSingletonInstance();
+        BaseDAO baseDAO = factoryDAO.createDAO(GROUP_DAO);
+
+        String filter = searchFilterBean.getFilter();
+        try {
+            switch (filter) {
+                case ADAPTED_FILTER_NAME:
+                    mapGroupsFilter.put(GroupFields.NAME, searchFilterBean.getFilterName());
+                    mapObjects = baseDAO.readEntities(mapGroupsFilter, Filter.GROUP_NAME);
+                    break;
+
+                case ADAPTED_FILTER_NICKNAME:
+                    mapGroupsFilter.put(UserInfo.GROUP_NICK, searchFilterBean.getFilterName());
+                    mapObjects = baseDAO.readEntities(mapGroupsFilter, Filter.GROUP_NICKNAME);
+                    break;
+
+                case ADAPTED_FILTER_PROVINCE:
+                    mapGroupsFilter.put(UserFields.PROVINCE, searchFilterBean.getFilterName());
+                    mapObjects = baseDAO.readEntities(mapGroupsFilter, Filter.GROUP_PROVINCE);
+                    break;
+
+                default:
+                    break;
+            }
+
+            for(Map.Entry<String, Object> entry : mapObjects.entrySet())
+                mapGroups.put(entry.getKey(), (Group) entry.getValue());
+
+            for (Map.Entry<String, Group> entry : mapGroups.entrySet()){
+                GroupFilteredBean groupFilteredBean = this.turnIntoGroupFilteredBean(entry.getValue());
+                listGroupFilteredBean.add(groupFilteredBean);
+            }
+
+        }catch (NoEntityException noEntityException){
+            throw new InternalException(noEntityException.getMessage());
+        }
+
+        return listGroupFilteredBean;
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////
+    private GroupFilteredBean turnIntoGroupFilteredBean(Group group){
+        GroupFilteredBean groupFilteredBean = new GroupFilteredBean();
+
+        String nickname = group.nickname();
+        String name = group.name();
+        String image = group.imageProfile();
+
+        groupFilteredBean.setNickname(nickname);
+        groupFilteredBean.setName(name);
+        groupFilteredBean.setImage(image);
+
+        return groupFilteredBean;
+    }
+    /////////////////////////////////////////////////////////////////
 
     //////////////////////////////////////////////////////////////////////////////////////
     public void setUpGroup(GroupCreationBean groupCreationBean) throws InternalException{

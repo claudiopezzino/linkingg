@@ -1,5 +1,6 @@
-view.boundary.UserManageCommunityBoundary#notifyNewGroupMemberNick(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+view.boundary.UserManageCommunityBoundary#notifyNewCurrUserNick()V
 view.graphicalui.first.HomePage#getHandler()Lview/controllerui/first/HomePageEventHandler;
 view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;
+view.graphicalui.second.Shell#getShellHandler()Lview/controllerui/second/KeyEventHandler;
 view.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;
-view.boundary.UserManageCommunityBoundary#notifyNewNick(Ljava/lang/String;)V
+view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;

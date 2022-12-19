@@ -1,1 +1,3 @@
-view.graphicalui.second.passwordquestionstates.QuestionEnd#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.controllerui.second.handlerstates.StateMembersView#getStateMembersViewInstance()Lview/controllerui/second/handlerstates/StateMembersView;
+view.controllerui.second.handlerstates.StateMembersView#<init>()V
+view.controllerui.second.handlerstates.StateMembersView#instance-init#

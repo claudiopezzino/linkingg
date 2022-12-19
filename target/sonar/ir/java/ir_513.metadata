@@ -1,1 +1,1 @@
-view.bean.observers.MeetingBean#setDate(Ljava/lang/String;)V
+view.bean.observers.MeetingBean#getTime()Ljava/lang/String;

@@ -1,1 +1,1 @@
-view.bean.observers.MeetingBean#getTime()Ljava/lang/String;
+view.graphicalui.second.QuestionStateMachine#nextQuestion()V

@@ -82,7 +82,29 @@ public class GroupDAO implements BaseDAO{
             PersistencyDB db = PersistencyDB.getSingletonInstance();
             Connection connection = db.getConnection();
 
-            if(type == Filter.USER_NICKNAME) {
+            if(type == Filter.GROUP_NAME || type == Filter.GROUP_NICKNAME || type == Filter.GROUP_PROVINCE){
+
+                if(type == Filter.GROUP_NAME)
+                    listGroupsInfo = GroupDAOQueries.selectGroupsByFilter(db, connection,
+                            (String) filter.get(GroupFields.NAME), (String) filter.get(UserFields.NICKNAME), type);
+
+                else if(type == Filter.GROUP_NICKNAME)
+                    listGroupsInfo = GroupDAOQueries.selectGroupsByFilter(db, connection,
+                            (String) filter.get(UserInfo.GROUP_NICK), (String) filter.get(UserFields.NICKNAME), type);
+
+                else // type == Filter.GROUP_PROVINCE
+                    listGroupsInfo = GroupDAOQueries.selectGroupsByFilter(db, connection,
+                            (String) filter.get(UserFields.PROVINCE), (String) filter.get(UserFields.NICKNAME), type);
+
+                for (String groupInfo : listGroupsInfo){
+                    mapGroupInfo = this.unpackGroupInfo(groupInfo);
+                    Group group = this.makeGroupEntity(mapGroupInfo, Collections.emptyMap(), Collections.emptyMap());
+                    mapGroups.put(mapGroupInfo.get(GroupFields.NICKNAME), group);
+                }
+            }
+
+            else if(type == Filter.USER_NICKNAME) {
+
                 listSupport = GroupDAOQueries.selectGroups(db, connection, (String) filter.get(UserFields.NICKNAME), UserInfo.GROUP_OWNER);
 
                 listGroupsInfo = new ArrayList<>(listSupport);

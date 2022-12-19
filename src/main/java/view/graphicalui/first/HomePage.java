@@ -263,10 +263,19 @@ public class HomePage extends Parent {
     /*------------------------------ INNER_CLASS -------------------------------*/
     public static class SearchGroupsDialog extends PageDialog{
 
+        ///////////////////////////////////////////////////////////////////////////////////////////////
+        private final ObservableList<HBox> observableListGroups =  FXCollections.observableArrayList();
+        ///////////////////////////////////////////////////////////////////////////////////////////////
 
-        ///////////////////////////////////////////////////////////
-        public SearchGroupsDialog(String title, String header){
+        //////////////////////////////////////
+        private ListView<HBox> listViewGroups;
+        //////////////////////////////////////
+
+
+        ////////////////////////////////////////////////////////////////////////////////////////
+        public SearchGroupsDialog(String title, String header, List<HBox> hBoxListGroupPreview){
             super(title, header, CREATE_GROUP);
+            this.observableListGroups.addAll(hBoxListGroupPreview);
             this.getDialogPane().setContent(this.setUpPopUpRoot());
             this.setResultConverter(this::searchGroupsResult);
         }
@@ -291,11 +300,11 @@ public class HomePage extends Parent {
             vBoxPlaceholder.getStyleClass().add(HBOX);
 
             // with "setItems(ObservableList)" is possible to change elems
-            ListView<HBox> listViewGroups = new ListView<>();
-            listViewGroups.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
-            listViewGroups.setPlaceholder(vBoxPlaceholder);
+            this.listViewGroups = new ListView<>();
+            this.listViewGroups.setPlaceholder(vBoxPlaceholder);
+            this.listViewGroups.setItems(this.observableListGroups);
 
-            vBoxRoot.getChildren().addAll(listViewGroups);
+            vBoxRoot.getChildren().addAll(this.listViewGroups);
 
             return vBoxRoot;
         }
@@ -645,7 +654,6 @@ public class HomePage extends Parent {
         ///////////////////////////////////////////////////////////
 
         //////////////////////////////////
-        private Button btnLinkInvitations;
         private Button btnNickname;
         private Button btnPassword;
         ////////////////////////////
@@ -707,7 +715,7 @@ public class HomePage extends Parent {
             labelFullName = new Label("Name Surname");
             oldImgProfilePath = UPLOAD_PHOTO;
 
-            btnLinkInvitations = new Button("link invitations");
+            Button btnLinkInvitations = new Button("link invitations");
             btnLinkInvitations.getStyleClass().add(DIALOG_BUTTONS);
             btnLinkInvitations.setOnMouseClicked(dialogHandler);
 
@@ -884,12 +892,6 @@ public class HomePage extends Parent {
         }
         ///////////////////////////////////////////////////////////
 
-        /////////////////////////////////////////////////////////////////////////
-        public Button getBtnLinkInvitations() {
-            return this.btnLinkInvitations;
-        }
-        /////////////////////////////////////////////////////////////////////////
-
         //////////////////////////////////////////////////////////////////////////////////////////////
         public void setImgProfilePath(String imgProfilePath) {
             this.imgProfilePath = imgProfilePath;
@@ -991,19 +993,33 @@ public class HomePage extends Parent {
     }
     ///////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    public void initGroupView(UserBean currUserBean, GroupBean groupBean){
-        VBox vBoxGroupPreview = new VBox();
-        vBoxGroupPreview.getStyleClass().addAll(IMG_CONTAINER);
-
+    /////////////////////////////////////////////////////////////////////////////////////
+    public HBox setUpHBoxGroupDetails(String imagePath, String groupNick, String groupName){
         HBox hBoxGroupDetails = new HBox();
         hBoxGroupDetails.getStyleClass().addAll(IMG_CONTAINER);
 
         Circle circleGroupImage = new Circle(40);
-        circleGroupImage.setFill(new ImagePattern(new Image(FILE + groupBean.getImage())));
+        circleGroupImage.setFill(new ImagePattern(new Image(FILE + imagePath)));
 
-        Label labelGroupName = new Label("Name:    " + groupBean.getName());
-        Label labelGroupNick = new Label("Nickname:    " + groupBean.getNickname());
+        Label labelGroupName = new Label("Name:    " + groupName);
+        Label labelGroupNick = new Label("Nickname:    " + groupNick);
+
+        VBox vBoxLabelContainer = new VBox(labelGroupName, labelGroupNick);
+        vBoxLabelContainer.getStyleClass().addAll(IMG_CONTAINER);
+
+        hBoxGroupDetails.getChildren().addAll(circleGroupImage, vBoxLabelContainer);
+
+        return hBoxGroupDetails;
+    }
+    /////////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    public void initGroupView(UserBean currUserBean, GroupBean groupBean){
+        VBox vBoxGroupView = new VBox();
+        vBoxGroupView.getStyleClass().addAll(IMG_CONTAINER);
+
+        HBox hBoxGroupDetails = this.setUpHBoxGroupDetails(groupBean.getImage(), groupBean.getNickname(), groupBean.getName());
+
         Label labelOwnerNick = new Label("Owner:   ");
         Label labelMembers = new Label("Members");
 
@@ -1018,11 +1034,6 @@ public class HomePage extends Parent {
         HBox hBoxOwner = new HBox(labelOwnerNick, hyperlinkOwner);
         hBoxOwner.getStyleClass().add(HBOX);
 
-        VBox vBoxLabelContainer = new VBox(labelGroupName, labelGroupNick);
-        vBoxLabelContainer.getStyleClass().addAll(IMG_CONTAINER);
-
-        hBoxGroupDetails.getChildren().addAll(circleGroupImage, vBoxLabelContainer);
-
         FlowPane flowPaneMembers = new FlowPane();
         for(Map.Entry<String, UserBean> entry : groupBean.getMapMembers().entrySet()){
             String userNick = entry.getValue().getNickname();
@@ -1035,9 +1046,9 @@ public class HomePage extends Parent {
         vBoxMembers.getStyleClass().addAll(IMG_CONTAINER);
         vBoxMembers.getChildren().addAll(labelMembers, flowPaneMembers);
 
-        vBoxGroupPreview.getChildren().addAll(hBoxOwner, hBoxGroupDetails, vBoxMembers);
+        vBoxGroupView.getChildren().addAll(hBoxOwner, hBoxGroupDetails, vBoxMembers);
 
-        this.observableListGroups.add(vBoxGroupPreview);
+        this.observableListGroups.add(vBoxGroupView);
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

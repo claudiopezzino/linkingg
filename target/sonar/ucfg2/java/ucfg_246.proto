@@ -1,16 +1,51 @@
 
-Sview.graphicalui.first.PageDialog#getBtnTypeSave()Ljavafx/scene/control/ButtonType;e
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaH H($"1*Ï
-1e
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaI I(Ï
-Ì
-e
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaI I(%
-%0javafx.scene.control.ButtonType"__id*6*4#
-!view.graphicalui.first.PageDialog"
-btnTypeSave"
-e
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaI I( '
-%
-%0javafx.scene.control.ButtonTypeB%#
-!view.graphicalui.first.PageDialog
+Yview.bean.errorsignupdecorations.CellBeanErrorDecorator#displayErrors()Ljava/lang/String;{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java ("1*æ
+1{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (ü
+ù
+{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (-
+%0java.lang.String">view.bean.BeanErrorDecorator#displayErrors()Ljava/lang/String;*"
+
+__unknown_file (
+""Ø
+Õ
+{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (.
+errorsjava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.String³°
+{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (#
+%1java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*W
+
+__unknown_file (;9
+7view.bean.errorsignupdecorations.CellBeanErrorDecorator2getMessage()Ú
+×
+{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (#
+%2java.lang.String"__concat*›
+{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (#
+
+errorsjava.lang.String*—
+{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (#
+
+%1java.lang.StringØ
+Õ
+{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (#
+errorsjava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.String"›
+{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (
+
+errorsjava.lang.StringB;9
+7view.bean.errorsignupdecorations.CellBeanErrorDecoratorH

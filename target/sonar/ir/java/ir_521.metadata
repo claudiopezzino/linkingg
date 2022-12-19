@@ -1,3 +1,1 @@
-view.bean.observers.MeetingBean#notifyMeetingJoinerToView(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
-view.boundary.UserManageCommunityBoundary#<init>()V
-view.boundary.UserManageCommunityBoundary#instance-init#
+view.bean.observers.MeetingBean#setDate(Ljava/lang/String;)V

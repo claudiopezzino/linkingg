@@ -1,5 +1,9 @@
-view.controllerui.second.KeyEventHandler#homeHandle(Lview/graphicalui/second/Home;)V
-view.controllerui.second.KeyEventHandler#moveBackToWelcomePage(Lview/graphicalui/second/Home;)V
-javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
-java.lang.String#equals(Ljava/lang/Object;)Z
-view.controllerui.second.KeyEventHandler#moveBackToHomePage(Lview/graphicalui/second/Home;)V
+view.controllerui.second.KeyEventHandler#initSignUpPhase(Lview/graphicalui/second/Signup;)V
+view.controllerui.second.KeyEventHandler#verifyUserInfo(Lview/graphicalui/second/Signup;Lview/bean/UserSignUpBean;)Ljava/lang/String;
+view.graphicalui.second.Signin#getSigninInstance()Lview/graphicalui/second/Signin;
+view.bean.UserSignUpBean#<init>()V
+view.controllerui.second.Message#infoErrorMsg(Ljava/lang/String;)V
+view.bean.UserSignUpBean#instance-init#
+view.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;
+view.controllerui.second.KeyEventHandler#registerUser(Lview/bean/UserSignUpBean;)V
+javafx.scene.Scene#setRoot(Ljavafx/scene/Parent;)V

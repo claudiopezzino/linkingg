@@ -5,183 +5,110 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="646e3c8b-a09c-4db3-a097-fdfe618674a7" name="Changes" comment="#3">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/038969a30597c466f9792b8f91a50282c785a771" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13b719688e9eef18cfc9e1121cd093ee2a8c3e74" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b5ca3c403bd173be2aa5e69b8710812ddd4d83f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c2f382ce01b9b99b02673558dce3e080e0232c8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c89a5491fbfda3fb050196d6a239f20200296e7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d7623e8ff50f58674a4c38f175fbc97de2c7585" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/2639aab56f450890e8022ba031168a86424bf232" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2d9f7ba3747a7e530d78381cdf7a3bbed68a92dd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2dad02bce60f036579cd71e8bc2570c34346a693" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/3048284d3a46cb34f7e967eacf67a92a6283f836" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/3121d4865cd679dbe0467a61bdcc67ba7b18ea6c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/3870c7605e29596ff894d0cdc0e136c3daa653b8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c178a78983591b6c1924524688814ccce3b3e69" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d3576dae82d1b75257925ae15cf720c507b5f70" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a12f633ab5ba6010154e8f193b3eeeec6637221" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c118e5e38e65df58e04c9afc2c35f0b0eb3bf93" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/51fb45515f2833cd5fdfddb0c0f303d3991f5ca2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5b197f1033c58623a3cd62522668255677d33e6d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/6694bd84a5ab780c4ee6acf30a1bdb5ec36da718" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6a3ab0f43eb9b15ef95c361fac910f6e07002a98" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6eef51d197e3646234db27a808efdc6b8e41adf0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/7482045c88569cc6a0ea9c45ddff1794eb45839e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74ff0efef8a01320b182e6b95b6518892773f514" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/80ee7704dc3ef1b878a5a8459d81adbcce4bfeed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/8256eb278dafb0cfbf25106f3dd2830209734650" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/828748c19cce6489a20f98dc9a24f18a1245df60" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83a68c02b6112610ad8a517559f6d70cd2e6a0a9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/8403462c7e7b62b4935f9f6bd2b56faabe3722d7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88e239072acbf24ad883084f707b6492c93498a3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/921a956a985289a6d8cbe9c4473d1dcbee721137" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93ceddad0da499584cbaa1fbafd144cc02d04c02" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/abf1567b70b241db9c52acf72b1633d129a4a686" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b2e571352f18fa60c6d0442bb1eb6094b8500775" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b5608427f9973568a7fff3d0884868685145b570" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9f5b076c5f5044fb232be832ec2787680902148" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba7b39d46e0d3431218be100091190255dfdcc95" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c20fe31ce5a6549b1f1c1d3ece61a73fcbae8594" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb5faac53153a03d51a8923990527820308f4319" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1c3241292967e98a7d7f6608086715234cb6842" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8700c88d5b43491cb37696fd786c1ff02255cce" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/dbde46398f62dd0288694db1f07faa066341dedf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dcd551adf3c812a546da09b503c56491898c3037" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df9a73caafea6221b89cdd6157c18aa91b2164c1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3f863e87c50ae64a67bb8adc690031ca383f9f9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e51ad925cfc59008d01c1ecb5ec7a32549868f9b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec75548209220d66309a230fdcaa7775b42b1c39" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f05b6f82ceccc42c5873336c77ba26b61bf192a9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3ee8892bdcd6305227c4d8e2adfdc135c48a0b6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f7c8cd98dac4b0c5ceb9698a2d066cbc7e19bc4c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9d976b392406aad9fba75d75dfd1f823d3a319d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe7cb1ebd5e25e14df5c7cada250d4ee456bc329" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/control/controlutilities/Messenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/control/controlutilities/MessengerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/control/controlutilities/SecureObjectInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/DeviceFields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/LocalBridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/dao/DeviceDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/db/dbqueries/DeviceDAOQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/NotificationTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/bean/GroupCreationBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/graphicalui/first/constcontainer/HomePageFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01cc69eca697458e0d3ca9aa5c5bb8f9154eed58" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/0241b23c871a9e4cfb4e3a3895f9fbe41e58f8be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/03828cfc43798cc7d760d75cf3e5562c4fc4ff2a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/0433e5208f344e0e690f97e600bb1567c1992437" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/166e7b496330d140742d444e4216a6db5f8376e3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/23d2bf4c08c788e99fd747e173571287cd56f890" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b419f1384a17c9aa7ea5a28306f3b26c1e062fd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e415936ef6fe9e423bfb0983111e2e4b6dedf55" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/36df36c0b291cf70c221806cc82c297024a6dd08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d30fdf162c11b2ce1cc0e34b337ef507806cc15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45951a07451a672bccf95901ab99f7d5147c2dcc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/550aca606f2e7eecf3e1250fb470c799c88b8d5a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7028ee34579eb6ad3e3fe03c40f31c49cb818568" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/70627b848a89031465c294ce03a8f52b3f53af7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79accb6ed6a3ff012940e6602ffa8e2de31b930d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c6e1f94117f74a4c74f33a312e32ff8252857b5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d4cff425790afce1fa8c997303acb8251a54efb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b9320c4b074225b9dca5d731b1df0af32a2bda3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c6d9af1a173689fa9300bb01d928bc4791919fb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/9822800553062077c2f333fed4c72eed327bcb15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99b4d1822de6fa7449c5e88bce29ae3aafa9c492" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e0499efefc04b83415ed04659cefd78a6c19a1a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/abe8cc6f3e07dd974410a5491cfe6f4c8cc844b0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c654fbbca3783f9376bbb3d0d3e03b10f514b0f0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c6a5953e52de9888a69ea19e4d1b553e5b1d8df1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d3020503e832728f28761a3d92d35ac73c4f37f5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4be9dff6130ca62d35aaf96505327a90e80fad6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d870cf6b8ffa82ac4f8abcb9c2db67c5d979c2b5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f7870082fa21f5a549885957195559e3ddba6543" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/ConstAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/bean/GroupFilteredBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/bean/SearchFilterBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/ce264670-9908-43df-817e-10dfd3379f16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ce264670-9908-43df-817e-10dfd3379f16.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3" beforeDir="true" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b" beforeDir="true" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e" beforeDir="true" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/control/ManageCommunityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/ManageCommunityController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/control/UserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/UserLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/tasks/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/tasks/Listener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/tasks/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/tasks/Loader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/ImageProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ImageProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/controlutilities/Messenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/controlutilities/Messenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/controlutilities/MessengerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/controlutilities/MessengerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/LocalBridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/LocalBridge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/UserFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/UserFields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/BaseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/BaseDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/FactoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/FactoryDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/GroupDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/GroupDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/MeetingDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/MeetingDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/UserDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/db/dbqueries/GroupDAOQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/db/dbqueries/GroupDAOQueries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/db/dbqueries/MeetingDAOQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/db/dbqueries/MeetingDAOQueries.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/db/dbqueries/UserDAOQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/db/dbqueries/UserDAOQueries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/subjects/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/subjects/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/subjects/Meeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/subjects/Meeting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/subjects/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/subjects/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/subjects/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/subjects/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/bean/observers/GroupBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/bean/observers/GroupBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/bean/observers/MeetingBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/bean/observers/MeetingBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/bean/observers/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/bean/observers/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/bean/observers/UserBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/bean/observers/UserBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/bean/GroupCreationBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/bean/GroupCreationBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/bean/UserSignUpBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/bean/UserSignUpBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/boundary/UserManageCommunityBoundary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/boundary/UserManageCommunityBoundary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/controllerui/first/DialogEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/controllerui/first/DialogEventHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/controllerui/first/HomePageEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/controllerui/first/HomePageEventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/controllerui/first/SigninPageEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/controllerui/first/SigninPageEventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/controllerui/second/KeyEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/controllerui/second/KeyEventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/controllerui/second/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/controllerui/second/Message.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationNickname.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationNickname.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/controllerui/second/handlerstates/StateGroupOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/controllerui/second/handlerstates/StateGroupOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/graphicalui/first/FirstMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/graphicalui/first/FirstMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/controllerui/second/handlerstates/StateSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/controllerui/second/handlerstates/StateSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/controllerui/second/handlerstates/StateSearchFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/controllerui/second/handlerstates/StateSearchFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/controllerui/second/handlerstates/StateSearchInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/controllerui/second/handlerstates/StateSearchInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/graphicalui/first/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/graphicalui/first/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/graphicalui/first/constcontainer/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/graphicalui/first/constcontainer/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/graphicalui/first/listviewitems/ListViewGroupItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/graphicalui/first/listviewitems/ListViewGroupItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/graphicalui/first/constcontainer/HomePageFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/graphicalui/first/constcontainer/HomePageFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/graphicalui/first/toolbardecorations/SearchBarDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/graphicalui/first/toolbardecorations/SearchBarDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/graphicalui/second/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/graphicalui/second/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/graphicalui/second/SecondMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/graphicalui/second/SecondMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/graphicalui/second/passwordquestionstates/QuestionEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/graphicalui/second/passwordquestionstates/QuestionEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ic_anonymous_profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ic_anonymous_profile.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/control/ManageCommunityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/ManageCommunityController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/control/UserLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/UserLoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/tasks/Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/tasks/Listener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/tasks/Loader$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/tasks/Loader$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/control/tasks/Loader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/tasks/Loader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ic_anonymous_profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ic_anonymous_profile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/ImageProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/ImageProfile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Filter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/UserFields.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/UserFields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/UserInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/dao/BaseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/dao/BaseDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/dao/DAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/dao/DAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/dao/FactoryDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/dao/FactoryDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/dao/UserDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/db/dbqueries/UserDAOQueries.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/db/dbqueries/UserDAOQueries.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/subjects/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/subjects/Group.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/subjects/Meeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/subjects/Meeting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/subjects/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/subjects/Subject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/subjects/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/subjects/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/bean/UserSignUpBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/bean/UserSignUpBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/view/boundary/UserManageCommunityBoundary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/boundary/UserManageCommunityBoundary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/controllerui/first/DialogEventHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/controllerui/first/DialogEventHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/view/controllerui/first/HomePageEventHandler$GoogleMapsChangeListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/controllerui/first/HomePageEventHandler$GoogleMapsChangeListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/view/controllerui/first/HomePageEventHandler$ListViewHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/controllerui/first/HomePageEventHandler$ListViewHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/view/controllerui/first/HomePageEventHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/controllerui/first/HomePageEventHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/controllerui/first/MeetingPageEventHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/controllerui/first/MeetingPageEventHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/controllerui/first/SigninPageEventHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/controllerui/first/SigninPageEventHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/controllerui/second/KeyEventHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/controllerui/second/KeyEventHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/controllerui/second/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/controllerui/second/Message.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/view/controllerui/second/handlerstates/StateGroupCreationEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/controllerui/second/handlerstates/StateGroupCreationEnd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/controllerui/second/handlerstates/StateGroupCreationNickname.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/controllerui/second/handlerstates/StateGroupCreationNickname.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/controllerui/second/handlerstates/StateGroupOptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/controllerui/second/handlerstates/StateGroupOptions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/graphicalui/first/FirstMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/graphicalui/first/FirstMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/controllerui/second/handlerstates/StateSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/controllerui/second/handlerstates/StateSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/controllerui/second/handlerstates/StateSearchFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/controllerui/second/handlerstates/StateSearchFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/controllerui/second/handlerstates/StateSearchInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/controllerui/second/handlerstates/StateSearchInput.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/view/graphicalui/first/HomePage$GroupCreationDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/graphicalui/first/HomePage$GroupCreationDialog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/view/graphicalui/first/HomePage$GroupDeletionDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/graphicalui/first/HomePage$GroupDeletionDialog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/view/graphicalui/first/HomePage$LinkRequestsDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/graphicalui/first/HomePage$LinkRequestsDialog.class" afterDir="false" />
@@ -191,18 +118,17 @@
       <change beforePath="$PROJECT_DIR$/target/classes/view/graphicalui/first/HomePage$UserProfileDialog$UsernameDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/graphicalui/first/HomePage$UserProfileDialog$UsernameDialog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/view/graphicalui/first/HomePage$UserProfileDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/graphicalui/first/HomePage$UserProfileDialog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/view/graphicalui/first/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/graphicalui/first/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/graphicalui/first/constcontainer/Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/graphicalui/first/constcontainer/Image.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/graphicalui/first/listviewitems/ListViewGroupItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/graphicalui/first/listviewitems/ListViewGroupItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/graphicalui/first/toolbardecorations/SearchBarDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/graphicalui/first/toolbardecorations/SearchBarDecorator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/view/graphicalui/second/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/graphicalui/second/Home.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/graphicalui/second/SecondMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/graphicalui/second/SecondMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/graphicalui/second/passwordquestionstates/QuestionEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/graphicalui/second/passwordquestionstates/QuestionEnd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/graphicalui/second/usernamequestionstates/QuestionEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/graphicalui/second/usernamequestionstates/QuestionEnd.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/linkingg-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/linkingg-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_0.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_0.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_1.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_1.ir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_1.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_1.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_10.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_10.ir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_10.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_10.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_100.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_100.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_100.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_100.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_101.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_101.ir" afterDir="false" />
@@ -224,6 +150,7 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_109.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_109.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_109.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_109.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_11.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_11.ir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_11.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_11.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_110.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_110.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_110.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_110.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_111.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_111.ir" afterDir="false" />
@@ -245,6 +172,7 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_119.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_119.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_119.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_119.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_12.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_12.ir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_12.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_12.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_120.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_120.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_120.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_120.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_121.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_121.ir" afterDir="false" />
@@ -266,6 +194,7 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_129.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_129.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_129.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_129.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_13.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_13.ir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_13.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_13.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_130.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_130.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_130.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_130.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_131.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_131.ir" afterDir="false" />
@@ -286,6 +215,8 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_138.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_138.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_139.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_139.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_139.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_139.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_14.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_14.ir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_14.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_14.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_140.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_140.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_140.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_140.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_141.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_141.ir" afterDir="false" />
@@ -306,6 +237,8 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_148.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_148.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_149.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_149.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_149.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_149.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_15.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_15.ir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_15.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_15.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_150.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_150.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_150.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_150.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_151.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_151.ir" afterDir="false" />
@@ -326,6 +259,8 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_158.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_158.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_159.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_159.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_159.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_159.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_16.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_16.ir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_16.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_16.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_160.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_160.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_160.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_160.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_161.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_161.ir" afterDir="false" />
@@ -346,6 +281,8 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_168.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_168.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_169.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_169.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_169.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_169.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_17.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_17.ir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_17.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_17.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_170.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_170.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_170.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_170.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_171.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_171.ir" afterDir="false" />
@@ -367,6 +304,7 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_179.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_179.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_179.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_179.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_18.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_18.ir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_18.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_18.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_180.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_180.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_180.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_180.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_181.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_181.ir" afterDir="false" />
@@ -387,6 +325,8 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_188.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_188.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_189.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_189.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_189.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_189.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_19.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_19.ir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_19.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_19.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_190.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_190.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_190.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_190.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_191.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_191.ir" afterDir="false" />
@@ -627,7 +567,6 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_298.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_298.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_299.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_299.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_299.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_299.metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_3.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_3.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_30.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_30.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_30.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_30.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_300.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_300.ir" afterDir="false" />
@@ -1252,7 +1191,6 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_68.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_68.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_69.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_69.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_69.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_69.metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_7.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_7.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_70.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_70.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_70.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_70.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_71.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_71.ir" afterDir="false" />
@@ -1273,6 +1211,8 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_78.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_78.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_79.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_79.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_79.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_79.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_8.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_8.ir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_8.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_8.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_80.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_80.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_80.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_80.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_81.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_81.ir" afterDir="false" />
@@ -1293,6 +1233,8 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_88.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_88.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_89.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_89.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_89.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_89.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_9.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_9.ir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_9.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_9.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_90.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_90.ir" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_90.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_90.metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ir/java/ir_91.ir" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ir/java/ir_91.ir" afterDir="false" />
@@ -1316,6 +1258,7 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/report-task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/report-task.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/all.typedefs" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/all.typedefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_0.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_0.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_1.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_1.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_10.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_10.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_100.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_100.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_101.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_101.proto" afterDir="false" />
@@ -1426,6 +1369,7 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_197.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_197.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_198.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_198.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_199.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_199.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_2.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_2.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_20.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_20.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_200.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_200.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_201.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_201.proto" afterDir="false" />
@@ -1536,6 +1480,7 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_297.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_297.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_298.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_298.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_299.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_299.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_3.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_3.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_30.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_30.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_300.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_300.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_301.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_301.proto" afterDir="false" />
@@ -1646,6 +1591,7 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_397.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_397.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_398.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_398.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_399.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_399.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_4.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_4.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_40.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_40.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_400.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_400.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_401.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_401.proto" afterDir="false" />
@@ -1756,6 +1702,8 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_497.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_497.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_498.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_498.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_499.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_499.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_5.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_5.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_50.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_50.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_500.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_500.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_501.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_501.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_502.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_502.proto" afterDir="false" />
@@ -1766,6 +1714,7 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_507.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_507.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_508.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_508.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_509.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_509.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_51.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_51.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_510.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_510.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_511.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_511.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_512.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_512.proto" afterDir="false" />
@@ -1776,6 +1725,7 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_517.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_517.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_518.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_518.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_519.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_519.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_52.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_52.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_520.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_520.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_521.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_521.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_522.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_522.proto" afterDir="false" />
@@ -1786,12 +1736,20 @@
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_527.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_527.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_528.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_528.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_529.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_529.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_53.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_53.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_530.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_530.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_531.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_531.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_532.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_532.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_533.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_533.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_534.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_534.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_535.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_535.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_54.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_54.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_55.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_55.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_56.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_56.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_57.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_57.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_58.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_58.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_59.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_59.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_6.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_6.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_60.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_60.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_61.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_61.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_62.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg2/java/ucfg_62.proto" afterDir="false" />
@@ -1908,7 +1866,7 @@
       <recent name="model.dbqueries" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FirstMain">
+  <component name="RunManager" selected="Application.SecondMain">
     <configuration name="FirstMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="view.graphicalui.first.FirstMain" />
       <module name="linkingg" />
@@ -1937,8 +1895,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FirstMain" />
         <item itemvalue="Application.SecondMain" />
+        <item itemvalue="Application.FirstMain" />
       </list>
     </recent_temporary>
   </component>
@@ -2550,7 +2508,16 @@
       <workItem from="1671002502361" duration="8143000" />
       <workItem from="1671026334702" duration="3273000" />
       <workItem from="1671038078805" duration="2710000" />
-      <workItem from="1671041504185" duration="5586000" />
+      <workItem from="1671041504185" duration="7144000" />
+      <workItem from="1671111218028" duration="4528000" />
+      <workItem from="1671126296417" duration="7738000" />
+      <workItem from="1671219854181" duration="9576000" />
+      <workItem from="1671265380460" duration="4917000" />
+      <workItem from="1671289177301" duration="10391000" />
+      <workItem from="1671305197095" duration="3098000" />
+      <workItem from="1671380546220" duration="4672000" />
+      <workItem from="1671388960590" duration="7692000" />
+      <workItem from="1671467478144" duration="11670000" />
     </task>
     <task id="LOCAL-00001" summary="#2">
       <created>1665916965040</created>
@@ -2566,7 +2533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670154946078</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="#4">
+      <created>1671049566147</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671049566147</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2577,7 +2551,8 @@
     <MESSAGE value="#2" />
     <MESSAGE value="#3" />
     <MESSAGE value="#4" />
-    <option name="LAST_COMMIT_MESSAGE" value="#4" />
+    <MESSAGE value="#5" />
+    <option name="LAST_COMMIT_MESSAGE" value="#5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

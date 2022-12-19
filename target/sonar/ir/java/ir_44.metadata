@@ -1,4 +1,2 @@
-view.graphicalui.first.toolbardecorations.InfoBarDecorator#draw()Ljavafx/scene/control/ToolBar;
-javafx.scene.control.Separator#instance-init#
-javafx.scene.control.Separator#<init>()V
-javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;
+view.graphicalui.first.toolbardecorations.InfoBarDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)V
+view.graphicalui.first.toolbardecorations.InfoBarDecorator#setUpInfoBar()V

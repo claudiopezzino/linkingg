@@ -38,8 +38,8 @@ public class DialogEventHandler <T extends MouseEvent> implements EventHandler<T
             else if(event.getSource().equals(UserProfileDialog.getUserProfileDialogInstance().getBtnPassword()))
                 this.manageUserPassword();
 
-            else if(event.getSource().equals(UserProfileDialog.getUserProfileDialogInstance().getBtnLinkInvitations()))
-                this.manageLinkInvitations();
+            /*else if(event.getSource().equals(UserProfileDialog.getUserProfileDialogInstance().getBtnLinkInvitations()))
+                this.manageLinkInvitations();*/
         }
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -106,10 +106,10 @@ public class DialogEventHandler <T extends MouseEvent> implements EventHandler<T
     ////////////////////////////////////////////////////////////////////////
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    private void manageLinkInvitations(){
+    /*private void manageLinkInvitations(){
         SearchGroupsDialog searchGroupsDialog = new SearchGroupsDialog("Link invitations", "Invitations");
         searchGroupsDialog.showAndWait();
-    }
+    }*/
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 }

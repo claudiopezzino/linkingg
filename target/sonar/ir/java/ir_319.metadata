@@ -1,3 +1,1 @@
-view.controllerui.first.SigninPageEventHandler#castToGroupBean(Ljava/util/Map;)Ljava/util/Map;
-java.util.HashMap#<init>()V
-java.util.HashMap#instance-init#
+view.controllerui.first.SigninPageEventHandler#setUserManageCommunityBoundary(Lview/boundary/UserManageCommunityBoundary;)V

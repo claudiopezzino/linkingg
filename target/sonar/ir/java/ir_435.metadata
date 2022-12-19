@@ -1,1 +1,5 @@
-model.UserInfo#instance-init#
+view.controllerui.second.handlerstates.StateGroupCreationEnd#checkCmd(Lview/graphicalui/second/Home;)V
+view.controllerui.second.handlerstates.StateGroupCreationEnd#createGroup(Ljava/lang/String;Ljava/lang/String;)V
+view.controllerui.second.Message#errorMsg()V
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z

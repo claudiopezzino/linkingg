@@ -18,6 +18,8 @@ import javafx.scene.paint.ImagePattern;
 import javafx.scene.paint.Paint;
 import javafx.scene.shape.Circle;
 import view.bean.GroupCreationBean;
+import view.bean.GroupFilteredBean;
+import view.bean.SearchFilterBean;
 import view.bean.observers.GroupBean;
 import view.bean.observers.MeetingBean;
 import view.bean.observers.UserBean;
@@ -31,12 +33,13 @@ import view.graphicalui.first.HomePage.UserProfileDialog;
 import view.graphicalui.first.HomePage.GroupCreationDialog;
 import view.graphicalui.first.HomePage.LinkRequestsDialog;
 import view.graphicalui.first.HomePage.SearchGroupsDialog;
-import view.graphicalui.first.HomePage.SearchUsersDialog;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+import static view.ConstAdapter.*;
 import static view.controllerui.first.Dialog.errorDialog;
 import static view.graphicalui.first.constcontainer.HomePageFields.*;
 import static view.graphicalui.first.listviewitems.ListViewGroupItems.*;
@@ -56,6 +59,8 @@ import static view.graphicalui.first.toolbaritems.HomeToolbarItems.profileBoxIte
 import static view.graphicalui.first.toolbaritems.HomeToolbarItems.searchBarItems.RADIO_BUTTONS_CONTAINER;
 import static view.graphicalui.first.toolbaritems.HomeToolbarItems.searchBarItems.SEARCH_FIELDS;
 import static view.graphicalui.first.toolbaritems.HomeToolbarItems.searchBarItems.radioButtonsContainerItems.RADIO_BUTTON_GROUPS;
+import static view.graphicalui.first.toolbaritems.HomeToolbarItems.searchBarItems.radioButtonsContainerItems.RADIO_BUTTON_PROVINCE;
+import static view.graphicalui.first.toolbaritems.HomeToolbarItems.searchBarItems.searchFieldsItems.SEARCH_AREA;
 import static view.graphicalui.first.toolbaritems.HomeToolbarItems.searchBarItems.searchFieldsItems.SEARCH_BUTTON;
 
 
@@ -80,11 +85,11 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    //////////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public UserManageCommunityBoundary getUserManageCommunityBoundary() {
         return this.userManageCommunityBoundary;
     }
-    //////////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////
     public void setMapGroupBean(Map<String, GroupBean> mapGroupBean) {
@@ -592,17 +597,60 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     private void manageSearch(HBox searchBar){
         GridPane radioButtonsContainer = (GridPane) searchBar.getChildren().get(RADIO_BUTTONS_CONTAINER.getIndex());
-        RadioButton radioButton = (RadioButton) radioButtonsContainer.getChildren().get(RADIO_BUTTON_GROUPS.getIndex());
+        RadioButton radioButtonTarget = (RadioButton) radioButtonsContainer.getChildren().get(RADIO_BUTTON_GROUPS.getIndex());
+        RadioButton radioButtonFilter = (RadioButton) radioButtonsContainer.getChildren().get(RADIO_BUTTON_PROVINCE.getIndex());
 
-        RadioButton selectedToggle = (RadioButton) radioButton.getToggleGroup().getSelectedToggle();
-        if(selectedToggle.getText().equals("Groups")){
-            SearchGroupsDialog searchGroupsDialog = new SearchGroupsDialog("Groups result", "Groups");
-            searchGroupsDialog.showAndWait();
+        RadioButton selectedTargetToggle = (RadioButton) radioButtonTarget.getToggleGroup().getSelectedToggle();
+        RadioButton selectedFilterToggle = (RadioButton) radioButtonFilter.getToggleGroup().getSelectedToggle();
+
+        HBox hBoxSearchFiled = (HBox) searchBar.getChildren().get(SEARCH_FIELDS.getIndex());
+        TextField textFieldSearch = (TextField) hBoxSearchFiled.getChildren().get(SEARCH_AREA.getIndex());
+        String text = textFieldSearch.getText();
+
+        if(selectedTargetToggle.getText().equals(GROUPS))
+            this.searchGroups(selectedFilterToggle, text);
+        else
+            Dialog.errorDialog("Something went wrong, please try later.");
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    private void searchGroups(RadioButton selectedFilterToggle, String textValue){
+        HomePage homePage = HomePage.getHomePageInstance(null);
+        SearchFilterBean searchFilterBean = new SearchFilterBean();
+
+        if(selectedFilterToggle.getText().equals(FILTER_NAME))
+            searchFilterBean.setFilter(ADAPTED_FILTER_NAME);
+
+        else if(selectedFilterToggle.getText().equals(FILTER_NICKNAME))
+            searchFilterBean.setFilter(ADAPTED_FILTER_NICKNAME);
+
+        else if(selectedFilterToggle.getText().equals(FILTER_PROVINCE))
+            searchFilterBean.setFilter(ADAPTED_FILTER_PROVINCE);
+
+        searchFilterBean.setFilterName(textValue);
+        searchFilterBean.setCurrUserNick(this.currUserBean.getNickname());
+
+        // because sign-up and sign-in may not be done with this boundary
+        if(this.userManageCommunityBoundary == null)
+            this.userManageCommunityBoundary = new UserManageCommunityBoundary();
+
+        List<GroupFilteredBean> listGroupFilteredBean = new ArrayList<>();
+        try{
+            listGroupFilteredBean = this.userManageCommunityBoundary.searchGroupsByFilter(searchFilterBean);
+        }catch (InternalException internalException){
+            errorDialog(internalException.getMessage());
         }
-        else if(selectedToggle.getText().equals("Users")){
-            SearchUsersDialog searchUsersDialog = new SearchUsersDialog();
-            searchUsersDialog.showAndWait();
+
+        HBox hBoxGroupDetails;
+        List<HBox> listHBoxGroupDetails = new ArrayList<>();
+        for (GroupFilteredBean groupFilteredBean : listGroupFilteredBean){
+            hBoxGroupDetails = homePage.setUpHBoxGroupDetails(groupFilteredBean.getImage(), groupFilteredBean.getNickname(), groupFilteredBean.getName());
+            listHBoxGroupDetails.add(hBoxGroupDetails);
         }
+
+        SearchGroupsDialog searchGroupsDialog = new SearchGroupsDialog("Groups result", "Groups", listHBoxGroupDetails);
+        searchGroupsDialog.showAndWait();
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

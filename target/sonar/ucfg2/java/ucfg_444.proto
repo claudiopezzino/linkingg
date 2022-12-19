@@ -1,16 +1,18 @@
 
-4view.bean.UserSignUpBean#getCell()Ljava/lang/String;\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java1 1("1*…
-1\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java2 2(§
-¤
-\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java2 2(
-%0java.lang.String"__id*&*$
-view.bean.UserSignUpBean"
-cell"x
-\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java2 2(
-
-%0java.lang.StringB
-view.bean.UserSignUpBean
+4model.subjects.Group#plannedMeeting()Ljava/util/Map;X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java+  +(."1*’
+1X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java, ,(¿
+¼
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java, ,(
+%0java.util.Map"__id*E
+
+__unknown_file ()*'
+model.subjects.Group"
+mapMeetings"q
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java, ,( 
+
+%0java.util.MapB
+model.subjects.GroupH

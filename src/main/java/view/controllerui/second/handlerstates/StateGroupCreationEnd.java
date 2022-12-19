@@ -3,11 +3,8 @@ package view.controllerui.second.handlerstates;
 import control.controlexceptions.InternalException;
 import view.bean.GroupCreationBean;
 import view.boundary.UserManageCommunityBoundary;
-import view.graphicalui.first.constcontainer.Image;
 import view.graphicalui.second.Home;
 import view.graphicalui.second.Shell;
-
-import java.util.Objects;
 
 import static view.controllerui.second.Message.*;
 import static view.graphicalui.first.constcontainer.Image.GROUP;

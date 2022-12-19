@@ -1,8 +1,1 @@
-view.controllerui.first.HomePageEventHandler#fetchSelectedGroupNick()Ljava/lang/String;
-view.graphicalui.first.listviewitems.ListViewGroupItems$GroupInfo#getIndex()Ljava/lang/Integer;
-view.graphicalui.first.HomePage#getHomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/HomePage;
-javafx.scene.control.ListView#getSelectionModel()Ljavafx/scene/control/MultipleSelectionModel;
-view.graphicalui.first.listviewitems.ListViewGroupItems#getIndex()Ljava/lang/Integer;
-javafx.scene.control.SelectionModel#getSelectedItem()Ljava/lang/Object;
-javafx.scene.control.Labeled#getText()Ljava/lang/String;
-view.graphicalui.first.listviewitems.ListViewGroupItems$GroupInfo$GroupDetails#getIndex()Ljava/lang/Integer;
+view.controllerui.first.HomePageEventHandler#setMapGroupBean(Ljava/util/Map;)V

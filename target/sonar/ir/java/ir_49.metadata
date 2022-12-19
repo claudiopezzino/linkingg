@@ -1,1 +1,1 @@
-view.bean.BeanErrorDecorator#<init>(Lview/bean/BeanError;Ljava/lang/String;)V
+view.graphicalui.first.toolbardecorations.Decorator#draw()Ljavafx/scene/control/ToolBar;

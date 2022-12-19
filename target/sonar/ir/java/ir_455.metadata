@@ -1,4 +1,1 @@
-view.bean.UserSignUpBean#setName(Ljava/lang/String;)V
-view.bean.errorsignupdecorations.NameBeanErrorDecorator#instance-init#
-view.bean.errorsignupdecorations.NameBeanErrorDecorator#<init>(Lview/bean/BeanError;)V
-view.bean.Regex#isMatching(Ljava/lang/String;Ljava/lang/String;)Z
+model.subjects.Group#getChange()Lmodel/subjects/State;

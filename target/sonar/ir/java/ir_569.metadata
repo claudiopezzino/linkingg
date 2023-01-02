@@ -1,14 +1,2 @@
-view.controllerui.first.HomePageEventHandler#updateGroupMembersList(Ljava/lang/String;Ljava/lang/String;)V
-view.controllerui.first.HomePageEventHandler$ListViewHandler$HyperLinkGroupMemberHandler#instance-init#
-javafx.scene.control.ListView#getItems()Ljavafx/collections/ObservableList;
-javafx.scene.control.Labeled#getText()Ljava/lang/String;
-view.controllerui.first.HomePageEventHandler$ListViewHandler$HyperLinkGroupMemberHandler#<init>(Ljava/lang/String;Ljava/lang/String;)V
-view.graphicalui.first.listviewitems.ListViewGroupItems$GroupInfo$GroupDetails#getIndex()Ljava/lang/Integer;
-view.graphicalui.first.listviewitems.ListViewGroupItems$GroupInfo#getIndex()Ljava/lang/Integer;
-javafx.scene.Node#setOnMouseClicked(Ljavafx/event/EventHandler;)V
-javafx.scene.control.Hyperlink#<init>(Ljava/lang/String;)V
-view.graphicalui.first.listviewitems.ListViewGroupItems$MembersInfo#getIndex()Ljava/lang/Integer;
+view.controllerui.first.HomePageEventHandler#updateGroupsList(Lview/bean/observers/GroupBean;)V
 view.graphicalui.first.HomePage#getHomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/HomePage;
-java.lang.String#equals(Ljava/lang/Object;)Z
-view.graphicalui.first.listviewitems.ListViewGroupItems#getIndex()Ljava/lang/Integer;
-javafx.scene.control.Hyperlink#instance-init#

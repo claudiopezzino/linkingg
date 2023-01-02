@@ -1,90 +1,61 @@
 
-lview.controllerui.first.SigninPageEventHandler#castToUserBean(Ljava/util/Map;)Lview/bean/observers/UserBean;t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaë ë(#"6*¬
-2t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaì ì(+¡
-æ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaì ì(+
-entryjava.util.Map$Entry"__id*"
-
-__unknown_file (
-""˙
-˜
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaì ì(+
-entryjava.util.Map$Entry"
-__arrayGet*1
-
-__unknown_file (
-
-%0java.util.Set*"
-
-__unknown_file (
-""*
-4
-1*Ó
-3t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaï& ï(+ãà
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaï& ï(6
-%2java.lang.Object"0java.util.Map$Entry#getValue()Ljava/lang/Object;*:
-
-__unknown_file (
-
-entryjava.util.Map$Entry2
-getValue()ﬂ
-‹
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaï ï(6(
-userBeanview.bean.observers.UserBean"__id*4
-
-__unknown_file (
-
-%2java.lang.Object*
-1*è
-4t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaî î(ãà
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaî î(
-%1java.lang.Object"0java.util.Map$Entry#getValue()Ljava/lang/Object;*:
-
-__unknown_file (
-
-entryjava.util.Map$Entry2
-getValue()*
-2
-3*ˇ
-5t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaì. ì(8˛˚
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaì. ì(C
-%0java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;*9
-
-__unknown_file (
-
+ïview.controllerui.first.SigninPageEventHandler#checkUserCredentials(Lview/bean/UserSignInBean;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaN N('"9*‰
+4r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaY Y(Â‚
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaY Y(0
 
-mapObjectsjava.util.Map2
-entrySet()*
-2*Œ
-6t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaí í( Õ
- 
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaí í(!(
-userBeanview.bean.observers.UserBean"__id*"
+%2void"9view.bean.UserSignInBean#setPassword(Ljava/lang/String;)V*H
+
+__unknown_file (,
+*
+userSignInBeanview.bean.UserSignInBean*:
+
+__unknown_file (
+
+passwordjava.lang.String2setPassword(Ljava/lang/String;)*
+1*‰
+8r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaS S(Â‚
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaS S(0
+
+%0void"9view.bean.UserSignInBean#setNickname(Ljava/lang/String;)V*H
+
+__unknown_file (,
+*
+userSignInBeanview.bean.UserSignInBean*:
+
+__unknown_file (
+
+nicknamejava.lang.String2setNickname(Ljava/lang/String;)*
+4*¿
+9r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaP P( ¡
+æ
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaP P(!
+
+stackErrorjava.lang.String"__id*"
 
 __unknown_file (
 ""*
-5*û
-1t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaô ô("¢
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaô ô(*
-(
-userBeanview.bean.observers.UserBean:ì
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaë$ ë(B
+8*ê
+1r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java^ ^("ñ
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java^ ^( 
+
 
-mapObjectsjava.util.MapB20
+stackErrorjava.lang.String:†
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaN( N(F*
+userSignInBeanview.bean.UserSignInBean:í
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaNG N(W
+nicknamejava.lang.String:í
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaNX N(g
+passwordjava.lang.StringB20
 .view.controllerui.first.SigninPageEventHandler

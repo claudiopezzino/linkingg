@@ -1,2 +1,4 @@
-view.controllerui.first.HomePageEventHandler#updateGroupsList(Lview/bean/observers/GroupBean;)V
-view.graphicalui.first.HomePage#getHomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/HomePage;
+view.controllerui.first.HomePageEventHandler#updateUserProfileNick()V
+view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog#getUsernameDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog$UsernameDialog;
+javafx.scene.control.Labeled#setText(Ljava/lang/String;)V
+view.graphicalui.first.HomePage$UserProfileDialog#getUserProfileDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog;

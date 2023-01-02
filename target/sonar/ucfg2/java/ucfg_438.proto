@@ -1,16 +1,16 @@
 
-aview.graphicalui.first.listviewitems.ListViewGroupItems$MembersInfo#getIndex()Ljava/lang/Integer;{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewGroupItems.java. .("1*¦
+lview.graphicalui.first.listviewitems.ListViewGroupItems$GroupInfo$GroupDetails#getIndex()Ljava/lang/Integer;{
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewGroupItems.java (#"1*±
 1{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewGroupItems.java/ /(–“
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewGroupItems.java (¡ž
 {
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewGroupItems.java/ /(!	
-%0int"java.lang.Enum#ordinal()I*c
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewGroupItems.java (%	
+%0int"java.lang.Enum#ordinal()I*n
 
-__unknown_file (GE
-Cview.graphicalui.first.listviewitems.ListViewGroupItems$MembersInfo2	ordinal()"Š
+__unknown_file (RP
+Nview.graphicalui.first.listviewitems.ListViewGroupItems$GroupInfo$GroupDetails2	ordinal()"Š
 {
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewGroupItems.java/ /("
+q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewGroupItems.java (&
 	
-%0intBGE
-Cview.graphicalui.first.listviewitems.ListViewGroupItems$MembersInfoH
+%0intBRP
+Nview.graphicalui.first.listviewitems.ListViewGroupItems$GroupInfo$GroupDetailsH

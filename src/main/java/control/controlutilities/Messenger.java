@@ -25,7 +25,7 @@ public final class Messenger {
 
             os.writeObject(filter);
             for (E elem  : list) {
-                if (isListenerReplying(secureOis))
+                if (isReceiverReplying(secureOis))
                     os.writeObject(elem);
                 else
                     throw new MessengerException();
@@ -38,7 +38,7 @@ public final class Messenger {
     ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    private static boolean isListenerReplying(SecureObjectInputStream secureOis) throws IOException, ClassNotFoundException {
+    private static boolean isReceiverReplying(SecureObjectInputStream secureOis) throws IOException, ClassNotFoundException {
         String currReply = (String) secureOis.readObject();
         return currReply.equals("next");
     }

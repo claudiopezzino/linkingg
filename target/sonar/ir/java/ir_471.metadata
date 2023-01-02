@@ -1,4 +1,4 @@
-view.controllerui.second.handlerstates.StateMemberDetails#checkCmd(Lview/graphicalui/second/Home;)V
-view.controllerui.second.Message#errorMsg()V
-javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
-java.lang.String#equals(Ljava/lang/Object;)Z
+view.bean.UserSignUpBean#setEmail(Ljava/lang/String;)V
+view.bean.errorsignupdecorations.EmailBeanErrorDecorator#instance-init#
+view.bean.errorsignupdecorations.EmailBeanErrorDecorator#<init>(Lview/bean/BeanError;)V
+view.bean.Regex#isMatching(Ljava/lang/String;Ljava/lang/String;)Z

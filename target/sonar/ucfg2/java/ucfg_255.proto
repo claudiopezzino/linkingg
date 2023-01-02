@@ -1,16 +1,16 @@
 
-nview.graphicalui.first.listviewitems.ListViewMeetingItems$JoinersInfo$ChoiceArea#getIndex()Ljava/lang/Integer;}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewMeetingItems.java8 8(#"1*¹
+oview.graphicalui.first.listviewitems.ListViewMeetingItems$MeetingInfo$MeetingView#getIndex()Ljava/lang/Integer;}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewMeetingItems.java (#"1*º
 1}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewMeetingItems.java9 9(¥¢
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewMeetingItems.java (¦£
 }
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewMeetingItems.java9 9(%	
-%0int"java.lang.Enum#ordinal()I*p
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewMeetingItems.java (%	
+%0int"java.lang.Enum#ordinal()I*q
 
-__unknown_file (TR
-Pview.graphicalui.first.listviewitems.ListViewMeetingItems$JoinersInfo$ChoiceArea2	ordinal()"Œ
+__unknown_file (US
+Qview.graphicalui.first.listviewitems.ListViewMeetingItems$MeetingInfo$MeetingView2	ordinal()"Œ
 }
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewMeetingItems.java9 9(&
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewMeetingItems.java (&
 	
-%0intBTR
-Pview.graphicalui.first.listviewitems.ListViewMeetingItems$JoinersInfo$ChoiceAreaH
+%0intBUS
+Qview.graphicalui.first.listviewitems.ListViewMeetingItems$MeetingInfo$MeetingViewH

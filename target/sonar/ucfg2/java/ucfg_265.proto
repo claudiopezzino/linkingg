@@ -1,53 +1,79 @@
 
-Rview.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java6 6(*"3*ä
-2b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java8 8()­ª
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java8! 8('$
-%1view.graphicalui.second.Signup"view.graphicalui.second.SignupÛ
-Ø
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java8 8()
-%2"(view.graphicalui.second.Signup#<init>()V*B
-
-__unknown_file (&
-$
-%1view.graphicalui.second.Signupç
-ä
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java8 8()4 
-view.graphicalui.second.Signup"
-signupInstance"__id*B
-
-__unknown_file (&
-$
-%1view.graphicalui.second.Signup*
-1*Ù
-3b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java7 7(ç
-ä
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java7 7($
-%0view.graphicalui.second.Signup"__id*R
-
-__unknown_file (6*4 
-view.graphicalui.second.Signup"
-signupInstance*
-2
-1*à
+Jview.graphicalui.second.Signup#setUpSignupRoot()Ljavafx/scene/layout/VBox;b
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java ( "1*î
 1b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java9 9(ç
-ä
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java (¡ž
 b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java9 9($
-%3view.graphicalui.second.Signup"__id*R
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java (
+%0javafx.scene.layout.VBox"javafx.scene.layout.VBoxÏ
+Ì
+b
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java (
+%1""javafx.scene.layout.VBox#<init>()V*<
 
-__unknown_file (6*4 
-view.graphicalui.second.Signup"
-signupInstance"Œ
+__unknown_file ( 
+
+%0javafx.scene.layout.VBoxÍ
+Ê
 b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java9 9(&
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java ( 
+rootjavafx.scene.layout.VBox"__id*<
+
+__unknown_file ( 
+
+%0javafx.scene.layout.VBoxª§
+b
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java ('
+%2!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*>
+
+__unknown_file ("
+ 
+rootjavafx.scene.layout.VBox2getChildren()á
+Þ
+b
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java" (5
+%3javafx.scene.layout.HBox"__id*R
+
+__unknown_file (6*4 
+view.graphicalui.second.Signup"
+titleContainerÞ
+Û
+b
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java7 (B#
+%4javafx.scene.control.TextArea"__id*J
+
+__unknown_file (.*, 
+view.graphicalui.second.Signup"
+screenß
+Ü
+b
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.javaD (O$
+%5javafx.scene.control.TextField"__id*J
+
+__unknown_file (.*, 
+view.graphicalui.second.Signup"
+promptßÜ
+b
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java (P
+%6boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z*E
+
+__unknown_file ()
+'
+%2!javafx.collections.ObservableList*<
+
+__unknown_file ( 
+
+%3javafx.scene.layout.HBox*A
+
+__unknown_file (%
+#
+%4javafx.scene.control.TextArea*B
+
+__unknown_file (&
 $
-%3view.graphicalui.second.SignupB"" 
-view.graphicalui.second.SignupH
+%5javafx.scene.control.TextField2addAll([Ljava/lang/Object;)"ˆ
+b
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java   ("
+ 
+rootjavafx.scene.layout.VBoxB" 
+view.graphicalui.second.Signup

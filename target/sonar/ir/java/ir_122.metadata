@@ -1,1 +1,1 @@
-view.bean.observers.GroupBean#setImage(Ljava/lang/String;)V
+view.bean.observers.GroupBean#getMapMeetings()Ljava/util/Map;

@@ -1,53 +1,21 @@
 
-lview.controllerui.first.Dialog$WaitDialog#getWaitDialogInstance()Lview/controllerui/first/Dialog$WaitDialog;d
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java‘! ‘(6"3*²
-2d
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java“% “(5ÅÂ
-d
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java“) “(3/
-%1)view.controllerui.first.Dialog$WaitDialog")view.controllerui.first.Dialog$WaitDialogó
-ð
-d
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java“% “(5
-%2"3view.controllerui.first.Dialog$WaitDialog#<init>()V*M
-
-__unknown_file (1
-/
-%1)view.controllerui.first.Dialog$WaitDialogƒ
-€
-d
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java“ “(5C+
-)view.controllerui.first.Dialog$WaitDialog"
-waitDialogInstance"__id*M
-
-__unknown_file (1
-/
-%1)view.controllerui.first.Dialog$WaitDialog*
-1*÷
-3d
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java’ ’(!ƒ
-€
-d
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java’ ’(!/
-%0)view.controllerui.first.Dialog$WaitDialog"__id*a
-
-__unknown_file (E*C+
-)view.controllerui.first.Dialog$WaitDialog"
-waitDialogInstance*
-2
-1*‹
+fview.controllerui.first.Dialog$WaitDialog#waitResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;b
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java$ (."1*Ñ
 1d
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java” ”(%ƒ
-€
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java€ €(æ
+ã
 d
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java” ”(%/
-%3)view.controllerui.first.Dialog$WaitDialog"__id*a
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java€ €()
+%0java.util.Map"/java.util.Collections#emptyMap()Ljava/util/Map;*5
 
-__unknown_file (E*C+
-)view.controllerui.first.Dialog$WaitDialog"
-waitDialogInstance"™
+__unknown_file ("
+java.util.Collections"}
 d
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java” ”(&1
-/
-%3)view.controllerui.first.Dialog$WaitDialogB-"+
-)view.controllerui.first.Dialog$WaitDialogH
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java€ €(*
+
+%0java.util.Map:“
+b
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java/ (D-
+
+buttonTypejavafx.scene.control.ButtonTypeB-+
+)view.controllerui.first.Dialog$WaitDialog

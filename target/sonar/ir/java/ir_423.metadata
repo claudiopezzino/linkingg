@@ -1,2 +1,2 @@
-view.graphicalui.first.MeetingPage#<init>(Lview/graphicalui/first/Toolbar;)V
-view.graphicalui.first.MeetingPage#setUpMeetingPage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;
+view.graphicalui.second.signinquestionstates.QuestionPassword#display()V
+view.graphicalui.second.Signin#getSigninInstance()Lview/graphicalui/second/Signin;

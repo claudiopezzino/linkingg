@@ -1,5 +1,5 @@
-view.graphicalui.first.PageDialog#instance-init#
-view.controllerui.first.DialogEventHandler#<init>()V
+model.dao.UserDAO#makeUserEntities(Ljava/util/List;)Ljava/util/Map;
+java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
+model.dao.UserDAO#makeUserEntity(Ljava/util/Map;)Lmodel/subjects/User;
 java.util.HashMap#<init>()V
 java.util.HashMap#instance-init#
-view.controllerui.first.DialogEventHandler#instance-init#

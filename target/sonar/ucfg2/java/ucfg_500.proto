@@ -1,18 +1,18 @@
 
-;view.bean.observers.MeetingBean#getPhotos()Ljava/util/List;c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaE E(!"1*»
+=view.bean.observers.MeetingBean#getRating()Ljava/lang/String;c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java- -("1*¿
 1c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaF F(Ñ
-Î
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java. .(Ó
+Ð
 c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaF F(
-%0java.util.List"__id*K
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java. .(
+%0java.lang.String"__id*K
 
 __unknown_file (/*-!
 view.bean.observers.MeetingBean"
-photos"}
+rating"
 c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaF F(
-
-%0java.util.ListB#!
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java. .(
+
+%0java.lang.StringB#!
 view.bean.observers.MeetingBeanH

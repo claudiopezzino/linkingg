@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#getTargetGroups()Ljava/util/List;
+view.graphicalui.second.Home#getMeetingId()Ljava/lang/String;

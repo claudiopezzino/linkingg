@@ -1,4 +1,4 @@
-view.bean.UserSignUpBean#setAccount(Ljava/lang/String;)V
-view.bean.errorsignupdecorations.AccountBeanErrorDecorator#<init>(Lview/bean/BeanError;)V
-view.bean.errorsignupdecorations.AccountBeanErrorDecorator#instance-init#
+view.bean.UserSignUpBean#setName(Ljava/lang/String;)V
+view.bean.errorsignupdecorations.NameBeanErrorDecorator#instance-init#
+view.bean.errorsignupdecorations.NameBeanErrorDecorator#<init>(Lview/bean/BeanError;)V
 view.bean.Regex#isMatching(Ljava/lang/String;Ljava/lang/String;)Z

@@ -1,3 +1,2 @@
-view.graphicalui.first.SignupPage#getSignupPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/SignupPage;
-view.graphicalui.first.SignupPage#<init>(Lview/graphicalui/first/Toolbar;)V
-view.graphicalui.first.SignupPage#instance-init#
+view.graphicalui.first.SignupPage#getCell()Ljava/lang/String;
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;

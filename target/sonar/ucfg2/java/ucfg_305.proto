@@ -1,67 +1,60 @@
 
-cview.graphicalui.first.toolbardecorations.GroupButtonDecorator#draw()Ljavafx/scene/control/ToolBar;‚
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java+ +("1*ï
-1‚
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java, ,(ª
-§
-‚
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java, ,(&"
-%0javafx.scene.control.ToolBar"Xview.graphicalui.first.toolbardecorations.Decorator#draw()Ljavafx/scene/control/ToolBar;*"
-
-__unknown_file (
-""ù
-ö
-‚
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java, ,(''
-toolBarjavafx.scene.control.ToolBar"__id*@
-
-__unknown_file ($
-"
-%0javafx.scene.control.ToolBarÐÍ
-‚
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java- -('
-%1!javafx.collections.ObservableList"Jjavafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;*E
+|view.graphicalui.first.SignupPage#getSignupPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/SignupPage;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¹ ¹(2"4*÷
+2g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java»0 »(7¸µ
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java»% »(/'
+%1!view.graphicalui.first.SignupPage"!view.graphicalui.first.SignupPageÏ
+Ì
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java»! »(8
+%2"Kview.graphicalui.first.SignupPage#<init>(Lview/graphicalui/first/Toolbar;)V*E
 
 __unknown_file ()
 '
-toolBarjavafx.scene.control.ToolBar2
-getItems()¢
-Ÿ
-‚
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java-" -(-!
-%2javafx.scene.control.Button"__id*o
+%1!view.graphicalui.first.SignupPage*G
 
-__unknown_file (S*Q@
->view.graphicalui.first.toolbardecorations.GroupButtonDecorator"
-btnNewGroupÎË
-‚
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java-3 -(<$
-%3javafx.scene.control.Separator"javafx.scene.control.Separatorü
-ù
-‚
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java-/ -(>
-%4"(javafx.scene.control.Separator#<init>()V*B
-
-__unknown_file (&
-$
-%3javafx.scene.control.SeparatorÀ½
-‚
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java- -(?
-%5boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z*E
+__unknown_file (+
+)
+toolbarview.graphicalui.first.Toolbarö
+ó
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java» »(8;#
+!view.graphicalui.first.SignupPage"
+signupPageInstance"__id*E
 
 __unknown_file ()
 '
-%1!javafx.collections.ObservableList*?
+%1!view.graphicalui.first.SignupPage*
+1*í
+4g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaº º(ö
+ó
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaº º('
+%0!view.graphicalui.first.SignupPage"__id*Y
 
-__unknown_file (#
-!
-%2javafx.scene.control.Button*B
+__unknown_file (=*;#
+!view.graphicalui.first.SignupPage"
+signupPageInstance*
+2
+1*ü
+1g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¼ ¼(ö
+ó
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java½ ½(!'
+%3!view.graphicalui.first.SignupPage"__id*Y
 
-__unknown_file (&
-$
-%3javafx.scene.control.Separator2addAll([Ljava/lang/Object;)"°
-‚
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java. .()
+__unknown_file (=*;#
+!view.graphicalui.first.SignupPage"
+signupPageInstance"”
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java½ ½(")
 '
-toolBarjavafx.scene.control.ToolBarBB@
->view.graphicalui.first.toolbardecorations.GroupButtonDecoratorH
+%3!view.graphicalui.first.SignupPage:”
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¹3 ¹(B)
+toolbarview.graphicalui.first.ToolbarB%"#
+!view.graphicalui.first.SignupPageH

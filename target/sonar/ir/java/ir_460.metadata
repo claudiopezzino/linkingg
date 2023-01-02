@@ -1,1 +1,3 @@
-view.bean.UserSignUpBean#getEmail()Ljava/lang/String;
+view.bean.UserSignUpBean#instance-init#
+view.bean.ConcreteBeanError#instance-init#
+view.bean.ConcreteBeanError#<init>()V

@@ -1,1 +1,1 @@
-view.bean.UserSignUpBean#getCell()Ljava/lang/String;
+view.bean.UserSignUpBean#getName()Ljava/lang/String;

@@ -1,1 +1,1 @@
-model.dao.MeetingDAO#readEntity(Ljava/util/Map;Lmodel/Filter;)Ljava/lang/Object;
+view.controllerui.second.handlerstates.StateSearchFilter#<init>()V

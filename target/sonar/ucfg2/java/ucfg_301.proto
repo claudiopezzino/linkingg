@@ -1,17 +1,25 @@
 
-^view.graphicalui.first.SignupPage#getHandler()Lview/controllerui/first/SignupPageEventHandler;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java²5 ²(?"1*ß
+=view.graphicalui.first.SignupPage#getCell()Ljava/lang/String;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaž ž("1*ü
 1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java³ ³(Ì
-É
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaŸ Ÿ(î
+ë
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java³ ³(4
-%0.view.controllerui.first.SignupPageEventHandler"__id*"
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaŸ Ÿ(!$
+%0javafx.scene.control.TextField"__id*T
 
-__unknown_file (
-"""¡
+__unknown_file (8*6#
+!view.graphicalui.first.SignupPage"
+textFieldCell–“
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java³ ³(6
-4
-%0.view.controllerui.first.SignupPageEventHandlerB%"#
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaŸ Ÿ(+
+%1java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*B
+
+__unknown_file (&
+$
+%0javafx.scene.control.TextField2	getText()"ƒ
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaŸ Ÿ(,
+
+%1java.lang.StringB%#
 !view.graphicalui.first.SignupPageH

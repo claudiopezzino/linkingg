@@ -14,12 +14,12 @@ import model.db.dbqueries.GroupDAOQueries;
 import model.modelexceptions.DuplicatedEntityException;
 import model.modelexceptions.NoEntityException;
 import model.subjects.Group;
+import model.subjects.LinkRequest;
 import model.subjects.Meeting;
 import model.subjects.User;
 
 import static model.UserFields.NICKNAME;
-import static model.dao.DAO.MEETING_DAO;
-import static model.dao.DAO.USER_DAO;
+import static model.dao.DAO.*;
 
 
 public class GroupDAO implements BaseDAO{
@@ -59,7 +59,7 @@ public class GroupDAO implements BaseDAO{
             throw new InternalException(dbException.getMessage());
         }
 
-        group = this.makeGroupEntity(mapGroupInfo, Collections.emptyMap(), Collections.emptyMap());
+        group = this.makeGroupEntity(mapGroupInfo, new HashMap<>(), new HashMap<>(), new HashMap<>());
 
         return group;
     }
@@ -77,7 +77,7 @@ public class GroupDAO implements BaseDAO{
 
         Map<String, User> mapGroupMembers;
         Map<String, Meeting> mapGroupMeetings;
-
+        Map<String, LinkRequest> mapLinkRequests;
         try{
             PersistencyDB db = PersistencyDB.getSingletonInstance();
             Connection connection = db.getConnection();
@@ -98,7 +98,7 @@ public class GroupDAO implements BaseDAO{
 
                 for (String groupInfo : listGroupsInfo){
                     mapGroupInfo = this.unpackGroupInfo(groupInfo);
-                    Group group = this.makeGroupEntity(mapGroupInfo, Collections.emptyMap(), Collections.emptyMap());
+                    Group group = this.makeGroupEntity(mapGroupInfo, new HashMap<>(), new HashMap<>(), new HashMap<>());
                     mapGroups.put(mapGroupInfo.get(GroupFields.NICKNAME), group);
                 }
             }
@@ -120,8 +120,9 @@ public class GroupDAO implements BaseDAO{
 
                     mapGroupMembers = this.fetchGroupMembers(mapGroupInfo.get(GroupFields.NICKNAME));
                     mapGroupMeetings = this.fetchGroupMeetings(mapGroupInfo.get(GroupFields.NICKNAME));
+                    mapLinkRequests = this.fetchLinkRequests(mapGroupInfo.get(GroupFields.NICKNAME));
 
-                    Group group = this.makeGroupEntity(mapGroupInfo, mapGroupMembers, mapGroupMeetings);
+                    Group group = this.makeGroupEntity(mapGroupInfo, mapGroupMembers, mapGroupMeetings, mapLinkRequests);
 
                     mapGroups.put(mapGroupInfo.get(GroupFields.NICKNAME), group);
                 }
@@ -158,6 +159,23 @@ public class GroupDAO implements BaseDAO{
         return mapGroupInfo;
     }
     ///////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    private Map<String, LinkRequest> fetchLinkRequests(String groupNick) throws InternalException{
+        Map<String, LinkRequest> mapLinkRequests = new HashMap<>();
+
+        Map<String, Object> mapObjects;
+        try{
+            mapObjects = this.fetchGroupInfo(groupNick, LINK_REQUEST_DAO);
+        }catch(NoEntityException noEntityException){
+            return mapLinkRequests;
+        }
+        for(Map.Entry<String, Object> entry : mapObjects.entrySet())
+            mapLinkRequests.put(entry.getKey(), (LinkRequest) entry.getValue());
+
+        return mapLinkRequests;
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////////
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////
     private Map<String, User> fetchGroupMembers(String groupNick) throws InternalException, NoEntityException {
@@ -209,12 +227,12 @@ public class GroupDAO implements BaseDAO{
     ////////////////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    private Group makeGroupEntity(Map<String, String> mapGroupDetails, Map<String, User> mapMembers, Map<String, Meeting> mapMeetings) throws InternalException{
+    private Group makeGroupEntity(Map<String, String> mapGroupDetails, Map<String, User> mapMembers, Map<String, Meeting> mapMeetings, Map<String, LinkRequest> mapLinkRequests) throws InternalException{
         User owner;
         Group group;
         try{
             owner = this.fetchGroupOwner(mapGroupDetails.get(GroupFields.OWNER));
-            group = new Group(mapGroupDetails, owner, mapMembers, mapMeetings);
+            group = new Group(mapGroupDetails, owner, mapMembers, mapMeetings, mapLinkRequests);
         }catch(NoEntityException | CopyException e){
             throw new InternalException(e.getMessage());
         }

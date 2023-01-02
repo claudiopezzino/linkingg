@@ -1,1 +1,3 @@
-model.UserCollector#addUserInstance(Lmodel/subjects/User;)V
+view.graphicalui.second.signupquestionstates.QuestionAddress#getQuestionAddressInstance()Lview/graphicalui/second/signupquestionstates/QuestionAddress;
+view.graphicalui.second.signupquestionstates.QuestionAddress#instance-init#
+view.graphicalui.second.signupquestionstates.QuestionAddress#<init>()V

@@ -6,7 +6,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import view.boundary.UserManageCommunityBoundary;
 
-import static view.controllerui.first.Dialog.errorDialog;
+import static view.graphicalui.first.Dialog.errorDialog;
 import static view.graphicalui.first.Page.*;
 
 

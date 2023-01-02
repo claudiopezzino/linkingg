@@ -122,6 +122,7 @@ view/graphicalui/second/signinquestionstates/QuestionNickname.class
 view/controllerui/second/handlerstates/StateMeetingProposal.class
 view/graphicalui/first/toolbardecorations/GroupButtonDecorator.class
 view/graphicalui/second/usernamequestionstates/QuestionNewUsername.class
+view/bean/GroupFilteredBean.class
 view/controllerui/second/HandlerStateMachine.class
 view/graphicalui/second/signupquestionstates/QuestionSurname.class
 view/bean/errorsignupdecorations/NameBeanErrorDecorator.class
@@ -140,6 +141,7 @@ view/controllerui/second/handlerstates/StateUsernameChange.class
 view/graphicalui/first/listviewitems/ListViewGroupItems$MembersInfo.class
 view/graphicalui/first/toolbardecorations/MainBarDecorator.class
 control/controlutilities/Copier.class
+view/ConstAdapter.class
 view/graphicalui/second/meetingquestionstates/QuestionMeetingLocationName.class
 view/controllerui/second/handlerstates/StateGroupsDeletion.class
 view/graphicalui/second/SecondMain.class
@@ -162,6 +164,7 @@ model/MeetingFields.class
 view/graphicalui/first/HomePage$GroupDeletionDialog.class
 view/bean/observers/MeetingBean.class
 view/controllerui/second/KeyEventHandler.class
+view/bean/SearchFilterBean.class
 view/graphicalui/second/meetingquestionstates/QuestionEnd.class
 view/graphicalui/first/HomePage$UserProfileDialog$PasswordDialog.class
 view/bean/BeanErrorDecorator.class

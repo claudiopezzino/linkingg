@@ -2,14 +2,13 @@ package control.tasks;
 
 import control.controlutilities.SecureObjectInputStream;
 import control.tasks.tasksexceptions.LoaderException;
-import javafx.application.Platform;
 import model.*;
 import model.subjects.Group;
+import model.subjects.LinkRequest;
 import model.subjects.Meeting;
 import model.subjects.User;
-import view.AlertTask;
-import view.NotificationTask;
 import view.bean.observers.GroupBean;
+import view.boundary.UserManageCommunityBoundary;
 
 import java.io.IOException;
 import java.io.ObjectOutputStream;
@@ -42,18 +41,17 @@ public class Loader implements Runnable {
     ////////////////////////////////////////////////////////////////////////
 
 
-    ////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////
     @Override
     public void run() {
         try{
             this.handleMessage();
         } catch (LoaderException loaderException) {
-            // to change if GUI's framework change
-            Platform.runLater(new AlertTask(loaderException.getMessage()));
+            UserManageCommunityBoundary.alertUser(loaderException.getMessage());
         }
 
     }
-    //////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////
     // SecureObjectInputStream to avoid injections (Sonar warning)
@@ -85,6 +83,10 @@ public class Loader implements Runnable {
 
             case MEETING_JOIN:
                 this.updateMeetingJoiners(secureOis);
+                break;
+
+            case LINK_REQUEST:
+                this.updateLinkRequests(secureOis ,os);
                 break;
 
             case GROUP_JOIN:
@@ -128,8 +130,11 @@ public class Loader implements Runnable {
             String oldUserNick = (String) secureOis.readObject();
             String newUserNick = (String) secureOis.readObject();
 
+            // if user nick does not appear into group they own, this list is no more necessary
             List<String> listGroupsNickOwned = this.collectGroups(secureOis);
+
             List<String> listGroupsNickJoined = this.collectGroups(secureOis);
+            // to add also Link Requests sent to the groups so that they can be modified ad hoc
 
             /* meetingsID are NOT necessary because they are refreshed after every click event with updated contents
             * into the First-GUI while regarding the Second-GUI they are refreshed every new page load */
@@ -226,36 +231,41 @@ public class Loader implements Runnable {
     }
     //////////////////////////////////////////////////////////////////////////////////////////
 
-    /////////////////////////////////////////////////////////////////////////////////////////////////////
-    /* even though the developer knows the logic, it would be better to insert an "instanceof" check
-     * to verify that Object instance returned by readObject() method is-a-kind-of desired Class */
-    private void updateGroups(SecureObjectInputStream secureOis, ObjectOutputStream os) throws LoaderException {
-
-        // shared resource
-        LocalBridge localBridge = new LocalBridge();
-
-        // start Task
-        new Thread(new NotificationTask(localBridge, Filter.GROUP_CREATION)).start();
-
-        try(Socket newSocket = new Socket(localBridge.readIp(), localBridge.readPort());
-            ObjectOutputStream newOs = new ObjectOutputStream(newSocket.getOutputStream())){
-            // it must have a reference to GroupBean instance and its Serializable objects too
-
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    private void updateLinkRequests(SecureObjectInputStream secureOis, ObjectOutputStream os) throws LoaderException{
+        try{
             os.writeObject("next"); // to make known client that it has received message
 
-            Group newGroup = (Group) secureOis.readObject();
-            this.mapGroups.put(newGroup.nickname(), newGroup);
+            LinkRequest newLinkRequest = (LinkRequest) secureOis.readObject();
+            String groupNick = newLinkRequest.destination();
 
-            GroupBean groupBean = (GroupBean) newGroup.getObserver();
-
-            newOs.writeObject(groupBean); // let Task object update GUI made with JavaFX
-
-            localBridge.closeBridge();
+            // Observer Pattern triggered
+            this.mapGroups.get(groupNick).updateLinkRequests(newLinkRequest);
 
         }catch (IOException | ClassNotFoundException exception){
             throw new LoaderException();
         }
     }
-    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /* even though the developer knows the logic, it would be better to insert an "instanceof" check
+     * to verify that Object instance returned by readObject() method is-a-kind-of desired Class */
+    private void updateGroups(SecureObjectInputStream secureOis, ObjectOutputStream os) throws LoaderException {
+        try{
+            os.writeObject("next"); // to make known client that it has received message
+
+            // it must have a reference to GroupBean instance and its Serializable objects too
+            Group newGroup = (Group) secureOis.readObject();
+            this.mapGroups.put(newGroup.nickname(), newGroup);
+
+            GroupBean groupBean = (GroupBean) newGroup.getObserver();
+            UserManageCommunityBoundary.notifyNewGroup(groupBean);
+
+        }catch (IOException | ClassNotFoundException exception){
+            throw new LoaderException();
+        }
+    }
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 }

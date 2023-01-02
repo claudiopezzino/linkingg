@@ -1,1 +1,2 @@
-view.graphicalui.second.Shell#getPrompt()Ljavafx/scene/control/TextField;
+view.graphicalui.second.usernamequestionstates.QuestionEnd#display()V
+view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;

@@ -1,18 +1,19 @@
 
-6model.subjects.Group#getChange()Lmodel/subjects/State;X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javap p("1*›
+1model.subjects.Group#nickname()Ljava/lang/String;X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaI I("1*•
 1X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaq q(Á
-¾
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaJ J(¿
+¼
 X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaq q(
-%0model.subjects.State"__id*@
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaJ J(
+%0java.lang.String"__id*B
 
-__unknown_file ($*"
-model.subjects.Group"
-change"x
+__unknown_file (&*$
+model.subjects.Group"
+
+nickname"t
 X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaq q(
-
-%0model.subjects.StateB
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaJ J(
+
+%0java.lang.StringB
 model.subjects.GroupH

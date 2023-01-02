@@ -1,5 +1,3 @@
-view.graphicalui.second.Home#<init>()V
-javafx.scene.text.Text#instance-init#
-view.controllerui.second.handlerstates.StateMain#getStateMainInstance()Lview/controllerui/second/handlerstates/StateMain;
-javafx.scene.text.Text#<init>(Ljava/lang/String;)V
-view.graphicalui.second.Home#setUpHomeRoot()Ljavafx/scene/layout/VBox;
+view.bean.observers.GroupBean#notifyNewMemberToView(Ljava/lang/String;Ljava/lang/String;)V
+view.boundary.UserManageCommunityBoundary#<init>()V
+view.boundary.UserManageCommunityBoundary#instance-init#

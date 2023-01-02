@@ -1,468 +1,138 @@
 
-Zmodel.db.dbqueries.MeetingDAOQueries#wrapMeetingInfo(Ljava/sql/ResultSet;)Ljava/util/List;h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java[  [(/"6*ÿ
-2h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javar r(‡›
+ömodel.db.dbqueries.MeetingDAOQueries#selectMeetingsIntoGroup(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;)Ljava/util/List;h
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java" "(6"9*Ú
+4h
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java+ +(."Ç
 h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javar r(
-%36boolean"java.sql.ResultSet#next()Z*=
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java+ +(.
+
+%6java.util.List*®
+5h
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java) )(8Ã
+…
+h
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java) )(8
+	resultSetjava.sql.ResultSet"__id*6
+
+__unknown_file (
+
+%5java.sql.ResultSet‰
+·
+h
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java+ +(-
+%6java.util.List"Zmodel.db.dbqueries.MeetingDAOQueries#wrapMeetingInfo(Ljava/sql/ResultSet;)Ljava/util/List;*D
+
+__unknown_file (("&
+$model.db.dbqueries.MeetingDAOQueries*=
 
 __unknown_file (!
 
-	resultSetjava.sql.ResultSet2next()*
-3
-1*ÉU
-3h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javaj j(Ø
+	resultSetjava.sql.ResultSet*
+4*ö
+6h
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java) )()•¢
+h
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java) )(8
+%5java.sql.ResultSet"=java.sql.PreparedStatement#executeQuery()Ljava/sql/ResultSet;*M
+
+__unknown_file (1
+/
+preparedStatementjava.sql.PreparedStatement2executeQuery()*
+5*ﬂ
+7h
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java& '(R‰
+·
+h
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java& '(R/
+preparedStatementjava.sql.PreparedStatement"__id*>
+
+__unknown_file ("
+ 
+%3java.sql.PreparedStatementÉÄ
+h
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java( ((5
+
+%4void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*M
+
+__unknown_file (1
+/
+preparedStatementjava.sql.PreparedStatement* 
+
+__unknown_file (2*;
+
+__unknown_file (
+
+	groupNickjava.lang.String2setString(ILjava/lang/String;)*
+6*…
+8h
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java&  &(*Ø
 ¨
 h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javaj% j(8
-%5java.lang.String"__id*"
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java&< &(V
+%0java.lang.String"__id*"
 
 __unknown_file (
-""”–
+""¢
+ü
 h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javaj j(9
-%6java.sql.Blob"=java.sql.ResultSet#getBlob(Ljava/lang/String;)Ljava/sql/Blob;*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet*4
-
-__unknown_file (
-
-%5java.lang.String2getBlob(Ljava/lang/String;)Ω
-∫
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javaj j(9
-blobjava.sql.Blob"__id*1
-
-__unknown_file (
-
-%6java.sql.BlobØ
-¨
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javakV k(f
-%7java.lang.String"__id*"
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java' '(5	
+%1int"__id*"
 
 __unknown_file (
-""π∂
+""¢
+ü
 h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javakE k(g	
-%8int".java.sql.ResultSet#getInt(Ljava/lang/String;)I*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet*4
-
-__unknown_file (
-
-%7java.lang.String2getInt(Ljava/lang/String;)í
-è
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javak4 k(h
-%9java.lang.String"/java.lang.Integer#toString(I)Ljava/lang/String;*1
-
-__unknown_file ("
-java.lang.Integer*'
-
-__unknown_file (
-	
-%8intµ
-≤
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javak k(u
-%10java.lang.String"jmodel.ImageProfile#fromBlobToString(Ljava/lang/String;Ljava/sql/Blob;Ljava/lang/String;)Ljava/lang/String;*2
-
-__unknown_file ("
-model.ImageProfile*4
-
-__unknown_file (
-
-%9java.lang.String*3
-
-__unknown_file (
-
-blobjava.sql.Blob*"
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java'7 '(Q	
+%2int"__id*"
 
 __unknown_file (
-m_«
-ƒ
+""ÿ’
 h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javak k(u
-imgPathjava.lang.String"__id*5
-
-__unknown_file (
-
-%10java.lang.String∞
-≠
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam' m(7
-%11java.lang.String"__id*"
-
-__unknown_file (
-""ª∏
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam m(8
-
-%12int".java.sql.ResultSet#getInt(Ljava/lang/String;)I*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet*5
-
-__unknown_file (
-
-%11java.lang.String2getInt(Ljava/lang/String;)ò
-ï
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam m(D
-%13java.lang.String"__concat*x
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam m(8
-
-
-%12int*ã
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam; m(D
-
-	separatorjava.lang.String∞
-≠
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam[ m(m
-%14java.lang.String"__id*"
-
-__unknown_file (
-""ﬂ‹
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javamG m(n
-%15java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet*5
-
-__unknown_file (
-
-%14java.lang.String2getString(Ljava/lang/String;)†
-ù
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam m(n
-%16java.lang.String"__concat*Ö
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam m(D
-
-%13java.lang.String*Ö
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javamG m(n
-
-%15java.lang.String¶
-£
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam m(z
-%17java.lang.String"__concat*Ö
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam m(n
-
-%16java.lang.String*ã
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javamq m(z
-
-	separatorjava.lang.String∞
-≠
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javan* n(A
-%18java.lang.String"__id*"
-
-__unknown_file (
-""ﬂ‹
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javan n(B
-%19java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet*5
-
-__unknown_file (
-
-%18java.lang.String2getString(Ljava/lang/String;)†
-ù
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam n(B
-%20java.lang.String"__concat*Ö
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam m(z
-
-%17java.lang.String*Ö
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javan n(B
-
-%19java.lang.String¶
-£
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam n(N
-%21java.lang.String"__concat*Ö
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam n(B
-
-%20java.lang.String*ã
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javanE n(N
-
-	separatorjava.lang.String∞
-≠
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javanb n(v
-%22java.lang.String"__id*"
-
-__unknown_file (
-""ª∏
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javanQ n(w
-
-%23int".java.sql.ResultSet#getInt(Ljava/lang/String;)I*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet*5
-
-__unknown_file (
-
-%22java.lang.String2getInt(Ljava/lang/String;)í
-è
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam n(w
-%24java.lang.String"__concat*Ö
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam n(N
-
-%21java.lang.String*x
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javanQ n(w
-
-
-%23int®
-•
-i
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam n(É
-%25java.lang.String"__concat*Ö
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam n(w
-
-%24java.lang.String*å
-i
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javanz n(É
-
-	separatorjava.lang.String∞
-≠
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javao( o(:
-%26java.lang.String"__id*"
-
-__unknown_file (
-""’“
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javao o(;
-%27java.sql.Date"=java.sql.ResultSet#getDate(Ljava/lang/String;)Ljava/sql/Date;*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet*5
-
-__unknown_file (
-
-%26java.lang.String2getDate(Ljava/lang/String;)û
-õ
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam o(;
-%28java.lang.String"__concat*Ü
-i
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam n(É
-
-%25java.lang.String*Ç
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javao o(;
-
-%27java.sql.Date¶
-£
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam o(G
-%29java.lang.String"__concat*Ö
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam o(;
-
-%28java.lang.String*ã
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javao> o(G
-
-	separatorjava.lang.String∞
-≠
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javao\ o(n
-%30java.lang.String"__id*"
-
-__unknown_file (
-""’“
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javaoJ o(o
-%31java.sql.Time"=java.sql.ResultSet#getTime(Ljava/lang/String;)Ljava/sql/Time;*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet*5
-
-__unknown_file (
-
-%30java.lang.String2getTime(Ljava/lang/String;)ù
-ö
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam o(o
-%32java.lang.String"__concat*Ö
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam o(G
-
-%29java.lang.String*Ç
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javaoJ o(o
-
-%31java.sql.Time¶
-£
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam o({
-%33java.lang.String"__concat*Ö
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam o(o
-
-%32java.lang.String*ã
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javaor o({
-
-	separatorjava.lang.String¶
-£
-i
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam o(Ö
-%34java.lang.String"__concat*Ö
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam o({
-
-%33java.lang.String*ä
-i
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javao~ o(Ö
-
-imgPathjava.lang.String»
-≈
-i
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javam o(Ö
-detailsjava.lang.String"__id*5
-
-__unknown_file (
-
-%34java.lang.String•
-¢
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javaq q((
-%35boolean"
-__arrayAdd*?
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java&  '(R 
+%3java.sql.PreparedStatement"Vjava.sql.Connection#prepareStatement(Ljava/lang/String;II)Ljava/sql/PreparedStatement;*?
 
 __unknown_file (#
 !
-listMeetingInfojava.util.List*
+
+connectionjava.sql.Connection*4
 
-__unknown_file (: *9
+__unknown_file (
+
+%0java.lang.String*'
 
-__unknown_file (
-
-detailsjava.lang.String*
-2*Ì
-4h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java`' `(8ùö
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java`+ `(6
-%2java.util.ArrayList"java.util.ArrayListÀ
-»
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java`' `(8
-%3"java.util.ArrayList#<init>()V*7
+__unknown_file (
+	
+%1int*'
 
-__unknown_file (
-
-%2java.util.ArrayListœ
-Ã
+__unknown_file (
+	
+%2int2&prepareStatement(Ljava/lang/String;II)*
+7*¯
+9h
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java#. #(2»
+≈
 h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java` `(9!
-listMeetingInfojava.util.List"__id*7
-
-__unknown_file (
-
-%2java.util.ArrayList¥
-±
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javab b(
-detailsjava.lang.String"__id*"
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java# #(3/
+preparedStatementjava.sql.PreparedStatement"__id*"
 
 __unknown_file (
-""µ
-≤
+""∏
+µ
 h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javac c(
-	separatorjava.lang.String"__id*!
-
-__unknown_file (
--Æ
-´
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javae e(
-blobjava.sql.Blob"__id*"
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java$ $(#
+	resultSetjava.sql.ResultSet"__id*"
 
 __unknown_file (
-""¥
-±
+""*
+8:ï
 h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javaf f(
-imgPathjava.lang.String"__id*"
-
-__unknown_file (
-""·ﬁ
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java"7 "(H)
+db#model.db.dbconnection.PersistencyDB:ç
 h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javah h(
-%4boolean"java.sql.ResultSet#first()Z*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet2first()*
-3*‚
-5h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java^ ^(Ì
-Í
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java"I "(_!
+
+connectionjava.sql.Connection:â
 h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java^ ^(*
-%1java.util.List"1java.util.Collections#emptyList()Ljava/util/List;*5
-
-__unknown_file ("
-java.util.Collections"Ç
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java^ ^(+
-
-%1java.util.List*Ÿ
-6h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java] ](·ﬁ
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java] ](
-%0boolean"java.sql.ResultSet#first()Z*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet2first()*
-4
-5*ˇ
-1h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javat t("è
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.javat t(#
-!
-listMeetingInfojava.util.List:ã
-h
-^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java[0 [(C
-	resultSetjava.sql.ResultSetB("&
-$model.db.dbqueries.MeetingDAOQueries
+^/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/MeetingDAOQueries.java"` "(p
+	groupNickjava.lang.StringB("&
+$model.db.dbqueries.MeetingDAOQueriesH

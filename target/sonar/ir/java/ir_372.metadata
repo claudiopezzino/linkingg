@@ -1,4 +1,4 @@
-view.controllerui.second.Message#groupsDeletionMsg()V
+view.controllerui.second.Message#errorMsg()V
 javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
 javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
 javafx.scene.control.Alert#instance-init#

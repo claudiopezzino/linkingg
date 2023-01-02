@@ -1,19 +1,18 @@
 
-<view.bean.observers.GroupBean#getMapMembers()Ljava/util/Map;a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java;! ;(."1*µ
+:view.bean.observers.GroupBean#getImage()Ljava/lang/String;a
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java/ /("1*¶
 1a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java< <(Ð
-Í
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java0 0(Î
+Ë
 a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java< <(
-%0java.util.Map"__id*M
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java0 0(
+%0java.lang.String"__id*H
 
-__unknown_file (1*/
-view.bean.observers.GroupBean"
-
-mapMembers"z
+__unknown_file (,**
+view.bean.observers.GroupBean"
+image"}
 a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java< <(
-
-%0java.util.MapB!
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java0 0(
+
+%0java.lang.StringB!
 view.bean.observers.GroupBeanH

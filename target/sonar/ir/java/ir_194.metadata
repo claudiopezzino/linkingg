@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#setCurrUserFullName(Ljava/lang/String;)V
+view.graphicalui.second.Home#getBlacklist()Ljava/util/List;

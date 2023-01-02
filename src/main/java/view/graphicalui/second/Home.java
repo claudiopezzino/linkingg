@@ -130,7 +130,6 @@ public class Home extends Shell{
         this.setUpPrompt();
         this.setUpScreen();
         this.getChildren().add(this.setUpHomeRoot());
-        handler.getStateMachine().setState(StateMain.getStateMainInstance());
     }
     //////////////////////////////////////////////////////////////////////////////
 
@@ -147,11 +146,18 @@ public class Home extends Shell{
     public void setUpScreen() {
         this.screen = new TextArea();
         this.screen.setEditable(false);
+        this.initWelcomeMsg();
+        this.screen.setText(LEGEND + welcomeMsg + MAIN_OPTIONS);
+        this.screen.setFocusTraversable(false);
+        handler.getStateMachine().setState(StateMain.getStateMainInstance());
+    }
+    ////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////
+    public void initWelcomeMsg(){
         this.welcomeMsg = "\nHello, " + currUserFullName +
                 "!  [Type 'home page' to return into home]\n\n\n" +
                 "In this page you can ";
-        this.screen.setText(LEGEND + welcomeMsg + MAIN_OPTIONS);
-        this.screen.setFocusTraversable(false);
     }
     ////////////////////////////////////////////////////////////////
 
@@ -322,7 +328,7 @@ public class Home extends Shell{
             // GROUP_REQUEST
             this.screen.appendText("link request asking to join groups of your interest\n\n" +
                     "\u2022 Type one group nickname at a time.\n\n" +
-                    "\u2022 Type 'link request' to make known chosen groups about you.\n\n\n" +
+                    "\u2022 Click 'OK' button to make known chosen groups about you.\n\n\n" +
                     "Groups:  ");
             handler.getStateMachine().setState(StateGroupRequest.getStateGroupRequestInstance());
         }
@@ -362,6 +368,13 @@ public class Home extends Shell{
     }
     ////////////////////////////////////////////////////
 
+    ////////////////////////////////////////////////////
+    public void displayTargetGroups(){
+        for (String groupNick : this.targetGroups)
+            this.screen.appendText(groupNick + ",  ");
+    }
+    ////////////////////////////////////////////////////
+
     ////////////////////////////////////////
     public void inviteMemberIntoGroups(){
         /* add member into target list */
@@ -370,15 +383,6 @@ public class Home extends Shell{
         this.applySearch(this.searchTarget);
     }
     ////////////////////////////////////////
-
-    /////////////////////////////////////
-    public void sendReqToTargetGroups(){
-        /* move the logic into the appropriate Boundary
-        * called by KeyEventHandler (graphic controller)
-        * adding targetGroups list as param */
-        this.targetGroups = null;
-    }
-    /////////////////////////////////////
 
     ///////////////////////////////////////////////////////////////////////////////////////////////
     public void setUpGroupInfo(){
@@ -817,6 +821,12 @@ public class Home extends Shell{
         this.listOtherGroups = listOtherGroups;
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////
+    public List<Pair<String, String>> getListOtherGroups() {
+        return this.listOtherGroups;
+    }
+    ////////////////////////////////////////////////////////
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public void setListOwnMeetings(List<Pair<String, String>> listOwnMeetings) {

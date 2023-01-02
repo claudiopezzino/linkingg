@@ -1,18 +1,18 @@
 
-Wview.graphicalui.first.SignupPage#getTextFieldAddress()Ljavafx/scene/control/TextField;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaô ô(("1*ô
+Mview.graphicalui.first.SignupPage#getBtnSignUp()Ljavafx/scene/control/Button;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaâ â("1*ç
 1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaõ õ(ñ
-î
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaã ã(ç
+ä
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaõ õ($$
-%0javafx.scene.control.TextField"__id*W
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaã ã(!
+%0javafx.scene.control.Button"__id*P
 
-__unknown_file (;*9#
-!view.graphicalui.first.SignupPage"
-textFieldAddress"‘
+__unknown_file (4*2#
+!view.graphicalui.first.SignupPage"
+	btnSignUp"Ž
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaõ õ(%&
-$
-%0javafx.scene.control.TextFieldB%#
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaã ã(#
+!
+%0javafx.scene.control.ButtonB%#
 !view.graphicalui.first.SignupPageH

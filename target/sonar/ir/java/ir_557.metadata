@@ -1,1 +1,3 @@
-view.controllerui.first.HomePageEventHandler#setCurrUserBean(Lview/bean/observers/UserBean;)V
+view.graphicalui.second.meetingquestionstates.QuestionAddrToStartSearch#getQuestionAddrToStartSearchInstance()Lview/graphicalui/second/meetingquestionstates/QuestionAddrToStartSearch;
+view.graphicalui.second.meetingquestionstates.QuestionAddrToStartSearch#<init>()V
+view.graphicalui.second.meetingquestionstates.QuestionAddrToStartSearch#instance-init#

@@ -1,1 +1,1 @@
-view.bean.UserSignUpBean#getAccount()Ljava/lang/String;
+view.bean.UserSignUpBean#getSurname()Ljava/lang/String;

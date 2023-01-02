@@ -5,6 +5,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import view.graphicalui.first.Container;
+import view.graphicalui.first.Dialog;
 import view.graphicalui.first.FirstMain;
 import view.graphicalui.first.MeetingPage;
 

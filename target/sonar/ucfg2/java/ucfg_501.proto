@@ -1,18 +1,18 @@
 
-Lview.bean.observers.MeetingBean#getScheduler()Lview/bean/observers/UserBean;c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaK K( "1*Û
+;view.bean.observers.MeetingBean#getDate()Ljava/lang/String;c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java3 3("1*½
 1c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaL L(â
-ß
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java4 4(Ñ
+Î
 c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaL L("
-%0view.bean.observers.UserBean"__id*N
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java4 4(
+%0java.lang.String"__id*I
 
-__unknown_file (2*0!
-view.bean.observers.MeetingBean"
-	scheduler"‹
+__unknown_file (-*+!
+view.bean.observers.MeetingBean"
+date"
 c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaL L($
-"
-%0view.bean.observers.UserBeanB#!
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java4 4(
+
+%0java.lang.StringB#!
 view.bean.observers.MeetingBeanH

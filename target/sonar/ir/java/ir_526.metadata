@@ -1,1 +1,1 @@
-view.bean.observers.MeetingBean#setJoiners(Ljava/util/Map;)V
+view.bean.observers.MeetingBean#setDate(Ljava/lang/String;)V

@@ -1,3 +1,2 @@
-model.UserCollector#getUserInstance(Ljava/lang/String;)Lmodel/subjects/User;
-model.modelexceptions.NoEntityException#instance-init#
-model.modelexceptions.NoEntityException#<init>()V
+view.graphicalui.second.signupquestionstates.QuestionAddress#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.signupquestionstates.QuestionMail#getQuestionMailInstance()Lview/graphicalui/second/signupquestionstates/QuestionMail;

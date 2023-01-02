@@ -1,3 +1,1 @@
-view.graphicalui.second.Home#searchInput()V
-view.controllerui.second.handlerstates.StateSearchInput#getStateSearchInput()Lview/controllerui/second/handlerstates/StateSearchInput;
-javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.graphicalui.second.Home#revertToOldPassword()V

@@ -1,1 +1,2 @@
-view.bean.ConcreteBeanError#displayErrors()Ljava/lang/String;
+view.graphicalui.first.listviewitems.ListViewGroupItems#getIndex()Ljava/lang/Integer;
+java.lang.Enum#ordinal()I

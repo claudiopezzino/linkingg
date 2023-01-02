@@ -1,1 +1,2 @@
-view.controllerui.first.SigninPageEventHandler#setUserManageCommunityBoundary(Lview/boundary/UserManageCommunityBoundary;)V
+view.graphicalui.second.meetingquestionstates.QuestionBudget#display()V
+view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;

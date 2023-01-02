@@ -1,18 +1,18 @@
 
-Tview.graphicalui.first.SignupPage#getTextFieldMail()Ljavafx/scene/control/TextField;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaú ú(%"1*ñ
+Tview.graphicalui.first.SignupPage#getTextFieldName()Ljavafx/scene/control/TextField;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaè è(%"1*ñ
 1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaû û(î
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaé é(î
 ë
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaû û(!$
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaé é(!$
 %0javafx.scene.control.TextField"__id*T
 
 __unknown_file (8*6#
 !view.graphicalui.first.SignupPage"
-textFieldMail"‘
+textFieldName"‘
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaû û("&
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaé é("&
 $
 %0javafx.scene.control.TextFieldB%#
 !view.graphicalui.first.SignupPageH

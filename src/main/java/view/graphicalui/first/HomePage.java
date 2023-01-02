@@ -18,12 +18,12 @@ import javafx.scene.web.WebView;
 import view.bean.observers.GroupBean;
 import view.bean.observers.MeetingBean;
 import view.bean.observers.UserBean;
+import view.controllerui.first.DialogEventHandler.LinkRequestSendingHandler;
 import view.controllerui.first.HomePageEventHandler;
 import view.controllerui.first.HomePageEventHandler.GoogleMapsChangeListener;
 import view.controllerui.first.HomePageEventHandler.ListViewHandler;
 import view.controllerui.first.HomePageEventHandler.ListViewHandler.MeetingGalleryEventHandler;
 import view.controllerui.first.HomePageEventHandler.ListViewHandler.HyperLinkGroupMemberHandler;
-import view.controllerui.first.HomePageEventHandler.ListViewHandler.MeetingChoiceChangeListener;
 
 import java.util.Collections;
 import java.util.List;
@@ -56,6 +56,10 @@ public class HomePage extends Parent {
     //////////////////////////////////
     private Circle circleGroupFocused;
     //////////////////////////////////
+
+    ////////////////////////////////////
+    private Label labelGroupNickFocused;
+    ////////////////////////////////////
 
     ///////////////////////////////////////////////////////////
     private static final Label labelGoogleMapSate = new Label();
@@ -201,20 +205,26 @@ public class HomePage extends Parent {
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     private HBox setUpMapBar(){
 
-        /*-----------------------------------------------------------------------------------------*/
+        /*----------------------------------------------------------------------------*/
         btnProposeMeeting = new Button("Propose meeting", new ImageView(LOCATION));
         btnProposeMeeting.getStyleClass().add(SIGN_BUTTONS);
         btnProposeMeeting.setOnMouseClicked(handler);
-        /*-----------------------------------------------------------------------------------------*/
+        /*----------------------------------------------------------------------------*/
 
-        /*-------------------------------------------------------------------------------*/
+        /*--------------------------------------------------------------------*/
         circleGroupFocused = new Circle(30);
         circleGroupFocused.setFill(new ImagePattern(new Image(CREATE_GROUP)));
-        /*--------------------------------------------------------------------------------*/
+        labelGroupNickFocused = new Label("No group selected");
+        /*--------------------------------------------------------------------*/
+
+        /*---------------------------------------------------------------------*/
+        HBox hBoxGroupInfo = new HBox(circleGroupFocused, labelGroupNickFocused);
+        hBoxGroupInfo.getStyleClass().addAll(IMG_CONTAINER, HBOX);
+        /*---------------------------------------------------------------------*/
 
         HBox hBoxMapBar = new HBox();
         hBoxMapBar.getStyleClass().addAll(VBOX, HBOX);
-        hBoxMapBar.getChildren().addAll(circleGroupFocused, new Separator(), setUpSearchBar(), new Separator(), btnProposeMeeting, new Separator(), labelGoogleMapSate);
+        hBoxMapBar.getChildren().addAll(hBoxGroupInfo, new Separator(), setUpSearchBar(), new Separator(), btnProposeMeeting, new Separator(), labelGoogleMapSate);
 
         return hBoxMapBar;
     }
@@ -260,31 +270,30 @@ public class HomePage extends Parent {
     }
     ////////////////////////////////////////////////////////////////////
 
-    /*------------------------------ INNER_CLASS -------------------------------*/
+    /*----------------------------------------- INNER_CLASS -----------------------------------------*/
     public static class SearchGroupsDialog extends PageDialog{
 
-        ///////////////////////////////////////////////////////////////////////////////////////////////
-        private final ObservableList<HBox> observableListGroups =  FXCollections.observableArrayList();
-        ///////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////
+        private static SearchGroupsDialog singletonInstance;
+        ////////////////////////////////////////////////////
 
-        //////////////////////////////////////
-        private ListView<HBox> listViewGroups;
-        //////////////////////////////////////
+        //////////////////////////////////////////////////
+        private ObservableList<VBox> observableListGroups;
+        private ListView<VBox> listViewGroups;
+        //////////////////////////////////////////////////
 
 
-        ////////////////////////////////////////////////////////////////////////////////////////
-        public SearchGroupsDialog(String title, String header, List<HBox> hBoxListGroupPreview){
-            super(title, header, CREATE_GROUP);
-            this.observableListGroups.addAll(hBoxListGroupPreview);
+        ////////////////////////////////////////////////////////////////
+        private SearchGroupsDialog(){
+            super("Groups result", "Groups", CREATE_GROUP);
             this.getDialogPane().setContent(this.setUpPopUpRoot());
             this.setResultConverter(this::searchGroupsResult);
         }
-        ///////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////
 
 
         ///////////////////////////////////////////////////////////////////////
         private Map<String, String> searchGroupsResult(ButtonType buttonType){
-            // TO DO
             return Collections.emptyMap();
         }
         ///////////////////////////////////////////////////////////////////////
@@ -299,10 +308,13 @@ public class HomePage extends Parent {
             VBox vBoxPlaceholder = new VBox(new ImageView(GROUP), new Label("No group available"));
             vBoxPlaceholder.getStyleClass().add(HBOX);
 
+            this.observableListGroups = FXCollections.observableArrayList();
             // with "setItems(ObservableList)" is possible to change elems
             this.listViewGroups = new ListView<>();
             this.listViewGroups.setPlaceholder(vBoxPlaceholder);
             this.listViewGroups.setItems(this.observableListGroups);
+
+            this.listViewGroups.setOnMouseClicked(new LinkRequestSendingHandler<>());
 
             vBoxRoot.getChildren().addAll(this.listViewGroups);
 
@@ -311,8 +323,83 @@ public class HomePage extends Parent {
         //////////////////////////////////////////////////////////////////////////////////////////////
 
 
+        /////////////////////////////////////////////////////////
+        public static SearchGroupsDialog getSingletonInstance() {
+            if(singletonInstance == null)
+                singletonInstance = new SearchGroupsDialog();
+            return singletonInstance;
+        }
+        /////////////////////////////////////////////////////////
+
+        ////////////////////////////////////////////////////////////
+        public void initListGroups(List<VBox> vBoxListGroupPreview){
+            this.observableListGroups.clear();
+            this.observableListGroups.addAll(vBoxListGroupPreview);
+        }
+        ////////////////////////////////////////////////////////////
+
+        /////////////////////////////////////////////////////////////////////////
+        public ListView<VBox> getListViewGroups() {
+            return this.listViewGroups;
+        }
+        /////////////////////////////////////////////////////////////////////////
+
+        /*------------------------------ INNER_INNER_CLASS ------------------------------*/
+        public static class LinkRequestSendingDialog extends PageDialog{
+
+            //////////////////////////////////////
+            private final Circle circleGroupImage;
+            private final Label labelGroupName;
+            private final Label labelGroupNick;
+            //////////////////////////////////////
+
+
+            //////////////////////////////////////////////////////////////////////////////////////////////////////
+            public LinkRequestSendingDialog(Circle circleGroupImage, Label labelGroupName, Label labelGroupNick) {
+                super("Link request", "Send link request", QUESTION);
+
+                this.circleGroupImage = circleGroupImage;
+                this.labelGroupName = labelGroupName;
+                this.labelGroupNick = labelGroupNick;
+
+                this.getDialogPane().setContent(this.setUpPopUpRoot());
+                this.setResultConverter(this::linkRequestSendingResult);
+            }
+            //////////////////////////////////////////////////////////////////////////////////////////////////////
+
+            ////////////////////////////////////////////////////////////////////////////
+            private Map<String, String> linkRequestSendingResult(ButtonType buttonType){
+                if (buttonType == this.getBtnTypeSave()){
+                    this.map.put(NICKNAME, this.labelGroupNick.getText());
+                    return this.map;
+                }
+                return Collections.emptyMap();
+            }
+            ////////////////////////////////////////////////////////////////////////////
+
+            ///////////////////////////////////////////////////////////////////////////////////
+            @Override
+            protected VBox setUpPopUpRoot() {
+                VBox vBoxRoot = new VBox();
+
+                VBox vBoxGroupDetails = new VBox();
+                vBoxGroupDetails.getStyleClass().add(IMG_CONTAINER);
+                vBoxGroupDetails.getChildren().addAll(this.labelGroupName, this.labelGroupNick);
+
+                HBox hBoxGroupInfo = new HBox();
+                hBoxGroupInfo.getStyleClass().add(IMG_CONTAINER);
+                hBoxGroupInfo.getChildren().addAll(this.circleGroupImage, vBoxGroupDetails);
+
+                vBoxRoot.getChildren().addAll(hBoxGroupInfo);
+                return vBoxRoot;
+            }
+            ///////////////////////////////////////////////////////////////////////////////////
+        }
+        /*-------------------------------------------------------------------------------*/
+
+
     }
-    /*--------------------------------------------------------------------------*/
+    /*-----------------------------------------------------------------------------------------------*/
 
     /*------------------------------ INNER_CLASS -------------------------------*/
     public static class SearchUsersDialog extends PageDialog{
@@ -390,7 +477,7 @@ public class HomePage extends Parent {
         }
         /////////////////////////////////////////////////////////////////////////
 
-        ////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////
         @Override
         protected VBox setUpPopUpRoot() {
 
@@ -407,7 +494,7 @@ public class HomePage extends Parent {
             vBoxDeletionDialogRoot.getChildren().addAll(hBoxGroupInfo);
             return vBoxDeletionDialogRoot;
         }
-        //////////////////////////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////////
 
 
     }
@@ -494,14 +581,12 @@ public class HomePage extends Parent {
         //////////////////////////////////////////////////////////////////////
 
         ////////////////////////////////////////////////////////////////////////////
-        public TextField getTextFieldGroupName(){
-            return this.textFieldGroupName;
-        }
-        ////////////////////////////////////////////////////////////////////////////
-
-        ////////////////////////////////////////////////////////////////////////////
-        public TextField getTextFieldGroupNick() {
-            return this.textFieldGroupNick;
+        public void emptyFields(){
+            this.circleGroupImg.setFill(new ImagePattern(new Image(UPLOAD_PHOTO)));
+            this.labelGroupImgPath.setText("");
+            this.textFieldGroupName.setText("");
+            this.textFieldGroupNick.setText("");
+            this.map.clear();
         }
         ////////////////////////////////////////////////////////////////////////////
 
@@ -719,6 +804,9 @@ public class HomePage extends Parent {
             btnLinkInvitations.getStyleClass().add(DIALOG_BUTTONS);
             btnLinkInvitations.setOnMouseClicked(dialogHandler);
 
+            Hyperlink hyperlinkUpgrade = new Hyperlink("Upgrade");
+            hyperlinkUpgrade.setOnMouseClicked(dialogHandler);
+
             VBox vBoxProfileContainer = new VBox(labelNickname, labelFullName, circleImgProfile, btnLinkInvitations);
             vBoxProfileContainer.getStyleClass().add(HBOX);
 
@@ -730,10 +818,10 @@ public class HomePage extends Parent {
             btnPassword.getStyleClass().add(DIALOG_BUTTONS);
             btnPassword.setOnMouseClicked(dialogHandler);
 
-            HBox hBoxUserPassContainer = new HBox(btnNickname, btnPassword);
-            hBoxUserPassContainer.getStyleClass().add(HBOX);
+            HBox hBoxNickPassContainer = new HBox(btnNickname, btnPassword);
+            hBoxNickPassContainer.getStyleClass().add(HBOX);
 
-            vBoxRoot.getChildren().addAll(vBoxProfileContainer, hBoxUserPassContainer);
+            vBoxRoot.getChildren().addAll(hyperlinkUpgrade, vBoxProfileContainer, hBoxNickPassContainer);
 
             return vBoxRoot;
         }
@@ -939,6 +1027,12 @@ public class HomePage extends Parent {
     }
     /////////////////////////////////////////////////////////////////////////
 
+    /////////////////////////////////////////////////////////////////////////
+    public Label getLabelGroupNickFocused() {
+        return this.labelGroupNickFocused;
+    }
+    /////////////////////////////////////////////////////////////////////////
+
     /////////////////////////////////////////////////////////////////
     public Button getBtnLinkRequests() {
         return this.btnLinkRequests;
@@ -993,37 +1087,56 @@ public class HomePage extends Parent {
     }
     ///////////////////////////////////////////////////////////////////////////////
 
-    /////////////////////////////////////////////////////////////////////////////////////
-    public HBox setUpHBoxGroupDetails(String imagePath, String groupNick, String groupName){
-        HBox hBoxGroupDetails = new HBox();
-        hBoxGroupDetails.getStyleClass().addAll(IMG_CONTAINER);
+    /////////////////////////////////////////////////////////////////////////////////
+    public VBox setUpVBoxDetails(String imagePath, String nickname, String fullName){
+        VBox vBoxDetails = new VBox();
+        vBoxDetails.getStyleClass().addAll(IMG_CONTAINER, HBOX);
 
         Circle circleGroupImage = new Circle(40);
         circleGroupImage.setFill(new ImagePattern(new Image(FILE + imagePath)));
 
-        Label labelGroupName = new Label("Name:    " + groupName);
-        Label labelGroupNick = new Label("Nickname:    " + groupNick);
+        Label labelGroupName = new Label("Name:    " + fullName);
+        Label labelGroupNick = new Label("Nickname:    " + nickname);
 
         VBox vBoxLabelContainer = new VBox(labelGroupName, labelGroupNick);
-        vBoxLabelContainer.getStyleClass().addAll(IMG_CONTAINER);
+        vBoxLabelContainer.getStyleClass().addAll(IMG_CONTAINER, HBOX);
 
-        hBoxGroupDetails.getChildren().addAll(circleGroupImage, vBoxLabelContainer);
+        vBoxDetails.getChildren().addAll(circleGroupImage, vBoxLabelContainer);
 
-        return hBoxGroupDetails;
+        return vBoxDetails;
     }
-    /////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public void initGroupView(UserBean currUserBean, GroupBean groupBean){
         VBox vBoxGroupView = new VBox();
-        vBoxGroupView.getStyleClass().addAll(IMG_CONTAINER);
+        vBoxGroupView.getStyleClass().add(IMG_CONTAINER);
 
-        HBox hBoxGroupDetails = this.setUpHBoxGroupDetails(groupBean.getImage(), groupBean.getNickname(), groupBean.getName());
+        VBox vBoxLabelContainer = new VBox();
+        vBoxLabelContainer.getStyleClass().add(IMG_CONTAINER);
 
+        VBox vBoxMembers = new VBox();
+        vBoxMembers.getStyleClass().add(IMG_CONTAINER);
+
+        HBox hBoxGroupDetails = new HBox();
+        hBoxGroupDetails.getStyleClass().add(IMG_CONTAINER);
+
+        HBox hBoxOwner = new HBox();
+        hBoxOwner.getStyleClass().add(HBOX);
+
+        FlowPane flowPaneMembers = new FlowPane();
+
+        Label labelGroupName = new Label("Name:    " + groupBean.getName());
+        Label labelGroupNick = new Label("Nickname:    " + groupBean.getNickname());
         Label labelOwnerNick = new Label("Owner:   ");
         Label labelMembers = new Label("Members");
 
         Hyperlink hyperlinkOwner = new Hyperlink();
+
+        Circle circleGroupImage = new Circle(40);
+        circleGroupImage.setFill(new ImagePattern(new Image(FILE + groupBean.getImage())));
+
+
         String ownerNick = groupBean.getOwner().getNickname();
         if(currUserBean.getNickname().equals(ownerNick))
             hyperlinkOwner.setText("YOU");
@@ -1031,10 +1144,7 @@ public class HomePage extends Parent {
             hyperlinkOwner.setText("@" + ownerNick);
         hyperlinkOwner.setOnMouseClicked(new HyperLinkGroupMemberHandler<>(groupBean.getNickname(), ownerNick));
 
-        HBox hBoxOwner = new HBox(labelOwnerNick, hyperlinkOwner);
-        hBoxOwner.getStyleClass().add(HBOX);
 
-        FlowPane flowPaneMembers = new FlowPane();
         for(Map.Entry<String, UserBean> entry : groupBean.getMapMembers().entrySet()){
             String userNick = entry.getValue().getNickname();
             Hyperlink hyperlinkUserNick = new Hyperlink("@"+userNick);
@@ -1042,11 +1152,13 @@ public class HomePage extends Parent {
             flowPaneMembers.getChildren().add(hyperlinkUserNick);
         }
 
-        VBox vBoxMembers = new VBox();
-        vBoxMembers.getStyleClass().addAll(IMG_CONTAINER);
-        vBoxMembers.getChildren().addAll(labelMembers, flowPaneMembers);
 
+        hBoxOwner.getChildren().addAll(labelOwnerNick, hyperlinkOwner);
+        vBoxLabelContainer.getChildren().addAll(labelGroupName, labelGroupNick);
+        hBoxGroupDetails.getChildren().addAll(circleGroupImage, vBoxLabelContainer);
+        vBoxMembers.getChildren().addAll(labelMembers, flowPaneMembers);
         vBoxGroupView.getChildren().addAll(hBoxOwner, hBoxGroupDetails, vBoxMembers);
+
 
         this.observableListGroups.add(vBoxGroupView);
     }
@@ -1076,11 +1188,6 @@ public class HomePage extends Parent {
         ToggleGroup toggleGroupChoice = new ToggleGroup();
         RadioButton radioButtonYes = new RadioButton("Yes");
         RadioButton radioButtonNo = new RadioButton("No");
-
-        /* it's ok only this radio button because when it is selected is fired up the logic to add current user into
-         * this meeting, while when it is selected the other radio button this radio button is unselected and so it
-         * is fired up the logic to remove current user from this meeting */
-        radioButtonYes.selectedProperty().addListener(new MeetingChoiceChangeListener(meetingBean.getId()));
 
         String currUserNick = UserProfileDialog.getUserProfileDialogInstance().getLabelNickname().getText();
         if(meetingBean.getJoiners().get(currUserNick).getNickname() != null)

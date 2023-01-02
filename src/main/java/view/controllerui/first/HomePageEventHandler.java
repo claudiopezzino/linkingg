@@ -25,6 +25,7 @@ import view.bean.observers.MeetingBean;
 import view.bean.observers.UserBean;
 import view.boundary.UserManageCommunityBoundary;
 import view.graphicalui.first.Container;
+import view.graphicalui.first.Dialog;
 import view.graphicalui.first.FirstMain;
 import view.graphicalui.first.HomePage;
 import view.graphicalui.first.HomePage.MeetingGalleryDialog;
@@ -40,7 +41,7 @@ import java.util.Map;
 import java.util.Optional;
 
 import static view.ConstAdapter.*;
-import static view.controllerui.first.Dialog.errorDialog;
+import static view.graphicalui.first.Dialog.errorDialog;
 import static view.graphicalui.first.constcontainer.HomePageFields.*;
 import static view.graphicalui.first.listviewitems.ListViewGroupItems.*;
 import static view.graphicalui.first.listviewitems.ListViewGroupItems.GroupInfo.GROUP_DETAILS;
@@ -97,6 +98,12 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////////
 
+    ////////////////////////////////////////////////////////////////
+    public UserBean getCurrUserBean() {
+        return this.currUserBean;
+    }
+    ////////////////////////////////////////////////////////////////
+
     ////////////////////////////////////////////////////////////////////////////////////////
     public void setCurrUserBean(UserBean currUserBean) {
         this.currUserBean = currUserBean;
@@ -136,7 +143,7 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
             }
 
             else {
-                Dialog.errorDialog("Something went wrong, please try later.");
+                view.graphicalui.first.Dialog.errorDialog("Something went wrong, please try later.");
             }
         }
     }
@@ -365,7 +372,11 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
                 HBox hBoxGroupInfo = (HBox) vBoxSelectedItem.getChildren().get(GROUP_INFO.getIndex());
                 Circle circleGroupImageSelected = (Circle) hBoxGroupInfo.getChildren().get(GROUP_IMAGE.getIndex());
                 Paint paintImageGroup = circleGroupImageSelected.getFill();
+                VBox hBoxGroupDetails = (VBox) hBoxGroupInfo.getChildren().get(GROUP_DETAILS.getIndex());
+                Label labelGroupNickSelected = (Label) hBoxGroupDetails.getChildren().get(GROUP_NICKNAME.getIndex());
+                
                 homePage.getCircleGroupFocused().setFill(paintImageGroup);
+                homePage.getLabelGroupNickFocused().setText(labelGroupNickSelected.getText());
 
                 VBox vBoxGroupDetails = (VBox) hBoxGroupInfo.getChildren().get(GROUP_DETAILS.getIndex());
                 Label labelGroupNick = (Label) vBoxGroupDetails.getChildren().get(GROUP_NICKNAME.getIndex());
@@ -439,38 +450,6 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
 
         }
         /*---------------------------------------------------------------------------------------------*/
-
-        /*------------------------------------------- INNER_INNER_CLASS -------------------------------------------*/
-        public static class MeetingChoiceChangeListener implements ChangeListener<Boolean>{
-
-            ///////////////////////////////
-            private final String meetingID;
-            ///////////////////////////////
-
-            ////////////////////////////////////////////////////////////////////////////////////
-            public MeetingChoiceChangeListener(String meetingID){
-                this.meetingID = meetingID;
-            }
-            ////////////////////////////////////////////////////////////////////////////////////
-
-            ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            @Override
-            public void changed(ObservableValue<? extends Boolean> observable, Boolean oldValue, Boolean newValue) {
-
-                // current user chooses to take part into meeting
-                boolean isSelected = newValue;
-                if(isSelected){
-
-                }
-
-                // current user chooses to not take part into meeting
-                else{
-
-                }
-            }
-            ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        }
-        /*----------------------------------------------------------------------------------------------------------*/
 
         /*------------------------------------------- INNER_INNER_CLASS --------------------------------------------*/
         public static class MeetingGalleryEventHandler<T extends MouseEvent> implements EventHandler<T>{
@@ -550,10 +529,7 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
         Optional<Map<String, String>> result = dialog.showAndWait();
         if(result.isPresent() && !result.get().isEmpty())
             this.createGroup(result.get());
-        dialog.getCircleGroupImg().setFill(new ImagePattern(new Image(UPLOAD_PHOTO)));
-        dialog.getLabelGroupImgPath().setText("");
-        dialog.getTextFieldGroupName().setText("");
-        dialog.getTextFieldGroupNick().setText("");
+        dialog.emptyFields();
     }
     ///////////////////////////////////////////////////////////////////////////////////////
 
@@ -642,14 +618,15 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
             errorDialog(internalException.getMessage());
         }
 
-        HBox hBoxGroupDetails;
-        List<HBox> listHBoxGroupDetails = new ArrayList<>();
+        VBox vBoxDetails;
+        List<VBox> listVBoxGroupDetails = new ArrayList<>();
         for (GroupFilteredBean groupFilteredBean : listGroupFilteredBean){
-            hBoxGroupDetails = homePage.setUpHBoxGroupDetails(groupFilteredBean.getImage(), groupFilteredBean.getNickname(), groupFilteredBean.getName());
-            listHBoxGroupDetails.add(hBoxGroupDetails);
+            vBoxDetails = homePage.setUpVBoxDetails(groupFilteredBean.getImage(), groupFilteredBean.getNickname(), groupFilteredBean.getName());
+            listVBoxGroupDetails.add(vBoxDetails);
         }
 
-        SearchGroupsDialog searchGroupsDialog = new SearchGroupsDialog("Groups result", "Groups", listHBoxGroupDetails);
+        SearchGroupsDialog searchGroupsDialog = SearchGroupsDialog.getSingletonInstance();
+        searchGroupsDialog.initListGroups(listVBoxGroupDetails);
         searchGroupsDialog.showAndWait();
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -1,1 +1,2 @@
-model.MeetingFields#<init>()V
+view.graphicalui.second.signupquestionstates.QuestionAccount#display()V
+view.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;

@@ -1,51 +1,75 @@
 
-Yview.bean.errorsignupdecorations.CellBeanErrorDecorator#displayErrors()Ljava/lang/String;{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java ("1*æ
-1{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (ü
-ù
-{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (-
-%0java.lang.String">view.bean.BeanErrorDecorator#displayErrors()Ljava/lang/String;*"
+Fmodel.dao.UserDAO#makeUserEntity(Ljava/util/Map;)Lmodel/subjects/User;U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javar r("6*˜
+2U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaw w(:¶
+³
+U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaw w(:
+usermodel.subjects.User"__id*7
+
+__unknown_file (
+
+%2model.subjects.User*
+1*–
+5U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaw w( ´
+±
+U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaw w(:
+%2model.subjects.User"Lmodel.UserCollector#getUserInstance(Ljava/lang/String;)Lmodel/subjects/User;*3
+
+__unknown_file ("
+model.UserCollector*:
+
+__unknown_file (
+
+userNickjava.lang.String*
+2*Ê
+6U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javas s(%œ
+™
+U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javas* s(=
+%0java.lang.String"__id*"
 
 __unknown_file (
-""Ø
-Õ
-{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (.
-errorsjava.lang.String"__id*4
+""î
+ë
+U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javas s(>
+%1java.lang.String"__mapGet*:
+
+__unknown_file (
+
+mapUserInfojava.util.Map*4
 
 __unknown_file (
 
-%0java.lang.String³°
-{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (#
-%1java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*W
-
-__unknown_file (;9
-7view.bean.errorsignupdecorations.CellBeanErrorDecorator2getMessage()Ú
-×
-{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (#
-%2java.lang.String"__concat*›
-{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (#
-
-errorsjava.lang.String*—
-{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (#
-
-%1java.lang.StringØ
-Õ
-{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (#
-errorsjava.lang.String"__id*4
+%0java.lang.String´
+±
+U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javas s(?
+userNickjava.lang.String"__id*4
 
 __unknown_file (
 
-%2java.lang.String"›
-{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (
-
-errorsjava.lang.StringB;9
-7view.bean.errorsignupdecorations.CellBeanErrorDecoratorH
+%1java.lang.String¡
+ž
+U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javau u(
+usermodel.subjects.User"__id*"
+
+__unknown_file (
+""*
+5*Ò
+1U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java| |("v
+U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java| |(
+
+usermodel.subjects.User:u
+U
+K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javar  r(?
+mapUserInfojava.util.MapB
+model.dao.UserDAO

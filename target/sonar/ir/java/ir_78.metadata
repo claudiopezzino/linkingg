@@ -1,5 +1,5 @@
-view.boundary.UserManageCommunityBoundary#alertUser(Ljava/lang/String;)V
+view.boundary.UserManageCommunityBoundary#notifyNewGroupMember(Ljava/lang/String;Ljava/lang/String;)V
+view.graphicalui.first.HomePage#getHandler()Lview/controllerui/first/HomePageEventHandler;
 view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;
-view.controllerui.first.Dialog#errorDialog(Ljava/lang/String;)V
-view.controllerui.second.Message#infoErrorMsg(Ljava/lang/String;)V
 view.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;
+view.boundary.UserManageCommunityBoundary#notifyNewNick(Ljava/lang/String;)V

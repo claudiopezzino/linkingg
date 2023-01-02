@@ -35,5 +35,7 @@ module view.graphicalui {
     exports view.graphicalui.first.constcontainer;
     opens view.graphicalui.first.constcontainer to javafx.fxml;
     exports view.graphicalui.first.listviewitems;
-    opens view.graphicalui.first.listviewitems to javafx.fxml; // due to warning for AbstractState
+    opens view.graphicalui.first.listviewitems to javafx.fxml;
+    exports control.notifications;
+    opens control.notifications to javafx.fxml; // due to warning for AbstractState
 }

@@ -1,3 +1,5 @@
-view.boundary.UserManageCommunityBoundary#createGroup(Lview/bean/GroupCreationBean;)V
+view.boundary.UserManageCommunityBoundary#registerIntoSystem(Lview/bean/UserSignUpBean;)Lview/bean/UserSignInBean;
 control.ManageCommunityController#instance-init#
+control.UserLoginController#instance-init#
 control.ManageCommunityController#<init>()V
+control.UserLoginController#<init>()V

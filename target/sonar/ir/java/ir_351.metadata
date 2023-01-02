@@ -1,1 +1,2 @@
-view.controllerui.second.handlerstates.StateSearch#instance-init#
+view.graphicalui.second.SecondMain#main([Ljava/lang/String;)V
+javafx.application.Application#launch([Ljava/lang/String;)V

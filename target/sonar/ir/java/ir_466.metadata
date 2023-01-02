@@ -1,4 +1,1 @@
-view.bean.UserSignUpBean#setEmail(Ljava/lang/String;)V
-view.bean.errorsignupdecorations.EmailBeanErrorDecorator#instance-init#
-view.bean.errorsignupdecorations.EmailBeanErrorDecorator#<init>(Lview/bean/BeanError;)V
-view.bean.Regex#isMatching(Ljava/lang/String;Ljava/lang/String;)Z
+view.bean.UserSignUpBean#getAccount()Ljava/lang/String;

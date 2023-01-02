@@ -1,1 +1,3 @@
-view.bean.ConcreteBeanError#instance-init#
+view.controllerui.second.handlerstates.StateGroupCreationEnd#getStateGroupCreationEndInstance()Lview/controllerui/second/handlerstates/StateGroupCreationEnd;
+view.controllerui.second.handlerstates.StateGroupCreationEnd#<init>()V
+view.controllerui.second.handlerstates.StateGroupCreationEnd#instance-init#

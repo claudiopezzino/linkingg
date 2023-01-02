@@ -1,1 +1,7 @@
-view.graphicalui.first.MeetingPage#isToolBarPresent()Z
+view.graphicalui.first.MeetingPage#initRadioButtonList(Ljavafx/scene/control/ToggleGroup;[Ljava/lang/String;)Ljava/util/List;
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+javafx.scene.control.ToggleButton#setToggleGroup(Ljavafx/scene/control/ToggleGroup;)V
+javafx.scene.control.RadioButton#instance-init#
+javafx.scene.control.RadioButton#<init>(Ljava/lang/String;)V
+javafx.scene.control.ToggleButton#setSelected(Z)V

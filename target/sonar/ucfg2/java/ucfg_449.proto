@@ -1,19 +1,19 @@
 
-1model.subjects.Group#nickname()Ljava/lang/String;X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaI I("1*•
+-model.subjects.Group#members()Ljava/util/Map;X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java7 7($"1*‘
 1X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaJ J(¿
-¼
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java8 8(¾
+»
 X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaJ J(
-%0java.lang.String"__id*B
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java8 8(
+%0java.util.Map"__id*D
 
-__unknown_file (&*$
-model.subjects.Group"
+__unknown_file ((*&
+model.subjects.Group"
 
-nickname"t
+mapMembers"q
 X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaJ J(
-
-%0java.lang.StringB
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java8 8(
+
+%0java.util.MapB
 model.subjects.GroupH

@@ -1,5 +1,1 @@
-model.dao.UserDAO#makeUserEntities(Ljava/util/List;)Ljava/util/Map;
-java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
-model.dao.UserDAO#makeUserEntity(Ljava/util/Map;)Lmodel/subjects/User;
-java.util.HashMap#<init>()V
-java.util.HashMap#instance-init#
+view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;

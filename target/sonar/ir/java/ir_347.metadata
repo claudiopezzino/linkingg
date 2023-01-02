@@ -1,2 +1,1 @@
-view.graphicalui.second.SecondMain#main([Ljava/lang/String;)V
-javafx.application.Application#launch([Ljava/lang/String;)V
+control.controlutilities.MessengerException#instance-init#

@@ -57,7 +57,7 @@ public class UserDAO implements BaseDAO{
                         (String) filter.get(UserFields.NICKNAME),
                         (String) filter.get(UserFields.PASSWORD));
 
-            else if(type == Filter.GROUP_OWNER || type == Filter.MEETING_OWNER)
+            else if(type == Filter.GROUP_OWNER || type == Filter.MEETING_OWNER || type == Filter.LINK_REQUEST_SOURCE)
                 mapUserInfo = UserDAOQueries.selectUserByNickname(db, connection, (String) filter.get(UserFields.NICKNAME));
 
             db.closeConnection(); // evaluate if remain it opened because it will be needed after User fetch by credentials

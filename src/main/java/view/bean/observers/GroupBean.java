@@ -2,6 +2,7 @@ package view.bean.observers;
 
 import control.controlutilities.Copier;
 import control.controlutilities.CopyException;
+import model.LinkRequestFields;
 import model.MeetingFields;
 import model.UserFields;
 import model.subjects.Group;
@@ -16,14 +17,15 @@ import static model.subjects.State.*;
 
 public class GroupBean implements Observer{
 
-    //////////////////////////////////////////
+    /////////////////////////////////////////////////////
     private String nickname;
     private String name;
     private String image;
     private UserBean owner;
     private Map<String, UserBean> mapMembers;
     private Map<String, MeetingBean> mapMeetings;
-    /////////////////////////////////////////////
+    private Map<String, LinkRequestBean> mapLinkRequests;
+    /////////////////////////////////////////////////////
 
     ////////////////////
     private Group group;  // due to Pattern Observer
@@ -66,6 +68,12 @@ public class GroupBean implements Observer{
         return this.mapMeetings;
     }
     /////////////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////////////////////////////
+    public Map<String, LinkRequestBean> getMapLinkRequests() {
+        return this.mapLinkRequests;
+    }
+    /////////////////////////////////////////////////////////////////////////////////////////
 
 
     /*-------------------- SETTER --------------------*/
@@ -110,6 +118,18 @@ public class GroupBean implements Observer{
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////
 
+    /////////////////////////////////////////////////////////////////////////////////////////////////////
+    // because of composition between GroupBean and LinkRequestBean
+    // Throws a MeetingBeanException instead of CopyException
+    public void setMapLinkRequests(Map<String, LinkRequestBean> mapLinkRequests) throws CopyException{
+        Map<String, LinkRequestBean> mapLinkRequestsBean = new HashMap<>();
+        for(Map.Entry<String, LinkRequestBean> entry : mapLinkRequests.entrySet())
+            mapLinkRequestsBean.put(entry.getKey(), (LinkRequestBean) Copier.deepCopy(entry.getValue()));
+        this.mapLinkRequests = mapLinkRequestsBean;
+    }
+    /////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 
     /* Following methods for Observer Pattern */
 
@@ -119,7 +139,7 @@ public class GroupBean implements Observer{
     }
     ///////////////////////////////////////////////////////////
 
-    //////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     @Override
     public <V> void update(Map<String, V> map) {
         State change = this.group.getChange();
@@ -131,9 +151,9 @@ public class GroupBean implements Observer{
             UserBean userBean = (UserBean) this.group.members().get(userNick).getObserver();
             this.mapMembers.put(userBean.getNickname(), userBean);
 
-            this.notifyNewMemberToView(this.nickname, userBean.getNickname());
-
+            UserManageCommunityBoundary.notifyNewGroupMember(this.nickname, userBean.getNickname());
         }
+
         else if(change.equals(GROUP_MEETINGS)){
 
             String meetingID = (String) map.get(MeetingFields.ID);
@@ -141,24 +161,18 @@ public class GroupBean implements Observer{
             MeetingBean meetingBean = (MeetingBean) this.group.plannedMeeting().get(meetingID).getObserver();
             this.mapMeetings.put(meetingBean.getId(), meetingBean);
 
-            this.notifyNewMeetingToView(this.nickname, meetingBean.getId());
+            UserManageCommunityBoundary.notifyNewMeeting(this.nickname, meetingBean.getId());
+        }
 
+        else if (change.equals(GROUP_REQUESTS)){
+            String userRequestID = (String) map.get(LinkRequestFields.USERS_NICKNAME);
+
+            LinkRequestBean linkRequestBean = (LinkRequestBean) this.group.linkRequests().get(userRequestID).getObserver();
+            this.mapLinkRequests.put(linkRequestBean.getUserNick(), linkRequestBean);
+
+            UserManageCommunityBoundary.notifyNewLinkRequest(linkRequestBean.getGroupNick(), linkRequestBean.getUserNick());
         }
     }
-    //////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////
-    private void notifyNewMemberToView(String groupNick, String newMemberNick){
-        UserManageCommunityBoundary userManageCommunityBoundary = new UserManageCommunityBoundary();
-        userManageCommunityBoundary.notifyNewGroupMember(groupNick, newMemberNick);
-    }
-    ////////////////////////////////////////////////////////////////////////////////////////////////
-
-    ////////////////////////////////////////////////////////////////////////////////////////////////
-    private void notifyNewMeetingToView(String groupNick, String newMeetingID){
-        UserManageCommunityBoundary userManageCommunityBoundary = new UserManageCommunityBoundary();
-        userManageCommunityBoundary.notifyNewMeeting(groupNick, newMeetingID);
-    }
-    ////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 }

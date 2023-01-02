@@ -1,1 +1,4 @@
-view.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;
+view.graphicalui.second.SecondMain#start(Ljavafx/stage/Stage;)V
+javafx.stage.Stage#show()V
+javafx.stage.Stage#setResizable(Z)V
+javafx.stage.Stage#setScene(Ljavafx/scene/Scene;)V

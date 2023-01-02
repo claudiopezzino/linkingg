@@ -68,8 +68,13 @@ public class DeviceDAO implements BaseDAO{
             Connection connection = db.getConnection();
 
             if(type == Filter.USER_NICKNAME)
-                listDevicesInfo = DeviceDAOQueries.selectDevices(db, connection,
+                listDevicesInfo = DeviceDAOQueries.selectCurrUserDevices(db, connection,
                         (String) filter.get(UserFields.NICKNAME), Integer.parseInt((String) filter.get(DeviceFields.PORT)));
+
+            else if (type == Filter.GROUP_OWNER)
+                listDevicesInfo = DeviceDAOQueries.selectGroupOwnerDevices(db, connection, (String) filter.get(GroupFields.OWNER));
+
+            db.closeConnection();
 
         }catch(DBException dbException){
             throw new InternalException(dbException.getMessage());

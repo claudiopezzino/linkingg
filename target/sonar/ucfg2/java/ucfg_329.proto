@@ -1,117 +1,418 @@
 
-^view.controllerui.first.SigninPageEventHandler#castToGroupBean(Ljava/util/Map;)Ljava/util/Map;t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaÜ# Ü(2"6*¬
-2t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaà à(+¡
-æ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaà à(+
-entryjava.util.Map$Entry"__id*"
+Wview.controllerui.first.SigninPageEventHandler#handle(Ljavafx/scene/input/MouseEvent;)Vr
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java0 0("startingBlock*Õ
+2r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaD D(Œ
+À
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaD D(M
+%31void"?view.controllerui.first.Dialog#errorDialog(Ljava/lang/String;)V*>
 
-__unknown_file (
-""˙
-˜
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaà à(+
-entryjava.util.Map$Entry"
-__arrayGet*1
+__unknown_file ("" 
+view.controllerui.first.Dialog*G
 
-__unknown_file (
-
-%2java.util.Set*"
+__unknown_file (+)
+'Something went wrong, please try later.*
+1*ı
+3r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaA A(ˆ
+Û
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaA A(3
+%30void"Vview.controllerui.first.SigninPageEventHandler#accessUser(Lview/bean/UserSignInBean;)V*N
 
-__unknown_file (
-""*
-4
-1*Í
-3t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaä ä(áÑ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaä! ä(/
-%4java.lang.String".java.util.Map$Entry#getKey()Ljava/lang/Object;*:
+__unknown_file (20
+.view.controllerui.first.SigninPageEventHandler*H
 
-__unknown_file (
-
-entryjava.util.Map$Entry2getKey()ãà
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaä= ä(M
-%5java.lang.Object"0java.util.Map$Entry#getValue()Ljava/lang/Object;*:
+__unknown_file (,
+*
+userSignInBeanview.bean.UserSignInBean*
+1*¨
+startingBlockr
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java0 0(Ë
+Â
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java/ /(
+%34"
+__annotate*2
 
-__unknown_file (
-
-entryjava.util.Map$Entry2
-getValue()—
-Œ
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaä ä(N#
-%6view.bean.observers.GroupBean"__mapSet*;
+__unknown_file (
+java.lang.Override*(
 
-__unknown_file (
-
-mapGroupBeanjava.util.Map*4
-
-__unknown_file (
-
-%4java.lang.String*4
-
-__unknown_file (
-
-%5java.lang.Object*
-2*è
-4t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaâ â(ãà
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaâ â( 
-%3java.lang.Object"0java.util.Map$Entry#getValue()Ljava/lang/Object;*:
-
-__unknown_file (
-
-entryjava.util.Map$Entry2
-getValue()*
-2
-3*ˇ
-5t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaà. à(8˛˚
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaà. à(C
-%2java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;*9
-
-__unknown_file (
-
+__unknown_file (
 
-mapObjectsjava.util.Map2
-entrySet()*
-2*‘
-6t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaá. á(=•¢
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaá2 á(;
-%0java.util.HashMap"java.util.HashMap”
-–
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaá. á(=
-%1"java.util.HashMap#<init>()V*5
+
+eventT∂
+≥
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java0 0(
+
+eventT"__annotation*#
+
+__unknown_file (
+
+%34*
+9*¬
+4r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java? ?(√
+¿
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java? ?(+
+%29void"?view.controllerui.first.Dialog#errorDialog(Ljava/lang/String;)V*>
+
+__unknown_file ("" 
+view.controllerui.first.Dialog*<
+
+__unknown_file ( 
+
+
+stackErrorjava.lang.String*
+1*˙
+5r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java:( :(2Ü
+É
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java:( :(N(
+%23!view.graphicalui.first.SigninPage"|view.graphicalui.first.SigninPage#getSigninPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/SigninPage;*A
+
+__unknown_file (%"#
+!view.graphicalui.first.SigninPage*"
+
+__unknown_file (
+""ˆ
+Û
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java: :(O/
+
+signinPage!view.graphicalui.first.SigninPage"__id*F
+
+__unknown_file (*
+(
+%23!view.graphicalui.first.SigninPage≤Ø
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java;4 ;(B
+%24view.bean.UserSignInBean"view.bean.UserSignInBean·
+ﬁ
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java;0 ;(D
+%25""view.bean.UserSignInBean#<init>()V*=
+
+__unknown_file (!
+
+%24view.bean.UserSignInBeanË
+Â
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java; ;(E*
+userSignInBeanview.bean.UserSignInBean"__id*=
+
+__unknown_file (!
+
+%24view.bean.UserSignInBean±Æ
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java=N =(f
+%26java.lang.String"Aview.graphicalui.first.SigninPage#getNickname()Ljava/lang/String;*M
+
+__unknown_file (1
+/
+
+signinPage!view.graphicalui.first.SigninPage2getNickname()≤Ø
+s
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java=h =(Ä
+%27java.lang.String"Aview.graphicalui.first.SigninPage#getPassword()Ljava/lang/String;*M
+
+__unknown_file (1
+/
+
+signinPage!view.graphicalui.first.SigninPage2getPassword()±
+Æ
+s
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java=$ =(Å
+%28java.lang.String"ïview.controllerui.first.SigninPageEventHandler#checkUserCredentials(Lview/bean/UserSignInBean;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*N
+
+__unknown_file (20
+.view.controllerui.first.SigninPageEventHandler*H
+
+__unknown_file (,
+*
+userSignInBeanview.bean.UserSignInBean*5
 
 __unknown_file (
 
-%0java.util.HashMap’
+%26java.lang.String*5
+
+__unknown_file (
+
+%27java.lang.String’
 “
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaá á(>
-mapGroupBeanjava.util.Map"__id*5
+s
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java= =(Ç
+
+stackErrorjava.lang.String"__id*5
 
 __unknown_file (
 
-%0java.util.HashMap*
-5*ì
-1t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaå å("ó
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaå å(
-
-mapGroupBeanjava.util.Map:ì
-t
-h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaÜ3 Ü(Q
+%28java.lang.String*
+3
+4*ô
+6r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java9 9(¸˘
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java9 9(&
+%19java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*(
+
+__unknown_file (
 
-mapObjectsjava.util.MapB20
-.view.controllerui.first.SigninPageEventHandler
+
+eventT2getSource()Ü
+É
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java9. 9(T(
+%20!view.graphicalui.first.SigninPage"|view.graphicalui.first.SigninPage#getSigninPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/SigninPage;*A
+
+__unknown_file (%"#
+!view.graphicalui.first.SigninPage*"
+
+__unknown_file (
+""¬ø
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java9. 9(c"
+%21javafx.scene.control.Button"Mview.graphicalui.first.SigninPage#getBtnSignIn()Ljavafx/scene/control/Button;*F
+
+__unknown_file (*
+(
+%20!view.graphicalui.first.SigninPage2getBtnSignIn() «
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java9 9(d
+%22boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*5
+
+__unknown_file (
+
+%19java.lang.Object*@
+
+__unknown_file ($
+"
+%21javafx.scene.control.Button2equals(Ljava/lang/Object;)*
+2
+5* 
+
+7r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java7 7(ô
+ñ
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java7 7((
+%15javafx.scene.Scene"Cview.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;*@
+
+__unknown_file ($""
+ view.graphicalui.first.FirstMain≈
+¬
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java7C 7(O"
+%16view.graphicalui.first.Page"__id*"
+
+__unknown_file (
+""ç
+ä
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java71 7(P&
+%17javafx.scene.control.ScrollPane"hview.graphicalui.first.Container#getRoot(Lview/graphicalui/first/Page;)Ljavafx/scene/control/ScrollPane;*@
+
+__unknown_file ($""
+ view.graphicalui.first.Container*@
+
+__unknown_file ($
+"
+%16view.graphicalui.first.Page◊‘
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java7 7(Q
+%18void"2javafx.scene.Scene#setRoot(Ljavafx/scene/Parent;)V*7
+
+__unknown_file (
+
+%15javafx.scene.Scene*D
+
+__unknown_file ((
+&
+%17javafx.scene.control.ScrollPane2setRoot(Ljavafx/scene/Parent;)*
+1*°
+8r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java4" 4(,Ö
+Ç
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java4" 4(H'
+%3!view.graphicalui.first.SigninPage"|view.graphicalui.first.SigninPage#getSigninPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/SigninPage;*A
+
+__unknown_file (%"#
+!view.graphicalui.first.SigninPage*"
+
+__unknown_file (
+""ºπ
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java4" 4(U"
+%4javafx.scene.control.ToolBar"Jview.graphicalui.first.SignPage#getToolBar()Ljavafx/scene/control/ToolBar;*E
+
+__unknown_file ()
+'
+%3!view.graphicalui.first.SigninPage2getToolBar()∫∑
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java4" 4(`'
+%5!javafx.collections.ObservableList"Jjavafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;*@
+
+__unknown_file ($
+"
+%4javafx.scene.control.ToolBar2
+getItems()›
+⁄
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java4e 4(m:
+%64view.graphicalui.first.toolbaritems.SignToolbarItems"__id*"
+
+__unknown_file (
+"" «
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java4e 4(x
+%7java.lang.Integer"Rview.graphicalui.first.toolbaritems.SignToolbarItems#getIndex()Ljava/lang/Integer;*X
+
+__unknown_file (<
+:
+%64view.graphicalui.first.toolbaritems.SignToolbarItems2
+getIndex()ö
+ó
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java4" 4(y
+%8javafx.scene.Node"
+__arrayGet*E
+
+__unknown_file ()
+'
+%5!javafx.collections.ObservableList*5
+
+__unknown_file (
+
+%7java.lang.IntegerŸ
+÷
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java4 4(z#
+mainBarjavafx.scene.layout.HBox"__id*5
+
+__unknown_file (
+
+%8javafx.scene.Node˚¯
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java6 6(!
+%9java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*(
+
+__unknown_file (
+
+
+eventT2getSource()æª
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java6) 6(>(
+%10!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*A
+
+__unknown_file (%
+#
+mainBarjavafx.scene.layout.HBox2getChildren()Î
+Ë
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java6C 6(NH
+%11Aview.graphicalui.first.toolbaritems.SignToolbarItems$MainBarItems"__id*"
+
+__unknown_file (
+""Ê„
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java6C 6(Y
+%12java.lang.Integer"_view.graphicalui.first.toolbaritems.SignToolbarItems$MainBarItems#getIndex()Ljava/lang/Integer;*f
+
+__unknown_file (J
+H
+%11Aview.graphicalui.first.toolbaritems.SignToolbarItems$MainBarItems2
+getIndex()ù
+ö
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java6) 6(Z
+%13javafx.scene.Node"
+__arrayGet*F
+
+__unknown_file (*
+(
+%10!javafx.collections.ObservableList*6
+
+__unknown_file (
+
+%12java.lang.Integerøº
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java6 6([
+%14boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%9java.lang.Object*6
+
+__unknown_file (
+
+%13javafx.scene.Node2equals(Ljava/lang/Object;)*
+6
+7*§
+9r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java2 2(ïí
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java2 2(
+%0javafx.event.EventType"Djavafx.scene.input.MouseEvent#getEventType()Ljavafx/event/EventType;*(
+
+__unknown_file (
+
+
+eventT2getEventType()ø
+º
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java2' 2(?
+%1javafx.event.EventType"__id*"
+
+__unknown_file (
+""»≈
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java2 2(@
+%2boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*:
+
+__unknown_file (
+
+%0javafx.event.EventType*:
+
+__unknown_file (
+
+%1javafx.event.EventType2equals(Ljava/lang/Object;)*
+8
+0*ë
+0 "â
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaJ J(
+implicit return*ë
+1r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaF F(Ü
+É
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaF( F(N(
+%32!view.graphicalui.first.SigninPage"|view.graphicalui.first.SigninPage#getSigninPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/SigninPage;*A
+
+__unknown_file (%"#
+!view.graphicalui.first.SigninPage*"
+
+__unknown_file (
+""â
+Ü
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.javaF F(O
+%33void"kview.controllerui.first.SigninPageEventHandler#clearSigninCredentials(Lview/graphicalui/first/SigninPage;)V*N
+
+__unknown_file (20
+.view.controllerui.first.SigninPageEventHandler*F
+
+__unknown_file (*
+(
+%32!view.graphicalui.first.SigninPage*
+0:Ä
+r
+h/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/SigninPageEventHandler.java0 0(
+
+eventTB20
+.view.controllerui.first.SigninPageEventHandlerH

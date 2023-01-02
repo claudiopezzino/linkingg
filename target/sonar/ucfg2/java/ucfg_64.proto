@@ -1,14 +1,14 @@
 
-bview.boundary.UserManageCommunityBoundary#logIntoSystem(Lview/bean/UserSignInBean;)Ljava/util/Map;m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java+ +(,"3*µ
+rview.boundary.UserManageCommunityBoundary#registerIntoSystem(Lview/bean/UserSignUpBean;)Lview/bean/UserSignInBean;m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java" "(,"3*µ
 2m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java-( -(Gæª
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java$( $(Gæª
 m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java-, -(E'
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java$, $(E'
 %1!control.ManageCommunityController"!control.ManageCommunityControllerÏ
 È
 m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java-( -(G
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java$( $(G
 %2"+control.ManageCommunityController#<init>()V*E
 
 __unknown_file ()
@@ -16,7 +16,7 @@ c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCo
 %1!control.ManageCommunityControllerã
 à
 m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java- -(GJ+
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java$ $(GJ+
 )view.boundary.UserManageCommunityBoundary"
 manageCommunityController"__id*E
 
@@ -25,41 +25,41 @@ c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCo
 %1!control.ManageCommunityController*
 1*à
 3m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java, ,($ã
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java# #($ã
 à
 m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java, ,($'
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java# #($'
 %0!control.ManageCommunityController"__id*h
 
 __unknown_file (L*J+
 )view.boundary.UserManageCommunityBoundary"
 manageCommunityController*
 2
-1*Ω
+1*ÿ
 1m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java. .(ã
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java% %((ã
 à
 m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java/ /(('
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java% %(('
 %3!control.ManageCommunityController"__id*h
 
 __unknown_file (L*J+
 )view.boundary.UserManageCommunityBoundary"
 manageCommunityController≤Ø
 m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java/> /(Q!
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java%> %(Q!
 %4control.UserLoginController"control.UserLoginController‡
 ›
 m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java/: /(S
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java%: %(S
 %5"%control.UserLoginController#<init>()V*?
 
 __unknown_file (#
 !
-%4control.UserLoginControllerôñ
+%4control.UserLoginController©¶
 m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java/ /(e
-%6java.util.Map"vcontrol.ManageCommunityController#setUpSignInPhase(Lcontrol/LoginController;Lview/bean/UserSignInBean;)Ljava/util/Map;*E
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java% %(^
+%6view.bean.UserSignInBean"Åcontrol.ManageCommunityController#setUpSignUpPhase(Lcontrol/LoginController;Lview/bean/UserSignUpBean;)Lview/bean/UserSignInBean;*E
 
 __unknown_file ()
 '
@@ -67,16 +67,16 @@ c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCo
 
 __unknown_file (#
 !
-%4control.UserLoginController*I
+%4control.UserLoginController*B
 
-__unknown_file (-
-+
-userCredentialsview.bean.UserSignInBean2EsetUpSignInPhase(Lcontrol/LoginController;Lview/bean/UserSignInBean;)"Ü
+__unknown_file (&
+$
+userInfoview.bean.UserSignUpBean2EsetUpSignUpPhase(Lcontrol/LoginController;Lview/bean/UserSignUpBean;)"ë
 m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java/ /(f
-
-%6java.util.Map:ú
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java% %(_ 
+
+%6view.bean.UserSignInBean:ï
 m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java+- +(K+
-userCredentialsview.bean.UserSignInBeanB-+
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java"- "(D$
+userInfoview.bean.UserSignUpBeanB-+
 )view.boundary.UserManageCommunityBoundaryH

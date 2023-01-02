@@ -1,5 +1,7 @@
-package view.controllerui.first;
+package view.graphicalui.first;
 
+import control.notifications.NoNotificationException;
+import control.notifications.Notification;
 import javafx.event.ActionEvent;
 import javafx.event.Event;
 import javafx.scene.control.Button;
@@ -7,7 +9,6 @@ import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.WindowEvent;
-import view.graphicalui.first.PageDialog;
 
 import java.util.Collections;
 import java.util.Map;
@@ -16,6 +17,8 @@ import static view.graphicalui.first.constcontainer.Css.HBOX;
 import static view.graphicalui.first.constcontainer.Css.VBOX;
 import static view.graphicalui.first.constcontainer.Image.*;
 
+
+// It should be a Dialog Container
 public final class Dialog {
 
     //////////////////
@@ -68,7 +71,7 @@ public final class Dialog {
 
 
         /////////////////////////////////////////////////////////////
-        public static InfoErrorDialog getInfoErrorDialogInstance() {
+        private static InfoErrorDialog getInfoErrorDialogInstance() {
             if(infoErrorDialogInstance == null)
                 infoErrorDialogInstance = new InfoErrorDialog();
             return infoErrorDialogInstance;
@@ -142,7 +145,7 @@ public final class Dialog {
 
 
         ///////////////////////////////////////////////////
-        public static WaitDialog getWaitDialogInstance() {
+        private static WaitDialog getWaitDialogInstance() {
             if(waitDialogInstance == null)
                 waitDialogInstance = new WaitDialog();
             return waitDialogInstance;
@@ -162,4 +165,90 @@ public final class Dialog {
         WaitDialog.getWaitDialogInstance().close();
     }
     ////////////////////////////////////////////////////////////////////////////////////
+
+    /*-------------------------------- INNER_CLASS --------------------------------*/
+    public static class NotificationDialog extends PageDialog{
+
+        ////////////////////////////////////////////////////
+        private static NotificationDialog singletonInstance;
+        ////////////////////////////////////////////////////
+
+        ////////////////////////////////
+        private Label labelStackMessage;
+        ////////////////////////////////
+
+        //////////////////////////////////
+        private Notification notification;
+        //////////////////////////////////
+
+
+        ///////////////////////////////////////////////////////////////////////////
+        private NotificationDialog(Notification notification) {
+            super("Notification panel", "Notifications", NOTIFICATION);
+            this.notification = notification;
+            this.getDialogPane().setContent(this.setUpPopUpRoot());
+            this.setResultConverter(this::notificationResult);
+        }
+        ///////////////////////////////////////////////////////////////////////////
+
+
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private Map<String, String> notificationResult(ButtonType buttonType){
+            return Collections.emptyMap();
+        }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        ////////////////////////////////////////////////////////////////////////////////
+        @Override
+        protected VBox setUpPopUpRoot() {
+            VBox vBoxPopUpRoot = new VBox();
+            vBoxPopUpRoot.getStyleClass().addAll(VBOX, HBOX);
+
+            this.labelStackMessage = this.notification == null ?
+                    new Label() : new Label(this.notification.displayMessage());
+
+            vBoxPopUpRoot.getChildren().add(this.labelStackMessage);
+
+            return vBoxPopUpRoot;
+        }
+        ////////////////////////////////////////////////////////////////////////////////
+
+        //////////////////////////////////////////////////////////////////////////
+        private void updateNotifications(Notification notification) {
+            if (notification != null) {
+                this.notification = notification;
+                this.labelStackMessage.setText(this.notification.displayMessage());
+            }
+        }
+        //////////////////////////////////////////////////////////////////////////
+
+    }
+    /*-------------------------------------------------------------------------------------*/
+
+    ///////////////////////////////////////////////////////////////////////////////////
+    public static synchronized void showNotificationDialog(Notification notification){
+        if(NotificationDialog.singletonInstance == null)
+            NotificationDialog.singletonInstance = new NotificationDialog(notification);
+
+        else if (!NotificationDialog.singletonInstance.isShowing())
+            NotificationDialog.singletonInstance.updateNotifications(notification);
+
+        else if (NotificationDialog.singletonInstance.isShowing()) {
+            NotificationDialog.singletonInstance.updateNotifications(notification);
+            NotificationDialog.singletonInstance.close();
+        }
+
+        NotificationDialog.singletonInstance.show();
+    }
+    ///////////////////////////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////////////////////
+    public static Notification getLastNotification() throws NoNotificationException {
+        if (NotificationDialog.singletonInstance != null
+                && NotificationDialog.singletonInstance.notification != null)
+            return NotificationDialog.singletonInstance.notification;
+        throw new NoNotificationException();
+    }
+    //////////////////////////////////////////////////////////////////////////////////
+
 }

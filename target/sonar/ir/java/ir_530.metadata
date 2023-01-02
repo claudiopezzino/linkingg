@@ -1,1 +1,1 @@
-view.graphicalui.second.SignupInfo#instance-init#
+view.bean.observers.MeetingBean#setScheduler(Lview/bean/observers/UserBean;)V

@@ -1896,7 +1896,7 @@ nextWord()1javafx.scene.control.TextInputControl#nextWord()VC
 8view.controllerui.second.handlerstates.StateGroupRequest4view.controllerui.second.handlerstates.AbstractStatejava.lang.Objecté
 (checkCmd(Lview/graphicalui/second/Home;)bview.controllerui.second.handlerstates.StateGroupRequest#checkCmd(Lview/graphicalui/second/Home;)VN
 <init>()Bview.controllerui.second.handlerstates.StateGroupRequest#<init>()V¥
-getStateGroupRequestInstance()ëview.controllerui.second.handlerstates.StateGroupRequest#getStateGroupRequestInstance()Lview/controllerui/second/handlerstates/StateGroupRequest;ı4
+getStateGroupRequestInstance()ëview.controllerui.second.handlerstates.StateGroupRequest#getStateGroupRequestInstance()Lview/controllerui/second/handlerstates/StateGroupRequest;‘5
 view.graphicalui.second.Homeview.graphicalui.second.Shelll
 %setGroupOwnerNick(Ljava/lang/String;)Cview.graphicalui.second.Home#setGroupOwnerNick(Ljava/lang/String;)Vf
 "saveUserAnswer(Ljava/lang/String;)@view.graphicalui.second.Home#saveUserAnswer(Ljava/lang/String;)VY
@@ -1961,7 +1961,8 @@ $setListOtherGroups(Ljava/util/List;)Bview.graphicalui.second.Home#setListOther
 )checkInvitationGroups(Ljava/lang/String;)Gview.graphicalui.second.Home#checkInvitationGroups(Ljava/lang/String;)Vn
 &groupsDeletionMode(Ljava/lang/String;)Dview.graphicalui.second.Home#groupsDeletionMode(Ljava/lang/String;)Vb
  groupOptions(Ljava/lang/String;)>view.graphicalui.second.Home#groupOptions(Ljava/lang/String;)Vd
-!saveGroupName(Ljava/lang/String;)?view.graphicalui.second.Home#saveGroupName(Ljava/lang/String;)V>
+!saveGroupName(Ljava/lang/String;)?view.graphicalui.second.Home#saveGroupName(Ljava/lang/String;)V]
+getCurrSearchFilter()Dview.graphicalui.second.Home#getCurrSearchFilter()Ljava/lang/String;>
 shareMeeting(),view.graphicalui.second.Home#shareMeeting()VZ
 restorePrevQuestionsScreen():view.graphicalui.second.Home#restorePrevQuestionsScreen()VO
 getGroupName()=view.graphicalui.second.Home#getGroupName()Ljava/lang/String;X
@@ -2856,8 +2857,11 @@ Bview.graphicalui.second.passwordquestionstates.QuestionNewPasswordjava.lang.O
 	display()Mview.graphicalui.second.passwordquestionstates.QuestionNewPassword#display()VX
 <init>()Lview.graphicalui.second.passwordquestionstates.QuestionNewPassword#<init>()V∞
 4next(Lview/graphicalui/second/QuestionStateMachine;)xview.graphicalui.second.passwordquestionstates.QuestionNewPassword#next(Lview/graphicalui/second/QuestionStateMachine;)VÃ
- getQuestionNewPasswordInstance()ßview.graphicalui.second.passwordquestionstates.QuestionNewPassword#getQuestionNewPasswordInstance()Lview/graphicalui/second/passwordquestionstates/QuestionNewPassword;∫
-)view.boundary.UserManageCommunityBoundaryjava.lang.Objectq
+ getQuestionNewPasswordInstance()ßview.graphicalui.second.passwordquestionstates.QuestionNewPassword#getQuestionNewPasswordInstance()Lview/graphicalui/second/passwordquestionstates/QuestionNewPassword;N
+view.ConstAdapterjava.lang.Object'
+<init>()view.ConstAdapter#<init>()Vﬂ
+)view.boundary.UserManageCommunityBoundaryjava.lang.Object¢
+2searchGroupsByFilter(Lview/bean/SearchFilterBean;)lview.boundary.UserManageCommunityBoundary#searchGroupsByFilter(Lview/bean/SearchFilterBean;)Ljava/util/List;q
 !notifyNewNick(Ljava/lang/String;)Lview.boundary.UserManageCommunityBoundary#notifyNewNick(Ljava/lang/String;)V©
 =notifyNewGroupOwnerNick(Ljava/lang/String;Ljava/lang/String;)hview.boundary.UserManageCommunityBoundary#notifyNewGroupOwnerNick(Ljava/lang/String;Ljava/lang/String;)Vç
 /notifyNewGroup(Lview/bean/observers/GroupBean;)Zview.boundary.UserManageCommunityBoundary#notifyNewGroup(Lview/bean/observers/GroupBean;)V£
@@ -2872,7 +2876,7 @@ PnotifyNewGroupMemberNick(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;
 notifyNewCurrUserNick()Bview.boundary.UserManageCommunityBoundary#notifyNewCurrUserNick()V«
 LnotifyMeetingJoiner(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)wview.boundary.UserManageCommunityBoundary#notifyMeetingJoiner(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V§
 .registerIntoSystem(Lview/bean/UserSignUpBean;)rview.boundary.UserManageCommunityBoundary#registerIntoSystem(Lview/bean/UserSignUpBean;)Lview/bean/UserSignInBean;É
-*createGroup(Lview/bean/GroupCreationBean;)Uview.boundary.UserManageCommunityBoundary#createGroup(Lview/bean/GroupCreationBean;)Vû
+*createGroup(Lview/bean/GroupCreationBean;)Uview.boundary.UserManageCommunityBoundary#createGroup(Lview/bean/GroupCreationBean;)Vﬂ
 !control.ManageCommunityControllerjava.lang.Objectí
 'turnIntoUserBean(Lmodel/subjects/User;)gcontrol.ManageCommunityController#turnIntoUserBean(Lmodel/subjects/User;)Lview/bean/observers/UserBean;ó
 )turnIntoGroupBean(Lmodel/subjects/Group;)jcontrol.ManageCommunityController#turnIntoGroupBean(Lmodel/subjects/Group;)Lview/bean/observers/GroupBean;ü
@@ -2883,7 +2887,9 @@ LnotifyMeetingJoiner(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)wv
 -turnIntoMeetingBean(Lmodel/subjects/Meeting;)pcontrol.ManageCommunityController#turnIntoMeetingBean(Lmodel/subjects/Meeting;)Lview/bean/observers/MeetingBean;~
 $fetchUserDevices(Ljava/lang/String;)Vcontrol.ManageCommunityController#fetchUserDevices(Ljava/lang/String;)Ljava/util/List;y
 )setUpGroup(Lview/bean/GroupCreationBean;)Lcontrol.ManageCommunityController#setUpGroup(Lview/bean/GroupCreationBean;)VÀ
-EsetUpSignUpPhase(Lcontrol/LoginController;Lview/bean/UserSignUpBean;)Åcontrol.ManageCommunityController#setUpSignUpPhase(Lcontrol/LoginController;Lview/bean/UserSignUpBean;)Lview/bean/UserSignInBean;ø
+EsetUpSignUpPhase(Lcontrol/LoginController;Lview/bean/UserSignUpBean;)Åcontrol.ManageCommunityController#setUpSignUpPhase(Lcontrol/LoginController;Lview/bean/UserSignUpBean;)Lview/bean/UserSignInBean;ñ
+0findGroupsByFilter(Lview/bean/SearchFilterBean;)bcontrol.ManageCommunityController#findGroupsByFilter(Lview/bean/SearchFilterBean;)Ljava/util/List;•
+1turnIntoGroupFilteredBean(Lmodel/subjects/Group;)pcontrol.ManageCommunityController#turnIntoGroupFilteredBean(Lmodel/subjects/Group;)Lview/bean/GroupFilteredBean;ø
 EsetUpSignInPhase(Lcontrol/LoginController;Lview/bean/UserSignInBean;)vcontrol.ManageCommunityController#setUpSignInPhase(Lcontrol/LoginController;Lview/bean/UserSignInBean;)Ljava/util/Map;+
 control.LoginControllerjava.lang.Object™	
 control.UserLoginControllercontrol.LoginControllerjava.lang.Object[
@@ -2895,34 +2901,36 @@ EsetUpSignInPhase(Lcontrol/LoginController;Lview/bean/UserSignInBean;)vcontrol.
 -fetchGroupsByUserNickname(Ljava/lang/String;)Xcontrol.UserLoginController#fetchGroupsByUserNickname(Ljava/lang/String;)Ljava/util/Map;s
 "access(Lview/bean/UserSignInBean;)Mcontrol.UserLoginController#access(Lview/bean/UserSignInBean;)Ljava/util/Map;o
 'changeUserCredentials(Ljava/util/Map;I)Dcontrol.UserLoginController#changeUserCredentials(Ljava/util/Map;I)VÅ
-)fetchUserInfo(Lview/bean/UserSignUpBean;)Tcontrol.UserLoginController#fetchUserInfo(Lview/bean/UserSignUpBean;)Ljava/util/Map;œ
+)fetchUserInfo(Lview/bean/UserSignUpBean;)Tcontrol.UserLoginController#fetchUserInfo(Lview/bean/UserSignUpBean;)Ljava/util/Map;´
 view.graphicalui.first.HomePagejavafx.scene.Parento
 setUpBtnDeleteMeeting()Tview.graphicalui.first.HomePage#setUpBtnDeleteMeeting()Ljavafx/scene/control/Button;i
-getListViewGroups()Rview.graphicalui.first.HomePage#getListViewGroups()Ljavafx/scene/control/ListView;i
-getBtnLinkRequests()Qview.graphicalui.first.HomePage#getBtnLinkRequests()Ljavafx/scene/control/Button;|
-setUpGroupsAndMeetingsArea()\view.graphicalui.first.HomePage#setUpGroupsAndMeetingsArea()Ljavafx/scene/layout/BorderPane;m
-getCircleGroupFocused()Rview.graphicalui.first.HomePage#getCircleGroupFocused()Ljavafx/scene/shape/Circle;}
-getObservableListMeetings()^view.graphicalui.first.HomePage#getObservableListMeetings()Ljavafx/collections/ObservableList;u
+getBtnLinkRequests()Qview.graphicalui.first.HomePage#getBtnLinkRequests()Ljavafx/scene/control/Button;m
+getCircleGroupFocused()Rview.graphicalui.first.HomePage#getCircleGroupFocused()Ljavafx/scene/shape/Circle;u
 (<init>(Lview/graphicalui/first/Toolbar;)Iview.graphicalui.first.HomePage#<init>(Lview/graphicalui/first/Toolbar;)Vm
-getListViewMeetings()Tview.graphicalui.first.HomePage#getListViewMeetings()Ljavafx/scene/control/ListView;Ω
-LinitGroupView(Lview/bean/observers/UserBean;Lview/bean/observers/GroupBean;)mview.graphicalui.first.HomePage#initGroupView(Lview/bean/observers/UserBean;Lview/bean/observers/GroupBean;)VZ
-getToolBar()Jview.graphicalui.first.HomePage#getToolBar()Ljavafx/scene/control/ToolBar;p
+getListViewMeetings()Tview.graphicalui.first.HomePage#getListViewMeetings()Ljavafx/scene/control/ListView;p
 getLabelGoogleMapState()Tview.graphicalui.first.HomePage#getLabelGoogleMapState()Ljavafx/scene/control/Label;f
-setUpSearchArea()Qview.graphicalui.first.HomePage#setUpSearchArea()Ljavafx/scene/layout/BorderPane;ú
-/setUpHomePage(Lview/graphicalui/first/Toolbar;)iview.graphicalui.first.HomePage#setUpHomePage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;d
+setUpSearchArea()Qview.graphicalui.first.HomePage#setUpSearchArea()Ljavafx/scene/layout/BorderPane;d
 setUpMeetingsArea()Mview.graphicalui.first.HomePage#setUpMeetingsArea()Ljavafx/scene/layout/VBox;d
 setUpGroupBtnOpts()Mview.graphicalui.first.HomePage#setUpGroupBtnOpts()Ljavafx/scene/layout/HBox;y
-getObservableListGroups()\view.graphicalui.first.HomePage#getObservableListGroups()Ljavafx/collections/ObservableList;m
-getBtnProposeMeeting()Sview.graphicalui.first.HomePage#getBtnProposeMeeting()Ljavafx/scene/control/Button;`
-setUpGroupsArea()Kview.graphicalui.first.HomePage#setUpGroupsArea()Ljavafx/scene/layout/VBox;j
+getObservableListGroups()\view.graphicalui.first.HomePage#getObservableListGroups()Ljavafx/collections/ObservableList;Ÿ
+MsetUpHBoxGroupDetails(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)áview.graphicalui.first.HomePage#setUpHBoxGroupDetails(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavafx/scene/layout/HBox;m
+getBtnProposeMeeting()Sview.graphicalui.first.HomePage#getBtnProposeMeeting()Ljavafx/scene/control/Button;j
 getHandler()Zview.graphicalui.first.HomePage#getHandler()Lview/controllerui/first/HomePageEventHandler;Ø
 5getHomePageInstance(Lview/graphicalui/first/Toolbar;)vview.graphicalui.first.HomePage#getHomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/HomePage;I
 isToolBarPresent()3view.graphicalui.first.HomePage#isToolBarPresent()Zd
-setUpMapContainer()Mview.graphicalui.first.HomePage#setUpMapContainer()Ljavafx/scene/web/WebView;«
-QinitMeetingView(Lview/bean/observers/GroupBean;Lview/bean/observers/MeetingBean;)rview.graphicalui.first.HomePage#initMeetingView(Lview/bean/observers/GroupBean;Lview/bean/observers/MeetingBean;)V^
+setUpMapContainer()Mview.graphicalui.first.HomePage#setUpMapContainer()Ljavafx/scene/web/WebView;^
 setUpSearchBar()Jview.graphicalui.first.HomePage#setUpSearchBar()Ljavafx/scene/layout/HBox;X
-setUpMapBar()Gview.graphicalui.first.HomePage#setUpMapBar()Ljavafx/scene/layout/HBox;¡
-,view.controllerui.first.HomePageEventHandlerjavafx.event.EventHandlerjava.lang.Object‘
+setUpMapBar()Gview.graphicalui.first.HomePage#setUpMapBar()Ljavafx/scene/layout/HBox;i
+getListViewGroups()Rview.graphicalui.first.HomePage#getListViewGroups()Ljavafx/scene/control/ListView;|
+setUpGroupsAndMeetingsArea()\view.graphicalui.first.HomePage#setUpGroupsAndMeetingsArea()Ljavafx/scene/layout/BorderPane;}
+getObservableListMeetings()^view.graphicalui.first.HomePage#getObservableListMeetings()Ljavafx/collections/ObservableList;Ω
+LinitGroupView(Lview/bean/observers/UserBean;Lview/bean/observers/GroupBean;)mview.graphicalui.first.HomePage#initGroupView(Lview/bean/observers/UserBean;Lview/bean/observers/GroupBean;)VZ
+getToolBar()Jview.graphicalui.first.HomePage#getToolBar()Ljavafx/scene/control/ToolBar;ú
+/setUpHomePage(Lview/graphicalui/first/Toolbar;)iview.graphicalui.first.HomePage#setUpHomePage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;`
+setUpGroupsArea()Kview.graphicalui.first.HomePage#setUpGroupsArea()Ljavafx/scene/layout/VBox;«
+QinitMeetingView(Lview/bean/observers/GroupBean;Lview/bean/observers/MeetingBean;)rview.graphicalui.first.HomePage#initMeetingView(Lview/bean/observers/GroupBean;Lview/bean/observers/MeetingBean;)V˙
+,view.controllerui.first.HomePageEventHandlerjavafx.event.EventHandlerjava.lang.Object∂
+BsearchGroups(Ljavafx/scene/control/RadioButton;Ljava/lang/String;)pview.controllerui.first.HomePageEventHandler#searchGroups(Ljavafx/scene/control/RadioButton;Ljava/lang/String;)V‘
 QupdateMeetingJoinersList(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)view.controllerui.first.HomePageEventHandler#updateMeetingJoinersList(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)VX
 manageUserProfile()Aview.controllerui.first.HomePageEventHandler#manageUserProfile()VÃ
 MupdateGroupMemberNick(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;){view.controllerui.first.HomePageEventHandler#updateGroupMemberNick(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V»
@@ -3944,8 +3952,9 @@ Bview.graphicalui.second.usernamequestionstates.QuestionNewUsernamejava.lang.O
 8view.controllerui.second.handlerstates.StateSearchFilter4view.controllerui.second.handlerstates.AbstractStatejava.lang.Object¥
 getStateSearchFilterInstance()ëview.controllerui.second.handlerstates.StateSearchFilter#getStateSearchFilterInstance()Lview/controllerui/second/handlerstates/StateSearchFilter;é
 (checkCmd(Lview/graphicalui/second/Home;)bview.controllerui.second.handlerstates.StateSearchFilter#checkCmd(Lview/graphicalui/second/Home;)VN
-<init>()Bview.controllerui.second.handlerstates.StateSearchFilter#<init>()VÉ
-7view.controllerui.second.handlerstates.StateSearchInput4view.controllerui.second.handlerstates.AbstractStatejava.lang.Object†
+<init>()Bview.controllerui.second.handlerstates.StateSearchFilter#<init>()Vø
+7view.controllerui.second.handlerstates.StateSearchInput4view.controllerui.second.handlerstates.AbstractStatejava.lang.Objectπ
+>searchGroups(Lview/graphicalui/second/Home;Ljava/lang/String;)wview.controllerui.second.handlerstates.StateSearchInput#searchGroups(Lview/graphicalui/second/Home;Ljava/lang/String;)V†
 getStateSearchInput()Üview.controllerui.second.handlerstates.StateSearchInput#getStateSearchInput()Lview/controllerui/second/handlerstates/StateSearchInput;ç
 (checkCmd(Lview/graphicalui/second/Home;)aview.controllerui.second.handlerstates.StateSearchInput#checkCmd(Lview/graphicalui/second/Home;)VM
 <init>()Aview.controllerui.second.handlerstates.StateSearchInput#<init>()VÖ
@@ -4602,12 +4611,12 @@ getIndex()_view.graphicalui.first.toolbaritems.SignToolbarItems$MainBarItems#ge
 getPassword()8view.bean.UserSignInBean#getPassword()Ljava/lang/String;.
 <init>()"view.bean.UserSignInBean#<init>()VI
 getNickname()8view.bean.UserSignInBean#getNickname()Ljava/lang/String;\
-setNickname(Ljava/lang/String;)9view.bean.UserSignInBean#setNickname(Ljava/lang/String;)V…
+setNickname(Ljava/lang/String;)9view.bean.UserSignInBean#setNickname(Ljava/lang/String;)V≈
+
 1view.graphicalui.first.HomePage$UserProfileDialog!view.graphicalui.first.PageDialog≠
 4userProfileResult(Ljavafx/scene/control/ButtonType;)uview.graphicalui.first.HomePage$UserProfileDialog#userProfileResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;s
 getBtnPassword()_view.graphicalui.first.HomePage$UserProfileDialog#getBtnPassword()Ljavafx/scene/control/Button;{
-getCircleImgProfile()bview.graphicalui.first.HomePage$UserProfileDialog#getCircleImgProfile()Ljavafx/scene/shape/Circle;Å
-getBtnLinkInvitations()fview.graphicalui.first.HomePage$UserProfileDialog#getBtnLinkInvitations()Ljavafx/scene/control/Button;G
+getCircleImgProfile()bview.graphicalui.first.HomePage$UserProfileDialog#getCircleImgProfile()Ljavafx/scene/shape/Circle;G
 <init>();view.graphicalui.first.HomePage$UserProfileDialog#<init>()VÅ
 %setImgProfilePath(Ljava/lang/String;)Xview.graphicalui.first.HomePage$UserProfileDialog#setImgProfilePath(Ljava/lang/String;)Vs
 getBtnNickname()_view.graphicalui.first.HomePage$UserProfileDialog#getBtnNickname()Ljavafx/scene/control/Button;v
@@ -4824,21 +4833,22 @@ McopyFor(Ljava/lang/Object;Ljavafx/event/EventTarget;Ljavafx/event/EventType;)Ü
 <init>()(view.graphicalui.second.Signin#<init>()V<
 prevScreen(),view.graphicalui.second.Signin#prevScreen()VB
 restoreScreen()/view.graphicalui.second.Signin#restoreScreen()V_
-setUpSigninRoot()Jview.graphicalui.second.Signin#setUpSigninRoot()Ljavafx/scene/layout/VBox;ö
+setUpSigninRoot()Jview.graphicalui.second.Signin#setUpSigninRoot()Ljavafx/scene/layout/VBox;Â
 view.bean.UserSignUpBeanjava.lang.ObjectT
-setName(Ljava/lang/String;)5view.bean.UserSignUpBean#setName(Ljava/lang/String;)VV
+setName(Ljava/lang/String;)5view.bean.UserSignUpBean#setName(Ljava/lang/String;)VI
+getProvince()8view.bean.UserSignUpBean#getProvince()Ljava/lang/String;Z
+setSurname(Ljava/lang/String;)8view.bean.UserSignUpBean#setSurname(Ljava/lang/String;)VZ
+setAccount(Ljava/lang/String;)8view.bean.UserSignUpBean#setAccount(Ljava/lang/String;)VC
+
+getEmail()5view.bean.UserSignUpBean#getEmail()Ljava/lang/String;V
 setEmail(Ljava/lang/String;)6view.bean.UserSignUpBean#setEmail(Ljava/lang/String;)VA
 	getCell()4view.bean.UserSignUpBean#getCell()Ljava/lang/String;G
 getAddress()7view.bean.UserSignUpBean#getAddress()Ljava/lang/String;A
 	getName()4view.bean.UserSignUpBean#getName()Ljava/lang/String;.
 <init>()"view.bean.UserSignUpBean#<init>()VZ
-setAddress(Ljava/lang/String;)8view.bean.UserSignUpBean#setAddress(Ljava/lang/String;)VZ
-setSurname(Ljava/lang/String;)8view.bean.UserSignUpBean#setSurname(Ljava/lang/String;)VZ
-setAccount(Ljava/lang/String;)8view.bean.UserSignUpBean#setAccount(Ljava/lang/String;)VT
+setAddress(Ljava/lang/String;)8view.bean.UserSignUpBean#setAddress(Ljava/lang/String;)VT
 setCell(Ljava/lang/String;)5view.bean.UserSignUpBean#setCell(Ljava/lang/String;)VG
-getSurname()7view.bean.UserSignUpBean#getSurname()Ljava/lang/String;C
-
-getEmail()5view.bean.UserSignUpBean#getEmail()Ljava/lang/String;G
+getSurname()7view.bean.UserSignUpBean#getSurname()Ljava/lang/String;G
 getAccount()7view.bean.UserSignUpBean#getAccount()Ljava/lang/String;∆
 "view.graphicalui.second.SignupInfojava.lang.EnumÅ
 valueOf(Ljava/lang/String;)bview.graphicalui.second.SignupInfo#valueOf(Ljava/lang/String;)Lview/graphicalui/second/SignupInfo;\
@@ -5755,15 +5765,28 @@ hashCode()java.util.Optional#hashCode()IL
 5linkRequestsResult(Ljavafx/scene/control/ButtonType;)wview.graphicalui.first.HomePage$LinkRequestsDialog#linkRequestsResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;H
 <init>()<view.graphicalui.first.HomePage$LinkRequestsDialog#<init>()V™
 getLinkRequestsDialogInstance()Üview.graphicalui.first.HomePage$LinkRequestsDialog#getLinkRequestsDialogInstance()Lview/graphicalui/first/HomePage$LinkRequestsDialog;q
-setUpPopUpRoot()]view.graphicalui.first.HomePage$LinkRequestsDialog#setUpPopUpRoot()Ljavafx/scene/layout/VBox;ê
-2view.graphicalui.first.HomePage$SearchGroupsDialog!view.graphicalui.first.PageDialogê
-,<init>(Ljava/lang/String;Ljava/lang/String;)`view.graphicalui.first.HomePage$SearchGroupsDialog#<init>(Ljava/lang/String;Ljava/lang/String;)V∞
+setUpPopUpRoot()]view.graphicalui.first.HomePage$LinkRequestsDialog#setUpPopUpRoot()Ljavafx/scene/layout/VBox;˜
+view.bean.SearchFilterBeanjava.lang.Objectb
+!setFilterName(Ljava/lang/String;)=view.bean.SearchFilterBean#setFilterName(Ljava/lang/String;)VZ
+setFilter(Ljava/lang/String;)9view.bean.SearchFilterBean#setFilter(Ljava/lang/String;)Vf
+#setCurrUserNick(Ljava/lang/String;)?view.bean.SearchFilterBean#setCurrUserNick(Ljava/lang/String;)VG
+getFilter()8view.bean.SearchFilterBean#getFilter()Ljava/lang/String;0
+<init>()$view.bean.SearchFilterBean#<init>()VS
+getCurrUserNick()>view.bean.SearchFilterBean#getCurrUserNick()Ljava/lang/String;O
+getFilterName()<view.bean.SearchFilterBean#getFilterName()Ljava/lang/String;”
+view.bean.GroupFilteredBeanjava.lang.ObjectW
+setName(Ljava/lang/String;)8view.bean.GroupFilteredBean#setName(Ljava/lang/String;)VD
+	getName()7view.bean.GroupFilteredBean#getName()Ljava/lang/String;F
+
+getImage()8view.bean.GroupFilteredBean#getImage()Ljava/lang/String;1
+<init>()%view.bean.GroupFilteredBean#<init>()VY
+setImage(Ljava/lang/String;)9view.bean.GroupFilteredBean#setImage(Ljava/lang/String;)VL
+getNickname();view.bean.GroupFilteredBean#getNickname()Ljava/lang/String;_
+setNickname(Ljava/lang/String;)<view.bean.GroupFilteredBean#setNickname(Ljava/lang/String;)V∞
+2view.graphicalui.first.HomePage$SearchGroupsDialog!view.graphicalui.first.PageDialog∞
+<<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)pview.graphicalui.first.HomePage$SearchGroupsDialog#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)V∞
 5searchGroupsResult(Ljavafx/scene/control/ButtonType;)wview.graphicalui.first.HomePage$SearchGroupsDialog#searchGroupsResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;q
-setUpPopUpRoot()]view.graphicalui.first.HomePage$SearchGroupsDialog#setUpPopUpRoot()Ljavafx/scene/layout/VBox;¡
-1view.graphicalui.first.HomePage$SearchUsersDialog!view.graphicalui.first.PageDialogG
-<init>();view.graphicalui.first.HomePage$SearchUsersDialog#<init>()V≠
-4searchUsersResult(Ljavafx/scene/control/ButtonType;)uview.graphicalui.first.HomePage$SearchUsersDialog#searchUsersResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;p
-setUpPopUpRoot()\view.graphicalui.first.HomePage$SearchUsersDialog#setUpPopUpRoot()Ljavafx/scene/layout/VBox;´
+setUpPopUpRoot()]view.graphicalui.first.HomePage$SearchGroupsDialog#setUpPopUpRoot()Ljavafx/scene/layout/VBox;´
 /view.controllerui.first.MeetingPageEventHandlerjavafx.event.EventHandlerjava.lang.ObjectE
 <init>()9view.controllerui.first.MeetingPageEventHandler#<init>()VÉ
 'handle(Ljavafx/scene/input/MouseEvent;)Xview.controllerui.first.MeetingPageEventHandler#handle(Ljavafx/scene/input/MouseEvent;)VP
@@ -5898,7 +5921,11 @@ asString()Tjavafx.beans.binding.ObjectExpression#asString()Ljavafx/beans/bindin
 ,javafx.beans.property.ReadOnlyObjectProperty%javafx.beans.binding.ObjectExpression&javafx.beans.property.ReadOnlyPropertyB
 <init>()6javafx.beans.property.ReadOnlyObjectProperty#<init>()VW
 
-toString()Ijavafx.beans.property.ReadOnlyObjectProperty#toString()Ljava/lang/String;ı
+toString()Ijavafx.beans.property.ReadOnlyObjectProperty#toString()Ljava/lang/String;¡
+1view.graphicalui.first.HomePage$SearchUsersDialog!view.graphicalui.first.PageDialogG
+<init>();view.graphicalui.first.HomePage$SearchUsersDialog#<init>()V≠
+4searchUsersResult(Ljavafx/scene/control/ButtonType;)uview.graphicalui.first.HomePage$SearchUsersDialog#searchUsersResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;p
+setUpPopUpRoot()\view.graphicalui.first.HomePage$SearchUsersDialog#setUpPopUpRoot()Ljavafx/scene/layout/VBox;ı
 3view.graphicalui.first.HomePage$GroupDeletionDialog!view.graphicalui.first.PageDialog≥
 6groupDeletionResult(Ljavafx/scene/control/ButtonType;)yview.graphicalui.first.HomePage$GroupDeletionDialog#groupDeletionResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;
 [<init>(Ljavafx/scene/shape/Circle;Ljavafx/scene/control/Label;Ljavafx/scene/control/Label;)êview.graphicalui.first.HomePage$GroupDeletionDialog#<init>(Ljavafx/scene/shape/Circle;Ljavafx/scene/control/Label;Ljavafx/scene/control/Label;)Vr
@@ -5980,10 +6007,9 @@ read([BII)(java.io.ByteArrayInputStream#read([BII)I6
 readNBytes([BII).java.io.ByteArrayInputStream#readNBytes([BII)I0
 mark(I)%java.io.ByteArrayInputStream#mark(I)Vf
 "transferTo(Ljava/io/OutputStream;)@java.io.ByteArrayInputStream#transferTo(Ljava/io/OutputStream;)J0
-close()%java.io.ByteArrayInputStream#close()V˚
+close()%java.io.ByteArrayInputStream#close()Võ
 *view.controllerui.first.DialogEventHandlerjavafx.event.EventHandlerjava.lang.ObjectØ
-9showImageFileChooser(Lview/graphicalui/first/PageDialog;)rview.controllerui.first.DialogEventHandler#showImageFileChooser(Lview/graphicalui/first/PageDialog;)Ljava/io/File;^
-manageLinkInvitations()Cview.controllerui.first.DialogEventHandler#manageLinkInvitations()VR
+9showImageFileChooser(Lview/graphicalui/first/PageDialog;)rview.controllerui.first.DialogEventHandler#showImageFileChooser(Lview/graphicalui/first/PageDialog;)Ljava/io/File;R
 manageUserImage()=view.controllerui.first.DialogEventHandler#manageUserImage()V@
 <init>()4view.controllerui.first.DialogEventHandler#<init>()VX
 manageUserPassword()@view.controllerui.first.DialogEventHandler#manageUserPassword()VT
@@ -6037,14 +6063,16 @@ Aview.graphicalui.second.groupquestionstates.QuestionGroupNicknamejava.lang.Ob
 4next(Lview/graphicalui/second/QuestionStateMachine;)mview.graphicalui.second.groupquestionstates.QuestionEnd#next(Lview/graphicalui/second/QuestionStateMachine;)VÁ
 view.NotificationTask$Updaterjava.lang.Objectjava.lang.Runnable-
 run()$view.NotificationTask$Updater#run()Vq
-'<init>(Lview/bean/observers/GroupBean;)Fview.NotificationTask$Updater#<init>(Lview/bean/observers/GroupBean;)Vﬁ
+'<init>(Lview/bean/observers/GroupBean;)Fview.NotificationTask$Updater#<init>(Lview/bean/observers/GroupBean;)Vê
 "model.db.dbqueries.GroupDAOQueriesjava.lang.Objectê
 lselectGroups(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)ümodel.db.dbqueries.GroupDAOQueries#selectGroups(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;‘
 VinsertGroup(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/util/Map;)zmodel.db.dbqueries.GroupDAOQueries#insertGroup(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/util/Map;)V˝
 cselectGroupByNickname(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;)ïmodel.db.dbqueries.GroupDAOQueries#selectGroupByNickname(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;)Ljava/util/Map;8
 <init>(),model.db.dbqueries.GroupDAOQueries#<init>()V
-$wrapGroupsInfo(Ljava/sql/ResultSet;)Wmodel.db.dbqueries.GroupDAOQueries#wrapGroupsInfo(Ljava/sql/ResultSet;)Ljava/util/List;Ä
-%unpackGroupInfo(Ljava/sql/ResultSet;)Wmodel.db.dbqueries.GroupDAOQueries#unpackGroupInfo(Ljava/sql/ResultSet;)Ljava/util/Map;Ã+
+$wrapGroupsInfo(Ljava/sql/ResultSet;)Wmodel.db.dbqueries.GroupDAOQueries#wrapGroupsInfo(Ljava/sql/ResultSet;)Ljava/util/List;Ô
+cinitSelectGroupsByFilterStatement(Ljava/sql/PreparedStatement;Ljava/lang/String;Ljava/lang/String;)ámodel.db.dbqueries.GroupDAOQueries#initSelectGroupsByFilterStatement(Ljava/sql/PreparedStatement;Ljava/lang/String;Ljava/lang/String;)VÄ
+%unpackGroupInfo(Ljava/sql/ResultSet;)Wmodel.db.dbqueries.GroupDAOQueries#unpackGroupInfo(Ljava/sql/ResultSet;)Ljava/util/Map;Ω
+ÇselectGroupsByFilter(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;Lmodel/Filter;)µmodel.db.dbqueries.GroupDAOQueries#selectGroupsByFilter(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;Ljava/lang/String;Lmodel/Filter;)Ljava/util/List;Ã+
 javafx.scene.control.ScrollPanejavafx.scene.control.ControlC
 isFitToHeight()0javafx.scene.control.ScrollPane#isFitToHeight()Z;
 getVvalue(),javafx.scene.control.ScrollPane#getVvalue()DQ

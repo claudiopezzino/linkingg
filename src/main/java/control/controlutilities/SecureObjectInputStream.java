@@ -1,14 +1,9 @@
 package control.controlutilities;
 
 import model.Filter;
-import model.subjects.Group;
-import model.subjects.Meeting;
-import model.subjects.Subject;
-import model.subjects.User;
-import view.bean.observers.GroupBean;
-import view.bean.observers.MeetingBean;
-import view.bean.observers.Observer;
-import view.bean.observers.UserBean;
+import model.Link;
+import model.subjects.*;
+import view.bean.observers.*;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -50,6 +45,10 @@ public class SecureObjectInputStream extends ObjectInputStream {
 
         this.listOfClass.add(Subject.class.getName());
         this.listOfClass.add(Observer.class.getName());
+
+        this.listOfClass.add(Link.class.getName());
+        this.listOfClass.add(LinkRequest.class.getName());
+        this.listOfClass.add(LinkRequestBean.class.getName());
     }
     ////////////////////////////////////////////////////////////////////
 

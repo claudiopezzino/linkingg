@@ -1,25 +1,18 @@
 
-@view.graphicalui.first.SignupPage#getSurname()Ljava/lang/String;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaŒ Œ("1*ÿ
+Tview.graphicalui.first.SignupPage#getTextFieldMail()Ljavafx/scene/control/TextField;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaú ú(%"1*ñ
 1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java (ñ
-î
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaû û(î
+ë
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java ($$
-%0javafx.scene.control.TextField"__id*W
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaû û(!$
+%0javafx.scene.control.TextField"__id*T
 
-__unknown_file (;*9#
-!view.graphicalui.first.SignupPage"
-textFieldSurname–“
+__unknown_file (8*6#
+!view.graphicalui.first.SignupPage"
+textFieldMail"‘
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java (.
-%1java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*B
-
-__unknown_file (&
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaû û("&
 $
-%0javafx.scene.control.TextField2	getText()"ƒ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java (/
-
-%1java.lang.StringB%#
+%0javafx.scene.control.TextFieldB%#
 !view.graphicalui.first.SignupPageH

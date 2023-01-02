@@ -1,6 +1,9 @@
 package view.controllerui.first;
 
 import control.controlexceptions.InternalException;
+import control.notifications.ConcreteNotification;
+import control.notifications.Notification;
+import control.notifications.notificationdecorations.LinkRequestDecorator;
 import javafx.event.EventHandler;
 import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
@@ -11,17 +14,15 @@ import javafx.scene.shape.Circle;
 import view.bean.BeanError;
 import view.bean.UserSignInBean;
 import view.bean.observers.GroupBean;
+import view.bean.observers.LinkRequestBean;
 import view.bean.observers.UserBean;
 import view.boundary.UserManageCommunityBoundary;
-import view.graphicalui.first.Container;
-import view.graphicalui.first.FirstMain;
-import view.graphicalui.first.HomePage;
-import view.graphicalui.first.SigninPage;
+import view.graphicalui.first.*;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static view.controllerui.first.Dialog.*;
+import static view.graphicalui.first.Dialog.*;
 import static view.graphicalui.first.Page.*;
 import static view.graphicalui.first.constcontainer.Protocol.FILE;
 import static view.graphicalui.first.toolbaritems.HomeToolbarItems.PROFILE_BOX;
@@ -121,6 +122,7 @@ public class SigninPageEventHandler <T extends MouseEvent> implements EventHandl
 
             FirstMain.getCurrScene().setRoot(Container.getRoot(HOME));
             this.initHomePage(userBean, mapGroupBean);
+            this.showNotifications(mapGroupBean);
 
         }catch(InternalException internalException){
             errorDialog(internalException.getMessage());
@@ -198,5 +200,30 @@ public class SigninPageEventHandler <T extends MouseEvent> implements EventHandl
                 .getLabelCurrNickname().setText(userBean.getNickname());
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    private void showNotifications(Map<String, GroupBean> mapGroupBean){
+        String userNick;
+        String groupNick;
+
+        GroupBean groupBean;
+
+        Notification notification = null;
+        for (Map.Entry<String, GroupBean> groupEntry : mapGroupBean.entrySet()) {
+            groupBean = groupEntry.getValue();
+            for (Map.Entry<String, LinkRequestBean> linkRequestEntry : groupBean.getMapLinkRequests().entrySet()) {
+                if (notification == null)
+                    notification = new ConcreteNotification();
+                userNick = linkRequestEntry.getValue().getUserNick();
+                groupNick = linkRequestEntry.getValue().getGroupNick();
+
+                notification = new LinkRequestDecorator(notification, userNick, groupNick);
+            }
+        }
+        // show if some notification is present
+        if (notification != null)
+            showNotificationDialog(notification);
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 }

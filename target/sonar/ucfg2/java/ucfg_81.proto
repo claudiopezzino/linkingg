@@ -1,18 +1,21 @@
 
-[view.controllerui.first.Dialog$InfoErrorDialog#getLabelErrors()Ljavafx/scene/control/Label;b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java@ @(#"1*å
+pview.controllerui.first.Dialog$InfoErrorDialog#infoErrorResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;b
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java-$ -(3"1*Ë
 1b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.javaA A(ð
-í
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java. .(ä
+á
 b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.javaA A(# 
-%0javafx.scene.control.Label"__id*_
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java. .()
+%0java.util.Map"/java.util.Collections#emptyMap()Ljava/util/Map;*5
 
-__unknown_file (C*A0
-.view.controllerui.first.Dialog$InfoErrorDialog"
-labelErrors"ˆ
+__unknown_file ("
+java.util.Collections"{
 b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.javaA A($"
- 
-%0javafx.scene.control.LabelB20
-.view.controllerui.first.Dialog$InfoErrorDialogH
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java. .(*
+
+%0java.util.Map:“
+b
+X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java-4 -(I-
+
+buttonTypejavafx.scene.control.ButtonTypeB20
+.view.controllerui.first.Dialog$InfoErrorDialog

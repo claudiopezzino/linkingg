@@ -1,18 +1,18 @@
 
-Fview.bean.observers.GroupBean#getOwner()Lview/bean/observers/UserBean;a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java5 5("1*Ï
+9view.bean.observers.GroupBean#getName()Ljava/lang/String;a
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java) )("1*µ
 1a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java6 6(Ú
-×
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java* *(Í
+Ê
 a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java6 6("
-%0view.bean.observers.UserBean"__id*H
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java* *(
+%0java.lang.String"__id*G
 
-__unknown_file (,**
-view.bean.observers.GroupBean"
-owner"‰
+__unknown_file (+*)
+view.bean.observers.GroupBean"
+name"}
 a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java6 6($
-"
-%0view.bean.observers.UserBeanB!
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java* *(
+
+%0java.lang.StringB!
 view.bean.observers.GroupBeanH

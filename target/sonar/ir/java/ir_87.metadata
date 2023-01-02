@@ -1,1 +1,3 @@
-view.controllerui.second.handlerstates.StateMeetingProposal#<init>()V
+view.controllerui.first.Dialog#openWaitDialog()V
+javafx.scene.control.Dialog#show()V
+view.controllerui.first.Dialog$WaitDialog#getWaitDialogInstance()Lview/controllerui/first/Dialog$WaitDialog;

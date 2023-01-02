@@ -61,6 +61,8 @@ public class StateSearchInput implements AbstractState{
             case PROVINCE:
                 searchFilterBean.setFilter(ADAPTED_FILTER_PROVINCE);
                 break;
+            default:
+                break;
         }
 
         searchFilterBean.setFilterName(filterName);

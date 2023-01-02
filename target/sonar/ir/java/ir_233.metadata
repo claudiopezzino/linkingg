@@ -1,1 +1,2 @@
-view.graphicalui.first.FirstMain#setCurrScene(Ljavafx/scene/Scene;)V
+view.graphicalui.first.FirstMain#main([Ljava/lang/String;)V
+javafx.application.Application#launch([Ljava/lang/String;)V

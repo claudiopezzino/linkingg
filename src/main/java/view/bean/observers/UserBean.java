@@ -81,7 +81,7 @@ public class UserBean implements Observer{
     }
     ////////////////////////////////////////////////////////
 
-    ///////////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
     @Override
     public <V> void update(Map<String, V> map) {
 
@@ -92,36 +92,15 @@ public class UserBean implements Observer{
 
         boolean isCurrUser = Boolean.parseBoolean((String) map.get(UserInfo.CURR_USER));
         if (isCurrUser)
-            this.notifyNewCurrUserNickToView();
+            UserManageCommunityBoundary.notifyNewCurrUserNick();
 
         for (Map.Entry<String, V> entry : map.entrySet()){
             if(entry.getKey().contains(UserInfo.GROUP_OWNER))
-                this.notifyNewGroupOwnerNickToView((String) entry.getValue(), newNick);
+                UserManageCommunityBoundary.notifyNewGroupOwnerNick((String) entry.getValue(), newNick);
             else if(entry.getKey().contains(UserInfo.GROUP_MEMBER))
-                this.notifyNewGroupMemberNickToView((String) entry.getValue(), oldNick, newNick);
+                UserManageCommunityBoundary.notifyNewGroupMemberNick((String) entry.getValue(), oldNick, newNick);
         }
     }
-    /////////////////////////////////////////////////////////////////////////////////////////////
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////
-    private void notifyNewCurrUserNickToView(){
-        UserManageCommunityBoundary userManageCommunityBoundary = new UserManageCommunityBoundary();
-        userManageCommunityBoundary.notifyNewCurrUserNick();
-    }
-    ///////////////////////////////////////////////////////////////////////////////////////////////
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////
-    private void notifyNewGroupOwnerNickToView(String groupNick, String newNick){
-        UserManageCommunityBoundary userManageCommunityBoundary = new UserManageCommunityBoundary();
-        userManageCommunityBoundary.notifyNewGroupOwnerNick(groupNick, newNick);
-    }
-    ///////////////////////////////////////////////////////////////////////////////////////////////
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////
-    private void notifyNewGroupMemberNickToView(String groupNick, String oldNick, String newNick){
-        UserManageCommunityBoundary userManageCommunityBoundary = new UserManageCommunityBoundary();
-        userManageCommunityBoundary.notifyNewGroupMemberNick(groupNick, oldNick, newNick);
-    }
-    ///////////////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 }

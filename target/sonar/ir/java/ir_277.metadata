@@ -1,1 +1,2 @@
-view.graphicalui.first.SignupPage#getTextFieldName()Ljavafx/scene/control/TextField;
+view.graphicalui.first.SignupPage#<init>(Lview/graphicalui/first/Toolbar;)V
+view.graphicalui.first.SignupPage#setUpSignupPage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;

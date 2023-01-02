@@ -1,7 +1,1 @@
-view.graphicalui.first.PageDialog#setUpBtnTypes()V
-javafx.scene.control.DialogPane#lookupButton(Ljavafx/scene/control/ButtonType;)Ljavafx/scene/Node;
-javafx.scene.control.ButtonType#instance-init#
-javafx.scene.control.ButtonType#<init>(Ljava/lang/String;Ljavafx/scene/control/ButtonBar$ButtonData;)V
-javafx.scene.control.DialogPane#getButtonTypes()Ljavafx/collections/ObservableList;
-javafx.scene.control.Dialog#getDialogPane()Ljavafx/scene/control/DialogPane;
-javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;
+view.bean.errorsignupdecorations.CellBeanErrorDecorator#displayErrors()Ljava/lang/String;

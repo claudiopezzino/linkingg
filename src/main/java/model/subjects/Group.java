@@ -3,6 +3,7 @@ package model.subjects;
 import control.controlutilities.Copier;
 import control.controlutilities.CopyException;
 import model.GroupFields;
+import model.LinkRequestFields;
 import model.MeetingFields;
 import model.UserFields;
 
@@ -12,21 +13,22 @@ import java.util.Map;
 
 public class Group extends Subject {
 
-    ///////////////////////////////////////////////
+    ///////////////////////////////////////////////////////
     private final String nickname;
     private final String name;
     private final String image;
     private final User owner;
     private final Map<String, User> mapMembers;
     private final Map<String, Meeting> mapMeetings;
-    ///////////////////////////////////////////////
+    private final Map<String, LinkRequest> mapLinkRequests;
+    ///////////////////////////////////////////////////////
 
     /////////////////////
     private State change; // needed for Observer Pattern
     /////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    public Group (Map<String, String> groupDetails, User owner, Map<String, User> mapMembers, Map<String, Meeting> mapMeetings) throws CopyException {
+    public Group (Map<String, String> groupDetails, User owner, Map<String, User> mapMembers, Map<String, Meeting> mapMeetings, Map<String, LinkRequest> mapLinkRequests) throws CopyException {
         this.nickname = groupDetails.get(GroupFields.NICKNAME);
         this.name = groupDetails.get(GroupFields.NAME);
         this.image = groupDetails.get(GroupFields.IMAGE);
@@ -36,8 +38,18 @@ public class Group extends Subject {
         this.mapMeetings = new HashMap<>();
         for(Map.Entry<String, Meeting> entry : mapMeetings.entrySet())
             this.mapMeetings.put(entry.getKey(), (Meeting) Copier.deepCopy(entry.getValue()));
+
+        this.mapLinkRequests = new HashMap<>();
+        for (Map.Entry<String, LinkRequest> entry : mapLinkRequests.entrySet())
+            this.mapLinkRequests.put(entry.getKey(), (LinkRequest) Copier.deepCopy(entry.getValue()));
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    ///////////////////////////////////////////////////////////////////////////////
+    public Map<String, LinkRequest> linkRequests(){
+        return this.mapLinkRequests;
+    }
+    ///////////////////////////////////////////////////////////////////////////////
 
     /////////////////////////////////////////////////////////////////////////
     public Map<String, Meeting> plannedMeeting(){
@@ -96,6 +108,18 @@ public class Group extends Subject {
 
         Map<String, String> map = new HashMap<>();
         map.put(MeetingFields.ID, newMeeting.location().getKey());
+
+        this.notifyObserver(map);
+    }
+    /////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////////
+    public void updateLinkRequests(LinkRequest linkRequest){
+        this.change = State.GROUP_REQUESTS;
+
+        this.mapLinkRequests.put(linkRequest.source(), linkRequest);
+        Map<String, String> map = new HashMap<>();
+        map.put(LinkRequestFields.USERS_NICKNAME, linkRequest.source());
 
         this.notifyObserver(map);
     }

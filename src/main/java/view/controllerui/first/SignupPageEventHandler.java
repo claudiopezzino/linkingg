@@ -8,18 +8,15 @@ import view.bean.BeanError;
 import view.bean.UserSignInBean;
 import view.bean.UserSignUpBean;
 import view.boundary.UserManageCommunityBoundary;
-import view.graphicalui.first.Container;
-import view.graphicalui.first.FirstMain;
+import view.graphicalui.first.*;
 import view.graphicalui.first.HomePage.UserProfileDialog;
 import view.graphicalui.first.HomePage.UserProfileDialog.UsernameDialog;
-import view.graphicalui.first.SigninPage;
-import view.graphicalui.first.SignupPage;
 import view.graphicalui.first.SignupPage.CredentialDialog;
 
 import java.util.Map;
 import java.util.Optional;
 
-import static view.controllerui.first.Dialog.errorDialog;
+import static view.graphicalui.first.Dialog.errorDialog;
 import static view.graphicalui.first.Page.*;
 import static view.graphicalui.first.toolbaritems.SignToolbarItems.*;
 import static view.graphicalui.first.toolbaritems.SignToolbarItems.MainBarItems.*;

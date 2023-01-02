@@ -1,1 +1,2 @@
-view.bean.errorsignupdecorations.AccountBeanErrorDecorator#<init>(Lview/bean/BeanError;)V
+view.graphicalui.second.Signup#restoreScreen()V
+view.graphicalui.second.signupquestionstates.QuestionName#getQuestionNameInstance()Lview/graphicalui/second/signupquestionstates/QuestionName;

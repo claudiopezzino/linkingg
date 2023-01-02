@@ -1,1 +1,1 @@
-view.bean.observers.GroupBean#getNickname()Ljava/lang/String;
+control.tasks.Loader#<init>(Ljava/net/Socket;Ljava/util/Map;Lmodel/subjects/User;)V

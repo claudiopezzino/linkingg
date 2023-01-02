@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#setListOwnGroups(Ljava/util/List;)V
+view.graphicalui.second.Home#setCurrUserPassword(Ljava/lang/String;)V

@@ -1,6 +1,9 @@
 package view.controllerui.second;
 
 import control.controlexceptions.InternalException;
+import control.notifications.ConcreteNotification;
+import control.notifications.Notification;
+import control.notifications.notificationdecorations.LinkRequestDecorator;
 import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.scene.input.KeyCode;
@@ -9,6 +12,7 @@ import view.bean.BeanError;
 import view.bean.UserSignInBean;
 import view.bean.UserSignUpBean;
 import view.bean.observers.GroupBean;
+import view.bean.observers.LinkRequestBean;
 import view.bean.observers.UserBean;
 import view.boundary.UserManageCommunityBoundary;
 import view.controllerui.second.handlerstates.*;
@@ -61,11 +65,11 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
     }
     ///////////////////////////////////////////////////////////////
 
-    /////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public UserManageCommunityBoundary getUserManageCommunityBoundary(){
         return this.userManageCommunityBoundary;
     }
-    /////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////
     public void setUserManageCommunityBoundary(UserManageCommunityBoundary userManageCommunityBoundary) {
@@ -301,8 +305,10 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
         else if(signin.getPrompt().getText().equals(PREV) && !signin.getUserInfo().isEmpty())
             signin.prevScreen();
 
-        else if(signin.getPrompt().getText().equals(CONFIRM) && signin.getStateMachine().getQuestion() == null)
+        else if(signin.getPrompt().getText().equals(CONFIRM) && signin.getStateMachine().getQuestion() == null) {
             this.initSigninPhase(signin);
+            this.showNotifications();
+        }
 
         else if(signin.getSignMode().equals(true) && signin.getPrompt().getText().equals(MANUAL)){
             signin.setSignMode(false);
@@ -391,6 +397,8 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
             this.assignUserCredentials(this.currUserBean.getName()+" "+this.currUserBean.getSurname(),
                     this.currUserBean.getNickname(), userSignInBean.getPassword());
 
+            Home.getHomeInstance().initWelcomeMsg();
+            Home.getHomeInstance().restoreScreen();
             SecondMain.getCurrScene().setRoot(Home.getHomeInstance());
 
         }catch(InternalException internalException){
@@ -433,6 +441,24 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
         Home.getHomeInstance().setCurrUserPassword(password);
     }
     ///////////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    private void showNotifications(){
+        Notification notification = null;
+        for (Map.Entry<String, GroupBean> groupEntry : mapGroupBean.entrySet()) {
+            for (Map.Entry<String, LinkRequestBean> linkRequestEntry : groupEntry.getValue().getMapLinkRequests().entrySet()) {
+                if (notification == null)
+                    notification = new ConcreteNotification();
+                String userNick = linkRequestEntry.getValue().getUserNick();
+                String groupNick = linkRequestEntry.getValue().getGroupNick();
+                notification = new LinkRequestDecorator(notification, userNick, groupNick);
+            }
+        }
+        // show if some notification is present
+        if (notification != null)
+            Message.linkRequestMsg(notification);
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////
     private void homeHandle(Home home){
@@ -481,8 +507,9 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
             }
         }
         // Otherwise, call freeResources of second boundary
-        SecondMain.getCurrScene().setRoot(Welcome.getWelcomeInstance());
+        home.restoreScreen();
         home.getPrompt().clear();
+        SecondMain.getCurrScene().setRoot(Welcome.getWelcomeInstance());
     }
     ////////////////////////////////////////////////////////////////////
 

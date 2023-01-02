@@ -1,18 +1,16 @@
 
-4model.subjects.Group#plannedMeeting()Ljava/util/Map;X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java+  +(."1*’
-1X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java, ,(¿
-¼
-X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java, ,(
-%0java.util.Map"__id*E
+=view.bean.ConcreteBeanError#displayErrors()Ljava/lang/String;_
+U/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/ConcreteBeanError.java ("1*ß
+1_
+U/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/ConcreteBeanError.java (ûø
+_
+U/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/ConcreteBeanError.java ( 
+%0java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*;
 
-__unknown_file ()*'
-model.subjects.Group"
-mapMeetings"q
-X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java, ,( 
-
-%0java.util.MapB
-model.subjects.GroupH
+__unknown_file (
+view.bean.ConcreteBeanError2getMessage()"{
+_
+U/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/ConcreteBeanError.java (!
+
+%0java.lang.StringB
+view.bean.ConcreteBeanErrorH

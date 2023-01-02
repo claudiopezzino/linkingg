@@ -1,1 +1,5 @@
-view.graphicalui.first.PageDialog#getBtnTypeSave()Ljavafx/scene/control/ButtonType;
+view.graphicalui.first.PageDialog#instance-init#
+view.controllerui.first.DialogEventHandler#<init>()V
+java.util.HashMap#<init>()V
+java.util.HashMap#instance-init#
+view.controllerui.first.DialogEventHandler#instance-init#

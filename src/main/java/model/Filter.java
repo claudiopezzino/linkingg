@@ -11,6 +11,8 @@ public enum Filter {
     MEETING_OWNER,
     MEETING_ID,
     IP_AND_PORT,
+    NOTHING,
+    LINK_REQUEST_SOURCE,
 
     /* for Loader actions (Pattern Observer) */
     USER_NICK_CHANGE,
@@ -18,4 +20,5 @@ public enum Filter {
     GROUP_JOIN,
     MEETING_CREATION,
     GROUP_CREATION,
+    LINK_REQUEST
 }

@@ -2,7 +2,6 @@ package control.tasks;
 
 import control.controlexceptions.InternalException;
 import control.tasks.tasksexceptions.ListenerException;
-import javafx.application.Platform;
 import model.Device;
 import model.DeviceFields;
 import model.Filter;
@@ -13,7 +12,7 @@ import model.subjects.User;
 import model.UserFields;
 import model.dao.BaseDAO;
 import model.dao.FactoryDAO;
-import view.AlertTask;
+import view.boundary.UserManageCommunityBoundary;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -60,16 +59,14 @@ public class Listener extends Thread {
         try {
             this.initServerSocket();
         } catch (ListenerException | InternalException exception) {
-            // to change if GUI's framework change
-            Platform.runLater(new AlertTask(exception.getMessage()));
+            UserManageCommunityBoundary.alertUser(exception.getMessage());
         }
 
         while(isRunning){
             try {
                 this.waitAndSpawn();
             } catch (ListenerException listenerException) {
-                // to change if GUI's framework change
-                Platform.runLater(new AlertTask(listenerException.getMessage()));
+                UserManageCommunityBoundary.alertUser(listenerException.getMessage());
             }
         }
     }

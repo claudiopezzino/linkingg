@@ -24,9 +24,13 @@ public class DeviceDAOQueries {
     private static final String SELECT_SINGLE_DEVICE = "SELECT * FROM devices WHERE ip = ? AND port = ?";
     /////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    private static final String SELECT_DEVICES = "SELECT * FROM devices WHERE port != ? AND users_nickname = ?";
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    private static final String SELECT_CURR_USER_DEVICES = "SELECT * FROM devices WHERE port != ? AND users_nickname = ?";
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////
+    private static final String SELECT_GROUP_OWNER_DEVICES = "SELECT * FROM devices WHERE users_nickname = ?";
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////
     private static final String DELETE_SINGLE_DEVICE = "DELETE FROM devices WHERE ip = ? AND port = ?";
@@ -84,12 +88,12 @@ public class DeviceDAOQueries {
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    public static List<String> selectDevices(PersistencyDB db, Connection connection, String userNick, int port) throws DBException{
+    public static List<String> selectCurrUserDevices(PersistencyDB db, Connection connection, String userNick, int port) throws DBException{
         PreparedStatement preparedStatement = null;
         ResultSet resultSet = null;
 
         try{
-            preparedStatement = connection.prepareStatement(SELECT_DEVICES,
+            preparedStatement = connection.prepareStatement(SELECT_CURR_USER_DEVICES,
                     ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
 
             preparedStatement.setInt(1, port);
@@ -102,6 +106,29 @@ public class DeviceDAOQueries {
         }catch(SQLException sqlException){
             throw new DBException();
         }finally {
+            db.closePreparedStatement(preparedStatement);
+            db.closeResultSet(resultSet);
+        }
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    public static List<String> selectGroupOwnerDevices(PersistencyDB db, Connection connection, String groupOwnerNick) throws DBException{
+        PreparedStatement preparedStatement = null;
+        ResultSet resultSet = null;
+        try{
+            preparedStatement = connection.prepareStatement(SELECT_GROUP_OWNER_DEVICES,
+                    ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
+
+            preparedStatement.setString(1, groupOwnerNick);
+            resultSet = preparedStatement.executeQuery();
+
+            return wrapListDevicesInfo(resultSet);
+        }
+        catch(SQLException sqlException){
+            throw new DBException();
+        }
+        finally {
             db.closePreparedStatement(preparedStatement);
             db.closeResultSet(resultSet);
         }

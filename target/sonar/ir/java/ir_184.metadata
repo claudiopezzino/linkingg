@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#getMeetingFilters()Ljava/util/List;
+view.graphicalui.second.Home#getGroupNickname()Ljava/lang/String;

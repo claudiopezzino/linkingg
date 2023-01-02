@@ -1,53 +1,18 @@
 
-èview.graphicalui.second.usernamequestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/usernamequestionstates/QuestionEnd;~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java (4"3*Å
-2~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java!" !(3Å˛
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java!& !(1@
-%1:view.graphicalui.second.usernamequestionstates.QuestionEnd":view.graphicalui.second.usernamequestionstates.QuestionEndØ
-¨
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java!" !(3
-%2"Dview.graphicalui.second.usernamequestionstates.QuestionEnd#<init>()V*^
+Kview.graphicalui.first.ConcreteToolbar#draw()Ljavafx/scene/control/ToolBar;j
+`/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/ConcreteToolbar.java ("1*ı
+1j
+`/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/ConcreteToolbar.java (Ó
+Î
+j
+`/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/ConcreteToolbar.java ("
+%0javafx.scene.control.ToolBar"__id*S
 
-__unknown_file (B
-@
-%1:view.graphicalui.second.usernamequestionstates.QuestionEnd¿
-Ω
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java! !(3U<
-:view.graphicalui.second.usernamequestionstates.QuestionEnd"
-questionEndInstance"__id*^
-
-__unknown_file (B
-@
-%1:view.graphicalui.second.usernamequestionstates.QuestionEnd*
-1*Œ
-3~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java   (¿
-Ω
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java   (@
-%0:view.graphicalui.second.usernamequestionstates.QuestionEnd"__id*s
-
-__unknown_file (W*U<
-:view.graphicalui.second.usernamequestionstates.QuestionEnd"
-questionEndInstance*
-2
-1*ç
-1~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java" "("¿
-Ω
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java" "("@
-%3:view.graphicalui.second.usernamequestionstates.QuestionEnd"__id*s
-
-__unknown_file (W*U<
-:view.graphicalui.second.usernamequestionstates.QuestionEnd"
-questionEndInstance"ƒ
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java" "(#B
-@
-%3:view.graphicalui.second.usernamequestionstates.QuestionEndB>"<
-:view.graphicalui.second.usernamequestionstates.QuestionEndH
+__unknown_file (7*5(
+&view.graphicalui.first.ConcreteToolbar"	
+toolBar"í
+j
+`/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/ConcreteToolbar.java ($
+"
+%0javafx.scene.control.ToolBarB*(
+&view.graphicalui.first.ConcreteToolbarH

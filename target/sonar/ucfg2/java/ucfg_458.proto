@@ -1,18 +1,18 @@
 
-7view.bean.UserSignUpBean#getAccount()Ljava/lang/String;\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java7 7("1*¤
+7view.bean.UserSignUpBean#getAddress()Ljava/lang/String;\
+R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java% %("1*¤
 1\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java8 8(Æ
+R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java& &(Æ
 Ã
 \
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java8 8(
+R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java& &(
 %0java.lang.String"__id*E
 
 __unknown_file ()*'
 view.bean.UserSignUpBean"	
-account"x
+address"x
 \
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java8 8(
+R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java& &(
 
 %0java.lang.StringB
 view.bean.UserSignUpBeanH

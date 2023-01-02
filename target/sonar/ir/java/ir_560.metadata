@@ -1,7 +1,1 @@
-view.controllerui.first.HomePageEventHandler#updateGroupOwnerNick(Ljava/lang/String;Ljava/lang/String;)V
-java.lang.String#equals(Ljava/lang/Object;)Z
-view.graphicalui.first.listviewitems.ListViewGroupItems$OwnerInfo#getIndex()Ljava/lang/Integer;
-javafx.scene.control.Labeled#setText(Ljava/lang/String;)V
-view.graphicalui.first.listviewitems.ListViewGroupItems#getIndex()Ljava/lang/Integer;
-view.controllerui.first.HomePageEventHandler#getListGroups()Ljavafx/collections/ObservableList;
-view.controllerui.first.HomePageEventHandler#getCurrGroupNick(Ljavafx/scene/layout/VBox;)Ljava/lang/String;
+view.controllerui.first.HomePageEventHandler#getUserManageCommunityBoundary()Lview/boundary/UserManageCommunityBoundary;

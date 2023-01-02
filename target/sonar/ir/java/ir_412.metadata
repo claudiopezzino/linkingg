@@ -1,2 +1,4 @@
-view.graphicalui.second.signupquestionstates.QuestionAccount#display()V
-view.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;
+control.controlutilities.SecureObjectInputStream#<init>(Ljava/io/InputStream;)V
+java.lang.Object#getClass()Ljava/lang/Class;
+java.lang.Class#getName()Ljava/lang/String;
+java.util.Collections#emptyMap()Ljava/util/Map;

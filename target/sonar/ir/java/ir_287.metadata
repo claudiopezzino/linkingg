@@ -1,3 +1,2 @@
-view.graphicalui.first.SignupPage#getAccount()Ljava/lang/String;
-javafx.scene.control.Labeled#getText()Ljava/lang/String;
-javafx.scene.control.ToggleGroup#getSelectedToggle()Ljavafx/scene/control/Toggle;
+view.graphicalui.first.SignupPage#getSurname()Ljava/lang/String;
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;

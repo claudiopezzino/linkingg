@@ -1,6 +1,1 @@
-view.graphicalui.first.FirstMain#init()V
-view.graphicalui.first.Container#getRoot(Lview/graphicalui/first/Page;)Ljavafx/scene/control/ScrollPane;
-view.graphicalui.first.FirstMain#setCurrScene(Ljavafx/scene/Scene;)V
-javafx.scene.Scene#instance-init#
-javafx.scene.Scene#<init>(Ljavafx/scene/Parent;)V
-javafx.scene.Scene#getStylesheets()Ljavafx/collections/ObservableList;
+model.db.dbqueries.UserDAOQueries#initInsertStatement(Ljava/sql/PreparedStatement;Ljava/util/Map;)V

@@ -1,1 +1,1 @@
-view.graphicalui.first.toolbardecorations.SocialBarDecorator#instance-init#
+view.bean.observers.MeetingBean#setSubject(Lmodel/subjects/Meeting;)V

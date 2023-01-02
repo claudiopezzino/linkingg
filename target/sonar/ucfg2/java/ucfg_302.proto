@@ -1,60 +1,41 @@
 
-|view.graphicalui.first.SignupPage#getSignupPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/SignupPage;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaπ π(2"4*˜
-2g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaª0 ª(7∏µ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaª% ª(/'
-%1!view.graphicalui.first.SignupPage"!view.graphicalui.first.SignupPageœ
-Ã
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaª! ª(8
-%2"Kview.graphicalui.first.SignupPage#<init>(Lview/graphicalui/first/Toolbar;)V*E
-
-__unknown_file ()
-'
-%1!view.graphicalui.first.SignupPage*G
-
-__unknown_file (+
-)
-toolbarview.graphicalui.first.Toolbarˆ
-Û
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaª ª(8;#
-!view.graphicalui.first.SignupPage"
-signupPageInstance"__id*E
-
-__unknown_file ()
-'
-%1!view.graphicalui.first.SignupPage*
-1*Ì
-4g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java∫ ∫(ˆ
-Û
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java∫ ∫('
-%0!view.graphicalui.first.SignupPage"__id*Y
-
-__unknown_file (=*;#
-!view.graphicalui.first.SignupPage"
-signupPageInstance*
-2
-1*¸
+@view.graphicalui.first.SignupPage#getAccount()Ljava/lang/String;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java§ §("1*º
+
 1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaº º(ˆ
-Û
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java•7 •(;ı
+Ú
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaΩ Ω(!'
-%3!view.graphicalui.first.SignupPage"__id*Y
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java•7 •(N&
+%0 javafx.scene.control.ToggleGroup"__id*Y
 
-__unknown_file (=*;#
+__unknown_file (=*;#
 !view.graphicalui.first.SignupPage"
-signupPageInstance"î
+toggleGroupAccountΩ∫
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaΩ Ω(")
-'
-%3!view.graphicalui.first.SignupPage:î
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java•7 •(b!
+%1javafx.scene.control.Toggle"Qjavafx.scene.control.ToggleGroup#getSelectedToggle()Ljavafx/scene/control/Toggle;*D
+
+__unknown_file ((
+&
+%0 javafx.scene.control.ToggleGroup2getSelectedToggle()Ï
+È
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaπ3 π(B)
-toolbarview.graphicalui.first.ToolbarB%"#
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java• •(c7
+selectedRadioButton javafx.scene.control.RadioButton"__id*?
+
+__unknown_file (#
+!
+%1javafx.scene.control.Toggle†ù
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¶ ¶(,
+%2java.lang.String"8javafx.scene.control.Labeled#getText()Ljava/lang/String;*U
+
+__unknown_file (9
+7
+selectedRadioButton javafx.scene.control.RadioButton2	getText()"É
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¶ ¶(-
+
+%2java.lang.StringB%#
 !view.graphicalui.first.SignupPageH

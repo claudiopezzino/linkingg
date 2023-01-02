@@ -1,3 +1,1 @@
-view.controllerui.first.Dialog#closeWaitDialog()V
-javafx.scene.control.Dialog#close()V
-view.controllerui.first.Dialog$WaitDialog#getWaitDialogInstance()Lview/controllerui/first/Dialog$WaitDialog;
+view.controllerui.first.Dialog#<init>()V

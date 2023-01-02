@@ -13,17 +13,18 @@ import model.dao.FactoryDAO;
 import model.modelexceptions.DuplicatedEntityException;
 import model.modelexceptions.NoEntityException;
 import model.subjects.Group;
+import model.subjects.LinkRequest;
 import model.subjects.Meeting;
 import model.subjects.User;
 import view.bean.*;
 import view.bean.observers.GroupBean;
+import view.bean.observers.LinkRequestBean;
 import view.bean.observers.MeetingBean;
 import view.bean.observers.UserBean;
 
 import java.util.*;
 
-import static model.dao.DAO.DEVICE_DAO;
-import static model.dao.DAO.GROUP_DAO;
+import static model.dao.DAO.*;
 import static view.ConstAdapter.*;
 
 
@@ -33,6 +34,99 @@ public class ManageCommunityController {
     private Listener threadListener;
     ////////////////////////////////
 
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    private <E> void deliverToEndUser(List<Device> listDevices, List<E> listElem, Filter filter) throws InternalException {
+        for (Device device : listDevices) {
+            try {
+                Messenger.sendMessage(device, listElem, filter);
+            }catch (MessengerException messengerException){
+                throw new InternalException(messengerException.getMessage());
+            }
+        }
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    public void makeAndDeliverLinkRequest(LinkRequestCreationBean linkRequestCreationBean) throws InternalException{
+        Map<String, String> mapLinkRequestInfo = new HashMap<>();
+        mapLinkRequestInfo.put(LinkRequestFields.USERS_NICKNAME, linkRequestCreationBean.getUserNick());
+        mapLinkRequestInfo.put(LinkRequestFields.GROUPS_NICKNAME, linkRequestCreationBean.getGroupNick());
+
+        FactoryDAO factoryDAO = FactoryDAO.getSingletonInstance();
+        BaseDAO baseDAO = factoryDAO.createDAO(LINK_REQUEST_DAO);
+
+        try {
+            baseDAO.createEntity(mapLinkRequestInfo);
+        }catch (DuplicatedEntityException duplicatedEntityException){
+            throw new InternalException(duplicatedEntityException.getMessage());
+        }
+
+        LinkRequest linkRequest;
+        try{
+            linkRequest = (LinkRequest) baseDAO.readEntity(mapLinkRequestInfo, Filter.NOTHING);
+        }catch(NoEntityException noEntityException){
+            throw new InternalException(noEntityException.getMessage());
+        }
+
+        this.turnIntoLinkRequestBean(linkRequest);
+
+        List<LinkRequest> listLinkRequests = new ArrayList<>();
+        listLinkRequests.add(linkRequest);
+
+        // fetch group owner devices and send them LinkRequest instance so that they can update their local list
+        Group group = this.fetchGroup(linkRequest.destination());
+        List<Device> listDevices = this.fetchGroupOwnerDevices(group.owner().credentials().getKey());
+
+        this.deliverToEndUser(listDevices, listLinkRequests, Filter.LINK_REQUEST);
+
+    }
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////////////////
+    private Group fetchGroup(String groupNick) throws InternalException{
+        Group group;
+
+        Map<String, String> mapGroupInfo = new HashMap<>();
+        mapGroupInfo.put(GroupFields.NICKNAME, groupNick);
+
+        FactoryDAO factoryDAO = FactoryDAO.getSingletonInstance();
+        BaseDAO baseDAO = factoryDAO.createDAO(GROUP_DAO);
+
+        try{
+            group = (Group) baseDAO.readEntity(mapGroupInfo, Filter.GROUP_NICKNAME);
+        }catch(NoEntityException noEntityException){
+            throw new InternalException(noEntityException.getMessage());
+        }
+
+        return group;
+    }
+    //////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    private List<Device> fetchGroupOwnerDevices(String groupOwnerNick) throws InternalException{
+        List<Device> listGroupOwnerDevices = new ArrayList<>();
+
+        Map<String, String> mapGroupOwnerInfo = new HashMap<>();
+        mapGroupOwnerInfo.put(GroupFields.OWNER, groupOwnerNick);
+
+        FactoryDAO factoryDAO = FactoryDAO.getSingletonInstance();
+        BaseDAO baseDAO = factoryDAO.createDAO(DEVICE_DAO);
+
+        Map<String, Object> mapGroupOwnerDevices;
+        try{
+            mapGroupOwnerDevices = baseDAO.readEntities(mapGroupOwnerInfo, Filter.GROUP_OWNER);
+        }catch(NoEntityException noEntityException){
+            // group owner is not online, so an empty map will return
+            mapGroupOwnerDevices = new HashMap<>();
+        }
+
+        for (Map.Entry<String, Object> entry : mapGroupOwnerDevices.entrySet())
+            listGroupOwnerDevices.add((Device) entry.getValue());
+
+        return listGroupOwnerDevices;
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public List<GroupFilteredBean> findGroupsByFilter(SearchFilterBean searchFilterBean) throws InternalException{
@@ -133,14 +227,9 @@ public class ManageCommunityController {
         List<Group> listGroups = new ArrayList<>();
         listGroups.add(group);
 
-        List<Device> listUserDevices = this.fetchUserDevices(mapGroupInfo.get(GroupFields.OWNER));
-        for (Device device : listUserDevices) {
-            try {
-                Messenger.sendMessage(device, listGroups, Filter.GROUP_CREATION);
-            }catch (MessengerException messengerException){
-                throw new InternalException(messengerException.getMessage());
-            }
-        }
+        List<Device> listCurrUserDevices = this.fetchCurrUserDevices(mapGroupInfo.get(GroupFields.OWNER));
+
+        this.deliverToEndUser(listCurrUserDevices, listGroups, Filter.GROUP_CREATION);
 
     }
     //////////////////////////////////////////////////////////////////////////////////////
@@ -170,33 +259,33 @@ public class ManageCommunityController {
     }
     /////////////////////////////////////////////////////////////////////////////
 
-    /////////////////////////////////////////////////////////////////////////////////
-    private List<Device> fetchUserDevices(String userNick) throws InternalException{
-        List<Device> listUserDevices = new ArrayList<>();
-        listUserDevices.add(this.threadListener.getUserDevice());
+    /////////////////////////////////////////////////////////////////////////////////////
+    private List<Device> fetchCurrUserDevices(String userNick) throws InternalException{
+        List<Device> listCurrUserDevices = new ArrayList<>();
+        listCurrUserDevices.add(this.threadListener.getUserDevice());  // current device
 
-        Map<String, String> mapUserInfo = new HashMap<>();
+        Map<String, String> mapCurrUserInfo = new HashMap<>();
 
-        mapUserInfo.put(UserFields.NICKNAME, userNick);
-        mapUserInfo.put(DeviceFields.PORT,
+        mapCurrUserInfo.put(UserFields.NICKNAME, userNick);
+        mapCurrUserInfo.put(DeviceFields.PORT,
                 String.valueOf(this.threadListener.getUserDevice().portNumber()));
 
         FactoryDAO factoryDAO = FactoryDAO.getSingletonInstance();
         BaseDAO baseDAO = factoryDAO.createDAO(DEVICE_DAO);
 
-        Map<String, Object> mapUserDevices;
+        Map<String, Object> mapCurrUserDevices;
         try{
-            mapUserDevices = baseDAO.readEntities(mapUserInfo, Filter.USER_NICKNAME);
+            mapCurrUserDevices = baseDAO.readEntities(mapCurrUserInfo, Filter.USER_NICKNAME);
         }catch (NoEntityException noEntityException){
             throw new InternalException(noEntityException.getMessage());
         }
 
-        for (Map.Entry<String, Object> entry : mapUserDevices.entrySet())
-            listUserDevices.add((Device) entry.getValue());
+        for (Map.Entry<String, Object> entry : mapCurrUserDevices.entrySet())
+            listCurrUserDevices.add((Device) entry.getValue());
 
-        return listUserDevices;
+        return listCurrUserDevices;
     }
-    /////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public UserSignInBean setUpSignUpPhase(LoginController loginController, UserSignUpBean userSignUpBean) throws InternalException {
@@ -272,11 +361,17 @@ public class ManageCommunityController {
             mapUserBean.put(entry.getKey(), this.turnIntoUserBean(entry.getValue()));
         groupBean.setMapMembers(mapUserBean);
 
+        Map<String, LinkRequestBean> mapLinkRequestsBean = new HashMap<>();
+        for(Map.Entry<String, LinkRequest> entry : group.linkRequests().entrySet())
+            mapLinkRequestsBean.put(entry.getKey(), this.turnIntoLinkRequestBean(entry.getValue()));
+
         Map<String, MeetingBean> mapMeetingBean = new HashMap<>();
         for(Map.Entry<String, Meeting> entry : group.plannedMeeting().entrySet())
             mapMeetingBean.put(entry.getKey(), this.turnIntoMeetingBean(entry.getValue()));
+
         try{
             groupBean.setMapMeetings(mapMeetingBean);
+            groupBean.setMapLinkRequests(mapLinkRequestsBean);
         }catch(CopyException copyException){
             throw new InternalException(copyException.getMessage());
         }
@@ -332,6 +427,24 @@ public class ManageCommunityController {
         return userBean;
     }
     /////////////////////////////////////////////////////////////////////////////////////
+
+    ///////////////////////////////////////////////////////////////////////////////////////
+    private LinkRequestBean turnIntoLinkRequestBean(LinkRequest linkRequest){
+        LinkRequestBean linkRequestBean = new LinkRequestBean();
+
+        linkRequestBean.setSubject(linkRequest); // due to Observer Pattern
+        linkRequest.attach(linkRequestBean); // due to Observer Pattern
+
+        linkRequestBean.setGroupNick(linkRequest.destination());
+        linkRequestBean.setUserNick(linkRequest.source());
+
+        linkRequestBean.setUserName(linkRequest.sourceDetails().get(UserFields.NAME));
+        linkRequestBean.setUserSurname(linkRequest.sourceDetails().get(UserFields.SURNAME));
+        linkRequestBean.setUserImagePath(linkRequest.sourceDetails().get(UserFields.IMAGE));
+
+        return linkRequestBean;
+    }
+    ///////////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////
     public void stopListener() throws InternalException {

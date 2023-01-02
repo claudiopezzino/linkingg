@@ -1,18 +1,18 @@
 
-\view.graphicalui.second.Home#getStateMachine()Lview/graphicalui/second/QuestionStateMachine;b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÎ  Î(/"1*ø
+Aview.graphicalui.second.Home#getGroupNickname()Ljava/lang/String;b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÊ Ê(""1*À
 1b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÏ Ï(ñ
-î
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÊ- Ê(1Ö
+Ó
 b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÏ Ï( 2
-%0,view.graphicalui.second.QuestionStateMachine"__id*N
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÊ- Ê(?
+%0java.lang.String"__id*O
 
-__unknown_file (2*0
-view.graphicalui.second.Home"
-stateMachine"š
+__unknown_file (3*1
+view.graphicalui.second.Home"
+groupNickname"~
 b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÏ Ï(!4
-2
-%0,view.graphicalui.second.QuestionStateMachineB 
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÊ& Ê(@
+
+%0java.lang.StringB 
 view.graphicalui.second.HomeH

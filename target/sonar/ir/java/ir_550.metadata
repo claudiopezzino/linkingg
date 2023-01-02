@@ -1,2 +1,4 @@
-view.graphicalui.second.meetingquestionstates.QuestionAddrToStartSearch#display()V
-view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;
+model.dao.MeetingDAO#fetchScheduler(Ljava/lang/String;)Lmodel/subjects/User;
+java.util.HashMap#<init>()V
+java.util.HashMap#instance-init#
+model.dao.FactoryDAO#getSingletonInstance()Lmodel/dao/FactoryDAO;

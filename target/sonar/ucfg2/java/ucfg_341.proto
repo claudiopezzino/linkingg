@@ -1,18 +1,53 @@
 
-Hview.graphicalui.second.Shell#getScreen()Ljavafx/scene/control/TextArea;a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java- -("1*“
-1a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java. .(‹
-Ÿ
-a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java. .(#
-%0javafx.scene.control.TextArea"__id*I
+èview.graphicalui.second.usernamequestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/usernamequestionstates/QuestionEnd;~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java (4"3*Å
+2~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java!" !(3Å˛
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java!& !(1@
+%1:view.graphicalui.second.usernamequestionstates.QuestionEnd":view.graphicalui.second.usernamequestionstates.QuestionEndØ
+¨
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java!" !(3
+%2"Dview.graphicalui.second.usernamequestionstates.QuestionEnd#<init>()V*^
 
-__unknown_file (-*+
-view.graphicalui.second.Shell"
-screen"ä
-a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java. .(%
-#
-%0javafx.scene.control.TextAreaB!
-view.graphicalui.second.ShellH
+__unknown_file (B
+@
+%1:view.graphicalui.second.usernamequestionstates.QuestionEnd¿
+Ω
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java! !(3U<
+:view.graphicalui.second.usernamequestionstates.QuestionEnd"
+questionEndInstance"__id*^
+
+__unknown_file (B
+@
+%1:view.graphicalui.second.usernamequestionstates.QuestionEnd*
+1*Œ
+3~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java   (¿
+Ω
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java   (@
+%0:view.graphicalui.second.usernamequestionstates.QuestionEnd"__id*s
+
+__unknown_file (W*U<
+:view.graphicalui.second.usernamequestionstates.QuestionEnd"
+questionEndInstance*
+2
+1*ç
+1~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java" "("¿
+Ω
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java" "("@
+%3:view.graphicalui.second.usernamequestionstates.QuestionEnd"__id*s
+
+__unknown_file (W*U<
+:view.graphicalui.second.usernamequestionstates.QuestionEnd"
+questionEndInstance"ƒ
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/usernamequestionstates/QuestionEnd.java" "(#B
+@
+%3:view.graphicalui.second.usernamequestionstates.QuestionEndB>"<
+:view.graphicalui.second.usernamequestionstates.QuestionEndH

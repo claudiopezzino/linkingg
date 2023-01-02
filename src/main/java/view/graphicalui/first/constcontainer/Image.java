@@ -14,7 +14,7 @@ public final class Image {
     public static final String MULTI_GROUPS = "ic_groups.png";
     public static final String HOME = "btn_home.png";
     public static final String CREATE_GROUP = "ic_create_group.png";
-    public static final String QUESTION = "dialog_group_deletion.png";
+    public static final String QUESTION = "dialog_question.png";
     public static final String GROUP = "ic_groups_preview.png";
     public static final String LOCATION = "btn_meeting.png";
     public static final String MEETING = "ic_meetings_preview.png";
@@ -36,6 +36,7 @@ public final class Image {
     public static final String WAITING = "dialog_wait.png";
     public static final String GALLERY = "dialog_gallery.png";
     public static final String ANONYMOUS_PROFILE = "ic_anonymous_profile.png";
+    public static final String NOTIFICATION = "dialog_notification.png";
     //////////////////////////////////////////////////////////////////////////
 
     /////////////////

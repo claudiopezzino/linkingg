@@ -1,1 +1,2 @@
-model.UserCollector#<init>()V
+view.graphicalui.second.signupquestionstates.QuestionAddress#display()V
+view.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;

@@ -1,2 +1,4 @@
-view.graphicalui.second.meetingquestionstates.QuestionAddrToStartSearch#next(Lview/graphicalui/second/QuestionStateMachine;)V
-view.graphicalui.second.meetingquestionstates.QuestionRadiusOfAction#getQuestionRadiusOfActionInstance()Lview/graphicalui/second/meetingquestionstates/QuestionRadiusOfAction;
+model.dao.MeetingDAO#fetchMeetingJoiners(Ljava/lang/String;)Ljava/util/Map;
+java.util.HashMap#<init>()V
+java.util.HashMap#instance-init#
+model.dao.FactoryDAO#getSingletonInstance()Lmodel/dao/FactoryDAO;

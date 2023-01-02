@@ -1,18 +1,18 @@
 
-@view.graphicalui.second.Home#getMeetingFilters()Ljava/util/List;b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÔ Ô()"1*½
+=view.graphicalui.second.Home#getMeetingId()Ljava/lang/String;b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÎ Î("1*¼
 1b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÔ5 Ô(9Õ
-Ò
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÏ Ï(Ò
+Ï
 b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÔ5 Ô(H
-%0java.util.List"__id*P
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÏ Ï(
+%0java.lang.String"__id*K
 
-__unknown_file (4*2
-view.graphicalui.second.Home"
-meetingFilters"|
+__unknown_file (/*-
+view.graphicalui.second.Home"
+	meetingId"~
 b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÔ. Ô(I
-
-%0java.util.ListB 
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÏ Ï(
+
+%0java.lang.StringB 
 view.graphicalui.second.HomeH

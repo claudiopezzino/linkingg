@@ -1,2 +1,4 @@
-view.graphicalui.second.Signup#restoreScreen()V
-view.graphicalui.second.signupquestionstates.QuestionName#getQuestionNameInstance()Lview/graphicalui/second/signupquestionstates/QuestionName;
+view.graphicalui.first.PageDialog#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+javafx.scene.Parent#getStylesheets()Ljavafx/collections/ObservableList;
+javafx.scene.control.Dialog#getDialogPane()Ljavafx/scene/control/DialogPane;
+view.graphicalui.first.PageDialog#setUpSkeleton(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

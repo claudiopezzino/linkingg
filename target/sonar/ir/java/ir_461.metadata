@@ -1,1 +1,1 @@
-view.bean.UserSignUpBean#getName()Ljava/lang/String;
+view.graphicalui.first.MeetingPage#getHandler()Lview/controllerui/first/MeetingPageEventHandler;

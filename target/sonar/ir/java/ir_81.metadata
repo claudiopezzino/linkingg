@@ -1,5 +1,4 @@
-view.boundary.UserManageCommunityBoundary#alertUser(Ljava/lang/String;)V
+view.boundary.UserManageCommunityBoundary#notifyNewCurrUserNick()V
 view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;
-view.controllerui.first.Dialog#errorDialog(Ljava/lang/String;)V
-view.controllerui.second.Message#infoErrorMsg(Ljava/lang/String;)V
+javafx.application.Platform#runLater(Ljava/lang/Runnable;)V
 view.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;

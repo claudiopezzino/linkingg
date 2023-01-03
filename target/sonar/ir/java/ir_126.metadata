@@ -1,1 +1,1 @@
-view.bean.observers.GroupBean#setOwner(Lview/bean/observers/UserBean;)V
+view.bean.observers.GroupBean#instance-init#

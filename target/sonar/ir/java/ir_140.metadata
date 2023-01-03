@@ -1,1 +1,4 @@
-view.graphicalui.second.Home#linkInvitationsPreviousList()V
+view.bean.observers.GroupBean#setMapLinkRequests(Ljava/util/Map;)V
+java.util.HashMap#<init>()V
+control.controlutilities.Copier#deepCopy(Ljava/io/Serializable;)Ljava/lang/Object;
+java.util.HashMap#instance-init#

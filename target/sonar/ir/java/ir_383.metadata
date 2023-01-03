@@ -1,4 +1,7 @@
-view.controllerui.second.Message#wrongPasswordMsg()V
-javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
-javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
-javafx.scene.control.Alert#instance-init#
+view.graphicalui.first.Dialog#showNotificationDialog(Lcontrol/notifications/Notification;)V
+javafx.scene.control.Dialog#close()V
+javafx.scene.control.Dialog#show()V
+javafx.scene.control.Dialog#isShowing()Z
+view.graphicalui.first.Dialog$NotificationDialog#<init>(Lcontrol/notifications/Notification;)V
+view.graphicalui.first.Dialog$NotificationDialog#updateNotifications(Lcontrol/notifications/Notification;)V
+view.graphicalui.first.Dialog$NotificationDialog#instance-init#

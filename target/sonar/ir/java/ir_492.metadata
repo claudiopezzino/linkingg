@@ -1,1 +1,1 @@
-view.graphicalui.second.passwordquestionstates.QuestionEnd#instance-init#
+view.bean.UserSignUpBean#getSurname()Ljava/lang/String;

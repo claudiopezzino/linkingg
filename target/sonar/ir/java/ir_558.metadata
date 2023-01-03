@@ -1,1 +1,1 @@
-view.controllerui.first.HomePageEventHandler#instance-init#
+view.bean.observers.MeetingBean#setImage(Ljava/lang/String;)V

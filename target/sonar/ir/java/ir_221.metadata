@@ -1,5 +1,1 @@
-view.controllerui.second.handlerstates.StateMain#checkCmd(Lview/graphicalui/second/Home;)V
-view.controllerui.second.Message#errorMsg()V
-javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
-java.lang.String#equals(Ljava/lang/Object;)Z
-view.controllerui.second.handlerstates.StateMain#initListGroups(Lview/graphicalui/second/Home;)V
+view.graphicalui.second.signupquestionstates.QuestionAddress#instance-init#

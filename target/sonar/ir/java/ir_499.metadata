@@ -1,2 +1,4 @@
-view.graphicalui.second.usernamequestionstates.QuestionNewUsername#display()V
-view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;
+view.bean.UserSignUpBean#setSurname(Ljava/lang/String;)V
+view.bean.errorsignupdecorations.SurnameBeanErrorDecorator#instance-init#
+view.bean.errorsignupdecorations.SurnameBeanErrorDecorator#<init>(Lview/bean/BeanError;)V
+view.bean.Regex#isMatching(Ljava/lang/String;Ljava/lang/String;)Z

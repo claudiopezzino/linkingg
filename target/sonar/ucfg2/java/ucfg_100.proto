@@ -1,53 +1,34 @@
 
-êview.graphicalui.second.meetingquestionstates.QuestionDate#getQuestionDateInstance()Lview/graphicalui/second/meetingquestionstates/QuestionDate;~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionDate.java( ((6"3*Ç
-2~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionDate.java*# *(5Å˛
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionDate.java*' *(3@
-%1:view.graphicalui.second.meetingquestionstates.QuestionDate":view.graphicalui.second.meetingquestionstates.QuestionDateØ
-¨
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionDate.java*# *(5
-%2"Dview.graphicalui.second.meetingquestionstates.QuestionDate#<init>()V*^
+__sonar_lambda_17$o
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java— —(A"startingBlock*†
+startingBlocko
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java— —(Aò
+ï
 
-__unknown_file (B
-@
-%1:view.graphicalui.second.meetingquestionstates.QuestionDate¡
+__unknown_file (
+messagejava.lang.String"__id*V
+
+__unknown_file (:*8+
+)view.boundary.UserManageCommunityBoundary"	
+message*
+1*π
+1o
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java—$ —(+¡
 æ
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionDate.java* *(5V<
-:view.graphicalui.second.meetingquestionstates.QuestionDate"
-questionDateInstance"__id*^
+o
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java—$ —(A
+
+%6void"Bview.controllerui.second.Message#infoErrorMsg(Ljava/lang/String;)V*@
 
-__unknown_file (B
-@
-%1:view.graphicalui.second.meetingquestionstates.QuestionDate*
-1*œ
-3~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionDate.java) )(¡
-æ
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionDate.java) )(@
-%0:view.graphicalui.second.meetingquestionstates.QuestionDate"__id*t
+__unknown_file ($""
+ view.controllerui.second.Message*9
 
-__unknown_file (X*V<
-:view.graphicalui.second.meetingquestionstates.QuestionDate"
-questionDateInstance*
-2
-1*é
-1~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionDate.java+ +(#¡
-æ
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionDate.java+ +(#@
-%3:view.graphicalui.second.meetingquestionstates.QuestionDate"__id*t
-
-__unknown_file (X*V<
-:view.graphicalui.second.meetingquestionstates.QuestionDate"
-questionDateInstance"ƒ
-~
-t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionDate.java+ +($B
-@
-%3:view.graphicalui.second.meetingquestionstates.QuestionDateB>"<
-:view.graphicalui.second.meetingquestionstates.QuestionDateH
+__unknown_file (
+
+messagejava.lang.String"
+o
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java—$ —(A
+
+
+%6voidB
+java.lang.Runnable

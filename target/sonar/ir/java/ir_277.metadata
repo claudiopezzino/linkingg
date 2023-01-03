@@ -1,2 +1,1 @@
-view.graphicalui.first.SignupPage#<init>(Lview/graphicalui/first/Toolbar;)V
-view.graphicalui.first.SignupPage#setUpSignupPage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;
+view.bean.errorsignupdecorations.AccountBeanErrorDecorator#<init>(Lview/bean/BeanError;)V

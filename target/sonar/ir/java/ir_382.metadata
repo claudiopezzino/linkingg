@@ -1,4 +1,3 @@
-view.controllerui.second.Message#passwordChangedMsg()V
-javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
-javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
-javafx.scene.control.Alert#instance-init#
+view.graphicalui.first.Dialog#closeWaitDialog()V
+javafx.scene.control.Dialog#close()V
+view.graphicalui.first.Dialog$WaitDialog#getWaitDialogInstance()Lview/graphicalui/first/Dialog$WaitDialog;

@@ -1,4 +1,1 @@
-view.bean.Regex#isMatching(Ljava/lang/String;Ljava/lang/String;)Z
-java.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
-java.util.regex.Matcher#matches()Z
-java.util.regex.Pattern#compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+view.controllerui.second.handlerstates.StateMemberDetails#instance-init#

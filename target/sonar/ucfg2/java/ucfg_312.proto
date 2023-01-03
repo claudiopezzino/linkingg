@@ -1,53 +1,18 @@
 
-çview.graphicalui.second.meetingquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/meetingquestionstates/QuestionEnd;}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionEnd.java( ((4"3*˜
-2}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionEnd.java*" *(3˛˚
-}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionEnd.java*& *(1?
-%19view.graphicalui.second.meetingquestionstates.QuestionEnd"9view.graphicalui.second.meetingquestionstates.QuestionEnd¨
-©
-}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionEnd.java*" *(3
-%2"Cview.graphicalui.second.meetingquestionstates.QuestionEnd#<init>()V*]
+Wview.graphicalui.first.SignupPage#getTextFieldAddress()Ljavafx/scene/control/TextField;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÙ Ù(("1*Ù
+1g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaı ı(Ò
+Ó
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaı ı($$
+%0javafx.scene.control.TextField"__id*W
 
-__unknown_file (A
-?
-%19view.graphicalui.second.meetingquestionstates.QuestionEndΩ
-∫
-}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionEnd.java* *(3T;
-9view.graphicalui.second.meetingquestionstates.QuestionEnd"
-questionEndInstance"__id*]
-
-__unknown_file (A
-?
-%19view.graphicalui.second.meetingquestionstates.QuestionEnd*
-1* 
-3}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionEnd.java) )(Ω
-∫
-}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionEnd.java) )(?
-%09view.graphicalui.second.meetingquestionstates.QuestionEnd"__id*r
-
-__unknown_file (V*T;
-9view.graphicalui.second.meetingquestionstates.QuestionEnd"
-questionEndInstance*
-2
-1*á
-1}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionEnd.java+ +("Ω
-∫
-}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionEnd.java+ +("?
-%39view.graphicalui.second.meetingquestionstates.QuestionEnd"__id*r
-
-__unknown_file (V*T;
-9view.graphicalui.second.meetingquestionstates.QuestionEnd"
-questionEndInstance"¬
-}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionEnd.java+ +(#A
-?
-%39view.graphicalui.second.meetingquestionstates.QuestionEndB=";
-9view.graphicalui.second.meetingquestionstates.QuestionEndH
+__unknown_file (;*9#
+!view.graphicalui.first.SignupPage"
+textFieldAddress"ë
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaı ı(%&
+$
+%0javafx.scene.control.TextFieldB%#
+!view.graphicalui.first.SignupPageH

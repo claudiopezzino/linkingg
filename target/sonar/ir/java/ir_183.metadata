@@ -1,1 +1,8 @@
-view.graphicalui.second.Home#getGroupName()Ljava/lang/String;
+view.graphicalui.second.Home#startMeetingProposal()V
+view.graphicalui.second.meetingquestionstates.QuestionTypeOfMeeting#getQuestionTypeOfMeetingInstance()Lview/graphicalui/second/meetingquestionstates/QuestionTypeOfMeeting;
+java.util.ArrayList#<init>()V
+view.controllerui.second.handlerstates.StateMeetingProposal#getStateMeetingProposalInstance()Lview/controllerui/second/handlerstates/StateMeetingProposal;
+java.util.ArrayList#instance-init#
+view.graphicalui.second.QuestionStateMachine#instance-init#
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.graphicalui.second.QuestionStateMachine#<init>()V

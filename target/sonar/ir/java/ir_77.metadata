@@ -1,5 +1,5 @@
-view.boundary.UserManageCommunityBoundary#notifyNewGroup(Lview/bean/observers/GroupBean;)V
-view.graphicalui.first.HomePage#getHandler()Lview/controllerui/first/HomePageEventHandler;
-view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;
-view.graphicalui.second.Shell#getShellHandler()Lview/controllerui/second/KeyEventHandler;
-view.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;
+view.boundary.UserManageCommunityBoundary#logIntoSystem(Lview/bean/UserSignInBean;)Ljava/util/Map;
+control.ManageCommunityController#instance-init#
+control.UserLoginController#instance-init#
+control.ManageCommunityController#<init>()V
+control.UserLoginController#<init>()V

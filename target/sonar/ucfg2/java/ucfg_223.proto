@@ -1,53 +1,18 @@
 
-yview.controllerui.second.handlerstates.StateMain#getStateMainInstance()Lview/controllerui/second/handlerstates/StateMain;t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaQ Q(0"3*õ
-2t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaS  S(/„‡
-t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaS$ S(-6
-%10view.controllerui.second.handlerstates.StateMain"0view.controllerui.second.handlerstates.StateMainë
-é
-t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaS  S(/
-%2":view.controllerui.second.handlerstates.StateMain#<init>()V*T
+Aview.graphicalui.second.Home#getListOtherGroups()Ljava/util/List;b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java∫& ∫(8"1*æ
+1b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaª ª(÷
+”
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaª ª(#
+%0java.util.List"__id*Q
 
-__unknown_file (8
-6
-%10view.controllerui.second.handlerstates.StateMain†
-ù
-t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaS S(/I2
-0view.controllerui.second.handlerstates.StateMain"
-stateMainInstance"__id*T
-
-__unknown_file (8
-6
-%10view.controllerui.second.handlerstates.StateMain*
-1*§
-3t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaR R(†
-ù
-t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaR R(6
-%00view.controllerui.second.handlerstates.StateMain"__id*g
-
-__unknown_file (K*I2
-0view.controllerui.second.handlerstates.StateMain"
-stateMainInstance*
-2
-1*œ
-1t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaT T( †
-ù
-t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaT T( 6
-%30view.controllerui.second.handlerstates.StateMain"__id*g
-
-__unknown_file (K*I2
-0view.controllerui.second.handlerstates.StateMain"
-stateMainInstance"∞
-t
-j/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMain.javaT T(!8
-6
-%30view.controllerui.second.handlerstates.StateMainB4"2
-0view.controllerui.second.handlerstates.StateMainH
+__unknown_file (5*3
+view.graphicalui.second.Home"
+listOtherGroups"|
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaª ª($
+
+%0java.util.ListB 
+view.graphicalui.second.HomeH

@@ -1,6 +1,7 @@
 package view.controllerui.second.handlerstates;
 
 import javafx.util.Pair;
+import view.bean.observers.LinkRequestBean;
 import view.bean.observers.MeetingBean;
 import view.bean.observers.UserBean;
 import view.graphicalui.second.Home;
@@ -11,6 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 import static view.controllerui.second.Message.errorMsg;
+import static view.controllerui.second.Message.infoErrorMsg;
 import static view.graphicalui.second.DefaultCommands.*;
 
 
@@ -41,8 +43,13 @@ public class StateGroupOptions implements AbstractState{
             home.listMeetings();
         }
         // Verify if group' nickname is owned by current user in the handler class
-        else if(home.getPrompt().getText().equals(LINK_REQUESTS))
-            home.showLinkRequests(home.getGroupNickname());
+        else if(home.getPrompt().getText().equals(LINK_REQUESTS)) {
+            if(isCurrUserOwner(home)) {
+                this.initListLinkRequests(home);
+                home.showLinkRequests(home.getGroupNickname());
+            }else
+                infoErrorMsg("Only the owner can view this content.");
+        }
 
         else
             errorMsg();
@@ -50,6 +57,41 @@ public class StateGroupOptions implements AbstractState{
         home.getPrompt().clear();
     }
     //////////////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////////////////////
+    private boolean isCurrUserOwner(Home home){
+        String groupNick = home.getGroupNickname();
+        String groupOwnerNick = Shell.getShellHandler().getMapGroupBean()
+                .get(groupNick).getOwner().getNickname();
+        String currUserNick = Shell.getShellHandler().getCurrUserBean().getNickname();
+
+        return currUserNick.equals(groupOwnerNick);
+    }
+    /////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////
+    private void initListLinkRequests(Home home){
+        String userNick;
+        String userName;
+        String userSurname;
+
+        String groupNick = home.getGroupNickname();
+
+        Map<String, LinkRequestBean> mapRequests = Shell.getShellHandler()
+                .getMapGroupBean().get(groupNick).getMapLinkRequests();
+
+        List<Pair<String, String>> listLinkRequests = new ArrayList<>();
+        for (Map.Entry<String, LinkRequestBean> entry : mapRequests.entrySet()){
+            userNick = entry.getValue().getUserNick();
+            userName = entry.getValue().getUserName();
+            userSurname = entry.getValue().getUserSurname();
+
+            listLinkRequests.add(new Pair<>(userNick, userName + " " + userSurname));
+        }
+
+        home.setListLinkRequests(listLinkRequests);
+    }
+    ////////////////////////////////////////////////////////////////////////////////
 
     /////////////////////////////////////////////////////////////////////////////////
     private void initListMeetings(Home home){

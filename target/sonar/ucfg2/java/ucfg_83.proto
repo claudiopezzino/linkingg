@@ -1,18 +1,65 @@
 
-[view.controllerui.first.Dialog$InfoErrorDialog#getLabelErrors()Ljavafx/scene/control/Label;b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java@ @(#"1*å
-1b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.javaA A(ð
-í
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.javaA A(# 
-%0javafx.scene.control.Label"__id*_
+__sonar_lambda_6$m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javaw w(t"startingBlock*è
+startingBlockm
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javaw w(tœ
+™
 
-__unknown_file (C*A0
-.view.controllerui.first.Dialog$InfoErrorDialog"
-labelErrors"ˆ
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.javaA A($"
- 
-%0javafx.scene.control.LabelB20
-.view.controllerui.first.Dialog$InfoErrorDialogH
+__unknown_file (
+	groupNickjava.lang.String"__id*X
+
+__unknown_file (<*:+
+)view.boundary.UserManageCommunityBoundary"
+	groupNick 
+
+
+__unknown_file (
+oldUserNickjava.lang.String"__id*Z
+
+__unknown_file (>*<+
+)view.boundary.UserManageCommunityBoundary"
+oldUserNick 
+
+
+__unknown_file (
+newUserNickjava.lang.String"__id*Z
+
+__unknown_file (>*<+
+)view.boundary.UserManageCommunityBoundary"
+newUserNick*
+1*‘	
+1m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javaw$ w(,Ã
+À
+m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javaw$ w(92
+%2,view.controllerui.first.HomePageEventHandler"Zview.graphicalui.first.HomePage#getHandler()Lview/controllerui/first/HomePageEventHandler;*?
+
+__unknown_file (#"!
+view.graphicalui.first.HomePage×Ô
+m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javaw$ w(t
+
+%3void"{view.controllerui.first.HomePageEventHandler#updateGroupMemberNick(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*P
+
+__unknown_file (4
+2
+%2,view.controllerui.first.HomePageEventHandler*;
+
+__unknown_file (
+
+	groupNickjava.lang.String*=
+
+__unknown_file (!
+
+oldUserNickjava.lang.String*=
+
+__unknown_file (!
+
+newUserNickjava.lang.String2MupdateGroupMemberNick(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)"}
+m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javaw$ w(t
+
+
+%3voidB
+java.lang.Runnable

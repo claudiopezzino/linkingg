@@ -21,6 +21,7 @@ import view.bean.GroupCreationBean;
 import view.bean.GroupFilteredBean;
 import view.bean.SearchFilterBean;
 import view.bean.observers.GroupBean;
+import view.bean.observers.LinkRequestBean;
 import view.bean.observers.MeetingBean;
 import view.bean.observers.UserBean;
 import view.boundary.UserManageCommunityBoundary;
@@ -35,10 +36,7 @@ import view.graphicalui.first.HomePage.GroupCreationDialog;
 import view.graphicalui.first.HomePage.LinkRequestsDialog;
 import view.graphicalui.first.HomePage.SearchGroupsDialog;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 
 import static view.ConstAdapter.*;
 import static view.graphicalui.first.Dialog.errorDialog;
@@ -246,6 +244,7 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
     //////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // NOT GOOD, delete and replace this call with a call to "getListGroups" and then "getCurrGroupNick"
     private String fetchSelectedGroupNick(){
 
         String selectedGroupNick = null;
@@ -565,8 +564,46 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
 
     ////////////////////////////////////////////////////////////////////////////////////////////
     private void manageLinkRequests(){
-        LinkRequestsDialog dialog = LinkRequestsDialog.getLinkRequestsDialogInstance();
-        dialog.showAndWait();
+        HomePage homePage = HomePage.getHomePageInstance(null);
+        ListView<VBox> listViewGroups = homePage.getListViewGroups();
+        List<VBox> listUserDetails = new ArrayList<>();
+
+        if(listViewGroups.getSelectionModel().getSelectedItem() != null) {
+
+            VBox vBoxSelectedItem = listViewGroups.getSelectionModel().getSelectedItem();
+            HBox hBoxOwnerInfo = (HBox) vBoxSelectedItem.getChildren().get(OWNER_INFO.getIndex());
+            Hyperlink hyperlinkOwner = (Hyperlink) hBoxOwnerInfo.getChildren().get(OWNER_NICK.getIndex());
+
+            String ownerNick = hyperlinkOwner.getText();
+            if (ownerNick.equals("YOU")){
+                String selectedGroupNick = this.getCurrGroupNick(vBoxSelectedItem);
+                Map<String, LinkRequestBean> mapRequests = this.mapGroupBean.get(selectedGroupNick).getMapLinkRequests();
+
+                String userImagePath;
+                String userFullName;
+                String userNick;
+
+                VBox vBoxUserDetails;
+
+                LinkRequestBean linkRequestBean;
+                for (Map.Entry<String, LinkRequestBean> entry : mapRequests.entrySet()){
+                    linkRequestBean = entry.getValue();
+
+                    userImagePath = linkRequestBean.getUserImagePath() == null ?
+                            ANONYMOUS_PROFILE : linkRequestBean.getUserImagePath();
+                    userFullName = linkRequestBean.getUserName() + " " + linkRequestBean.getUserSurname();
+                    userNick = linkRequestBean.getUserNick();
+
+                    vBoxUserDetails = homePage.setUpVBoxDetails(userImagePath, userNick, userFullName, USERS);
+                    listUserDetails.add(vBoxUserDetails);
+                }
+
+                LinkRequestsDialog linkRequestsDialog = LinkRequestsDialog.getLinkRequestsDialogInstance();
+                linkRequestsDialog.initListUserRequests(listUserDetails);
+                linkRequestsDialog.showAndWait();
+            }else
+                Dialog.errorDialog("Only the owner can view its content.");
+        }
     }
     ////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -621,7 +658,7 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
         VBox vBoxDetails;
         List<VBox> listVBoxGroupDetails = new ArrayList<>();
         for (GroupFilteredBean groupFilteredBean : listGroupFilteredBean){
-            vBoxDetails = homePage.setUpVBoxDetails(groupFilteredBean.getImage(), groupFilteredBean.getNickname(), groupFilteredBean.getName());
+            vBoxDetails = homePage.setUpVBoxDetails(groupFilteredBean.getImage(), groupFilteredBean.getNickname(), groupFilteredBean.getName(), GROUPS);
             listVBoxGroupDetails.add(vBoxDetails);
         }
 

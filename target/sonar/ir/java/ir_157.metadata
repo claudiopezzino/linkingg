@@ -1,2 +1,1 @@
-view.graphicalui.second.Home#saveGroupNickname(Ljava/lang/String;)V
-view.controllerui.second.handlerstates.StateGroupCreationEnd#getStateGroupCreationEndInstance()Lview/controllerui/second/handlerstates/StateGroupCreationEnd;
+view.graphicalui.second.Home#revertToOldPassword()V

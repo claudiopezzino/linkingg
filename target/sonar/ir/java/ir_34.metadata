@@ -1,2 +1,2 @@
-view.graphicalui.second.signupquestionstates.QuestionCell#next(Lview/graphicalui/second/QuestionStateMachine;)V
-view.graphicalui.second.signupquestionstates.QuestionAccount#getQuestionAccountInstance()Lview/graphicalui/second/signupquestionstates/QuestionAccount;
+view.controllerui.second.handlerstates.StateGroupRequest#reload(Lview/graphicalui/second/Home;Ljava/lang/String;)V
+view.controllerui.second.handlerstates.StateGroupRequest#removeGroup(Lview/graphicalui/second/Home;Ljava/lang/String;)V

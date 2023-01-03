@@ -3,8 +3,7 @@ package view.controllerui.second.handlerstates;
 import view.graphicalui.second.Home;
 import view.graphicalui.second.Shell;
 
-import static view.controllerui.second.Message.errorMsg;
-import static view.controllerui.second.Message.infoErrorMsg;
+import static view.controllerui.second.Message.*;
 import static view.graphicalui.second.DefaultCommands.*;
 
 
@@ -34,7 +33,7 @@ public class StateGroupsView implements AbstractState{
             if(Shell.getShellHandler().getMapGroupBean().get(home.getPrompt().getText()) != null)
                 home.groupOptions(home.getPrompt().getText());
             else
-                infoErrorMsg("No group available with given nickname.");
+                wrongMatchMsg(home.getPrompt().getText());
         }
 
         else

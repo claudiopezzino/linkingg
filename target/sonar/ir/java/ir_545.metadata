@@ -1,1 +1,1 @@
-model.dao.MeetingDAO#instance-init#
+view.bean.observers.MeetingBean#getName()Ljava/lang/String;

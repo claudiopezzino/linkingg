@@ -1,5 +1,5 @@
-view.controllerui.second.handlerstates.StateSearchEnd#checkCmd(Lview/graphicalui/second/Home;)V
-view.controllerui.second.Message#errorMsg()V
-javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
-java.lang.String#equals(Ljava/lang/Object;)Z
-java.lang.String#isEmpty()Z
+model.dao.UserDAO#makeUserEntities(Ljava/util/List;)Ljava/util/Map;
+java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
+model.dao.UserDAO#makeUserEntity(Ljava/util/Map;)Lmodel/subjects/User;
+java.util.HashMap#<init>()V
+java.util.HashMap#instance-init#

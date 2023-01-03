@@ -1,1 +1,1 @@
-view.bean.BeanError#<init>(Ljava/lang/String;)V
+control.notifications.ConcreteNotification#displayMessage()Ljava/lang/String;

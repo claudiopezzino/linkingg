@@ -1,19 +1,18 @@
 
-dview.graphicalui.second.QuestionStateMachine#getQuestion()Lview/graphicalui/second/AbstractQuestion;p
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/QuestionStateMachine.java ('"1*¦
-1p
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/QuestionStateMachine.java (‡
-„
-p
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/QuestionStateMachine.java (.
-%0(view.graphicalui.second.AbstractQuestion"__id*Z
+4model.subjects.Group#plannedMeeting()Ljava/util/Map;X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java7  7(."1*’
+1X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java8 8(¿
+¼
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java8 8(
+%0java.util.Map"__id*E
 
-__unknown_file (>*<.
-,view.graphicalui.second.QuestionStateMachine"
-
-question"¤
-p
-f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/QuestionStateMachine.java (0
-.
-%0(view.graphicalui.second.AbstractQuestionB0.
-,view.graphicalui.second.QuestionStateMachineH
+__unknown_file ()*'
+model.subjects.Group"
+mapMeetings"q
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java8 8( 
+
+%0java.util.MapB
+model.subjects.GroupH

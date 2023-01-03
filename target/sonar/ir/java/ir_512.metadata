@@ -1,1 +1,3 @@
-view.graphicalui.second.QuestionStateMachine#setQuestion(Lview/graphicalui/second/AbstractQuestion;)V
+view.controllerui.second.handlerstates.StateMembersRemoval#getStateMembersRemovalInstance()Lview/controllerui/second/handlerstates/StateMembersRemoval;
+view.controllerui.second.handlerstates.StateMembersRemoval#instance-init#
+view.controllerui.second.handlerstates.StateMembersRemoval#<init>()V

@@ -1,1 +1,2 @@
-model.dao.DAO#instance-init#
+model.db.dbconnection.PersistencyDB#openConnection()Ljava/sql/Connection;
+java.sql.DriverManager#getConnection(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;

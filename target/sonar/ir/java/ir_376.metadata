@@ -1,4 +1,9 @@
-view.controllerui.second.Message#groupsDeletionMsg()V
-javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
-javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
-javafx.scene.control.Alert#instance-init#
+view.graphicalui.first.toolbardecorations.UndoRedoBarDecorator#setUpUndoRedoBar()V
+javafx.scene.Node#setOnMouseClicked(Ljavafx/event/EventHandler;)V
+javafx.scene.control.Button#<init>(Ljava/lang/String;)V
+javafx.scene.control.Separator#instance-init#
+javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;
+javafx.scene.control.Separator#<init>()V
+javafx.scene.layout.HBox#<init>([Ljavafx/scene/Node;)V
+javafx.scene.control.Button#instance-init#
+javafx.scene.layout.HBox#instance-init#

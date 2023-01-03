@@ -1,5 +1,5 @@
-view.boundary.UserManageCommunityBoundary#notifyNewGroupMemberNick(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-view.graphicalui.first.HomePage#getHandler()Lview/controllerui/first/HomePageEventHandler;
-view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;
-view.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;
-view.boundary.UserManageCommunityBoundary#notifyNewNick(Ljava/lang/String;)V
+view.boundary.UserManageCommunityBoundary#registerIntoSystem(Lview/bean/UserSignUpBean;)Lview/bean/UserSignInBean;
+control.ManageCommunityController#instance-init#
+control.UserLoginController#instance-init#
+control.ManageCommunityController#<init>()V
+control.UserLoginController#<init>()V

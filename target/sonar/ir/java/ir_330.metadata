@@ -1,3 +1,1 @@
-view.graphicalui.first.ConcreteToolbar#instance-init#
-javafx.scene.control.ToolBar#<init>()V
-javafx.scene.control.ToolBar#instance-init#
+view.graphicalui.first.constcontainer.Protocol#<init>()V

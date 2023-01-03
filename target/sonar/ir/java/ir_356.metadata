@@ -1,1 +1,1 @@
-view.controllerui.second.handlerstates.StateSearch#<init>()V
+view.graphicalui.second.Shell#getPrompt()Ljavafx/scene/control/TextField;

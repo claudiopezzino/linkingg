@@ -1,1 +1,3 @@
-model.db.dbqueries.MeetingDAOQueries#instance-init#
+view.graphicalui.first.SignupPage#getAccount()Ljava/lang/String;
+javafx.scene.control.Labeled#getText()Ljava/lang/String;
+javafx.scene.control.ToggleGroup#getSelectedToggle()Ljavafx/scene/control/Toggle;

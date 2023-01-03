@@ -1,3 +1,1 @@
-view.graphicalui.second.Home#manageProfile()V
-view.controllerui.second.handlerstates.StateManageProfile#getStateManageProfileInstance()Lview/controllerui/second/handlerstates/StateManageProfile;
-javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.bean.observers.GroupBean#setMapMembers(Ljava/util/Map;)V

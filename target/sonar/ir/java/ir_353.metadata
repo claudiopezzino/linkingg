@@ -1,1 +1,1 @@
-view.graphicalui.second.SecondMain#setCurrScene(Ljavafx/scene/Scene;)V
+view.graphicalui.second.Shell#instance-init#

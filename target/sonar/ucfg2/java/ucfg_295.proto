@@ -1,18 +1,40 @@
 
-Tview.graphicalui.first.SignupPage#getTextFieldMail()Ljavafx/scene/control/TextField;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaú ú(%"1*ñ
-1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaû û(î
-ë
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaû û(!$
-%0javafx.scene.control.TextField"__id*T
+1model.ImageProfile#imageSize(Ljava/lang/String;)IV
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java5 5("2"1*ö
+2V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java7" 7(+|z
+V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java7 7(!
+%0java.io.File"java.io.Fileú
+÷
+V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java7 7(,
+%1"(java.io.File#<init>(Ljava/lang/String;)V*0
 
-__unknown_file (8*6#
-!view.graphicalui.first.SignupPage"
-textFieldMail"‘
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaû û("&
-$
-%0javafx.scene.control.TextFieldB%#
-!view.graphicalui.first.SignupPageH
+__unknown_file (
+
+%0java.io.File*;
+
+__unknown_file (
+
+	imagePathjava.lang.String»¸
+V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java7 7(5
+
+%2long"java.io.File#length()J*0
+
+__unknown_file (
+
+%0java.io.File2length()"`
+V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java7 7(6
+""*½
+1V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java8 8("`
+V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java8 8(
+"":w
+V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java5  5(0
+	imagePathjava.lang.StringB"
+model.ImageProfileH

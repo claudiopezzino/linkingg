@@ -1,1 +1,5 @@
-view.controllerui.first.Dialog#instance-init#
+view.boundary.UserManageCommunityBoundary#notifyNewGroupMemberNick(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;
+javafx.application.Platform#runLater(Ljava/lang/Runnable;)V
+view.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;
+view.boundary.UserManageCommunityBoundary#notifyNewNick(Ljava/lang/String;)V

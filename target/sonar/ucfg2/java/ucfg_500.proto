@@ -1,18 +1,18 @@
 
-=view.bean.observers.MeetingBean#getRating()Ljava/lang/String;c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java- -("1*¿
-1c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java. .(Ó
-Ð
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java. .(
-%0java.lang.String"__id*K
+-model.subjects.Group#name()Ljava/lang/String;X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaO O("1*‘
+1X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaP P(»
+¸
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaP P(
+%0java.lang.String"__id*>
 
-__unknown_file (/*-!
-view.bean.observers.MeetingBean"
-rating"
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java. .(
+__unknown_file ("* 
+model.subjects.Group"
+name"t
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaP P(
 
-%0java.lang.StringB#!
-view.bean.observers.MeetingBeanH
+%0java.lang.StringB
+model.subjects.GroupH

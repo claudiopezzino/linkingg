@@ -1,3 +1,4 @@
-view.controllerui.second.KeyEventHandler#updateMeetingsList()V
-javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
-view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;
+view.controllerui.second.Message#meetingDeletionMsg()V
+javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
+javafx.scene.control.Dialog#show()V
+javafx.scene.control.Alert#instance-init#

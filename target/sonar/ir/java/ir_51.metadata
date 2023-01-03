@@ -1,1 +1,4 @@
-view.bean.BeanErrorDecorator#<init>(Lview/bean/BeanError;Ljava/lang/String;)V
+view.graphicalui.first.toolbardecorations.InfoBarDecorator#draw()Ljavafx/scene/control/ToolBar;
+javafx.scene.control.Separator#instance-init#
+javafx.scene.control.Separator#<init>()V
+javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;

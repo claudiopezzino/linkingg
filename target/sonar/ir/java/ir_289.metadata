@@ -1,2 +1,2 @@
-view.graphicalui.first.SignupPage#getMail()Ljava/lang/String;
-javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
+view.graphicalui.first.toolbardecorations.SignBarDecorator#draw()Ljavafx/scene/control/ToolBar;
+javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;

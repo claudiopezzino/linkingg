@@ -1,1 +1,2 @@
-view.graphicalui.second.usernamequestionstates.QuestionNewUsername#instance-init#
+view.bean.UserSignUpBean#getProvince()Ljava/lang/String;
+java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;

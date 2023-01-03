@@ -1,3 +1,5 @@
-view.controllerui.second.handlerstates.StateSearch#getStateSearchInstance()Lview/controllerui/second/handlerstates/StateSearch;
-view.controllerui.second.handlerstates.StateSearch#<init>()V
-view.controllerui.second.handlerstates.StateSearch#instance-init#
+view.graphicalui.second.Shell#setUpPrompt()V
+javafx.scene.control.TextField#instance-init#
+javafx.scene.control.TextInputControl#setPromptText(Ljava/lang/String;)V
+javafx.scene.Node#setOnKeyReleased(Ljavafx/event/EventHandler;)V
+javafx.scene.control.TextField#<init>()V

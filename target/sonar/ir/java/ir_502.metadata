@@ -1,1 +1,4 @@
-view.bean.Regex#instance-init#
+view.bean.UserSignUpBean#setCell(Ljava/lang/String;)V
+view.bean.errorsignupdecorations.CellBeanErrorDecorator#<init>(Lview/bean/BeanError;)V
+view.bean.errorsignupdecorations.CellBeanErrorDecorator#instance-init#
+view.bean.Regex#isMatching(Ljava/lang/String;Ljava/lang/String;)Z

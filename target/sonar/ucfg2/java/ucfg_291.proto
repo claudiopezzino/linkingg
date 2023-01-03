@@ -1,18 +1,53 @@
 
-Mview.graphicalui.first.SignupPage#getBtnSignUp()Ljavafx/scene/control/Button;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java‚ ‚("1*Á
-1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java„ „(Á
-‰
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java„ „(!
-%0javafx.scene.control.Button"__id*P
+ùview.controllerui.second.handlerstates.StateMemberInvitation#getStateMemberInvitationInstance()Lview/controllerui/second/handlerstates/StateMemberInvitation;Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberInvitation.java;( ;(H"3*£
+2Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberInvitation.java=, =(GàÖ
+Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberInvitation.java=0 =(EB
+%1<view.controllerui.second.handlerstates.StateMemberInvitation"<view.controllerui.second.handlerstates.StateMemberInvitation∂
+≥
+Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberInvitation.java=, =(G
+%2"Fview.controllerui.second.handlerstates.StateMemberInvitation#<init>()V*`
 
-__unknown_file (4*2#
-!view.graphicalui.first.SignupPage"
-	btnSignUp"é
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java„ „(#
-!
-%0javafx.scene.control.ButtonB%#
-!view.graphicalui.first.SignupPageH
+__unknown_file (D
+B
+%1<view.controllerui.second.handlerstates.StateMemberInvitation—
+Œ
+Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberInvitation.java= =(Ga>
+<view.controllerui.second.handlerstates.StateMemberInvitation"
+stateMemberInvitationInstance"__id*`
+
+__unknown_file (D
+B
+%1<view.controllerui.second.handlerstates.StateMemberInvitation*
+1*‚
+3Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberInvitation.java< <((—
+Œ
+Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberInvitation.java< <((B
+%0<view.controllerui.second.handlerstates.StateMemberInvitation"__id*
+
+__unknown_file (c*a>
+<view.controllerui.second.handlerstates.StateMemberInvitation"
+stateMemberInvitationInstance*
+2
+1*¶
+1Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberInvitation.java> >(,—
+Œ
+Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberInvitation.java> >(,B
+%3<view.controllerui.second.handlerstates.StateMemberInvitation"__id*
+
+__unknown_file (c*a>
+<view.controllerui.second.handlerstates.StateMemberInvitation"
+stateMemberInvitationInstance"…
+Ä
+v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberInvitation.java> >(-D
+B
+%3<view.controllerui.second.handlerstates.StateMemberInvitationB@">
+<view.controllerui.second.handlerstates.StateMemberInvitationH

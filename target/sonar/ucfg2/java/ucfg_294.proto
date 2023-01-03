@@ -1,18 +1,72 @@
 
-Wview.graphicalui.first.SignupPage#getTextFieldAddress()Ljavafx/scene/control/TextField;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÙ Ù(("1*Ù
-1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaı ı(Ò
-Ó
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaı ı($$
-%0javafx.scene.control.TextField"__id*W
+Wmodel.ImageProfile#fromStringToInputStream(Ljava/lang/String;)Ljava/io/FileInputStream;V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java'" '(9"7"1*÷
+4V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java+ +(C"y
+V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java+ +(C
+
+%3java.io.FileInputStream*Ç
+5V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java+ +(Bìê
+V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java+ +(*
+%3java.io.FileInputStream"java.io.FileInputStreamâ
+Ü
+V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java+ +(B
+%4"3java.io.FileInputStream#<init>(Ljava/lang/String;)V*;
 
-__unknown_file (;*9#
-!view.graphicalui.first.SignupPage"
-textFieldAddress"ë
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaı ı(%&
-$
-%0javafx.scene.control.TextFieldB%#
-!view.graphicalui.first.SignupPageH
+__unknown_file (
+
+%3java.io.FileInputStream*4
+
+__unknown_file (
+
+%2java.lang.String*
+4*œ
+6V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java++ +(/ÏÈ
+V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java++ +(A
+%2java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*2
+
+__unknown_file (
+
+filejava.io.File2getAbsolutePath()*
+5*á
+7V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java)! )(*|z
+V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java) )( 
+%0java.io.File"java.io.File˙
+˜
+V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java) )(+
+%1"(java.io.File#<init>(Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%0java.io.File*;
+
+__unknown_file (
+
+	imagePathjava.lang.String©
+¶
+V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java) )(,
+filejava.io.File"__id*0
+
+__unknown_file (
+
+%0java.io.File*
+6*Ω
+1V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java0 0("`
+V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java0 0(
+"":w
+V
+L/Users/pain/eclipse-workspace/linkingg/src/main/java/model/ImageProfile.java': '(J
+	imagePathjava.lang.StringB"
+model.ImageProfileH

@@ -307,7 +307,6 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
 
         else if(signin.getPrompt().getText().equals(CONFIRM) && signin.getStateMachine().getQuestion() == null) {
             this.initSigninPhase(signin);
-            this.showNotifications();
         }
 
         else if(signin.getSignMode().equals(true) && signin.getPrompt().getText().equals(MANUAL)){
@@ -354,8 +353,9 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
             infoErrorMsg(stackError);
         else {
             this.accessUser(userSignInBean);
-            signin.setSignMode(true);
+            this.showNotifications();
         }
+        signin.setSignMode(true);
         signin.getPrompt().clear();
         Signin.getSigninInstance().displaySignOptions();
     }

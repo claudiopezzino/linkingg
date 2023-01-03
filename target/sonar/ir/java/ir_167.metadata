@@ -1,3 +1,2 @@
-view.graphicalui.second.Home#membersRemovalMode()V
-view.graphicalui.second.Home#showBlacklist(Ljava/lang/String;)V
-view.controllerui.second.handlerstates.StateMembersRemoval#getStateMembersRemovalInstance()Lview/controllerui/second/handlerstates/StateMembersRemoval;
+view.graphicalui.second.Home#saveGroupName(Ljava/lang/String;)V
+view.controllerui.second.handlerstates.StateGroupCreationNickname#getStateGroupCreationNicknameInstance()Lview/controllerui/second/handlerstates/StateGroupCreationNickname;

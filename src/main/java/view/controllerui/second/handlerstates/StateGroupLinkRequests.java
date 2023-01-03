@@ -22,17 +22,20 @@ public class StateGroupLinkRequests implements AbstractState{
         if(home.getPrompt().getText().equals(BACK))
             home.groupOptions(home.getGroupNickname());
 
+        // to delete
         else if(home.getPrompt().getText().equals(PREV)
                 && home.getGroupMembers() != null)
             home.linkRequestsPreviousList();
 
+        // to delete
         else if(home.getPrompt().getText().equals(ACCEPT)) {
             home.initGroupMembers();
             acceptRequestsMsg();
             home.groupOptions(home.getGroupNickname());
         }
 
-        else if(!home.getPrompt().getText().isEmpty())
+        else if(!home.getPrompt().getText().isEmpty() &&
+                !home.getPrompt().getText().equals(PREV))
             home.addTargetIntoList(home.getPrompt().getText(), home.getGroupMembers());
 
         else

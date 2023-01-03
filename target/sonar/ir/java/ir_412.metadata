@@ -1,4 +1,4 @@
-control.controlutilities.SecureObjectInputStream#<init>(Ljava/io/InputStream;)V
-java.lang.Object#getClass()Ljava/lang/Class;
-java.lang.Class#getName()Ljava/lang/String;
-java.util.Collections#emptyMap()Ljava/util/Map;
+view.controllerui.second.Message#refuseMeetingMsg()V
+javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
+javafx.scene.control.Dialog#show()V
+javafx.scene.control.Alert#instance-init#

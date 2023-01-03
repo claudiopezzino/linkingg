@@ -1,1 +1,1 @@
-model.dao.MeetingDAO#createEntity(Ljava/util/Map;)V
+view.bean.observers.MeetingBean#getRating()Ljava/lang/String;

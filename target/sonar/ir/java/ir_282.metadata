@@ -1,1 +1,3 @@
-view.graphicalui.first.SignupPage#getTextFieldSurname()Ljavafx/scene/control/TextField;
+view.controllerui.second.handlerstates.StateMemberInvitation#getStateMemberInvitationInstance()Lview/controllerui/second/handlerstates/StateMemberInvitation;
+view.controllerui.second.handlerstates.StateMemberInvitation#instance-init#
+view.controllerui.second.handlerstates.StateMemberInvitation#<init>()V

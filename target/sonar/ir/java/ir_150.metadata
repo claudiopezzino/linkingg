@@ -1,4 +1,3 @@
-view.graphicalui.second.Home#applySearch(Ljava/lang/String;)V
-view.controllerui.second.handlerstates.StateGroupRequest#getStateGroupRequestInstance()Lview/controllerui/second/handlerstates/StateGroupRequest;
-java.lang.String#equals(Ljava/lang/Object;)Z
-view.controllerui.second.handlerstates.StateSearchEnd#getStateSearchEndInstance()Lview/controllerui/second/handlerstates/StateSearchEnd;
+view.graphicalui.second.Home#showLinkInvitations()V
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.controllerui.second.handlerstates.StateUserLinkInvitations#getStateUserLinkInvitationsInstance()Lview/controllerui/second/handlerstates/StateUserLinkInvitations;

@@ -1,7 +1,4 @@
-view.controllerui.second.KeyEventHandler#initSigninPhase(Lview/graphicalui/second/Signin;)V
-view.bean.UserSignInBean#instance-init#
-view.graphicalui.second.Signin#getSigninInstance()Lview/graphicalui/second/Signin;
-view.controllerui.second.KeyEventHandler#accessUser(Lview/bean/UserSignInBean;)V
-view.controllerui.second.Message#infoErrorMsg(Ljava/lang/String;)V
-view.controllerui.second.KeyEventHandler#verifyUserCredentials(Lview/graphicalui/second/Signin;Lview/bean/UserSignInBean;)Ljava/lang/String;
-view.bean.UserSignInBean#<init>()V
+view.controllerui.second.Message#passwordChangedMsg()V
+javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
+javafx.scene.control.Dialog#show()V
+javafx.scene.control.Alert#instance-init#

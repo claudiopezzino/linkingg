@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#setGroupOwnerNick(Ljava/lang/String;)V
+view.graphicalui.second.Home#getTargetGroups()Ljava/util/List;

@@ -1,18 +1,19 @@
 
-9view.bean.observers.MeetingBean#getId()Ljava/lang/String;c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java! !("1*»
-1c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java" "(Ï
-Ì
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java" "(
-%0java.lang.String"__id*G
+-model.subjects.Group#members()Ljava/util/Map;X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaC C($"1*‘
+1X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaD D(¾
+»
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaD D(
+%0java.util.Map"__id*D
 
-__unknown_file (+*)!
-view.bean.observers.MeetingBean"
-id"
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java" "(
-
-%0java.lang.StringB#!
-view.bean.observers.MeetingBeanH
+__unknown_file ((*&
+model.subjects.Group"
+
+mapMembers"q
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaD D(
+
+%0java.util.MapB
+model.subjects.GroupH

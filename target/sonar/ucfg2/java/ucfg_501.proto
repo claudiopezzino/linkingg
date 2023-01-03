@@ -1,18 +1,19 @@
 
-;view.bean.observers.MeetingBean#getDate()Ljava/lang/String;c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java3 3("1*½
-1c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java4 4(Ñ
-Î
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java4 4(
-%0java.lang.String"__id*I
+1model.subjects.Group#nickname()Ljava/lang/String;X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaU U("1*•
+1X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaV V(¿
+¼
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaV V(
+%0java.lang.String"__id*B
 
-__unknown_file (-*+!
-view.bean.observers.MeetingBean"
-date"
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java4 4(
+__unknown_file (&*$
+model.subjects.Group"
+
+nickname"t
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaV V(
 
-%0java.lang.StringB#!
-view.bean.observers.MeetingBeanH
+%0java.lang.StringB
+model.subjects.GroupH

@@ -1,1 +1,4 @@
-view.controllerui.second.KeyEventHandler#updateUserNick(Lview/graphicalui/second/Home;)V
+view.controllerui.second.Message#errorMsg()V
+javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
+javafx.scene.control.Dialog#show()V
+javafx.scene.control.Alert#instance-init#

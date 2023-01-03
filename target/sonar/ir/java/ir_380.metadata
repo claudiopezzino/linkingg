@@ -1,4 +1,4 @@
-view.controllerui.second.Message#groupCreationMsg()V
-javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
+view.graphicalui.first.Dialog#errorDialog(Ljava/lang/String;)V
 javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
-javafx.scene.control.Alert#instance-init#
+javafx.scene.control.Labeled#setText(Ljava/lang/String;)V
+view.graphicalui.first.Dialog$InfoErrorDialog#getInfoErrorDialogInstance()Lview/graphicalui/first/Dialog$InfoErrorDialog;

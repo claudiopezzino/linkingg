@@ -1,3 +1,2 @@
-view.graphicalui.second.meetingquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/meetingquestionstates/QuestionEnd;
-view.graphicalui.second.meetingquestionstates.QuestionEnd#instance-init#
-view.graphicalui.second.meetingquestionstates.QuestionEnd#<init>()V
+view.graphicalui.first.SignupPage#getCell()Ljava/lang/String;
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;

@@ -1,1 +1,1 @@
-view.bean.observers.GroupBean#setSubject(Lmodel/subjects/Group;)V
+view.bean.observers.GroupBean#getImage()Ljava/lang/String;

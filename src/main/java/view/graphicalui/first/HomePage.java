@@ -608,6 +608,12 @@ public class HomePage extends Parent {
         private static LinkRequestsDialog linkRequestsDialogInstance;
         /////////////////////////////////////////////////////////////
 
+        /////////////////////////////////////////////////
+        private ListView<VBox> listViewUserRequests;
+        private ObservableList<VBox> observableListUsers;
+        /////////////////////////////////////////////////
+
+
         /////////////////////////////////////////////////////////////////
         private LinkRequestsDialog() {
             super("Link requests", "Requests", LINK_REQUESTS);
@@ -615,6 +621,7 @@ public class HomePage extends Parent {
             this.setResultConverter(this::linkRequestsResult);
         }
         //////////////////////////////////////////////////////////////////
+
 
         ///////////////////////////////////////////////////////////////////////
         private Map<String, String> linkRequestsResult(ButtonType buttonType){
@@ -633,11 +640,12 @@ public class HomePage extends Parent {
             VBox vBoxPlaceholder = new VBox(new ImageView(NO_USER), new Label("No user available"));
             vBoxPlaceholder.getStyleClass().add(HBOX);
 
-            ListView<HBox> listViewUserRequests = new ListView<>();
-            listViewUserRequests.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
-            listViewUserRequests.setPlaceholder(vBoxPlaceholder);
+            this.observableListUsers = FXCollections.observableArrayList();
+            this.listViewUserRequests = new ListView<>();
+            this.listViewUserRequests.setPlaceholder(vBoxPlaceholder);
+            this.listViewUserRequests.setItems(this.observableListUsers);
 
-            vBoxRoot.getChildren().add(listViewUserRequests);
+            vBoxRoot.getChildren().add(this.listViewUserRequests);
 
             return vBoxRoot;
         }
@@ -648,6 +656,13 @@ public class HomePage extends Parent {
             if(linkRequestsDialogInstance == null)
                 linkRequestsDialogInstance = new LinkRequestsDialog();
             return linkRequestsDialogInstance;
+        }
+        ///////////////////////////////////////////////////////////////////
+
+        ///////////////////////////////////////////////////////////////////
+        public void initListUserRequests(List<VBox> vBoxListUserDetails){
+            this.observableListUsers.clear();
+            this.observableListUsers.addAll(vBoxListUserDetails);
         }
         ///////////////////////////////////////////////////////////////////
 
@@ -1088,12 +1103,16 @@ public class HomePage extends Parent {
     ///////////////////////////////////////////////////////////////////////////////
 
     /////////////////////////////////////////////////////////////////////////////////
-    public VBox setUpVBoxDetails(String imagePath, String nickname, String fullName){
+    public VBox setUpVBoxDetails(String imagePath, String nickname, String fullName, String source){
         VBox vBoxDetails = new VBox();
         vBoxDetails.getStyleClass().addAll(IMG_CONTAINER, HBOX);
 
         Circle circleGroupImage = new Circle(40);
-        circleGroupImage.setFill(new ImagePattern(new Image(FILE + imagePath)));
+
+        if(source.equals(USERS)) // because users in this version don't have an image profile
+            circleGroupImage.setFill(new ImagePattern(new Image(imagePath)));
+        else
+            circleGroupImage.setFill(new ImagePattern(new Image(FILE + imagePath)));
 
         Label labelGroupName = new Label("Name:    " + fullName);
         Label labelGroupNick = new Label("Nickname:    " + nickname);

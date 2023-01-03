@@ -1,3 +1,6 @@
-view.graphicalui.second.Home#listMembers()V
+view.graphicalui.second.Home#setUpGroupInfo()V
+view.controllerui.second.handlerstates.StateGroupCreationName#getStateGroupCreationNameInstance()Lview/controllerui/second/handlerstates/StateGroupCreationName;
+view.graphicalui.second.groupquestionstates.QuestionGroupName#getQuestionGroupNameInstance()Lview/graphicalui/second/groupquestionstates/QuestionGroupName;
+view.graphicalui.second.QuestionStateMachine#instance-init#
 javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
-view.controllerui.second.handlerstates.StateMembersView#getStateMembersViewInstance()Lview/controllerui/second/handlerstates/StateMembersView;
+view.graphicalui.second.QuestionStateMachine#<init>()V

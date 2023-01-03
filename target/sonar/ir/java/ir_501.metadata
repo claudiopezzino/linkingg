@@ -1,3 +1,4 @@
-view.graphicalui.second.usernamequestionstates.QuestionNewUsername#getQuestionNewUsernameInstance()Lview/graphicalui/second/usernamequestionstates/QuestionNewUsername;
-view.graphicalui.second.usernamequestionstates.QuestionNewUsername#<init>()V
-view.graphicalui.second.usernamequestionstates.QuestionNewUsername#instance-init#
+view.bean.UserSignUpBean#setEmail(Ljava/lang/String;)V
+view.bean.errorsignupdecorations.EmailBeanErrorDecorator#instance-init#
+view.bean.errorsignupdecorations.EmailBeanErrorDecorator#<init>(Lview/bean/BeanError;)V
+view.bean.Regex#isMatching(Ljava/lang/String;Ljava/lang/String;)Z

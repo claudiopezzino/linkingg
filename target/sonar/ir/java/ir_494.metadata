@@ -1,1 +1,1 @@
-view.graphicalui.second.passwordquestionstates.QuestionEnd#<init>()V
+view.bean.UserSignUpBean#getEmail()Ljava/lang/String;

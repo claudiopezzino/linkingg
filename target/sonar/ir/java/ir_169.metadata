@@ -1,3 +1,3 @@
-view.graphicalui.second.Home#showLinkRequests(Ljava/lang/String;)V
-view.controllerui.second.handlerstates.StateGroupLinkRequests#getStateGroupLinkRequestsInstance()Lview/controllerui/second/handlerstates/StateGroupLinkRequests;
+view.graphicalui.second.Home#listGroups()V
+view.controllerui.second.handlerstates.StateGroupsView#getStateGroupsViewInstance()Lview/controllerui/second/handlerstates/StateGroupsView;
 javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V

@@ -1,2 +1,4 @@
-view.controllerui.first.HomePageEventHandler#updateGroupsList(Lview/bean/observers/GroupBean;)V
-view.graphicalui.first.HomePage#getHomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/HomePage;
+view.graphicalui.first.toolbardecorations.SocialBarDecorator#draw()Ljavafx/scene/control/ToolBar;
+javafx.scene.control.Separator#instance-init#
+javafx.scene.control.Separator#<init>()V
+javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;

@@ -1,1 +1,2 @@
-view.bean.NoUserBeanException#instance-init#
+view.graphicalui.second.signupquestionstates.QuestionName#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.signupquestionstates.QuestionSurname#getQuestionSurnameInstance()Lview/graphicalui/second/signupquestionstates/QuestionSurname;

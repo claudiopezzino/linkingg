@@ -1,3 +1,4 @@
-view.controllerui.second.KeyEventHandler#assignMapGroupsBean(Ljava/util/Map;)V
-java.util.HashMap#<init>()V
-java.util.HashMap#instance-init#
+view.controllerui.second.Message#credentialMsg(Ljava/lang/String;Ljava/lang/String;)V
+javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
+javafx.scene.control.Dialog#show()V
+javafx.scene.control.Alert#instance-init#

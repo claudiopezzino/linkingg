@@ -1,2 +1,2 @@
-view.graphicalui.second.meetingquestionstates.QuestionEnd#display()V
-view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;
+view.graphicalui.first.SignupPage#getAddress()Ljava/lang/String;
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;

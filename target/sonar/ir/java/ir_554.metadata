@@ -1,1 +1,1 @@
-view.graphicalui.second.meetingquestionstates.QuestionAddrToStartSearch#<init>()V
+view.bean.observers.MeetingBean#setName(Ljava/lang/String;)V

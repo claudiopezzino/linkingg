@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#instance-init#
+view.bean.observers.GroupBean#getMapLinkRequests()Ljava/util/Map;

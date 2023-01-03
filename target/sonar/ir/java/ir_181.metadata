@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#setCurrSearchFilter(Ljava/lang/String;)V
+view.graphicalui.second.Home#linkRequestsPreviousList()V

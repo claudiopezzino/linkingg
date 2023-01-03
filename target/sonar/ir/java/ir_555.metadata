@@ -1,2 +1,1 @@
-view.graphicalui.second.meetingquestionstates.QuestionAddrToStartSearch#display()V
-view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;
+view.bean.observers.MeetingBean#setRating(Ljava/lang/String;)V

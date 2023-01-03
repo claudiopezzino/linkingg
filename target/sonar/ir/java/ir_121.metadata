@@ -1,1 +1,1 @@
-view.bean.observers.GroupBean#getMapMembers()Ljava/util/Map;
+control.tasks.Loader#<init>(Ljava/net/Socket;Ljava/util/Map;Lmodel/subjects/User;)V

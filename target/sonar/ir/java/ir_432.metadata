@@ -1,7 +1,3 @@
-view.graphicalui.first.MeetingPage#setUpMeetingPage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;
-javafx.scene.layout.VBox#instance-init#
-view.graphicalui.first.MeetingPage#setUpQuestionsForm(Ljavafx/collections/ObservableList;)Ljavafx/scene/control/ListView;
-view.graphicalui.first.MeetingPage#setUpQuestionSetContainer()Ljavafx/collections/ObservableList;
-javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;
-view.graphicalui.first.MeetingPage#setUpMeetingChoiceArea()Ljavafx/scene/layout/VBox;
-javafx.scene.layout.VBox#<init>()V
+view.controllerui.second.KeyEventHandler#assignMapGroupsBean(Ljava/util/Map;)V
+java.util.HashMap#<init>()V
+java.util.HashMap#instance-init#

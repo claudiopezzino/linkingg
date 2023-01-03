@@ -1,6 +1,1 @@
-control.tasks.Loader#checkFilter(Lmodel/Filter;Lcontrol/controlutilities/SecureObjectInputStream;Ljava/io/ObjectOutputStream;)V
-control.tasks.Loader#updateGroups(Lcontrol/controlutilities/SecureObjectInputStream;Ljava/io/ObjectOutputStream;)V
-control.tasks.Loader#updateMeetingJoiners(Lcontrol/controlutilities/SecureObjectInputStream;)V
-control.tasks.Loader#updateGroupMembers(Lcontrol/controlutilities/SecureObjectInputStream;)V
-control.tasks.Loader#updateMeetings(Lcontrol/controlutilities/SecureObjectInputStream;)V
-control.tasks.Loader#updateUserNick(Lcontrol/controlutilities/SecureObjectInputStream;)V
+view.bean.errorsignupdecorations.SurnameBeanErrorDecorator#displayErrors()Ljava/lang/String;

@@ -1,1 +1,4 @@
-view.controllerui.second.handlerstates.StateMeetingProposal#instance-init#
+view.boundary.UserManageCommunityBoundary#notifyNewLinkRequest(Ljava/lang/String;Ljava/lang/String;)V
+view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;
+javafx.application.Platform#runLater(Ljava/lang/Runnable;)V
+view.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;

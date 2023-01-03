@@ -1,3 +1,4 @@
-view.graphicalui.second.Home#searchFilter()V
-view.controllerui.second.handlerstates.StateSearchFilter#getStateSearchFilterInstance()Lview/controllerui/second/handlerstates/StateSearchFilter;
+view.graphicalui.second.Home#restoreScreen()V
+javafx.scene.Node#setFocusTraversable(Z)V
+view.controllerui.second.handlerstates.StateMain#getStateMainInstance()Lview/controllerui/second/handlerstates/StateMain;
 javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V

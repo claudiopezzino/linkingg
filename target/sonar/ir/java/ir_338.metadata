@@ -1,1 +1,14 @@
-view.graphicalui.second.Shell#instance-init#
+view.controllerui.first.SigninPageEventHandler#handle(Ljavafx/scene/input/MouseEvent;)V
+view.graphicalui.first.toolbaritems.SignToolbarItems$MainBarItems#getIndex()Ljava/lang/Integer;
+view.bean.UserSignInBean#instance-init#
+view.graphicalui.first.toolbaritems.SignToolbarItems#getIndex()Ljava/lang/Integer;
+view.graphicalui.first.SigninPage#getSigninPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/SigninPage;
+view.controllerui.first.SigninPageEventHandler#checkUserCredentials(Lview/bean/UserSignInBean;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+view.graphicalui.first.Dialog#errorDialog(Ljava/lang/String;)V
+view.controllerui.first.SigninPageEventHandler#accessUser(Lview/bean/UserSignInBean;)V
+javafx.scene.Scene#setRoot(Ljavafx/scene/Parent;)V
+view.controllerui.first.SigninPageEventHandler#clearSigninCredentials(Lview/graphicalui/first/SigninPage;)V
+view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;
+view.graphicalui.first.Container#getRoot(Lview/graphicalui/first/Page;)Ljavafx/scene/control/ScrollPane;
+javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;
+view.bean.UserSignInBean#<init>()V

@@ -1,1 +1,2 @@
-view.bean.observers.MeetingBean#setPhotos(Ljava/util/List;)V
+view.graphicalui.second.usernamequestionstates.QuestionNewUsername#display()V
+view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;

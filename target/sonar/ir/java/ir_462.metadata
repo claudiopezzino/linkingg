@@ -1,1 +1,3 @@
-view.bean.UserSignUpBean#getSurname()Ljava/lang/String;
+view.graphicalui.first.MeetingPage#getMeetingPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/MeetingPage;
+view.graphicalui.first.MeetingPage#<init>(Lview/graphicalui/first/Toolbar;)V
+view.graphicalui.first.MeetingPage#instance-init#

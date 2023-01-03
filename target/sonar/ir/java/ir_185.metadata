@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#getMeetingId()Ljava/lang/String;
+view.graphicalui.second.Home#restorePrevQuestionsScreen()V

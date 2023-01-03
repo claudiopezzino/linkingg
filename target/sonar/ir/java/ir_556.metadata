@@ -1,2 +1,1 @@
-view.graphicalui.second.meetingquestionstates.QuestionAddrToStartSearch#next(Lview/graphicalui/second/QuestionStateMachine;)V
-view.graphicalui.second.meetingquestionstates.QuestionRadiusOfAction#getQuestionRadiusOfActionInstance()Lview/graphicalui/second/meetingquestionstates/QuestionRadiusOfAction;
+view.bean.observers.MeetingBean#setDate(Ljava/lang/String;)V

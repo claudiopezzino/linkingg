@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#getStateMachine()Lview/graphicalui/second/QuestionStateMachine;
+view.graphicalui.second.Home#displayQuestion()V

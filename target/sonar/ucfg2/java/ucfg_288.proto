@@ -1,18 +1,51 @@
 
-aview.graphicalui.first.SignupPage$CredentialDialog#getLabelNickname()Ljavafx/scene/control/Label;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÉ É(%"1*ú
-1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÊ Ê(û
-ø
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÊ Ê(% 
-%0javafx.scene.control.Label"__id*e
+\view.bean.errorsignupdecorations.AccountBeanErrorDecorator#displayErrors()Ljava/lang/String;~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/AccountBeanErrorDecorator.java ("1*„
+1~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/AccountBeanErrorDecorator.java (ÿ
+ü
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/AccountBeanErrorDecorator.java (-
+%0java.lang.String">view.bean.BeanErrorDecorator#displayErrors()Ljava/lang/String;*"
 
-__unknown_file (I*G4
-2view.graphicalui.first.SignupPage$CredentialDialog"
-labelNickname"
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÊ Ê(&"
- 
-%0javafx.scene.control.LabelB64
-2view.graphicalui.first.SignupPage$CredentialDialogH
+__unknown_file (
+""Û
+Ø
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/AccountBeanErrorDecorator.java (.
+errorsjava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.String¹¶
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/AccountBeanErrorDecorator.java (#
+%1java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*Z
+
+__unknown_file (><
+:view.bean.errorsignupdecorations.AccountBeanErrorDecorator2getMessage()ã
+à
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/AccountBeanErrorDecorator.java (#
+%2java.lang.String"__concat*ž
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/AccountBeanErrorDecorator.java (#
+
+errorsjava.lang.String*š
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/AccountBeanErrorDecorator.java (#
+
+%1java.lang.StringÛ
+Ø
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/AccountBeanErrorDecorator.java (#
+errorsjava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.String"ž
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/AccountBeanErrorDecorator.java (
+
+errorsjava.lang.StringB><
+:view.bean.errorsignupdecorations.AccountBeanErrorDecoratorH

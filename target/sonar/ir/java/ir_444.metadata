@@ -1,1 +1,3 @@
-view.bean.ConcreteBeanError#instance-init#
+view.graphicalui.second.signupquestionstates.QuestionAccount#getQuestionAccountInstance()Lview/graphicalui/second/signupquestionstates/QuestionAccount;
+view.graphicalui.second.signupquestionstates.QuestionAccount#instance-init#
+view.graphicalui.second.signupquestionstates.QuestionAccount#<init>()V

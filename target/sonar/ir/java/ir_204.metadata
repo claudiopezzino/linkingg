@@ -1,1 +1,3 @@
-view.graphicalui.second.Home#setListOtherMeetings(Ljava/util/List;)V
+view.graphicalui.second.Home#initGroupMembers()V
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#

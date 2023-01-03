@@ -1,79 +1,18 @@
 
-Lview.graphicalui.second.Welcome#setUpWelcomeRoot()Ljavafx/scene/layout/VBox;c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java' '(!"1*û
-1c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java( ((¢Ÿ
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java( ((
-%0javafx.scene.layout.VBox"javafx.scene.layout.VBoxÐ
-Í
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java( ((
-%1""javafx.scene.layout.VBox#<init>()V*<
+Iview.graphicalui.second.Shell#getPrompt()Ljavafx/scene/control/TextField;a
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java3 3("1*Ô
+1a
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java4 4(Ý
+Ú
+a
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java4 4($
+%0javafx.scene.control.TextField"__id*I
 
-__unknown_file ( 
-
-%0javafx.scene.layout.VBoxÎ
-Ë
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java( (( 
-rootjavafx.scene.layout.VBox"__id*<
-
-__unknown_file ( 
-
-%0javafx.scene.layout.VBox«¨
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java) )('
-%2!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*>
-
-__unknown_file ("
- 
-rootjavafx.scene.layout.VBox2getChildren()ã
-à
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java)" )(5
-%3javafx.scene.layout.HBox"__id*S
-
-__unknown_file (7*5!
-view.graphicalui.second.Welcome"
-titleContainerà
-Ý
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java)7 )(B#
-%4javafx.scene.control.TextArea"__id*K
-
-__unknown_file (/*-!
-view.graphicalui.second.Welcome"
-screená
-Þ
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java)D )(O$
-%5javafx.scene.control.TextField"__id*K
-
-__unknown_file (/*-!
-view.graphicalui.second.Welcome"
-promptàÝ
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java) )(P
-%6boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z*E
-
-__unknown_file ()
-'
-%2!javafx.collections.ObservableList*<
-
-__unknown_file ( 
-
-%3javafx.scene.layout.HBox*A
-
-__unknown_file (%
-#
-%4javafx.scene.control.TextArea*B
-
-__unknown_file (&
+__unknown_file (-*+
+view.graphicalui.second.Shell"
+prompt"‹
+a
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java4 4(&
 $
-%5javafx.scene.control.TextField2addAll([Ljava/lang/Object;)"‰
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Welcome.java* *("
- 
-rootjavafx.scene.layout.VBoxB#!
-view.graphicalui.second.Welcome
+%0javafx.scene.control.TextFieldB!
+view.graphicalui.second.ShellH

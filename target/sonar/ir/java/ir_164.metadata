@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#groupsPreviousBlacklist(Ljava/lang/String;)V
+view.graphicalui.second.Home#displayTargetGroups()V

@@ -1,3 +1,2 @@
-model.db.dbconnection.PersistencyDB#getSingletonInstance()Lmodel/db/dbconnection/PersistencyDB;
 model.db.dbconnection.PersistencyDB#<init>()V
-model.db.dbconnection.PersistencyDB#instance-init#
+model.db.dbconnection.PersistencyDB#fetchDBConfigProperties()V

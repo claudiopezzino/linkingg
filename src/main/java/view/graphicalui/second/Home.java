@@ -97,6 +97,10 @@ public class Home extends Shell{
     private List<Pair<String, String>> listGroupMembers;
     ////////////////////////////////////////////////////
 
+    ////////////////////////////////////////////////////
+    private List<Pair<String, String>> listLinkRequests;
+    ////////////////////////////////////////////////////
+
     ////////////////////////////////////////
     private List<String> listMeetingJoiners;
     ////////////////////////////////////////
@@ -335,10 +339,10 @@ public class Home extends Shell{
         else{  // equals(PEOPLE)
             // SEARCH_END
             this.screen.appendText("link invitation asking "+ PEOPLE + " to join your groups\n\n" +
-                    "\u2022 Type one person's nickname.\n\n" +
+                    "\u2022 Type one user's nickname.\n\n" +
                     "\u2022 Type one or more groups of yours.\n\n" +
                     "\u2022 Type 'link invitation' to make known chosen person about your groups.\n\n\n" +
-                    "Person:  ");
+                    "User:  ");
             handler.getStateMachine().setState(StateSearchEnd.getStateSearchEndInstance());
         }
     }
@@ -557,13 +561,15 @@ public class Home extends Shell{
         if(this.groupMembers == null)
             this.initGroupMembers(); // due to sonar warning
 
-        this.screen.setText(LEGEND + welcomeMsg + " view link requests for the group:   " + groupNickname);
-        this.screen.appendText("\n\n\n results available here...\n\n\n");
+        this.screen.setText(LEGEND + welcomeMsg + " view link requests for the group:   " + groupNickname + EOL + "\t");
 
-        this.screen.appendText("\u2022 Type users nickname to mark them as possible group members. \n\n" +
-                "\u2022 Type 'accept' to add selected users into your group. \n\n\n");
+        for (Pair<String, String> request : this.listLinkRequests)
+            this.screen.appendText( request.getValue() + " (@" + request.getKey() + EON);
 
-        this.screen.appendText("Users' nickname:   ");
+        this.screen.appendText("\n\n\n\u2022 Type one user nickname at a time. \n\n" +
+                "\u2022 Click 'OK' button to add selected user into your group. \n\n\n");
+
+        this.screen.appendText("Users:   ");
 
         handler.getStateMachine().setState(StateGroupLinkRequests.getStateGroupLinkRequestsInstance());
     }
@@ -843,6 +849,12 @@ public class Home extends Shell{
     //////////////////////////////////////////////////////////////////////////////////////////////////////
     public void setListGroupMembers(List<Pair<String, String>> listGroupMembers){
         this.listGroupMembers = listGroupMembers;
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////
+    public void setListLinkRequests(List<Pair<String, String>> listLinkRequests) {
+        this.listLinkRequests = listLinkRequests;
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////////
 

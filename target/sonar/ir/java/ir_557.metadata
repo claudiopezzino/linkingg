@@ -1,3 +1,1 @@
-view.graphicalui.second.meetingquestionstates.QuestionAddrToStartSearch#getQuestionAddrToStartSearchInstance()Lview/graphicalui/second/meetingquestionstates/QuestionAddrToStartSearch;
-view.graphicalui.second.meetingquestionstates.QuestionAddrToStartSearch#<init>()V
-view.graphicalui.second.meetingquestionstates.QuestionAddrToStartSearch#instance-init#
+view.bean.observers.MeetingBean#setTime(Ljava/lang/String;)V

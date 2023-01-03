@@ -1,18 +1,18 @@
 
-Lview.bean.observers.MeetingBean#getScheduler()Lview/bean/observers/UserBean;c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaK K( "1*Û
-1c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaL L(â
-ß
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaL L("
-%0view.bean.observers.UserBean"__id*N
+6model.subjects.Group#getChange()Lmodel/subjects/State;Z
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaˆ ˆ("1*¡
+1Z
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java‰ ‰(Ã
+À
+Z
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java‰ ‰(
+%0model.subjects.State"__id*@
 
-__unknown_file (2*0!
-view.bean.observers.MeetingBean"
-	scheduler"‹
-c
-Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaL L($
-"
-%0view.bean.observers.UserBeanB#!
-view.bean.observers.MeetingBeanH
+__unknown_file ($*"
+model.subjects.Group"
+change"z
+Z
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java‰ ‰(
+
+%0model.subjects.StateB
+model.subjects.GroupH

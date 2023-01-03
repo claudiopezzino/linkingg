@@ -1,3 +1,2 @@
-view.boundary.UserManageCommunityBoundary#createGroup(Lview/bean/GroupCreationBean;)V
-control.ManageCommunityController#instance-init#
-control.ManageCommunityController#<init>()V
+view.graphicalui.second.passwordquestionstates.QuestionCurrentPassword#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.passwordquestionstates.QuestionNewPassword#getQuestionNewPasswordInstance()Lview/graphicalui/second/passwordquestionstates/QuestionNewPassword;

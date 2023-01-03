@@ -1,17 +1,123 @@
 
-^view.graphicalui.first.SignupPage#getHandler()Lview/controllerui/first/SignupPageEventHandler;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java≤5 ≤(?"1*ﬂ
-1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java≥ ≥(Ã
-…
+uview.graphicalui.first.SignupPage$CredentialDialog#credentialResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaß$ ß(4"3*Ä
+2g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java© ©(‰
+·
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java≥ ≥(4
-%0.view.controllerui.first.SignupPageEventHandler"__id*"
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java© ©(
+%1java.util.Map"__id*[
 
-__unknown_file (
-"""°
+__unknown_file (?*=4
+2view.graphicalui.first.SignupPage$CredentialDialog"
+map˚
+¯
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java≥ ≥(6
-4
-%0.view.controllerui.first.SignupPageEventHandlerB%"#
-!view.graphicalui.first.SignupPageH
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java©) ©(6 
+%2javafx.scene.control.Label"__id*e
+
+__unknown_file (I*G4
+2view.graphicalui.first.SignupPage$CredentialDialog"
+labelNicknameâÜ
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java©) ©(@
+%3java.lang.String"8javafx.scene.control.Labeled#getText()Ljava/lang/String;*>
+
+__unknown_file ("
+ 
+%2javafx.scene.control.Label2	getText()°
+û
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java© ©(A
+%4java.lang.String"__mapSet*1
+
+__unknown_file (
+
+%1java.util.Map*(
+
+__unknown_file (
+
+nickname*4
+
+__unknown_file (
+
+%3java.lang.String‰
+·
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java™ ™(
+%5java.util.Map"__id*[
+
+__unknown_file (?*=4
+2view.graphicalui.first.SignupPage$CredentialDialog"
+map˚
+¯
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java™) ™(6 
+%6javafx.scene.control.Label"__id*e
+
+__unknown_file (I*G4
+2view.graphicalui.first.SignupPage$CredentialDialog"
+labelPasswordâÜ
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java™) ™(@
+%7java.lang.String"8javafx.scene.control.Labeled#getText()Ljava/lang/String;*>
+
+__unknown_file ("
+ 
+%6javafx.scene.control.Label2	getText()°
+û
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java™ ™(A
+%8java.lang.String"__mapSet*1
+
+__unknown_file (
+
+%5java.util.Map*(
+
+__unknown_file (
+
+password*4
+
+__unknown_file (
+
+%7java.lang.String‰
+·
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java´ ´(
+%9java.util.Map"__id*[
+
+__unknown_file (?*=4
+2view.graphicalui.first.SignupPage$CredentialDialog"
+map"Ä
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java´ ´( 
+
+%9java.util.Map*≈
+3g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java® ®(ŒÀ
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java® ®(2%
+%0javafx.scene.control.ButtonType"Sview.graphicalui.first.PageDialog#getBtnTypeSave()Ljavafx/scene/control/ButtonType;*R
+
+__unknown_file (64
+2view.graphicalui.first.SignupPage$CredentialDialog2getBtnTypeSave()*
+2
+1*›
+1g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java≠ ≠(Í
+Á
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java≠ ≠()
+%10java.util.Map"/java.util.Collections#emptyMap()Ljava/util/Map;*5
+
+__unknown_file ("
+java.util.Collections"Å
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java≠ ≠(*
+
+%10java.util.Map:ò
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaß5 ß(J-
+
+buttonTypejavafx.scene.control.ButtonTypeB64
+2view.graphicalui.first.SignupPage$CredentialDialog

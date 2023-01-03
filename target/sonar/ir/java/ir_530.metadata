@@ -1,1 +1,2 @@
-view.bean.observers.MeetingBean#setScheduler(Lview/bean/observers/UserBean;)V
+view.graphicalui.second.usernamequestionstates.QuestionNewUsername#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.usernamequestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/usernamequestionstates/QuestionEnd;

@@ -1,7 +1,7 @@
-view.graphicalui.first.MeetingPage#initRadioButtonList(Ljavafx/scene/control/ToggleGroup;[Ljava/lang/String;)Ljava/util/List;
-java.util.ArrayList#<init>()V
-java.util.ArrayList#instance-init#
-javafx.scene.control.ToggleButton#setToggleGroup(Ljavafx/scene/control/ToggleGroup;)V
-javafx.scene.control.RadioButton#instance-init#
-javafx.scene.control.RadioButton#<init>(Ljava/lang/String;)V
-javafx.scene.control.ToggleButton#setSelected(Z)V
+view.controllerui.second.KeyEventHandler#initSigninPhase(Lview/graphicalui/second/Signin;)V
+view.bean.UserSignInBean#instance-init#
+view.graphicalui.second.Signin#getSigninInstance()Lview/graphicalui/second/Signin;
+view.controllerui.second.KeyEventHandler#accessUser(Lview/bean/UserSignInBean;)V
+view.controllerui.second.Message#infoErrorMsg(Ljava/lang/String;)V
+view.controllerui.second.KeyEventHandler#verifyUserCredentials(Lview/graphicalui/second/Signin;Lview/bean/UserSignInBean;)Ljava/lang/String;
+view.bean.UserSignInBean#<init>()V

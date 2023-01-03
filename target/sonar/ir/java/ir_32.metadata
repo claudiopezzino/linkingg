@@ -1,1 +1,2 @@
-view.graphicalui.second.signupquestionstates.QuestionCell#<init>()V
+view.controllerui.second.handlerstates.StateGroupRequest#isGroupInList(Lview/graphicalui/second/Home;Ljava/lang/String;)Z
+java.lang.String#equals(Ljava/lang/Object;)Z

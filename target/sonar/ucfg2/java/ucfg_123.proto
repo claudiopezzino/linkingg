@@ -1,18 +1,53 @@
 
-9view.bean.observers.GroupBean#getName()Ljava/lang/String;a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java) )("1*µ
-1a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java* *(Õ
- 
-a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java* *(
-%0java.lang.String"__id*G
+†view.controllerui.second.handlerstates.StateGroupCreationName#getStateGroupCreationNameInstance()Lview/controllerui/second/handlerstates/StateGroupCreationName;Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationName.java() ((J"3*Æ
+2Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationName.java*- *(Iãà
+Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationName.java*1 *(GC
+%1=view.controllerui.second.handlerstates.StateGroupCreationName"=view.controllerui.second.handlerstates.StateGroupCreationNameπ
+∂
+Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationName.java*- *(I
+%2"Gview.controllerui.second.handlerstates.StateGroupCreationName#<init>()V*a
 
-__unknown_file (+*)
-view.bean.observers.GroupBean"
-name"}
-a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java* *(
-
-%0java.lang.StringB!
-view.bean.observers.GroupBeanH
+__unknown_file (E
+C
+%1=view.controllerui.second.handlerstates.StateGroupCreationName’
+“
+Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationName.java* *(Ic?
+=view.controllerui.second.handlerstates.StateGroupCreationName" 
+stateGroupCreationNameInstance"__id*a
+
+__unknown_file (E
+C
+%1=view.controllerui.second.handlerstates.StateGroupCreationName*
+1*Ë
+3Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationName.java) )()÷
+”
+Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationName.java) )()C
+%0=view.controllerui.second.handlerstates.StateGroupCreationName"__id*Å
+
+__unknown_file (e*c?
+=view.controllerui.second.handlerstates.StateGroupCreationName" 
+stateGroupCreationNameInstance*
+2
+1*Æ
+1Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationName.java+ +(-÷
+”
+Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationName.java+ +(-C
+%3=view.controllerui.second.handlerstates.StateGroupCreationName"__id*Å
+
+__unknown_file (e*c?
+=view.controllerui.second.handlerstates.StateGroupCreationName" 
+stateGroupCreationNameInstance"À
+Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationName.java+ +(.E
+C
+%3=view.controllerui.second.handlerstates.StateGroupCreationNameBA"?
+=view.controllerui.second.handlerstates.StateGroupCreationNameH

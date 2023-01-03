@@ -1,1 +1,1 @@
-model.dao.MeetingDAO#updateEntity(Ljava/util/Map;Lmodel/Filter;)V
+view.bean.observers.MeetingBean#getTime()Ljava/lang/String;

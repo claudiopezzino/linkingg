@@ -1,9 +1,37 @@
 
-=view.boundary.UserManageCommunityBoundary#hasStartedSignIn()Zo
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java± ±(#"1*ï
-1o
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java² ²("y
-o
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java² ²(
-""B-+
-)view.boundary.UserManageCommunityBoundaryH
+__sonar_lambda_3$m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javaZ Z(b"1*ð	
+1m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javaZ$ Z()¼
+¹
+m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javaZ$ Z(;.
+%7(view.controllerui.second.KeyEventHandler"Yview.graphicalui.second.Shell#getShellHandler()Lview/controllerui/second/KeyEventHandler;*=
+
+__unknown_file (!"
+view.graphicalui.second.Shell¢
+Ÿ
+m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javaZK Z(a"
+%8view.graphicalui.second.Home"Lview.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;*<
+
+__unknown_file ( "
+view.graphicalui.second.Home˜•
+m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javaZ$ Z(b
+
+%9void"Xview.controllerui.second.KeyEventHandler#updateUserNick(Lview/graphicalui/second/Home;)V*L
+
+__unknown_file (0
+.
+%7(view.controllerui.second.KeyEventHandler*@
+
+__unknown_file ($
+"
+%8view.graphicalui.second.Home2.updateUserNick(Lview/graphicalui/second/Home;)"}
+m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javaZ$ Z(b
+
+
+%9voidB
+java.lang.Runnable

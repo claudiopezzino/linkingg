@@ -1,51 +1,153 @@
 
-Yview.bean.errorsignupdecorations.CellBeanErrorDecorator#displayErrors()Ljava/lang/String;{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java ("1*æ
-1{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (ü
-ù
-{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (-
-%0java.lang.String">view.bean.BeanErrorDecorator#displayErrors()Ljava/lang/String;*"
+–model.db.dbqueries.UserDAOQueries#selectUsersIntoMeeting(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;)Ljava/util/List;e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javar r(5"10*ë
+4e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java{ {(0"
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java{ {(0
+
+%7java.util.List*›
+5e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javay y(8É
+Æ
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javay y(8
+	resultSetjava.sql.ResultSet"__id*6
+
+__unknown_file (
+
+%6java.sql.ResultSetÝ
+Ú
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java{ {(/
+%7java.util.List"Ymodel.db.dbqueries.UserDAOQueries#wrapListUsersInfo(Ljava/sql/ResultSet;)Ljava/util/List;*A
+
+__unknown_file (%"#
+!model.db.dbqueries.UserDAOQueries*=
+
+__unknown_file (!
+
+	resultSetjava.sql.ResultSet*
+4*”
+6e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javay y()¢Ÿ
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javay y(8
+%6java.sql.ResultSet"=java.sql.PreparedStatement#executeQuery()Ljava/sql/ResultSet;*M
+
+__unknown_file (1
+/
+preparedStatementjava.sql.PreparedStatement2executeQuery()*
+5*¶
+7e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javax x(DÄÁ
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javax x(D
+
+%5void"&java.sql.PreparedStatement#setInt(II)V*M
+
+__unknown_file (1
+/
+preparedStatementjava.sql.PreparedStatement* 
+
+__unknown_file (2*'
+
+__unknown_file (
+	
+%4int2
+setInt(II)*
+6*ì
+8e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javav w(Rá
+Þ
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javav w(R/
+preparedStatementjava.sql.PreparedStatement"__id*>
+
+__unknown_file ("
+ 
+%3java.sql.PreparedStatement–
+“
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javax( x(C	
+%4int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*1
+
+__unknown_file ("
+java.lang.Integer*;
+
+__unknown_file (
+
+	meetingIDjava.lang.String*
+7*º
+9e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javav  v(*¬
+©
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javav< v(U
+%0java.lang.String"__id*"
 
 __unknown_file (
-""Ø
-Õ
-{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (.
-errorsjava.lang.String"__id*4
+""Ÿ
+œ
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaw w(5	
+%1int"__id*"
+
+__unknown_file (
+""Ÿ
+œ
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaw7 w(Q	
+%2int"__id*"
+
+__unknown_file (
+""ÕÒ
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javav  w(R 
+%3java.sql.PreparedStatement"Vjava.sql.Connection#prepareStatement(Ljava/lang/String;II)Ljava/sql/PreparedStatement;*?
+
+__unknown_file (#
+!
+
+connectionjava.sql.Connection*4
 
 __unknown_file (
 
-%0java.lang.String³°
-{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (#
-%1java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*W
+%0java.lang.String*'
 
-__unknown_file (;9
-7view.bean.errorsignupdecorations.CellBeanErrorDecorator2getMessage()Ú
-×
-{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (#
-%2java.lang.String"__concat*›
-{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (#
-
-errorsjava.lang.String*—
-{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (#
-
-%1java.lang.StringØ
-Õ
-{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (#
-errorsjava.lang.String"__id*4
+__unknown_file (
+	
+%1int*'
 
-__unknown_file (
-
-%2java.lang.String"›
-{
-q/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/errorsignupdecorations/CellBeanErrorDecorator.java (
-
-errorsjava.lang.StringB;9
-7view.bean.errorsignupdecorations.CellBeanErrorDecoratorH
+__unknown_file (
+	
+%2int2&prepareStatement(Ljava/lang/String;II)*
+8*ð
+10e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javas. s(2Å
+Â
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javas s(3/
+preparedStatementjava.sql.PreparedStatement"__id*"
+
+__unknown_file (
+""µ
+²
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javat t(#
+	resultSetjava.sql.ResultSet"__id*"
+
+__unknown_file (
+""*
+9:’
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javar6 r(G)
+db#model.db.dbconnection.PersistencyDB:Š
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javarH r(^!
+
+connectionjava.sql.Connection:†
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javar_ r(o
+	meetingIDjava.lang.StringB%"#
+!model.db.dbqueries.UserDAOQueriesH

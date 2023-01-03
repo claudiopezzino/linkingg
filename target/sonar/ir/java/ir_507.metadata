@@ -1,4 +1,3 @@
-view.graphicalui.first.toolbardecorations.TitleBoxDecorator#draw()Ljavafx/scene/control/ToolBar;
-javafx.scene.control.Separator#instance-init#
-javafx.scene.control.Separator#<init>()V
-javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;
+view.controllerui.second.handlerstates.StateMemberDetails#getStateMemberDetailsInstance()Lview/controllerui/second/handlerstates/StateMemberDetails;
+view.controllerui.second.handlerstates.StateMemberDetails#<init>()V
+view.controllerui.second.handlerstates.StateMemberDetails#instance-init#

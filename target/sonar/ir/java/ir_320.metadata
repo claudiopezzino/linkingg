@@ -1,2 +1,1 @@
-view.graphicalui.second.meetingquestionstates.QuestionBudget#next(Lview/graphicalui/second/QuestionStateMachine;)V
-view.graphicalui.second.meetingquestionstates.QuestionTime#getQuestionTimeInstance()Lview/graphicalui/second/meetingquestionstates/QuestionTime;
+model.db.dbqueries.MeetingDAOQueries#<init>()V

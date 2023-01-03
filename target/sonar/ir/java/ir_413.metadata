@@ -1,3 +1,4 @@
-control.controlutilities.SecureObjectInputStream#resolveClass(Ljava/io/ObjectStreamClass;)Ljava/lang/Class;
-java.io.InvalidClassException#<init>(Ljava/lang/String;Ljava/lang/String;)V
-java.io.InvalidClassException#instance-init#
+view.controllerui.second.Message#infoErrorMsg(Ljava/lang/String;)V
+javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
+javafx.scene.control.Dialog#show()V
+javafx.scene.control.Alert#instance-init#

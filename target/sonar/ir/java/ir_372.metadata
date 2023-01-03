@@ -1,4 +1,5 @@
+view.controllerui.second.handlerstates.StateSearch#checkCmd(Lview/graphicalui/second/Home;)V
+view.controllerui.second.Message#infoMsg()V
 view.controllerui.second.Message#errorMsg()V
-javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
-javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
-javafx.scene.control.Alert#instance-init#
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z

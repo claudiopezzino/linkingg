@@ -1,1 +1,1 @@
-view.bean.observers.GroupBean#setName(Ljava/lang/String;)V
+control.notifications.notificationdecorations.LinkRequestDecorator#<init>(Lcontrol/notifications/Notification;Ljava/lang/String;Ljava/lang/String;)V

@@ -1,4 +1,1 @@
-view.bean.observers.GroupBean#update(Ljava/util/Map;)V
-java.lang.Enum#equals(Ljava/lang/Object;)Z
-view.bean.observers.GroupBean#notifyNewMeetingToView(Ljava/lang/String;Ljava/lang/String;)V
-view.bean.observers.GroupBean#notifyNewMemberToView(Ljava/lang/String;Ljava/lang/String;)V
+view.bean.observers.GroupBean#getOwner()Lview/bean/observers/UserBean;

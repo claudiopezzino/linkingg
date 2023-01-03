@@ -1,3 +1,4 @@
-view.graphicalui.second.Welcome#setUpWelcomeRoot()Ljavafx/scene/layout/VBox;
-javafx.scene.layout.VBox#instance-init#
-javafx.scene.layout.VBox#<init>()V
+view.graphicalui.second.SecondMain#start(Ljavafx/stage/Stage;)V
+javafx.stage.Stage#show()V
+javafx.stage.Stage#setResizable(Z)V
+javafx.stage.Stage#setScene(Ljavafx/scene/Scene;)V

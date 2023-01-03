@@ -1,79 +1,18 @@
 
-Fview.graphicalui.second.Home#setUpHomeRoot()Ljavafx/scene/layout/VBox;b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaŠ Š("1*è
-1b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java‹ ‹(¡ž
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java‹ ‹(
-%0javafx.scene.layout.VBox"javafx.scene.layout.VBoxÏ
-Ì
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java‹ ‹(
-%1""javafx.scene.layout.VBox#<init>()V*<
+:view.bean.observers.GroupBean#getImage()Ljava/lang/String;a
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java1 1("1*¶
+1a
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java2 2(Î
+Ë
+a
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java2 2(
+%0java.lang.String"__id*H
 
-__unknown_file ( 
-
-%0javafx.scene.layout.VBoxÍ
-Ê
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java‹ ‹( 
-rootjavafx.scene.layout.VBox"__id*<
-
-__unknown_file ( 
-
-%0javafx.scene.layout.VBoxª§
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaŒ Œ('
-%2!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*>
-
-__unknown_file ("
- 
-rootjavafx.scene.layout.VBox2getChildren()ß
-Ü
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaŒ" Œ(5
-%3javafx.scene.layout.HBox"__id*P
-
-__unknown_file (4*2
-view.graphicalui.second.Home"
-titleContainerÜ
-Ù
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaŒ7 Œ(B#
-%4javafx.scene.control.TextArea"__id*H
-
-__unknown_file (,**
-view.graphicalui.second.Home"
-screenÝ
-Ú
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaŒD Œ(O$
-%5javafx.scene.control.TextField"__id*H
-
-__unknown_file (,**
-view.graphicalui.second.Home"
-promptßÜ
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaŒ Œ(P
-%6boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z*E
-
-__unknown_file ()
-'
-%2!javafx.collections.ObservableList*<
-
-__unknown_file ( 
-
-%3javafx.scene.layout.HBox*A
-
-__unknown_file (%
-#
-%4javafx.scene.control.TextArea*B
-
-__unknown_file (&
-$
-%5javafx.scene.control.TextField2addAll([Ljava/lang/Object;)"ˆ
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java ("
- 
-rootjavafx.scene.layout.VBoxB 
-view.graphicalui.second.Home
+__unknown_file (,**
+view.bean.observers.GroupBean"
+image"}
+a
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java2 2(
+
+%0java.lang.StringB!
+view.bean.observers.GroupBeanH

@@ -1,82 +1,16 @@
 
-rview.boundary.UserManageCommunityBoundary#registerIntoSystem(Lview/bean/UserSignUpBean;)Lview/bean/UserSignInBean;m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java" "(,"3*µ
-2m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java$( $(Gæª
-m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java$, $(E'
-%1!control.ManageCommunityController"!control.ManageCommunityControllerÏ
-È
-m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java$( $(G
-%2"+control.ManageCommunityController#<init>()V*E
+bview.graphicalui.first.toolbaritems.HomeToolbarItems$profileBoxItems#getIndex()Ljava/lang/Integer;x
+n/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/HomeToolbarItems.javaB B("1*û
+1x
+n/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/HomeToolbarItems.javaC C(îë
+x
+n/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/HomeToolbarItems.javaC C(!	
+%0int"java.lang.Enum#ordinal()I*d
 
-__unknown_file ()
-'
-%1!control.ManageCommunityControllerã
-à
-m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java$ $(GJ+
-)view.boundary.UserManageCommunityBoundary"
-manageCommunityController"__id*E
-
-__unknown_file ()
-'
-%1!control.ManageCommunityController*
-1*à
-3m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java# #($ã
-à
-m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java# #($'
-%0!control.ManageCommunityController"__id*h
-
-__unknown_file (L*J+
-)view.boundary.UserManageCommunityBoundary"
-manageCommunityController*
-2
-1*ÿ
-1m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java% %((ã
-à
-m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java% %(('
-%3!control.ManageCommunityController"__id*h
-
-__unknown_file (L*J+
-)view.boundary.UserManageCommunityBoundary"
-manageCommunityController≤Ø
-m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java%> %(Q!
-%4control.UserLoginController"control.UserLoginController‡
-›
-m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java%: %(S
-%5"%control.UserLoginController#<init>()V*?
-
-__unknown_file (#
-!
-%4control.UserLoginController©¶
-m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java% %(^
-%6view.bean.UserSignInBean"Åcontrol.ManageCommunityController#setUpSignUpPhase(Lcontrol/LoginController;Lview/bean/UserSignUpBean;)Lview/bean/UserSignInBean;*E
-
-__unknown_file ()
-'
-%3!control.ManageCommunityController*?
-
-__unknown_file (#
-!
-%4control.UserLoginController*B
-
-__unknown_file (&
-$
-userInfoview.bean.UserSignUpBean2EsetUpSignUpPhase(Lcontrol/LoginController;Lview/bean/UserSignUpBean;)"ë
-m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java% %(_ 
-
-%6view.bean.UserSignInBean:ï
-m
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java"- "(D$
-userInfoview.bean.UserSignUpBeanB-+
-)view.boundary.UserManageCommunityBoundaryH
+__unknown_file (HF
+Dview.graphicalui.first.toolbaritems.HomeToolbarItems$profileBoxItems2	ordinal()"á
+x
+n/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/HomeToolbarItems.javaC C("
+	
+%0intBHF
+Dview.graphicalui.first.toolbaritems.HomeToolbarItems$profileBoxItemsH

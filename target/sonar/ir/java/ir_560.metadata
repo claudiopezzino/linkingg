@@ -1,1 +1,1 @@
-view.controllerui.first.HomePageEventHandler#getUserManageCommunityBoundary()Lview/boundary/UserManageCommunityBoundary;
+view.bean.observers.MeetingBean#setScheduler(Lview/bean/observers/UserBean;)V

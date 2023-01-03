@@ -1,21 +1,24 @@
 
-pview.controllerui.first.Dialog$InfoErrorDialog#infoErrorResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java-$ -(3"1*Ë
-1b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java. .(ä
-á
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java. .()
-%0java.util.Map"/java.util.Collections#emptyMap()Ljava/util/Map;*5
+__sonar_lambda_5$m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javao o(S"1*ß
+1m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javao$ o()½
+º
+m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javao$ o(;/
+%11(view.controllerui.second.KeyEventHandler"Yview.graphicalui.second.Shell#getShellHandler()Lview/controllerui/second/KeyEventHandler;*=
 
-__unknown_file ("
-java.util.Collections"{
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java. .(*
-
-%0java.util.Map:“
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/Dialog.java-4 -(I-
-
-buttonTypejavafx.scene.control.ButtonTypeB20
-.view.controllerui.first.Dialog$InfoErrorDialog
+__unknown_file (!"
+view.graphicalui.second.Shellª§
+m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javao$ o(S
+%12void"Aview.controllerui.second.KeyEventHandler#updateGroupMemberNick()V*M
+
+__unknown_file (1
+/
+%11(view.controllerui.second.KeyEventHandler2updateGroupMemberNick()"~
+m
+c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.javao$ o(S
+
+%12voidB
+java.lang.Runnable

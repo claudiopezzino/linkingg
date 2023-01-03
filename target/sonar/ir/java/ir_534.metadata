@@ -1,3 +1,4 @@
-view.bean.observers.MeetingBean#notifyMeetingJoinerToView(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
-view.boundary.UserManageCommunityBoundary#<init>()V
-view.boundary.UserManageCommunityBoundary#instance-init#
+view.bean.Regex#isMatching(Ljava/lang/String;Ljava/lang/String;)Z
+java.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+java.util.regex.Matcher#matches()Z
+java.util.regex.Pattern#compile(Ljava/lang/String;)Ljava/util/regex/Pattern;

@@ -1,25 +1,44 @@
 
->view.bean.BeanErrorDecorator#displayErrors()Ljava/lang/String;`
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/BeanErrorDecorator.java ("1*∫
-1`
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/BeanErrorDecorator.java (”
-–
-`
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/BeanErrorDecorator.java (
-%0view.bean.BeanError"__id*K
+K__sonar_lambda_1$view.graphicalui.first.toolbardecorations.InfoBarDecorator~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/InfoBarDecorator.java6 6(O"startingBlock*Ü
+startingBlock~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/InfoBarDecorator.java6 6(OÔ
+Ï
 
-__unknown_file (/*-
-view.bean.BeanErrorDecorator"
-	beanError˛˚
-`
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/BeanErrorDecorator.java (-
-%1java.lang.String"5view.bean.BeanError#displayErrors()Ljava/lang/String;*7
+__unknown_file (S
+InfoBarDecorator.this:view.graphicalui.first.toolbardecorations.InfoBarDecorator"__id*u
 
-__unknown_file (
-
-%0view.bean.BeanError2displayErrors()"|
-`
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/BeanErrorDecorator.java (.
-
-%1java.lang.StringB 
-view.bean.BeanErrorDecoratorH
+__unknown_file (Y*W<
+:view.graphicalui.first.toolbardecorations.InfoBarDecorator"
+InfoBarDecorator.this*
+1*‘
+1~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/InfoBarDecorator.java6+ 6(4´
+®
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/InfoBarDecorator.java6G 6(N 
+%12javafx.event.EventHandler"__id*~
+
+__unknown_file (b*`
+S
+InfoBarDecorator.this:view.graphicalui.first.toolbardecorations.InfoBarDecorator"	
+handleréã
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/InfoBarDecorator.java6+ 6(O
+%13void"Ajavafx.scene.Node#setOnMouseClicked(Ljavafx/event/EventHandler;)V*I
+
+__unknown_file (-
++
+	hyperlinkjavafx.scene.control.Hyperlink*>
+
+__unknown_file ("
+ 
+%12javafx.event.EventHandler2.setOnMouseClicked(Ljavafx/event/EventHandler;)"è
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/InfoBarDecorator.java6+ 6(O
+
+%13void:≠
+~
+t/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/InfoBarDecorator.java6 6('+
+	hyperlinkjavafx.scene.control.HyperlinkB
+java.util.function.Consumer

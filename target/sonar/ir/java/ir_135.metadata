@@ -1,3 +1,1 @@
-view.graphicalui.second.Home#setUpHomeRoot()Ljavafx/scene/layout/VBox;
-javafx.scene.layout.VBox#instance-init#
-javafx.scene.layout.VBox#<init>()V
+view.bean.observers.GroupBean#setName(Ljava/lang/String;)V

@@ -1,16 +1,230 @@
 
-kview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$profileBoxItems#getIndex()Ljava/lang/Integer;Å
-w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java& &("1*≈
-1Å
-w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java' '(ß§
-Å
-w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java' '(!	
-%0int"java.lang.Enum#ordinal()I*m
+\view.controllerui.second.handlerstates.StateGroupRequest#handle(Ljavafx/event/ActionEvent;)V|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java] ]("startingBlock*‡
+3|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javam m(9◊
+‘
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javam m(9
+%16void"rview.controllerui.second.handlerstates.StateGroupRequest#reload(Lview/graphicalui/second/Home;Ljava/lang/String;)V*X
 
-__unknown_file (QO
-Mview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$profileBoxItems2	ordinal()"ë
-Å
-w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java' '("
-	
-%0intBQO
-Mview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$profileBoxItemsH
+__unknown_file (<:
+8view.controllerui.second.handlerstates.StateGroupRequest*B
+
+__unknown_file (&
+$
+homeview.graphicalui.second.Home*5
+
+__unknown_file (
+
+%15java.lang.String*
+0*¯
+startingBlock|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java] ]()â
+Ü
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java\ \(
+%19"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*?
+
+__unknown_file (#
+!
+eventjavafx.event.ActionEvent◊
+‘
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java]# ]((!
+eventjavafx.event.ActionEvent"__annotation*#
+
+__unknown_file (
+
+%19*
+8*∂
+4|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javam m(8≠™
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javam m(8
+%15java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*C
+
+__unknown_file ('
+%
+%14javafx.scene.control.TextField2	getText()*
+3*¿
+5|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javal l(/
+Ì
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javal l(/$
+homeview.graphicalui.second.Home"__id*A
+
+__unknown_file (%
+#
+%13view.graphicalui.second.Homeƒ¡
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javam m(.%
+%14javafx.scene.control.TextField"Iview.graphicalui.second.Shell#getPrompt()Ljavafx/scene/control/TextField;*B
+
+__unknown_file (&
+$
+homeview.graphicalui.second.Home2getPrompt()*
+4*ª
+6|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javal l(≤
+Ø
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javal l(.#
+%13view.graphicalui.second.Home"Lview.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;*<
+
+__unknown_file ( "
+view.graphicalui.second.Home*
+5*Ä
+7|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javaj j('˜Ù
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javaj j(W
+%12void"fview.boundary.UserManageCommunityBoundary#sendLinkRequestToGroup(Lview/bean/LinkRequestCreationBean;)V*f
+
+__unknown_file (J
+H
+userManageCommunityBoundary)view.boundary.UserManageCommunityBoundary*Z
+
+__unknown_file (>
+<
+linkRequestCreationBean!view.bean.LinkRequestCreationBean2;sendLinkRequestToGroup(Lview/bean/LinkRequestCreationBean;)*
+6*◊'
+8|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java_ _(#À
+»
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java_ _(5.
+%0(view.controllerui.second.KeyEventHandler"Yview.graphicalui.second.Shell#getShellHandler()Lview/controllerui/second/KeyEventHandler;*=
+
+__unknown_file (!"
+view.graphicalui.second.Shell‡›
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java_ _(G"
+%1view.bean.observers.UserBean"Xview.controllerui.second.KeyEventHandler#getCurrUserBean()Lview/bean/observers/UserBean;*L
+
+__unknown_file (0
+.
+%0(view.controllerui.second.KeyEventHandler2getCurrUserBean()®•
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java_ _(U
+%2java.lang.String"<view.bean.observers.UserBean#getNickname()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+%1view.bean.observers.UserBean2getNickname()ﬂ
+‹
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java_ _(V 
+currUserNickjava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.String±
+Æ
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java` `(1"
+%3view.graphicalui.second.Home"Lview.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;*<
+
+__unknown_file ( "
+view.graphicalui.second.Home¡æ
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java` `(=$
+%4javafx.scene.control.TextField"Iview.graphicalui.second.Shell#getPrompt()Ljavafx/scene/control/TextField;*@
+
+__unknown_file ($
+"
+%3view.graphicalui.second.Home2getPrompt()´®
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java` `(G
+%5java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*B
+
+__unknown_file (&
+$
+%4javafx.scene.control.TextField2	getText()‹
+Ÿ
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java` `(H
+	groupNickjava.lang.String"__id*4
+
+__unknown_file (
+
+%5java.lang.StringÕ 
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javab> b(U'
+%6!view.bean.LinkRequestCreationBean"!view.bean.LinkRequestCreationBean˚
+¯
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javab: b(W
+%7"+view.bean.LinkRequestCreationBean#<init>()V*E
+
+__unknown_file ()
+'
+%6!view.bean.LinkRequestCreationBeanå
+â
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javab b(X<
+linkRequestCreationBean!view.bean.LinkRequestCreationBean"__id*E
+
+__unknown_file ()
+'
+%6!view.bean.LinkRequestCreationBeanéã
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javac c(9
+
+%8void"Bview.bean.LinkRequestCreationBean#setUserNick(Ljava/lang/String;)V*Z
+
+__unknown_file (>
+<
+linkRequestCreationBean!view.bean.LinkRequestCreationBean*>
+
+__unknown_file ("
+ 
+currUserNickjava.lang.String2setUserNick(Ljava/lang/String;)çä
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javad d(7
+
+%9void"Cview.bean.LinkRequestCreationBean#setGroupNick(Ljava/lang/String;)V*Z
+
+__unknown_file (>
+<
+linkRequestCreationBean!view.bean.LinkRequestCreationBean*;
+
+__unknown_file (
+
+	groupNickjava.lang.String2 setGroupNick(Ljava/lang/String;)Ã
+…
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javah h('/
+%10(view.controllerui.second.KeyEventHandler"Yview.graphicalui.second.Shell#getShellHandler()Lview/controllerui/second/KeyEventHandler;*=
+
+__unknown_file (!"
+view.graphicalui.second.Shellöó
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javah h(H0
+%11)view.boundary.UserManageCommunityBoundary"tview.controllerui.second.KeyEventHandler#getUserManageCommunityBoundary()Lview/boundary/UserManageCommunityBoundary;*M
+
+__unknown_file (1
+/
+%10(view.controllerui.second.KeyEventHandler2 getUserManageCommunityBoundary()°
+û
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javag h(IH
+userManageCommunityBoundary)view.boundary.UserManageCommunityBoundary"__id*N
+
+__unknown_file (2
+0
+%11)view.boundary.UserManageCommunityBoundary*
+7*õ
+0 "ì
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javar r(
+implicit return:°
+|
+r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java] ]((!
+eventjavafx.event.ActionEventB<:
+8view.controllerui.second.handlerstates.StateGroupRequestH

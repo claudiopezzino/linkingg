@@ -1,5 +1,4 @@
-view.controllerui.second.KeyEventHandler#homeHandle(Lview/graphicalui/second/Home;)V
-view.controllerui.second.KeyEventHandler#moveBackToWelcomePage(Lview/graphicalui/second/Home;)V
-javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
-java.lang.String#equals(Ljava/lang/Object;)Z
-view.controllerui.second.KeyEventHandler#moveBackToHomePage(Lview/graphicalui/second/Home;)V
+view.controllerui.second.Message#acceptInvitationsMsg()V
+javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
+javafx.scene.control.Dialog#show()V
+javafx.scene.control.Alert#instance-init#

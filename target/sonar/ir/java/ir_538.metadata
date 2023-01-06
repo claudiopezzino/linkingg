@@ -1,1 +1,4 @@
-view.graphicalui.second.QuestionStateMachine#instance-init#
+view.graphicalui.first.toolbardecorations.TitleBoxDecorator#draw()Ljavafx/scene/control/ToolBar;
+javafx.scene.control.Separator#instance-init#
+javafx.scene.control.Separator#<init>()V
+javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;

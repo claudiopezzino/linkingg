@@ -1,1 +1,1 @@
-view.graphicalui.second.QuestionStateMachine#getQuestion()Lview/graphicalui/second/AbstractQuestion;
+view.graphicalui.second.QuestionStateMachine#nextQuestion()V

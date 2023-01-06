@@ -1,53 +1,18 @@
 
-Ñview.graphicalui.first.SignupPage$CredentialDialog#getCredentialDialogInstance()Lview/graphicalui/first/SignupPage$CredentialDialog;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java÷' ÷(B"3*˙
-2g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÿ+ ÿ(A⁄◊
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÿ/ ÿ(?8
-%12view.graphicalui.first.SignupPage$CredentialDialog"2view.graphicalui.first.SignupPage$CredentialDialogà
-Ö
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÿ+ ÿ(A
-%2"<view.graphicalui.first.SignupPage$CredentialDialog#<init>()V*V
-
-__unknown_file (:
-8
-%12view.graphicalui.first.SignupPage$CredentialDialogû
-õ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaÿ ÿ(AR4
-2view.graphicalui.first.SignupPage$CredentialDialog"
-credentialDialogInstance"__id*V
-
-__unknown_file (:
-8
-%12view.graphicalui.first.SignupPage$CredentialDialog*
-1*ï
-3g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java◊ ◊('û
-õ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java◊ ◊('8
-%02view.graphicalui.first.SignupPage$CredentialDialog"__id*p
-
-__unknown_file (T*R4
-2view.graphicalui.first.SignupPage$CredentialDialog"
-credentialDialogInstance*
-2
-1*µ
+aview.graphicalui.first.SignupPage$CredentialDialog#getLabelPassword()Ljavafx/scene/control/Label;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaœ œ(%"1*˙
 1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaŸ Ÿ(+û
-õ
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java– –(˚
+¯
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaŸ Ÿ(+8
-%32view.graphicalui.first.SignupPage$CredentialDialog"__id*p
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java– –(% 
+%0javafx.scene.control.Label"__id*e
 
-__unknown_file (T*R4
-2view.graphicalui.first.SignupPage$CredentialDialog"
-credentialDialogInstance"•
+__unknown_file (I*G4
+2view.graphicalui.first.SignupPage$CredentialDialog"
+labelPassword"ç
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaŸ Ÿ(,:
-8
-%32view.graphicalui.first.SignupPage$CredentialDialogB6"4
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java– –(&"
+ 
+%0javafx.scene.control.LabelB64
 2view.graphicalui.first.SignupPage$CredentialDialogH

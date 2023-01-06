@@ -1,3 +1,1 @@
-model.UserCollector#getUserInstance(Ljava/lang/String;)Lmodel/subjects/User;
-model.modelexceptions.NoEntityException#instance-init#
-model.modelexceptions.NoEntityException#<init>()V
+model.UserCollector#<init>()V

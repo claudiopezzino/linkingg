@@ -42,7 +42,7 @@ public class StateGroupOptions implements AbstractState{
             this.initListMeetings(home);
             home.listMeetings();
         }
-        // Verify if group' nickname is owned by current user in the handler class
+        // Verify if group's nickname is owned by current user in the handler class
         else if(home.getPrompt().getText().equals(LINK_REQUESTS)) {
             if(isCurrUserOwner(home)) {
                 this.initListLinkRequests(home);

@@ -1,18 +1,18 @@
 
-4view.bean.UserSignUpBean#getName()Ljava/lang/String;\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java ("1*¡
-1\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java (Ã
+6model.subjects.Group#getChange()Lmodel/subjects/State;Z
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaˆ ˆ("1*¡
+1Z
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java‰ ‰(Ã
 À
-\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java (
-%0java.lang.String"__id*B
+Z
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java‰ ‰(
+%0model.subjects.State"__id*@
 
-__unknown_file (&*$
-view.bean.UserSignUpBean"
-name"x
-\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java (
-
-%0java.lang.StringB
-view.bean.UserSignUpBeanH
+__unknown_file ($*"
+model.subjects.Group"
+change"z
+Z
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java‰ ‰(
+
+%0model.subjects.StateB
+model.subjects.GroupH

@@ -77,6 +77,13 @@ public class UserManageCommunityBoundary {
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    public void acceptLinkRequest(NewGroupMemberBean newGroupMemberBean) throws InternalException{
+        if(manageCommunityController == null)
+            manageCommunityController = new ManageCommunityController();
+        this.manageCommunityController.addUserIntoGroup(newGroupMemberBean);
+    }
+    //////////////////////////////////////////////////////////////////////////////////////////////
 
 
     /*------------------------------------------ FROM SYSTEM TO ACTOR ------------------------------------------*/
@@ -128,8 +135,10 @@ public class UserManageCommunityBoundary {
         if(FirstMain.getCurrScene() != null)
             Platform.runLater(() -> HomePage.getHandler().updateGroupsList(groupBean));
 
-        else if(SecondMain.getCurrScene() != null)
+        else if(SecondMain.getCurrScene() != null) {
+            Shell.getShellHandler().getStateMachine().setState(StateMain.getStateMainInstance());
             Platform.runLater(() -> Shell.getShellHandler().updateGroupsList(groupBean));
+        }
     }
     //////////////////////////////////////////////////////////////////////////////////////
 

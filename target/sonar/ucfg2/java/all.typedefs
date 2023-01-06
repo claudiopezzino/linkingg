@@ -1906,7 +1906,7 @@ nextWord()1javafx.scene.control.TextInputControl#nextWord()VC
 <init>()Bview.controllerui.second.handlerstates.StateGroupRequest#<init>()V∏
 =removeGroup(Lview/graphicalui/second/Home;Ljava/lang/String;)wview.controllerui.second.handlerstates.StateGroupRequest#removeGroup(Lview/graphicalui/second/Home;Ljava/lang/String;)VÇ
 "handle(Ljavafx/event/ActionEvent;)\view.controllerui.second.handlerstates.StateGroupRequest#handle(Ljavafx/event/ActionEvent;)V¥
-getStateGroupRequestInstance()ëview.controllerui.second.handlerstates.StateGroupRequest#getStateGroupRequestInstance()Lview/controllerui/second/handlerstates/StateGroupRequest;Ô6
+getStateGroupRequestInstance()ëview.controllerui.second.handlerstates.StateGroupRequest#getStateGroupRequestInstance()Lview/controllerui/second/handlerstates/StateGroupRequest;›7
 view.graphicalui.second.Homeview.graphicalui.second.Shelll
 %setGroupOwnerNick(Ljava/lang/String;)Cview.graphicalui.second.Home#setGroupOwnerNick(Ljava/lang/String;)Vf
 "saveUserAnswer(Ljava/lang/String;)@view.graphicalui.second.Home#saveUserAnswer(Ljava/lang/String;)VY
@@ -1943,7 +1943,8 @@ $showLinkRequests(Ljava/lang/String;)Bview.graphicalui.second.Home#showLinkRequ
 initWelcomeMsg().view.graphicalui.second.Home#initWelcomeMsg()VY
 getListOtherGroups()Aview.graphicalui.second.Home#getListOtherGroups()Ljava/util/List;<
 listMembers()+view.graphicalui.second.Home#listMembers()VT
-showMeetingParticipants()7view.graphicalui.second.Home#showMeetingParticipants()VJ
+showMeetingParticipants()7view.graphicalui.second.Home#showMeetingParticipants()Vl
+%setListLinkRequests(Ljava/util/List;)Cview.graphicalui.second.Home#setListLinkRequests(Ljava/util/List;)VJ
 membersRemovalMode()2view.graphicalui.second.Home#membersRemovalMode()VW
 getMeetingFilters()@view.graphicalui.second.Home#getMeetingFilters()Ljava/util/List;J
 usernameChangeMode()2view.graphicalui.second.Home#usernameChangeMode()VM
@@ -2862,7 +2863,7 @@ EsetUpSignInPhase(Lcontrol/LoginController;Lview/bean/UserSignInBean;)vcontrol.
 -fetchGroupsByUserNickname(Ljava/lang/String;)Xcontrol.UserLoginController#fetchGroupsByUserNickname(Ljava/lang/String;)Ljava/util/Map;s
 "access(Lview/bean/UserSignInBean;)Mcontrol.UserLoginController#access(Lview/bean/UserSignInBean;)Ljava/util/Map;o
 'changeUserCredentials(Ljava/util/Map;I)Dcontrol.UserLoginController#changeUserCredentials(Ljava/util/Map;I)VÅ
-)fetchUserInfo(Lview/bean/UserSignUpBean;)Tcontrol.UserLoginController#fetchUserInfo(Lview/bean/UserSignUpBean;)Ljava/util/Map;ó
+)fetchUserInfo(Lview/bean/UserSignUpBean;)Tcontrol.UserLoginController#fetchUserInfo(Lview/bean/UserSignUpBean;)Ljava/util/Map;ª
 view.graphicalui.first.HomePagejavafx.scene.Parento
 setUpBtnDeleteMeeting()Tview.graphicalui.first.HomePage#setUpBtnDeleteMeeting()Ljavafx/scene/control/Button;i
 getBtnLinkRequests()Qview.graphicalui.first.HomePage#getBtnLinkRequests()Ljavafx/scene/control/Button;m
@@ -2888,8 +2889,8 @@ LinitGroupView(Lview/bean/observers/UserBean;Lview/bean/observers/GroupBean;)mv
 getToolBar()Jview.graphicalui.first.HomePage#getToolBar()Ljavafx/scene/control/ToolBar;ú
 /setUpHomePage(Lview/graphicalui/first/Toolbar;)iview.graphicalui.first.HomePage#setUpHomePage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;t
 getLabelGroupNickFocused()Vview.graphicalui.first.HomePage#getLabelGroupNickFocused()Ljavafx/scene/control/Label;`
-setUpGroupsArea()Kview.graphicalui.first.HomePage#setUpGroupsArea()Ljavafx/scene/layout/VBox;œ
-HsetUpVBoxDetails(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Çview.graphicalui.first.HomePage#setUpVBoxDetails(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavafx/scene/layout/VBox;«
+setUpGroupsArea()Kview.graphicalui.first.HomePage#setUpGroupsArea()Ljavafx/scene/layout/VBox;Û
+ZsetUpVBoxDetails(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)îview.graphicalui.first.HomePage#setUpVBoxDetails(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavafx/scene/layout/VBox;«
 QinitMeetingView(Lview/bean/observers/GroupBean;Lview/bean/observers/MeetingBean;)rview.graphicalui.first.HomePage#initMeetingView(Lview/bean/observers/GroupBean;Lview/bean/observers/MeetingBean;)VÌ
 ,view.controllerui.first.HomePageEventHandlerjavafx.event.EventHandlerjava.lang.Object∂
 BsearchGroups(Ljavafx/scene/control/RadioButton;Ljava/lang/String;)pview.controllerui.first.HomePageEventHandler#searchGroups(Ljavafx/scene/control/RadioButton;Ljava/lang/String;)V‘
@@ -2941,13 +2942,15 @@ KsetUserManageCommunityBoundary(Lview/boundary/UserManageCommunityBoundary;)yvi
 "setCurrScene(Ljavafx/scene/Scene;)Fview.graphicalui.second.SecondMain#setCurrScene(Ljavafx/scene/Scene;)V^
 start(Ljavafx/stage/Stage;)?view.graphicalui.second.SecondMain#start(Ljavafx/stage/Stage;)VW
 getCurrScene()Eview.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;4
-init()*view.graphicalui.second.SecondMain#init()V‰
+init()*view.graphicalui.second.SecondMain#init()V¨	
 8view.controllerui.second.handlerstates.StateGroupOptions4view.controllerui.second.handlerstates.AbstractStatejava.lang.Objectû
 0initListMeetings(Lview/graphicalui/second/Home;)jview.controllerui.second.handlerstates.StateGroupOptions#initListMeetings(Lview/graphicalui/second/Home;)V¥
 getStateGroupOptionsInstance()ëview.controllerui.second.handlerstates.StateGroupOptions#getStateGroupOptionsInstance()Lview/controllerui/second/handlerstates/StateGroupOptions;é
 (checkCmd(Lview/graphicalui/second/Home;)bview.controllerui.second.handlerstates.StateGroupOptions#checkCmd(Lview/graphicalui/second/Home;)VN
 <init>()Bview.controllerui.second.handlerstates.StateGroupOptions#<init>()V¶
-4initListGroupMembers(Lview/graphicalui/second/Home;)nview.controllerui.second.handlerstates.StateGroupOptions#initListGroupMembers(Lview/graphicalui/second/Home;)V◊
+4initListLinkRequests(Lview/graphicalui/second/Home;)nview.controllerui.second.handlerstates.StateGroupOptions#initListLinkRequests(Lview/graphicalui/second/Home;)V¶
+4initListGroupMembers(Lview/graphicalui/second/Home;)nview.controllerui.second.handlerstates.StateGroupOptions#initListGroupMembers(Lview/graphicalui/second/Home;)Vú
+/isCurrUserOwner(Lview/graphicalui/second/Home;)iview.controllerui.second.handlerstates.StateGroupOptions#isCurrUserOwner(Lview/graphicalui/second/Home;)Z◊
 :view.controllerui.second.handlerstates.StateMeetingDetails4view.controllerui.second.handlerstates.AbstractStatejava.lang.Objectê
 (checkCmd(Lview/graphicalui/second/Home;)dview.controllerui.second.handlerstates.StateMeetingDetails#checkCmd(Lview/graphicalui/second/Home;)VP
 <init>()Dview.controllerui.second.handlerstates.StateMeetingDetails#<init>()Vº
@@ -5731,9 +5734,10 @@ hashCode()java.util.Optional#hashCode()IL
 emptyFields()Bview.graphicalui.first.HomePage$GroupCreationDialog#emptyFields()V≥
 6groupCreationResult(Ljavafx/scene/control/ButtonType;)yview.graphicalui.first.HomePage$GroupCreationDialog#groupCreationResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;r
 setUpPopUpRoot()^view.graphicalui.first.HomePage$GroupCreationDialog#setUpPopUpRoot()Ljavafx/scene/layout/VBox;y
-getCircleGroupImg()bview.graphicalui.first.HomePage$GroupCreationDialog#getCircleGroupImg()Ljavafx/scene/shape/Circle;Ù
+getCircleGroupImg()bview.graphicalui.first.HomePage$GroupCreationDialog#getCircleGroupImg()Ljavafx/scene/shape/Circle;˚
 2view.graphicalui.first.HomePage$LinkRequestsDialog!view.graphicalui.first.PageDialog∞
-5linkRequestsResult(Ljavafx/scene/control/ButtonType;)wview.graphicalui.first.HomePage$LinkRequestsDialog#linkRequestsResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;H
+5linkRequestsResult(Ljavafx/scene/control/ButtonType;)wview.graphicalui.first.HomePage$LinkRequestsDialog#linkRequestsResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;Ñ
+&initListUserRequests(Ljava/util/List;)Zview.graphicalui.first.HomePage$LinkRequestsDialog#initListUserRequests(Ljava/util/List;)VH
 <init>()<view.graphicalui.first.HomePage$LinkRequestsDialog#<init>()V™
 getLinkRequestsDialogInstance()Üview.graphicalui.first.HomePage$LinkRequestsDialog#getLinkRequestsDialogInstance()Lview/graphicalui/first/HomePage$LinkRequestsDialog;q
 setUpPopUpRoot()]view.graphicalui.first.HomePage$LinkRequestsDialog#setUpPopUpRoot()Ljavafx/scene/layout/VBox;˜

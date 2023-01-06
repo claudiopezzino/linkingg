@@ -1,18 +1,18 @@
 
-Xview.controllerui.second.KeyEventHandler#getCurrUserBean()Lview/bean/observers/UserBean;l
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java? ?(#"1*‚
+Iview.controllerui.second.KeyEventHandler#getMapGroupBean()Ljava/util/Map;l
+b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java9" 9(1"1*ä
 1l
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java@ @(÷
-ô
+b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java: :(è
+å
 l
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java@ @( "
-%0view.bean.observers.UserBean"__id*Z
+b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java: :( 
+%0java.util.Map"__id*Z
 
 __unknown_file (>*<*
 (view.controllerui.second.KeyEventHandler"
-currUserBean"”
+mapGroupBean"…
 l
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java@ @(!$
-"
-%0view.bean.observers.UserBeanB,*
+b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java: :(!
+
+%0java.util.MapB,*
 (view.controllerui.second.KeyEventHandlerH

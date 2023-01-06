@@ -1,2 +1,2 @@
-view.graphicalui.second.meetingquestionstates.QuestionBudget#next(Lview/graphicalui/second/QuestionStateMachine;)V
-view.graphicalui.second.meetingquestionstates.QuestionTime#getQuestionTimeInstance()Lview/graphicalui/second/meetingquestionstates/QuestionTime;
+view.graphicalui.second.meetingquestionstates.QuestionBudget#display()V
+view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;

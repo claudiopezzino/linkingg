@@ -1,3 +1,1 @@
-view.controllerui.first.SigninPageEventHandler#initHomePage(Lview/bean/observers/UserBean;Ljava/util/Map;)V
-view.graphicalui.first.HomePage#getHomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/HomePage;
-view.controllerui.first.SigninPageEventHandler#initUserProfile(Lview/bean/observers/UserBean;)V
+view.controllerui.first.SigninPageEventHandler#clearSigninCredentials(Lview/graphicalui/first/SigninPage;)V

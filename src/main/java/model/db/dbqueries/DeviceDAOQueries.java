@@ -28,9 +28,9 @@ public class DeviceDAOQueries {
     private static final String SELECT_CURR_USER_DEVICES = "SELECT * FROM devices WHERE port != ? AND users_nickname = ?";
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    //////////////////////////////////////////////////////////////////////////////////////////////////////////
-    private static final String SELECT_GROUP_OWNER_DEVICES = "SELECT * FROM devices WHERE users_nickname = ?";
-    //////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
+    private static final String SELECT_USER_DEVICES = "SELECT * FROM devices WHERE users_nickname = ?";
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////
     private static final String DELETE_SINGLE_DEVICE = "DELETE FROM devices WHERE ip = ? AND port = ?";
@@ -113,11 +113,11 @@ public class DeviceDAOQueries {
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    public static List<String> selectGroupOwnerDevices(PersistencyDB db, Connection connection, String groupOwnerNick) throws DBException{
+    public static List<String> selectUserDevices(PersistencyDB db, Connection connection, String groupOwnerNick) throws DBException{
         PreparedStatement preparedStatement = null;
         ResultSet resultSet = null;
         try{
-            preparedStatement = connection.prepareStatement(SELECT_GROUP_OWNER_DEVICES,
+            preparedStatement = connection.prepareStatement(SELECT_USER_DEVICES,
                     ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
 
             preparedStatement.setString(1, groupOwnerNick);

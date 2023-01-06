@@ -1,19 +1,18 @@
 
-1model.subjects.Group#nickname()Ljava/lang/String;X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaU U("1*•
+-model.subjects.Group#name()Ljava/lang/String;X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaO O("1*‘
 1X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaV V(¿
-¼
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaP P(»
+¸
 X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaV V(
-%0java.lang.String"__id*B
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaP P(
+%0java.lang.String"__id*>
 
-__unknown_file (&*$
-model.subjects.Group"
-
-nickname"t
+__unknown_file ("* 
+model.subjects.Group"
+name"t
 X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaV V(
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaP P(
 
 %0java.lang.StringB
 model.subjects.GroupH

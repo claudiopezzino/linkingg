@@ -1,4 +1,7 @@
-view.controllerui.second.Message#errorMsg()V
+view.controllerui.second.Message#confirmationMsg(Ljavafx/event/EventHandler;)V
+javafx.scene.control.DialogPane#lookupButton(Ljavafx/scene/control/ButtonType;)Ljavafx/scene/Node;
 javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
-javafx.scene.control.Dialog#show()V
+javafx.scene.control.Dialog#getDialogPane()Ljavafx/scene/control/DialogPane;
+javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
 javafx.scene.control.Alert#instance-init#
+javafx.scene.Node#addEventFilter(Ljavafx/event/EventType;Ljavafx/event/EventHandler;)V

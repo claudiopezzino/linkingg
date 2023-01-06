@@ -1,60 +1,17 @@
 
-view.graphicalui.first.MeetingPage#getMeetingPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/MeetingPage;h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaã ã(4"4*‚
-2h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaå2 å(9»¸
-h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaå& å(1(
-%1"view.graphicalui.first.MeetingPage""view.graphicalui.first.MeetingPageÒ
-Ï
-h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaå" å(:
-%2"Lview.graphicalui.first.MeetingPage#<init>(Lview/graphicalui/first/Toolbar;)V*F
-
-__unknown_file (*
-(
-%1"view.graphicalui.first.MeetingPage*G
-
-__unknown_file (+
-)
-toolbarview.graphicalui.first.Toolbarú
-÷
-h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaå å(:=$
-"view.graphicalui.first.MeetingPage"
-meetingPageInstance"__id*F
-
-__unknown_file (*
-(
-%1"view.graphicalui.first.MeetingPage*
-1*ò
-4h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaä ä(ú
-÷
-h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaä ä((
-%0"view.graphicalui.first.MeetingPage"__id*[
-
-__unknown_file (?*=$
-"view.graphicalui.first.MeetingPage"
-meetingPageInstance*
-2
-1*ƒ
+`view.graphicalui.first.MeetingPage#getHandler()Lview/controllerui/first/MeetingPageEventHandler;h
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaÜ6 Ü(@"1*ä
 1h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaæ æ(ú
-÷
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaÝ Ý(Î
+Ë
 h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaç ç("(
-%3"view.graphicalui.first.MeetingPage"__id*[
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaÝ Ý(5
+%0/view.controllerui.first.MeetingPageEventHandler"__id*"
 
-__unknown_file (?*=$
-"view.graphicalui.first.MeetingPage"
-meetingPageInstance"–
+__unknown_file (
+"""£
 h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaç ç(#*
-(
-%3"view.graphicalui.first.MeetingPage:•
-h
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaã5 ã(D)
-toolbarview.graphicalui.first.ToolbarB&"$
+\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/MeetingPage.javaÝ Ý(7
+5
+%0/view.controllerui.first.MeetingPageEventHandlerB&"$
 "view.graphicalui.first.MeetingPageH

@@ -1,1 +1,3 @@
-view.bean.Regex#instance-init#
+view.graphicalui.second.usernamequestionstates.QuestionNewUsername#getQuestionNewUsernameInstance()Lview/graphicalui/second/usernamequestionstates/QuestionNewUsername;
+view.graphicalui.second.usernamequestionstates.QuestionNewUsername#<init>()V
+view.graphicalui.second.usernamequestionstates.QuestionNewUsername#instance-init#

@@ -5,12 +5,8 @@ import control.notifications.ConcreteNotification;
 import control.notifications.Notification;
 import control.notifications.notificationdecorations.LinkRequestDecorator;
 import javafx.event.EventHandler;
-import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
-import javafx.scene.layout.VBox;
-import javafx.scene.paint.ImagePattern;
-import javafx.scene.shape.Circle;
 import view.bean.BeanError;
 import view.bean.UserSignInBean;
 import view.bean.observers.GroupBean;
@@ -24,9 +20,6 @@ import java.util.Map;
 
 import static view.graphicalui.first.Dialog.*;
 import static view.graphicalui.first.Page.*;
-import static view.graphicalui.first.constcontainer.Protocol.FILE;
-import static view.graphicalui.first.toolbaritems.HomeToolbarItems.PROFILE_BOX;
-import static view.graphicalui.first.toolbaritems.HomeToolbarItems.profileBoxItems.IMAGE_USER;
 import static view.graphicalui.first.toolbaritems.SignToolbarItems.*;
 import static view.graphicalui.first.toolbaritems.SignToolbarItems.MainBarItems.*;
 
@@ -177,29 +170,18 @@ public class SigninPageEventHandler <T extends MouseEvent> implements EventHandl
     }
     ///////////////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////
     private void initUserProfile(UserBean userBean){
-
-        VBox homePageProfileBox = (VBox) HomePage.getHomePageInstance(null)
-                .getToolBar().getItems().get(PROFILE_BOX.getIndex());
-        Circle circleHomePageImageUser = (Circle) homePageProfileBox.getChildren().get(IMAGE_USER.getIndex());
 
         HomePage.UserProfileDialog.getUserProfileDialogInstance()
                 .getLabelFullName().setText(userBean.getName() + " " + userBean.getSurname());
         HomePage.UserProfileDialog.getUserProfileDialogInstance()
                 .getLabelNickname().setText("@"+userBean.getNickname());
 
-        if(userBean.getImageProfile() != null) {
-            HomePage.UserProfileDialog.getUserProfileDialogInstance()
-                    .getCircleImgProfile().setFill(new ImagePattern(new Image(FILE + userBean.getImageProfile())));
-
-            circleHomePageImageUser.setFill(new ImagePattern(new Image(FILE + userBean.getImageProfile())));
-        }
-
         HomePage.UserProfileDialog.UsernameDialog.getUsernameDialogInstance()
                 .getLabelCurrNickname().setText(userBean.getNickname());
     }
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////////////////
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////
     private void showNotifications(Map<String, GroupBean> mapGroupBean){

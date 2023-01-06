@@ -1,41 +1,25 @@
 
-@view.graphicalui.first.SignupPage#getAccount()Ljava/lang/String;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java§ §("1*º
-
+=view.graphicalui.first.SignupPage#getCell()Ljava/lang/String;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaû û("1*¸
 1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java•7 •(;ı
-Ú
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaü ü(Ó
+Î
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java•7 •(N&
-%0 javafx.scene.control.ToggleGroup"__id*Y
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaü ü(!$
+%0javafx.scene.control.TextField"__id*T
 
-__unknown_file (=*;#
-!view.graphicalui.first.SignupPage"
-toggleGroupAccountΩ∫
+__unknown_file (8*6#
+!view.graphicalui.first.SignupPage"
+textFieldCellñì
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java•7 •(b!
-%1javafx.scene.control.Toggle"Qjavafx.scene.control.ToggleGroup#getSelectedToggle()Ljavafx/scene/control/Toggle;*D
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaü ü(+
+%1java.lang.String"Ajavafx.scene.control.TextInputControl#getText()Ljava/lang/String;*B
 
-__unknown_file ((
-&
-%0 javafx.scene.control.ToggleGroup2getSelectedToggle()Ï
-È
+__unknown_file (&
+$
+%0javafx.scene.control.TextField2	getText()"É
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java• •(c7
-selectedRadioButton javafx.scene.control.RadioButton"__id*?
-
-__unknown_file (#
-!
-%1javafx.scene.control.Toggle†ù
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¶ ¶(,
-%2java.lang.String"8javafx.scene.control.Labeled#getText()Ljava/lang/String;*U
-
-__unknown_file (9
-7
-selectedRadioButton javafx.scene.control.RadioButton2	getText()"É
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¶ ¶(-
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaü ü(,
 
-%2java.lang.StringB%#
+%1java.lang.StringB%#
 !view.graphicalui.first.SignupPageH

@@ -1,18 +1,18 @@
 
-Iview.graphicalui.second.Shell#getPrompt()Ljavafx/scene/control/TextField;a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java3 3("1*Ô
+Hview.graphicalui.second.Shell#getScreen()Ljavafx/scene/control/TextArea;a
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java- -("1*Ò
 1a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java4 4(Ý
-Ú
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java. .(Ü
+Ù
 a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java4 4($
-%0javafx.scene.control.TextField"__id*I
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java. .(#
+%0javafx.scene.control.TextArea"__id*I
 
 __unknown_file (-*+
 view.graphicalui.second.Shell"
-prompt"‹
+screen"Š
 a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java4 4(&
-$
-%0javafx.scene.control.TextFieldB!
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Shell.java. .(%
+#
+%0javafx.scene.control.TextAreaB!
 view.graphicalui.second.ShellH

@@ -1,3 +1,4 @@
-control.controlutilities.SecureObjectInputStream#resolveClass(Ljava/io/ObjectStreamClass;)Ljava/lang/Class;
-java.io.InvalidClassException#<init>(Ljava/lang/String;Ljava/lang/String;)V
-java.io.InvalidClassException#instance-init#
+control.controlutilities.SecureObjectInputStream#<init>(Ljava/io/InputStream;)V
+java.lang.Object#getClass()Ljava/lang/Class;
+java.lang.Class#getName()Ljava/lang/String;
+java.util.Collections#emptyMap()Ljava/util/Map;

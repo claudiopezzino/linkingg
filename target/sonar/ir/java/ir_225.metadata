@@ -1,3 +1,2 @@
-view.graphicalui.second.signupquestionstates.QuestionAddress#getQuestionAddressInstance()Lview/graphicalui/second/signupquestionstates/QuestionAddress;
-view.graphicalui.second.signupquestionstates.QuestionAddress#instance-init#
-view.graphicalui.second.signupquestionstates.QuestionAddress#<init>()V
+view.graphicalui.second.signupquestionstates.QuestionAddress#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.signupquestionstates.QuestionMail#getQuestionMailInstance()Lview/graphicalui/second/signupquestionstates/QuestionMail;

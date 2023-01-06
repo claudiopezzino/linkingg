@@ -1,1 +1,1 @@
-view.bean.observers.MeetingBean#setPhotos(Ljava/util/List;)V
+view.bean.observers.MeetingBean#setImage(Ljava/lang/String;)V

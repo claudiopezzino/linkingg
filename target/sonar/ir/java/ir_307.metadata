@@ -1,1 +1,1 @@
-view.graphicalui.first.SignupPage#getHandler()Lview/controllerui/first/SignupPageEventHandler;
+view.graphicalui.first.SignupPage#isToolBarPresent()Z

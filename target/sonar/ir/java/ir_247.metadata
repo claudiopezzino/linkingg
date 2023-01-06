@@ -1,2 +1,1 @@
-view.graphicalui.first.FirstMain#main([Ljava/lang/String;)V
-javafx.application.Application#launch([Ljava/lang/String;)V
+view.graphicalui.first.FirstMain#instance-init#

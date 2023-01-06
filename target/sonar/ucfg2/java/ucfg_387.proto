@@ -1,53 +1,18 @@
 
-yview.graphicalui.first.Dialog$InfoErrorDialog#getInfoErrorDialogInstance()Lview/graphicalui/first/Dialog$InfoErrorDialog;a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaJ' J(A"3*√
-2a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaL* L(? «
-a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaL. L(=3
-%1-view.graphicalui.first.Dialog$InfoErrorDialog"-view.graphicalui.first.Dialog$InfoErrorDialog¯
-ı
-a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaL* L(?
-%2"7view.graphicalui.first.Dialog$InfoErrorDialog#<init>()V*Q
-
-__unknown_file (5
-3
-%1-view.graphicalui.first.Dialog$InfoErrorDialogç
-ä
-a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaL L(?L/
--view.graphicalui.first.Dialog$InfoErrorDialog"
-infoErrorDialogInstance"__id*Q
-
-__unknown_file (5
-3
-%1-view.graphicalui.first.Dialog$InfoErrorDialog*
-1*˛
-3a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaK K(&ç
-ä
-a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaK K(&3
-%0-view.graphicalui.first.Dialog$InfoErrorDialog"__id*j
-
-__unknown_file (N*L/
--view.graphicalui.first.Dialog$InfoErrorDialog"
-infoErrorDialogInstance*
-2
-1*ì
+Zview.graphicalui.first.Dialog$InfoErrorDialog#getLabelErrors()Ljavafx/scene/control/Label;a
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaC C(#"1*·
 1a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaM M(*ç
-ä
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaD D(Ó
+Î
 a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaM M(*3
-%3-view.graphicalui.first.Dialog$InfoErrorDialog"__id*j
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaD D(# 
+%0javafx.scene.control.Label"__id*^
 
-__unknown_file (N*L/
--view.graphicalui.first.Dialog$InfoErrorDialog"
-infoErrorDialogInstance"ö
+__unknown_file (B*@/
+-view.graphicalui.first.Dialog$InfoErrorDialog"
+labelErrors"á
 a
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaM M(+5
-3
-%3-view.graphicalui.first.Dialog$InfoErrorDialogB1"/
--view.graphicalui.first.Dialog$InfoErrorDialog
+W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaD D($"
+ 
+%0javafx.scene.control.LabelB1/
+-view.graphicalui.first.Dialog$InfoErrorDialogH

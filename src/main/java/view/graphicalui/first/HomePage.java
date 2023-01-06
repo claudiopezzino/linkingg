@@ -18,6 +18,7 @@ import javafx.scene.web.WebView;
 import view.bean.observers.GroupBean;
 import view.bean.observers.MeetingBean;
 import view.bean.observers.UserBean;
+import view.controllerui.first.DialogEventHandler.LinkRequestAcceptingHandler;
 import view.controllerui.first.DialogEventHandler.LinkRequestSendingHandler;
 import view.controllerui.first.HomePageEventHandler;
 import view.controllerui.first.HomePageEventHandler.GoogleMapsChangeListener;
@@ -292,11 +293,11 @@ public class HomePage extends Parent {
         ////////////////////////////////////////////////////////////////
 
 
-        ///////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////
         private Map<String, String> searchGroupsResult(ButtonType buttonType){
             return Collections.emptyMap();
         }
-        ///////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         /////////////////////////////////////////////////////////////////////////////////////////////
         @Override
@@ -345,32 +346,32 @@ public class HomePage extends Parent {
         /////////////////////////////////////////////////////////////////////////
 
         /*------------------------------ INNER_INNER_CLASS ------------------------------*/
-        public static class LinkRequestSendingDialog extends PageDialog{
+        public static class ConfirmationDialog extends PageDialog{
 
             //////////////////////////////////////
-            private final Circle circleGroupImage;
-            private final Label labelGroupName;
-            private final Label labelGroupNick;
+            private final Circle circleImage;
+            private final Label labelFullName;
+            private final Label labelNick;
             //////////////////////////////////////
 
 
-            //////////////////////////////////////////////////////////////////////////////////////////////////////
-            public LinkRequestSendingDialog(Circle circleGroupImage, Label labelGroupName, Label labelGroupNick) {
-                super("Link request", "Send link request", QUESTION);
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            public ConfirmationDialog(String header, Circle circleImage, Label labelFullName, Label labelNick) {
+                super("Confirmation", header, QUESTION);
 
-                this.circleGroupImage = circleGroupImage;
-                this.labelGroupName = labelGroupName;
-                this.labelGroupNick = labelGroupNick;
+                this.circleImage = circleImage;
+                this.labelFullName = labelFullName;
+                this.labelNick = labelNick;
 
                 this.getDialogPane().setContent(this.setUpPopUpRoot());
                 this.setResultConverter(this::linkRequestSendingResult);
             }
-            //////////////////////////////////////////////////////////////////////////////////////////////////////
+            ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
             ////////////////////////////////////////////////////////////////////////////
             private Map<String, String> linkRequestSendingResult(ButtonType buttonType){
                 if (buttonType == this.getBtnTypeSave()){
-                    this.map.put(NICKNAME, this.labelGroupNick.getText());
+                    this.map.put(NICKNAME, this.labelNick.getText());
                     return this.map;
                 }
                 return Collections.emptyMap();
@@ -384,11 +385,11 @@ public class HomePage extends Parent {
 
                 VBox vBoxGroupDetails = new VBox();
                 vBoxGroupDetails.getStyleClass().add(IMG_CONTAINER);
-                vBoxGroupDetails.getChildren().addAll(this.labelGroupName, this.labelGroupNick);
+                vBoxGroupDetails.getChildren().addAll(this.labelFullName, this.labelNick);
 
                 HBox hBoxGroupInfo = new HBox();
                 hBoxGroupInfo.getStyleClass().add(IMG_CONTAINER);
-                hBoxGroupInfo.getChildren().addAll(this.circleGroupImage, vBoxGroupDetails);
+                hBoxGroupInfo.getChildren().addAll(this.circleImage, vBoxGroupDetails);
 
                 vBoxRoot.getChildren().addAll(hBoxGroupInfo);
                 return vBoxRoot;
@@ -644,6 +645,7 @@ public class HomePage extends Parent {
             this.listViewUserRequests = new ListView<>();
             this.listViewUserRequests.setPlaceholder(vBoxPlaceholder);
             this.listViewUserRequests.setItems(this.observableListUsers);
+            this.listViewUserRequests.setOnMouseClicked(new LinkRequestAcceptingHandler<>());
 
             vBoxRoot.getChildren().add(this.listViewUserRequests);
 
@@ -658,6 +660,12 @@ public class HomePage extends Parent {
             return linkRequestsDialogInstance;
         }
         ///////////////////////////////////////////////////////////////////
+
+        /////////////////////////////////////////////////////////////////////////////////////
+        public ListView<VBox> getListViewUserRequests() {
+            return this.listViewUserRequests;
+        }
+        /////////////////////////////////////////////////////////////////////////////////////
 
         ///////////////////////////////////////////////////////////////////
         public void initListUserRequests(List<VBox> vBoxListUserDetails){

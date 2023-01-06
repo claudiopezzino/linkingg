@@ -1,5 +1,6 @@
-view.controllerui.second.KeyEventHandler#homeHandle(Lview/graphicalui/second/Home;)V
-view.controllerui.second.KeyEventHandler#moveBackToWelcomePage(Lview/graphicalui/second/Home;)V
-javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
-java.lang.String#equals(Ljava/lang/Object;)Z
-view.controllerui.second.KeyEventHandler#moveBackToHomePage(Lview/graphicalui/second/Home;)V
+view.controllerui.second.KeyEventHandler#showNotifications()V
+view.controllerui.second.Message#linkRequestMsg(Lcontrol/notifications/Notification;)V
+control.notifications.notificationdecorations.LinkRequestDecorator#instance-init#
+control.notifications.notificationdecorations.LinkRequestDecorator#<init>(Lcontrol/notifications/Notification;Ljava/lang/String;Ljava/lang/String;)V
+control.notifications.ConcreteNotification#instance-init#
+control.notifications.ConcreteNotification#<init>()V

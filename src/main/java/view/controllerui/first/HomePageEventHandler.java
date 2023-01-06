@@ -136,7 +136,7 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
                 FirstMain.getCurrScene().setRoot(Container.getRoot(MEETING_CHOICE_PAGE));
 
             else if(event.getSource().equals(HomePage.getHomePageInstance(null).getBtnLinkRequests())
-                    && HomePage.getHomePageInstance(null).getListViewGroups().getFocusModel().getFocusedItem() != null){
+                    && HomePage.getHomePageInstance(null).getListViewGroups().getSelectionModel().getSelectedItem() != null){
                 this.manageLinkRequests();
             }
 
@@ -334,9 +334,11 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
         hyperlinkNewMember.setOnMouseClicked(new ListViewHandler.HyperLinkGroupMemberHandler<>(groupNick, newMemberNick));
 
         for (VBox group : observableListGroups){
-            HBox hBoxGroupDetails = (HBox) group.getChildren().get(GROUP_DETAILS.getIndex());
-            Label labelCurrGroupNick = (Label) hBoxGroupDetails.getChildren().get(GROUP_NICKNAME.getIndex());
-            String currGroupNick = labelCurrGroupNick.getText();
+            HBox hBoxGroupInfo = (HBox) group.getChildren().get(GROUP_INFO.getIndex());
+            VBox vBoxGroupDetails = (VBox) hBoxGroupInfo.getChildren().get(GROUP_DETAILS.getIndex());
+            Label labelCurrGroupNick = (Label) vBoxGroupDetails.getChildren().get(GROUP_NICKNAME.getIndex());
+            String[] tokens = labelCurrGroupNick.getText().split(" +");
+            String currGroupNick = tokens[1];
             if(currGroupNick.equals(groupNick)){
                 VBox vboxGroupMembers = (VBox) group.getChildren().get(MEMBERS_INFO.getIndex());
                 FlowPane flowPaneGroupMembers = (FlowPane) vboxGroupMembers.getChildren().get(MEMBERS_FLOW_PANE.getIndex());
@@ -434,13 +436,9 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
 
                     String fullName = userBean.getName()+" "+userBean.getSurname();
                     String nickname = userBean.getNickname();
-                    String image = userBean.getImageProfile();
-
-                    if(image == null)
-                        image = ANONYMOUS_PROFILE;
 
                     GroupMemberProfileDialog groupMemberProfileDialog =
-                            new GroupMemberProfileDialog(fullName, nickname, image);
+                            new GroupMemberProfileDialog(fullName, nickname, ANONYMOUS_PROFILE);
 
                     groupMemberProfileDialog.showAndWait();
                 }
@@ -589,8 +587,7 @@ public class HomePageEventHandler<T extends MouseEvent> implements EventHandler<
                 for (Map.Entry<String, LinkRequestBean> entry : mapRequests.entrySet()){
                     linkRequestBean = entry.getValue();
 
-                    userImagePath = linkRequestBean.getUserImagePath() == null ?
-                            ANONYMOUS_PROFILE : linkRequestBean.getUserImagePath();
+                    userImagePath = ANONYMOUS_PROFILE;
                     userFullName = linkRequestBean.getUserName() + " " + linkRequestBean.getUserSurname();
                     userNick = linkRequestBean.getUserNick();
 

@@ -1,1 +1,1 @@
-view.graphicalui.first.MeetingPage#getHandler()Lview/controllerui/first/MeetingPageEventHandler;
+view.graphicalui.first.MeetingPage#isToolBarPresent()Z

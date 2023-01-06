@@ -92,6 +92,7 @@ public class Group extends Subject {
         this.change = State.GROUP_MEMBERS;
 
         this.mapMembers.put(newMember.credentials().getKey(), newMember);
+        this.mapLinkRequests.remove(newMember.credentials().getKey());
 
         Map<String, String> map = new HashMap<>();
         map.put(UserFields.NICKNAME, newMember.credentials().getKey());

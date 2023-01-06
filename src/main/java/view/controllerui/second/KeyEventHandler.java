@@ -353,7 +353,6 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
             infoErrorMsg(stackError);
         else {
             this.accessUser(userSignInBean);
-            this.showNotifications();
         }
         signin.setSignMode(true);
         signin.getPrompt().clear();
@@ -400,6 +399,8 @@ public class KeyEventHandler<T extends Event> implements EventHandler<T> {
             Home.getHomeInstance().initWelcomeMsg();
             Home.getHomeInstance().restoreScreen();
             SecondMain.getCurrScene().setRoot(Home.getHomeInstance());
+
+            this.showNotifications();
 
         }catch(InternalException internalException){
             infoErrorMsg(internalException.getMessage());

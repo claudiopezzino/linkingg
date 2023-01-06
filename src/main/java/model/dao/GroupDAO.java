@@ -43,9 +43,15 @@ public class GroupDAO implements BaseDAO{
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     @Override
-    public <V> Object readEntity(Map<String, V> filter, Filter type) throws InternalException {
+    public <V> Object readEntity(Map<String, V> filter, Filter type) throws InternalException, NoEntityException {
         Map<String, String> mapGroupInfo = new HashMap<>();
+
+        Map<String, User> mapGroupMembers;
+        Map<String, Meeting> mapGroupMeetings;
+        Map<String, LinkRequest> mapLinkRequests;
+
         Group group;
+
         try{
             PersistencyDB db = PersistencyDB.getSingletonInstance();
             Connection connection = db.getConnection();
@@ -59,7 +65,11 @@ public class GroupDAO implements BaseDAO{
             throw new InternalException(dbException.getMessage());
         }
 
-        group = this.makeGroupEntity(mapGroupInfo, new HashMap<>(), new HashMap<>(), new HashMap<>());
+        mapGroupMembers = this.fetchGroupMembers(mapGroupInfo.get(GroupFields.NICKNAME));
+        mapGroupMeetings = this.fetchGroupMeetings(mapGroupInfo.get(GroupFields.NICKNAME));
+        mapLinkRequests = this.fetchLinkRequests(mapGroupInfo.get(GroupFields.NICKNAME));
+
+        group = this.makeGroupEntity(mapGroupInfo, mapGroupMembers, mapGroupMeetings, mapLinkRequests);
 
         return group;
     }
@@ -138,12 +148,22 @@ public class GroupDAO implements BaseDAO{
     }
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    ///////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////
     @Override
     public <V> void updateEntity(Map<String, V> filter, Filter type) throws InternalException {
-        // TO DO
+        if(type == Filter.NEW_GROUP_MEMBER){
+            try{
+                PersistencyDB db = PersistencyDB.getSingletonInstance();
+                Connection connection = db.getConnection();
+                GroupDAOQueries.insertNewMember(db, connection,
+                        (String) filter.get(UserFields.NICKNAME), (String) filter.get(UserInfo.GROUP_NICK));
+                db.closeConnection();
+            }catch(DBException dbException){
+                throw new InternalException(dbException.getMessage());
+            }
+        }
     }
-    ///////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     ///////////////////////////////////////////////////////////////
     private Map<String, String> unpackGroupInfo(String groupInfo){

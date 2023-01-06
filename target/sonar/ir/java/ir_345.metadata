@@ -1,3 +1,6 @@
-view.graphicalui.first.ConcreteToolbar#instance-init#
-javafx.scene.control.ToolBar#<init>()V
-javafx.scene.control.ToolBar#instance-init#
+view.controllerui.first.SigninPageEventHandler#showNotifications(Ljava/util/Map;)V
+control.notifications.notificationdecorations.LinkRequestDecorator#instance-init#
+control.notifications.notificationdecorations.LinkRequestDecorator#<init>(Lcontrol/notifications/Notification;Ljava/lang/String;Ljava/lang/String;)V
+control.notifications.ConcreteNotification#instance-init#
+control.notifications.ConcreteNotification#<init>()V
+view.graphicalui.first.Dialog#showNotificationDialog(Lcontrol/notifications/Notification;)V

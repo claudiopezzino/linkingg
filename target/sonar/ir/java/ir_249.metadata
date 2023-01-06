@@ -1,4 +1,6 @@
-view.graphicalui.first.FirstMain#start(Ljavafx/stage/Stage;)V
-javafx.stage.Stage#show()V
-javafx.stage.Stage#setResizable(Z)V
-javafx.stage.Stage#setScene(Ljavafx/scene/Scene;)V
+view.graphicalui.first.FirstMain#init()V
+view.graphicalui.first.Container#getRoot(Lview/graphicalui/first/Page;)Ljavafx/scene/control/ScrollPane;
+view.graphicalui.first.FirstMain#setCurrScene(Ljavafx/scene/Scene;)V
+javafx.scene.Scene#instance-init#
+javafx.scene.Scene#<init>(Ljavafx/scene/Parent;)V
+javafx.scene.Scene#getStylesheets()Ljavafx/collections/ObservableList;

@@ -1,1 +1,1 @@
-view.bean.observers.MeetingBean#getPhotos()Ljava/util/List;
+view.bean.observers.MeetingBean#getImage()Ljava/lang/String;

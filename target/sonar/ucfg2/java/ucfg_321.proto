@@ -1,9 +1,41 @@
 
-5view.graphicalui.first.SignupPage#isToolBarPresent()Zg
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¨ ¨(*"1*ﬂ
+@view.graphicalui.first.SignupPage#getAccount()Ljava/lang/String;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java§ §("1*º
+
 1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java≠ ≠("q
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java•7 •(;ı
+Ú
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java≠ ≠(
-""B%"#
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java•7 •(N&
+%0 javafx.scene.control.ToggleGroup"__id*Y
+
+__unknown_file (=*;#
+!view.graphicalui.first.SignupPage"
+toggleGroupAccountΩ∫
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java•7 •(b!
+%1javafx.scene.control.Toggle"Qjavafx.scene.control.ToggleGroup#getSelectedToggle()Ljavafx/scene/control/Toggle;*D
+
+__unknown_file ((
+&
+%0 javafx.scene.control.ToggleGroup2getSelectedToggle()Ï
+È
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java• •(c7
+selectedRadioButton javafx.scene.control.RadioButton"__id*?
+
+__unknown_file (#
+!
+%1javafx.scene.control.Toggle†ù
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¶ ¶(,
+%2java.lang.String"8javafx.scene.control.Labeled#getText()Ljava/lang/String;*U
+
+__unknown_file (9
+7
+selectedRadioButton javafx.scene.control.RadioButton2	getText()"É
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¶ ¶(-
+
+%2java.lang.StringB%#
 !view.graphicalui.first.SignupPageH

@@ -1,3 +1,7 @@
-view.graphicalui.first.Dialog#getLastNotification()Lcontrol/notifications/Notification;
-control.notifications.NoNotificationException#instance-init#
-control.notifications.NoNotificationException#<init>()V
+view.graphicalui.first.Dialog#showNotificationDialog(Lcontrol/notifications/Notification;)V
+javafx.scene.control.Dialog#close()V
+javafx.scene.control.Dialog#show()V
+javafx.scene.control.Dialog#isShowing()Z
+view.graphicalui.first.Dialog$NotificationDialog#<init>(Lcontrol/notifications/Notification;)V
+view.graphicalui.first.Dialog$NotificationDialog#updateNotifications(Lcontrol/notifications/Notification;)V
+view.graphicalui.first.Dialog$NotificationDialog#instance-init#

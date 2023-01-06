@@ -1,3 +1,5 @@
-view.controllerui.second.handlerstates.StateMeetingsView#getStateMeetingsViewInstance()Lview/controllerui/second/handlerstates/StateMeetingsView;
-view.controllerui.second.handlerstates.StateMeetingsView#instance-init#
-view.controllerui.second.handlerstates.StateMeetingsView#<init>()V
+view.controllerui.second.handlerstates.StateMeetingsView#initListMeetingDetails(Lview/graphicalui/second/Home;Ljava/lang/String;)V
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+java.lang.String#equals(Ljava/lang/Object;)Z
+view.graphicalui.second.Shell#getShellHandler()Lview/controllerui/second/KeyEventHandler;

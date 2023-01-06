@@ -1,1 +1,4 @@
-view.controllerui.second.handlerstates.StateSearchFilter#instance-init#
+view.graphicalui.first.toolbardecorations.SocialBarDecorator#draw()Ljavafx/scene/control/ToolBar;
+javafx.scene.control.Separator#instance-init#
+javafx.scene.control.Separator#<init>()V
+javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;

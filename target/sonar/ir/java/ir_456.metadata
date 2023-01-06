@@ -1,7 +1,4 @@
-view.graphicalui.first.MeetingPage#initRadioButtonList(Ljavafx/scene/control/ToggleGroup;[Ljava/lang/String;)Ljava/util/List;
-java.util.ArrayList#<init>()V
-java.util.ArrayList#instance-init#
-javafx.scene.control.ToggleButton#setToggleGroup(Ljavafx/scene/control/ToggleGroup;)V
-javafx.scene.control.RadioButton#instance-init#
-javafx.scene.control.RadioButton#<init>(Ljava/lang/String;)V
-javafx.scene.control.ToggleButton#setSelected(Z)V
+view.graphicalui.first.MeetingPage#setUpQuestionsForm(Ljavafx/collections/ObservableList;)Ljavafx/scene/control/ListView;
+javafx.scene.control.ListView#setItems(Ljavafx/collections/ObservableList;)V
+javafx.scene.control.ListView#<init>()V
+javafx.scene.control.ListView#instance-init#

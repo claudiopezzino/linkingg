@@ -1,18 +1,18 @@
 
-Vview.graphicalui.first.PageDialog#getBtnTypeDismiss()Ljavafx/scene/control/ButtonType;e
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaN N('"1*Ó
+Sview.graphicalui.first.PageDialog#getBtnTypeSave()Ljavafx/scene/control/ButtonType;e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaH H($"1*Î
 1e
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaO O(Ó
-Î
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaI I(Î
+Ë
 e
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaO O("%
-%0javafx.scene.control.ButtonType"__id*U
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaI I(%
+%0javafx.scene.control.ButtonType"__id*R
 
-__unknown_file (9*7#
-!view.graphicalui.first.PageDialog"
-btnTypeDismiss"ê
+__unknown_file (6*4#
+!view.graphicalui.first.PageDialog"
+btnTypeSave"ê
 e
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaO O(#'
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaI I( '
 %
 %0javafx.scene.control.ButtonTypeB%#
 !view.graphicalui.first.PageDialogH

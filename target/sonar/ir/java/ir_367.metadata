@@ -1,6 +1,2 @@
-view.graphicalui.second.SecondMain#init()V
-view.graphicalui.second.SecondMain#setCurrScene(Ljavafx/scene/Scene;)V
-javafx.scene.Scene#instance-init#
-view.graphicalui.second.Welcome#getWelcomeInstance()Lview/graphicalui/second/Welcome;
-javafx.scene.Scene#<init>(Ljavafx/scene/Parent;)V
-javafx.scene.Scene#getStylesheets()Ljavafx/collections/ObservableList;
+view.graphicalui.second.SecondMain#main([Ljava/lang/String;)V
+javafx.application.Application#launch([Ljava/lang/String;)V

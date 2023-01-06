@@ -1,4 +1,2 @@
-view.graphicalui.first.toolbardecorations.TitleBoxDecorator#draw()Ljavafx/scene/control/ToolBar;
-javafx.scene.control.Separator#instance-init#
-javafx.scene.control.Separator#<init>()V
-javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;
+view.graphicalui.first.toolbardecorations.TitleBoxDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/scene/text/Text;)V
+javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;

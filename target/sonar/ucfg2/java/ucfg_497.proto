@@ -1,18 +1,18 @@
 
-1model.subjects.Group#owner()Lmodel/subjects/User;X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java= =("1*˜
+4model.subjects.Group#plannedMeeting()Ljava/util/Map;X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java7  7(."1*’
 1X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java> >(¿
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java8 8(¿
 ¼
 X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java> >(
-%0model.subjects.User"__id*?
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java8 8(
+%0java.util.Map"__id*E
 
-__unknown_file (#*!
-model.subjects.Group"
-owner"w
+__unknown_file ()*'
+model.subjects.Group"
+mapMeetings"q
 X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java> >(
-
-%0model.subjects.UserB
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java8 8( 
+
+%0java.util.MapB
 model.subjects.GroupH

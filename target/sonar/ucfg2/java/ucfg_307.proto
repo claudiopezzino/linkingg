@@ -1,18 +1,18 @@
 
-aview.graphicalui.first.SignupPage$CredentialDialog#getLabelPassword()Ljavafx/scene/control/Label;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.javaœ œ(%"1*˙
+aview.graphicalui.first.SignupPage$CredentialDialog#getLabelNickname()Ljavafx/scene/control/Label;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java… …(%"1*˙
 1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java– –(˚
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java   (˚
 ¯
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java– –(% 
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java   (% 
 %0javafx.scene.control.Label"__id*e
 
 __unknown_file (I*G4
 2view.graphicalui.first.SignupPage$CredentialDialog"
-labelPassword"ç
+labelNickname"ç
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java– –(&"
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java   (&"
  
 %0javafx.scene.control.LabelB64
 2view.graphicalui.first.SignupPage$CredentialDialogH

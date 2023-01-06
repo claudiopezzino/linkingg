@@ -4,7 +4,7 @@ public enum ListViewSearchGroupItems {
     CIRCLE_GROUP_IMAGE,
     VBOX_GROUP_DETAILS;
 
-    /*------------------ inner-inner-enum ------------------*/
+    /*--------------------- inner-enum ---------------------*/
     public enum GroupDetails{
         LABEL_GROUP_NAME,
         LABEL_GROUP_NICKNAME;

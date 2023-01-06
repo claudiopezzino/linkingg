@@ -116,7 +116,21 @@ public class LinkRequestDAO implements BaseDAO{
     ///////////////////////////////////////////////////////////////////////////////////////////
     @Override
     public <V> void updateEntity(Map<String, V> filter, Filter type) throws InternalException {
-        // TO DO
+
+        try {
+            PersistencyDB db = PersistencyDB.getSingletonInstance();
+            Connection connection = db.getConnection();
+
+            if (type == Filter.NOTHING)
+                LinkRequestDAOQueries.deleteLinkRequest(db, connection,
+                        (String) filter.get(LinkRequestFields.USERS_NICKNAME),
+                        (String) filter.get(LinkRequestFields.GROUPS_NICKNAME));
+
+            db.closeConnection();
+
+        }catch(DBException dbException){
+            throw new InternalException(dbException.getMessage());
+        }
     }
     ///////////////////////////////////////////////////////////////////////////////////////////
 

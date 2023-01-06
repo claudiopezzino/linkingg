@@ -1,4 +1,3 @@
-control.controlutilities.SecureObjectInputStream#<init>(Ljava/io/InputStream;)V
-java.lang.Object#getClass()Ljava/lang/Class;
-java.lang.Class#getName()Ljava/lang/String;
-java.util.Collections#emptyMap()Ljava/util/Map;
+control.controlutilities.SecureObjectInputStream#instance-init#
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#

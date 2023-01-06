@@ -1,1 +1,1 @@
-model.dao.UserDAO#updateEntity(Ljava/util/Map;Lmodel/Filter;)V
+model.dao.UserDAO#instance-init#

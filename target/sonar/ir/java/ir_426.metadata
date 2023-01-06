@@ -1,9 +1,3 @@
-view.controllerui.second.KeyEventHandler#welcomeHandle(Lview/graphicalui/second/Welcome;)V
-view.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;
-view.graphicalui.second.Signin#getSigninInstance()Lview/graphicalui/second/Signin;
-view.controllerui.second.Message#infoMsg()V
-view.controllerui.second.Message#errorMsg()V
-javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
-java.lang.String#equals(Ljava/lang/Object;)Z
-view.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;
-javafx.scene.Scene#setRoot(Ljavafx/scene/Parent;)V
+view.controllerui.second.KeyEventHandler#updateMeetingParticipants()V
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;

@@ -1,1 +1,3 @@
-view.controllerui.second.KeyEventHandler#getStateMachine()Lview/controllerui/second/HandlerStateMachine;
+view.controllerui.second.KeyEventHandler#instance-init#
+view.controllerui.second.HandlerStateMachine#<init>()V
+view.controllerui.second.HandlerStateMachine#instance-init#

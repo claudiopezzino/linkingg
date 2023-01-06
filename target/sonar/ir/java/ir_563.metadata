@@ -1,3 +1,1 @@
-view.bean.observers.MeetingBean#update(Ljava/util/Map;)V
-java.lang.Boolean#parseBoolean(Ljava/lang/String;)Z
-view.boundary.UserManageCommunityBoundary#notifyMeetingJoiner(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+view.bean.observers.MeetingBean#setSubject(Lmodel/subjects/Meeting;)V

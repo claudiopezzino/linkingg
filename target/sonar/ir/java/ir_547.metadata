@@ -1,1 +1,1 @@
-view.bean.observers.MeetingBean#getDate()Ljava/lang/String;
+view.bean.observers.MeetingBean#getRating()Ljava/lang/String;

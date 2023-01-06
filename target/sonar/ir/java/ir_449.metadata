@@ -1,2 +1,1 @@
-view.graphicalui.second.signinquestionstates.QuestionPassword#display()V
-view.graphicalui.second.Signin#getSigninInstance()Lview/graphicalui/second/Signin;
+view.graphicalui.second.signinquestionstates.QuestionPassword#<init>()V

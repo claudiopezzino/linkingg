@@ -1,1 +1,2 @@
-view.graphicalui.second.Shell#instance-init#
+view.graphicalui.second.usernamequestionstates.QuestionEnd#display()V
+view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;

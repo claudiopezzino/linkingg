@@ -1,3 +1,1 @@
-view.graphicalui.second.meetingquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/meetingquestionstates/QuestionEnd;
-view.graphicalui.second.meetingquestionstates.QuestionEnd#instance-init#
-view.graphicalui.second.meetingquestionstates.QuestionEnd#<init>()V
+view.graphicalui.second.meetingquestionstates.QuestionEnd#next(Lview/graphicalui/second/QuestionStateMachine;)V

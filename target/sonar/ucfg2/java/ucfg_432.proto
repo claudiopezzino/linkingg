@@ -1,18 +1,18 @@
 
-tview.controllerui.second.KeyEventHandler#getUserManageCommunityBoundary()Lview/boundary/UserManageCommunityBoundary;l
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.javaE' E(E"1*«
+Xview.controllerui.second.KeyEventHandler#getCurrUserBean()Lview/bean/observers/UserBean;l
+b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java? ?(#"1*‚
 1l
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.javaF F(“
-
+b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java@ @(÷
+ô
 l
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.javaF F(//
-%0)view.boundary.UserManageCommunityBoundary"__id*i
+b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java@ @( "
+%0view.bean.observers.UserBean"__id*Z
 
-__unknown_file (M*K*
-(view.controllerui.second.KeyEventHandler"
-userManageCommunityBoundary"¡
+__unknown_file (>*<*
+(view.controllerui.second.KeyEventHandler"
+currUserBean"”
 l
-b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.javaF F(01
-/
-%0)view.boundary.UserManageCommunityBoundaryB,*
+b/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/KeyEventHandler.java@ @(!$
+"
+%0view.bean.observers.UserBeanB,*
 (view.controllerui.second.KeyEventHandlerH

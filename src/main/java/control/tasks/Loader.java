@@ -90,7 +90,7 @@ public class Loader implements Runnable {
                 break;
 
             case GROUP_JOIN:
-                this.updateGroupMembers(secureOis);
+                this.updateGroupMembers(secureOis, os);
                 break;
 
             case MEETING_CREATION:
@@ -195,17 +195,22 @@ public class Loader implements Runnable {
     //////////////////////////////////////////////////////////////////////////////////////////////
     /* even though the developer knows the logic, it would be better to insert an "instanceof" check
      * to verify that Object instance returned by readObject() method is-a-kind-of desired Class */
-    private void updateGroupMembers(SecureObjectInputStream secureOis) throws LoaderException {
+    private void updateGroupMembers(SecureObjectInputStream secureOis, ObjectOutputStream os) throws LoaderException {
         try{
+            // to make known client that it has received message
+            os.writeObject("next");
             // it must have a reference to UserBean instance
             User newMember = (User) secureOis.readObject();
+
+            // to make known client that it has received message
+            os.writeObject("next");
             String groupNick = (String) secureOis.readObject();
 
             // Observer Pattern triggered
             this.mapGroups.get(groupNick).updateMembers(newMember);
 
             /* for the user who doesn't have the group because he/she is just added into it,
-            * he will be sent "GROUP_CREATION" enum so that it will be called "updateGroups" method */
+            * he/she will be sent "GROUP_CREATION" enum so that it will be called "updateGroups" method */
 
         }catch (IOException | ClassNotFoundException exception){
             throw new LoaderException();

@@ -1,1 +1,2 @@
-view.graphicalui.first.Dialog#instance-init#
+view.graphicalui.first.toolbardecorations.UndoRedoBarDecorator#draw()Ljavafx/scene/control/ToolBar;
+javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;

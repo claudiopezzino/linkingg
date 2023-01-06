@@ -1,1 +1,1 @@
-view.graphicalui.second.Shell#getScreen()Ljavafx/scene/control/TextArea;
+view.graphicalui.second.Shell#getShellHandler()Lview/controllerui/second/KeyEventHandler;

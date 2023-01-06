@@ -13,6 +13,8 @@ public enum Filter {
     IP_AND_PORT,
     NOTHING,
     LINK_REQUEST_SOURCE,
+    NEW_GROUP_MEMBER,
+    GROUP_MEMBER,
 
     /* for Loader actions (Pattern Observer) */
     USER_NICK_CHANGE,

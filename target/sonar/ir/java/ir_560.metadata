@@ -1,1 +1,1 @@
-view.bean.observers.MeetingBean#setScheduler(Lview/bean/observers/UserBean;)V
+view.bean.observers.MeetingBean#setPhotos(Ljava/util/List;)V

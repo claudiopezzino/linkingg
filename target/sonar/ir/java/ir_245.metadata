@@ -1,5 +1,1 @@
-model.db.dbqueries.UserDAOQueries#unpackUserInfo(Ljava/sql/ResultSet;)Ljava/util/Map;
-java.util.HashMap#<init>()V
-java.util.HashMap#instance-init#
-model.ImageProfile#fromBlobToString(Ljava/lang/String;Ljava/sql/Blob;Ljava/lang/String;)Ljava/lang/String;
-java.util.Collections#emptyMap()Ljava/util/Map;
+model.db.dbqueries.UserDAOQueries#initInsertStatement(Ljava/sql/PreparedStatement;Ljava/util/Map;)V

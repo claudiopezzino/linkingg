@@ -1,1 +1,1 @@
-view.graphicalui.first.SignupPage#getTextFieldAddress()Ljavafx/scene/control/TextField;
+view.graphicalui.first.SignupPage#getTextFieldSurname()Ljavafx/scene/control/TextField;

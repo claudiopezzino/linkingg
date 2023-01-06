@@ -1,1 +1,5 @@
-view.bean.errorsignupdecorations.AddressBeanErrorDecorator#instance-init#
+view.graphicalui.second.Shell#setUpPrompt()V
+javafx.scene.control.TextField#instance-init#
+javafx.scene.control.TextInputControl#setPromptText(Ljava/lang/String;)V
+javafx.scene.Node#setOnKeyReleased(Ljavafx/event/EventHandler;)V
+javafx.scene.control.TextField#<init>()V

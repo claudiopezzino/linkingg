@@ -1,4 +1,4 @@
-view.controllerui.second.Message#meetingDeletionMsg()V
+view.controllerui.second.Message#membersRemovalMsg()V
 javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
 javafx.scene.control.Dialog#show()V
 javafx.scene.control.Alert#instance-init#

@@ -150,6 +150,7 @@ public class GroupBean implements Observer{
 
             UserBean userBean = (UserBean) this.group.members().get(userNick).getObserver();
             this.mapMembers.put(userBean.getNickname(), userBean);
+            this.mapLinkRequests.remove(userNick);
 
             UserManageCommunityBoundary.notifyNewGroupMember(this.nickname, userBean.getNickname());
         }

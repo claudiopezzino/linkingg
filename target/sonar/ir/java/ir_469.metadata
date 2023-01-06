@@ -1,1 +1,2 @@
-view.controllerui.second.handlerstates.AbstractState#instance-init#
+view.graphicalui.first.listviewitems.ListViewGroupItems#getIndex()Ljava/lang/Integer;
+java.lang.Enum#ordinal()I

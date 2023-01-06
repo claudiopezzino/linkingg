@@ -1,2 +1,1 @@
-view.bean.UserSignUpBean#getProvince()Ljava/lang/String;
-java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
+view.bean.UserSignUpBean#getAccount()Ljava/lang/String;

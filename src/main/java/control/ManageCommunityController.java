@@ -35,6 +35,144 @@ public class ManageCommunityController {
     ////////////////////////////////
 
 
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    private User fetchGroupMember(String userNick) throws InternalException {
+        Map<String, String> mapNewMemberInfo = new HashMap<>();
+        mapNewMemberInfo.put(UserFields.NICKNAME, userNick);
+
+        User groupMember;
+
+        FactoryDAO factoryDAO = FactoryDAO.getSingletonInstance();
+
+        BaseDAO baseDAO = factoryDAO.createDAO(USER_DAO);
+        try{
+            groupMember = (User) baseDAO.readEntity(mapNewMemberInfo, Filter.USER_NICKNAME);
+        }catch (NoEntityException noEntityException){
+            throw new InternalException(noEntityException.getMessage());
+        }
+
+        return groupMember;
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////
+    private Map<String, User> fetchGroupMembers(String groupNick) throws InternalException {
+        Map<String, String> mapGroupInfo = new HashMap<>();
+        mapGroupInfo.put(GroupFields.NICKNAME, groupNick);
+
+        Map<String, Object> mapObjects;
+
+        FactoryDAO factoryDAO = FactoryDAO.getSingletonInstance();
+
+        BaseDAO baseDAO = factoryDAO.createDAO(USER_DAO);
+        try{
+            mapObjects = baseDAO.readEntities(mapGroupInfo, Filter.GROUP_NICKNAME);
+        }catch (NoEntityException noEntityException){
+            mapObjects = new HashMap<>();
+        }
+        Map<String, User> mapUsers = new HashMap<>();
+        for (Map.Entry<String, Object> entry : mapObjects.entrySet())
+            mapUsers.put(entry.getKey(), (User) entry.getValue());
+
+        return mapUsers;
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    /////////////////////////////////////////////////////////////////////////////////////////
+    private List<Device> fetchGroupMemberDevices(String userNick) throws InternalException {
+        List<Device> listGroupMemberDevices = new ArrayList<>();
+
+        Map<String, String> mapGroupMemberInfo = new HashMap<>();
+        mapGroupMemberInfo.put(UserFields.NICKNAME, userNick);
+
+        FactoryDAO factoryDAO = FactoryDAO.getSingletonInstance();
+        BaseDAO baseDAO = factoryDAO.createDAO(DEVICE_DAO);
+
+        Map<String, Object> mapObjects;
+        try{
+            mapObjects = baseDAO.readEntities(mapGroupMemberInfo, Filter.GROUP_MEMBER);
+        }catch (NoEntityException noEntityException){
+            // group member is not online, so an empty map will return
+            mapObjects = new HashMap<>();
+        }
+        for(Map.Entry<String, Object> deviceEntry : mapObjects.entrySet())
+            listGroupMemberDevices.add((Device) deviceEntry.getValue());
+
+        return listGroupMemberDevices;
+    }
+    /////////////////////////////////////////////////////////////////////////////////////////
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+    public void addUserIntoGroup(NewGroupMemberBean newGroupMemberBean) throws InternalException {
+
+        /*------------ GETTING VALUES FROM NEW USER BEAN ------------*/
+        String userNick = newGroupMemberBean.getUserNick();
+        String groupNick = newGroupMemberBean.getGroupNick();
+        String groupOwnerNick = newGroupMemberBean.getGroupOwnerNick();
+        /*-----------------------------------------------------------*/
+
+
+        /*------------------- RETRIEVING GROUP MEMBERS DEVICES -------------------*/
+        List<Device> listGroupMembersDevices = new ArrayList<>();
+        Map<String, User> mapUsers = this.fetchGroupMembers(groupNick);
+        for (Map.Entry<String, User> userEntry : mapUsers.entrySet()){
+            String memberNick = userEntry.getValue().credentials().getKey();
+            listGroupMembersDevices.addAll(this.fetchGroupMemberDevices(memberNick));
+        }
+        listGroupMembersDevices.addAll(this.fetchCurrUserDevices(groupOwnerNick));
+        /*-------------------------------------------------------------------------*/
+
+        /*-------------- RETRIEVING NEW MEMBER --------------*/
+        User newGroupMember = this.fetchGroupMember(userNick); // send to group members
+        this.turnIntoUserBean(newGroupMember);
+        /*---------------------------------------------------*/
+
+
+        /*--- ADDING RELATIONSHIP BETWEEN NEW USER AND TARGET GROUP ---*/
+        Map<String, String> mapNewMemberInfo = new HashMap<>();
+        mapNewMemberInfo.put(UserFields.NICKNAME, userNick);
+        mapNewMemberInfo.put(UserInfo.GROUP_NICK, groupNick);
+        FactoryDAO factoryDAO = FactoryDAO.getSingletonInstance();
+        BaseDAO baseDAO = factoryDAO.createDAO(GROUP_DAO);
+        baseDAO.updateEntity(mapNewMemberInfo, Filter.NEW_GROUP_MEMBER);
+        /*-------------------------------------------------------------*/
+
+        /*----- DELETING LINK REQUEST FROM NEW MEMBER TO TARGET GROUP -----*/
+        Map<String, String> mapLinkRequestInfo = new HashMap<>();
+        mapLinkRequestInfo.put(LinkRequestFields.USERS_NICKNAME, userNick);
+        mapLinkRequestInfo.put(LinkRequestFields.GROUPS_NICKNAME, groupNick);
+        baseDAO = factoryDAO.createDAO(LINK_REQUEST_DAO);
+        baseDAO.updateEntity(mapLinkRequestInfo, Filter.NOTHING);
+        /*-----------------------------------------------------------------*/
+
+
+        /*-------------------------- RETRIEVING NEW GROUP MEMBER DEVICES -------------------------*/
+        List<Device> listNewMemberDevices = new ArrayList<>(this.fetchGroupMemberDevices(userNick));
+        /*----------------------------------------------------------------------------------------*/
+
+        /*------ RETRIEVING TARGET GROUP ------*/
+        Group group = this.fetchGroup(groupNick); // send to new user
+        this.turnIntoGroupBean(group);
+        /*-------------------------------------*/
+
+
+        /*------------------------------ FORWARDING PHASE ------------------------------*/
+        List<Object> listObjects = new ArrayList<>();
+        listObjects.add(newGroupMember);
+        listObjects.add(groupNick);
+
+        this.deliverToEndUser(listGroupMembersDevices, listObjects, Filter.GROUP_JOIN);
+
+        List<Group> listGroups = new ArrayList<>();
+        listGroups.add(group);
+
+        this.deliverToEndUser(listNewMemberDevices, listGroups, Filter.GROUP_CREATION);
+        /*------------------------------------------------------------------------------*/
+
+
+    }
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     private <E> void deliverToEndUser(List<Device> listDevices, List<E> listElem, Filter filter) throws InternalException {
         for (Device device : listDevices) {
@@ -76,7 +214,7 @@ public class ManageCommunityController {
 
         // fetch group owner devices and send them LinkRequest instance so that they can update their local list
         Group group = this.fetchGroup(linkRequest.destination());
-        List<Device> listDevices = this.fetchGroupOwnerDevices(group.owner().credentials().getKey());
+        List<Device> listDevices = this.fetchGroupMemberDevices(group.owner().credentials().getKey());
 
         this.deliverToEndUser(listDevices, listLinkRequests, Filter.LINK_REQUEST);
 
@@ -102,31 +240,6 @@ public class ManageCommunityController {
         return group;
     }
     //////////////////////////////////////////////////////////////////////////////
-
-    ////////////////////////////////////////////////////////////////////////////////////////////
-    private List<Device> fetchGroupOwnerDevices(String groupOwnerNick) throws InternalException{
-        List<Device> listGroupOwnerDevices = new ArrayList<>();
-
-        Map<String, String> mapGroupOwnerInfo = new HashMap<>();
-        mapGroupOwnerInfo.put(GroupFields.OWNER, groupOwnerNick);
-
-        FactoryDAO factoryDAO = FactoryDAO.getSingletonInstance();
-        BaseDAO baseDAO = factoryDAO.createDAO(DEVICE_DAO);
-
-        Map<String, Object> mapGroupOwnerDevices;
-        try{
-            mapGroupOwnerDevices = baseDAO.readEntities(mapGroupOwnerInfo, Filter.GROUP_OWNER);
-        }catch(NoEntityException noEntityException){
-            // group owner is not online, so an empty map will return
-            mapGroupOwnerDevices = new HashMap<>();
-        }
-
-        for (Map.Entry<String, Object> entry : mapGroupOwnerDevices.entrySet())
-            listGroupOwnerDevices.add((Device) entry.getValue());
-
-        return listGroupOwnerDevices;
-    }
-    ////////////////////////////////////////////////////////////////////////////////////////////
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////
     public List<GroupFilteredBean> findGroupsByFilter(SearchFilterBean searchFilterBean) throws InternalException{

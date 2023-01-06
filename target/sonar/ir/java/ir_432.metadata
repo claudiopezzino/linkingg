@@ -1,3 +1,1 @@
-view.controllerui.second.KeyEventHandler#assignMapGroupsBean(Ljava/util/Map;)V
-java.util.HashMap#<init>()V
-java.util.HashMap#instance-init#
+view.controllerui.second.KeyEventHandler#assignCurrUserBean(Ljava/util/Map;)V

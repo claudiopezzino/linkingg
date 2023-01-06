@@ -6,16 +6,19 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.ImagePattern;
 import javafx.scene.shape.Circle;
 import javafx.stage.FileChooser;
 import view.bean.LinkRequestCreationBean;
+import view.bean.NewGroupMemberBean;
 import view.boundary.UserManageCommunityBoundary;
 import view.graphicalui.first.HomePage;
 import view.graphicalui.first.HomePage.SearchGroupsDialog;
-import view.graphicalui.first.HomePage.SearchGroupsDialog.LinkRequestSendingDialog;
+import view.graphicalui.first.HomePage.SearchGroupsDialog.ConfirmationDialog;
 import view.graphicalui.first.HomePage.GroupCreationDialog;
+import view.graphicalui.first.HomePage.LinkRequestsDialog;
 import view.graphicalui.first.HomePage.UserProfileDialog;
 import view.graphicalui.first.HomePage.UserProfileDialog.UsernameDialog;
 import view.graphicalui.first.HomePage.UserProfileDialog.PasswordDialog;
@@ -29,8 +32,13 @@ import java.util.Optional;
 import static view.graphicalui.first.Dialog.errorDialog;
 import static view.graphicalui.first.constcontainer.HomePageFields.NICKNAME;
 import static view.graphicalui.first.constcontainer.Protocol.FILE;
+import static view.graphicalui.first.listviewitems.ListViewGroupItems.GROUP_INFO;
+import static view.graphicalui.first.listviewitems.ListViewGroupItems.GroupInfo.GROUP_DETAILS;
+import static view.graphicalui.first.listviewitems.ListViewGroupItems.GroupInfo.GroupDetails.GROUP_NICKNAME;
 import static view.graphicalui.first.listviewitems.ListViewSearchGroupItems.*;
 import static view.graphicalui.first.listviewitems.ListViewSearchGroupItems.GroupDetails.*;
+import static view.graphicalui.first.listviewitems.ListViewLinkRequestItems.*;
+import static view.graphicalui.first.listviewitems.ListViewLinkRequestItems.UserDetails.*;
 
 
 public class DialogEventHandler <T extends MouseEvent> implements EventHandler<T> {
@@ -80,9 +88,9 @@ public class DialogEventHandler <T extends MouseEvent> implements EventHandler<T
                 Label labelName = new Label(labelGroupName.getText());
                 Label labelNick = new Label(labelGroupNick.getText());
 
-                LinkRequestSendingDialog linkRequestSendingDialog =
-                        new LinkRequestSendingDialog(circleImage, labelName, labelNick);
-                Optional<Map<String, String>> result = linkRequestSendingDialog.showAndWait();
+                ConfirmationDialog confirmationDialog =
+                        new ConfirmationDialog("Send link request", circleImage, labelName, labelNick);
+                Optional<Map<String, String>> result = confirmationDialog.showAndWait();
 
                 if (result.isPresent() && !result.get().isEmpty()){
 
@@ -124,7 +132,59 @@ public class DialogEventHandler <T extends MouseEvent> implements EventHandler<T
         public void handle(T event) {
             /* onClick show a dialog asking group owner if they are sure to accept user into
             * their group, if yes add member into group, if no do nothing */
-            if(event.getEventType().equals(MouseEvent.MOUSE_CLICKED)){
+            if(event.getEventType().equals(MouseEvent.MOUSE_CLICKED) &&
+                    LinkRequestsDialog.getLinkRequestsDialogInstance().getListViewUserRequests().getSelectionModel().getSelectedItem() != null){
+
+                ListView<VBox> listViewUserRequests = LinkRequestsDialog.getLinkRequestsDialogInstance().getListViewUserRequests();
+                VBox vBoxSelectedUser = listViewUserRequests.getSelectionModel().getSelectedItem();
+
+                Circle circleUserImage = (Circle) vBoxSelectedUser.getChildren().get(CIRCLE_USER_IMAGE.getIndex());
+
+                VBox vBoxUserDetails = (VBox) vBoxSelectedUser.getChildren().get(VBOX_USER_DETAILS.getIndex());
+
+                Label labelUserNick = (Label) vBoxUserDetails.getChildren().get(LABEL_USER_NICKNAME.getIndex());
+                Label labelUserName = (Label) vBoxUserDetails.getChildren().get(LABEL_USER_NAME.getIndex());
+
+                Circle circleImage = new Circle(40, circleUserImage.getFill());
+                Label labelName = new Label(labelUserName.getText());
+                Label labelNick = new Label(labelUserNick.getText());
+
+                ConfirmationDialog confirmationDialog =
+                        new ConfirmationDialog("Accept link request", circleImage, labelName, labelNick);
+
+                Optional<Map<String, String>> result = confirmationDialog.showAndWait();
+                if (result.isPresent() && !result.get().isEmpty()) {
+
+                    String[] userTokens = labelUserNick.getText().split(" +");
+                    String userNick = userTokens[1];
+
+                    VBox vBoxSelectedGroup = HomePage.getHomePageInstance(null).getListViewGroups().getSelectionModel().getSelectedItem();
+                    HBox hBoxGroupInfo = (HBox) vBoxSelectedGroup.getChildren().get(GROUP_INFO.getIndex());
+                    VBox vBoxGroupDetails = (VBox) hBoxGroupInfo.getChildren().get(GROUP_DETAILS.getIndex());
+                    Label labelGroupNick = (Label) vBoxGroupDetails.getChildren().get(GROUP_NICKNAME.getIndex());
+
+                    String[] groupTokens = labelGroupNick.getText().split(" +");
+                    String groupNick = groupTokens[1];
+
+                    NewGroupMemberBean newGroupMemberBean = new NewGroupMemberBean();
+                    newGroupMemberBean.setUserNick(userNick);
+                    newGroupMemberBean.setGroupNick(groupNick);
+                    newGroupMemberBean.setGroupOwnerNick(HomePage.getHandler().getCurrUserBean().getNickname());
+
+                    UserManageCommunityBoundary userManageCommunityBoundary = HomePage.getHandler().getUserManageCommunityBoundary();
+                    if (userManageCommunityBoundary == null) {
+                        userManageCommunityBoundary = new UserManageCommunityBoundary();
+                        HomePage.getHandler().setUserManageCommunityBoundary(userManageCommunityBoundary);
+                    }
+
+                    try{
+                        userManageCommunityBoundary.acceptLinkRequest(newGroupMemberBean);
+                        listViewUserRequests.getItems().remove(vBoxSelectedUser);
+                    } catch (InternalException internalException) {
+                        errorDialog(internalException.getMessage());
+                    }
+                }
+
 
             }
         }

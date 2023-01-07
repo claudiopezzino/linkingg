@@ -1,1 +1,1 @@
-view.controllerui.second.KeyEventHandler#updateUserNick(Lview/graphicalui/second/Home;)V
+view.bean.observers.UserBean#getNickname()Ljava/lang/String;

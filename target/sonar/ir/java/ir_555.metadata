@@ -1,1 +1,3 @@
-view.bean.observers.MeetingBean#setName(Ljava/lang/String;)V
+view.graphicalui.second.signinquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/signinquestionstates/QuestionEnd;
+view.graphicalui.second.signinquestionstates.QuestionEnd#instance-init#
+view.graphicalui.second.signinquestionstates.QuestionEnd#<init>()V

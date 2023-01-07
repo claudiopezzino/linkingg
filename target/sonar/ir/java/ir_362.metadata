@@ -1,1 +1,3 @@
-view.bean.errorsignupdecorations.AddressBeanErrorDecorator#displayErrors()Ljava/lang/String;
+view.controllerui.second.handlerstates.StateMeetingJoinersView#getStateMeetingJoinersViewInstance()Lview/controllerui/second/handlerstates/StateMeetingJoinersView;
+view.controllerui.second.handlerstates.StateMeetingJoinersView#instance-init#
+view.controllerui.second.handlerstates.StateMeetingJoinersView#<init>()V

@@ -1,522 +1,18 @@
 
-Umodel.db.dbqueries.UserDAOQueries#unpackUserInfo(Ljava/sql/ResultSet;)Ljava/util/Map;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÇ' Ç(5"3*Û
-2g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaË Ë(é
-æ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaË Ë()
-%3java.util.Map"/java.util.Collections#emptyMap()Ljava/util/Map;*5
+4model.subjects.Group#plannedMeeting()Ljava/util/Map;X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java7  7(."1*’
+1X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java8 8(¿
+¼
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java8 8(
+%0java.util.Map"__id*E
 
-__unknown_file ("
-java.util.Collections"€
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaË Ë(*
+__unknown_file ()*'
+model.subjects.Group"
+mapMeetings"q
+X
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.java8 8( 
 
-%3java.util.Map*‚
-3g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÈ' È(6˜•
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÈ+ È(4
-%0java.util.HashMap"java.util.HashMapÆ
-Ã
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÈ' È(6
-%1"java.util.HashMap#<init>()V*5
-
-__unknown_file (
-
-%0java.util.HashMapÄ
-Á
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÈ È(7
-userInfojava.util.Map"__id*5
-
-__unknown_file (
-
-%0java.util.HashMapàÝ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÊ Ê(
-%2boolean"java.sql.ResultSet#first()Z*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet2first()*
-2
-1*‘]
-1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÍ Í(àÝ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÍ Í(
-%4boolean"java.sql.ResultSet#first()Z*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet2first()®
-«
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÏ. Ï(A
-%5java.lang.String"__id*"
-
-__unknown_file (
-""ÜÙ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÏ Ï(B
-%6java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet*4
-
-__unknown_file (
-
-%5java.lang.String2getString(Ljava/lang/String;)Æ
-Ã
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÏ Ï(C
-nicknamejava.lang.String"__id*4
-
-__unknown_file (
-
-%6java.lang.String®
-«
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÐ. Ð(A
-%7java.lang.String"__id*"
-
-__unknown_file (
-""ÜÙ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÐ Ð(B
-%8java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet*4
-
-__unknown_file (
-
-%7java.lang.String2getString(Ljava/lang/String;)Æ
-Ã
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÐ Ð(C
-passwordjava.lang.String"__id*4
-
-__unknown_file (
-
-%8java.lang.String®
-«
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÑ* Ñ(9
-%9java.lang.String"__id*"
-
-__unknown_file (
-""ÝÚ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÑ Ñ(:
-%10java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet*4
-
-__unknown_file (
-
-%9java.lang.String2getString(Ljava/lang/String;)Ã
-À
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÑ Ñ(;
-namejava.lang.String"__id*5
-
-__unknown_file (
-
-%10java.lang.String¯
-¬
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÒ- Ò(?
-%11java.lang.String"__id*"
-
-__unknown_file (
-""ÞÛ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÒ Ò(@
-%12java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet*5
-
-__unknown_file (
-
-%11java.lang.String2getString(Ljava/lang/String;)Æ
-Ã
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÒ Ò(A
-surnamejava.lang.String"__id*5
-
-__unknown_file (
-
-%12java.lang.String¯
-¬
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÓ- Ó(?
-%13java.lang.String"__id*"
-
-__unknown_file (
-""ÞÛ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÓ Ó(@
-%14java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet*5
-
-__unknown_file (
-
-%13java.lang.String2getString(Ljava/lang/String;)Æ
-Ã
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÓ Ó(A
-addressjava.lang.String"__id*5
-
-__unknown_file (
-
-%14java.lang.String¯
-¬
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÔ* Ô(9
-%15java.lang.String"__id*"
-
-__unknown_file (
-""ÞÛ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÔ Ô(:
-%16java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet*5
-
-__unknown_file (
-
-%15java.lang.String2getString(Ljava/lang/String;)Ã
-À
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÔ Ô(;
-mailjava.lang.String"__id*5
-
-__unknown_file (
-
-%16java.lang.String¯
-¬
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÕ* Õ(9
-%17java.lang.String"__id*"
-
-__unknown_file (
-""ÞÛ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÕ Õ(:
-%18java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet*5
-
-__unknown_file (
-
-%17java.lang.String2getString(Ljava/lang/String;)Ã
-À
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÕ Õ(;
-celljava.lang.String"__id*5
-
-__unknown_file (
-
-%18java.lang.String¯
-¬
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÖ- Ö(?
-%19java.lang.String"__id*"
-
-__unknown_file (
-""ÞÛ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÖ Ö(@
-%20java.lang.String"Bjava.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet*5
-
-__unknown_file (
-
-%19java.lang.String2getString(Ljava/lang/String;)Æ
-Ã
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÖ Ö(A
-accountjava.lang.String"__id*5
-
-__unknown_file (
-
-%20java.lang.String¯
-¬
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java×Q ×(a
-%21java.lang.String"__id*"
-
-__unknown_file (
-""ÔÑ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java×? ×(b
-%22java.sql.Blob"=java.sql.ResultSet#getBlob(Ljava/lang/String;)Ljava/sql/Blob;*=
-
-__unknown_file (!
-
-	resultSetjava.sql.ResultSet*5
-
-__unknown_file (
-
-%21java.lang.String2getBlob(Ljava/lang/String;)¹
-¶
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java× ×(i
-%23java.lang.String"jmodel.ImageProfile#fromBlobToString(Ljava/lang/String;Ljava/sql/Blob;Ljava/lang/String;)Ljava/lang/String;*2
-
-__unknown_file ("
-model.ImageProfile*:
-
-__unknown_file (
-
-nicknamejava.lang.String*2
-
-__unknown_file (
-
-%22java.sql.Blob*"
-
-__unknown_file (
-u_Ä
-Á
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java× ×(j
-imagejava.lang.String"__id*5
-
-__unknown_file (
-
-%23java.lang.String¯
-¬
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÙ Ù((
-%24java.lang.String"__id*"
-
-__unknown_file (
-""»
-¸
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÙ Ù(3
-%25java.lang.String"__mapSet*7
-
-__unknown_file (
-
-userInfojava.util.Map*5
-
-__unknown_file (
-
-%24java.lang.String*:
-
-__unknown_file (
-
-nicknamejava.lang.String¯
-¬
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÚ Ú((
-%26java.lang.String"__id*"
-
-__unknown_file (
-""»
-¸
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÚ Ú(3
-%27java.lang.String"__mapSet*7
-
-__unknown_file (
-
-userInfojava.util.Map*5
-
-__unknown_file (
-
-%26java.lang.String*:
-
-__unknown_file (
-
-passwordjava.lang.String¯
-¬
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÛ Û($
-%28java.lang.String"__id*"
-
-__unknown_file (
-""·
-´
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÛ Û(+
-%29java.lang.String"__mapSet*7
-
-__unknown_file (
-
-userInfojava.util.Map*5
-
-__unknown_file (
-
-%28java.lang.String*6
-
-__unknown_file (
-
-namejava.lang.String¯
-¬
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÜ Ü('
-%30java.lang.String"__id*"
-
-__unknown_file (
-""º
-·
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÜ Ü(1
-%31java.lang.String"__mapSet*7
-
-__unknown_file (
-
-userInfojava.util.Map*5
-
-__unknown_file (
-
-%30java.lang.String*9
-
-__unknown_file (
-
-surnamejava.lang.String¯
-¬
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÝ Ý('
-%32java.lang.String"__id*"
-
-__unknown_file (
-""º
-·
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÝ Ý(1
-%33java.lang.String"__mapSet*7
-
-__unknown_file (
-
-userInfojava.util.Map*5
-
-__unknown_file (
-
-%32java.lang.String*9
-
-__unknown_file (
-
-addressjava.lang.String¯
-¬
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÞ Þ($
-%34java.lang.String"__id*"
-
-__unknown_file (
-""·
-´
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÞ Þ(+
-%35java.lang.String"__mapSet*7
-
-__unknown_file (
-
-userInfojava.util.Map*5
-
-__unknown_file (
-
-%34java.lang.String*6
-
-__unknown_file (
-
-mailjava.lang.String¯
-¬
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaß ß($
-%36java.lang.String"__id*"
-
-__unknown_file (
-""·
-´
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaß ß(+
-%37java.lang.String"__mapSet*7
-
-__unknown_file (
-
-userInfojava.util.Map*5
-
-__unknown_file (
-
-%36java.lang.String*6
-
-__unknown_file (
-
-celljava.lang.String¯
-¬
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaà à('
-%38java.lang.String"__id*"
-
-__unknown_file (
-""º
-·
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaà à(1
-%39java.lang.String"__mapSet*7
-
-__unknown_file (
-
-userInfojava.util.Map*5
-
-__unknown_file (
-
-%38java.lang.String*9
-
-__unknown_file (
-
-accountjava.lang.String¯
-¬
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaá á(%
-%40java.lang.String"__id*"
-
-__unknown_file (
-""¸
-µ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaá á(-
-%41java.lang.String"__mapSet*7
-
-__unknown_file (
-
-userInfojava.util.Map*5
-
-__unknown_file (
-
-%40java.lang.String*7
-
-__unknown_file (
-
-imagejava.lang.String"†
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaã ã(
-
-userInfojava.util.Map:Š
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaÇ6 Ç(I
-	resultSetjava.sql.ResultSetB%"#
-!model.db.dbqueries.UserDAOQueries
+%0java.util.MapB
+model.subjects.GroupH

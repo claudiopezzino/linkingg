@@ -1,53 +1,19 @@
 
-–view.graphicalui.second.meetingquestionstates.QuestionBudget#getQuestionBudgetInstance()Lview/graphicalui/second/meetingquestionstates/QuestionBudget;€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java(! ((:"3*œ
-2€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java*% *(9ˆ…
-€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java*) *(7B
-%1<view.graphicalui.second.meetingquestionstates.QuestionBudget"<view.graphicalui.second.meetingquestionstates.QuestionBudget¶
-³
-€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java*% *(9
-%2"Fview.graphicalui.second.meetingquestionstates.QuestionBudget#<init>()V*`
+Bmodel.subjects.Subject#getObserver()Lview/bean/observers/Observer;Z
+P/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Subject.java ("1*¶
+1Z
+P/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Subject.java (Ï
+Ì
+Z
+P/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Subject.java ("
+%0view.bean.observers.Observer"__id*D
 
-__unknown_file (D
-B
-%1<view.graphicalui.second.meetingquestionstates.QuestionBudgetÊ
-Ç
-€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java* *(9Z>
-<view.graphicalui.second.meetingquestionstates.QuestionBudget"
-questionBudgetInstance"__id*`
-
-__unknown_file (D
-B
-%1<view.graphicalui.second.meetingquestionstates.QuestionBudget*
-1*Û
-3€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java) )(!Ê
-Ç
-€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java) )(!B
-%0<view.graphicalui.second.meetingquestionstates.QuestionBudget"__id*x
-
-__unknown_file (\*Z>
-<view.graphicalui.second.meetingquestionstates.QuestionBudget"
-questionBudgetInstance*
-2
-1*Ÿ
-1€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java+ +(%Ê
-Ç
-€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java+ +(%B
-%3<view.graphicalui.second.meetingquestionstates.QuestionBudget"__id*x
-
-__unknown_file (\*Z>
-<view.graphicalui.second.meetingquestionstates.QuestionBudget"
-questionBudgetInstance"É
-€
-v/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/meetingquestionstates/QuestionBudget.java+ +(&D
-B
-%3<view.graphicalui.second.meetingquestionstates.QuestionBudgetB@">
-<view.graphicalui.second.meetingquestionstates.QuestionBudgetH
+__unknown_file ((*&
+model.subjects.Subject"
+
+observer"‚
+Z
+P/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Subject.java ($
+"
+%0view.bean.observers.ObserverB
+model.subjects.SubjectH

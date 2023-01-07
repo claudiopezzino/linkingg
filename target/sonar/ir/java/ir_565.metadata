@@ -1,1 +1,4 @@
-view.graphicalui.second.SignupInfo#instance-init#
+model.dao.GroupDAO#unpackGroupInfo(Ljava/lang/String;)Ljava/util/Map;
+java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
+java.util.HashMap#<init>()V
+java.util.HashMap#instance-init#

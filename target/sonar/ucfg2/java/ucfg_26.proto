@@ -1,85 +1,53 @@
 
-yview.controllerui.second.handlerstates.StateGroupRequest#isGroupInList(Lview/graphicalui/second/Home;Ljava/lang/String;)Z|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java6 6(!"6*Ý
-2|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java8 8('Æ
-Ã
-|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java8 8('
-groupjavafx.util.Pair"__id*"
+Žview.graphicalui.second.signupquestionstates.QuestionCell#getQuestionCellInstance()Lview/graphicalui/second/signupquestionstates/QuestionCell;}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java' '(6"3*ø
+2}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java)# )(5þû
+}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java)' )(3?
+%19view.graphicalui.second.signupquestionstates.QuestionCell"9view.graphicalui.second.signupquestionstates.QuestionCell¬
+©
+}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java)# )(5
+%2"Cview.graphicalui.second.signupquestionstates.QuestionCell#<init>()V*]
 
-__unknown_file (
-""ˆ
-…
-|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java8 8('
-groupjavafx.util.Pair"
-__arrayGet*:
+__unknown_file (A
+?
+%19view.graphicalui.second.signupquestionstates.QuestionCell¾
+»
+}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java) )(5U;
+9view.graphicalui.second.signupquestionstates.QuestionCell"
+questionCellInstance"__id*]
 
-__unknown_file (
-
-
-listGroupsjava.util.List*"
+__unknown_file (A
+?
+%19view.graphicalui.second.signupquestionstates.QuestionCell*
+1*Ë
+3}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java( ((¾
+»
+}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java( ((?
+%09view.graphicalui.second.signupquestionstates.QuestionCell"__id*s
 
-__unknown_file (
-""*
-4
-1*Š
-3|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java: :("†
-|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java: :(
-""*å
-4|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java9 9(‰†
-|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java9 9(
-%1java.lang.String"+javafx.util.Pair#getKey()Ljava/lang/Object;*7
-
-__unknown_file (
-
-groupjavafx.util.Pair2getKey()ÍÊ
-|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java9 9(0
-%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
-
-__unknown_file (
-
-%1java.lang.String*;
-
-__unknown_file (
-
-	groupNickjava.lang.String2equals(Ljava/lang/Object;)*
+__unknown_file (W*U;
+9view.graphicalui.second.signupquestionstates.QuestionCell"
+questionCellInstance*
 2
-3*™
-6|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java70 7(4´±
-|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java70 7(I
-%0java.util.List"Aview.graphicalui.second.Home#getListOtherGroups()Ljava/util/List;*B
+1*ˆ
+1}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java* *(#¾
+»
+}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java* *(#?
+%39view.graphicalui.second.signupquestionstates.QuestionCell"__id*s
 
-__unknown_file (&
-$
-homeview.graphicalui.second.Home2getListOtherGroups()Ù
-Ö
-|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java7 7(J
-
-listGroupsjava.util.List"__id*2
-
-__unknown_file (
-
-%0java.util.List*
-2*Š
-1|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java< <("†
-|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java< <(
-"":¤
-|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java6" 6(,$
-homeview.graphicalui.second.Home:
-|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.java6- 6(=
-	groupNickjava.lang.StringB<:
-8view.controllerui.second.handlerstates.StateGroupRequest
+__unknown_file (W*U;
+9view.graphicalui.second.signupquestionstates.QuestionCell"
+questionCellInstance"Â
+}
+s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/signupquestionstates/QuestionCell.java* *($A
+?
+%39view.graphicalui.second.signupquestionstates.QuestionCellB=";
+9view.graphicalui.second.signupquestionstates.QuestionCellH

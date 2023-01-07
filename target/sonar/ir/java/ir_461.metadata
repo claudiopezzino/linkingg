@@ -1,1 +1,1 @@
-view.graphicalui.first.MeetingPage#isToolBarPresent()Z
+view.graphicalui.first.HomePage#getToolBar()Ljavafx/scene/control/ToolBar;

@@ -1,53 +1,18 @@
 
-”view.controllerui.second.handlerstates.StateMemberDetails#getStateMemberDetailsInstance()Lview/controllerui/second/handlerstates/StateMemberDetails;}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberDetails.java#% #(B"3*þ
-2}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberDetails.java%) %(Aþû
-}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberDetails.java%- %(??
-%19view.controllerui.second.handlerstates.StateMemberDetails"9view.controllerui.second.handlerstates.StateMemberDetails¬
-©
-}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberDetails.java%) %(A
-%2"Cview.controllerui.second.handlerstates.StateMemberDetails#<init>()V*]
+Dview.bean.observers.LinkRequestBean#getGroupNick()Ljava/lang/String;g
+]/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/LinkRequestBean.java ("1*Ó
+1g
+]/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/LinkRequestBean.java (Þ
+Û
+g
+]/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/LinkRequestBean.java (
+%0java.lang.String"__id*R
 
-__unknown_file (A
-?
-%19view.controllerui.second.handlerstates.StateMemberDetailsÄ
-Á
-}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberDetails.java% %(A[;
-9view.controllerui.second.handlerstates.StateMemberDetails"
-stateMemberDetailsInstance"__id*]
-
-__unknown_file (A
-?
-%19view.controllerui.second.handlerstates.StateMemberDetails*
-1*Ñ
-3}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberDetails.java$ $(%Ä
-Á
-}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberDetails.java$ $(%?
-%09view.controllerui.second.handlerstates.StateMemberDetails"__id*y
-
-__unknown_file (]*[;
-9view.controllerui.second.handlerstates.StateMemberDetails"
-stateMemberDetailsInstance*
-2
-1*Ž
-1}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberDetails.java& &()Ä
-Á
-}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberDetails.java& &()?
-%39view.controllerui.second.handlerstates.StateMemberDetails"__id*y
-
-__unknown_file (]*[;
-9view.controllerui.second.handlerstates.StateMemberDetails"
-stateMemberDetailsInstance"Â
-}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateMemberDetails.java& &(*A
-?
-%39view.controllerui.second.handlerstates.StateMemberDetailsB=";
-9view.controllerui.second.handlerstates.StateMemberDetailsH
+__unknown_file (6*4%
+#view.bean.observers.LinkRequestBean"
+	groupNick"ƒ
+g
+]/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/LinkRequestBean.java (
+
+%0java.lang.StringB'%
+#view.bean.observers.LinkRequestBeanH

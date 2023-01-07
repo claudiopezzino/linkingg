@@ -1,3 +1,2 @@
-view.graphicalui.second.Home#searchMode()V
-view.controllerui.second.handlerstates.StateSearch#getStateSearchInstance()Lview/controllerui/second/handlerstates/StateSearch;
-javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.graphicalui.first.FirstMain#main([Ljava/lang/String;)V
+javafx.application.Application#launch([Ljava/lang/String;)V

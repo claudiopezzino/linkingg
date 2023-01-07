@@ -1,4 +1,3 @@
-view.controllerui.second.Message#singleInvitationMsg()V
-javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
-javafx.scene.control.Dialog#show()V
-javafx.scene.control.Alert#instance-init#
+view.controllerui.first.SignupPageEventHandler#assignFullNameToUserProfile(Lview/graphicalui/first/HomePage$UserProfileDialog;Lview/graphicalui/first/SignupPage;)V
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
+javafx.scene.control.Labeled#setText(Ljava/lang/String;)V

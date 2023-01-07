@@ -1,9 +1,6 @@
-view.controllerui.second.KeyEventHandler#initSignUpPhase(Lview/graphicalui/second/Signup;)V
-view.controllerui.second.KeyEventHandler#verifyUserInfo(Lview/graphicalui/second/Signup;Lview/bean/UserSignUpBean;)Ljava/lang/String;
-view.graphicalui.second.Signin#getSigninInstance()Lview/graphicalui/second/Signin;
-view.bean.UserSignUpBean#<init>()V
-view.controllerui.second.Message#infoErrorMsg(Ljava/lang/String;)V
-view.bean.UserSignUpBean#instance-init#
-view.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;
-view.controllerui.second.KeyEventHandler#registerUser(Lview/bean/UserSignUpBean;)V
-javafx.scene.Scene#setRoot(Ljavafx/scene/Parent;)V
+view.bean.observers.UserBean#update(Ljava/util/Map;)V
+java.lang.Boolean#parseBoolean(Ljava/lang/String;)Z
+view.boundary.UserManageCommunityBoundary#notifyNewGroupMemberNick(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+view.boundary.UserManageCommunityBoundary#notifyNewGroupOwnerNick(Ljava/lang/String;Ljava/lang/String;)V
+view.boundary.UserManageCommunityBoundary#notifyNewCurrUserNick()V

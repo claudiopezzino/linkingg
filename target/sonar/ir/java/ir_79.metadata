@@ -1,3 +1,3 @@
-view.boundary.UserManageCommunityBoundary#searchGroupsByFilter(Lview/bean/SearchFilterBean;)Ljava/util/List;
-control.ManageCommunityController#instance-init#
-control.ManageCommunityController#<init>()V
+view.graphicalui.second.Home#searchMode()V
+view.controllerui.second.handlerstates.StateSearch#getStateSearchInstance()Lview/controllerui/second/handlerstates/StateSearch;
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V

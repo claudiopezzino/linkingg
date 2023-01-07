@@ -1,1 +1,3 @@
-view.bean.errorsignindecorations.NicknameBeanErrorDecorator#instance-init#
+view.graphicalui.second.signupquestionstates.QuestionCell#getQuestionCellInstance()Lview/graphicalui/second/signupquestionstates/QuestionCell;
+view.graphicalui.second.signupquestionstates.QuestionCell#<init>()V
+view.graphicalui.second.signupquestionstates.QuestionCell#instance-init#

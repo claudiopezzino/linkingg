@@ -1,3 +1,2 @@
-view.graphicalui.first.Dialog#closeWaitDialog()V
-javafx.scene.control.Dialog#close()V
-view.graphicalui.first.Dialog$WaitDialog#getWaitDialogInstance()Lview/graphicalui/first/Dialog$WaitDialog;
+view.graphicalui.second.meetingquestionstates.QuestionRadiusOfAction#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.meetingquestionstates.QuestionMeetingLocationName#getQuestionMeetingLocationNameInstance()Lview/graphicalui/second/meetingquestionstates/QuestionMeetingLocationName;

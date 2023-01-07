@@ -1,1 +1,1 @@
-view.bean.errorsignupdecorations.CellBeanErrorDecorator#displayErrors()Ljava/lang/String;
+model.subjects.Group#linkRequests()Ljava/util/Map;

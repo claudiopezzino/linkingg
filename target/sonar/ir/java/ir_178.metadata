@@ -1,3 +1,1 @@
-view.graphicalui.second.Home#membersRemovalMode()V
-view.graphicalui.second.Home#showBlacklist(Ljava/lang/String;)V
-view.controllerui.second.handlerstates.StateMembersRemoval#getStateMembersRemovalInstance()Lview/controllerui/second/handlerstates/StateMembersRemoval;
+view.controllerui.second.handlerstates.StateMemberInvitation#<init>()V

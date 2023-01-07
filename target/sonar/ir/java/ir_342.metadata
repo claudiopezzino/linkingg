@@ -1,1 +1,6 @@
-view.controllerui.first.SigninPageEventHandler#clearSigninCredentials(Lview/graphicalui/first/SigninPage;)V
+view.controllerui.first.HomePageEventHandler#manageUserProfile()V
+java.util.Optional#isPresent()Z
+view.controllerui.first.HomePageEventHandler#changeUserImageProfile(Ljava/util/Map;)V
+javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
+java.util.Optional#get()Ljava/lang/Object;
+view.graphicalui.first.HomePage$UserProfileDialog#getUserProfileDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog;

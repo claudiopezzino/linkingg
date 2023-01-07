@@ -1,2 +1,1 @@
-view.graphicalui.first.SignupPage#getMail()Ljava/lang/String;
-javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
+view.bean.observers.MeetingBean#setJoiners(Ljava/util/Map;)V

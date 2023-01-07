@@ -1,1 +1,1 @@
-view.graphicalui.second.meetingquestionstates.QuestionEnd#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.bean.LinkRequestCreationBean#setGroupNick(Ljava/lang/String;)V

@@ -1,1 +1,1 @@
-model.UserInfo#instance-init#
+view.bean.observers.LinkRequestBean#getUserImagePath()Ljava/lang/String;

@@ -1,2 +1,1 @@
-view.graphicalui.first.toolbardecorations.SharingButtonDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)V
-view.graphicalui.first.toolbardecorations.SharingButtonDecorator#setUpBtnSharing()V
+view.bean.errorsignupdecorations.SurnameBeanErrorDecorator#displayErrors()Ljava/lang/String;

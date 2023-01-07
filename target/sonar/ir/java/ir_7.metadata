@@ -1,1 +1,3 @@
-view.controllerui.second.HandlerStateMachine#checkCmd(Lview/graphicalui/second/Home;)V
+model.db.dbconnection.PersistencyDB#getSingletonInstance()Lmodel/db/dbconnection/PersistencyDB;
+model.db.dbconnection.PersistencyDB#<init>()V
+model.db.dbconnection.PersistencyDB#instance-init#

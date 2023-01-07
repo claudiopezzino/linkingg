@@ -1,1 +1,2 @@
-view.bean.BeanError#<init>(Ljava/lang/String;)V
+model.db.dbconnection.PersistencyDB#<init>()V
+model.db.dbconnection.PersistencyDB#fetchDBConfigProperties()V

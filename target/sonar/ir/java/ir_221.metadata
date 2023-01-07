@@ -1,3 +1,1 @@
-view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;
-view.graphicalui.second.Home#instance-init#
-view.graphicalui.second.Home#<init>()V
+control.controlutilities.MessengerException#<init>()V

@@ -1,1 +1,1 @@
-view.bean.observers.GroupBean#setOwner(Lview/bean/observers/UserBean;)V
+view.graphicalui.second.Home#setListOtherMeetings(Ljava/util/List;)V

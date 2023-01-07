@@ -1,1 +1,2 @@
-control.notifications.NoNotificationException#instance-init#
+view.graphicalui.second.signupquestionstates.QuestionAccount#display()V
+view.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;

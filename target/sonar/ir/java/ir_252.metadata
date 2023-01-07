@@ -1,1 +1,2 @@
-view.graphicalui.first.FirstMain#setCurrScene(Ljavafx/scene/Scene;)V
+view.graphicalui.first.listviewitems.ListViewGroupItems#getIndex()Ljava/lang/Integer;
+java.lang.Enum#ordinal()I

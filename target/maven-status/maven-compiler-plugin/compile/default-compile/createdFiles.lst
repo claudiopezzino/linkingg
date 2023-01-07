@@ -7,6 +7,7 @@ model/Filter.class
 view/graphicalui/first/HomePage$MeetingGalleryDialog.class
 view/graphicalui/second/Shell.class
 model/LinkRequestFields.class
+view/graphicalui/first/listviewitems/ListViewLinkRequestItems$UserDetails.class
 model/dao/FactoryDAO$1.class
 view/graphicalui/first/SignupPage.class
 view/graphicalui/first/SignupPage$CredentialDialog.class
@@ -56,6 +57,7 @@ view/graphicalui/first/listviewitems/ListViewMeetingItems$MeetingInfo$MeetingVie
 view/controllerui/second/handlerstates/StateGroupCreationEnd.class
 view/bean/ConcreteBeanError.class
 control/notifications/Notification.class
+view/bean/NewGroupMemberBean.class
 view/graphicalui/second/meetingquestionstates/QuestionRadiusOfAction.class
 view/graphicalui/first/toolbardecorations/SharingButtonDecorator.class
 view/controllerui/second/handlerstates/StateMembersView.class
@@ -94,6 +96,7 @@ view/graphicalui/first/toolbardecorations/ProfileBoxDecorator.class
 view/controllerui/second/handlerstates/StateMembersRemoval.class
 view/graphicalui/first/toolbardecorations/UndoRedoBarDecorator.class
 model/Link.class
+view/graphicalui/first/HomePage$SearchGroupsDialog$ConfirmationDialog.class
 view/graphicalui/second/signupquestionstates/QuestionCell.class
 model/db/dbexceptions/DuplicatedRecordException.class
 model/modelexceptions/NoEntityException.class
@@ -142,7 +145,6 @@ model/db/dbconnection/PersistencyDB.class
 view/graphicalui/second/QuestionStateMachine.class
 view/controllerui/second/handlerstates/StateGroupRequest.class
 view/graphicalui/first/FirstMain.class
-view/graphicalui/first/HomePage$SearchGroupsDialog$LinkRequestSendingDialog.class
 view/graphicalui/first/Toolbar.class
 view/controllerui/first/HomePageEventHandler$GoogleMapsChangeListener.class
 model/modelexceptions/DuplicatedEntityException.class
@@ -214,6 +216,7 @@ view/bean/errorsignupdecorations/AddressBeanErrorDecorator.class
 view/graphicalui/second/signupquestionstates/QuestionMail.class
 control/tasks/Loader$1.class
 control/controlutilities/CopyException.class
+view/graphicalui/first/listviewitems/ListViewLinkRequestItems.class
 view/graphicalui/first/listviewitems/ListViewGroupItems$GroupInfo.class
 view/controllerui/first/DialogEventHandler.class
 view/graphicalui/first/HomePage$UserProfileDialog$UsernameDialog.class

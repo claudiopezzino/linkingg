@@ -1,5 +1,1 @@
-view.bean.observers.GroupBean#update(Ljava/util/Map;)V
-java.lang.Enum#equals(Ljava/lang/Object;)Z
-view.boundary.UserManageCommunityBoundary#notifyNewMeeting(Ljava/lang/String;Ljava/lang/String;)V
-view.boundary.UserManageCommunityBoundary#notifyNewLinkRequest(Ljava/lang/String;Ljava/lang/String;)V
-view.boundary.UserManageCommunityBoundary#notifyNewGroupMember(Ljava/lang/String;Ljava/lang/String;)V
+view.graphicalui.second.Home#setListDetails(Ljava/util/List;)V

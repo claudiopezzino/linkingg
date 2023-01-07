@@ -1,2 +1,2 @@
-view.graphicalui.second.Signup#restoreScreen()V
-view.graphicalui.second.signupquestionstates.QuestionName#getQuestionNameInstance()Lview/graphicalui/second/signupquestionstates/QuestionName;
+view.graphicalui.second.passwordquestionstates.QuestionEnd#display()V
+view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;

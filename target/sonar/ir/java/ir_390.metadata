@@ -1,2 +1,7 @@
-view.graphicalui.second.Welcome#restoreScreen()V
-javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+control.ManageCommunityController#setUpSignInPhase(Lcontrol/LoginController;Lview/bean/UserSignInBean;)Ljava/util/Map;
+java.util.HashMap#<init>()V
+control.tasks.Listener#<init>(Ljava/util/Map;Lmodel/subjects/User;)V
+control.tasks.Listener#instance-init#
+control.ManageCommunityController#turnIntoUserBean(Lmodel/subjects/User;)Lview/bean/observers/UserBean;
+java.util.HashMap#instance-init#
+control.ManageCommunityController#turnIntoGroupBean(Lmodel/subjects/Group;)Lview/bean/observers/GroupBean;

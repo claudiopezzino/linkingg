@@ -1,1 +1,3 @@
-view.graphicalui.second.usernamequestionstates.QuestionNewUsername#instance-init#
+view.graphicalui.second.groupquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/groupquestionstates/QuestionEnd;
+view.graphicalui.second.groupquestionstates.QuestionEnd#instance-init#
+view.graphicalui.second.groupquestionstates.QuestionEnd#<init>()V

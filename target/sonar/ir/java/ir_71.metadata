@@ -1,2 +1,3 @@
-view.graphicalui.second.passwordquestionstates.QuestionCurrentPassword#next(Lview/graphicalui/second/QuestionStateMachine;)V
-view.graphicalui.second.passwordquestionstates.QuestionNewPassword#getQuestionNewPasswordInstance()Lview/graphicalui/second/passwordquestionstates/QuestionNewPassword;
+view.graphicalui.second.Home#showLinkInvitations()V
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
+view.controllerui.second.handlerstates.StateUserLinkInvitations#getStateUserLinkInvitationsInstance()Lview/controllerui/second/handlerstates/StateUserLinkInvitations;

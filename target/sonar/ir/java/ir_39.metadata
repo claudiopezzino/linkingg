@@ -1,2 +1,1 @@
-view.graphicalui.second.signupquestionstates.QuestionCell#next(Lview/graphicalui/second/QuestionStateMachine;)V
-view.graphicalui.second.signupquestionstates.QuestionAccount#getQuestionAccountInstance()Lview/graphicalui/second/signupquestionstates/QuestionAccount;
+view.graphicalui.second.passwordquestionstates.QuestionCurrentPassword#instance-init#

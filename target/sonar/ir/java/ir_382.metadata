@@ -1,3 +1,2 @@
-view.graphicalui.first.Dialog#openWaitDialog()V
-javafx.scene.control.Dialog#show()V
-view.graphicalui.first.Dialog$WaitDialog#getWaitDialogInstance()Lview/graphicalui/first/Dialog$WaitDialog;
+view.graphicalui.second.meetingquestionstates.QuestionRadiusOfAction#display()V
+view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;

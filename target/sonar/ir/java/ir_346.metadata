@@ -1,3 +1,11 @@
-view.graphicalui.first.ConcreteToolbar#instance-init#
-javafx.scene.control.ToolBar#<init>()V
-javafx.scene.control.ToolBar#instance-init#
+view.controllerui.first.HomePageEventHandler#manageSearch(Ljavafx/scene/layout/HBox;)V
+view.graphicalui.first.toolbaritems.HomeToolbarItems$searchBarItems$radioButtonsContainerItems#getIndex()Ljava/lang/Integer;
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+view.graphicalui.first.toolbaritems.HomeToolbarItems$searchBarItems#getIndex()Ljava/lang/Integer;
+view.graphicalui.first.Dialog#errorDialog(Ljava/lang/String;)V
+javafx.scene.control.Labeled#getText()Ljava/lang/String;
+view.controllerui.first.HomePageEventHandler#searchGroups(Ljavafx/scene/control/RadioButton;Ljava/lang/String;)V
+javafx.scene.control.ToggleGroup#getSelectedToggle()Ljavafx/scene/control/Toggle;
+view.graphicalui.first.toolbaritems.HomeToolbarItems$searchBarItems$searchFieldsItems#getIndex()Ljava/lang/Integer;
+javafx.scene.control.ToggleButton#getToggleGroup()Ljavafx/scene/control/ToggleGroup;

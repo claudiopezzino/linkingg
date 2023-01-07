@@ -1,1 +1,3 @@
-control.notifications.notificationdecorations.LinkRequestDecorator#<init>(Lcontrol/notifications/Notification;Ljava/lang/String;Ljava/lang/String;)V
+view.graphicalui.second.Home#initTargetGroups()V
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#

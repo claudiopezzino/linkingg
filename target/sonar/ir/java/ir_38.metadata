@@ -1,2 +1,2 @@
-view.graphicalui.second.signupquestionstates.QuestionCell#display()V
-view.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;
+view.graphicalui.first.toolbaritems.HomeToolbarItems#getIndex()Ljava/lang/Integer;
+java.lang.Enum#ordinal()I

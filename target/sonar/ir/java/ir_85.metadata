@@ -1,4 +1,1 @@
-view.boundary.UserManageCommunityBoundary#notifyNewGroup(Lview/bean/observers/GroupBean;)V
-view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;
-javafx.application.Platform#runLater(Ljava/lang/Runnable;)V
-view.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;
+view.graphicalui.second.Home#displayTargetGroups()V

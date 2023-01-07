@@ -1,1 +1,3 @@
-view.controllerui.second.handlerstates.StateMembersView#instance-init#
+view.graphicalui.second.Signin#getSigninInstance()Lview/graphicalui/second/Signin;
+view.graphicalui.second.Signin#<init>()V
+view.graphicalui.second.Signin#instance-init#

@@ -1,3 +1,1 @@
-view.graphicalui.first.Dialog#getLastNotification()Lcontrol/notifications/Notification;
-control.notifications.NoNotificationException#instance-init#
-control.notifications.NoNotificationException#<init>()V
+control.ManageCommunityController#instance-init#

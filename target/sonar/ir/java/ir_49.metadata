@@ -1,2 +1,1 @@
-view.graphicalui.first.toolbardecorations.InfoBarDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)V
-view.graphicalui.first.toolbardecorations.InfoBarDecorator#setUpInfoBar()V
+view.graphicalui.second.meetingquestionstates.QuestionDate#<init>()V

@@ -1,1 +1,1 @@
-view.bean.observers.GroupBean#setMapMembers(Ljava/util/Map;)V
+view.graphicalui.second.Home#setListGroupMembers(Ljava/util/List;)V

@@ -1,1 +1,1 @@
-view.bean.observers.GroupBean#setNickname(Ljava/lang/String;)V
+view.graphicalui.second.Home#setListOtherGroups(Ljava/util/List;)V

@@ -1,3 +1,1 @@
-view.graphicalui.second.Home#showMeetingParticipants()V
-javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V
-view.controllerui.second.handlerstates.StateMeetingJoinersView#getStateMeetingJoinersViewInstance()Lview/controllerui/second/handlerstates/StateMeetingJoinersView;
+view.graphicalui.second.meetingquestionstates.QuestionEnd#instance-init#

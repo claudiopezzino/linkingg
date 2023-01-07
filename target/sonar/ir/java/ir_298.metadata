@@ -1,1 +1,1 @@
-view.graphicalui.first.SignupPage#getTextFieldAddress()Ljavafx/scene/control/TextField;
+view.bean.observers.MeetingBean#setRating(Ljava/lang/String;)V

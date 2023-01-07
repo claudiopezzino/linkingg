@@ -1,53 +1,18 @@
 
-¬view.controllerui.second.handlerstates.StateGroupCreationNickname#getStateGroupCreationNicknameInstance()Lview/controllerui/second/handlerstates/StateGroupCreationNickname;…
-{/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationNickname.java,- ,(R"3*Ú
-2…
-{/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationNickname.java.1 .(Q—”
-…
-{/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationNickname.java.5 .(OG
-%1Aview.controllerui.second.handlerstates.StateGroupCreationNickname"Aview.controllerui.second.handlerstates.StateGroupCreationNicknameÅ
-Â
-…
-{/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationNickname.java.1 .(Q
-%2"Kview.controllerui.second.handlerstates.StateGroupCreationNickname#<init>()V*e
+>view.graphicalui.second.Home#getGroupMembers()Ljava/util/List;b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaø ø('"1*»
+1b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaù ù(Ó
+Ð
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaù ù( 
+%0java.util.List"__id*N
 
-__unknown_file (I
-G
-%1Aview.controllerui.second.handlerstates.StateGroupCreationNicknameå
-â
-…
-{/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationNickname.java. .(QkC
-Aview.controllerui.second.handlerstates.StateGroupCreationNickname"$
-"stateGroupCreationNicknameInstance"__id*e
-
-__unknown_file (I
-G
-%1Aview.controllerui.second.handlerstates.StateGroupCreationNickname*
-1*ü
-3…
-{/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationNickname.java- -(-æ
-ã
-…
-{/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationNickname.java- -(-G
-%0Aview.controllerui.second.handlerstates.StateGroupCreationNickname"__id*‰
-
-__unknown_file (m*kC
-Aview.controllerui.second.handlerstates.StateGroupCreationNickname"$
-"stateGroupCreationNicknameInstance*
-2
-1*Ê
-1…
-{/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationNickname.java/ /(1æ
-ã
-…
-{/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationNickname.java/ /(1G
-%3Aview.controllerui.second.handlerstates.StateGroupCreationNickname"__id*‰
-
-__unknown_file (m*kC
-Aview.controllerui.second.handlerstates.StateGroupCreationNickname"$
-"stateGroupCreationNicknameInstance"Ó
-…
-{/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupCreationNickname.java/ /(2I
-G
-%3Aview.controllerui.second.handlerstates.StateGroupCreationNicknameBE"C
-Aview.controllerui.second.handlerstates.StateGroupCreationNicknameH
+__unknown_file (2*0
+view.graphicalui.second.Home"
+groupMembers"|
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaù ù(!
+
+%0java.util.ListB 
+view.graphicalui.second.HomeH

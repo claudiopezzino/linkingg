@@ -1,2 +1,7 @@
-view.graphicalui.second.signinquestionstates.QuestionPassword#display()V
-view.graphicalui.second.Signin#getSigninInstance()Lview/graphicalui/second/Signin;
+view.graphicalui.first.HomePage#setUpSearchArea()Ljavafx/scene/layout/BorderPane;
+javafx.scene.layout.BorderPane#<init>()V
+javafx.scene.layout.BorderPane#instance-init#
+view.graphicalui.first.HomePage#setUpMapBar()Ljavafx/scene/layout/HBox;
+javafx.scene.layout.BorderPane#setCenter(Ljavafx/scene/Node;)V
+javafx.scene.layout.BorderPane#setTop(Ljavafx/scene/Node;)V
+view.graphicalui.first.HomePage#setUpMapContainer()Ljavafx/scene/web/WebView;

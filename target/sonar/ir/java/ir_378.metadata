@@ -1,2 +1,1 @@
-view.graphicalui.first.toolbardecorations.UndoRedoBarDecorator#draw()Ljavafx/scene/control/ToolBar;
-javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;
+view.graphicalui.first.SigninPage#getHandler()Lview/controllerui/first/SigninPageEventHandler;

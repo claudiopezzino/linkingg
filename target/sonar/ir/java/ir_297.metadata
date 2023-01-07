@@ -1,1 +1,1 @@
-view.graphicalui.first.SignupPage#getTextFieldSurname()Ljavafx/scene/control/TextField;
+view.bean.observers.MeetingBean#setName(Ljava/lang/String;)V

@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#resetOldNickname()V
+model.db.dbqueries.UserDAOQueries#initInsertStatement(Ljava/sql/PreparedStatement;Ljava/util/Map;)V

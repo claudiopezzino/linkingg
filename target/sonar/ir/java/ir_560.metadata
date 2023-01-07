@@ -1,1 +1,1 @@
-view.bean.observers.MeetingBean#setPhotos(Ljava/util/List;)V
+view.graphicalui.first.WelcomePage#getHandler()Lview/controllerui/first/WelcomePageEventHandler;

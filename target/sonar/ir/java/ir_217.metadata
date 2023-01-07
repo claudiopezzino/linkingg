@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#setListGroupMembers(Ljava/util/List;)V
+view.graphicalui.second.Shell#getPrompt()Ljavafx/scene/control/TextField;

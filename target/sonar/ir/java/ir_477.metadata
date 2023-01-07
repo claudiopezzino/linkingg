@@ -1,1 +1,1 @@
-model.UserInfo#<init>()V
+view.bean.observers.LinkRequestBean#getUserName()Ljava/lang/String;

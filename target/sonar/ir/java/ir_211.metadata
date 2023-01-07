@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#setGroupOwnerNick(Ljava/lang/String;)V
+view.graphicalui.second.usernamequestionstates.QuestionEnd#next(Lview/graphicalui/second/QuestionStateMachine;)V

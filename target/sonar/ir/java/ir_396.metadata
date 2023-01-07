@@ -1,4 +1,2 @@
-view.controllerui.second.Message#wrongMatchMsg(Ljava/lang/String;)V
-javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
-javafx.scene.control.Dialog#show()V
-javafx.scene.control.Alert#instance-init#
+view.graphicalui.first.toolbardecorations.ProfileBoxDecorator#draw()Ljavafx/scene/control/ToolBar;
+javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;

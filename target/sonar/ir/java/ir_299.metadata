@@ -1,1 +1,1 @@
-view.graphicalui.first.SignupPage#getTextFieldMail()Ljavafx/scene/control/TextField;
+view.bean.observers.MeetingBean#setDate(Ljava/lang/String;)V

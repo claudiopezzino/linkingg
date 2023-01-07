@@ -1,1 +1,2 @@
-view.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems#instance-init#
+view.graphicalui.second.passwordquestionstates.QuestionCurrentPassword#display()V
+view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;

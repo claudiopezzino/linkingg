@@ -1,1 +1,15 @@
-view.controllerui.second.handlerstates.StateGroupCreationEnd#instance-init#
+view.graphicalui.first.HomePage#setUpVBoxDetails(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavafx/scene/layout/VBox;
+javafx.scene.paint.ImagePattern#<init>(Ljavafx/scene/image/Image;)V
+javafx.scene.control.Label#instance-init#
+javafx.scene.shape.Circle#instance-init#
+javafx.scene.shape.Shape#setFill(Ljavafx/scene/paint/Paint;)V
+javafx.scene.paint.ImagePattern#instance-init#
+javafx.scene.layout.VBox#<init>([Ljavafx/scene/Node;)V
+javafx.scene.image.Image#<init>(Ljava/lang/String;)V
+javafx.scene.layout.VBox#instance-init#
+javafx.scene.shape.Circle#<init>(D)V
+javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;
+java.lang.String#equals(Ljava/lang/Object;)Z
+javafx.scene.layout.VBox#<init>()V
+javafx.scene.control.Label#<init>(Ljava/lang/String;)V
+javafx.scene.image.Image#instance-init#

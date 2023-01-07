@@ -1,1 +1,1 @@
-view.graphicalui.second.Shell#getPrompt()Ljavafx/scene/control/TextField;
+view.graphicalui.second.signupquestionstates.QuestionEnd#next(Lview/graphicalui/second/QuestionStateMachine;)V

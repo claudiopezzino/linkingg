@@ -1,4 +1,3 @@
-view.graphicalui.first.FirstMain#start(Ljavafx/stage/Stage;)V
-javafx.stage.Stage#show()V
-javafx.stage.Stage#setResizable(Z)V
-javafx.stage.Stage#setScene(Ljavafx/scene/Scene;)V
+view.graphicalui.first.MeetingPage#getMeetingPageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/MeetingPage;
+view.graphicalui.first.MeetingPage#<init>(Lview/graphicalui/first/Toolbar;)V
+view.graphicalui.first.MeetingPage#instance-init#

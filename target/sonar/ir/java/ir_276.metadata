@@ -1,3 +1,1 @@
-view.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;
-view.graphicalui.second.Signup#instance-init#
-view.graphicalui.second.Signup#<init>()V
+view.graphicalui.second.passwordquestionstates.QuestionEnd#next(Lview/graphicalui/second/QuestionStateMachine;)V

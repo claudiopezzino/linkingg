@@ -1,4 +1,8 @@
-view.bean.UserSignUpBean#setSurname(Ljava/lang/String;)V
-view.bean.errorsignupdecorations.SurnameBeanErrorDecorator#instance-init#
-view.bean.errorsignupdecorations.SurnameBeanErrorDecorator#<init>(Lview/bean/BeanError;)V
-view.bean.Regex#isMatching(Ljava/lang/String;Ljava/lang/String;)Z
+view.controllerui.first.DialogEventHandler#manageUserImage()V
+javafx.scene.paint.ImagePattern#<init>(Ljavafx/scene/image/Image;)V
+javafx.scene.shape.Shape#setFill(Ljavafx/scene/paint/Paint;)V
+javafx.scene.paint.ImagePattern#instance-init#
+view.controllerui.first.DialogEventHandler#showImageFileChooser(Lview/graphicalui/first/PageDialog;)Ljava/io/File;
+javafx.scene.image.Image#instance-init#
+view.graphicalui.first.HomePage$UserProfileDialog#getUserProfileDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog;
+javafx.scene.image.Image#<init>(Ljava/lang/String;)V

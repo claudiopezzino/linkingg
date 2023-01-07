@@ -1,1 +1,2 @@
-view.graphicalui.second.signupquestionstates.QuestionName#<init>()V
+view.controllerui.second.handlerstates.StateGroupRequest#reload(Lview/graphicalui/second/Home;Ljava/lang/String;)V
+view.controllerui.second.handlerstates.StateGroupRequest#removeGroup(Lview/graphicalui/second/Home;Ljava/lang/String;)V

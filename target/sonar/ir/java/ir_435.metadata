@@ -1,6 +1,1 @@
-view.controllerui.second.KeyEventHandler#showNotifications()V
-view.controllerui.second.Message#linkRequestMsg(Lcontrol/notifications/Notification;)V
-control.notifications.notificationdecorations.LinkRequestDecorator#instance-init#
-control.notifications.notificationdecorations.LinkRequestDecorator#<init>(Lcontrol/notifications/Notification;Ljava/lang/String;Ljava/lang/String;)V
-control.notifications.ConcreteNotification#instance-init#
-control.notifications.ConcreteNotification#<init>()V
+view.bean.errorsignupdecorations.EmailBeanErrorDecorator#displayErrors()Ljava/lang/String;

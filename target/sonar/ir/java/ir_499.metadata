@@ -1,4 +1,9 @@
-view.bean.UserSignUpBean#setName(Ljava/lang/String;)V
-view.bean.errorsignupdecorations.NameBeanErrorDecorator#instance-init#
-view.bean.errorsignupdecorations.NameBeanErrorDecorator#<init>(Lview/bean/BeanError;)V
-view.bean.Regex#isMatching(Ljava/lang/String;Ljava/lang/String;)Z
+view.controllerui.first.DialogEventHandler#manageGroupImage()V
+javafx.scene.paint.ImagePattern#<init>(Ljavafx/scene/image/Image;)V
+javafx.scene.shape.Shape#setFill(Ljavafx/scene/paint/Paint;)V
+javafx.scene.control.Labeled#setText(Ljava/lang/String;)V
+javafx.scene.paint.ImagePattern#instance-init#
+view.graphicalui.first.HomePage$GroupCreationDialog#getGroupCreationDialogInstance()Lview/graphicalui/first/HomePage$GroupCreationDialog;
+view.controllerui.first.DialogEventHandler#showImageFileChooser(Lview/graphicalui/first/PageDialog;)Ljava/io/File;
+javafx.scene.image.Image#instance-init#
+javafx.scene.image.Image#<init>(Ljava/lang/String;)V

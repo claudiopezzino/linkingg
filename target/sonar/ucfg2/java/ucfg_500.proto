@@ -1,18 +1,18 @@
 
-5model.subjects.Group#imageProfile()Ljava/lang/String;X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaI I("1*í
-1X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaJ J(º
-π
-X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaJ J(
-%0java.lang.String"__id*?
+bview.graphicalui.first.HomePage$UserProfileDialog#getCircleImgProfile()Ljavafx/scene/shape/Circle;e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÅ Å()"1*Ù
+1e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÇ Ç(˙
+˜
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÇ Ç((
+%0javafx.scene.shape.Circle"__id*g
 
-__unknown_file (#*!
-model.subjects.Group"
-image"t
-X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaJ J(
-
-%0java.lang.StringB
-model.subjects.GroupH
+__unknown_file (K*I3
+1view.graphicalui.first.HomePage$UserProfileDialog"
+circleImgProfile"ä
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÇ Ç()!
+
+%0javafx.scene.shape.CircleB53
+1view.graphicalui.first.HomePage$UserProfileDialogH

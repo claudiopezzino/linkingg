@@ -1,1 +1,1 @@
-view.graphicalui.second.usernamequestionstates.QuestionNewUsername#<init>()V
+view.graphicalui.second.groupquestionstates.QuestionEnd#next(Lview/graphicalui/second/QuestionStateMachine;)V

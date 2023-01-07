@@ -1,2 +1,2 @@
-view.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems#getIndex()Ljava/lang/Integer;
-java.lang.Enum#ordinal()I
+view.graphicalui.second.passwordquestionstates.QuestionCurrentPassword#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.passwordquestionstates.QuestionNewPassword#getQuestionNewPasswordInstance()Lview/graphicalui/second/passwordquestionstates/QuestionNewPassword;

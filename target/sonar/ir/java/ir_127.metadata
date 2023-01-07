@@ -1,1 +1,3 @@
-view.bean.observers.GroupBean#getNickname()Ljava/lang/String;
+view.graphicalui.second.Home#initBlacklist()V
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#

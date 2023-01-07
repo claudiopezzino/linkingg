@@ -1,9 +1,1 @@
-view.controllerui.first.WelcomePageEventHandler#handle(Ljavafx/scene/input/MouseEvent;)V
-view.graphicalui.first.toolbaritems.WelcomeToolbarItems#getIndex()Ljava/lang/Integer;
-view.graphicalui.first.toolbaritems.WelcomeToolbarItems$SignBarItems#getIndex()Ljava/lang/Integer;
-view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;
-view.graphicalui.first.Container#getRoot(Lview/graphicalui/first/Page;)Ljavafx/scene/control/ScrollPane;
-javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;
-view.graphicalui.first.WelcomePage#getWelcomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/WelcomePage;
-view.graphicalui.first.Dialog#errorDialog(Ljava/lang/String;)V
-javafx.scene.Scene#setRoot(Ljavafx/scene/Parent;)V
+control.notifications.ConcreteNotification#displayMessage()Ljava/lang/String;

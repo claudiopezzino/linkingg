@@ -1,4 +1,1 @@
-view.bean.observers.GroupBean#setMapMeetings(Ljava/util/Map;)V
-java.util.HashMap#<init>()V
-control.controlutilities.Copier#deepCopy(Ljava/io/Serializable;)Ljava/lang/Object;
-java.util.HashMap#instance-init#
+view.graphicalui.second.Home#setListLinkRequests(Ljava/util/List;)V

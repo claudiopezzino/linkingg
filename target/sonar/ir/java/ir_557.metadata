@@ -1,1 +1,2 @@
-view.bean.observers.MeetingBean#setDate(Ljava/lang/String;)V
+view.graphicalui.first.WelcomePage#<init>(Lview/graphicalui/first/Toolbar;)V
+view.graphicalui.first.WelcomePage#setUpWelcomePage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;

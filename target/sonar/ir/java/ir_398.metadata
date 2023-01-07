@@ -1,4 +1,7 @@
-view.controllerui.second.Message#errorMsg()V
-javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
-javafx.scene.control.Dialog#show()V
-javafx.scene.control.Alert#instance-init#
+model.dao.DeviceDAO#makeDevicesEntities(Ljava/util/List;)Ljava/util/Map;
+model.Device#instance-init#
+java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
+java.util.HashMap#<init>()V
+java.lang.Integer#parseInt(Ljava/lang/String;)I
+model.Device#<init>(Ljava/lang/String;Ljava/lang/Integer;)V
+java.util.HashMap#instance-init#

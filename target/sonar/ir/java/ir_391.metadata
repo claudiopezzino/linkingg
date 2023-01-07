@@ -1,3 +1,6 @@
-view.graphicalui.second.Welcome#getWelcomeInstance()Lview/graphicalui/second/Welcome;
-view.graphicalui.second.Welcome#instance-init#
-view.graphicalui.second.Welcome#<init>()V
+control.ManageCommunityController#turnIntoMeetingBean(Lmodel/subjects/Meeting;)Lview/bean/observers/MeetingBean;
+view.bean.observers.MeetingBean#<init>()V
+java.util.HashMap#<init>()V
+view.bean.observers.MeetingBean#instance-init#
+control.ManageCommunityController#turnIntoUserBean(Lmodel/subjects/User;)Lview/bean/observers/UserBean;
+java.util.HashMap#instance-init#

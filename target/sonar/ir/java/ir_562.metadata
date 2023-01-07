@@ -1,1 +1,1 @@
-view.bean.observers.MeetingBean#setJoiners(Ljava/util/Map;)V
+view.graphicalui.first.WelcomePage#isToolBarPresent()Z

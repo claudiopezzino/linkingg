@@ -1,1 +1,1 @@
-view.bean.observers.GroupBean#setImage(Ljava/lang/String;)V
+view.graphicalui.second.Home#setListOwnMeetings(Ljava/util/List;)V

@@ -1,7 +1,1 @@
-view.graphicalui.first.PageDialog#setUpSkeleton(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-javafx.scene.control.Dialog#setTitle(Ljava/lang/String;)V
-javafx.scene.control.Dialog#setHeaderText(Ljava/lang/String;)V
-javafx.scene.image.ImageView#<init>(Ljava/lang/String;)V
-javafx.scene.image.ImageView#instance-init#
-javafx.scene.control.Dialog#setGraphic(Ljavafx/scene/Node;)V
-view.graphicalui.first.PageDialog#setUpBtnTypes()V
+model.subjects.Group#members()Ljava/util/Map;

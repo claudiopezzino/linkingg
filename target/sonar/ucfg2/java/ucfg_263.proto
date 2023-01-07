@@ -1,289 +1,18 @@
 
-Lmodel.dao.UserDAO#readEntities(Ljava/util/Map;Lmodel/Filter;)Ljava/util/Map;U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaM# M(/"startingBlock*æ
-13U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaT T(7º
-π
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaT T(7!
-
-connectionjava.sql.Connection"__id*7
+6model.subjects.Group#getChange()Lmodel/subjects/State;Z
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaâ â("1*°
+1Z
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaä ä(√
+¿
+Z
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaä ä(
+%0model.subjects.State"__id*@
 
-__unknown_file (
-
-%3java.sql.Connectionò
-ï
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaV V(,
-%4model.Filter"__id*"
-
-__unknown_file (
-""*
-9
-12*‘
-14U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaS S(D‘
-—
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaS S(D)
-db#model.db.dbconnection.PersistencyDB"__id*G
-
-__unknown_file (+
-)
-%2#model.db.dbconnection.PersistencyDBôñ
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaT$ T(6
-%3java.sql.Connection"Hmodel.db.dbconnection.PersistencyDB#getConnection()Ljava/sql/Connection;*G
-
-__unknown_file (+
-)
-db#model.db.dbconnection.PersistencyDB2getConnection()*
-13*è
-15U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaS S(,´
-®
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaS S(C)
-%2#model.db.dbconnection.PersistencyDB"_model.db.dbconnection.PersistencyDB#getSingletonInstance()Lmodel/db/dbconnection/PersistencyDB;*C
-
-__unknown_file ('"%
-#model.db.dbconnection.PersistencyDB*
-14*à
-16U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaN N(%ü
-ú
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaN N(%
-mapUsersjava.util.Map"__id*"
-
-__unknown_file (
-""äá
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaP) P(4
-%0java.util.ArrayList"java.util.ArrayList∏
-µ
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaP% P(6
-%1"java.util.ArrayList#<init>()V*7
-
-__unknown_file (
-
-%0java.util.ArrayList∫
-∑
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaP P(7
-listUsersInfojava.util.List"__id*7
-
-__unknown_file (
-
-%0java.util.ArrayList*
-15*¨
-1U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javad d($ß
-§
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javad d(3
-%16java.util.Map"Cmodel.dao.UserDAO#makeUserEntities(Ljava/util/List;)Ljava/util/Map;*1
-
-__unknown_file (
-model.dao.UserDAO*=
-
-__unknown_file (!
-
-listUsersInfojava.util.ListØ
-¨
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javad d(3
-mapUsersjava.util.Map"__id*2
-
-__unknown_file (
-
-%16java.util.Map"t
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaf f(
-
-mapUsersjava.util.Map*Ó
-startingBlockU
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaM/ M(Sÿ
-’
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaL L(
-%17"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*5
-
-__unknown_file (
-
-filterjava.util.Map¶
-£
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaM? M(E
-filterjava.util.Map"__annotation*#
-
-__unknown_file (
-
-%17’
-“
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaL L(
-%18"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*2
-
-__unknown_file (
-
-typemodel.Filter£
-†
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaMN M(R
-typemodel.Filter"__annotation*#
-
-__unknown_file (
-
-%18*
-16*›
-5U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java^ ^(˚¯
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java^ ^( 
-%12void"6model.db.dbconnection.PersistencyDB#closeConnection()V*G
-
-__unknown_file (+
-)
-db#model.db.dbconnection.PersistencyDB2closeConnection()*
-1*ò
-6U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java[ \(>∂
-≥
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java[ \(>
-listUsersInfojava.util.List"__id*3
-
-__unknown_file (
-
-%11java.util.List*
-5*·
-7U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java\ \(=ˇ
-¸
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java[  \(>
-%11java.util.List"ñmodel.db.dbqueries.UserDAOQueries#selectUsersIntoMeeting(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;)Ljava/util/List;*A
-
-__unknown_file (%"#
-!model.db.dbqueries.UserDAOQueries*G
-
-__unknown_file (+
-)
-db#model.db.dbconnection.PersistencyDB*?
-
-__unknown_file (#
-!
-
-connectionjava.sql.Connection*&
-
-__unknown_file (
-
-
-%10V*
-6*‹
-8U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java[  [(.ú
-ô
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java\, \(<
-%9java.lang.String"__id*"
-
-__unknown_file (
-""€
-ÿ
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.java\! \(=
-%10V"__mapGet*5
-
-__unknown_file (
-
-filterjava.util.Map*4
-
-__unknown_file (
-
-%9java.lang.String*
-7*˝
-9U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaZ Z(ò
-ï
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaZ Z(-
-%8model.Filter"__id*"
-
-__unknown_file (
-""*
-5
-8*ò
-10U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaW X(Bµ
-≤
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaW X(B
-listUsersInfojava.util.List"__id*2
-
-__unknown_file (
-
-%7java.util.List*
-5*ﬂ
-11U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaX X(A˚
-¯
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaW  X(B
-%7java.util.List"îmodel.db.dbqueries.UserDAOQueries#selectUsersIntoGroup(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;)Ljava/util/List;*A
-
-__unknown_file (%"#
-!model.db.dbqueries.UserDAOQueries*G
-
-__unknown_file (+
-)
-db#model.db.dbconnection.PersistencyDB*?
-
-__unknown_file (#
-!
-
-connectionjava.sql.Connection*%
-
-__unknown_file (	
-
-%6V*
-10*›
-12U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaW  W(.ú
-ô
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaX, X(@
-%5java.lang.String"__id*"
-
-__unknown_file (
-""⁄
-◊
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaX! X(A
-%6V"__mapGet*5
-
-__unknown_file (
-
-filterjava.util.Map*4
-
-__unknown_file (
-
-%5java.lang.String*
-11:p
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaM0 M(F
-filterjava.util.Map:m
-U
-K/Users/pain/eclipse-workspace/linkingg/src/main/java/model/dao/UserDAO.javaMG M(R
-typemodel.FilterB
-model.dao.UserDAOH
+__unknown_file ($*"
+model.subjects.Group"
+change"z
+Z
+N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaä ä(
+
+%0model.subjects.StateB
+model.subjects.GroupH

@@ -1,1 +1,3 @@
-model.dao.BaseDAO#instance-init#
+control.ManageCommunityController#turnIntoLinkRequestBean(Lmodel/subjects/LinkRequest;)Lview/bean/observers/LinkRequestBean;
+view.bean.observers.LinkRequestBean#<init>()V
+view.bean.observers.LinkRequestBean#instance-init#

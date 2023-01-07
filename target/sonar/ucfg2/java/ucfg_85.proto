@@ -1,41 +1,403 @@
 
-__sonar_lambda_7$o
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java (U"startingBlock*±
-startingBlocko
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java (U©
+*view.graphicalui.second.Home#listGroups()Vb
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¢ ¢("9*–
+2b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¬ ¬(-³
+°
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¬ ¬(- 
+ownGroupInfojavafx.util.Pair"__id*"
+
+__unknown_file (
+""î
+ë
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¬ ¬(- 
+ownGroupInfojavafx.util.Pair"
+__arrayGet*3
+
+__unknown_file (
+
+%18java.util.List*"
+
+__unknown_file (
+""*
+3
+1*å
+3b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java­ ­(Ý
+Ú
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java­ ­($
+%19javafx.scene.control.TextArea"__id*H
+
+__unknown_file (,**
+view.graphicalui.second.Home"
+screenûø
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java­# ­(:
+%20java.lang.String"-javafx.util.Pair#getValue()Ljava/lang/Object;*>
+
+__unknown_file ("
+ 
+ownGroupInfojavafx.util.Pair2
+getValue()ú
+÷
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java­# ­(B
+%21java.lang.String"__concat*
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java­# ­(:
+
+%20java.lang.String*m
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java­= ­(B
+ (@÷ô
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java­C ­(X
+%22java.lang.String"+javafx.util.Pair#getKey()Ljava/lang/Object;*>
+
+__unknown_file ("
+ 
+ownGroupInfojavafx.util.Pair2getKey()Œ
+‰
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java­# ­(X
+%23java.lang.String"__concat*
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java­# ­(B
+
+%21java.lang.String*
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java­C ­(X
+
+%22java.lang.Stringª
+§
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java­Y ­(\
+%24java.lang.String"__id*"
+
+__unknown_file (
+""Œ
+‰
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java­# ­(\
+%25java.lang.String"__concat*
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java­# ­(X
+
+%23java.lang.String*
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java­Y ­(\
+
+%24java.lang.StringÖÓ
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java­ ­(]
+%26void"Ejavafx.scene.control.TextInputControl#appendText(Ljava/lang/String;)V*B
+
+__unknown_file (&
+$
+%19javafx.scene.control.TextArea*5
+
+__unknown_file (
+
+%25java.lang.String2appendText(Ljava/lang/String;)*
+2*Ä
+4b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¬0 ¬(4Õ
+Ò
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¬0 ¬(B
+%18java.util.List"__id*O
+
+__unknown_file (3*1
+view.graphicalui.second.Home"
+listOwnGroups*
+2*Ÿ
+5b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaª ª(Ý
+Ú
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaª ª($
+%16javafx.scene.control.TextArea"__id*H
+
+__unknown_file (,**
+view.graphicalui.second.Home"
+screenÐÍ
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaª ª(1
+%17void"Ejavafx.scene.control.TextInputControl#appendText(Ljava/lang/String;)V*B
+
+__unknown_file (&
+$
+%16javafx.scene.control.TextArea*/
+
+__unknown_file (
+\n\nOwns:  \n\t2appendText(Ljava/lang/String;)*
+4*™
+6b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java§ §(/µ
+²
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java§ §(/"
+otherGroupInfojavafx.util.Pair"__id*"
+
+__unknown_file (
+""ï
+ì
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java§ §(/"
+otherGroupInfojavafx.util.Pair"
+__arrayGet*2
+
+__unknown_file (
+
+%7java.util.List*"
+
+__unknown_file (
+""*
+5
+7*å
+7b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¨ ¨(Ü
+Ù
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¨ ¨(#
+%8javafx.scene.control.TextArea"__id*H
+
+__unknown_file (,**
+view.graphicalui.second.Home"
+screenüù
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¨# ¨(<
+%9java.lang.String"-javafx.util.Pair#getValue()Ljava/lang/Object;*@
+
+__unknown_file ($
+"
+otherGroupInfojavafx.util.Pair2
+getValue()ù
+ö
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¨# ¨(D
+%10java.lang.String"__concat*~
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¨# ¨(<
+
+%9java.lang.String*m
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¨? ¨(D
+ (@ùö
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¨E ¨(\
+%11java.lang.String"+javafx.util.Pair#getKey()Ljava/lang/Object;*@
+
+__unknown_file ($
+"
+otherGroupInfojavafx.util.Pair2getKey()Œ
+‰
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¨# ¨(\
+%12java.lang.String"__concat*
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¨# ¨(D
+
+%10java.lang.String*
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¨E ¨(\
+
+%11java.lang.Stringª
+§
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¨] ¨(`
+%13java.lang.String"__id*"
+
+__unknown_file (
+""Œ
+‰
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¨# ¨(`
+%14java.lang.String"__concat*
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¨# ¨(\
+
+%12java.lang.String*
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¨] ¨(`
+
+%13java.lang.StringÕÒ
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¨ ¨(a
+%15void"Ejavafx.scene.control.TextInputControl#appendText(Ljava/lang/String;)V*A
+
+__unknown_file (%
+#
+%8javafx.scene.control.TextArea*5
+
+__unknown_file (
+
+%14java.lang.String2appendText(Ljava/lang/String;)*
+6*Å
+8b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java§2 §(6Ö
+Ó
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java§2 §(F
+%7java.util.List"__id*Q
+
+__unknown_file (5*3
+view.graphicalui.second.Home"
+listOtherGroups*
+6*½
+9b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¤ ¤(Ü
+Ù
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¤ ¤(#
+%0javafx.scene.control.TextArea"__id*H
+
+__unknown_file (,**
+view.graphicalui.second.Home"
+screen©
 ¦
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¤ ¤("
+%1java.lang.String"__id*"
 
-__unknown_file (*
-	groupBeanview.bean.observers.GroupBean"__id*X
+__unknown_file (
+""Ó
+Ð
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¤% ¤(/
+%2java.lang.String"__id*L
 
-__unknown_file (<*:+
-)view.boundary.UserManageCommunityBoundary"
-	groupBean*
-1*ð
-1o
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java$ (,Å
-Â
-o
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java$ (92
-%2,view.controllerui.first.HomePageEventHandler"Zview.graphicalui.first.HomePage#getHandler()Lview/controllerui/first/HomePageEventHandler;*?
-
-__unknown_file (#"!
-view.graphicalui.first.HomePage°­
-o
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java$ (U
+__unknown_file (0*.
+view.graphicalui.second.Home"
 
-%3void"_view.controllerui.first.HomePageEventHandler#updateGroupsList(Lview/bean/observers/GroupBean;)V*P
-
-__unknown_file (4
-2
-%2,view.controllerui.first.HomePageEventHandler*H
-
-__unknown_file (,
-*
-	groupBeanview.bean.observers.GroupBean21updateGroupsList(Lview/bean/observers/GroupBean;)"
-o
-c/Users/pain/eclipse-workspace/linkingg/src/main/java/view/boundary/UserManageCommunityBoundary.java$ (U
+welcomeMsg‰
+†
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¤ ¤(/
+%3java.lang.String"__concat*~
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¤ ¤("
+
+%1java.lang.String*~
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¤% ¤(/
+
+%2java.lang.StringŒ
+‰
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¤ ¤(J
+%4java.lang.String"__concat*~
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¤ ¤(/
+
+%3java.lang.String*€
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¤2 ¤(J
+view your groups\n\n\n‚
+ÿ
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¤ ¥(
+%5java.lang.String"__concat*~
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¤ ¤(J
+
+%4java.lang.String*w
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¥ ¥(
+Others:  \n\tÍÊ
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¤ ¥( 
 
-
-%3voidB
-java.lang.Runnable
+%6void"Bjavafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V*A
+
+__unknown_file (%
+#
+%0javafx.scene.control.TextArea*4
+
+__unknown_file (
+
+%5java.lang.String2setText(Ljava/lang/String;)*
+8*€
+0 "y
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java´ ´(
+implicit return*ö
+1b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¯ ¯(Ý
+Ú
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¯ ¯($
+%27javafx.scene.control.TextArea"__id*H
+
+__unknown_file (,**
+view.graphicalui.second.Home"
+screenü
+ù
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¯ °(T
+%28java.lang.String"__concat*À
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¯ ¯(wZX
+V\n\n\n\u2022 Type a group nickname to see its members, meetings and link requests.\n\n*¬
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java° °(TFD
+B\u2022 Type 'deletion' to add groups nickname into the blacklist; ·
+´
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¯ ±(Q
+%29java.lang.String"__concat*
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¯ °(T
+
+%28java.lang.String*©
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java± ±(QCA
+?once you have done type 'delete' to finalise your choice.\n\n\nÖÓ
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¯ ±(R
+%30void"Ejavafx.scene.control.TextInputControl#appendText(Ljava/lang/String;)V*B
+
+__unknown_file (&
+$
+%27javafx.scene.control.TextArea*5
+
+__unknown_file (
+
+%29java.lang.String2appendText(Ljava/lang/String;)Â
+¿
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java³ ³(/
+%31(view.controllerui.second.KeyEventHandler"__id*"
+
+__unknown_file (
+""èå
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java³ ³(!3
+%32,view.controllerui.second.HandlerStateMachine"hview.controllerui.second.KeyEventHandler#getStateMachine()Lview/controllerui/second/HandlerStateMachine;*M
+
+__unknown_file (1
+/
+%31(view.controllerui.second.KeyEventHandler2getStateMachine()Œ
+‰
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java³+ ³(W=
+%336view.controllerui.second.handlerstates.StateGroupsView"‹view.controllerui.second.handlerstates.StateGroupsView#getStateGroupsViewInstance()Lview/controllerui/second/handlerstates/StateGroupsView;*V
+
+__unknown_file (:"8
+6view.controllerui.second.handlerstates.StateGroupsViewÖÓ
+b
+V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java³ ³(X
+%34void"nview.controllerui.second.HandlerStateMachine#setState(Lview/controllerui/second/handlerstates/AbstractState;)V*Q
+
+__unknown_file (5
+3
+%32,view.controllerui.second.HandlerStateMachine*[
+
+__unknown_file (?
+=
+%336view.controllerui.second.handlerstates.StateGroupsView2@setState(Lview/controllerui/second/handlerstates/AbstractState;)*
+0B 
+view.graphicalui.second.HomeH

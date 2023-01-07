@@ -1,4 +1,3 @@
-view.controllerui.second.Message#meetingProposalMsg()V
-javafx.scene.control.Alert#<init>(Ljavafx/scene/control/Alert$AlertType;Ljava/lang/String;[Ljavafx/scene/control/ButtonType;)V
-javafx.scene.control.Dialog#show()V
-javafx.scene.control.Alert#instance-init#
+view.controllerui.first.SignupPageEventHandler#assignUsernameToUserProfile(Ljava/util/Map;)V
+javafx.scene.control.Labeled#setText(Ljava/lang/String;)V
+view.graphicalui.first.HomePage$UserProfileDialog#getUserProfileDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog;

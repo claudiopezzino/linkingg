@@ -1,79 +1,18 @@
 
-Jview.graphicalui.second.Signup#setUpSignupRoot()Ljavafx/scene/layout/VBox;b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java ( "1*î
-1b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java (¡ž
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java (
-%0javafx.scene.layout.VBox"javafx.scene.layout.VBoxÏ
-Ì
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java (
-%1""javafx.scene.layout.VBox#<init>()V*<
+Lview.bean.observers.MeetingBean#getScheduler()Lview/bean/observers/UserBean;c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaK K( "1*Û
+1c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaL L(â
+ß
+c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaL L("
+%0view.bean.observers.UserBean"__id*N
 
-__unknown_file ( 
-
-%0javafx.scene.layout.VBoxÍ
-Ê
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java ( 
-rootjavafx.scene.layout.VBox"__id*<
-
-__unknown_file ( 
-
-%0javafx.scene.layout.VBoxª§
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java ('
-%2!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*>
-
-__unknown_file ("
- 
-rootjavafx.scene.layout.VBox2getChildren()á
-Þ
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java" (5
-%3javafx.scene.layout.HBox"__id*R
-
-__unknown_file (6*4 
-view.graphicalui.second.Signup"
-titleContainerÞ
-Û
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java7 (B#
-%4javafx.scene.control.TextArea"__id*J
-
-__unknown_file (.*, 
-view.graphicalui.second.Signup"
-screenß
-Ü
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.javaD (O$
-%5javafx.scene.control.TextField"__id*J
-
-__unknown_file (.*, 
-view.graphicalui.second.Signup"
-promptßÜ
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java (P
-%6boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z*E
-
-__unknown_file ()
-'
-%2!javafx.collections.ObservableList*<
-
-__unknown_file ( 
-
-%3javafx.scene.layout.HBox*A
-
-__unknown_file (%
-#
-%4javafx.scene.control.TextArea*B
-
-__unknown_file (&
-$
-%5javafx.scene.control.TextField2addAll([Ljava/lang/Object;)"ˆ
-b
-X/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Signup.java   ("
- 
-rootjavafx.scene.layout.VBoxB" 
-view.graphicalui.second.Signup
+__unknown_file (2*0!
+view.bean.observers.MeetingBean"
+	scheduler"‹
+c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.javaL L($
+"
+%0view.bean.observers.UserBeanB#!
+view.bean.observers.MeetingBeanH

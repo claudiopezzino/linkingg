@@ -1,3 +1,5 @@
-view.controllerui.second.handlerstates.StateGroupLinkRequests#getStateGroupLinkRequestsInstance()Lview/controllerui/second/handlerstates/StateGroupLinkRequests;
-view.controllerui.second.handlerstates.StateGroupLinkRequests#<init>()V
-view.controllerui.second.handlerstates.StateGroupLinkRequests#instance-init#
+control.UserLoginController#access(Lview/bean/UserSignInBean;)Ljava/util/Map;
+java.util.HashMap#<init>()V
+control.UserLoginController#fetchGroupsByUserNickname(Ljava/lang/String;)Ljava/util/Map;
+java.util.HashMap#instance-init#
+control.UserLoginController#fetchUserByCredentials(Ljava/lang/String;Ljava/lang/String;)Lmodel/subjects/User;

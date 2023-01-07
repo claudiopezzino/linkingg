@@ -1,2 +1,1 @@
-view.graphicalui.first.toolbardecorations.SignBarDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/event/EventHandler;)V
-view.graphicalui.first.toolbardecorations.SignBarDecorator#setUpSignBar()V
+view.bean.observers.MeetingBean#getName()Ljava/lang/String;

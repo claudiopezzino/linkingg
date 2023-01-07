@@ -1,1 +1,2 @@
-model.ImageProfile#instance-init#
+view.graphicalui.first.toolbardecorations.TitleBoxDecorator#<init>(Lview/graphicalui/first/Toolbar;Ljavafx/scene/text/Text;)V
+javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;

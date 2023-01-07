@@ -1,4 +1,1 @@
-view.graphicalui.first.Dialog#errorDialog(Ljava/lang/String;)V
-javafx.scene.control.Dialog#showAndWait()Ljava/util/Optional;
-javafx.scene.control.Labeled#setText(Ljava/lang/String;)V
-view.graphicalui.first.Dialog$InfoErrorDialog#getInfoErrorDialogInstance()Lview/graphicalui/first/Dialog$InfoErrorDialog;
+view.graphicalui.second.meetingquestionstates.QuestionRadiusOfAction#<init>()V

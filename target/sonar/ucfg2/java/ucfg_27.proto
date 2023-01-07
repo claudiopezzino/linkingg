@@ -1,42 +1,16 @@
 
-I__sonar_lambda_0$view.controllerui.second.handlerstates.StateGroupRequest|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javaC C(E"startingBlock*¿
-startingBlock|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javaC C(E´
-®
+hview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$MainBarItems#getIndex()Ljava/lang/Integer;Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java ("1*¬
+1Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java (§°
+Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java (!	
+%0int"java.lang.Enum#ordinal()I*j
 
-__unknown_file (
-	groupNickjava.lang.String"__id*g
-
-__unknown_file (K*I:
-8view.controllerui.second.handlerstates.StateGroupRequest"
-	groupNick*
-1*Ô
-1|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javaC% C(*âÜ
-|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javaC% C(3
-%2java.lang.String"+javafx.util.Pair#getKey()Ljava/lang/Object;*7
-
-__unknown_file (
-
-groupjavafx.util.Pair2getKey()Õ 
-|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javaC% C(E
-%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
-
-__unknown_file (
-
-%2java.lang.String*;
-
-__unknown_file (
-
-	groupNickjava.lang.String2equals(Ljava/lang/Object;)"è
-|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javaC% C(E
-
-%3boolean:ô
-|
-r/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/second/handlerstates/StateGroupRequest.javaC C(!
-groupjavafx.util.PairB 
-java.util.function.Predicate
+__unknown_file (NL
+Jview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$MainBarItems2	ordinal()"ë
+Å
+w/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbaritems/MeetingChoiceToolbarItems.java ("
+	
+%0intBNL
+Jview.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems$MainBarItemsH

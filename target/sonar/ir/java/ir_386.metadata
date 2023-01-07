@@ -1,1 +1,15 @@
-view.graphicalui.second.Welcome#instance-init#
+control.ManageCommunityController#addUserIntoGroup(Lview/bean/NewGroupMemberBean;)V
+java.util.ArrayList#<init>()V
+control.ManageCommunityController#fetchGroupMemberDevices(Ljava/lang/String;)Ljava/util/List;
+java.util.ArrayList#instance-init#
+java.util.ArrayList#<init>(Ljava/util/Collection;)V
+control.ManageCommunityController#fetchGroup(Ljava/lang/String;)Lmodel/subjects/Group;
+control.ManageCommunityController#turnIntoGroupBean(Lmodel/subjects/Group;)Lview/bean/observers/GroupBean;
+model.dao.FactoryDAO#getSingletonInstance()Lmodel/dao/FactoryDAO;
+control.ManageCommunityController#deliverToEndUser(Ljava/util/List;Ljava/util/List;Lmodel/Filter;)V
+java.util.HashMap#<init>()V
+control.ManageCommunityController#fetchGroupMember(Ljava/lang/String;)Lmodel/subjects/User;
+control.ManageCommunityController#turnIntoUserBean(Lmodel/subjects/User;)Lview/bean/observers/UserBean;
+java.util.HashMap#instance-init#
+control.ManageCommunityController#fetchGroupMembers(Ljava/lang/String;)Ljava/util/Map;
+control.ManageCommunityController#fetchCurrUserDevices(Ljava/lang/String;)Ljava/util/List;

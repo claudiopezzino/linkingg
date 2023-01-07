@@ -1,1 +1,1 @@
-view.bean.observers.MeetingBean#getDate()Ljava/lang/String;
+model.subjects.User#personalEmail()Ljava/lang/String;

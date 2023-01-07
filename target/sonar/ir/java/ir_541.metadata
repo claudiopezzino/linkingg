@@ -1,1 +1,2 @@
-view.graphicalui.second.QuestionStateMachine#nextQuestion()V
+model.subjects.User#<init>(Ljava/util/Map;)V
+model.subjects.User#initNewUser(Ljava/util/Map;)V

@@ -1,1 +1,1 @@
-view.graphicalui.first.PageDialog#getBtnTypeSave()Ljavafx/scene/control/ButtonType;
+model.subjects.Group#name()Ljava/lang/String;

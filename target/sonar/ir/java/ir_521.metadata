@@ -1,6 +1,4 @@
-view.controllerui.second.handlerstates.StateGroupLinkRequests#checkCmd(Lview/graphicalui/second/Home;)V
-view.controllerui.second.Message#acceptRequestsMsg()V
-view.controllerui.second.Message#errorMsg()V
-javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
-java.lang.String#equals(Ljava/lang/Object;)Z
-java.lang.String#isEmpty()Z
+control.UserLoginController#registration(Lview/bean/UserSignUpBean;)Ljavafx/util/Pair;
+control.UserLoginController#fetchUserInfo(Lview/bean/UserSignUpBean;)Ljava/util/Map;
+control.UserLoginController#makeUserCredentials(Ljava/lang/String;Ljava/lang/String;)Ljavafx/util/Pair;
+control.UserLoginController#registerUser(Ljava/util/Map;)V

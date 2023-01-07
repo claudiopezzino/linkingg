@@ -1,2 +1,10 @@
-view.graphicalui.second.signinquestionstates.QuestionPassword#next(Lview/graphicalui/second/QuestionStateMachine;)V
-view.graphicalui.second.signinquestionstates.QuestionEnd#getQuestionEndInstance()Lview/graphicalui/second/signinquestionstates/QuestionEnd;
+view.graphicalui.first.HomePage#setUpHomePage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;
+javafx.scene.layout.VBox#instance-init#
+view.graphicalui.first.HomePage#setUpSearchArea()Ljavafx/scene/layout/BorderPane;
+javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;
+view.graphicalui.first.HomePage#setUpGroupsAndMeetingsArea()Ljavafx/scene/layout/BorderPane;
+javafx.scene.layout.BorderPane#<init>()V
+javafx.scene.layout.BorderPane#instance-init#
+javafx.scene.layout.VBox#<init>()V
+javafx.scene.layout.BorderPane#setTop(Ljavafx/scene/Node;)V
+javafx.scene.layout.BorderPane#setBottom(Ljavafx/scene/Node;)V

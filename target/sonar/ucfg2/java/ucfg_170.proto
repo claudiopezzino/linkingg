@@ -1,438 +1,18 @@
 
-=view.graphicalui.second.Home#applySearch(Ljava/lang/String;)Vb
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¿ ¿("7*◊
-2b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÕ Õ(›
-⁄
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÕ Õ($
-%18javafx.scene.control.TextArea"__id*H
+Sview.graphicalui.first.PageDialog#getBtnTypeSave()Ljavafx/scene/control/ButtonType;e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaH H($"1*Î
+1e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaI I(Î
+Ë
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaI I(%
+%0javafx.scene.control.ButtonType"__id*R
 
-__unknown_file (,**
-view.graphicalui.second.Home"
-screen»
-≈
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÕ# Œ(C
-%19java.lang.String"__concat*°
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÕ# Õ(\;9
-7link request asking to join groups of your interest\n\n*ó
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaŒ Œ(C1/
--\u2022 Type one group nickname at a time.\n\nΩ
-∫
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÕ# œ([
-%20java.lang.String"__concat*
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÕ# Œ(C
-
-%19java.lang.String*Ø
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaœ œ([IG
-E\u2022 Click 'OK' button to make known chosen groups about you.\n\n\nÄ
-˝
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÕ# –(
-%21java.lang.String"__concat*
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÕ# œ([
-
-%20java.lang.String*s
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java– –(
-	Groups:  ÷”
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÕ –( 
-%22void"Ejavafx.scene.control.TextInputControl#appendText(Ljava/lang/String;)V*B
-
-__unknown_file (&
-$
-%18javafx.scene.control.TextArea*5
-
-__unknown_file (
-
-%21java.lang.String2appendText(Ljava/lang/String;)¬
-ø
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java— —(/
-%23(view.controllerui.second.KeyEventHandler"__id*"
-
-__unknown_file (
-""ËÂ
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java— —(%3
-%24,view.controllerui.second.HandlerStateMachine"hview.controllerui.second.KeyEventHandler#getStateMachine()Lview/controllerui/second/HandlerStateMachine;*M
-
-__unknown_file (1
-/
-%23(view.controllerui.second.KeyEventHandler2getStateMachine()ñ
-ì
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java—/ —(_?
-%258view.controllerui.second.handlerstates.StateGroupRequest"ëview.controllerui.second.handlerstates.StateGroupRequest#getStateGroupRequestInstance()Lview/controllerui/second/handlerstates/StateGroupRequest;*X
-
-__unknown_file (<":
-8view.controllerui.second.handlerstates.StateGroupRequestÿ’
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java— —(`
-%26void"nview.controllerui.second.HandlerStateMachine#setState(Lview/controllerui/second/handlerstates/AbstractState;)V*Q
-
-__unknown_file (5
-3
-%24,view.controllerui.second.HandlerStateMachine*]
-
-__unknown_file (A
-?
-%258view.controllerui.second.handlerstates.StateGroupRequest2@setState(Lview/controllerui/second/handlerstates/AbstractState;)*
-0*Ó
-
-3b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java» »(›
-⁄
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java» »($
-%13javafx.scene.control.TextArea"__id*H
-
-__unknown_file (,**
-view.graphicalui.second.Home"
-screen‚ﬂ
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java» »(C
-%14void"Ejavafx.scene.control.TextInputControl#appendText(Ljava/lang/String;)V*B
-
-__unknown_file (&
-$
-%13javafx.scene.control.TextArea*A
-
-__unknown_file (%#
-!\n\n\nFollow these steps to send 2appendText(Ljava/lang/String;)ÿ
-’
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÀ À(
-%15java.lang.String"__id*P
-
-__unknown_file (4*2
-view.graphicalui.second.Home"
-currSearchMode™
-ß
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÀ& À(,
-%16java.lang.String"__id*"
-
-__unknown_file (
-""Ø¨
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÀ À(-
-%17boolean",java.lang.String#equals(Ljava/lang/Object;)Z*5
-
-__unknown_file (
-
-%15java.lang.String*5
-
-__unknown_file (
-
-%16java.lang.String2equals(Ljava/lang/Object;)*
-2
-1*ô
-4b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java≈ ≈(/µ
-≤
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java≈ ≈(/"
-otherGroupInfojavafx.util.Pair"__id*"
-
-__unknown_file (
-""Ô
-Ï
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java≈ ≈(/"
-otherGroupInfojavafx.util.Pair"
-__arrayGet*2
-
-__unknown_file (
-
-%4java.util.List*"
-
-__unknown_file (
-""*
-3
-5*ﬂ
-5b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java∆ ∆(‹
-Ÿ
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java∆ ∆(#
-%5javafx.scene.control.TextArea"__id*H
-
-__unknown_file (,**
-view.graphicalui.second.Home"
-screen¸˘
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java∆# ∆(<
-%6java.lang.String"-javafx.util.Pair#getValue()Ljava/lang/Object;*@
-
-__unknown_file ($
-"
-otherGroupInfojavafx.util.Pair2
-getValue()¯
-ı
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java∆# ∆(D
-%7java.lang.String"__concat*~
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java∆# ∆(<
-
-%6java.lang.String*m
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java∆? ∆(D
- (@¯ı
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java∆E ∆(\
-%8java.lang.String"+javafx.util.Pair#getKey()Ljava/lang/Object;*@
-
-__unknown_file ($
-"
-otherGroupInfojavafx.util.Pair2getKey()â
-Ü
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java∆# ∆(\
-%9java.lang.String"__concat*~
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java∆# ∆(D
-
-%7java.lang.String*~
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java∆E ∆(\
-
-%8java.lang.String™
-ß
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java∆] ∆(`
-%10java.lang.String"__id*"
-
-__unknown_file (
-""ã
-à
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java∆# ∆(`
-%11java.lang.String"__concat*~
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java∆# ∆(\
-
-%9java.lang.String*
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java∆] ∆(`
-
-%10java.lang.String’“
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java∆ ∆(a
-%12void"Ejavafx.scene.control.TextInputControl#appendText(Ljava/lang/String;)V*A
-
-__unknown_file (%
-#
-%5javafx.scene.control.TextArea*5
-
-__unknown_file (
-
-%11java.lang.String2appendText(Ljava/lang/String;)*
-4*≈
-6b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java≈2 ≈(6÷
-”
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java≈2 ≈(F
-%4java.util.List"__id*Q
-
-__unknown_file (5*3
-view.graphicalui.second.Home"
-listOtherGroups*
-4*Ÿ
-7b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¬ ¬((ﬂ
-‹
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¬ ¬((0
-view.graphicalui.second.Home"
-searchTarget"__id*>
-
-__unknown_file ("
- 
-searchTargetjava.lang.String‹
-Ÿ
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java√ √(#
-%0javafx.scene.control.TextArea"__id*H
-
-__unknown_file (,**
-view.graphicalui.second.Home"
-screen’
-“
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java√ √(0
-%1java.lang.String"__id*N
-
-__unknown_file (2*0
-view.graphicalui.second.Home"
-searchTarget˚
-¯
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java√ √(;
-%2java.lang.String"__concat*~
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java√ √(0
-
-%1java.lang.String*p
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java√3 √(;
-
-\n\n\t”–
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java√ √(<
-
-%3void"Ejavafx.scene.control.TextInputControl#appendText(Ljava/lang/String;)V*A
-
-__unknown_file (%
-#
-%0javafx.scene.control.TextArea*4
-
-__unknown_file (
-
-%2java.lang.String2appendText(Ljava/lang/String;)*
-6*Ä
-0 "y
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java‹ ‹(
-implicit return*ù%
-1b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java’ ’(›
-⁄
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java’ ’($
-%27javafx.scene.control.TextArea"__id*H
-
-__unknown_file (,**
-view.graphicalui.second.Home"
-screen™
-ß
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java’> ’(D
-%28java.lang.String"__id*"
-
-__unknown_file (
-""è
-å
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java’# ’(D
-%29java.lang.String"__concat*Å
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java’# ’(<
-link invitation asking *
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java’> ’(D
-
-%28java.lang.Stringê
-ç
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java’# ’(a
-%30java.lang.String"__concat*
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java’# ’(D
-
-%29java.lang.String*Ç
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java’G ’(a
- to join your groups\n\nú
-ô
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java’# ÷(:
-%31java.lang.String"__concat*
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java’# ’(a
-
-%30java.lang.String*é
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java÷ ÷(:(&
-$\u2022 Type one user's nickname.\n\n§
-°
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java’# ◊(B
-%32java.lang.String"__concat*
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java’# ÷(:
-
-%31java.lang.String*ñ
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java◊ ◊(B0.
-,\u2022 Type one or more groups of yours.\n\n 
-«
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java’# ÿ(h
-%33java.lang.String"__concat*
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java’# ◊(B
-
-%32java.lang.String*º
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaÿ ÿ(hVT
-R\u2022 Type 'link invitation' to make known chosen person about your groups.\n\n\n˛
-˚
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java’# Ÿ(
-%34java.lang.String"__concat*
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java’# ÿ(h
-
-%33java.lang.String*q
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.javaŸ Ÿ(	
-User:  ÷”
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java’ Ÿ(
-%35void"Ejavafx.scene.control.TextInputControl#appendText(Ljava/lang/String;)V*B
-
-__unknown_file (&
-$
-%27javafx.scene.control.TextArea*5
-
-__unknown_file (
-
-%34java.lang.String2appendText(Ljava/lang/String;)¬
-ø
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java⁄ ⁄(/
-%36(view.controllerui.second.KeyEventHandler"__id*"
-
-__unknown_file (
-""ËÂ
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java⁄ ⁄(%3
-%37,view.controllerui.second.HandlerStateMachine"hview.controllerui.second.KeyEventHandler#getStateMachine()Lview/controllerui/second/HandlerStateMachine;*M
-
-__unknown_file (1
-/
-%36(view.controllerui.second.KeyEventHandler2getStateMachine()á
-Ñ
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java⁄/ ⁄(Y<
-%385view.controllerui.second.handlerstates.StateSearchEnd"àview.controllerui.second.handlerstates.StateSearchEnd#getStateSearchEndInstance()Lview/controllerui/second/handlerstates/StateSearchEnd;*U
-
-__unknown_file (9"7
-5view.controllerui.second.handlerstates.StateSearchEnd’“
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java⁄ ⁄(Z
-%39void"nview.controllerui.second.HandlerStateMachine#setState(Lview/controllerui/second/handlerstates/AbstractState;)V*Q
-
-__unknown_file (5
-3
-%37,view.controllerui.second.HandlerStateMachine*Z
-
-__unknown_file (>
-<
-%385view.controllerui.second.handlerstates.StateSearchEnd2@setState(Lview/controllerui/second/handlerstates/AbstractState;)*
-0:Ü
-b
-V/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/Home.java¿ ¿(/ 
-searchTargetjava.lang.StringB 
-view.graphicalui.second.HomeH
+__unknown_file (6*4#
+!view.graphicalui.first.PageDialog"
+btnTypeSave"ê
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/PageDialog.javaI I( '
+%
+%0javafx.scene.control.ButtonTypeB%#
+!view.graphicalui.first.PageDialogH

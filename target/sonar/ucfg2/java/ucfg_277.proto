@@ -1,16 +1,18 @@
 
-nview.graphicalui.first.listviewitems.ListViewMeetingItems$JoinersInfo$ChoiceArea#getIndex()Ljava/lang/Integer;}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewMeetingItems.java8 8(#"1*¹
-1}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewMeetingItems.java9 9(¥¢
-}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewMeetingItems.java9 9(%	
-%0int"java.lang.Enum#ordinal()I*p
+9view.bean.observers.MeetingBean#getId()Ljava/lang/String;c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java! !("1*»
+1c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java" "(Ï
+Ì
+c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java" "(
+%0java.lang.String"__id*G
 
-__unknown_file (TR
-Pview.graphicalui.first.listviewitems.ListViewMeetingItems$JoinersInfo$ChoiceArea2	ordinal()"Œ
-}
-s/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/listviewitems/ListViewMeetingItems.java9 9(&
-	
-%0intBTR
-Pview.graphicalui.first.listviewitems.ListViewMeetingItems$JoinersInfo$ChoiceAreaH
+__unknown_file (+*)!
+view.bean.observers.MeetingBean"
+id"
+c
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/MeetingBean.java" "(
+
+%0java.lang.StringB#!
+view.bean.observers.MeetingBeanH

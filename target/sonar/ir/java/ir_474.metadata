@@ -1,1 +1,1 @@
-view.bean.ConcreteBeanError#<init>()V
+view.bean.observers.LinkRequestBean#getGroupNick()Ljava/lang/String;

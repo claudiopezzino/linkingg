@@ -1,19 +1,18 @@
 
--model.subjects.Group#members()Ljava/util/Map;X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaC C($"1*‘
-1X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaD D(¾
-»
-X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaD D(
-%0java.util.Map"__id*D
+`view.graphicalui.first.HomePage$UserProfileDialog#getLabelNickname()Ljavafx/scene/control/Label;e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaû û(%"1*ó
+1e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaü ü(ø
+õ
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaü ü(% 
+%0javafx.scene.control.Label"__id*d
 
-__unknown_file ((*&
-model.subjects.Group"
-
-mapMembers"q
-X
-N/Users/pain/eclipse-workspace/linkingg/src/main/java/model/subjects/Group.javaD D(
-
-%0java.util.MapB
-model.subjects.GroupH
+__unknown_file (H*F3
+1view.graphicalui.first.HomePage$UserProfileDialog"
+labelNickname"‹
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaü ü(&"
+ 
+%0javafx.scene.control.LabelB53
+1view.graphicalui.first.HomePage$UserProfileDialogH

@@ -1,527 +1,138 @@
 
-6view.bean.observers.GroupBean#update(Ljava/util/Map;)Vc
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaê ê("startingBlock*ﬁ
-2c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaß ß(Ø
-¨
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaß ß(-
-%30model.subjects.State"__id*"
-
-__unknown_file (
-""π∂
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaß ß(.
-%31boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*<
-
-__unknown_file ( 
-
-changemodel.subjects.State*9
-
-__unknown_file (
-
-%30model.subjects.State2equals(Ljava/lang/Object;)*
-0
-1*Ê
-3c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaü( ü(+´
-®
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaü0 ü(@
-%18java.lang.String"__id*"
-
-__unknown_file (
-""Á
-‰
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaü( ü(A
-%19V"__mapGet*2
-
-__unknown_file (
-
-mapjava.util.Map*5
-
-__unknown_file (
-
-%18java.lang.Stringµ
-≤
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaü ü(B
-	meetingIDjava.lang.String"__id*&
-
-__unknown_file (
-
-
-%19V’
-“
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java°4 °(>
-%20model.subjects.Group"__id*H
-
-__unknown_file (,**
-view.bean.observers.GroupBean"
-groupÅ˛
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java°4 °(O
-%21java.util.Map"4model.subjects.Group#plannedMeeting()Ljava/util/Map;*9
-
-__unknown_file (
-
-%20model.subjects.Group2plannedMeeting()Ç
-ˇ
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java°4 °(^
-%22model.subjects.Meeting"__mapGet*2
-
-__unknown_file (
-
-%21java.util.Map*;
-
-__unknown_file (
-
-	meetingIDjava.lang.Stringùö
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java°4 °(l#
-%23view.bean.observers.Observer"Bmodel.subjects.Subject#getObserver()Lview/bean/observers/Observer;*;
-
-__unknown_file (
-
-%22model.subjects.Meeting2getObserver()·
-ﬁ
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java° °(m.
-meetingBeanview.bean.observers.MeetingBean"__id*A
-
-__unknown_file (%
-#
-%23view.bean.observers.Observer‘
-—
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java¢ ¢(
-%24java.util.Map"__id*N
-
-__unknown_file (2*0
-view.bean.observers.GroupBean"
-mapMeetingsìê
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java¢! ¢(4
-%25java.lang.String"9view.bean.observers.MeetingBean#getId()Ljava/lang/String;*L
-
-__unknown_file (0
-.
-meetingBeanview.bean.observers.MeetingBean2getId()”
-–
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java¢ ¢(B&
-%26view.bean.observers.MeetingBean"__mapSet*2
-
-__unknown_file (
-
-%24java.util.Map*5
-
-__unknown_file (
-
-%25java.lang.String*L
-
-__unknown_file (0
-.
-meetingBeanview.bean.observers.MeetingBean‘
-—
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java§9 §(F
-%27java.lang.String"__id*K
-
-__unknown_file (/*-
-view.bean.observers.GroupBean"
-
-nicknameìê
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java§H §([
-%28java.lang.String"9view.bean.observers.MeetingBean#getId()Ljava/lang/String;*L
-
-__unknown_file (0
-.
-meetingBeanview.bean.observers.MeetingBean2getId()ë
-é
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java§ §(\
-%29void"aview.boundary.UserManageCommunityBoundary#notifyNewMeeting(Ljava/lang/String;Ljava/lang/String;)V*I
-
-__unknown_file (-"+
-)view.boundary.UserManageCommunityBoundary*5
-
-__unknown_file (
-
-%27java.lang.String*5
-
-__unknown_file (
-
-%28java.lang.String*
-0*ì
-startingBlockc
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaê ê(.„
-‡
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaè è(
-%44"
-__annotate*2
-
-__unknown_file (
-java.lang.Override*2
-
-__unknown_file (
-
-mapjava.util.Map±
-Æ
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaê* ê(-
-mapjava.util.Map"__annotation*#
-
-__unknown_file (
-
-%44*
-6*ﬁ
-4c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaù ù(Ø
-¨
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaù ù(,
-%16model.subjects.State"__id*"
-
-__unknown_file (
-""π∂
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaù ù(-
-%17boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*<
-
-__unknown_file ( 
-
-changemodel.subjects.State*9
-
-__unknown_file (
-
-%16model.subjects.State2equals(Ljava/lang/Object;)*
-2
-3*æ
-5c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaï' ï(*™
-ß
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaï/ ï(B
-%4java.lang.String"__id*"
-
-__unknown_file (
-""Â
-‚
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaï' ï(C
-%5V"__mapGet*2
-
-__unknown_file (
-
-mapjava.util.Map*4
-
-__unknown_file (
-
-%4java.lang.String≥
-∞
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaï ï(D
-userNickjava.lang.String"__id*%
-
-__unknown_file (	
-
-%5V‘
-—
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaó+ ó(5
-%6model.subjects.Group"__id*H
-
-__unknown_file (,**
-view.bean.observers.GroupBean"
-groupÒÓ
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaó+ ó(?
-%7java.util.Map"-model.subjects.Group#members()Ljava/util/Map;*8
-
-__unknown_file (
-
-%6model.subjects.Group2	members()¸
-˘
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaó+ ó(M
-%8model.subjects.User"__mapGet*1
-
-__unknown_file (
+ìmodel.db.dbqueries.UserDAOQueries#selectUserByNickname(Lmodel/db/dbconnection/PersistencyDB;Ljava/sql/Connection;Ljava/lang/String;)Ljava/util/Map;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java•& •(:"9*Ô
+4g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java≠ ≠(-"Ä
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java≠ ≠(-
 
-%7java.util.Map*:
+%6java.util.Map*ú
+5g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java¨ ¨(8À
+»
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java¨ ¨(8
+	resultSetjava.sql.ResultSet"__id*6
+
+__unknown_file (
+
+%5java.sql.ResultSet⁄
+◊
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java≠ ≠(,
+%6java.util.Map"Umodel.db.dbqueries.UserDAOQueries#unpackUserInfo(Ljava/sql/ResultSet;)Ljava/util/Map;*A
+
+__unknown_file (%"#
+!model.db.dbqueries.UserDAOQueries*=
+
+__unknown_file (!
+
+	resultSetjava.sql.ResultSet*
+4*ò
+6g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java¨ ¨()§°
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java¨ ¨(8
+%5java.sql.ResultSet"=java.sql.PreparedStatement#executeQuery()Ljava/sql/ResultSet;*M
+
+__unknown_file (1
+/
+preparedStatementjava.sql.PreparedStatement2executeQuery()*
+5*€
+7g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java© ™(R„
+‡
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java© ™(R/
+preparedStatementjava.sql.PreparedStatement"__id*>
+
+__unknown_file ("
+ 
+%3java.sql.PreparedStatementÅ˛
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java´ ´(4
+
+%4void":java.sql.PreparedStatement#setString(ILjava/lang/String;)V*M
+
+__unknown_file (1
+/
+preparedStatementjava.sql.PreparedStatement* 
+
+__unknown_file (2*:
 
 __unknown_file (
 
-userNickjava.lang.Stringòï
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaó+ ó(["
-%9view.bean.observers.Observer"Bmodel.subjects.Subject#getObserver()Lview/bean/observers/Observer;*7
-
-__unknown_file (
-
-%8model.subjects.User2getObserver()⁄
-◊
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaó ó(\(
-userBeanview.bean.observers.UserBean"__id*@
-
-__unknown_file ($
-"
-%9view.bean.observers.Observer”
-–
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaò ò(
-%10java.util.Map"__id*M
-
-__unknown_file (1*/
-view.bean.observers.GroupBean"
-
-mapMembersñì
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaò  ò(6
-%11java.lang.String"<view.bean.observers.UserBean#getNickname()Ljava/lang/String;*F
-
-__unknown_file (*
-(
-userBeanview.bean.observers.UserBean2getNickname() 
-«
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaò ò(A#
-%12view.bean.observers.UserBean"__mapSet*2
-
-__unknown_file (
-
-%10java.util.Map*5
-
-__unknown_file (
-
-%11java.lang.String*F
-
-__unknown_file (*
-(
-userBeanview.bean.observers.UserBean‘
-—
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaö= ö(J
-%13java.lang.String"__id*K
-
-__unknown_file (/*-
-view.bean.observers.GroupBean"
-
-nicknameñì
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaöL ö(b
-%14java.lang.String"<view.bean.observers.UserBean#getNickname()Ljava/lang/String;*F
-
-__unknown_file (*
-(
-userBeanview.bean.observers.UserBean2getNickname()ï
-í
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaö ö(c
-%15void"eview.boundary.UserManageCommunityBoundary#notifyNewGroupMember(Ljava/lang/String;Ljava/lang/String;)V*I
-
-__unknown_file (-"+
-)view.boundary.UserManageCommunityBoundary*5
-
-__unknown_file (
-
-%13java.lang.String*5
-
-__unknown_file (
-
-%14java.lang.String*
-0*É
-
-6c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaë ë(‘
-—
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaë ë(!
-%0model.subjects.Group"__id*H
-
-__unknown_file (,**
-view.bean.observers.GroupBean"
-groupÉÄ
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaë ë(-
-%1model.subjects.State"6model.subjects.Group#getChange()Lmodel/subjects/State;*8
-
-__unknown_file (
-
-%0model.subjects.Group2getChange()»
-≈
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaë ë(.
-changemodel.subjects.State"__id*8
-
-__unknown_file (
-
-%1model.subjects.StateÆ
+nicknamejava.lang.String2setString(ILjava/lang/String;)*
+6*ƒ
+8g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java©  ©(*Æ
 ´
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaì ì(&
-%2model.subjects.State"__id*"
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java©< ©(S
+%0java.lang.String"__id*"
 
 __unknown_file (
-""∑¥
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaì ì('
-%3boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*<
-
-__unknown_file ( 
-
-changemodel.subjects.State*8
-
-__unknown_file (
-
-%2model.subjects.State2equals(Ljava/lang/Object;)*
-4
-5*Å
-0 "z
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaØ Ø(
-implicit return*ó
-1c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java®, ®(/´
-®
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java®4 ®(T
-%32java.lang.String"__id*"
+""°
+û
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java™ ™(5	
+%1int"__id*"
 
 __unknown_file (
-""Á
-‰
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java®, ®(U
-%33V"__mapGet*2
+""°
+û
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java™7 ™(Q	
+%2int"__id*"
 
-__unknown_file (
-
-mapjava.util.Map*5
+__unknown_file (
+""◊‘
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java©  ™(R 
+%3java.sql.PreparedStatement"Vjava.sql.Connection#prepareStatement(Ljava/lang/String;II)Ljava/sql/PreparedStatement;*?
 
-__unknown_file (
-
-%32java.lang.Stringπ
-∂
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java® ®(V!
-userRequestIDjava.lang.String"__id*&
-
-__unknown_file (
+__unknown_file (#
+!
 
-
-%33V’
-“
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java™@ ™(J
-%34model.subjects.Group"__id*H
+connectionjava.sql.Connection*4
 
-__unknown_file (,**
-view.bean.observers.GroupBean"
-group˝˙
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java™@ ™(Y
-%35java.util.Map"2model.subjects.Group#linkRequests()Ljava/util/Map;*9
+__unknown_file (
+
+%0java.lang.String*'
 
-__unknown_file (
-
-%34model.subjects.Group2linkRequests()ä
-á
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java™@ ™(l!
-%36model.subjects.LinkRequest"__mapGet*2
+__unknown_file (
+	
+%1int*'
 
-__unknown_file (
-
-%35java.util.Map*?
+__unknown_file (
+	
+%2int2&prepareStatement(Ljava/lang/String;II)*
+7*ı
+9g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java¶. ¶(2«
+ƒ
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java¶ ¶(3/
+preparedStatementjava.sql.PreparedStatement"__id*"
 
-__unknown_file (#
-!
-userRequestIDjava.lang.String°û
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java™@ ™(z#
-%37view.bean.observers.Observer"Bmodel.subjects.Subject#getObserver()Lview/bean/observers/Observer;*?
+__unknown_file (
+""∑
+¥
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.javaß ß(#
+	resultSetjava.sql.ResultSet"__id*"
 
-__unknown_file (#
-!
-%36model.subjects.LinkRequest2getObserver()È
-Ê
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java™ ™({6
-linkRequestBean#view.bean.observers.LinkRequestBean"__id*A
-
-__unknown_file (%
-#
-%37view.bean.observers.Observerÿ
-’
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java´ ´( 
-%38java.util.Map"__id*R
-
-__unknown_file (6*4
-view.bean.observers.GroupBean"
-mapLinkRequests´®
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java´% ´(B
-%39java.lang.String"Cview.bean.observers.LinkRequestBean#getUserNick()Ljava/lang/String;*T
-
-__unknown_file (8
-6
-linkRequestBean#view.bean.observers.LinkRequestBean2getUserNick()ﬂ
-‹
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java´ ´(T*
-%40#view.bean.observers.LinkRequestBean"__mapSet*2
-
-__unknown_file (
-
-%38java.util.Map*5
-
-__unknown_file (
-
-%39java.lang.String*T
-
-__unknown_file (8
-6
-linkRequestBean#view.bean.observers.LinkRequestBean≠™
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java≠= ≠([
-%41java.lang.String"Dview.bean.observers.LinkRequestBean#getGroupNick()Ljava/lang/String;*T
-
-__unknown_file (8
-6
-linkRequestBean#view.bean.observers.LinkRequestBean2getGroupNick()´®
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java≠] ≠(z
-%42java.lang.String"Cview.bean.observers.LinkRequestBean#getUserNick()Ljava/lang/String;*T
-
-__unknown_file (8
-6
-linkRequestBean#view.bean.observers.LinkRequestBean2getUserNick()ï
-í
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.java≠ ≠({
-%43void"eview.boundary.UserManageCommunityBoundary#notifyNewLinkRequest(Ljava/lang/String;Ljava/lang/String;)V*I
-
-__unknown_file (-"+
-)view.boundary.UserManageCommunityBoundary*5
-
-__unknown_file (
-
-%41java.lang.String*5
-
-__unknown_file (
-
-%42java.lang.String*
-0:{
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/observers/GroupBean.javaê ê(-
-mapjava.util.MapB!
-view.bean.observers.GroupBeanH
+__unknown_file (
+""*
+8:î
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java•; •(L)
+db#model.db.dbconnection.PersistencyDB:å
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java•M •(c!
+
+connectionjava.sql.Connection:á
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/model/db/dbqueries/UserDAOQueries.java•d •(s
+nicknamejava.lang.StringB%"#
+!model.db.dbqueries.UserDAOQueriesH

@@ -1,1 +1,1 @@
-view.controllerui.second.KeyEventHandler#setUserManageCommunityBoundary(Lview/boundary/UserManageCommunityBoundary;)V
+view.bean.observers.UserBean#getName()Ljava/lang/String;

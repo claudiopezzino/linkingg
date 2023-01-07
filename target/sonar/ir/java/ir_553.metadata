@@ -1,1 +1,2 @@
-view.bean.observers.MeetingBean#getJoiners()Ljava/util/Map;
+view.graphicalui.second.signinquestionstates.QuestionEnd#display()V
+view.graphicalui.second.Signin#getSigninInstance()Lview/graphicalui/second/Signin;

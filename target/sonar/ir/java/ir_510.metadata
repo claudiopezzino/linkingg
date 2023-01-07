@@ -1,1 +1,7 @@
-view.controllerui.second.handlerstates.StateMembersRemoval#instance-init#
+view.graphicalui.second.Signin#<init>()V
+java.util.ArrayList#<init>()V
+view.graphicalui.second.Signin#setUpSigninRoot()Ljavafx/scene/layout/VBox;
+javafx.scene.text.Text#instance-init#
+view.graphicalui.second.signinquestionstates.QuestionNickname#getQuestionNicknameInstance()Lview/graphicalui/second/signinquestionstates/QuestionNickname;
+java.util.ArrayList#instance-init#
+javafx.scene.text.Text#<init>(Ljava/lang/String;)V

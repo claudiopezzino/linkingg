@@ -1,3 +1,2 @@
-view.bean.UserBeanCollector#getUserBeanInstance(Ljava/lang/String;)Lview/bean/observers/UserBean;
-view.bean.NoUserBeanException#<init>()V
-view.bean.NoUserBeanException#instance-init#
+view.graphicalui.first.MeetingPage#<init>(Lview/graphicalui/first/Toolbar;)V
+view.graphicalui.first.MeetingPage#setUpMeetingPage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;

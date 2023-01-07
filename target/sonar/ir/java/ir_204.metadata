@@ -1,3 +1,2 @@
-view.graphicalui.second.Home#initGroupMembers()V
-java.util.ArrayList#<init>()V
-java.util.ArrayList#instance-init#
+view.graphicalui.second.meetingquestionstates.QuestionBudget#next(Lview/graphicalui/second/QuestionStateMachine;)V
+view.graphicalui.second.meetingquestionstates.QuestionTime#getQuestionTimeInstance()Lview/graphicalui/second/meetingquestionstates/QuestionTime;

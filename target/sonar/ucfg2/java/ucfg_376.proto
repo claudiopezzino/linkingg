@@ -1,18 +1,144 @@
 
-Eview.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;f
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/SecondMain.java@ @($"1*œ
-1f
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/SecondMain.javaA A(⁄
-◊
-f
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/SecondMain.javaA A(
-%0javafx.scene.Scene"__id*M
+[control.ManageCommunityController#fetchGroupMember(Ljava/lang/String;)Lmodel/subjects/User;e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java' '(!"7*º
+2e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java1 1([ 
+«
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java1 1(["
+groupMembermodel.subjects.User"__id*4
 
-__unknown_file (1*/$
-"view.graphicalui.second.SecondMain"
-scene"Ñ
-f
-\/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/second/SecondMain.javaA A(
+__unknown_file (
+
+%8java.lang.Object*
+1*»
+6e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java1! 1((®
+•
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java1F 1(Z
+%7model.Filter"__id*"
 
-%0javafx.scene.SceneB&"$
-"view.graphicalui.second.SecondMainH
+__unknown_file (
+""´®
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java1! 1([
+%8java.lang.Object"Mmodel.dao.BaseDAO#readEntity(Ljava/util/Map;Lmodel/Filter;)Ljava/lang/Object;*:
+
+__unknown_file (
+
+baseDAOmodel.dao.BaseDAO*?
+
+__unknown_file (#
+!
+mapNewMemberInfojava.util.Map*0
+
+__unknown_file (
+
+%7model.Filter2)readEntity(Ljava/util/Map;Lmodel/Filter;)*
+2*Í
+7e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java(/ ((>ñì
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java(3 ((<
+%0java.util.HashMap"java.util.HashMapƒ
+¡
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java(/ ((>
+%1"java.util.HashMap#<init>()V*5
+
+__unknown_file (
+
+%0java.util.HashMap 
+«
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java( ((?!
+mapNewMemberInfojava.util.Map"__id*5
+
+__unknown_file (
+
+%0java.util.HashMap¨
+©
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java) )(0
+%2java.lang.String"__id*"
+
+__unknown_file (
+""ø
+º
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java) )(;
+%3java.lang.String"__mapSet*?
+
+__unknown_file (#
+!
+mapNewMemberInfojava.util.Map*4
+
+__unknown_file (
+
+%2java.lang.String*:
+
+__unknown_file (
+
+userNickjava.lang.String∏
+µ
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java+ +("
+groupMembermodel.subjects.User"__id*"
+
+__unknown_file (
+""ˇ
+¸
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java-  -(A
+%4model.dao.FactoryDAO"Amodel.dao.FactoryDAO#getSingletonInstance()Lmodel/dao/FactoryDAO;*4
+
+__unknown_file ("
+model.dao.FactoryDAOŒ
+À
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java- -(B"
+
+factoryDAOmodel.dao.FactoryDAO"__id*8
+
+__unknown_file (
+
+%4model.dao.FactoryDAO©
+¶
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java// /(7
+%5model.dao.DAO"__id*"
+
+__unknown_file (
+""ÿ’
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java/ /(8
+%6model.dao.BaseDAO"Bmodel.dao.FactoryDAO#createDAO(Lmodel/dao/DAO;)Lmodel/dao/BaseDAO;*@
+
+__unknown_file ($
+"
+
+factoryDAOmodel.dao.FactoryDAO*1
+
+__unknown_file (
+
+%5model.dao.DAO2createDAO(Lmodel/dao/DAO;)≈
+¬
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java/ /(9
+baseDAOmodel.dao.BaseDAO"__id*5
+
+__unknown_file (
+
+%6model.dao.BaseDAO*
+6*˙
+1e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java6 6("ç
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java6 6($
+"
+groupMembermodel.subjects.User:Ö
+e
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java'" '(1
+userNickjava.lang.StringB%#
+!control.ManageCommunityController

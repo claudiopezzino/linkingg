@@ -1,1 +1,1 @@
-view.graphicalui.first.SignupPage#instance-init#
+view.bean.observers.MeetingBean#getTime()Ljava/lang/String;

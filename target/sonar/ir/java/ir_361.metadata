@@ -1,1 +1,4 @@
-view.bean.errorsignupdecorations.AddressBeanErrorDecorator#<init>(Lview/bean/BeanError;)V
+view.controllerui.second.handlerstates.StateMeetingJoinersView#checkCmd(Lview/graphicalui/second/Home;)V
+view.controllerui.second.Message#errorMsg()V
+javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z

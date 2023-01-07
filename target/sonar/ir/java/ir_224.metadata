@@ -1,2 +1,2 @@
-view.graphicalui.second.signupquestionstates.QuestionAddress#display()V
-view.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;
+view.graphicalui.second.SecondMain#main([Ljava/lang/String;)V
+javafx.application.Application#launch([Ljava/lang/String;)V

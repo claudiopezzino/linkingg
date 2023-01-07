@@ -1,2 +1,1 @@
-model.db.dbconnection.PersistencyDB#<init>()V
-model.db.dbconnection.PersistencyDB#fetchDBConfigProperties()V
+view.controllerui.second.handlerstates.StateGroupRequest#instance-init#

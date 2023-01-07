@@ -1,1 +1,1 @@
-view.graphicalui.first.PageDialog#getBtnTypeDismiss()Ljavafx/scene/control/ButtonType;
+model.subjects.Group#nickname()Ljava/lang/String;

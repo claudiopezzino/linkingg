@@ -1,2 +1,1 @@
-view.graphicalui.first.listviewitems.ListViewGroupItems#getIndex()Ljava/lang/Integer;
-java.lang.Enum#ordinal()I
+view.graphicalui.second.signupquestionstates.QuestionMail#<init>()V

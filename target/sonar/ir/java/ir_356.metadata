@@ -1,1 +1,2 @@
-view.graphicalui.second.Shell#getScreen()Ljavafx/scene/control/TextArea;
+view.graphicalui.second.signupquestionstates.QuestionEnd#display()V
+view.graphicalui.second.Signup#getSignupInstance()Lview/graphicalui/second/Signup;

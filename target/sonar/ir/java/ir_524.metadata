@@ -1,2 +1,4 @@
-view.graphicalui.second.passwordquestionstates.QuestionEnd#display()V
-view.graphicalui.second.Home#getHomeInstance()Lview/graphicalui/second/Home;
+control.UserLoginController#makeUserCredentials(Ljava/lang/String;Ljava/lang/String;)Ljavafx/util/Pair;
+javafx.util.Pair#<init>(Ljava/lang/Object;Ljava/lang/Object;)V
+javafx.util.Pair#instance-init#
+java.lang.String#toLowerCase()Ljava/lang/String;

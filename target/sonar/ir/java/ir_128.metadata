@@ -1,1 +1,1 @@
-view.bean.observers.GroupBean#getName()Ljava/lang/String;
+view.graphicalui.second.Home#getCurrUserPassword()Ljava/lang/String;

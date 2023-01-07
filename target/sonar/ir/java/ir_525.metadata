@@ -1,1 +1,2 @@
-view.graphicalui.second.passwordquestionstates.QuestionEnd#<init>()V
+control.UserLoginController#changeUserCredentials(Ljava/util/Map;I)V
+java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;

@@ -1,1 +1,3 @@
-view.graphicalui.second.DefaultCommands#<init>()V
+view.controllerui.second.handlerstates.StateMeetingProposal#getStateMeetingProposalInstance()Lview/controllerui/second/handlerstates/StateMeetingProposal;
+view.controllerui.second.handlerstates.StateMeetingProposal#<init>()V
+view.controllerui.second.handlerstates.StateMeetingProposal#instance-init#

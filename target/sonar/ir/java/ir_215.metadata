@@ -1,1 +1,1 @@
-view.graphicalui.second.Home#setListOwnMeetings(Ljava/util/List;)V
+view.graphicalui.second.Shell#getShellHandler()Lview/controllerui/second/KeyEventHandler;

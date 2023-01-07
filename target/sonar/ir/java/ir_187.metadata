@@ -1,1 +1,2 @@
-view.graphicalui.second.Home#displayQuestion()V
+view.graphicalui.first.toolbardecorations.SignBarDecorator#draw()Ljavafx/scene/control/ToolBar;
+javafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;

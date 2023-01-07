@@ -1,4 +1,2 @@
-view.boundary.UserManageCommunityBoundary#notifyNewLinkRequest(Ljava/lang/String;Ljava/lang/String;)V
-view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;
-javafx.application.Platform#runLater(Ljava/lang/Runnable;)V
-view.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;
+view.graphicalui.second.Home#saveGroupNickname(Ljava/lang/String;)V
+view.controllerui.second.handlerstates.StateGroupCreationEnd#getStateGroupCreationEndInstance()Lview/controllerui/second/handlerstates/StateGroupCreationEnd;

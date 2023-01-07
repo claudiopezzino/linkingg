@@ -1,1 +1,1 @@
-view.graphicalui.first.SignupPage#getTextFieldCell()Ljavafx/scene/control/TextField;
+view.bean.observers.MeetingBean#setTime(Ljava/lang/String;)V

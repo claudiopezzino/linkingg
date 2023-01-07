@@ -1,13 +1,4 @@
-view.graphicalui.first.toolbardecorations.SocialBarDecorator#setUpSocialBar()V
-java.util.ArrayList#<init>()V
-javafx.scene.control.Labeled#setGraphic(Ljavafx/scene/Node;)V
-javafx.scene.control.Separator#instance-init#
-javafx.scene.image.ImageView#<init>(Ljava/lang/String;)V
-javafx.scene.control.Separator#<init>()V
-javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;
-java.util.ArrayList#instance-init#
-javafx.scene.image.ImageView#instance-init#
-javafx.scene.control.Button#<init>()V
-javafx.scene.layout.HBox#<init>([Ljavafx/scene/Node;)V
-javafx.scene.control.Button#instance-init#
-javafx.scene.layout.HBox#instance-init#
+model.dao.GroupDAO#fetchGroupOwner(Ljava/lang/String;)Lmodel/subjects/User;
+java.util.HashMap#<init>()V
+java.util.HashMap#instance-init#
+model.dao.FactoryDAO#getSingletonInstance()Lmodel/dao/FactoryDAO;

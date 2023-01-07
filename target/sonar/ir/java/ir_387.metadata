@@ -1,4 +1,3 @@
-view.graphicalui.second.Welcome#<init>()V
-javafx.scene.text.Text#instance-init#
-view.graphicalui.second.Welcome#setUpWelcomeRoot()Ljavafx/scene/layout/VBox;
-javafx.scene.text.Text#<init>(Ljava/lang/String;)V
+control.ManageCommunityController#turnIntoGroupFilteredBean(Lmodel/subjects/Group;)Lview/bean/GroupFilteredBean;
+view.bean.GroupFilteredBean#<init>()V
+view.bean.GroupFilteredBean#instance-init#

@@ -1,41 +1,308 @@
 
-@view.graphicalui.first.SignupPage#getAccount()Ljava/lang/String;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¤ ¤("1*¼
+{view.controllerui.first.HomePageEventHandler#updateGroupMemberNick(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Vr
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÅ Å(%"10*Ï
+3r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÌ Ì(¾
+»
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÌ Ì(
+memberjavafx.scene.Node"__id*"
+
+__unknown_file (
+""Œ
+‰
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÌ Ì(
+memberjavafx.scene.Node"
+__arrayGet*F
+
+__unknown_file (*
+(
+%11!javafx.collections.ObservableList*"
+
+__unknown_file (
+""*
+5
+0*—
+4r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÑ Ñ('±
+®
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÑ0 Ñ(A
+%16java.lang.String"__concat*{
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÑ0 Ñ(3
+@*—
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÑ6 Ñ(A!
+
+newUserNickjava.lang.Stringäá
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÑ Ñ(B
+%17void"9javafx.scene.control.Labeled#setText(Ljava/lang/String;)V*O
+
+__unknown_file (3
+1
+hyperlinkMemberjavafx.scene.control.Hyperlink*5
+
+__unknown_file (
+
+%16java.lang.String2setText(Ljava/lang/String;)*
+0*ë
+5r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÍ< Í(Bë
+è
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÍ Í(C1
+hyperlinkMemberjavafx.scene.control.Hyperlink"__id*9
+
+__unknown_file (
+
+memberjavafx.scene.Node¦£
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÎ. Î(G
+%12java.lang.String"8javafx.scene.control.Labeled#getText()Ljava/lang/String;*O
+
+__unknown_file (3
+1
+hyperlinkMemberjavafx.scene.control.Hyperlink2	getText()ÆÃ
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÎ. Î(R
+%13java.lang.String[]"=java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;*5
+
+__unknown_file (
+
+%12java.lang.String*!
+
+__unknown_file (
+@2split(Ljava/lang/String;)Ü
+Ù
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÎ Î(S$
+hyperLinkElemsjava.lang.String[]"__id*7
+
+__unknown_file (
+
+%13java.lang.String[]‚
+ÿ
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÏ( Ï(9
+%14java.lang.String"
+__arrayGet*B
+
+__unknown_file (&
+$
+hyperLinkElemsjava.lang.String[]* 
+
+__unknown_file (2Ô
+Ñ
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÏ Ï(:
 
-1g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¥7 ¥(;õ
-ò
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¥7 ¥(N&
-%0 javafx.scene.control.ToggleGroup"__id*Y
+memberNickjava.lang.String"__id*5
 
-__unknown_file (=*;#
-!view.graphicalui.first.SignupPage"
-toggleGroupAccount½º
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¥7 ¥(b!
-%1javafx.scene.control.Toggle"Qjavafx.scene.control.ToggleGroup#getSelectedToggle()Ljavafx/scene/control/Toggle;*D
+__unknown_file (
+
+%14java.lang.StringÎË
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÐ Ð(5
+%15boolean",java.lang.String#equals(Ljava/lang/Object;)Z*<
 
-__unknown_file ((
-&
-%0 javafx.scene.control.ToggleGroup2getSelectedToggle()ì
+__unknown_file ( 
+
+
+memberNickjava.lang.String*=
+
+__unknown_file (!
+
+oldUserNickjava.lang.String2equals(Ljava/lang/Object;)*
+3
+4*É
+6r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÌ" Ì(1ÊÇ
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÌ" Ì(?(
+%11!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*M
+
+__unknown_file (1
+/
+flowPaneMembersjavafx.scene.layout.FlowPane2getChildren()*
+3*ž
+7r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÊ. Ê(7¿¼
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÊ. Ê(E'
+%3!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*C
+
+__unknown_file ('
+%
+	vBoxGroupjavafx.scene.layout.VBox2getChildren()à
+Ý
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÊJ Ê(V=
+%47view.graphicalui.first.listviewitems.ListViewGroupItems"__id*"
+
+__unknown_file (
+""ÐÍ
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÊJ Ê(a
+%5java.lang.Integer"Uview.graphicalui.first.listviewitems.ListViewGroupItems#getIndex()Ljava/lang/Integer;*[
+
+__unknown_file (?
+=
+%47view.graphicalui.first.listviewitems.ListViewGroupItems2
+getIndex()š
+—
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÊ. Ê(b
+%6javafx.scene.Node"
+__arrayGet*E
+
+__unknown_file ()
+'
+%3!javafx.collections.ObservableList*5
+
+__unknown_file (
+
+%5java.lang.Integerá
+Þ
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÊ Ê(c+
+vBoxMembersInfojavafx.scene.layout.VBox"__id*5
+
+__unknown_file (
+
+%6javafx.scene.NodeÅÂ
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaË6 Ë(S'
+%7!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*I
+
+__unknown_file (-
++
+vBoxMembersInfojavafx.scene.layout.VBox2getChildren()ì
 é
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¥ ¥(c7
-selectedRadioButton javafx.scene.control.RadioButton"__id*?
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaËX Ë(iI
+%8Cview.graphicalui.first.listviewitems.ListViewGroupItems$MembersInfo"__id*"
+
+__unknown_file (
+""èå
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaËX Ë(t
+%9java.lang.Integer"aview.graphicalui.first.listviewitems.ListViewGroupItems$MembersInfo#getIndex()Ljava/lang/Integer;*g
+
+__unknown_file (K
+I
+%8Cview.graphicalui.first.listviewitems.ListViewGroupItems$MembersInfo2
+getIndex()›
+˜
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaË6 Ë(u
+%10javafx.scene.Node"
+__arrayGet*E
+
+__unknown_file ()
+'
+%7!javafx.collections.ObservableList*5
+
+__unknown_file (
+
+%9java.lang.Integeræ
+ã
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaË Ë(v/
+flowPaneMembersjavafx.scene.layout.FlowPane"__id*6
+
+__unknown_file (
+
+%10javafx.scene.Node*
+6*»
+8r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÈ# È('
+Œ
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÈ# È(C
+%1java.lang.String"kview.controllerui.first.HomePageEventHandler#getCurrGroupNick(Ljavafx/scene/layout/VBox;)Ljava/lang/String;*L
+
+__unknown_file (0.
+,view.controllerui.first.HomePageEventHandler*C
+
+__unknown_file ('
+%
+	vBoxGroupjavafx.scene.layout.VBoxÖ
+Ó
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÈ È(D!
+currGroupNickjava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.StringÎË
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÉ É(.
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*?
 
 __unknown_file (#
 !
-%1javafx.scene.control.Toggle 
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¦ ¦(,
-%2java.lang.String"8javafx.scene.control.Labeled#getText()Ljava/lang/String;*U
+currGroupNickjava.lang.String*;
 
-__unknown_file (9
-7
-selectedRadioButton javafx.scene.control.RadioButton2	getText()"ƒ
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/SignupPage.java¦ ¦(-
-
-%2java.lang.StringB%#
-!view.graphicalui.first.SignupPageH
+__unknown_file (
+
+	groupNickjava.lang.String2equals(Ljava/lang/Object;)*
+7
+1*Ñ
+10r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÆ4 Æ(8Ï
+Ì
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÆ4 Æ(H'
+%0!javafx.collections.ObservableList"_view.controllerui.first.HomePageEventHandler#getListGroups()Ljavafx/collections/ObservableList;*L
+
+__unknown_file (0.
+,view.controllerui.first.HomePageEventHandlerÿ
+ü
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÆ Æ(I9
+observableListGroups!javafx.collections.ObservableList"__id*E
+
+__unknown_file ()
+'
+%0!javafx.collections.ObservableList*
+1*‘
+0 "‰
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaØ Ø(
+implicit return*ô
+1r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÇ Ç(È
+Å
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÇ Ç(%
+	vBoxGroupjavafx.scene.layout.VBox"__id*"
+
+__unknown_file (
+""§
+¤
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÇ Ç(%
+	vBoxGroupjavafx.scene.layout.VBox"
+__arrayGet*W
+
+__unknown_file (;
+9
+observableListGroups!javafx.collections.ObservableList*"
+
+__unknown_file (
+""*
+8
+0:“
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÅ& Å(7
+	groupNickjava.lang.String:•
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÅ8 Å(K
+oldUserNickjava.lang.String:•
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaÅL Å(^
+newUserNickjava.lang.StringB0.
+,view.controllerui.first.HomePageEventHandlerH

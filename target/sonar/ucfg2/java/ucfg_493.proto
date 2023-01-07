@@ -1,16 +1,213 @@
 
-=view.bean.ConcreteBeanError#displayErrors()Ljava/lang/String;_
-U/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/ConcreteBeanError.java ("1*ﬂ
-1_
-U/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/ConcreteBeanError.java (˚¯
-_
-U/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/ConcreteBeanError.java ( 
-%0java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*;
+kview.graphicalui.first.HomePage$UserProfileDialog$PasswordDialog#setUpPopUpRoot()Ljavafx/scene/layout/VBox;e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¿ ¿()"1*“6
+1e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¬  ¬(*§°
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¬$ ¬((
+%0javafx.scene.layout.VBox"javafx.scene.layout.VBox“
+œ
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¬  ¬(*
+%1""javafx.scene.layout.VBox#<init>()V*<
 
-__unknown_file (
-view.bean.ConcreteBeanError2getMessage()"{
-_
-U/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/ConcreteBeanError.java (!
+__unknown_file ( 
+
+%0javafx.scene.layout.VBox‘
+—
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¬ ¬(+$
+vBoxRootjavafx.scene.layout.VBox"__id*<
+
+__unknown_file ( 
+
+%0javafx.scene.layout.VBoxÆ´
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java√ √(('
+%2!javafx.collections.ObservableList"Djavafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;*B
+
+__unknown_file (&
+$
+vBoxRootjavafx.scene.layout.VBox2getStyleClass()¨
+©
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java√0 √(4
+%3java.lang.String"__id*"
+
+__unknown_file (
+""¨
+©
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java√6 √(:
+%4java.lang.String"__id*"
+
+__unknown_file (
+""âÜ
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java√ √(;
+%5boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z*E
+
+__unknown_file ()
+'
+%2!javafx.collections.ObservableList*4
+
+__unknown_file (
 
-%0java.lang.StringB
-view.bean.ConcreteBeanErrorH
+%3java.lang.String*4
+
+__unknown_file (
+
+%4java.lang.String2addAll([Ljava/lang/Object;)∏µ
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java≈, ≈(9(
+%6"javafx.scene.control.PasswordField""javafx.scene.control.PasswordFieldÊ
+„
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java≈( ≈(;
+%7",javafx.scene.control.PasswordField#<init>()V*F
+
+__unknown_file (*
+(
+%6"javafx.scene.control.PasswordFieldó
+î
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java≈ ≈(;]B
+@view.graphicalui.first.HomePage$UserProfileDialog$PasswordDialog"
+textFieldCurrPassword"__id*F
+
+__unknown_file (*
+(
+%6"javafx.scene.control.PasswordFieldì
+ê
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java∆ ∆(%$
+%8javafx.scene.control.TextField"__id*{
+
+__unknown_file (_*]B
+@view.graphicalui.first.HomePage$UserProfileDialog$PasswordDialog"
+textFieldCurrPasswordŸ÷
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java∆ ∆(G
+
+%9void"Hjavafx.scene.control.TextInputControl#setPromptText(Ljava/lang/String;)V*B
+
+__unknown_file (&
+$
+%8javafx.scene.control.TextField*0
+
+__unknown_file (
+Current password2!setPromptText(Ljava/lang/String;)π∂
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java»+ »(8)
+%10"javafx.scene.control.PasswordField""javafx.scene.control.PasswordFieldË
+Â
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java»' »(:
+%11",javafx.scene.control.PasswordField#<init>()V*G
+
+__unknown_file (+
+)
+%10"javafx.scene.control.PasswordFieldó
+î
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java» »(:\B
+@view.graphicalui.first.HomePage$UserProfileDialog$PasswordDialog"
+textFieldNewPassword"__id*G
+
+__unknown_file (+
+)
+%10"javafx.scene.control.PasswordFieldì
+ê
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java… …($%
+%12javafx.scene.control.TextField"__id*z
+
+__unknown_file (^*\B
+@view.graphicalui.first.HomePage$UserProfileDialog$PasswordDialog"
+textFieldNewPassword◊‘
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java… …(B
+%13void"Hjavafx.scene.control.TextInputControl#setPromptText(Ljava/lang/String;)V*C
+
+__unknown_file ('
+%
+%12javafx.scene.control.TextField*,
+
+__unknown_file (
+New password2!setPromptText(Ljava/lang/String;)π∂
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÀ< À(I)
+%14"javafx.scene.control.PasswordField""javafx.scene.control.PasswordFieldË
+Â
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÀ8 À(K
+%15",javafx.scene.control.PasswordField#<init>()V*G
+
+__unknown_file (+
+)
+%14"javafx.scene.control.PasswordField¯
+ı
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÀ À(L=
+textFieldConfirmNewPasswordjavafx.scene.control.TextField"__id*G
+
+__unknown_file (+
+)
+%14"javafx.scene.control.PasswordField˜Ù
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaÃ Ã(Q
+%16void"Hjavafx.scene.control.TextInputControl#setPromptText(Ljava/lang/String;)V*[
+
+__unknown_file (?
+=
+textFieldConfirmNewPasswordjavafx.scene.control.TextField*4
+
+__unknown_file (
+Confirm new password2!setPromptText(Ljava/lang/String;)≤Ø
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaŒ Œ(&(
+%17!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*B
+
+__unknown_file (&
+$
+vBoxRootjavafx.scene.layout.VBox2getChildren()î
+ë
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaŒ. Œ(C%
+%18javafx.scene.control.TextField"__id*{
+
+__unknown_file (_*]B
+@view.graphicalui.first.HomePage$UserProfileDialog$PasswordDialog"
+textFieldCurrPasswordì
+ê
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaŒE Œ(Y%
+%19javafx.scene.control.TextField"__id*z
+
+__unknown_file (^*\B
+@view.graphicalui.first.HomePage$UserProfileDialog$PasswordDialog"
+textFieldNewPasswordÜÉ
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.javaŒ Œ(w
+%20boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z*F
+
+__unknown_file (*
+(
+%17!javafx.collections.ObservableList*C
+
+__unknown_file ('
+%
+%18javafx.scene.control.TextField*C
+
+__unknown_file ('
+%
+%19javafx.scene.control.TextField*[
+
+__unknown_file (?
+=
+textFieldConfirmNewPasswordjavafx.scene.control.TextField2addAll([Ljava/lang/Object;)"è
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java– –( &
+$
+vBoxRootjavafx.scene.layout.VBoxBDB
+@view.graphicalui.first.HomePage$UserProfileDialog$PasswordDialog

@@ -1,2 +1,1 @@
-view.graphicalui.first.toolbaritems.WelcomeToolbarItems#getIndex()Ljava/lang/Integer;
-java.lang.Enum#ordinal()I
+view.bean.NoUserBeanException#instance-init#

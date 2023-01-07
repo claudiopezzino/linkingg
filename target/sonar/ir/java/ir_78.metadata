@@ -1,3 +1,1 @@
-view.boundary.UserManageCommunityBoundary#createGroup(Lview/bean/GroupCreationBean;)V
-control.ManageCommunityController#instance-init#
-control.ManageCommunityController#<init>()V
+view.graphicalui.second.Home#revertToOldPassword()V

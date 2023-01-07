@@ -1,67 +1,383 @@
 
-cview.graphicalui.first.toolbardecorations.GroupButtonDecorator#draw()Ljavafx/scene/control/ToolBar;Ç
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java+ +("1*Ô
-1Ç
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java, ,(™
-ß
-Ç
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java, ,(&"
-%0javafx.scene.control.ToolBar"Xview.graphicalui.first.toolbardecorations.Decorator#draw()Ljavafx/scene/control/ToolBar;*"
+view.controllerui.first.HomePageEventHandler#updateMeetingJoinersList(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Vr
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaö ö(("7*´
+2r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java™2 ™(9æª
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java™2 ™(G(
+%17!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*A
+
+__unknown_file (%
+#
+meetingjavafx.scene.layout.HBox2getChildren()„
+‡
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java™L ™(X@
+%189view.graphicalui.first.listviewitems.ListViewMeetingItems"__id*"
 
 __unknown_file (
-""˘
-ˆ
-Ç
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java, ,(''
-toolBarjavafx.scene.control.ToolBar"__id*@
+""÷”
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java™L ™(c
+%19java.lang.Integer"Wview.graphicalui.first.listviewitems.ListViewMeetingItems#getIndex()Ljava/lang/Integer;*^
 
-__unknown_file ($
-"
-%0javafx.scene.control.ToolBar–Õ
-Ç
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java- -('
-%1!javafx.collections.ObservableList"Jjavafx.scene.control.ToolBar#getItems()Ljavafx/collections/ObservableList;*E
+__unknown_file (B
+@
+%189view.graphicalui.first.listviewitems.ListViewMeetingItems2
+getIndex()ù
+ö
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java™2 ™(d
+%20javafx.scene.Node"
+__arrayGet*F
+
+__unknown_file (*
+(
+%17!javafx.collections.ObservableList*6
+
+__unknown_file (
+
+%19java.lang.Integer‚
+ﬂ
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java™ ™(e+
+vBoxJoinersInfojavafx.scene.layout.VBox"__id*6
+
+__unknown_file (
+
+%20javafx.scene.Node∆√
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java´: ´(W(
+%21!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*I
+
+__unknown_file (-
++
+vBoxJoinersInfojavafx.scene.layout.VBox2getChildren()Ô
+Ï
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java´\ ´(mL
+%22Eview.graphicalui.first.listviewitems.ListViewMeetingItems$JoinersInfo"__id*"
+
+__unknown_file (
+""ÓÎ
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java´\ ´(x
+%23java.lang.Integer"cview.graphicalui.first.listviewitems.ListViewMeetingItems$JoinersInfo#getIndex()Ljava/lang/Integer;*j
+
+__unknown_file (N
+L
+%22Eview.graphicalui.first.listviewitems.ListViewMeetingItems$JoinersInfo2
+getIndex()ù
+ö
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java´: ´(y
+%24javafx.scene.Node"
+__arrayGet*F
+
+__unknown_file (*
+(
+%21!javafx.collections.ObservableList*6
+
+__unknown_file (
+
+%23java.lang.IntegerÊ
+„
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java´ ´(z/
+flowPaneJoinersjavafx.scene.layout.FlowPane"__id*6
+
+__unknown_file (
+
+%24javafx.scene.NodeÚ
+Ô
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java¨ ¨(J
+%25void"mview.controllerui.first.HomePageEventHandler#makeDecision(Ljava/lang/String;ZLjavafx/scene/layout/FlowPane;)V*L
+
+__unknown_file (0.
+,view.controllerui.first.HomePageEventHandler*<
+
+__unknown_file ( 
+
+
+joinerNickjava.lang.String*"
+
+__unknown_file (
+""*M
+
+__unknown_file (1
+/
+flowPaneJoinersjavafx.scene.layout.FlowPane*
+0*≥$
+3r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java§. §(5Ω∫
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java§. §(C'
+%5!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*A
+
+__unknown_file (%
+#
+meetingjavafx.scene.layout.HBox2getChildren()‚
+ﬂ
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java§H §(T?
+%69view.graphicalui.first.listviewitems.ListViewMeetingItems"__id*"
+
+__unknown_file (
+""‘—
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java§H §(_
+%7java.lang.Integer"Wview.graphicalui.first.listviewitems.ListViewMeetingItems#getIndex()Ljava/lang/Integer;*]
+
+__unknown_file (A
+?
+%69view.graphicalui.first.listviewitems.ListViewMeetingItems2
+getIndex()ö
+ó
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java§. §(`
+%8javafx.scene.Node"
+__arrayGet*E
 
 __unknown_file ()
 '
-toolBarjavafx.scene.control.ToolBar2
-getItems()¢
-ü
-Ç
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java-" -(-!
-%2javafx.scene.control.Button"__id*o
+%5!javafx.collections.ObservableList*5
 
-__unknown_file (S*Q@
->view.graphicalui.first.toolbardecorations.GroupButtonDecorator"
-btnNewGroupŒÀ
-Ç
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java-3 -(<$
-%3javafx.scene.control.Separator"javafx.scene.control.Separator¸
-˘
-Ç
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java-/ -(>
-%4"(javafx.scene.control.Separator#<init>()V*B
+__unknown_file (
+
+%7java.lang.Integer·
+ﬁ
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java§ §(a+
+vBoxMeetingInfojavafx.scene.layout.VBox"__id*5
 
-__unknown_file (&
-$
-%3javafx.scene.control.Separator¿Ω
-Ç
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java- -(?
-%5boolean">javafx.collections.ObservableList#addAll([Ljava/lang/Object;)Z*E
+__unknown_file (
+
+%8javafx.scene.Node≈¬
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java•/ •(L'
+%9!javafx.collections.ObservableList"Ijavafx.scene.layout.Pane#getChildren()Ljavafx/collections/ObservableList;*I
+
+__unknown_file (-
++
+vBoxMeetingInfojavafx.scene.layout.VBox2getChildren()Ô
+Ï
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java•Q •(aL
+%10Eview.graphicalui.first.listviewitems.ListViewMeetingItems$MeetingInfo"__id*"
+
+__unknown_file (
+""ÓÎ
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java•Q •(l
+%11java.lang.Integer"cview.graphicalui.first.listviewitems.ListViewMeetingItems$MeetingInfo#getIndex()Ljava/lang/Integer;*j
+
+__unknown_file (N
+L
+%10Eview.graphicalui.first.listviewitems.ListViewMeetingItems$MeetingInfo2
+getIndex()ú
+ô
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java•/ •(m
+%12javafx.scene.Node"
+__arrayGet*E
 
 __unknown_file ()
 '
-%1!javafx.collections.ObservableList*?
+%9!javafx.collections.ObservableList*6
+
+__unknown_file (
+
+%11java.lang.Integer„
+‡
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java• •(n,
+labelMeetingIDjavafx.scene.control.Label"__id*6
+
+__unknown_file (
+
+%12javafx.scene.Node°û
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java¶/ ¶(G
+%13java.lang.String"8javafx.scene.control.Labeled#getText()Ljava/lang/String;*J
+
+__unknown_file (.
+,
+labelMeetingIDjavafx.scene.control.Label2	getText()∆√
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java¶/ ¶(R
+%14java.lang.String[]"=java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;*5
+
+__unknown_file (
+
+%13java.lang.String*!
+
+__unknown_file (
+#2split(Ljava/lang/String;)·
+ﬁ
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java¶ ¶(S)
+meetingIdComponentsjava.lang.String[]"__id*7
+
+__unknown_file (
+
+%14java.lang.String[]á
+Ñ
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaß' ß(=
+%15java.lang.String"
+__arrayGet*G
+
+__unknown_file (+
+)
+meetingIdComponentsjava.lang.String[]* 
+
+__unknown_file (2◊
+‘
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaß ß(>!
+currMeetingIDjava.lang.String"__id*5
+
+__unknown_file (
+
+%15java.lang.StringœÃ
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java© ©(2
+%16boolean",java.lang.String#equals(Ljava/lang/Object;)Z*?
 
 __unknown_file (#
 !
-%2javafx.scene.control.Button*B
+currMeetingIDjava.lang.String*;
 
-__unknown_file (&
-$
-%3javafx.scene.control.Separator2addAll([Ljava/lang/Object;)"∞
-Ç
-x/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/toolbardecorations/GroupButtonDecorator.java. .()
+__unknown_file (
+
+	meetingIDjava.lang.String2equals(Ljava/lang/Object;)*
+2
+1*ä
+5r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaû  û((˚
+¯
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaû  û(B%
+%2view.graphicalui.first.HomePage"vview.graphicalui.first.HomePage#getHomePageInstance(Lview/graphicalui/first/Toolbar;)Lview/graphicalui/first/HomePage;*?
+
+__unknown_file (#"!
+view.graphicalui.first.HomePage*"
+
+__unknown_file (
+""Ô
+Ï
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaû û(C+
+homePageview.graphicalui.first.HomePage"__id*C
+
+__unknown_file ('
+%
+%2view.graphicalui.first.HomePage‘—
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaü. ü(L#
+%3javafx.scene.control.ListView"Tview.graphicalui.first.HomePage#getListViewMeetings()Ljavafx/scene/control/ListView;*I
+
+__unknown_file (-
++
+homePageview.graphicalui.first.HomePage2getListViewMeetings()Û
+
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaü ü(M1
+listViewMeetingsjavafx.scene.control.ListView"__id*A
+
+__unknown_file (%
+#
+%3javafx.scene.control.ListView «
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java†: †(U'
+%4!javafx.collections.ObservableList"Kjavafx.scene.control.ListView#getItems()Ljavafx/collections/ObservableList;*O
+
+__unknown_file (3
+1
+listViewMeetingsjavafx.scene.control.ListView2
+getItems()Å
+˛
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java† †(V;
+observableListMeetings!javafx.collections.ObservableList"__id*E
+
+__unknown_file ()
 '
-toolBarjavafx.scene.control.ToolBarBB@
->view.graphicalui.first.toolbardecorations.GroupButtonDecoratorH
+%4!javafx.collections.ObservableList*
+1*‘
+6r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaù( ù(9“œ
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaù( ù(K
+%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*C
+
+__unknown_file ('
+%
+selectedGroupNickjava.lang.String*;
+
+__unknown_file (
+
+	groupNickjava.lang.String2equals(Ljava/lang/Object;)*
+5
+0*ï
+7r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaõ# õ('∂
+≥
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaõ# õ(@
+%0java.lang.String"Wview.controllerui.first.HomePageEventHandler#fetchSelectedGroupNick()Ljava/lang/String;*L
+
+__unknown_file (0.
+,view.controllerui.first.HomePageEventHandler⁄
+◊
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaõ õ(A%
+selectedGroupNickjava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.String*
+6
+0*ë
+0 "â
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java± ±(
+implicit return*Ú
+1r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java¢ ¢(∆
+√
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java¢ ¢(#
+meetingjavafx.scene.layout.HBox"__id*"
+
+__unknown_file (
+""ß
+§
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.java¢ ¢(#
+meetingjavafx.scene.layout.HBox"
+__arrayGet*Y
+
+__unknown_file (=
+;
+observableListMeetings!javafx.collections.ObservableList*"
+
+__unknown_file (
+""*
+3
+0:ì
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaö) ö(:
+	groupNickjava.lang.String:ì
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaö; ö(L
+	meetingIDjava.lang.String:î
+r
+f/Users/pain/eclipse-workspace/linkingg/src/main/java/view/controllerui/first/HomePageEventHandler.javaöM ö(_
+
+joinerNickjava.lang.String: 
+
+__unknown_file (
+""B0.
+,view.controllerui.first.HomePageEventHandlerH

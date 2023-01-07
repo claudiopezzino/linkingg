@@ -1,3 +1,1 @@
-view.graphicalui.second.Home#groupsDeletionMode(Ljava/lang/String;)V
-view.graphicalui.second.Home#showBlacklist(Ljava/lang/String;)V
-view.controllerui.second.handlerstates.StateGroupsDeletion#getStateGroupsDeletionInstance()Lview/controllerui/second/handlerstates/StateGroupsDeletion;
+view.graphicalui.first.PageDialog#getBtnTypeSave()Ljavafx/scene/control/ButtonType;

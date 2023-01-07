@@ -1,2 +1,1 @@
-view.graphicalui.first.SignupPage#getName()Ljava/lang/String;
-javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
+view.bean.observers.MeetingBean#setImage(Ljava/lang/String;)V

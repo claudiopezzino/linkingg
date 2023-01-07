@@ -1,18 +1,18 @@
 
-7view.bean.UserSignUpBean#getSurname()Ljava/lang/String;\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java ("1*¤
-1\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java   (Æ
-Ã
-\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java   (
-%0java.lang.String"__id*E
+^view.graphicalui.first.HomePage#getObservableListMeetings()Ljavafx/collections/ObservableList;e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java¶  ¶(9"1*ø
+1e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java· ·(ö
+ó
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java· ·(*'
+%0!javafx.collections.ObservableList"__id*[
 
-__unknown_file ()*'
-view.bean.UserSignUpBean"	
-surname"x
-\
-R/Users/pain/eclipse-workspace/linkingg/src/main/java/view/bean/UserSignUpBean.java   (
-
-%0java.lang.StringB
-view.bean.UserSignUpBeanH
+__unknown_file (?*=!
+view.graphicalui.first.HomePage"
+observableListMeetings"’
+e
+Y/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/HomePage.java· ·(+)
+'
+%0!javafx.collections.ObservableListB#!
+view.graphicalui.first.HomePageH

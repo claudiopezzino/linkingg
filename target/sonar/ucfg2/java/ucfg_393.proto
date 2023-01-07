@@ -1,21 +1,68 @@
 
-eview.graphicalui.first.Dialog$WaitDialog#waitResult(Ljavafx/scene/control/ButtonType;)Ljava/util/Map;c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaÇ$ Ç(."1*Œ
-1c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaÉ É(Â
-‚
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaÉ É()
-%0java.util.Map"/java.util.Collections#emptyMap()Ljava/util/Map;*5
+gcontrol.ManageCommunityController#turnIntoUserBean(Lmodel/subjects/User;)Lview/bean/observers/UserBean;g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaä ä(%"21*“
+2g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaç ç(Yﬁ
+€
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaç ç(Y(
+userBeanview.bean.observers.UserBean"__id*@
 
-__unknown_file ("
-java.util.Collections"|
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaÉ É(*
-
-%0java.util.Map:î
-c
-W/Users/pain/eclipse-workspace/linkingg/src/main/java/view/graphicalui/first/Dialog.javaÇ/ Ç(D-
-
-buttonTypejavafx.scene.control.ButtonTypeB,*
-(view.graphicalui.first.Dialog$WaitDialog
+__unknown_file ($
+"
+%2view.bean.observers.UserBean*
+1*€
+18g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaç ç(YÊ
+„
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaç ç(Y"
+%2view.bean.observers.UserBean"aview.bean.UserBeanCollector#getUserBeanInstance(Ljava/lang/String;)Lview/bean/observers/UserBean;*;
+
+__unknown_file ("
+view.bean.UserBeanCollector*4
+
+__unknown_file (
+
+%1java.lang.String*
+2*Á
+19g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaç= ç(XÒÓ
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaç= ç(X
+%1java.lang.String"+javafx.util.Pair#getKey()Ljava/lang/Object;*4
+
+__unknown_file (
+
+%0javafx.util.Pair2getKey()*
+18*˘
+20g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaç ç((ÉÄ
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaç= ç(O
+%0javafx.util.Pair"3model.subjects.User#credentials()Ljavafx/util/Pair;*9
+
+__unknown_file (
+
+usermodel.subjects.User2credentials()*
+19*∂
+21g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaã ã(¿
+Ω
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaã ã((
+userBeanview.bean.observers.UserBean"__id*"
+
+__unknown_file (
+""*
+20*Ñ
+1g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaú ú("ï
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaú ú(*
+(
+userBeanview.bean.observers.UserBean:Ü
+g
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaä& ä(/
+usermodel.subjects.UserB%#
+!control.ManageCommunityController

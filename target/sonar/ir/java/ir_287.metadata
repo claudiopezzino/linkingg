@@ -1,1 +1,1 @@
-view.graphicalui.first.toolbardecorations.SignBarDecorator#instance-init#
+view.bean.observers.MeetingBean#getId()Ljava/lang/String;

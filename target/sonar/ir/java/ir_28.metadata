@@ -1,1 +1,2 @@
-view.bean.errorsignindecorations.NicknameBeanErrorDecorator#displayErrors()Ljava/lang/String;
+view.graphicalui.first.toolbaritems.MeetingChoiceToolbarItems#getIndex()Ljava/lang/Integer;
+java.lang.Enum#ordinal()I

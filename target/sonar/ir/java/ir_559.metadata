@@ -1,1 +1,5 @@
-view.bean.observers.MeetingBean#setImage(Ljava/lang/String;)V
+view.graphicalui.first.WelcomePage#setUpWelcomePage(Lview/graphicalui/first/Toolbar;)Ljavafx/scene/layout/VBox;
+javafx.scene.layout.VBox#instance-init#
+javafx.scene.Node#getStyleClass()Ljavafx/collections/ObservableList;
+javafx.scene.layout.VBox#<init>()V
+view.graphicalui.first.WelcomePage#setUpSystemPreview()Ljavafx/scene/layout/HBox;

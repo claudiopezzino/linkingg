@@ -1,4 +1,3 @@
-view.boundary.UserManageCommunityBoundary#notifyNewCurrUserNick()V
-view.graphicalui.first.FirstMain#getCurrScene()Ljavafx/scene/Scene;
-javafx.application.Platform#runLater(Ljava/lang/Runnable;)V
-view.graphicalui.second.SecondMain#getCurrScene()Ljavafx/scene/Scene;
+view.graphicalui.second.Home#searchInput()V
+view.controllerui.second.handlerstates.StateSearchInput#getStateSearchInput()Lview/controllerui/second/handlerstates/StateSearchInput;
+javafx.scene.control.TextInputControl#setText(Ljava/lang/String;)V

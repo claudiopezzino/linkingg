@@ -1,1 +1,1 @@
-view.graphicalui.first.ConcreteToolbar#draw()Ljavafx/scene/control/ToolBar;
+model.subjects.Subject#getObserver()Lview/bean/observers/Observer;

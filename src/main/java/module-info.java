@@ -18,7 +18,7 @@ module view.graphicalui {
     opens view.graphicalui.second to javafx.fxml;
     exports view.graphicalui.second;
 
-    exports control;
+    exports control; // due to failure in running unit tests
     exports control.tasks.tasksexceptions; // due to sonar for freeResources method inside userManageCommunityBoundary
     exports model.modelexceptions; // due to warning into UserCollector for NoEntityException
     exports model.db.dbexceptions; // due to Sonar Warning inside ImageProfile class

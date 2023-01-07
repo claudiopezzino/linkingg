@@ -1,7 +1,5 @@
 package view.bean.observers;
 
-import model.subjects.LinkRequest;
-
 import java.util.Map;
 
 public class LinkRequestBean implements Observer {
@@ -16,11 +14,6 @@ public class LinkRequestBean implements Observer {
     private String userName;
     private String userSurname;
     /////////////////////////////
-
-
-    ////////////////////////////////
-    private LinkRequest linkRequest; // due to Pattern Observer
-    ////////////////////////////////
 
 
     ///////////////////////////////////////////////////////
@@ -83,13 +76,6 @@ public class LinkRequestBean implements Observer {
         this.userSurname = userSurname;
     }
     //////////////////////////////////////////////////////////////////////////////////
-
-
-    ///////////////////////////////////////////////////////////////////////////////////
-    public void setSubject(LinkRequest linkRequest){
-        this.linkRequest = linkRequest;
-    }
-    ///////////////////////////////////////////////////////////////////////////////////
 
     ////////////////////////////////////////////
     @Override

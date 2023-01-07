@@ -545,7 +545,7 @@ public class ManageCommunityController {
     private LinkRequestBean turnIntoLinkRequestBean(LinkRequest linkRequest){
         LinkRequestBean linkRequestBean = new LinkRequestBean();
 
-        linkRequestBean.setSubject(linkRequest); // due to Observer Pattern
+        //to add for Observer Patter: linkRequestBean.setSubject(linkRequest)
         linkRequest.attach(linkRequestBean); // due to Observer Pattern
 
         linkRequestBean.setGroupNick(linkRequest.destination());

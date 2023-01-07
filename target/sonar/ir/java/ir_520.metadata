@@ -1,1 +1,4 @@
-control.UserLoginController#instance-init#
+control.UserLoginController#registration(Lview/bean/UserSignUpBean;)Ljavafx/util/Pair;
+control.UserLoginController#fetchUserInfo(Lview/bean/UserSignUpBean;)Ljava/util/Map;
+control.UserLoginController#makeUserCredentials(Ljava/lang/String;Ljava/lang/String;)Ljavafx/util/Pair;
+control.UserLoginController#registerUser(Ljava/util/Map;)V

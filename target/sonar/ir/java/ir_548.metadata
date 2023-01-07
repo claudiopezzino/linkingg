@@ -1,1 +1,1 @@
-model.subjects.User#personalEmail()Ljava/lang/String;
+model.subjects.User#currPlan()Ljava/lang/String;

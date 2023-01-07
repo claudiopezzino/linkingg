@@ -1,7 +1,4 @@
-view.controllerui.second.handlerstates.StateMeetingDetails#checkCmd(Lview/graphicalui/second/Home;)V
-view.controllerui.second.Message#errorMsg()V
-javafx.scene.control.TextInputControl#getText()Ljava/lang/String;
 view.controllerui.second.handlerstates.StateMeetingDetails#initListMeetingJoiners(Lview/graphicalui/second/Home;)V
-java.lang.String#equals(Ljava/lang/Object;)Z
-view.controllerui.second.Message#refuseMeetingMsg()V
-view.controllerui.second.Message#acceptMeetingMsg()V
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+view.graphicalui.second.Shell#getShellHandler()Lview/controllerui/second/KeyEventHandler;

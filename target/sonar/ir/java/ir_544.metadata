@@ -1,3 +1,1 @@
-model.subjects.User#fullName()Ljavafx/util/Pair;
-javafx.util.Pair#<init>(Ljava/lang/Object;Ljava/lang/Object;)V
-javafx.util.Pair#instance-init#
+model.subjects.User#homeLocation()Ljava/lang/String;

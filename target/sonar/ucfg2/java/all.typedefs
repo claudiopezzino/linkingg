@@ -4849,16 +4849,14 @@ getImage()8view.bean.GroupCreationBean#getImage()Ljava/lang/String;1
 setImage(Ljava/lang/String;)9view.bean.GroupCreationBean#setImage(Ljava/lang/String;)VL
 getNickname();view.bean.GroupCreationBean#getNickname()Ljava/lang/String;_
 setNickname(Ljava/lang/String;)<view.bean.GroupCreationBean#setNickname(Ljava/lang/String;)VY
-setOwner(Ljava/lang/String;)9view.bean.GroupCreationBean#setOwner(Ljava/lang/String;)VÃ
-
+setOwner(Ljava/lang/String;)9view.bean.GroupCreationBean#setOwner(Ljava/lang/String;)VÈ	
 #view.bean.observers.LinkRequestBeanjava.lang.Objectview.bean.observers.ObserverW
 update(Ljava/util/Map;)<view.bean.observers.LinkRequestBean#update(Ljava/util/Map;)V^
 getUserImagePath()Hview.bean.observers.LinkRequestBean#getUserImagePath()Ljava/lang/String;V
 getGroupNick()Dview.bean.observers.LinkRequestBean#getGroupNick()Ljava/lang/String;9
 <init>()-view.bean.observers.LinkRequestBean#<init>()VZ
 getUserSurname()Fview.bean.observers.LinkRequestBean#getUserSurname()Ljava/lang/String;m
-"setUserSurname(Ljava/lang/String;)Gview.bean.observers.LinkRequestBean#setUserSurname(Ljava/lang/String;)Vy
-(setSubject(Lmodel/subjects/LinkRequest;)Mview.bean.observers.LinkRequestBean#setSubject(Lmodel/subjects/LinkRequest;)VT
+"setUserSurname(Ljava/lang/String;)Gview.bean.observers.LinkRequestBean#setUserSurname(Ljava/lang/String;)VT
 getUserNick()Cview.bean.observers.LinkRequestBean#getUserNick()Ljava/lang/String;i
  setGroupNick(Ljava/lang/String;)Eview.bean.observers.LinkRequestBean#setGroupNick(Ljava/lang/String;)VT
 getUserName()Cview.bean.observers.LinkRequestBean#getUserName()Ljava/lang/String;g

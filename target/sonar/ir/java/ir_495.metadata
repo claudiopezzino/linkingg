@@ -1,1 +1,8 @@
-view.controllerui.first.DialogEventHandler#instance-init#
+view.controllerui.first.DialogEventHandler#handle(Ljavafx/scene/input/MouseEvent;)V
+view.controllerui.first.DialogEventHandler#manageUserNickname()V
+view.controllerui.first.DialogEventHandler#manageUserImage()V
+view.graphicalui.first.HomePage$GroupCreationDialog#getGroupCreationDialogInstance()Lview/graphicalui/first/HomePage$GroupCreationDialog;
+view.controllerui.first.DialogEventHandler#manageGroupImage()V
+view.graphicalui.first.Dialog#errorDialog(Ljava/lang/String;)V
+view.graphicalui.first.HomePage$UserProfileDialog#getUserProfileDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog;
+view.controllerui.first.DialogEventHandler#manageUserPassword()V

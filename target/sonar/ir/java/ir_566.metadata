@@ -1,4 +1,4 @@
-model.dao.GroupDAO#fetchGroupMembers(Ljava/lang/String;)Ljava/util/Map;
+model.dao.GroupDAO#fetchGroupMeetings(Ljava/lang/String;)Ljava/util/Map;
 model.dao.GroupDAO#fetchGroupInfo(Ljava/lang/String;Lmodel/dao/DAO;)Ljava/util/Map;
 java.util.HashMap#<init>()V
 java.util.HashMap#instance-init#

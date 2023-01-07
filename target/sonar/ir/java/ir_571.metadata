@@ -1,1 +1,4 @@
-model.db.dbqueries.LinkRequestDAOQueries#<init>()V
+model.db.dbqueries.LinkRequestDAOQueries#unpackLinkRequestInfo(Ljava/sql/ResultSet;)Ljava/util/Map;
+java.util.HashMap#<init>()V
+java.util.HashMap#instance-init#
+java.util.Collections#emptyMap()Ljava/util/Map;

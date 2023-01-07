@@ -1,4 +1,2 @@
-control.UserLoginController#makeUserCredentials(Ljava/lang/String;Ljava/lang/String;)Ljavafx/util/Pair;
-javafx.util.Pair#<init>(Ljava/lang/Object;Ljava/lang/Object;)V
-javafx.util.Pair#instance-init#
-java.lang.String#toLowerCase()Ljava/lang/String;
+control.UserLoginController#changeUserCredentials(Ljava/util/Map;I)V
+java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;

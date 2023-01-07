@@ -1,1 +1,2 @@
-model.subjects.User#instance-init#
+model.subjects.User#<init>(Ljava/util/Map;)V
+model.subjects.User#initNewUser(Ljava/util/Map;)V

@@ -1,4 +1,9 @@
-view.controllerui.first.DialogEventHandler#changeUsername(Ljava/util/Map;)V
-view.graphicalui.first.HomePage$UserProfileDialog$UsernameDialog#getUsernameDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog$UsernameDialog;
+view.controllerui.first.DialogEventHandler#manageGroupImage()V
+javafx.scene.paint.ImagePattern#<init>(Ljavafx/scene/image/Image;)V
+javafx.scene.shape.Shape#setFill(Ljavafx/scene/paint/Paint;)V
 javafx.scene.control.Labeled#setText(Ljava/lang/String;)V
-view.graphicalui.first.HomePage$UserProfileDialog#getUserProfileDialogInstance()Lview/graphicalui/first/HomePage$UserProfileDialog;
+javafx.scene.paint.ImagePattern#instance-init#
+view.graphicalui.first.HomePage$GroupCreationDialog#getGroupCreationDialogInstance()Lview/graphicalui/first/HomePage$GroupCreationDialog;
+view.controllerui.first.DialogEventHandler#showImageFileChooser(Lview/graphicalui/first/PageDialog;)Ljava/io/File;
+javafx.scene.image.Image#instance-init#
+javafx.scene.image.Image#<init>(Ljava/lang/String;)V

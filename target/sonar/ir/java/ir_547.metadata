@@ -1,1 +1,1 @@
-model.subjects.User#telephoneNumber()Ljava/lang/String;
+model.subjects.User#personalEmail()Ljava/lang/String;

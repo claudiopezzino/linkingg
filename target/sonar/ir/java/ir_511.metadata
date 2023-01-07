@@ -1,3 +1,2 @@
-view.graphicalui.second.Signin#setUpSigninRoot()Ljavafx/scene/layout/VBox;
-javafx.scene.layout.VBox#instance-init#
-javafx.scene.layout.VBox#<init>()V
+view.graphicalui.second.Signin#restoreScreen()V
+view.graphicalui.second.signinquestionstates.QuestionNickname#getQuestionNicknameInstance()Lview/graphicalui/second/signinquestionstates/QuestionNickname;

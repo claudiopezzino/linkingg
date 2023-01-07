@@ -1,3 +1,4 @@
-control.UserLoginController#fetchUserInfo(Lview/bean/UserSignUpBean;)Ljava/util/Map;
-java.util.HashMap#<init>()V
-java.util.HashMap#instance-init#
+control.UserLoginController#makeUserCredentials(Ljava/lang/String;Ljava/lang/String;)Ljavafx/util/Pair;
+javafx.util.Pair#<init>(Ljava/lang/Object;Ljava/lang/Object;)V
+javafx.util.Pair#instance-init#
+java.lang.String#toLowerCase()Ljava/lang/String;

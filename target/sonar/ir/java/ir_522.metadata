@@ -1,5 +1,3 @@
-control.UserLoginController#access(Lview/bean/UserSignInBean;)Ljava/util/Map;
+control.UserLoginController#fetchUserInfo(Lview/bean/UserSignUpBean;)Ljava/util/Map;
 java.util.HashMap#<init>()V
-control.UserLoginController#fetchGroupsByUserNickname(Ljava/lang/String;)Ljava/util/Map;
 java.util.HashMap#instance-init#
-control.UserLoginController#fetchUserByCredentials(Ljava/lang/String;Ljava/lang/String;)Lmodel/subjects/User;

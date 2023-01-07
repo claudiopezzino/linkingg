@@ -1,6 +1,6 @@
 
 |control.ManageCommunityController#turnIntoLinkRequestBean(Lmodel/subjects/LinkRequest;)Lview/bean/observers/LinkRequestBean;g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java¡ ¡(3"1*Š1
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java¡ ¡(3"1*õ-
 1g
 [/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java¢* ¢(?¼¹
 g
@@ -21,23 +21,11 @@ g
 
 __unknown_file (+
 )
-%0#view.bean.observers.LinkRequestBean
-g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java¤ ¤(/
-
-%2void"Mview.bean.observers.LinkRequestBean#setSubject(Lmodel/subjects/LinkRequest;)V*T
-
-__unknown_file (8
-6
-linkRequestBean#view.bean.observers.LinkRequestBean*G
-
-__unknown_file (+
-)
-linkRequestmodel.subjects.LinkRequest2(setSubject(Lmodel/subjects/LinkRequest;)ÿü
+%0#view.bean.observers.LinkRequestBeanÿü
 g
 [/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java¥ ¥(+
 
-%3void">model.subjects.Subject#attach(Lview/bean/observers/Observer;)V*G
+%2void">model.subjects.Subject#attach(Lview/bean/observers/Observer;)V*G
 
 __unknown_file (+
 )
@@ -48,7 +36,7 @@ g
 linkRequestBean#view.bean.observers.LinkRequestBean2&attach(Lview/bean/observers/Observer;)˜•
 g
 [/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java§% §(>
-%4java.lang.String":model.subjects.LinkRequest#destination()Ljava/lang/String;*G
+%3java.lang.String":model.subjects.LinkRequest#destination()Ljava/lang/String;*G
 
 __unknown_file (+
 )
@@ -56,7 +44,7 @@ g
 g
 [/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java§ §(?
 
-%5void"Eview.bean.observers.LinkRequestBean#setGroupNick(Ljava/lang/String;)V*T
+%4void"Eview.bean.observers.LinkRequestBean#setGroupNick(Ljava/lang/String;)V*T
 
 __unknown_file (8
 6
@@ -64,10 +52,10 @@ g
 
 __unknown_file (
 
-%4java.lang.String2 setGroupNick(Ljava/lang/String;)Ž‹
+%3java.lang.String2 setGroupNick(Ljava/lang/String;)Ž‹
 g
 [/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java¨$ ¨(8
-%6java.lang.String"5model.subjects.LinkRequest#source()Ljava/lang/String;*G
+%5java.lang.String"5model.subjects.LinkRequest#source()Ljava/lang/String;*G
 
 __unknown_file (+
 )
@@ -75,7 +63,7 @@ g
 g
 [/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java¨ ¨(9
 
-%7void"Dview.bean.observers.LinkRequestBean#setUserNick(Ljava/lang/String;)V*T
+%6void"Dview.bean.observers.LinkRequestBean#setUserNick(Ljava/lang/String;)V*T
 
 __unknown_file (8
 6
@@ -83,10 +71,10 @@ g
 
 __unknown_file (
 
-%6java.lang.String2setUserNick(Ljava/lang/String;)–“
+%5java.lang.String2setUserNick(Ljava/lang/String;)–“
 g
 [/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaª$ ª(?
-%8java.util.Map"9model.subjects.LinkRequest#sourceDetails()Ljava/util/Map;*G
+%7java.util.Map"9model.subjects.LinkRequest#sourceDetails()Ljava/util/Map;*G
 
 __unknown_file (+
 )
@@ -94,36 +82,36 @@ g
 «
 g
 [/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaªD ª(S
-%9java.lang.String"__id*"
+%8java.lang.String"__id*"
 
 __unknown_file (
-""ø
-õ
+""÷
+ô
 g
-[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaª$ ª(T
-%10java.lang.String"__mapGet*1
+[/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaª$ ª(T
+%9java.lang.String"__mapGet*1
 
 __unknown_file (
 
-%8java.util.Map*4
+%7java.util.Map*4
 
 __unknown_file (
 
-%9java.lang.Stringíê
+%8java.lang.Stringìé
 g
 [/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.javaª ª(U
-%11void"Dview.bean.observers.LinkRequestBean#setUserName(Ljava/lang/String;)V*T
+%10void"Dview.bean.observers.LinkRequestBean#setUserName(Ljava/lang/String;)V*T
 
 __unknown_file (8
 6
-linkRequestBean#view.bean.observers.LinkRequestBean*5
+linkRequestBean#view.bean.observers.LinkRequestBean*4
 
-__unknown_file (
-
-%10java.lang.String2setUserName(Ljava/lang/String;)—”
+__unknown_file (
+
+%9java.lang.String2setUserName(Ljava/lang/String;)—”
 g
 [/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java«' «(B
-%12java.util.Map"9model.subjects.LinkRequest#sourceDetails()Ljava/util/Map;*G
+%11java.util.Map"9model.subjects.LinkRequest#sourceDetails()Ljava/util/Map;*G
 
 __unknown_file (+
 )
@@ -131,25 +119,25 @@ g
 ¬
 g
 [/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java«G «(Y
-%13java.lang.String"__id*"
+%12java.lang.String"__id*"
 
 __unknown_file (
 ""ú
 ÷
 g
 [/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java«' «(Z
-%14java.lang.String"__mapGet*2
+%13java.lang.String"__mapGet*2
 
 __unknown_file (
 
-%12java.util.Map*5
+%11java.util.Map*5
 
 __unknown_file (
 
-%13java.lang.Stringóð
+%12java.lang.Stringóð
 g
 [/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java« «([
-%15void"Gview.bean.observers.LinkRequestBean#setUserSurname(Ljava/lang/String;)V*T
+%14void"Gview.bean.observers.LinkRequestBean#setUserSurname(Ljava/lang/String;)V*T
 
 __unknown_file (8
 6
@@ -157,10 +145,10 @@ g
 
 __unknown_file (
 
-%14java.lang.String2"setUserSurname(Ljava/lang/String;)—”
+%13java.lang.String2"setUserSurname(Ljava/lang/String;)—”
 g
 [/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java¬) ¬(D
-%16java.util.Map"9model.subjects.LinkRequest#sourceDetails()Ljava/util/Map;*G
+%15java.util.Map"9model.subjects.LinkRequest#sourceDetails()Ljava/util/Map;*G
 
 __unknown_file (+
 )
@@ -168,25 +156,25 @@ g
 ¬
 g
 [/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java¬I ¬(Y
-%17java.lang.String"__id*"
+%16java.lang.String"__id*"
 
 __unknown_file (
 ""ú
 ÷
 g
 [/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java¬) ¬(Z
-%18java.lang.String"__mapGet*2
+%17java.lang.String"__mapGet*2
 
 __unknown_file (
 
-%16java.util.Map*5
+%15java.util.Map*5
 
 __unknown_file (
 
-%17java.lang.String÷ô
+%16java.lang.String÷ô
 g
 [/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java¬ ¬([
-%19void"Iview.bean.observers.LinkRequestBean#setUserImagePath(Ljava/lang/String;)V*T
+%18void"Iview.bean.observers.LinkRequestBean#setUserImagePath(Ljava/lang/String;)V*T
 
 __unknown_file (8
 6
@@ -194,7 +182,7 @@ g
 
 __unknown_file (
 
-%18java.lang.String2$setUserImagePath(Ljava/lang/String;)"£
+%17java.lang.String2$setUserImagePath(Ljava/lang/String;)"£
 g
 [/Users/pain/eclipse-workspace/linkingg/src/main/java/control/ManageCommunityController.java® ®(8
 6

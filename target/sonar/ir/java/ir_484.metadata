@@ -1,1 +1,1 @@
-view.bean.observers.LinkRequestBean#setSubject(Lmodel/subjects/LinkRequest;)V
+view.bean.observers.LinkRequestBean#update(Ljava/util/Map;)V

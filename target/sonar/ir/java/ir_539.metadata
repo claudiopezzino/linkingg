@@ -1,1 +1,1 @@
-model.db.dbqueries.GroupDAOQueries#initSelectGroupsByFilterStatement(Ljava/sql/PreparedStatement;Ljava/lang/String;Ljava/lang/String;)V
+model.subjects.User#instance-init#

@@ -1,1 +1,1 @@
-model.subjects.User#imageProfile()Ljava/lang/String;
+model.subjects.User#telephoneNumber()Ljava/lang/String;

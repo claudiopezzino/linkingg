@@ -2,10 +2,6 @@
 
 This is the project for the Software Engineering course held at the University of Rome Tor Vergata during the academic year 2022/2023.
 
-## Deliverables
-
-The deliverables for this project and the demo are stored at the following [repository](https://github.com/claudiopezzino/LinkinggDeliverables)
-
 ## Installation
 
 1. Install MySQLWorkbench or phpMyAdmin;

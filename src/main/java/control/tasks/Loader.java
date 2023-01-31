@@ -22,6 +22,7 @@ public class Loader implements Runnable {
     private final Socket socket;
     ////////////////////////////
 
+    int a;
     ///////////////////////////////////////////
     private final Map<String, Group> mapGroups;
     ///////////////////////////////////////////
